@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>PAR Restaurant Suite vs. Toast — Competitive Deck v2</title>
+<script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background: #F8FAFC;
+    color: #0F172A;
+    min-height: 100vh;
+    padding: 24px 16px 48px;
+  }
+  button { font-family: inherit; cursor: pointer; }
+  table { border-collapse: collapse; width: 100%; }
+  p { margin: 0; }
+  h1 { margin: 0; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+const { useState } = React;
+
+const C = {
+  blue: "#2563EB", green: "#16A34A", purple: "#7C3AED",
+  teal: "#0D9488", orange: "#EA580C", toast: "#D04520", dark: "#0F172A",
+};
+
+const slides = [
+  { id: "cover", label: "Cover" },
+  { id: "agenda", label: "Agenda" },
+  { id: "overview", label: "Overview" },
+  { id: "topology", label: "Topology rationale" },
+  { id: "grouping1", label: "Commerce groupings" },
+  { id: "grouping2", label: "Platform Services" },
+  { id: "unified_tx", label: "Unified Tx Platform" },
+  { id: "commerce_api", label: "Commerce API" },
+  { id: "social_commerce", label: "Social Commerce" },
+  { id: "compare_commerce", label: "vs. Toast: Commerce" },
+  { id: "compare_ops", label: "vs. Toast: Operations" },
+  { id: "compare_engagement", label: "vs. Toast: Engagement" },
+  { id: "gaps", label: "Gap analysis" },
+  { id: "strengths", label: "PAR strengths" },
+  { id: "positioning", label: "Positioning" },
+];
+
+const Frame = ({ children, accent, dark }) => (
+  <div style={{ minHeight: 560, display: "flex", flexDirection: "column", padding: "32px 36px 28px", position: "relative", background: dark ? C.dark : "#fff", borderRadius: 16, border: "1px solid #E2E8F0", overflow: "hidden", boxShadow: "0 1px 4px rgba(0,0,0,0.06)" }}>
+    {accent && <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: 4, background: accent, borderRadius: "16px 16px 0 0" }} />}
+    {children}
+  </div>
+);
+
+const H = ({ children, color, sub }) => (
+  <div style={{ marginBottom: 20 }}>
+    <h1 style={{ fontSize: 24, fontWeight: 600, color: color || C.dark, lineHeight: 1.2 }}>{children}</h1>
+    {sub && <p style={{ fontSize: 13, color: "#64748B", marginTop: 4 }}>{sub}</p>}
+  </div>
+);
+
+const NewBadge = () => (
+  <span style={{ fontSize: 9, fontWeight: 600, padding: "2px 7px", borderRadius: 99, background: "#FFF7ED", color: C.orange, marginLeft: 8, verticalAlign: "middle" }}>New v2</span>
+);
+
+const GH = ({ label }) => (
+  <tr><td colSpan={3} style={{ padding: "7px 10px 3px", fontSize: 9, fontWeight: 600, color: "#64748B", background: "#F8FAFC", textTransform: "uppercase", letterSpacing: "0.07em" }}>{label}</td></tr>
+);
+
+const CR = ({ cap, par, toast, pn, tn }) => (
+  <tr>
+    <td style={{ padding: "6px 10px", fontSize: 12, color: C.dark, borderBottom: "1px solid #F1F5F9" }}>{cap}</td>
+    <td style={{ padding: "6px 8px", textAlign: "center", borderBottom: "1px solid #F1F5F9" }}>
+      {par === "full" && <span style={{ color: C.blue, fontSize: 15 }}>●</span>}
+      {par === "partial" && <span style={{ color: "#CA8A04", fontSize: 15 }}>◐</span>}
+      {par === "gap" && <span style={{ color: "#CBD5E1", fontSize: 15 }}>○</span>}
+      {par === "future" && <span style={{ color: C.purple, fontSize: 15 }}>◇</span>}
+      {par === "new" && <span style={{ color: C.orange, fontSize: 15 }}>★</span>}
+      {pn && <div style={{ fontSize: 9, color: "#94A3B8", marginTop: 1 }}>{pn}</div>}
+    </td>
+    <td style={{ padding: "6px 8px", textAlign: "center", borderBottom: "1px solid #F1F5F9" }}>
+      {toast === "full" && <span style={{ color: C.toast, fontSize: 15 }}>●</span>}
+      {toast === "partial" && <span style={{ color: "#CA8A04", fontSize: 15 }}>◐</span>}
+      {toast === "gap" && <span style={{ color: "#CBD5E1", fontSize: 15 }}>○</span>}
+      {tn && <div style={{ fontSize: 9, color: "#94A3B8", marginTop: 1 }}>{tn}</div>}
+    </td>
+  </tr>
+);
+
+const THead = ({ pc }) => (
+  <thead>
+    <tr style={{ borderBottom: "2px solid #E2E8F0" }}>
+      <th style={{ textAlign: "left", padding: "6px 10px", fontSize: 11, color: "#64748B", fontWeight: 500 }}>Capability</th>
+      <th style={{ textAlign: "center", padding: "6px 8px", fontSize: 11, fontWeight: 600, color: pc || C.blue }}>PAR</th>
+      <th style={{ textAlign: "center", padding: "6px 8px", fontSize: 11, fontWeight: 600, color: C.toast }}>Toast</th>
+    </tr>
+  </thead>
+);
+
+const Legend = () => (
+  <div style={{ display: "flex", gap: 14, marginTop: 12, fontSize: 10, color: "#94A3B8", flexWrap: "wrap" }}>
+    {[["●","Full capability"],["◐","Partial"],["◇","Roadmap"],["○","Gap"],["★","New in v2"]].map(([s,l]) => (
+      <span key={l}><span style={{ marginRight: 3 }}>{s}</span>{l}</span>
+    ))}
+  </div>
+);
+
+function CoverSlide() {
+  return (
+    <Frame dark>
+      <div style={{ position: "absolute", inset: 0, background: "linear-gradient(135deg, #0F172A 55%, #1a2f50)", borderRadius: 16 }} />
+      <div style={{ position: "relative", zIndex: 1, display: "flex", flexDirection: "column", justifyContent: "space-between", minHeight: 496 }}>
+        <div>
+          <div style={{ display: "flex", gap: 8, marginBottom: 28, marginTop: 4, flexWrap: "wrap" }}>
+            {[["PAR Technology","rgba(37,99,235,0.22)","rgba(37,99,235,0.5)","#93C5FD"],["vs. Toast Platform","rgba(208,69,32,0.18)","rgba(208,69,32,0.4)","#FCA57A"],["v2 — Apr 2026","rgba(234,88,12,0.22)","rgba(234,88,12,0.5)","#FDBA74"]].map(([l,bg,b,col]) => (
+              <div key={l} style={{ padding: "4px 14px", borderRadius: 99, background: bg, border: `1px solid ${b}`, color: col, fontSize: 11 }}>{l}</div>
+            ))}
+          </div>
+          <h1 style={{ fontSize: 36, fontWeight: 700, color: "#F8FAFC", lineHeight: 1.15, marginBottom: 14 }}>PAR Restaurant Suite<br /><span style={{ color: "#94A3B8", fontWeight: 400 }}>Competitive Platform Analysis</span></h1>
+          <p style={{ color: "#94A3B8", fontSize: 14, maxWidth: 520, lineHeight: 1.65 }}>
+            Updated topology with PAR Commerce as a unified guest-facing pillar, Offers Engine as a standalone shared service, Platform Services housing the Unified Transaction Platform and Commerce API, and the new PAR Social Commerce channel.
+          </p>
+        </div>
+        <div style={{ display: "flex", gap: 32, marginTop: 32, flexWrap: "wrap" }}>
+          {[["~131","Unique mapped capabilities"],["15","Deck slides"],["2 pillars + platform","Commerce, Ops + Platform Svcs"],["$315M","PAR ARR FY2025"]].map(([n,l]) => (
+            <div key={l}><div style={{ fontSize: 26, fontWeight: 700, color: "#F8FAFC" }}>{n}</div><div style={{ fontSize: 11, color: "#94A3B8", marginTop: 2 }}>{l}</div></div>
+          ))}
+        </div>
+      </div>
+    </Frame>
+  );
+}
+
+function AgendaSlide() {
+  const items = [
+    { n:"01", label:"Platform overview & market context", color:"#64748B" },
+    { n:"02", label:"Rationale: why these capability groupings?", color:C.blue, badge:true },
+    { n:"03", label:"Rationale: Platform Services as its own layer", color:C.teal, badge:true },
+    { n:"04", label:"Unified Transaction Platform — POS + Ordering convergence", color:C.orange, badge:true },
+    { n:"05", label:"PAR Commerce API — the headless foundation", color:C.orange, badge:true },
+    { n:"06", label:"PAR Social Commerce — Messenger & Instagram ordering", color:C.purple, badge:true },
+    { n:"07", label:"PAR Commerce vs. Toast commerce modules", color:C.blue },
+    { n:"08", label:"PAR Operations vs. Toast operations modules", color:C.green },
+    { n:"09", label:"PAR Engagement vs. Toast engagement modules", color:C.purple },
+    { n:"10", label:"Gap analysis — what Toast has that PAR doesn't (yet)", color:C.toast },
+    { n:"11", label:"PAR strengths & unique differentiators", color:C.dark },
+    { n:"12", label:"Strategic positioning summary", color:C.dark },
+  ];
+  return (
+    <Frame accent={C.blue}>
+      <H sub="What we'll cover">Agenda</H>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 6 }}>
+        {items.map(({ n, label, color, badge }) => (
+          <div key={n} style={{ display: "flex", alignItems: "center", gap: 10, padding: "8px 12px", borderRadius: 8, background: "#F8FAFC", border: "1px solid #E2E8F0" }}>
+            <span style={{ fontSize: 11, fontWeight: 600, color, minWidth: 22 }}>{n}</span>
+            <span style={{ fontSize: 12, color: C.dark, flex: 1 }}>{label}</span>
+            {badge && <span style={{ fontSize: 8, fontWeight: 600, padding: "1px 6px", borderRadius: 99, background: "#FFF7ED", color: C.orange, whiteSpace: "nowrap" }}>New</span>}
+          </div>
+        ))}
+      </div>
+    </Frame>
+  );
+}
+
+function OverviewSlide() {
+  const cols = [
+    { name:"PAR Restaurant Suite", color:C.blue, desc:"Enterprise-grade platform structured as two pillars (PAR Commerce + PAR Operations) plus a Platform Services layer. PAR Commerce unifies all guest-facing capabilities — ordering, payments, menu, offers, loyalty, CDP, campaigns, and digital experience. Growing toward a headless, open commerce OS.", target:"Enterprise & large chain (50–10,000+ locations)", model:"Open, multi-product → converging platform", arr:"$315M ARR (+16% YoY, FY2025)", strength:"Drive-thru, enterprise loyalty, delivery analytics, open platform, Social Commerce", modules:["PAR POS (Brink)","PAR Ordering","Data Central","Punchh/Guest360","Delaget","QueVision","PAR Pay","Commerce API ★","Social Commerce ★"] },
+    { name:"Toast Platform", color:C.toast, desc:"All-in-one, single-vendor restaurant OS. Strong SMB to mid-market. Proprietary hardware + software + payments bundled. Toast IQ is its AI intelligence layer across ops, marketing, and guest feedback.", target:"SMB to mid-market (1–50 locations)", model:"Closed, all-in-one (proprietary hardware)", arr:"~$1.3B revenue (FY2024)", strength:"Unified UX, Toast IQ (AI), fast deployment, bundled payments", modules:["Toast POS","Toast Payroll","Toast Marketing","Toast Loyalty","xtraCHEF","Toast Tables","Toast IQ"] },
+  ];
+  return (
+    <Frame accent={C.dark}>
+      <H sub="Platform positioning at a glance">Platform overview</H>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
+        {cols.map(c => (
+          <div key={c.name} style={{ border: `2px solid ${c.color}`, borderRadius: 12, padding: 18 }}>
+            <div style={{ fontSize: 15, fontWeight: 600, color: c.color, marginBottom: 10 }}>{c.name}</div>
+            <p style={{ fontSize: 12, color: "#64748B", marginBottom: 12, lineHeight: 1.6 }}>{c.desc}</p>
+            {[["Target market",c.target],["Platform model",c.model],["Scale",c.arr],["Core strength",c.strength]].map(([k,v]) => (
+              <div key={k} style={{ display: "flex", gap: 8, marginBottom: 5 }}>
+                <span style={{ fontSize: 10, color: "#94A3B8", minWidth: 88 }}>{k}</span>
+                <span style={{ fontSize: 11, color: C.dark, fontWeight: 500, lineHeight: 1.4 }}>{v}</span>
+              </div>
+            ))}
+            <div style={{ marginTop: 12, display: "flex", flexWrap: "wrap", gap: 4 }}>
+              {c.modules.map(m => <span key={m} style={{ fontSize: 9, padding: "2px 7px", borderRadius: 99, background: m.includes("★")?"#FFF7ED":"#F8FAFC", color: m.includes("★")?C.orange:c.color, border: `1px solid ${m.includes("★")?C.orange:c.color}` }}>{m}</span>)}
+            </div>
+          </div>
+        ))}
+      </div>
+    </Frame>
+  );
+}
+
+function TopologySlide() {
+  const decisions = [
+    { q:"Why collapse PAR Commerce + PAR Engagement into one pillar?", a:"From a restaurant operator's perspective, the commercial relationship with guests is one continuous journey — discover, order, pay, earn, return. Splitting commerce and engagement into separate technology pillars forces operators to manage two vendor relationships for what is functionally one guest-facing system. A VP of Digital or VP of Loyalty & Commerce owns all of it.", color:C.blue },
+    { q:"Why is Offers Engine its own standalone section?", a:"Offers are the single most cross-cutting capability in restaurant software — authored in loyalty, triggered in ordering, executed at POS. Three separate promo engines create conflicting stacks and guest-facing errors. A standalone Offers Engine signals that PAR owns this problem architecturally and enables cross-channel A/B testing that no single-channel engine can provide.", color:C.orange },
+    { q:"Why is Drive-Thru moved into Store/Location Management?", a:"Enterprise QSR operators manage drive-thru technology as part of their location tech stack — not as a separate product silo. A Regional Director managing 50 locations configures headsets, timers, and DT management the same way they configure POS terminals and KDS units: as location hardware.", color:C.green },
+    { q:"Why is Menu Management separate from POS?", a:"The most common enterprise pain point is menu inconsistency — the POS menu doesn't match the online menu. This happens when each product team owns its own menu. A dedicated Menu Management product means the menu is authored once and consumed by all channels, and enables a future Menu Intelligence product combining engineering + performance analytics.", color:C.teal },
+  ];
+  return (
+    <Frame accent={C.blue}>
+      <H sub="The 'why' behind the new capability groupings">Topology rationale <NewBadge /></H>
+      <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+        {decisions.map(({ q, a, color }) => (
+          <div key={q} style={{ display: "grid", gridTemplateColumns: "2fr 3fr", borderRadius: 10, border: "1px solid #E2E8F0", overflow: "hidden" }}>
+            <div style={{ padding: "13px 14px", background: "#F8FAFC", borderRight: "1px solid #E2E8F0", borderLeft: `4px solid ${color}` }}>
+              <span style={{ fontSize: 12, fontWeight: 500, color: C.dark, lineHeight: 1.5 }}>{q}</span>
+            </div>
+            <div style={{ padding: "13px 14px" }}>
+              <p style={{ fontSize: 11, color: "#475569", lineHeight: 1.6 }}>{a}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </Frame>
+  );
+}
+
+function Grouping1Slide() {
+  const sections = [
+    { name:"Digital & Omnichannel Ordering", color:C.teal, why:"Above-store channels share a digital cart, offer engine, and guest identity layer — one product family regardless of channel.", what:"Web, mobile, kiosk, catering, curbside, Social Commerce (Future)" },
+    { name:"Payments", color:"#B45309", why:"Payment is the moment of financial settlement, distinct from ordering UX. Keeping Payments separate enables PAR to be processor-agnostic — a key enterprise differentiator vs. Toast.", what:"Gateway, Pay-at-Table, QR/SMS, Gift Cards, Digital Wallet, Loyalty Payment" },
+    { name:"Menu Management", color:"#9D174D", why:"The menu is the shared data layer consumed by every channel. Separating from POS enables channel-independent publishing and a future Menu Intelligence product.", what:"Multi-location menus, modifiers, PIM (Future), recipe mgmt, menu engineering" },
+    { name:"Offers Engine", color:C.orange, why:"The single most cross-cutting capability — authored in loyalty, triggered in ordering, executed at POS. Standalone prevents conflicting stacks and becomes a platform moat.", what:"POS discounts, ordering promos, loyalty rewards, AI upsell/recs" },
+    { name:"Guest360 (CDP)", color:C.purple, why:"Guest analytics must live adjacent to the CDP data model that powers them. Separating them into generic BI loses the behavioral profile richness and breaks the segment → campaign → measure loop.", what:"Unified profile, segmentation, CIAM, ID stitching (Bridg), data pipeline/ETL" },
+    { name:"Loyalty Programs", color:C.purple, why:"Loyalty manages program rules and point economy independently from campaigns, enabling each to evolve separately (e.g., upgrade campaigns without restructuring loyalty rules).", what:"Tiers, points/rewards, memberships, fraud detection, gamification (Accelerate)" },
+    { name:"Campaigns / Marketing Automation", color:"#6D28D9", why:"Campaign management bridges Guest360 segments with offer delivery. Keeping separate from Loyalty means campaigns can target any guest, not just loyalty members — the Bridg acquisition use case.", what:"Campaign Mgmt (Essential + Premium), Personalization Engine (Future), Ava AI" },
+    { name:"Guest Experience (Digital Channels)", color:"#0369A1", why:"Mobile app, wallet, smart passes, and Social Commerce mini-apps are the guest-facing UI layer. Product roadmap is driven by engagement metrics (DAU, NPS), not commerce or ops KPIs.", what:"Mobile app, Smart Passes, Basic Wallet, Social Commerce Mini-Apps (Future)" },
+  ];
+  return (
+    <Frame accent={C.blue}>
+      <H color={C.blue} sub="Why each subsection within PAR Commerce exists as its own grouping">Grouping rationale: PAR Commerce <NewBadge /></H>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8 }}>
+        {sections.map(({ name, color, why, what }) => (
+          <div key={name} style={{ borderRadius: 9, border: `2px solid ${color}`, overflow: "hidden" }}>
+            <div style={{ padding: "8px 12px", background: color }}>
+              <div style={{ fontSize: 11, fontWeight: 600, color: "#fff" }}>{name}</div>
+            </div>
+            <div style={{ padding: "9px 12px" }}>
+              <p style={{ fontSize: 10, color: "#475569", marginBottom: 5, lineHeight: 1.55 }}>{why}</p>
+              <div style={{ fontSize: 9, color: "#94A3B8", fontStyle: "italic" }}>{what}</div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </Frame>
+  );
+}
+
+function Grouping2Slide() {
+  const items = [
+    { name:"PAR ID (Admin IAM / User Management)", why:"Every PAR product today has its own auth layer — 6+ separate logins for operators. PAR ID as a platform SSO + RBAC layer is enterprise infrastructure, not a Commerce or Operations feature.", status:"Future" },
+    { name:"Tenant / Entitlement Management", why:"Managing which brands, franchisees, and locations have access to which PAR products is a platform billing and access control function — not a feature of any single product.", status:"Future" },
+    { name:"Config Management Service", why:"Centralizing configuration across all PAR products prevents config drift between in-store and digital systems. A shared config service is platform infrastructure.", status:"Future" },
+    { name:"3rd Party Integration Framework", why:"PAR's open platform value requires a governed, documented integration framework that cannot be owned by any single product without becoming siloed.", status:"Future" },
+    { name:"Unified Transaction Platform", why:"The convergence of POS and above-store ordering into a single transaction OS must live in Platform Services because it is the runtime that both PAR Commerce and PAR Operations run on top of.", status:"Future / Cross-Product" },
+    { name:"PAR Commerce API (Headless Foundation)", why:"The external API expression of the Unified Transaction Platform. As a developer platform, it is infrastructure — the prerequisite for Social Commerce, Smart Wallet, and 3rd-party integrations.", status:"Future" },
+    { name:"Analytics Platform (Cross-Product)", why:"A cross-product analytics substrate that Operational Reporting, Guest360, and AI features all build on top of. Placing it in Platform Services signals it is a shared service, not a Delaget/Coach feature.", status:"Future" },
+  ];
+  return (
+    <Frame accent={C.teal}>
+      <H color={C.teal} sub="Why Platform Services is a distinct layer — not buried inside Commerce or Operations">Grouping rationale: Platform Services <NewBadge /></H>
+      <p style={{ fontSize: 12, color: "#64748B", marginBottom: 14, lineHeight: 1.6 }}>Platform Services contains capabilities that are genuinely cross-cutting — they serve every product simultaneously and have no single product owner. Placing them inside a pillar implies false ownership and creates integration debt.</p>
+      <div style={{ display: "flex", flexDirection: "column", gap: 7 }}>
+        {items.map(({ name, why, status }) => (
+          <div key={name} style={{ display: "grid", gridTemplateColumns: "220px 1fr 100px", borderRadius: 8, border: "1px solid #E2E8F0", overflow: "hidden" }}>
+            <div style={{ padding: "9px 12px", background: "#F0FDFA", borderRight: "1px solid #E2E8F0", display: "flex", alignItems: "center" }}>
+              <span style={{ fontSize: 11, fontWeight: 500, color: C.teal }}>{name}</span>
+            </div>
+            <div style={{ padding: "9px 12px" }}>
+              <p style={{ fontSize: 10, color: "#475569", lineHeight: 1.55 }}>{why}</p>
+            </div>
+            <div style={{ padding: "9px 10px", display: "flex", alignItems: "center", justifyContent: "center", borderLeft: "1px solid #E2E8F0", background: "#F0FDF4" }}>
+              <span style={{ fontSize: 8, fontWeight: 600, padding: "2px 6px", borderRadius: 99, background: "#DCFCE7", color: "#15803D" }}>{status}</span>
+            </div>
+          </div>
+        ))}
+      </div>
+    </Frame>
+  );
+}
+
+function UnifiedTxSlide() {
+  return (
+    <Frame accent={C.orange}>
+      <H color={C.orange} sub="Converging POS + above-store ordering into a single open transaction OS">Unified Transaction Platform <NewBadge /></H>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12, marginBottom: 12 }}>
+        <div style={{ background: "#FFF1F2", borderRadius: 10, padding: 14, border: "1px solid #FECDD3" }}>
+          <div style={{ fontSize: 11, fontWeight: 600, color: C.toast, marginBottom: 7 }}>The problem today</div>
+          <p style={{ fontSize: 11, color: "#475569", lineHeight: 1.6 }}>POS and online ordering are separate systems with separate cart models, separate discount engines, and separate tax logic. A promotion set in Punchh may conflict with a POS discount. A tax rate update requires changes in two places. An order from a Messenger chatbot has no guaranteed path into the kitchen.</p>
+        </div>
+        <div style={{ background: "#FFF7ED", borderRadius: 10, padding: 14, border: `2px solid ${C.orange}` }}>
+          <div style={{ fontSize: 11, fontWeight: 600, color: C.orange, marginBottom: 7 }}>The PAR answer</div>
+          <p style={{ fontSize: 11, color: "#475569", lineHeight: 1.6 }}>A single transaction layer that any front-end — POS terminal, kiosk, web, mobile app, or Messenger chatbot — sends orders through. One cart model, one offers resolution engine, one tax engine, one order injection path to the kitchen. Exposed externally as the PAR Commerce API.</p>
+        </div>
+      </div>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 8, marginBottom: 12 }}>
+        {[
+          ["Channel-agnostic cart","Single cart with identical discount, tax, and loyalty logic regardless of order origin"],
+          ["Unified offers resolution","Punchh authors; Unified Tx Platform resolves at checkout — no conflicting stacks across channels"],
+          ["One order injection path","Every order (in-store, kiosk, web, chatbot) flows through one path to POS and kitchen"],
+          ["Single tax engine","Multi-state and international tax compliance in one place; eliminates POS/digital divergence"],
+          ["Unified order history","One order record per guest across channels, enabling cross-channel reorder and personalization"],
+          ["Commerce API surface","The Unified Tx Platform is exposed externally as a headless developer layer for any channel"],
+        ].map(([t,d]) => (
+          <div key={t} style={{ background: "#F8FAFC", borderRadius: 8, padding: 10, border: "1px solid #E2E8F0" }}>
+            <div style={{ fontSize: 10, fontWeight: 600, color: C.orange, marginBottom: 4 }}>{t}</div>
+            <div style={{ fontSize: 10, color: "#64748B", lineHeight: 1.5 }}>{d}</div>
+          </div>
+        ))}
+      </div>
+      <div style={{ background: "#EFF6FF", borderRadius: 8, padding: 12, border: `1px solid ${C.blue}` }}>
+        <span style={{ fontSize: 11, fontWeight: 600, color: "#1D4ED8" }}>vs. Toast: </span>
+        <span style={{ fontSize: 11, color: "#1E40AF" }}>Toast's all-in-one architecture has an internal unified transaction layer — but it's closed, proprietary, and non-extensible. PAR's Unified Tx Platform is designed as open infrastructure: any channel, any payment processor, any front-end via the Commerce API. This is the enterprise differentiation Toast structurally cannot match.</span>
+      </div>
+    </Frame>
+  );
+}
+
+function CommerceApiSlide() {
+  return (
+    <Frame accent={C.orange}>
+      <H color={C.orange} sub="The headless foundation — composable API endpoints for any channel to consume PAR's commerce stack">PAR Commerce API <NewBadge /></H>
+      <div style={{ display: "grid", gridTemplateColumns: "1.1fr 1fr", gap: 16 }}>
+        <div>
+          <div style={{ fontSize: 10, fontWeight: 600, color: "#94A3B8", textTransform: "uppercase", letterSpacing: "0.07em", marginBottom: 8 }}>API endpoints exposed</div>
+          {[
+            ["Menu API","Real-time menu data, availability, 86'd items, modifiers — location-aware. Any channel queries this instead of integrating directly with POS."],
+            ["Loyalty & Offers API","Punchh balance, active offers, redemption — callable by chatbots, voice, and 3rd-party apps without direct Punchh integration."],
+            ["Payment API","PAR Pay tokenized credential, web-view checkout, Smart Wallet stored card — unified payment surface for all channels."],
+            ["Order Injection API","Submits confirmed orders (loyalty + offers + payment resolved) into the Unified Tx Platform → POS pipeline."],
+            ["Guest Identity API","Links Meta ID / email / phone to Punchh identity via Bridg resolution — powers Social Commerce personalization."],
+            ["Attribution API","Channel UTM on every order; flows into Bridg + Data Central for closed-loop ROI measurement across all channels."],
+          ].map(([t,d]) => (
+            <div key={t} style={{ display: "flex", gap: 9, marginBottom: 9, paddingBottom: 9, borderBottom: "1px solid #F1F5F9" }}>
+              <div style={{ width: 5, height: 5, borderRadius: 99, background: C.orange, marginTop: 5, flexShrink: 0 }} />
+              <div>
+                <div style={{ fontSize: 11, fontWeight: 600, color: C.dark }}>{t}</div>
+                <div style={{ fontSize: 10, color: "#64748B", lineHeight: 1.5 }}>{d}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div>
+          <div style={{ fontSize: 10, fontWeight: 600, color: "#94A3B8", textTransform: "uppercase", letterSpacing: "0.07em", marginBottom: 8 }}>Strategic value</div>
+          {[
+            ["Platform moat","Every new channel (Messenger, WhatsApp, voice, partner app) plugs into the same API. PAR becomes the commerce middleware for enterprise restaurant brands."],
+            ["vs. Toast","Toast has no equivalent public headless API. Operators building a custom ordering channel must use Toast's closed SDKs on Toast hardware. PAR's open API is a direct enterprise differentiator."],
+            ["Revenue model","Per-transaction API pricing ($0.05–0.15/order) + platform seat fee — incremental to existing Engagement and Operator Cloud subscriptions."],
+            ["Build timeline","12–18 months, ~15–20 engineers. Phase 1 foundation for Social Commerce. Phase 3 opens to third-party developers and brand-built channels."],
+          ].map(([t,d]) => (
+            <div key={t} style={{ marginBottom: 11, paddingBottom: 11, borderBottom: "1px solid #F1F5F9" }}>
+              <div style={{ fontSize: 11, fontWeight: 600, color: C.orange, marginBottom: 3 }}>{t}</div>
+              <div style={{ fontSize: 10, color: "#64748B", lineHeight: 1.5 }}>{d}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </Frame>
+  );
+}
+
+function SocialCommerceSlide() {
+  return (
+    <Frame accent={C.purple}>
+      <H color={C.purple} sub="The WeChat/Meituan model for US restaurants — inside Messenger & Instagram DM">PAR Social Commerce <NewBadge /></H>
+      <div style={{ display: "grid", gridTemplateColumns: "1.1fr 1fr", gap: 14 }}>
+        <div>
+          <p style={{ fontSize: 12, color: "#475569", lineHeight: 1.65, marginBottom: 12 }}>China's Meituan collapsed discovery, ordering, payment, loyalty, and re-engagement into a single chat-native experience. PAR Social Commerce delivers this inside the channels 240M Americans use daily — Facebook Messenger and Instagram Direct — powered by the PAR Commerce API.</p>
+          <div style={{ fontSize: 10, fontWeight: 600, color: "#94A3B8", textTransform: "uppercase", letterSpacing: "0.07em", marginBottom: 8 }}>Guest journey in-chat</div>
+          {[["1","Consumer DMs the brand's Instagram or Messenger page"],["2","AI bot renders visual menu cards in real-time from Commerce API"],["3","Guest selects items via quick-reply or natural language ('no onions')"],["4","Loyalty balance & active Punchh offers displayed and applied"],["5","Checkout via PAR Pay web-view embedded in Messenger conversation"],["6","Order injected to POS via Commerce API; ETA sent in chat"],["7","Post-meal: points earned, review request, next-visit offer — same thread"]].map(([n,s]) => (
+            <div key={n} style={{ display: "flex", gap: 8, marginBottom: 6 }}>
+              <div style={{ width: 17, height: 17, borderRadius: 99, background: C.purple, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, marginTop: 1 }}>
+                <span style={{ fontSize: 8, color: "#fff", fontWeight: 600 }}>{n}</span>
+              </div>
+              <span style={{ fontSize: 11, color: "#475569", lineHeight: 1.5 }}>{s}</span>
+            </div>
+          ))}
+        </div>
+        <div>
+          <div style={{ fontSize: 10, fontWeight: 600, color: "#94A3B8", textTransform: "uppercase", letterSpacing: "0.07em", marginBottom: 8 }}>Key differentiators</div>
+          {[
+            ["No app download required","Group order participants join via a shared chat link — no install, no account creation."],
+            ["Proactive AI reorder","'Ready for your usual?' triggered at 11:45 AM via Messenger Notification Opt-In. Meituan's highest-value mechanic, replicated for US brands."],
+            ["Loyalty-native checkout","Punchh balance, offers, and Smart Wallet credential surface automatically — zero additional steps at tender."],
+            ["Group & catering commerce","Initiate a group order in a group chat; per-participant payment with individual loyalty attribution."],
+            ["Full attribution loop","Every chatbot order tagged → Bridg + Punchh + Data Central for closed-loop ROI vs. paid aggregators."],
+          ].map(([t,d]) => (
+            <div key={t} style={{ marginBottom: 10, paddingBottom: 10, borderBottom: "1px solid #F1F5F9" }}>
+              <div style={{ fontSize: 11, fontWeight: 600, color: C.purple, marginBottom: 2 }}>{t}</div>
+              <div style={{ fontSize: 10, color: "#64748B", lineHeight: 1.5 }}>{d}</div>
+            </div>
+          ))}
+          <div style={{ background: "#FAF5FF", borderRadius: 8, padding: 10, border: `1px solid ${C.purple}`, marginBottom: 8 }}>
+            <div style={{ fontSize: 10, fontWeight: 600, color: "#6D28D9", marginBottom: 3 }}>vs. Toast</div>
+            <div style={{ fontSize: 10, color: "#5B21B6", lineHeight: 1.5 }}>Toast has no social commerce product. PAR's POS + Loyalty + Pay integration is the prerequisite and 2–3 years ahead of any competitor.</div>
+          </div>
+          <div style={{ background: "#F8FAFC", borderRadius: 8, padding: 9, border: "1px solid #E2E8F0" }}>
+            <div style={{ fontSize: 9, fontWeight: 600, color: "#94A3B8", marginBottom: 2 }}>Revenue model (Phase 2)</div>
+            <div style={{ fontSize: 10, color: "#64748B" }}>$99–299/location/month + $0.10/order. 10K locations × $150/mo = $18M incremental ARR Year 3.</div>
+          </div>
+        </div>
+      </div>
+    </Frame>
+  );
+}
+
+function CompareCommerceSlide() {
+  return (
+    <Frame accent={C.blue}>
+      <H color={C.blue} sub="Platform services, menu, ordering, payments, offers">PAR Commerce vs. Toast</H>
+      <table>
+        <THead />
+        <tbody>
+          <GH label="Platform Services (new layer)" />
+          <CR cap="Unified Tx Platform (POS + ordering convergence)" par="new" toast="partial" pn="Platform Services" tn="Closed/proprietary" />
+          <CR cap="Headless Commerce API (open, any channel)" par="new" toast="gap" pn="PAR Commerce API" tn="No public API" />
+          <CR cap="Cross-channel offers resolution engine" par="new" toast="partial" pn="Offers Engine" tn="POS-only" />
+          <GH label="Menu Management" />
+          <CR cap="Multi-location menu management" par="full" toast="full" />
+          <CR cap="Modifier pricing & customization" par="full" toast="full" />
+          <CR cap="Enterprise recipe management" par="full" toast="full" pn="Data Central" tn="xtraCHEF" />
+          <CR cap="Cross-platform PIM" par="future" toast="gap" pn="Roadmap" />
+          <GH label="Digital & Omnichannel Ordering" />
+          <CR cap="Web / mobile / kiosk ordering" par="full" toast="full" />
+          <CR cap="Social commerce (Messenger / Instagram)" par="new" toast="gap" pn="PAR Social Commerce" />
+          <CR cap="Catering & events ordering" par="full" toast="partial" />
+          <CR cap="3P delivery marketplace integration" par="full" toast="full" pn="PAR Link" tn="Native" />
+          <CR cap="First-party delivery dispatch" par="full" toast="partial" pn="PAR Dispatch" />
+          <CR cap="AI-powered conversational order-taking" par="future" toast="full" tn="Toast IQ" />
+          <GH label="Payments" />
+          <CR cap="Integrated payment processing" par="full" toast="full" />
+          <CR cap="Pay-at-table / QR / SMS pay" par="full" toast="full" />
+          <CR cap="Smart Wallet (loyalty + payment unified)" par="new" toast="gap" pn="PAR Smart Wallet" />
+          <CR cap="Choice of payment processor (open)" par="full" toast="gap" tn="Toast-only lock-in" />
+        </tbody>
+      </table>
+      <Legend />
+    </Frame>
+  );
+}
+
+function CompareOpsSlide() {
+  return (
+    <Frame accent={C.green}>
+      <H color={C.green} sub="POS, labor, kitchen, drive-thru, inventory, analytics">PAR Operations vs. Toast</H>
+      <table>
+        <THead pc={C.green} />
+        <tbody>
+          <GH label="POS (In-Store Ordering)" />
+          <CR cap="Core POS terminal" par="full" toast="full" pn="PAR Brink" tn="Toast POS" />
+          <CR cap="Handheld / tableside ordering" par="partial" toast="full" pn="Via integrations" tn="Native handhelds" />
+          <CR cap="Open API / platform extensibility" par="full" toast="partial" pn="Open platform" tn="Limited" />
+          <GH label="Store & Location Mgmt (incl. Drive-Thru)" />
+          <CR cap="Drive-thru headset & communication" par="full" toast="gap" pn="QueVision" />
+          <CR cap="Drive-thru timer & speed of service" par="full" toast="gap" pn="QueVision" />
+          <CR cap="Multi-lane drive-thru support" par="full" toast="gap" />
+          <CR cap="Location / topology management" par="future" toast="partial" />
+          <GH label="Labor & Staff" />
+          <CR cap="Labor scheduling (cost & compliance)" par="full" toast="full" pn="Data Central" tn="Toast Payroll" />
+          <CR cap="Payroll processing & integration" par="full" toast="full" />
+          <CR cap="HR & onboarding tools" par="partial" toast="full" tn="Toast HR" />
+          <GH label="Kitchen & Fulfillment" />
+          <CR cap="Kitchen display system (KDS)" par="full" toast="full" />
+          <CR cap="Order/station routing" par="full" toast="full" />
+          <CR cap="Capacity mgmt & firing logic" par="full" toast="partial" />
+          <GH label="Inventory Management" />
+          <CR cap="Inventory management" par="full" toast="full" pn="Data Central" tn="xtraCHEF" />
+          <CR cap="Purchasing & suggestive ordering" par="full" toast="partial" />
+          <CR cap="AI demand forecasting" par="full" toast="partial" />
+          <CR cap="Computer vision inventory" par="full" toast="gap" pn="NomadGo int." />
+          <GH label="Operational Reporting & Analytics" />
+          <CR cap="Enterprise multi-unit reporting" par="full" toast="partial" pn="Delaget" tn="Limited at scale" />
+          <CR cap="Loss prevention & detection" par="full" toast="gap" pn="Detect / Guard" />
+          <CR cap="AI-powered operational insights" par="partial" toast="full" pn="Coach AI (early)" tn="Toast IQ" />
+          <CR cap="3P delivery reconciliation & recovery" par="full" toast="gap" pn="Delaget" />
+        </tbody>
+      </table>
+      <Legend />
+    </Frame>
+  );
+}
+
+function CompareEngagementSlide() {
+  return (
+    <Frame accent={C.purple}>
+      <H color={C.purple} sub="Loyalty, Guest360 CDP, campaigns, offers, digital experience">PAR Engagement vs. Toast</H>
+      <table>
+        <THead pc={C.purple} />
+        <tbody>
+          <GH label="Loyalty Programs" />
+          <CR cap="Program tiers, points & rewards" par="full" toast="full" pn="Punchh" tn="Toast Loyalty" />
+          <CR cap="Memberships & subscriptions" par="full" toast="partial" />
+          <CR cap="Loyalty fraud detection" par="full" toast="gap" pn="Punchh" />
+          <CR cap="Gamification (challenges, games)" par="full" toast="gap" pn="Punchh Accelerate" />
+          <CR cap="Enterprise loyalty at scale (100M+ members)" par="full" toast="partial" tn="SMB-focused" />
+          <GH label="Guest360 — CDP & Guest Data" />
+          <CR cap="Unified customer profile (CDP)" par="full" toast="partial" pn="Punchh Guest360" tn="Basic Guest CRM" />
+          <CR cap="Advanced guest segmentation" par="full" toast="partial" pn="Advanced" tn="Menu-item filter only" />
+          <CR cap="ID stitching / identity resolution" par="full" toast="gap" pn="Bridg (Q1 2026)" />
+          <CR cap="Cross-channel closed-loop attribution" par="new" toast="gap" pn="Bridg + Commerce API" />
+          <GH label="Campaigns / Marketing Automation" />
+          <CR cap="Email & SMS campaigns" par="full" toast="full" pn="Punchh" tn="Toast Marketing" />
+          <CR cap="AI-driven campaign auto-generation" par="partial" toast="full" tn="Toast IQ marketing" />
+          <CR cap="Advertising (Meta / Google)" par="gap" toast="full" tn="Toast Advertising" />
+          <CR cap="In-chat proactive reorder (AI)" par="new" toast="gap" pn="Social Commerce" />
+          <GH label="Guest Experience (Digital Channels)" />
+          <CR cap="Branded mobile app" par="full" toast="full" pn="Punchh mobile" tn="Toast TakeOut" />
+          <CR cap="Smart passes / digital wallet" par="full" toast="gap" />
+          <CR cap="Social commerce channel (Messenger / IG)" par="new" toast="gap" pn="PAR Social Commerce" />
+          <CR cap="Group ordering (in-chat, no app install)" par="new" toast="gap" pn="Social Commerce" />
+          <CR cap="Reservations & waitlist" par="gap" toast="full" tn="Toast Tables" />
+          <CR cap="Guest feedback aggregation (AI)" par="gap" toast="full" tn="Toast IQ feedback" />
+        </tbody>
+      </table>
+      <Legend />
+    </Frame>
+  );
+}
+
+function GapsSlide() {
+  const gaps = [
+    { area:"Conversational AI (operator-facing)", detail:"Toast IQ is a launched AI assistant across operations, marketing, and guest feedback. PAR's Coach AI and Ava AI are early-stage.", urgency:"High", color:"#DC2626", bg:"#FEE2E2" },
+    { area:"Reservations & waitlist", detail:"Toast Tables is native and polished. PAR has no equivalent in-house.", urgency:"High", color:"#DC2626", bg:"#FEE2E2" },
+    { area:"Unified admin console UX", detail:"Toast has one Toast Web UI. PAR has 6+ separate admin consoles. PAR ID (Future) is the architectural answer but has no committed timeline.", urgency:"High", color:"#DC2626", bg:"#FEE2E2" },
+    { area:"Advertising (paid media attribution)", detail:"Toast Advertising connects Meta/Google ad spend to POS transactions. PAR has no ad-to-transaction product — though Bridg + Commerce API lay the technical foundation.", urgency:"Medium", color:"#D97706", bg:"#FEF3C7" },
+    { area:"AI-driven marketing campaign auto-generation", detail:"Toast IQ auto-generates email/SMS campaigns from sales data. Punchh campaigns require more manual setup; Personalization Engine is on the roadmap.", urgency:"Medium", color:"#D97706", bg:"#FEF3C7" },
+    { area:"Guest feedback aggregation (AI)", detail:"Toast IQ organizes and summarizes guest feedback with AI. PAR has no native solution.", urgency:"Medium", color:"#D97706", bg:"#FEF3C7" },
+    { area:"HR & onboarding", detail:"Toast HR covers hiring, onboarding, and compliance. PAR relies on 3rd-party HR integrations.", urgency:"Low", color:"#4B5563", bg:"#F1F5F9" },
+    { area:"Restaurant website builder", detail:"Toast provides a branded website with integrated online ordering. PAR does not offer website hosting.", urgency:"Low", color:"#4B5563", bg:"#F1F5F9" },
+  ];
+  return (
+    <Frame accent={C.toast}>
+      <H color={C.toast} sub="Where Toast has a capability PAR currently lacks">Gap analysis — Toast ahead of PAR</H>
+      <div style={{ display: "flex", flexDirection: "column", gap: 7 }}>
+        {gaps.map(({ area, detail, urgency, color, bg }) => (
+          <div key={area} style={{ display: "flex", alignItems: "flex-start", gap: 12, padding: "9px 14px", borderRadius: 8, background: "#F8FAFC", border: "1px solid #E2E8F0" }}>
+            <div style={{ minWidth: 50, marginTop: 1 }}>
+              <span style={{ fontSize: 9, fontWeight: 600, padding: "2px 7px", borderRadius: 99, background: bg, color }}>{urgency}</span>
+            </div>
+            <div>
+              <div style={{ fontSize: 13, fontWeight: 500, color: C.dark, marginBottom: 2 }}>{area}</div>
+              <div style={{ fontSize: 11, color: "#64748B", lineHeight: 1.5 }}>{detail}</div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </Frame>
+  );
+}
+
+function StrengthsSlide() {
+  const strengths = [
+    { icon:"🔗", area:"Unified Transaction Platform", detail:"PAR is converging POS and above-store ordering into an open transaction OS. Toast's equivalent is closed and proprietary.", tag:"PAR unique" },
+    { icon:"🧩", area:"Headless Commerce API (open)", detail:"A public, channel-agnostic API exposing PAR's full commerce stack. Toast has no equivalent public API.", tag:"PAR unique" },
+    { icon:"💬", area:"Social Commerce (Messenger / Instagram)", detail:"First-mover in chat-native US restaurant ordering. No competitor has the POS + Loyalty + Pay integration needed to replicate this.", tag:"PAR unique" },
+    { icon:"🎯", area:"Offers Engine (cross-channel, standalone)", detail:"A centralized offers resolution engine that authors once and executes consistently across POS, ordering, kiosk, and chatbot.", tag:"PAR unique" },
+    { icon:"🍩", area:"Drive-thru technology suite (QueVision)", detail:"Drive-thru timers, headset systems, multi-lane support, and gamification. Toast has no drive-thru product.", tag:"PAR unique" },
+    { icon:"💜", area:"Enterprise loyalty at scale (Punchh)", detail:"100M+ consumer loyalty members. Tiers, subscriptions, gamification, ID stitching, advanced CDP — far exceeds Toast Loyalty.", tag:"PAR unique" },
+    { icon:"📊", area:"Delivery & loss analytics (Delaget)", detail:"3P delivery reconciliation, loss prevention (Detect), and multi-unit enterprise dashboards. Toast has no equivalent.", tag:"PAR unique" },
+    { icon:"🔓", area:"Open payment processing", detail:"PAR supports any payment processor. Toast locks operators into Toast Payments — significant cost for large chains over a multi-year contract.", tag:"PAR wins" },
+    { icon:"🪪", area:"Identity resolution (Bridg, Q1 2026)", detail:"Closed-loop attribution linking loyalty and non-loyalty transaction data across all channels. Foundation for the Social Discovery Engine.", tag:"PAR wins" },
+  ];
+  return (
+    <Frame accent={C.dark}>
+      <H sub="Where PAR has a meaningful or unique advantage — including new v2 capabilities">PAR strengths & differentiators</H>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 7 }}>
+        {strengths.map(({ icon, area, detail, tag }) => (
+          <div key={area} style={{ display: "flex", alignItems: "flex-start", gap: 10, padding: "9px 13px", borderRadius: 8, background: "#F8FAFC", border: "1px solid #E2E8F0" }}>
+            <span style={{ fontSize: 16, lineHeight: "22px", minWidth: 22 }}>{icon}</span>
+            <div>
+              <div style={{ display: "flex", alignItems: "center", gap: 7, marginBottom: 2 }}>
+                <span style={{ fontSize: 12, fontWeight: 500, color: C.dark }}>{area}</span>
+                <span style={{ fontSize: 8, fontWeight: 600, padding: "1px 6px", borderRadius: 99, background: tag==="PAR unique"?"#EFF6FF":"#F0FDF4", color: tag==="PAR unique"?C.blue:C.green }}>{tag}</span>
+              </div>
+              <div style={{ fontSize: 10, color: "#64748B", lineHeight: 1.5 }}>{detail}</div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </Frame>
+  );
+}
+
+function PositioningSlide() {
+  return (
+    <Frame accent={C.dark}>
+      <H sub="When PAR wins, when Toast wins, and the updated positioning statement">Strategic positioning</H>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14, marginBottom: 16 }}>
+        <div style={{ background: "#F8FAFC", borderRadius: 10, padding: 16, border: "1px solid #E2E8F0" }}>
+          <div style={{ fontSize: 12, fontWeight: 600, color: C.blue, marginBottom: 9 }}>When PAR wins the deal</div>
+          {["Large QSR / fast casual chain (100+ locations)","Drive-thru–heavy concept (QSR, coffee, etc.)","Wants enterprise-grade loyalty and CDP at scale","Needs processor flexibility — not locked to one vendor","Wants a headless, API-first platform for custom channels","Needs complex BOH ops with delivery & loss analytics","Has a digital team that wants social/chat commerce channels","Operates internationally or in complex IT environments"].map(w => (
+            <div key={w} style={{ display: "flex", gap: 7, marginBottom: 5 }}>
+              <span style={{ color: C.green, fontSize: 12, marginTop: 1 }}>✓</span>
+              <span style={{ fontSize: 11, color: C.dark, lineHeight: 1.5 }}>{w}</span>
+            </div>
+          ))}
+        </div>
+        <div style={{ background: "#F8FAFC", borderRadius: 10, padding: 16, border: "1px solid #E2E8F0" }}>
+          <div style={{ fontSize: 12, fontWeight: 600, color: C.toast, marginBottom: 9 }}>When Toast wins the deal</div>
+          {["Single location or small chain (1–50 units)","Wants all-in-one simplicity (1 vendor, 1 bill)","Needs table service + reservations (Toast Tables)","Wants bundled payment processing convenience","Needs fast deployment with minimal IT involvement","Prioritizes AI-first tools (Toast IQ) today","Wants AI-driven marketing auto-generation now","Needs a restaurant website builder included"].map(w => (
+            <div key={w} style={{ display: "flex", gap: 7, marginBottom: 5 }}>
+              <span style={{ color: C.toast, fontSize: 12, marginTop: 1 }}>✗</span>
+              <span style={{ fontSize: 11, color: C.dark, lineHeight: 1.5 }}>{w}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div style={{ background: C.dark, borderRadius: 12, padding: 20 }}>
+        <div style={{ fontSize: 11, fontWeight: 500, color: "#94A3B8", marginBottom: 9 }}>PAR positioning statement (v2)</div>
+        <p style={{ fontSize: 13, color: "#F8FAFC", lineHeight: 1.75 }}>
+          "While Toast offers an excellent all-in-one solution for independent restaurants and small chains, <strong style={{ color: "#93C5FD" }}>PAR Restaurant Suite is the enterprise Restaurant Commerce OS</strong> — an open, headless platform that powers every channel where a guest can discover, order, pay, and earn: a drive-thru terminal, a kiosk, a mobile app, or a Facebook Messenger conversation. PAR's <strong style={{ color: "#93C5FD" }}>Unified Transaction Platform and Commerce API</strong> create the open infrastructure foundation that enterprise brands need — and that Toast's closed architecture structurally cannot provide. With unmatched depth in drive-thru, enterprise loyalty (Punchh, 100M+ members), delivery analytics (Delaget), and the only US-market social commerce ordering layer, PAR is the platform for brands that have outgrown the all-in-one model."
+        </p>
+      </div>
+    </Frame>
+  );
+}
+
+const COMPONENTS = { cover:CoverSlide, agenda:AgendaSlide, overview:OverviewSlide, topology:TopologySlide, grouping1:Grouping1Slide, grouping2:Grouping2Slide, unified_tx:UnifiedTxSlide, commerce_api:CommerceApiSlide, social_commerce:SocialCommerceSlide, compare_commerce:CompareCommerceSlide, compare_ops:CompareOpsSlide, compare_engagement:CompareEngagementSlide, gaps:GapsSlide, strengths:StrengthsSlide, positioning:PositioningSlide };
+
+function App() {
+  const [cur, setCur] = useState(0);
+  const Slide = COMPONENTS[slides[cur].id];
+  return (
+    <div style={{ maxWidth: 900, margin: "0 auto" }}>
+      <div style={{ marginBottom: 12 }}>
+        <div style={{ fontSize: 12, color: "#94A3B8", marginBottom: 6 }}>PAR Technology — Internal Strategy · April 2026</div>
+        <div style={{ display: "flex", gap: 4, flexWrap: "wrap" }}>
+          {slides.map((s, i) => (
+            <button key={s.id} onClick={() => setCur(i)} style={{ fontSize: 10, padding: "4px 10px", borderRadius: 99, border: i===cur?`2px solid ${C.blue}`:"1px solid #E2E8F0", background: i===cur?"#EFF6FF":"#fff", color: i===cur?"#1D4ED8":"#64748B", cursor: "pointer", fontWeight: i===cur?600:400, transition: "all 0.15s" }}>
+              {i+1}. {s.label}
+            </button>
+          ))}
+        </div>
+      </div>
+      <Slide />
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: 12 }}>
+        <button onClick={() => setCur(c => Math.max(0, c-1))} disabled={cur===0} style={{ fontSize: 12, padding: "6px 18px", borderRadius: 99, border: "1px solid #E2E8F0", background: "#fff", color: cur===0?"#CBD5E1":C.dark, cursor: cur===0?"default":"pointer" }}>← Previous</button>
+        <span style={{ fontSize: 11, color: "#94A3B8" }}>{cur+1} / {slides.length}</span>
+        <button onClick={() => setCur(c => Math.min(slides.length-1, c+1))} disabled={cur===slides.length-1} style={{ fontSize: 12, padding: "6px 18px", borderRadius: 99, border: "1px solid #E2E8F0", background: "#fff", color: cur===slides.length-1?"#CBD5E1":C.dark, cursor: cur===slides.length-1?"default":"pointer" }}>Next →</button>
+      </div>
+      <div style={{ marginTop: 24, padding: "12px 0", borderTop: "1px solid #F1F5F9", display: "flex", justifyContent: "space-between", fontSize: 10, color: "#94A3B8" }}>
+        <span>PAR Technology · Competitive Analysis · v2 April 2026</span>
+        <span>Internal use only · echou-par.github.io</span>
+      </div>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+</script>
+</body>
+</html>
