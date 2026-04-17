@@ -281,9 +281,61 @@ def fetch_yahoo_quote_summary(ticker, retries=2):
                 return periods
 
             income_a = parse_df(t.income_stmt)[:3]
-            income_q = parse_df(t.quarterly_income_stmt)[:4]
+            income_q_all = parse_df(t.quarterly_income_stmt)[:8]  # need 8 for YoY
+            income_q = income_q_all[:4]
             balance_a = parse_df(t.balance_sheet)[:2]
             balance_q = parse_df(t.quarterly_balance_sheet)[:2]
+
+            # TTM fallback: when .info omits totalRevenue/ebitda (happens for some tickers
+            # like FISV), derive from the 4 most recent quarters of income statements.
+            def sum_last_4_quarters(key):
+                vals = [q.get(key) for q in income_q_all[:4] if q.get(key) is not None]
+                if len(vals) >= 4:
+                    return sum(vals[:4])
+                return None
+
+            def compute_yoy_from_quarters(key):
+                """Compare last 4Q sum to preceding 4Q sum. Requires 8 quarters."""
+                vals = [q.get(key) for q in income_q_all[:8] if q.get(key) is not None]
+                if len(vals) >= 8:
+                    recent = sum(vals[:4])
+                    prior = sum(vals[4:8])
+                    if prior and prior != 0:
+                        return (recent - prior) / abs(prior)
+                # Fall back to annual YoY
+                if len(income_a) >= 2:
+                    curr = income_a[0].get(key)
+                    prev = income_a[1].get(key)
+                    if curr is not None and prev and prev != 0:
+                        return (curr - prev) / abs(prev)
+                return None
+
+            # Resolve TTM with fallbacks
+            ttm_revenue = _safe_num(info.get('totalRevenue')) or sum_last_4_quarters('totalRevenue')
+            ttm_ebitda = _safe_num(info.get('ebitda'))
+            # For EBITDA, we don't have it in income statement rows, but we can approximate
+            # as operating income + D&A; however D&A isn't in the mapped keys. Fall back to
+            # operating income as proxy if ebitda is missing.
+            ttm_operating_income = sum_last_4_quarters('operatingIncome')
+            if ttm_ebitda is None and ttm_operating_income is not None:
+                ttm_ebitda = ttm_operating_income  # approximation; labeled in UI
+
+            # Resolve YoY growth with fallback
+            revenue_growth_yoy = _safe_num(info.get('revenueGrowth'))
+            if revenue_growth_yoy is None:
+                revenue_growth_yoy = compute_yoy_from_quarters('totalRevenue')
+
+            # Resolve EBITDA margin
+            ebitda_margin = _safe_num(info.get('ebitdaMargins'))
+            if ebitda_margin is None and ttm_ebitda and ttm_revenue:
+                ebitda_margin = ttm_ebitda / ttm_revenue
+
+            # Gross margin fallback
+            gross_margin = _safe_num(info.get('grossMargins'))
+            if gross_margin is None:
+                ttm_gross = sum_last_4_quarters('grossProfit')
+                if ttm_gross and ttm_revenue:
+                    gross_margin = ttm_gross / ttm_revenue
 
             # Market cap from fast_info (most reliable) with fallback to info
             try:
@@ -306,12 +358,12 @@ def fetch_yahoo_quote_summary(ticker, retries=2):
                 'company': COMPANY_MAP.get(ticker, ticker),
                 'price': price,
                 'market_cap': market_cap,
-                'ttm_revenue': _safe_num(info.get('totalRevenue')),
-                'ttm_ebitda': _safe_num(info.get('ebitda')),
-                'ttm_gross_profit': _safe_num(info.get('grossProfits')),
-                'revenue_growth_yoy': _safe_num(info.get('revenueGrowth')),
-                'ebitda_margin': _safe_num(info.get('ebitdaMargins')),
-                'gross_margin': _safe_num(info.get('grossMargins')),
+                'ttm_revenue': ttm_revenue,
+                'ttm_ebitda': ttm_ebitda,
+                'ttm_gross_profit': _safe_num(info.get('grossProfits')) or sum_last_4_quarters('grossProfit'),
+                'revenue_growth_yoy': revenue_growth_yoy,
+                'ebitda_margin': ebitda_margin,
+                'gross_margin': gross_margin,
                 'enterprise_value': _safe_num(info.get('enterpriseValue')),
                 'trailing_pe': _safe_num(info.get('trailingPE')),
                 'forward_pe': _safe_num(info.get('forwardPE')),
