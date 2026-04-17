@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PAR Intel — Sign In</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #f1efe8;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1a1a1a;
+  }
+  .card {
+    background: #ffffff;
+    border: 0.5px solid rgba(0,0,0,0.12);
+    border-radius: 14px;
+    padding: 40px 44px;
+    width: 380px;
+    max-width: 92vw;
+  }
+  .logo { font-size: 22px; font-weight: 600; letter-spacing: -0.4px; margin-bottom: 6px; }
+  .logo span { color: #3266ad; }
+  .subtitle { font-size: 13px; color: #888780; margin-bottom: 28px; }
+  label { font-size: 12px; color: #5f5e5a; display: block; margin-bottom: 5px; }
+  input[type="password"] {
+    width: 100%;
+    padding: 10px 13px;
+    border: 0.5px solid rgba(0,0,0,0.22);
+    border-radius: 7px;
+    font-size: 14px;
+    font-family: inherit;
+    background: #f8f8f6;
+    color: #1a1a1a;
+    outline: none;
+    transition: border-color 0.15s;
+  }
+  input[type="password"]:focus { border-color: #3266ad; background: #fff; }
+  button {
+    width: 100%;
+    margin-top: 14px;
+    padding: 10px;
+    background: #3266ad;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+  button:hover { opacity: 0.9; }
+  .error {
+    margin-top: 12px;
+    font-size: 13px;
+    color: #a32d2d;
+    background: #fcebeb;
+    padding: 8px 12px;
+    border-radius: 6px;
+    display: none;
+  }
+  .footer { margin-top: 28px; font-size: 11px; color: #b4b2a9; text-align: center; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="logo">PAR <span>Intel</span></div>
+  <div class="subtitle">Competitor Intelligence Dashboard</div>
+  <label for="pw">Access password</label>
+  <input type="password" id="pw" placeholder="Enter password" autofocus onkeydown="if(event.key==='Enter')unlock()">
+  <button onclick="unlock()">Sign in</button>
+  <div class="error" id="err">Incorrect password. Please try again.</div>
+  <div class="footer">PAR Technology · Internal use only</div>
+</div>
+
+<script>
+// SHA-256 hash of the password. To change the password:
+// 1. Run: echo -n "yournewpassword" | sha256sum
+// 2. Replace the hash string below.
+// Current password hash — set during deploy:
+const HASH = '5f56036d7250f4c96632fe9dc1cd06609204599a399af738b3d557012f66b07b';
+
+async function sha256(msg) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(msg));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,'0')).join('');
+}
+
+async function unlock() {
+  const val = document.getElementById('pw').value;
+  if (!val) return;
+  const h = await sha256(val);
+  if (h === HASH) {
+    sessionStorage.setItem('par_intel_auth', HASH);
+    window.location.href = 'dashboard.html';
+  } else {
+    document.getElementById('err').style.display = 'block';
+    document.getElementById('pw').value = '';
+    document.getElementById('pw').focus();
+  }
+}
+
+// If already authed this session, skip gate
+sha256('').then(() => {
+  const stored = sessionStorage.getItem('par_intel_auth');
+  if (stored && stored === HASH) window.location.href = 'dashboard.html';
+});
+</script>
+</body>
+</html>

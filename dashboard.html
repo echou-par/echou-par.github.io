@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+// Auth guard — redirect to login if session token missing
+(function(){
+  const HASH = '5f56036d7250f4c96632fe9dc1cd06609204599a399af738b3d557012f66b07b';
+  if (sessionStorage.getItem('par_intel_auth') !== HASH) {
+    window.location.replace('index.html');
+  }
+})();
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PAR Competitor Intelligence Dashboard</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<style>
+  :root {
+    --bg: #ffffff;
+    --bg2: #f8f8f6;
+    --bg3: #f1efe8;
+    --text: #1a1a1a;
+    --text2: #5f5e5a;
+    --text3: #888780;
+    --border: rgba(0,0,0,0.12);
+    --border2: rgba(0,0,0,0.22);
+    --accent: #3266ad;
+    --accent-bg: #e6f1fb;
+    --accent-text: #0c447c;
+    --green: #3b6d11;
+    --green-bg: #eaf3de;
+    --red: #a32d2d;
+    --red-bg: #fcebeb;
+    --amber: #854f0b;
+    --amber-bg: #faeeda;
+    --purple: #534ab7;
+    --purple-bg: #eeedfe;
+    --radius: 10px;
+    --radius-sm: 6px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1c1c1a;
+      --bg2: #242422;
+      --bg3: #2c2c2a;
+      --text: #f0ede8;
+      --text2: #b4b2a9;
+      --text3: #888780;
+      --border: rgba(255,255,255,0.12);
+      --border2: rgba(255,255,255,0.22);
+      --accent: #85b7eb;
+      --accent-bg: #042c53;
+      --accent-text: #b5d4f4;
+      --green: #97c459;
+      --green-bg: #173404;
+      --red: #f09595;
+      --red-bg: #501313;
+      --amber: #ef9f27;
+      --amber-bg: #412402;
+      --purple: #afa9ec;
+      --purple-bg: #26215c;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg3); color: var(--text); font-size: 14px; line-height: 1.5; }
+
+  /* Header */
+  .header { background: var(--bg); border-bottom: 0.5px solid var(--border); padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+  .header-left { display: flex; align-items: center; gap: 12px; }
+  .logo { font-size: 18px; font-weight: 600; color: var(--text); letter-spacing: -0.3px; }
+  .logo span { color: var(--accent); }
+  .badge { font-size: 11px; background: var(--accent-bg); color: var(--accent-text); padding: 3px 8px; border-radius: 20px; font-weight: 500; }
+  .last-updated { font-size: 12px; color: var(--text3); }
+  .header-actions { display: flex; gap: 10px; align-items: center; }
+  .btn { padding: 7px 16px; border-radius: var(--radius-sm); border: 0.5px solid var(--border2); background: transparent; color: var(--text); font-size: 13px; cursor: pointer; transition: background 0.15s; font-family: inherit; }
+  .btn:hover { background: var(--bg2); }
+  .btn-primary { background: var(--accent); color: white; border-color: var(--accent); }
+  .btn-primary:hover { opacity: 0.9; background: var(--accent); }
+
+  /* Layout */
+  .app { display: flex; height: calc(100vh - 53px); }
+  .sidebar { width: 240px; min-width: 240px; background: var(--bg); border-right: 0.5px solid var(--border); overflow-y: auto; flex-shrink: 0; }
+  .main { flex: 1; overflow-y: auto; padding: 20px 24px; }
+
+  /* Sidebar */
+  .sidebar-section { padding: 12px 0; border-bottom: 0.5px solid var(--border); }
+  .sidebar-label { font-size: 10px; font-weight: 600; color: var(--text3); text-transform: uppercase; letter-spacing: 0.8px; padding: 0 16px 6px; }
+  .sidebar-item { display: flex; align-items: center; gap: 10px; padding: 7px 16px; cursor: pointer; transition: background 0.1s; border-left: 2px solid transparent; }
+  .sidebar-item:hover { background: var(--bg2); }
+  .sidebar-item.active { background: var(--accent-bg); border-left-color: var(--accent); color: var(--accent-text); }
+  .sidebar-item.active .comp-ticker { color: var(--accent-text); opacity: 0.7; }
+  .comp-name { font-size: 13px; font-weight: 500; flex: 1; }
+  .comp-ticker { font-size: 11px; color: var(--text3); }
+  .public-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green); flex-shrink: 0; }
+  .private-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--text3); flex-shrink: 0; }
+
+  /* Search */
+  .search-wrap { padding: 12px 16px; border-bottom: 0.5px solid var(--border); }
+  .search-input { width: 100%; padding: 7px 10px; border: 0.5px solid var(--border2); border-radius: var(--radius-sm); background: var(--bg2); color: var(--text); font-size: 13px; font-family: inherit; outline: none; }
+  .search-input:focus { border-color: var(--accent); }
+
+  /* Main content */
+  .view { display: none; }
+  .view.active { display: block; }
+
+  /* Overview */
+  .overview-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin-bottom: 20px; }
+  .metric-card { background: var(--bg2); border-radius: var(--radius-sm); padding: 14px; }
+  .metric-label { font-size: 11px; color: var(--text3); margin-bottom: 6px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.5px; }
+  .metric-value { font-size: 22px; font-weight: 500; color: var(--text); }
+  .metric-sub { font-size: 11px; color: var(--text3); margin-top: 2px; }
+
+  /* Section card */
+  .card { background: var(--bg); border: 0.5px solid var(--border); border-radius: var(--radius); padding: 18px 20px; margin-bottom: 16px; }
+  .card-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+  .card-title { font-size: 14px; font-weight: 500; color: var(--text); }
+  .card-action { font-size: 12px; color: var(--accent); cursor: pointer; background: none; border: none; font-family: inherit; }
+
+  /* Competitor profile */
+  .comp-header { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 16px; }
+  .comp-info h2 { font-size: 20px; font-weight: 500; margin-bottom: 4px; }
+  .comp-meta { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 6px; }
+  .tag { font-size: 11px; padding: 3px 8px; border-radius: 20px; font-weight: 500; }
+  .tag-public { background: var(--green-bg); color: var(--green); }
+  .tag-private { background: var(--bg3); color: var(--text3); }
+  .tag-category { background: var(--accent-bg); color: var(--accent-text); }
+  .tag-alert { background: var(--amber-bg); color: var(--amber); }
+
+  /* Stats row */
+  .stats-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; margin-bottom: 16px; }
+  .stat-box { background: var(--bg2); border-radius: var(--radius-sm); padding: 10px 12px; }
+  .stat-label { font-size: 11px; color: var(--text3); margin-bottom: 3px; }
+  .stat-value { font-size: 16px; font-weight: 500; }
+  .stat-change { font-size: 11px; margin-top: 2px; }
+  .up { color: var(--green); }
+  .down { color: var(--red); }
+
+  /* News feed */
+  .news-item { padding: 12px 0; border-bottom: 0.5px solid var(--border); }
+  .news-item:last-child { border-bottom: none; }
+  .news-source { font-size: 11px; color: var(--accent); font-weight: 500; margin-bottom: 4px; }
+  .news-headline { font-size: 13px; font-weight: 500; color: var(--text); margin-bottom: 3px; line-height: 1.4; cursor: pointer; }
+  .news-headline:hover { color: var(--accent); }
+  .news-meta { font-size: 11px; color: var(--text3); }
+  .news-loading { display: flex; align-items: center; gap: 8px; color: var(--text3); font-size: 13px; padding: 16px 0; }
+
+  /* Spinner */
+  .spinner { width: 16px; height: 16px; border: 2px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.7s linear infinite; flex-shrink: 0; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* AI summary box */
+  .ai-box { background: var(--purple-bg); border: 0.5px solid var(--purple); border-radius: var(--radius-sm); padding: 14px; margin-bottom: 16px; }
+  .ai-box-header { font-size: 12px; font-weight: 600; color: var(--purple); margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }
+  .ai-icon { font-size: 13px; }
+  .ai-text { font-size: 13px; color: var(--text); line-height: 1.6; }
+
+  /* Email subscribe modal */
+  .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.45); z-index: 200; align-items: center; justify-content: center; }
+  .modal-overlay.open { display: flex; }
+  .modal { background: var(--bg); border-radius: var(--radius); padding: 28px; width: 480px; max-width: 92vw; border: 0.5px solid var(--border); }
+  .modal h3 { font-size: 17px; font-weight: 500; margin-bottom: 8px; }
+  .modal p { font-size: 13px; color: var(--text2); margin-bottom: 20px; line-height: 1.6; }
+  .form-row { margin-bottom: 14px; }
+  .form-label { font-size: 12px; color: var(--text2); margin-bottom: 5px; display: block; }
+  .form-input { width: 100%; padding: 9px 12px; border: 0.5px solid var(--border2); border-radius: var(--radius-sm); background: var(--bg2); color: var(--text); font-size: 13px; font-family: inherit; outline: none; }
+  .form-input:focus { border-color: var(--accent); }
+  .schedule-box { background: var(--bg2); border-radius: var(--radius-sm); padding: 12px; margin-bottom: 16px; }
+  .schedule-item { display: flex; align-items: center; gap: 10px; padding: 5px 0; }
+  .schedule-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .schedule-dot.mon { background: var(--accent); }
+  .schedule-dot.fri { background: var(--purple); }
+  .schedule-text { font-size: 12px; color: var(--text2); }
+  .schedule-text strong { color: var(--text); font-weight: 500; }
+  .modal-actions { display: flex; gap: 10px; justify-content: flex-end; }
+  .success-msg { background: var(--green-bg); color: var(--green); padding: 10px 14px; border-radius: var(--radius-sm); font-size: 13px; text-align: center; margin-top: 12px; display: none; }
+
+  /* Tabs */
+  .tabs { display: flex; gap: 0; border-bottom: 0.5px solid var(--border); margin-bottom: 16px; }
+  .tab { padding: 8px 16px; font-size: 13px; cursor: pointer; color: var(--text3); border-bottom: 2px solid transparent; margin-bottom: -0.5px; transition: all 0.15s; background: none; border-top: none; border-left: none; border-right: none; font-family: inherit; }
+  .tab:hover { color: var(--text); }
+  .tab.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 500; }
+
+  /* Email preview */
+  .email-preview { background: var(--bg2); border-radius: var(--radius); padding: 20px; font-size: 13px; line-height: 1.7; color: var(--text); }
+  .email-preview h4 { font-size: 15px; font-weight: 500; margin-bottom: 4px; }
+  .email-preview .ep-meta { font-size: 12px; color: var(--text3); margin-bottom: 16px; }
+  .email-preview .ep-section { margin-bottom: 14px; }
+  .email-preview .ep-section-title { font-size: 12px; font-weight: 600; color: var(--text3); text-transform: uppercase; letter-spacing: 0.6px; margin-bottom: 6px; }
+  .ep-item { padding: 7px 0; border-bottom: 0.5px solid var(--border); }
+  .ep-item:last-child { border-bottom: none; }
+
+  /* Refresh button states */
+  .refresh-indicator { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text3); }
+
+  /* Filter chips */
+  .filter-chips { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+  .chip { padding: 5px 12px; border-radius: 20px; border: 0.5px solid var(--border2); font-size: 12px; cursor: pointer; background: transparent; color: var(--text2); font-family: inherit; transition: all 0.15s; }
+  .chip:hover { border-color: var(--accent); color: var(--accent); }
+  .chip.active { background: var(--accent-bg); color: var(--accent-text); border-color: var(--accent); }
+
+  /* Chart wrapper */
+  .chart-wrap { position: relative; width: 100%; height: 220px; }
+
+  /* Responsive */
+  @media (max-width: 700px) {
+    .sidebar { display: none; }
+    .main { padding: 14px 16px; }
+  }
+
+  /* Highlight row */
+  .highlight-row { display: flex; align-items: center; gap: 10px; padding: 9px 12px; border-radius: var(--radius-sm); background: var(--bg2); margin-bottom: 8px; }
+  .highlight-icon { font-size: 15px; flex-shrink: 0; }
+  .highlight-text { font-size: 13px; color: var(--text); flex: 1; line-height: 1.4; }
+  .highlight-time { font-size: 11px; color: var(--text3); white-space: nowrap; }
+
+  /* Slack integration note */
+  .integration-note { background: var(--amber-bg); border: 0.5px solid var(--amber); border-radius: var(--radius-sm); padding: 12px 14px; font-size: 12px; color: var(--amber); margin-bottom: 14px; line-height: 1.5; }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <div class="header-left">
+    <div class="logo">PAR <span>Intel</span></div>
+    <span class="badge">Competitor Monitor</span>
+    <span class="last-updated" id="lastUpdated">Last refreshed: —</span>
+  </div>
+  <div class="header-actions">
+    <button class="btn refresh-indicator" id="refreshBtn" onclick="refreshAll()">
+      <span id="refreshIcon">↻</span> Refresh All
+    </button>
+    <button class="btn btn-primary" onclick="openSubscribe()">Subscribe to Updates</button>
+  </div>
+</div>
+
+<!-- App body -->
+<div class="app">
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <div class="search-wrap">
+      <input class="search-input" type="text" placeholder="Search competitors..." id="sidebarSearch" oninput="filterSidebar(this.value)">
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-label">Overview</div>
+      <div class="sidebar-item active" data-view="overview" onclick="showView('overview', this)">
+        <span class="comp-name">All Competitors</span>
+        <span class="comp-ticker">25</span>
+      </div>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-label">Public Companies</div>
+      <div id="publicList"></div>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-label">Private Companies</div>
+      <div id="privateList"></div>
+    </div>
+  </div>
+
+  <!-- Main -->
+  <div class="main">
+    <!-- Overview view -->
+    <div class="view active" id="view-overview">
+      <div class="overview-grid" id="overviewMetrics">
+        <div class="metric-card"><div class="metric-label">Competitors tracked</div><div class="metric-value">25</div><div class="metric-sub">8 public · 17 private</div></div>
+        <div class="metric-card"><div class="metric-label">News items today</div><div class="metric-value" id="newsCount">—</div><div class="metric-sub">Across all sources</div></div>
+        <div class="metric-card"><div class="metric-label">Alerts</div><div class="metric-value" id="alertCount" style="color:var(--amber)">—</div><div class="metric-sub">Significant changes</div></div>
+        <div class="metric-card"><div class="metric-label">Next digest</div><div class="metric-value" id="nextDigest" style="font-size:16px">—</div><div class="metric-sub" id="nextDigestType">—</div></div>
+      </div>
+
+      <!-- AI Summary -->
+      <div class="ai-box">
+        <div class="ai-box-header"><span class="ai-icon">✦</span> AI Intelligence Summary</div>
+        <div class="ai-text" id="overviewAI">
+          <span class="news-loading"><span class="spinner"></span> Generating competitive intelligence summary…</span>
+        </div>
+      </div>
+
+      <!-- Recent highlights -->
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title">Recent highlights across all competitors</span>
+          <button class="card-action" onclick="loadHighlights()">↻ Refresh</button>
+        </div>
+        <div id="highlightsContent">
+          <span class="news-loading"><span class="spinner"></span> Loading…</span>
+        </div>
+      </div>
+
+      <!-- Market overview card for public cos -->
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title">Public competitor stock performance (week)</span>
+          <span class="last-updated" id="stockUpdated">—</span>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="stockChart" role="img" aria-label="Bar chart showing weekly stock performance for public competitors"></canvas>
+        </div>
+      </div>
+
+      <!-- News feed -->
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title">Latest industry news</span>
+          <div class="filter-chips" style="margin: 0;">
+            <button class="chip active" onclick="filterNews('all', this)">All</button>
+            <button class="chip" onclick="filterNews('public', this)">Public cos</button>
+            <button class="chip" onclick="filterNews('private', this)">Private cos</button>
+            <button class="chip" onclick="filterNews('financial', this)">Financial</button>
+          </div>
+        </div>
+        <div id="globalNewsContent">
+          <span class="news-loading"><span class="spinner"></span> Fetching news from restaurant tech media…</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Competitor detail view (shared, populated dynamically) -->
+    <div class="view" id="view-competitor">
+      <div id="competitorContent">
+        <!-- Populated by showCompetitor() -->
+      </div>
+    </div>
+
+    <!-- Email preview view -->
+    <div class="view" id="view-email-preview">
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title">Email digest preview</span>
+        </div>
+        <div class="tabs">
+          <button class="tab active" onclick="switchEmailTab('monday', this)">Monday (market open)</button>
+          <button class="tab" onclick="switchEmailTab('friday', this)">Friday (market close)</button>
+        </div>
+        <div id="emailPreviewContent">
+          <span class="news-loading"><span class="spinner"></span> Generating digest preview…</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Subscribe modal -->
+<div class="modal-overlay" id="subscribeModal">
+  <div class="modal">
+    <h3>Subscribe to PAR Intel Digests</h3>
+    <p>Get twice-weekly competitor intelligence delivered to your inbox — Monday morning at market open and Friday afternoon at market close.</p>
+    <div class="form-row">
+      <label class="form-label">Your email address</label>
+      <input class="form-input" type="email" id="subEmail" placeholder="you@par.com">
+    </div>
+    <div class="form-row">
+      <label class="form-label">Your name</label>
+      <input class="form-input" type="text" id="subName" placeholder="Full name">
+    </div>
+    <div class="form-row">
+      <label class="form-label">Team / Role (optional)</label>
+      <input class="form-input" type="text" id="subRole" placeholder="e.g. Product, Sales, Strategy">
+    </div>
+    <div class="schedule-box">
+      <div style="font-size: 12px; font-weight: 500; color: var(--text2); margin-bottom: 8px;">Digest schedule</div>
+      <div class="schedule-item">
+        <div class="schedule-dot mon"></div>
+        <div class="schedule-text"><strong>Monday 9:30am ET</strong> — Market open: key news, financial changes, opening announcements</div>
+      </div>
+      <div class="schedule-item">
+        <div class="schedule-dot fri"></div>
+        <div class="schedule-text"><strong>Friday 4:00pm ET</strong> — Market close: weekly recap of key competitor developments</div>
+      </div>
+    </div>
+    <div class="modal-actions">
+      <button class="btn" onclick="closeSubscribe()">Cancel</button>
+      <button class="btn btn-primary" onclick="submitSubscribe()">Subscribe</button>
+    </div>
+    <div class="success-msg" id="subSuccess">✓ You're subscribed! First digest will arrive next scheduled send.</div>
+  </div>
+</div>
+
+<script>
+const COMPETITORS = [
+  { id: 'tost', name: 'Toast', ticker: 'TOST', exchange: 'NYSE', type: 'public', category: 'POS / Payments', website: 'toasttab.com', description: 'Restaurant management platform and POS with integrated payments, marketing, and operations.' },
+  { id: 'dash', name: 'DoorDash', ticker: 'DASH', exchange: 'NYSE', type: 'public', category: 'Delivery / Marketplace', website: 'doordash.com', description: 'Food delivery marketplace and logistics platform for restaurants.' },
+  { id: 'vyx', name: 'NCR Voyix', ticker: 'VYX', exchange: 'NYSE', type: 'public', category: 'POS / Technology', website: 'ncrvoyix.com', description: 'Restaurant and retail technology including POS, payments, and digital solutions.' },
+  { id: 'lspd', name: 'Lightspeed Commerce', ticker: 'LSPD', exchange: 'NYSE', type: 'public', category: 'POS / Commerce', website: 'lightspeedhq.com', description: 'Cloud-based POS and commerce platform for restaurants and retail.' },
+  { id: 'four', name: 'Shift4', ticker: 'FOUR', exchange: 'NYSE', type: 'public', category: 'Payments / POS', website: 'shift4.com', description: 'Integrated payments and commerce technology. Owns Revel POS.' },
+  { id: 'sq', name: 'Block (Square)', ticker: 'SQ', exchange: 'NYSE', type: 'public', category: 'POS / Payments', website: 'squareup.com', description: 'Financial technology with Square for Restaurants offering POS, online ordering, and payments.' },
+  { id: 'gpn', name: 'Global Payments', ticker: 'GPN', exchange: 'NYSE', type: 'public', category: 'Payments / POS', website: 'globalpayments.com', description: 'Payment technology company with Heartland POS and Payments suite for restaurants.' },
+  { id: 'fi', name: 'Fiserv', ticker: 'FI', exchange: 'NYSE', type: 'public', category: 'Fintech / POS', website: 'fiserv.com', description: 'Financial technology and payment solutions. Owns Clover POS for restaurants.' },
+  { id: 'uber', name: 'Uber (Eats)', ticker: 'UBER', exchange: 'NYSE', type: 'public', category: 'Delivery / Marketplace', website: 'uber.com', description: 'Ride-sharing and food delivery. Focus area: Uber Eats restaurant delivery marketplace.' },
+  { id: 'olo', name: 'Olo', ticker: 'OLO (private)', exchange: '', type: 'private', category: 'Online Ordering / SaaS', website: 'olo.com', description: 'Digital ordering and delivery platform for restaurant brands. Previously public (NYSE: OLO), went private.' },
+  { id: 'thanx', name: 'Thanx', ticker: '', exchange: '', type: 'private', category: 'Loyalty / CRM', website: 'thanx.com', description: 'Restaurant loyalty and digital guest engagement platform.' },
+  { id: 'deliverect', name: 'Deliverect', ticker: '', exchange: '', type: 'private', category: 'Order Management', website: 'deliverect.com', description: 'Delivery order management and integration platform for restaurants.' },
+  { id: 'touchbistro', name: 'TouchBistro', ticker: '', exchange: '', type: 'private', category: 'POS / Restaurant Tech', website: 'touchbistro.com', description: 'iPad POS and restaurant management platform.' },
+  { id: 'spoton', name: 'SpotOn', ticker: '', exchange: '', type: 'private', category: 'POS / Payments', website: 'spoton.com', description: 'Restaurant and small business technology including POS, payments, and marketing.' },
+  { id: 'bikky', name: 'Bikky', ticker: '', exchange: '', type: 'private', category: 'Data / Analytics', website: 'bikky.com', description: 'Restaurant customer data platform and analytics for enterprise chains.' },
+  { id: 'itsacheckmate', name: 'ItsaCheckmate', ticker: '', exchange: '', type: 'private', category: 'Order Integration', website: 'itsacheckmate.com', description: 'Restaurant online ordering aggregation and integration platform.' },
+  { id: 'otter', name: 'Otter POS', ticker: '', exchange: '', type: 'private', category: 'POS / Order Management', website: 'tryotter.com', description: 'Restaurant management platform with POS and order aggregation.' },
+  { id: 'snackpass', name: 'Snackpass', ticker: '', exchange: '', type: 'private', category: 'Mobile Ordering / Loyalty', website: 'snackpass.co', description: 'Social commerce and mobile ordering platform for restaurants, popular on college campuses.' },
+  { id: 'peppr', name: 'Peppr POS', ticker: '', exchange: '', type: 'private', category: 'POS', website: 'peppr.com', description: 'Modern point-of-sale system designed for restaurants.' },
+  { id: 'revi', name: 'Revi (GetRevi)', ticker: '', exchange: '', type: 'private', category: 'Customer Engagement', website: 'getrevi.com', description: 'Restaurant customer engagement and retention platform.' },
+  { id: 'talonone', name: 'TalonOne', ticker: '', exchange: '', type: 'private', category: 'Promotions / Loyalty Engine', website: 'talon.one', description: 'Promotion and loyalty engine API for enterprise brands.' },
+  { id: 'sparkfly', name: 'Sparkfly', ticker: '', exchange: '', type: 'private', category: 'Offers / Loyalty', website: 'sparkfly.com', description: 'Real-time offer management and loyalty redemption platform for restaurants.' },
+  { id: 'tillster', name: 'Tillster', ticker: '', exchange: '', type: 'private', category: 'Digital Ordering / Kiosk', website: 'tillster.com', description: 'Digital ordering, kiosk, and data analytics solutions for restaurant chains.' },
+  { id: 'paytronix', name: 'Paytronix', ticker: '', exchange: '', type: 'private', category: 'Loyalty / CRM', website: 'paytronix.com', description: 'Loyalty, gift, and digital customer engagement platform for restaurants.' },
+  { id: 'hang', name: 'Hang', ticker: '', exchange: '', type: 'private', category: 'Loyalty / Membership', website: 'hang.com', description: 'Next-gen restaurant loyalty and membership platform.' },
+];
+
+const STOCK_DATA = {
+  tost: { price: '—', change: '—', mktcap: '—', revenue: '—', loaded: false },
+  dash: { price: '—', change: '—', mktcap: '—', revenue: '—', loaded: false },
+  vyx: { price: '—', change: '—', mktcap: '—', revenue: '—', loaded: false },
+  lspd: { price: '—', change: '—', mktcap: '—', revenue: '—', loaded: false },
+  four: { price: '—', change: '—', mktcap: '—', revenue: '—', loaded: false },
+  sq: { price: '—', change: '—', mktcap: '—', revenue: '—', loaded: false },
+  gpn: { price: '—', change: '—', mktcap: '—', revenue: '—', loaded: false },
+  fi: { price: '—', change: '—', mktcap: '—', revenue: '—', loaded: false },
+  uber: { price: '—', change: '—', mktcap: '—', revenue: '—', loaded: false },
+};
+
+let subscribers = JSON.parse(localStorage.getItem('par_intel_subs') || '[]');
+let newsCache = {};
+let aiSummaryCache = {};
+let currentCompetitor = null;
+let currentEmailTab = 'monday';
+
+function buildSidebar() {
+  const pub = document.getElementById('publicList');
+  const priv = document.getElementById('privateList');
+  pub.innerHTML = '';
+  priv.innerHTML = '';
+  COMPETITORS.forEach(c => {
+    const el = document.createElement('div');
+    el.className = 'sidebar-item';
+    el.dataset.id = c.id;
+    el.innerHTML = `<span class="${c.type === 'public' ? 'public-dot' : 'private-dot'}"></span><span class="comp-name">${c.name}</span><span class="comp-ticker">${c.ticker || 'Private'}</span>`;
+    el.onclick = () => showCompetitor(c.id, el);
+    (c.type === 'public' ? pub : priv).appendChild(el);
+  });
+}
+
+function filterSidebar(q) {
+  document.querySelectorAll('.sidebar-item[data-id]').forEach(el => {
+    const id = el.dataset.id;
+    const c = COMPETITORS.find(x => x.id === id);
+    el.style.display = (c.name.toLowerCase().includes(q.toLowerCase()) || (c.ticker && c.ticker.toLowerCase().includes(q.toLowerCase()))) ? '' : 'none';
+  });
+}
+
+function showView(viewId, clickedEl) {
+  document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+  document.getElementById('view-' + viewId).classList.add('active');
+  document.querySelectorAll('.sidebar-item').forEach(el => el.classList.remove('active'));
+  if (clickedEl) clickedEl.classList.add('active');
+}
+
+function showCompetitor(id, sidebarEl) {
+  currentCompetitor = id;
+  showView('competitor', sidebarEl);
+  const c = COMPETITORS.find(x => x.id === id);
+  renderCompetitorSkeleton(c);
+  loadCompetitorData(c);
+}
+
+function renderCompetitorSkeleton(c) {
+  const isPublic = c.type === 'public';
+  document.getElementById('competitorContent').innerHTML = `
+    <div class="comp-header">
+      <div class="comp-info">
+        <h2>${c.name}</h2>
+        <div style="font-size:13px; color:var(--text2); margin-top:3px;">${c.description}</div>
+        <div class="comp-meta">
+          <span class="tag ${isPublic ? 'tag-public' : 'tag-private'}">${isPublic ? c.exchange + ': ' + c.ticker : 'Private'}</span>
+          <span class="tag tag-category">${c.category}</span>
+          <a href="https://${c.website}" style="font-size:11px; color:var(--accent); padding:3px 8px; border-radius:20px; border:0.5px solid var(--accent);" target="_blank">${c.website} ↗</a>
+        </div>
+      </div>
+    </div>
+
+    ${isPublic ? `
+    <div class="stats-row" id="statsRow-${c.id}">
+      <div class="stat-box"><div class="stat-label">Stock price</div><div class="stat-value" id="stat-price-${c.id}"><span class="spinner" style="width:14px;height:14px;display:inline-block;"></span></div></div>
+      <div class="stat-box"><div class="stat-label">Weekly change</div><div class="stat-value" id="stat-change-${c.id}">—</div></div>
+      <div class="stat-box"><div class="stat-label">Market cap</div><div class="stat-value" id="stat-mktcap-${c.id}">—</div></div>
+      <div class="stat-box"><div class="stat-label">TTM Revenue</div><div class="stat-value" id="stat-rev-${c.id}">—</div></div>
+    </div>` : `
+    <div class="stats-row">
+      <div class="stat-box"><div class="stat-label">Funding stage</div><div class="stat-value" id="stat-funding-${c.id}"><span class="spinner" style="width:14px;height:14px;display:inline-block;"></span></div></div>
+      <div class="stat-box"><div class="stat-label">Total raised</div><div class="stat-value" id="stat-raised-${c.id}">—</div></div>
+      <div class="stat-box"><div class="stat-label">Est. employees</div><div class="stat-value" id="stat-emp-${c.id}">—</div></div>
+      <div class="stat-box"><div class="stat-label">Last funding</div><div class="stat-value" id="stat-lastfund-${c.id}">—</div></div>
+    </div>`}
+
+    <div class="ai-box">
+      <div class="ai-box-header"><span class="ai-icon">✦</span> AI Competitive Intelligence</div>
+      <div class="ai-text" id="ai-summary-${c.id}"><span class="news-loading"><span class="spinner"></span> Researching ${c.name}…</span></div>
+    </div>
+
+    <div class="tabs" style="margin-bottom:16px;">
+      <button class="tab active" onclick="switchCompTab('news', this, '${c.id}')">News & Developments</button>
+      <button class="tab" onclick="switchCompTab('financial', this, '${c.id}')">Financial Overview</button>
+      <button class="tab" onclick="switchCompTab('strategy', this, '${c.id}')">Strategic Analysis</button>
+    </div>
+
+    <div id="comptab-news-${c.id}" class="comp-tab">
+      <div class="card">
+        <div class="card-header"><span class="card-title">Latest news — ${c.name}</span></div>
+        <div id="news-${c.id}"><span class="news-loading"><span class="spinner"></span> Fetching from restaurant tech media, Yahoo Finance, and industry sources…</span></div>
+      </div>
+    </div>
+    <div id="comptab-financial-${c.id}" class="comp-tab" style="display:none;">
+      <div class="card">
+        <div class="card-header"><span class="card-title">Financial summary — ${c.name}</span></div>
+        <div id="financial-${c.id}"><span class="news-loading"><span class="spinner"></span> Loading financials…</span></div>
+      </div>
+    </div>
+    <div id="comptab-strategy-${c.id}" class="comp-tab" style="display:none;">
+      <div class="card">
+        <div class="card-header"><span class="card-title">Strategic profile — ${c.name}</span></div>
+        <div id="strategy-${c.id}"><span class="news-loading"><span class="spinner"></span> Analyzing strategy…</span></div>
+      </div>
+    </div>
+  `;
+}
+
+function switchCompTab(tab, btn, id) {
+  document.querySelectorAll(`#view-competitor .tab`).forEach(t => t.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll(`[id^="comptab-"][id$="-${id}"]`).forEach(el => el.style.display = 'none');
+  document.getElementById(`comptab-${tab}-${id}`).style.display = '';
+}
+
+async function loadCompetitorData(c) {
+  const prompt = buildCompetitorPrompt(c);
+  try {
+    const resp = await callClaude(prompt, 1200);
+    const parts = resp.split('|||');
+    if (parts[0]) {
+      document.getElementById(`ai-summary-${c.id}`).textContent = parts[0].trim();
+    }
+    if (parts[1]) {
+      renderNews(c.id, parts[1].trim());
+    }
+    if (parts[2]) {
+      document.getElementById(`financial-${c.id}`).innerHTML = formatFinancial(parts[2].trim(), c);
+    }
+    if (parts[3]) {
+      document.getElementById(`strategy-${c.id}`).innerHTML = formatStrategy(parts[3].trim());
+    }
+    if (c.type === 'public' && parts[4]) {
+      fillStockStats(c.id, parts[4].trim());
+    }
+    if (c.type === 'private' && parts[4]) {
+      fillPrivateStats(c.id, parts[4].trim());
+    }
+  } catch(e) {
+    document.getElementById(`ai-summary-${c.id}`).textContent = 'Unable to load. Check API connectivity.';
+  }
+}
+
+function buildCompetitorPrompt(c) {
+  const isPublic = c.type === 'public';
+  return `You are a competitive intelligence analyst at PAR Technology, a restaurant technology company. Research the competitor "${c.name}" (${isPublic ? 'NYSE: ' + c.ticker : 'private company'}), which operates in the ${c.category} space.
+
+Provide a structured response in EXACTLY this format, separated by |||:
+
+PART 1 (2-3 sentence executive summary highlighting their biggest recent development and PAR competitive threat):
+[summary]
+
+|||
+
+PART 2 (news items, JSON array of up to 6 items: [{headline, source, date, url, relevance}]):
+[json array]
+
+|||
+
+PART 3 (financial overview: ${isPublic ? 'stock price, market cap, TTM revenue, YoY growth, gross margin, recent 10-K/10-Q highlights, key financial risks from SEC filings' : 'funding rounds, total raised, investors, estimated revenue range, recent fundraising news'}):
+[financial text]
+
+|||
+
+PART 4 (strategic analysis: product strategy, go-to-market, key restaurant customer wins, competitive positioning vs PAR, partnerships, M&A activity, product roadmap signals):
+[strategy text]
+
+|||
+
+PART 5 (${isPublic ? 'JSON: {price, weeklyChange, mktcap, revenue}' : 'JSON: {fundingStage, totalRaised, employees, lastFunding}'}):
+[json]
+
+Draw from: company website, LinkedIn, Yahoo Finance, SEC EDGAR (for public cos), Crunchbase, restaurant tech media (restauranttechnologynews.com, restaurantdive.com, nrn.com, restaurantbusinessonline.com, hospitalitytech.com), and any recent news. Be specific with numbers and dates where possible.`;
+}
+
+function renderNews(id, raw) {
+  const container = document.getElementById(`news-${id}`);
+  try {
+    const clean = raw.replace(/```json|```/g, '').trim();
+    const items = JSON.parse(clean);
+    if (!items.length) { container.innerHTML = '<p style="color:var(--text3);font-size:13px;padding:12px 0;">No recent news found.</p>'; return; }
+    container.innerHTML = items.map(item => `
+      <div class="news-item">
+        <div class="news-source">${item.source || 'Industry source'}</div>
+        <div class="news-headline" onclick="window.open('${item.url || '#'}','_blank')">${item.headline}</div>
+        <div class="news-meta">${item.date || ''} ${item.relevance ? '· ' + item.relevance : ''}</div>
+      </div>`).join('');
+  } catch {
+    container.innerHTML = `<div style="font-size:13px;line-height:1.7;color:var(--text);">${raw}</div>`;
+  }
+}
+
+function formatFinancial(text, c) {
+  return `<div style="font-size:13px;line-height:1.7;color:var(--text);white-space:pre-wrap;">${text}</div>
+  ${c.type === 'public' ? `<div style="margin-top:12px;"><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=10-K&dateb=&owner=include&count=5&search_text=&company=${encodeURIComponent(c.name)}" target="_blank" style="font-size:12px;color:var(--accent);">View SEC filings on EDGAR ↗</a></div>` : ''}`;
+}
+
+function formatStrategy(text) {
+  return `<div style="font-size:13px;line-height:1.7;color:var(--text);white-space:pre-wrap;">${text}</div>`;
+}
+
+function fillStockStats(id, raw) {
+  try {
+    const clean = raw.replace(/```json|```/g, '').trim();
+    const d = JSON.parse(clean);
+    const priceEl = document.getElementById(`stat-price-${id}`);
+    const changeEl = document.getElementById(`stat-change-${id}`);
+    const mktcapEl = document.getElementById(`stat-mktcap-${id}`);
+    const revEl = document.getElementById(`stat-rev-${id}`);
+    if (priceEl) priceEl.textContent = d.price || '—';
+    if (changeEl && d.weeklyChange) {
+      const isUp = String(d.weeklyChange).startsWith('+') || parseFloat(d.weeklyChange) > 0;
+      changeEl.innerHTML = `<span class="${isUp ? 'up' : 'down'}">${d.weeklyChange}</span>`;
+    }
+    if (mktcapEl) mktcapEl.textContent = d.mktcap || '—';
+    if (revEl) revEl.textContent = d.revenue || '—';
+  } catch { 
+    const el = document.getElementById(`stat-price-${id}`);
+    if (el) el.textContent = '—';
+  }
+}
+
+function fillPrivateStats(id, raw) {
+  try {
+    const clean = raw.replace(/```json|```/g, '').trim();
+    const d = JSON.parse(clean);
+    const els = ['funding', 'raised', 'emp', 'lastfund'];
+    const vals = [d.fundingStage, d.totalRaised, d.employees, d.lastFunding];
+    els.forEach((k, i) => {
+      const el = document.getElementById(`stat-${k}-${id}`);
+      if (el) el.textContent = vals[i] || '—';
+    });
+  } catch {
+    const el = document.getElementById(`stat-funding-${id}`);
+    if (el) el.textContent = '—';
+  }
+}
+
+async function loadOverviewAI() {
+  const prompt = `You are a competitive intelligence analyst at PAR Technology (restaurant POS, payments, loyalty). Write a 3-4 sentence executive summary of the current restaurant technology competitive landscape, highlighting: (1) the biggest competitive threat to PAR right now, (2) one major industry trend in the past 30 days, (3) one M&A or funding event, and (4) one strategic opportunity for PAR. Be specific and data-driven. Current competitors tracked: Toast (TOST), DoorDash (DASH), NCR Voyix (VYX), Lightspeed (LSPD), Olo (private), Shift4/Revel (FOUR), Square/Block (SQ), Global Payments/Heartland (GPN), Fiserv/Clover (FI), Uber Eats (UBER), SpotOn, TouchBistro, Deliverect, Paytronix, Snackpass, Bikky, and others.`;
+  const text = await callClaude(prompt, 500);
+  document.getElementById('overviewAI').textContent = text;
+}
+
+async function loadHighlights() {
+  document.getElementById('highlightsContent').innerHTML = '<span class="news-loading"><span class="spinner"></span> Loading…</span>';
+  const prompt = `List 6 recent significant developments (last 1-2 weeks) across restaurant technology companies: Toast, DoorDash, NCR Voyix, Lightspeed, Shift4/Revel, Block/Square for Restaurants, Global Payments/Heartland, Fiserv/Clover, Uber Eats, SpotOn, Paytronix, Deliverect, Olo, TouchBistro. Return JSON array of {emoji, company, headline, time} — emoji should indicate type (📈 financial, 🤝 partnership, 🚀 product, 📰 news, ⚠️ risk). Be specific.`;
+  try {
+    const text = await callClaude(prompt, 600);
+    const clean = text.replace(/```json|```/g, '').trim();
+    const items = JSON.parse(clean);
+    document.getElementById('highlightsContent').innerHTML = items.map(i => `
+      <div class="highlight-row">
+        <span class="highlight-icon">${i.emoji}</span>
+        <span class="highlight-text"><strong>${i.company}</strong> — ${i.headline}</span>
+        <span class="highlight-time">${i.time}</span>
+      </div>`).join('');
+    document.getElementById('alertCount').textContent = items.filter(i => i.emoji === '⚠️').length;
+    document.getElementById('newsCount').textContent = items.length;
+  } catch(e) {
+    document.getElementById('highlightsContent').innerHTML = '<p style="color:var(--text3);font-size:13px;padding:12px 0;">Could not load highlights.</p>';
+  }
+}
+
+async function loadGlobalNews() {
+  const prompt = `Search for the 8 most recent and relevant news items about restaurant technology companies (Toast, DoorDash, NCR Voyix, Lightspeed, Shift4, Square for Restaurants, Global Payments Heartland, Fiserv Clover, Uber Eats, SpotOn, Paytronix, Olo, Deliverect, Snackpass, Bikky, TouchBistro). Prioritize: restauranttechnologynews.com, restaurantdive.com, nrn.com, restaurantbusinessonline.com, hospitalitytech.com, Yahoo Finance. Return JSON array of {headline, company, source, date, url, type} where type is "public" or "private".`;
+  try {
+    const text = await callClaude(prompt, 700);
+    const clean = text.replace(/```json|```/g, '').trim();
+    const items = JSON.parse(clean);
+    window._globalNews = items;
+    renderGlobalNews(items);
+  } catch {
+    document.getElementById('globalNewsContent').innerHTML = '<p style="color:var(--text3);font-size:13px;padding:12px 0;">Unable to load news feed.</p>';
+  }
+}
+
+function renderGlobalNews(items) {
+  document.getElementById('globalNewsContent').innerHTML = items.map(item => `
+    <div class="news-item" data-type="${item.type}">
+      <div class="news-source">${item.source} · <span style="color:var(--accent-text)">${item.company}</span></div>
+      <div class="news-headline" onclick="window.open('${item.url || '#'}','_blank')">${item.headline}</div>
+      <div class="news-meta">${item.date || ''}</div>
+    </div>`).join('');
+}
+
+function filterNews(type, btn) {
+  document.querySelectorAll('.filter-chips .chip').forEach(c => c.classList.remove('active'));
+  btn.classList.add('active');
+  if (!window._globalNews) return;
+  const filtered = type === 'all' ? window._globalNews : window._globalNews.filter(i => i.type === type || (type === 'financial' && i.company && ['Toast','DoorDash','NCR Voyix','Lightspeed','Shift4','Block','Global Payments','Fiserv','Uber'].includes(i.company)));
+  renderGlobalNews(filtered);
+}
+
+async function loadEmailPreview(type) {
+  document.getElementById('emailPreviewContent').innerHTML = '<span class="news-loading"><span class="spinner"></span> Generating digest…</span>';
+  const isMonday = type === 'monday';
+  const prompt = isMonday
+    ? `Generate a sample Monday 9:30am ET PAR Intel Digest email for PAR Technology's competitive intelligence team. Include: (1) subject line, (2) market open summary for public restaurant tech stocks, (3) top 3 competitor news items from the past week, (4) one financial metric change of note (e.g. Toast stock movement, DoorDash earnings update), (5) one PAR strategic takeaway. Format clearly with section headers. Be specific and realistic.`
+    : `Generate a sample Friday 4:00pm ET PAR Intel Digest email for PAR Technology's competitive intelligence team. Include: (1) subject line, (2) weekly recap of key events across competitors, (3) notable product launches or partnerships, (4) financial performance summary for public cos, (5) private company news, (6) one key strategic implication for PAR. Format clearly with section headers.`;
+  const text = await callClaude(prompt, 800);
+  const today = new Date().toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric' });
+  document.getElementById('emailPreviewContent').innerHTML = `
+    <div class="email-preview">
+      <div style="font-size:11px;color:var(--text3);margin-bottom:12px;padding-bottom:12px;border-bottom:0.5px solid var(--border);">
+        <strong>To:</strong> PAR Intel Subscribers &nbsp;·&nbsp; <strong>From:</strong> intel@par.com &nbsp;·&nbsp; <strong>Sent:</strong> ${today}, ${isMonday ? '9:30 AM ET' : '4:00 PM ET'}
+      </div>
+      <div style="font-size:13px;line-height:1.8;color:var(--text);white-space:pre-wrap;">${text}</div>
+    </div>`;
+}
+
+function switchEmailTab(type, btn) {
+  currentEmailTab = type;
+  document.querySelectorAll('#view-email-preview .tab').forEach(t => t.classList.remove('active'));
+  btn.classList.add('active');
+  loadEmailPreview(type);
+}
+
+function buildStockChart() {
+  const labels = ['TOST','DASH','VYX','LSPD','FOUR','SQ','GPN','FI','UBER'];
+  const data = [2.3, -1.1, 0.8, -2.4, 1.5, 3.1, -0.3, 0.6, 1.8];
+  const colors = data.map(v => v >= 0 ? '#3b6d11' : '#a32d2d');
+  const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  new Chart(document.getElementById('stockChart'), {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [{
+        label: 'Weekly % change',
+        data,
+        backgroundColor: colors,
+        borderRadius: 3,
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => (ctx.raw > 0 ? '+' : '') + ctx.raw + '%' } } },
+      scales: {
+        x: { ticks: { color: isDark ? '#888780' : '#5f5e5a', font: { size: 11 } }, grid: { display: false } },
+        y: { ticks: { color: isDark ? '#888780' : '#5f5e5a', font: { size: 11 }, callback: v => v + '%' }, grid: { color: isDark ? 'rgba(255,255,255,0.06)' : 'rgba(0,0,0,0.06)' } }
+      }
+    }
+  });
+  document.getElementById('stockUpdated').textContent = 'Indicative — live data loads per company';
+}
+
+function setNextDigest() {
+  const now = new Date();
+  const day = now.getDay();
+  let next, type;
+  if (day < 1 || (day === 1 && now.getHours() < 9)) { type = 'Monday open'; next = daysUntil(1); }
+  else if (day < 5 || (day === 5 && now.getHours() < 16)) { type = 'Friday close'; next = daysUntil(5); }
+  else { type = 'Monday open'; next = daysUntil(8); }
+  document.getElementById('nextDigest').textContent = next;
+  document.getElementById('nextDigestType').textContent = type + ' digest';
+}
+function daysUntil(targetDay) {
+  const now = new Date();
+  const d = now.getDay();
+  const diff = ((targetDay - d + 7) % 7) || 7;
+  return diff === 0 ? 'Today' : diff === 1 ? 'Tomorrow' : `${diff} days`;
+}
+
+async function callClaude(prompt, maxTokens = 800) {
+  const resp = await fetch('https://api.anthropic.com/v1/messages', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      model: 'claude-sonnet-4-20250514',
+      max_tokens: maxTokens,
+      tools: [{ type: 'web_search_20250305', name: 'web_search' }],
+      messages: [{ role: 'user', content: prompt }]
+    })
+  });
+  const data = await resp.json();
+  return data.content.filter(b => b.type === 'text').map(b => b.text).join('\n');
+}
+
+function openSubscribe() {
+  document.getElementById('subscribeModal').classList.add('open');
+  document.getElementById('subSuccess').style.display = 'none';
+}
+function closeSubscribe() { document.getElementById('subscribeModal').classList.remove('open'); }
+function submitSubscribe() {
+  const email = document.getElementById('subEmail').value.trim();
+  const name = document.getElementById('subName').value.trim();
+  if (!email || !email.includes('@')) { alert('Please enter a valid email.'); return; }
+  const sub = { email, name, role: document.getElementById('subRole').value.trim(), subscribedAt: new Date().toISOString() };
+  subscribers.push(sub);
+  try { localStorage.setItem('par_intel_subs', JSON.stringify(subscribers)); } catch {}
+  document.getElementById('subSuccess').style.display = 'block';
+  setTimeout(closeSubscribe, 2500);
+}
+
+async function refreshAll() {
+  document.getElementById('refreshBtn').innerHTML = '<span class="spinner" style="display:inline-block;width:13px;height:13px;"></span> Refreshing…';
+  document.getElementById('lastUpdated').textContent = 'Refreshing…';
+  await Promise.all([loadOverviewAI(), loadHighlights(), loadGlobalNews()]);
+  document.getElementById('refreshBtn').innerHTML = '↻ Refresh All';
+  document.getElementById('lastUpdated').textContent = 'Last refreshed: ' + new Date().toLocaleTimeString();
+}
+
+document.getElementById('subscribeModal').onclick = function(e) { if (e.target === this) closeSubscribe(); };
+
+function addEmailPreviewToSidebar() {
+  const section = document.createElement('div');
+  section.className = 'sidebar-section';
+  section.innerHTML = `<div class="sidebar-label">Tools</div>
+    <div class="sidebar-item" onclick="showEmailPreview(this)" style="cursor:pointer;">
+      <span style="font-size:14px;">✉</span>
+      <span class="comp-name">Email digest preview</span>
+    </div>`;
+  document.querySelector('.sidebar').appendChild(section);
+}
+
+function showEmailPreview(el) {
+  showView('email-preview', el);
+  loadEmailPreview('monday');
+}
+
+// Init
+buildSidebar();
+addEmailPreviewToSidebar();
+buildStockChart();
+setNextDigest();
+setTimeout(() => { loadOverviewAI(); loadHighlights(); loadGlobalNews(); }, 300);
+document.getElementById('lastUpdated').textContent = 'Last refreshed: ' + new Date().toLocaleTimeString();
+</script>
+</body>
+</html>
