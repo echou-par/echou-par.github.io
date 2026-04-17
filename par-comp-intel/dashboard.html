@@ -13,56 +13,77 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PAR Competitor Intelligence Dashboard</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%232F3452'/%3E%3Ctext x='16' y='22' font-family='Arial,sans-serif' font-size='16' font-weight='800' text-anchor='middle' fill='%236864D1'%3EP%3C/text%3E%3C/svg%3E">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;700;800&display=swap" rel="stylesheet">
 <style>
   :root {
+    /* PAR brand palette */
+    --par-0: #212438;  /* Deepest dark — footers, secondary dark surfaces */
+    --par-1: #2F3452;  /* Primary dark — headings, body text */
+    --par-2: #8C9FFF;  /* Light accent */
+    --par-2-tint: #F3F5FF;  /* 10% tint of PAR 2 — standard off-white bg */
+    --par-3: #6864D1;  /* Purple accent — CTAs, emphasis */
+    --par-4: #FF5719;  /* Orange-red — alerts, key data */
+    --par-5: #F8931C;  /* Warm amber — secondary accents */
+    /* Alternative (status indicators — use standalone) */
+    --alt-green: #34C679;  /* Correct / Approved / Up */
+    --alt-red:   #FF2751;  /* Error / Denied / Down */
+
+    /* Applied tokens — LIGHT mode */
     --bg: #ffffff;
-    --bg2: #f8f8f6;
-    --bg3: #f1efe8;
-    --text: #1a1a1a;
-    --text2: #5f5e5a;
-    --text3: #888780;
-    --border: rgba(0,0,0,0.12);
-    --border2: rgba(0,0,0,0.22);
-    --accent: #3266ad;
-    --accent-bg: #e6f1fb;
-    --accent-text: #0c447c;
-    --green: #3b6d11;
-    --green-bg: #eaf3de;
-    --red: #a32d2d;
-    --red-bg: #fcebeb;
-    --amber: #854f0b;
-    --amber-bg: #faeeda;
-    --purple: #534ab7;
-    --purple-bg: #eeedfe;
+    --bg2: #F3F5FF;              /* PAR 2 tint as surface */
+    --bg3: #F3F5FF;              /* off-white page bg */
+    --text: #2F3452;             /* PAR 1 primary */
+    --text2: #5a607a;
+    --text3: #8a90a8;
+    --border: rgba(47, 52, 82, 0.12);
+    --border2: rgba(47, 52, 82, 0.22);
+    --accent: #6864D1;            /* PAR 3 purple = primary accent */
+    --accent-bg: #F3F5FF;         /* PAR 2 tint */
+    --accent-text: #6864D1;       /* PAR 3 */
+    --green: #34C679;             /* ALT green = up/approved */
+    --green-bg: rgba(52, 198, 121, 0.12);
+    --red: #FF2751;               /* ALT red = down/denied */
+    --red-bg: rgba(255, 39, 81, 0.10);
+    --amber: #F8931C;             /* PAR 5 */
+    --amber-bg: rgba(248, 147, 28, 0.14);
+    --purple: #6864D1;            /* PAR 3 */
+    --purple-bg: rgba(104, 100, 209, 0.12);
+    --orange: #FF5719;            /* PAR 4 — alerts */
+    --orange-bg: rgba(255, 87, 25, 0.12);
     --radius: 10px;
     --radius-sm: 6px;
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #1c1c1a;
-      --bg2: #242422;
-      --bg3: #2c2c2a;
-      --text: #f0ede8;
-      --text2: #b4b2a9;
-      --text3: #888780;
-      --border: rgba(255,255,255,0.12);
-      --border2: rgba(255,255,255,0.22);
-      --accent: #85b7eb;
-      --accent-bg: #042c53;
-      --accent-text: #b5d4f4;
-      --green: #97c459;
-      --green-bg: #173404;
-      --red: #f09595;
-      --red-bg: #501313;
-      --amber: #ef9f27;
-      --amber-bg: #412402;
-      --purple: #afa9ec;
-      --purple-bg: #26215c;
+      --bg: #212438;                  /* PAR 0 */
+      --bg2: #2F3452;                 /* PAR 1 */
+      --bg3: #1a1c2e;                 /* deeper than PAR 0 */
+      --text: #F3F5FF;                /* PAR 2 tint */
+      --text2: #8C9FFF;               /* PAR 2 */
+      --text3: #6a6f8a;
+      --border: rgba(140, 159, 255, 0.15);
+      --border2: rgba(140, 159, 255, 0.28);
+      --accent: #8C9FFF;              /* PAR 2 = lighter for dark bg */
+      --accent-bg: rgba(104, 100, 209, 0.18);  /* PAR 3 translucent */
+      --accent-text: #8C9FFF;
+      --green: #34C679;
+      --green-bg: rgba(52, 198, 121, 0.15);
+      --red: #FF2751;
+      --red-bg: rgba(255, 39, 81, 0.15);
+      --amber: #F8931C;
+      --amber-bg: rgba(248, 147, 28, 0.18);
+      --purple: #8C9FFF;
+      --purple-bg: rgba(104, 100, 209, 0.2);
+      --orange: #FF5719;
+      --orange-bg: rgba(255, 87, 25, 0.15);
     }
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg3); color: var(--text); font-size: 14px; line-height: 1.5; }
+  body { font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg3); color: var(--text); font-size: 14px; line-height: 1.5; }
 
   /* Header */
   .header { background: var(--bg); border-bottom: 0.5px solid var(--border); padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
@@ -393,7 +414,7 @@
 
 <script>
 const COMPETITORS = [
-  { id: 'par', name: 'PAR Technology', ticker: 'PAR', exchange: 'NYSE', type: 'public', category: 'Restaurant Technology', website: 'partech.com', description: 'PAR Technology — restaurant POS (Brink), loyalty (Punchh), payments, and data platform. This is us.', isSelf: true },
+  { id: 'par', name: 'PAR Technology', ticker: 'PAR', exchange: 'NYSE', type: 'public', category: 'Restaurant Technology', website: 'partech.com', description: 'Restaurant technology company. POS (PAR POS / Brink), loyalty (Punchh), payments, data.', isSelf: true },
   { id: 'tost', name: 'Toast', ticker: 'TOST', exchange: 'NYSE', type: 'public', category: 'POS / Payments', website: 'toasttab.com', description: 'Restaurant management platform and POS with integrated payments, marketing, and operations.' },
   { id: 'dash', name: 'DoorDash', ticker: 'DASH', exchange: 'NYSE', type: 'public', category: 'Delivery / Marketplace', website: 'doordash.com', description: 'Food delivery marketplace and logistics platform for restaurants.' },
   { id: 'vyx', name: 'NCR Voyix', ticker: 'VYX', exchange: 'NYSE', type: 'public', category: 'POS / Technology', website: 'ncrvoyix.com', description: 'Restaurant and retail technology including POS, payments, and digital solutions.' },
@@ -1129,7 +1150,7 @@ async function buildStockChart(range = '1W') {
 
   const labels = ordered.map(d => d.ticker);
   const data = ordered.map(d => d.change_pct);
-  const colors = ordered.map(d => d.ticker === 'PAR' ? '#3266ad' : (d.change_pct >= 0 ? '#3b6d11' : '#a32d2d'));
+  const colors = ordered.map(d => d.ticker === 'PAR' ? '#6864D1' : (d.change_pct >= 0 ? '#34C679' : '#FF2751'));
 
   const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
   if (stockChartInstance) { stockChartInstance.destroy(); stockChartInstance = null; }
@@ -1148,8 +1169,8 @@ async function buildStockChart(range = '1W') {
         tooltip: { callbacks: { label: ctx => (ctx.raw > 0 ? '+' : '') + ctx.raw.toFixed(1) + '%' } }
       },
       scales: {
-        x: { ticks: { color: isDark ? '#888780' : '#5f5e5a', font: { size: 11 }, autoSkip: false }, grid: { display: false } },
-        y: { ticks: { color: isDark ? '#888780' : '#5f5e5a', font: { size: 11 }, callback: v => v + '%' }, grid: { color: isDark ? 'rgba(255,255,255,0.06)' : 'rgba(0,0,0,0.06)' } }
+        x: { ticks: { color: isDark ? '#8C9FFF' : '#5a607a', font: { size: 11, family: 'Manrope' }, autoSkip: false }, grid: { display: false } },
+        y: { ticks: { color: isDark ? '#8C9FFF' : '#5a607a', font: { size: 11, family: 'Manrope' }, callback: v => v + '%' }, grid: { color: isDark ? 'rgba(140,159,255,0.08)' : 'rgba(47,52,82,0.08)', borderDash: [2, 3] } }
       }
     }
   });
@@ -1435,7 +1456,7 @@ async function showPARSummary(sidebarEl) {
         <div style="flex:1;min-width:300px;">
           <div style="font-size:11px;font-weight:600;color:var(--accent);text-transform:uppercase;letter-spacing:0.8px;margin-bottom:4px;">Company Summary</div>
           <h2 style="font-size:24px;font-weight:500;margin:0 0 4px;color:var(--text);">PAR Technology</h2>
-          <div style="font-size:13px;color:var(--text2);margin-bottom:10px;">Restaurant technology company. POS (Brink, Punchh), loyalty, payments, data.</div>
+          <div style="font-size:13px;color:var(--text2);margin-bottom:10px;">Restaurant technology company. POS (PAR POS / Brink), loyalty (Punchh), payments, data.</div>
           <div style="display:flex;gap:8px;flex-wrap:wrap;">
             <span class="tag tag-public">NYSE: PAR</span>
             <span class="tag tag-category">Restaurant Tech</span>
