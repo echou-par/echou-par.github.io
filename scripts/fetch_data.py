@@ -636,6 +636,126 @@ def fetch_rss(name, url):
         return []
 
 
+def fetch_content_source(company, url, content_type, source_label):
+    """Fetch one per-competitor content source (blog_rss / press_rss / changelog_rss).
+
+    Silent failure: returns [] on 403/404/non-XML/empty feed/any exception.
+    Never raises — a per-competitor config entry is best-effort.
+    content_type is set on every returned item so downstream code can distinguish
+    product updates from general news.
+    """
+    if not url:
+        return []
+    try:
+        res = requests.get(url, headers=HEADERS, timeout=12)
+        # Don't raise on 403/404; just skip quietly. Real feeds may have rate limits or
+        # geo-blocks that we shouldn't fail the whole run over.
+        if res.status_code != 200:
+            print(f'    [{content_type}] {company}: HTTP {res.status_code} — skipped')
+            return []
+
+        # Try to parse as a feed. feedparser is lenient so it usually returns something,
+        # but empty entries list = not a real feed.
+        feed = feedparser.parse(res.text)
+        if not feed.entries:
+            # Last-ditch: check if the response body looks like it could be a sitemap
+            # or HTML landing page (not a feed). Skip silently.
+            print(f'    [{content_type}] {company}: no feed entries in response — skipped')
+            return []
+
+        items = []
+        for entry in feed.entries[:25]:
+            headline = entry.get('title', '').strip()
+            if not headline:
+                continue
+            url_item = entry.get('link', '')
+            if not url_item:
+                continue
+            items.append({
+                'headline': headline,
+                'url': url_item,
+                'date': entry.get('published', entry.get('updated', '')),
+                'source': source_label,
+                'company': company,
+                'type': 'private' if company in PRIVATE_COMPANIES else 'public',
+                'content_type': content_type,
+            })
+        return items
+    except Exception as e:
+        # Silent — log for debugging but don't fail the run
+        print(f'    [{content_type}] {company}: {type(e).__name__}: {str(e)[:80]} — skipped')
+        return []
+
+
+def fetch_product_updates():
+    """Loop COMPETITOR_CONTENT_SOURCES and fetch all configured RSS/feed endpoints.
+
+    Returns a list of items tagged with content_type: 'product_release' | 'press_release'
+    | 'changelog' | 'site_news'. The first three come from per-competitor direct RSS;
+    site_news items come from Google News site: queries.
+
+    Each content source is hit once per call. The caller decides the cadence (daily vs
+    every-30-min) via the --with-product-updates flag.
+    """
+    all_items = []
+    print('\nFetching per-competitor product updates (daily pass)…')
+
+    for company, sources in COMPETITOR_CONTENT_SOURCES.items():
+        comp_items = []
+
+        # Direct RSS feeds (if configured)
+        if sources.get('blog_rss'):
+            items = fetch_content_source(company, sources['blog_rss'], 'product_release', f'{company} blog')
+            comp_items.extend(items)
+            time.sleep(0.3)
+        if sources.get('press_rss'):
+            items = fetch_content_source(company, sources['press_rss'], 'press_release', f'{company} newsroom')
+            comp_items.extend(items)
+            time.sleep(0.3)
+        if sources.get('changelog_rss'):
+            items = fetch_content_source(company, sources['changelog_rss'], 'changelog', f'{company} changelog')
+            comp_items.extend(items)
+            time.sleep(0.3)
+
+        # Google News site: query — second pass with a domain-restricted query,
+        # catches product announcements that didn't come through direct RSS
+        if sources.get('site_domain'):
+            site_query = f'site%3A{sources["site_domain"]}'
+            url = f'https://news.google.com/rss/search?q={site_query}&hl=en-US&gl=US&ceid=US:en'
+            try:
+                res = requests.get(url, headers=HEADERS, timeout=12)
+                if res.status_code == 200:
+                    feed = feedparser.parse(res.text)
+                    for entry in feed.entries[:10]:
+                        headline = entry.get('title', '').strip()
+                        if not headline:
+                            continue
+                        comp_items.append({
+                            'headline': headline,
+                            'url': entry.get('link', ''),
+                            'date': entry.get('published', ''),
+                            'source': f'Google News ({sources["site_domain"]})',
+                            'company': company,
+                            'type': 'private' if company in PRIVATE_COMPANIES else 'public',
+                            'content_type': 'site_news',
+                        })
+                else:
+                    print(f'    [site_news] {company}: HTTP {res.status_code} — skipped')
+            except Exception as e:
+                print(f'    [site_news] {company}: {type(e).__name__}: {str(e)[:80]} — skipped')
+            time.sleep(0.4)
+
+        if comp_items:
+            print(f'  {company}: {len(comp_items)} product-update items '
+                  f'(blog={sum(1 for i in comp_items if i["content_type"]=="product_release")}, '
+                  f'changelog={sum(1 for i in comp_items if i["content_type"]=="changelog")}, '
+                  f'site={sum(1 for i in comp_items if i["content_type"]=="site_news")})')
+        all_items.extend(comp_items)
+
+    print(f'  Total product-update items fetched: {len(all_items)}')
+    return all_items
+
+
 def parse_dt(s):
     if not s:
         return datetime.min.replace(tzinfo=timezone.utc)
@@ -1190,6 +1310,14 @@ def write_history_snapshot(insights_data, now_iso):
 def main():
     now_iso = datetime.now(timezone.utc).isoformat()
 
+    # CLI flag: --with-product-updates includes the per-competitor content source
+    # pass (blog RSS, changelogs, site: queries). This is slower and uses more
+    # network, so it's gated — only runs on the daily cron schedule, not every
+    # 30-min refresh. Default is off.
+    with_product_updates = '--with-product-updates' in sys.argv
+    if with_product_updates:
+        print('Product-update pass enabled (daily run).')
+
     # Stock chart data
     print('Fetching stock chart data…')
     stock_data = {}
@@ -1242,15 +1370,51 @@ def main():
         all_news.extend(items)
         time.sleep(0.4)
 
+    # Product updates pass — only on daily cron run (flag-gated).
+    # Items are tagged with content_type: 'product_release' | 'press_release' |
+    # 'changelog' | 'site_news'. They merge into all_news and are subject to the
+    # same dedup logic, so a Toast blog post that's also on Google News won't
+    # appear twice. Falls back to content_type='press_general' for pre-existing
+    # items (set below).
+    if with_product_updates:
+        product_items = fetch_product_updates()
+        all_news.extend(product_items)
+
     for item in all_news:
         if not item.get('company'):
             detected = detect_company(item['headline'])
             item['company'] = detected or 'Industry'
         if not item.get('emoji'):
             item['emoji'] = pick_emoji(item['headline'])
+        # Default content_type for items from pre-existing sources (broad RSS,
+        # Yahoo news, per-competitor Google News). These are general press coverage.
+        if not item.get('content_type'):
+            item['content_type'] = 'press_general'
 
     relevant = [i for i in all_news if i.get('company') and i['company'] != 'Industry']
-    relevant.sort(key=lambda i: parse_dt(i.get('date', '')), reverse=True)
+
+    # Sort so that more-specific content types get into dedup first and win
+    # collisions. When the same headline is fetched from both a direct product
+    # blog RSS and Google News, we want the product_release tag to survive.
+    CONTENT_TYPE_PRIORITY = {
+        'product_release': 0,  # company blog — most authoritative for product info
+        'changelog': 0,        # release notes — equivalently authoritative
+        'press_release': 1,    # IR newsroom
+        'site_news': 2,        # Google News site: query (direct from domain)
+        'press_general': 3,    # general press (least specific)
+    }
+    # Sort tuple: (priority, -date_as_unix_seconds). Lower priority = earlier in list,
+    # then newer dates first within same priority.
+    def _sort_key(i):
+        prio = CONTENT_TYPE_PRIORITY.get(i.get('content_type', 'press_general'), 3)
+        dt = parse_dt(i.get('date', ''))
+        # Epoch seconds for stable ordering; datetime.min returns a very negative number
+        try:
+            secs = dt.timestamp()
+        except (OSError, OverflowError):
+            secs = 0
+        return (prio, -secs)
+    relevant.sort(key=_sort_key)
 
     # Dedup
     print('\nDeduplicating news…')
@@ -1263,6 +1427,10 @@ def main():
         seen_token_sets.append(tokens)
         deduped.append(item)
     print(f'  {len(relevant)} relevant → {len(deduped)} after dedup')
+
+    # Re-sort deduped back to chronological for final output (priority sort was
+    # just for dedup collision resolution)
+    deduped.sort(key=lambda i: parse_dt(i.get('date', '')), reverse=True)
 
     with open(os.path.join(OUT_DIR, 'news.json'), 'w') as f:
         json.dump({'updated': now_iso, 'items': deduped[:50]}, f, indent=2)

@@ -201,6 +201,13 @@
   .news-meta { font-size: 11px; color: var(--text3); }
   .news-loading { display: flex; align-items: center; gap: 8px; color: var(--text3); font-size: 13px; padding: 16px 0; }
 
+  /* Content-type pill — labels news items by their source type */
+  .content-type-pill { display: inline-block; font-size: 9px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; padding: 1px 6px; border-radius: 8px; margin-left: 6px; vertical-align: 1px; white-space: nowrap; }
+  .content-type-pill.product_release { background: rgba(104, 100, 209, 0.13); color: var(--accent); border: 0.5px solid rgba(104, 100, 209, 0.28); }
+  .content-type-pill.changelog { background: rgba(104, 100, 209, 0.13); color: var(--accent); border: 0.5px solid rgba(104, 100, 209, 0.28); }
+  .content-type-pill.press_release { background: rgba(47, 52, 82, 0.08); color: var(--text); border: 0.5px solid var(--border); }
+  .content-type-pill.site_news { background: var(--bg2); color: var(--text3); border: 0.5px solid var(--border); }
+
   /* Spinner */
   .spinner { width: 16px; height: 16px; border: 2px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.7s linear infinite; flex-shrink: 0; }
   @keyframes spin { to { transform: rotate(360deg); } }
@@ -1118,7 +1125,7 @@ function renderCompetitorNews(compId, items, c) {
   }
   container.innerHTML = items.slice(0, 12).map(item => `
     <div class="news-item">
-      <div class="news-source">${item.source || 'Industry'} ${item.emoji ? ' · ' + item.emoji : ''}</div>
+      <div class="news-source">${item.source || 'Industry'} ${item.emoji ? ' · ' + item.emoji : ''}${contentTypePillHtml(item)}</div>
       <div class="news-headline" onclick="window.open('${(item.url || '#').replace(/'/g,'%27')}','_blank')">${item.headline}</div>
       <div class="news-meta">${formatDate(item.date)}${item.url ? ` · <a href="${item.url}" target="_blank" style="color:var(--accent);">Read ↗</a>` : ''}</div>
     </div>
@@ -1380,6 +1387,23 @@ function timeAgoShort(raw) {
   return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
 }
 
+// Content-type pill: renders a small label next to news headlines indicating
+// what kind of source it came from. Returns empty string for press_general
+// (most items) so the default chrome is unchanged.
+const CONTENT_TYPE_LABELS = {
+  product_release: 'Product Update',
+  changelog: 'Changelog',
+  press_release: 'Press Release',
+  site_news: 'Company Site',
+};
+function contentTypePillHtml(item) {
+  const ct = item && item.content_type;
+  if (!ct || ct === 'press_general') return '';
+  const label = CONTENT_TYPE_LABELS[ct];
+  if (!label) return '';
+  return ` <span class="content-type-pill ${ct}" title="Source type: ${label}">${label}</span>`;
+}
+
 // ─── Stock chart ────────────────────────────────────────────────────────────
 
 const TICKERS = ['PAR','TOST','DASH','VYX','LSPD','FOUR','XYZ','GPN','FISV','UBER'];
@@ -1471,7 +1495,7 @@ async function loadHighlights() {
   container.innerHTML = data.items.map(i => `
     <div class="highlight-row">
       <span class="highlight-icon">${i.emoji || '📰'}</span>
-      <span class="highlight-text"><strong>${i.company}</strong> — ${i.headline}${i.url ? ` <a href="${i.url}" target="_blank" style="color:var(--accent);font-size:11px;margin-left:4px;">Read ↗</a>` : ''}</span>
+      <span class="highlight-text"><strong>${i.company}</strong> — ${i.headline}${contentTypePillHtml(i)}${i.url ? ` <a href="${i.url}" target="_blank" style="color:var(--accent);font-size:11px;margin-left:4px;">Read ↗</a>` : ''}</span>
       <span class="highlight-time">${timeAgoShort(i.date)}</span>
     </div>
   `).join('');
@@ -1651,7 +1675,7 @@ async function loadGlobalNews() {
 function renderGlobalNews(items) {
   document.getElementById('globalNewsContent').innerHTML = items.map(item => `
     <div class="news-item" data-type="${item.type || 'trade'}">
-      <div class="news-source">${item.source || 'Industry source'} · <span style="color:var(--accent-text)">${item.company || 'Industry'}</span></div>
+      <div class="news-source">${item.source || 'Industry source'} · <span style="color:var(--accent-text)">${item.company || 'Industry'}</span>${contentTypePillHtml(item)}</div>
       <div class="news-headline" onclick="window.open('${(item.url || '#').replace(/'/g,'%27')}','_blank')">${item.headline}</div>
       <div class="news-meta">${formatDate(item.date)}</div>
     </div>
@@ -2433,7 +2457,7 @@ async function showPARSummary(sidebarEl) {
       <div id="par-news-detail">
         ${newsToShow.length ? newsToShow.map(item => `
           <div class="news-item">
-            <div class="news-source">${item.source || 'Industry'} ${item.emoji ? ' · ' + item.emoji : ''}</div>
+            <div class="news-source">${item.source || 'Industry'} ${item.emoji ? ' · ' + item.emoji : ''}${contentTypePillHtml(item)}</div>
             <div class="news-headline" onclick="window.open('${(item.url || '#').replace(/'/g,'%27')}','_blank')">${item.headline}</div>
             <div class="news-meta">${formatDate(item.date)}${item.url ? ` · <a href="${item.url}" target="_blank" style="color:var(--accent);">Read ↗</a>` : ''}</div>
           </div>
