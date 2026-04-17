@@ -131,14 +131,20 @@ def detect_company(text):
 
 def pick_emoji(headline):
     h = headline.lower()
-    if any(k in h for k in ['partner', 'integrat', 'deal ', 'teams up', 'joins force']):
+    # Use word-start boundary so "downgrade" matches "downgrades" but "risk" doesn't
+    # match "frisky" (since 'risk' starts at position 2 in 'frisky', not a word boundary).
+    def starts_word(word):
+        return re.search(r'\b' + re.escape(word), h) is not None
+
+    if any(k in h for k in ['partner', 'integrat', 'teams up', 'joins force']) or starts_word('deal'):
         return '🤝'
-    if any(k in h for k in ['launch', 'introduc', 'announces', 'unveils', 'debuts', 'new product']):
+    if any(k in h for k in ['launch', 'introduc', 'unveils', 'debuts', 'new product']) or starts_word('announce'):
         return '🚀'
-    if any(k in h for k in ['revenue', 'earnings', 'quarter', 'stock', 'shares', 'profit', 'loss', 'beat', 'miss', 'guidance', 'ipo', 'funding', 'raises', 'valuation', 'round']):
-        return '📈'
-    if any(k in h for k in ['lawsuit', 'investigation', 'decline', 'concern', 'risk', 'breach', 'downgrade', 'layoff']):
+    # Check risk BEFORE financial so "Seaport downgrades X stock" → ⚠️ not 📈
+    if any(starts_word(k) for k in ['lawsuit', 'investigation', 'decline', 'concern', 'risk', 'breach', 'downgrade', 'layoff']):
         return '⚠️'
+    if any(starts_word(k) for k in ['revenue', 'earning', 'quarter', 'stock', 'share', 'stake', 'profit', 'loss', 'beat', 'miss', 'guidance', 'ipo', 'funding', 'raises', 'valuation', 'round', 'upgrade']):
+        return '📈'
     return '📰'
 
 
@@ -466,6 +472,149 @@ def parse_dt(s):
     return datetime.min.replace(tzinfo=timezone.utc)
 
 
+def generate_insights(deduped_news, per_company, financials, stocks):
+    """
+    Derive specific, sourced insight bullets from the current news cycle.
+    Each insight is grounded in actual articles — no generic truisms.
+    Returns a list of {text, sources: [{title, url, source}]} dicts.
+    """
+    from collections import Counter
+    insights = []
+
+    # ── Signal 1: Cross-competitor clustered events ────────────────────────────
+    # When a single headline mentions multiple tracked companies, that's a cross-sector signal.
+    # Use word-boundary match to avoid false positives (e.g. "Revi" in "Review").
+    cross_mentions = []
+    tracked_names = set(COMPETITOR_QUERIES.keys()) | {'Block', 'Square'}
+    for item in deduped_news:
+        headline = item['headline']
+        mentioned = set()
+        for name in tracked_names:
+            if len(name) < 4:
+                continue
+            # Word-boundary regex — the name must be a whole word, not inside another word
+            pattern = r'\b' + re.escape(name) + r'\b'
+            if re.search(pattern, headline, re.IGNORECASE):
+                mentioned.add(name)
+        if len(mentioned) >= 2:
+            cross_mentions.append({'item': item, 'companies': sorted(mentioned)})
+
+    for cm in cross_mentions[:2]:
+        item = cm['item']
+        companies_str = ', '.join(cm['companies'])
+        insights.append({
+            'text': f"Cross-competitor event: {companies_str} appeared together in coverage — \"{item['headline'][:160]}\"",
+            'sources': [{
+                'title': item['headline'],
+                'url': item.get('url', ''),
+                'source': item.get('source', 'Industry'),
+            }],
+        })
+
+    # ── Signal 2: High-signal thematic density ──────────────────────────────────
+    # Prefer specific action-type items (🤝 partnerships, 🚀 products, ⚠️ risks) since
+    # financial/market items (📈) are noisy and common. Only surface 📈 with >=5 items.
+    emoji_labels_priority = [
+        ('🤝', 'partnership', 3),
+        ('🚀', 'product launch', 3),
+        ('⚠️', 'risk', 2),
+        ('📈', 'financial/market', 5),  # higher bar
+    ]
+    used_companies = set()
+    for emoji, label, threshold in emoji_labels_priority:
+        candidates = []
+        for company, items in per_company.items():
+            count = sum(1 for i in items if i.get('emoji') == emoji)
+            if count >= threshold and company not in used_companies:
+                candidates.append((company, count, items))
+        # Sort by count desc, take top 1-2 per emoji type
+        candidates.sort(key=lambda x: x[1], reverse=True)
+        for company, count, items in candidates[:2]:
+            relevant_items = [i for i in items if i.get('emoji') == emoji][:3]
+            insights.append({
+                'text': f"{company} shows concentrated {label} activity — {count} tracked {label} item{'s' if count != 1 else ''} this cycle. Latest: \"{relevant_items[0]['headline'][:140]}\"",
+                'sources': [
+                    {'title': i['headline'], 'url': i.get('url', ''), 'source': i.get('source', 'Industry')}
+                    for i in relevant_items
+                ],
+                'company': company,
+            })
+            used_companies.add(company)
+
+    # ── Signal 3: Notable stock moves (>5% weekly for ANY ticker) ───────────────
+    if stocks and stocks.get('1W'):
+        moves = stocks['1W']
+        big_movers = [m for m in moves if abs(m.get('change_pct') or 0) >= 5]
+        big_movers.sort(key=lambda m: abs(m.get('change_pct', 0)), reverse=True)
+        for mover in big_movers[:2]:  # reduced from 3 to 2
+            pct = mover['change_pct']
+            direction = 'gained' if pct > 0 else 'declined'
+            # Find supporting news for this company from deduped
+            supporting = [i for i in deduped_news if i['company'] == mover['company'] and i.get('emoji') in ('📈', '📰')][:2]
+            sources = [
+                {'title': i['headline'], 'url': i.get('url', ''), 'source': i.get('source', 'Industry')}
+                for i in supporting
+            ] or [{'title': f'{mover["ticker"]} on Yahoo Finance', 'url': f'https://finance.yahoo.com/quote/{mover["ticker"]}', 'source': 'Yahoo Finance'}]
+            insights.append({
+                'text': f"{mover['company']} ({mover['ticker']}) stock {direction} {abs(pct):.1f}% over the past week — material weekly move relative to broader cohort.",
+                'sources': sources,
+                'company': mover['company'],
+            })
+
+    # ── Signal 4: Risk items not already covered ─────────────────────────────────
+    risk_items = [i for i in deduped_news if i.get('emoji') == '⚠️']
+    for r in risk_items[:2]:
+        # Skip if we already have a risk cluster insight for this company
+        if any(ins.get('company') == r['company'] and 'risk' in ins.get('text', '').lower() for ins in insights):
+            continue
+        insights.append({
+            'text': f"Risk signal — {r['company']}: \"{r['headline'][:160]}\"",
+            'sources': [{'title': r['headline'], 'url': r.get('url', ''), 'source': r.get('source', 'Industry')}],
+            'company': r['company'],
+        })
+
+    # ── Signal 5: TTM revenue growth outlier ─────────────────────────────────────
+    if financials:
+        growth_rows = []
+        for ticker, fin in financials.items():
+            if fin.get('revenue_growth_yoy') is not None:
+                growth_rows.append((fin.get('company') or ticker, ticker, fin['revenue_growth_yoy']))
+        growth_rows.sort(key=lambda x: x[2], reverse=True)
+        if growth_rows:
+            top = growth_rows[0]
+            if top[2] > 0.2:
+                insights.append({
+                    'text': f"{top[0]} ({top[1]}) leading revenue growth at {top[2]*100:+.1f}% YoY — fastest grower among tracked public competitors.",
+                    'sources': [{'title': f'{top[0]} financials on Yahoo Finance', 'url': f'https://finance.yahoo.com/quote/{top[1]}/financials', 'source': 'Yahoo Finance'}],
+                    'company': top[0],
+                })
+
+    # De-dupe insights by text similarity and cap
+    seen = set()
+    final = []
+    for ins in insights:
+        key = re.sub(r'\W+', '', ins['text'].lower())[:100]
+        if key in seen:
+            continue
+        seen.add(key)
+        final.append(ins)
+        if len(final) >= 7:
+            break
+
+    # ── Most-mentioned companies (with counts for linking) ─────────────────────
+    most_mentioned = []
+    for company, items in sorted(per_company.items(), key=lambda kv: -len(kv[1]))[:8]:
+        most_mentioned.append({
+            'company': company,
+            'count': len(items),
+        })
+
+    return {
+        'insights': final,
+        'most_mentioned': most_mentioned,
+    }
+
+
 def main():
     now_iso = datetime.now(timezone.utc).isoformat()
 
@@ -597,6 +746,12 @@ def main():
     # Private company curated data (valuations, funding, employees)
     n_private = write_private_data(OUT_DIR)
     print(f'  Wrote private_companies.json ({n_private} companies)')
+
+    # AI-Intelligence Summary insights derived from news + financials
+    insights_data = generate_insights(deduped, per_comp, financials, stock_data)
+    with open(os.path.join(OUT_DIR, 'insights.json'), 'w') as f:
+        json.dump({'updated': now_iso, **insights_data}, f, indent=2)
+    print(f'  Wrote insights.json ({len(insights_data["insights"])} insights, {len(insights_data["most_mentioned"])} most-mentioned companies)')
 
     with open(os.path.join(OUT_DIR, 'manifest.json'), 'w') as f:
         json.dump({

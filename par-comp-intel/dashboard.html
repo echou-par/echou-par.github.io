@@ -1257,16 +1257,84 @@ function filterNews(type, btn) {
 
 async function loadOverviewAI() {
   const target = document.getElementById('overviewAI');
-  const news = await loadJSON('news.json');
+  const data = await loadJSON('insights.json');
 
-  const today = new Date().toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
-  let topEvents = '';
-  if (news && news.items && news.items.length) {
-    const topCompanies = [...new Set(news.items.slice(0, 6).map(i => i.company))].filter(c => c !== 'Industry');
-    topEvents = topCompanies.length ? ` Most-mentioned companies this cycle: ${topCompanies.join(', ')}.` : '';
+  if (!data || !data.insights) {
+    target.innerHTML = `<div style="color:var(--text3);font-size:13px;">Insights being refreshed — check back shortly.</div>`;
+    return;
   }
 
-  target.textContent = `Competitive landscape as of ${today}. The restaurant technology sector remains highly contested across POS, payments, loyalty, and delivery verticals. Toast continues to lead in SMB restaurant POS market share, while DoorDash and Uber Eats compete aggressively on delivery margins. Fiserv (Clover) and Global Payments (Heartland) are pressing PAR from the payments and enterprise angle, and SpotOn is gaining traction in mid-market. Key watch areas: Toast's enterprise push, Shift4/Revel's combined go-to-market, and private-market loyalty consolidation (Paytronix, Thanx, Hang).${topEvents}`;
+  const updatedStr = data.updated
+    ? new Date(data.updated).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })
+    : '';
+
+  // Render each insight as a bullet with inline citations
+  const insightHtml = data.insights.length === 0
+    ? '<div style="color:var(--text3);font-size:13px;padding:6px 0;">No significant signals detected in the current news cycle. Next refresh in ~30 minutes.</div>'
+    : data.insights.map(ins => {
+        const citations = (ins.sources || []).map((src, i) => {
+          const num = i + 1;
+          const srcLabel = src.source || 'Source';
+          if (src.url) {
+            return `<a href="${src.url}" target="_blank" style="color:var(--accent);text-decoration:none;margin-left:3px;font-size:11px;vertical-align:super;" title="${(src.title || '').replace(/"/g,'&quot;')} — ${srcLabel}">[${num}]</a>`;
+          }
+          return `<span style="color:var(--text3);margin-left:3px;font-size:11px;vertical-align:super;">[${num}]</span>`;
+        }).join('');
+        return `<div style="display:flex;gap:10px;margin-bottom:10px;align-items:flex-start;">
+          <span style="color:var(--purple);font-weight:700;line-height:1.6;">•</span>
+          <div style="flex:1;line-height:1.6;">${escapeHtml(ins.text)}${citations}</div>
+        </div>`;
+      }).join('');
+
+  // Most-mentioned companies with clickable counts
+  let mostMentionedHtml = '';
+  if (data.most_mentioned && data.most_mentioned.length) {
+    const links = data.most_mentioned.map(m => {
+      const comp = COMPETITORS.find(c => c.name === m.company || c.name.startsWith(m.company));
+      const clickable = comp
+        ? `<a href="#" onclick="navigateToCompetitor('${comp.id}');return false;" style="color:var(--accent);text-decoration:none;">${m.company} <span style="background:var(--accent-bg);color:var(--accent-text);padding:1px 6px;border-radius:10px;font-size:11px;font-weight:500;">${m.count}</span></a>`
+        : `<span>${m.company} <span style="background:var(--accent-bg);color:var(--accent-text);padding:1px 6px;border-radius:10px;font-size:11px;font-weight:500;">${m.count}</span></span>`;
+      return clickable;
+    }).join(' · ');
+    mostMentionedHtml = `
+      <div style="margin-top:14px;padding-top:12px;border-top:0.5px solid var(--border);">
+        <div style="font-size:11px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:0.6px;margin-bottom:6px;">Most-mentioned this cycle</div>
+        <div style="font-size:13px;line-height:2;">${links}</div>
+      </div>`;
+  }
+
+  // Sources legend (tiny footer explaining the [1][2] numbering)
+  const citationNote = data.insights.some(i => (i.sources || []).length > 0)
+    ? `<div style="margin-top:10px;font-size:11px;color:var(--text3);">Citation numbers in superscript link to source articles. Click any for the original piece.</div>`
+    : '';
+
+  target.innerHTML = `
+    <div style="font-size:11px;color:var(--text3);margin-bottom:10px;text-transform:uppercase;letter-spacing:0.5px;font-weight:600;">Signals detected ${updatedStr}</div>
+    ${insightHtml}
+    ${mostMentionedHtml}
+    ${citationNote}
+  `;
+}
+
+function escapeHtml(str) {
+  if (!str) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+function navigateToCompetitor(compId) {
+  const sidebarEl = document.querySelector(`.sidebar-item[data-id="${compId}"]`);
+  if (sidebarEl) {
+    // PAR has a different click handler
+    if (compId === 'par') {
+      showPARSummary(sidebarEl);
+    } else {
+      showCompetitor(compId, sidebarEl);
+    }
+  }
 }
 
 // ─── Email preview ────────────────────────────────────────────────────────────
