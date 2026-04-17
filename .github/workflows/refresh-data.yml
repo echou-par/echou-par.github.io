@@ -2,12 +2,16 @@ name: Refresh PAR Intel data
 
 on:
   schedule:
-    # Every 30 minutes
+    # Every 30 minutes (live refresh for dashboard)
     - cron: '*/30 * * * *'
-  workflow_dispatch:  # allow manual trigger
+    # Daily canonical snapshot at 9:30 AM ET — cover both EST (14:30 UTC) and EDT (13:30 UTC)
+    - cron: '30 13 * * *'
+    - cron: '30 14 * * *'
+  workflow_dispatch:  # allow manual trigger from GitHub UI
   push:
     paths:
       - 'scripts/fetch_data.py'
+      - 'scripts/private_company_data.py'
       - '.github/workflows/refresh-data.yml'
 
 permissions:
@@ -34,7 +38,7 @@ jobs:
         run: |
           git config user.name "PAR Intel Bot"
           git config user.email "actions@github.com"
-          git add par-comp-intel/data/
+          git add par-comp-intel/data/ par-comp-intel/history/
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else

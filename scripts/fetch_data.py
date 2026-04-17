@@ -12,7 +12,7 @@ import os
 import re
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 import requests
 import feedparser
 
@@ -615,6 +615,121 @@ def generate_insights(deduped_news, per_company, financials, stocks):
     }
 
 
+def write_history_snapshot(insights_data, now_iso):
+    """
+    Append today's insights to the historical daily log, stored in
+    par-comp-intel/history/insights-YYYY-MM-DD.json (date in America/New_York).
+    Merges additively: existing insights in the file are preserved, new ones appended,
+    deduplicated by normalized text. Prunes files older than 30 days.
+    Also maintains history/index.json for client discovery.
+    """
+    try:
+        # Use America/New_York since the business cares about ET "business days"
+        try:
+            import zoneinfo
+            et = datetime.now(zoneinfo.ZoneInfo('America/New_York'))
+        except Exception:
+            # Fallback — approximate ET as UTC-5 (close enough for date bucketing)
+            et = datetime.now(timezone.utc).astimezone(timezone(timedelta(hours=-5)))
+        date_str = et.strftime('%Y-%m-%d')
+        weekday = et.strftime('%A')
+
+        history_dir = os.path.join(os.path.dirname(OUT_DIR), 'history')
+        os.makedirs(history_dir, exist_ok=True)
+
+        today_file = os.path.join(history_dir, f'insights-{date_str}.json')
+
+        # Load existing insights for today (if any) so we can merge additively
+        existing_insights = []
+        existing_most_mentioned = []
+        first_seen_iso = now_iso
+        if os.path.exists(today_file):
+            try:
+                with open(today_file) as f:
+                    prev = json.load(f)
+                existing_insights = prev.get('insights', [])
+                existing_most_mentioned = prev.get('most_mentioned', [])
+                first_seen_iso = prev.get('first_seen', now_iso)
+            except Exception as e:
+                print(f'  Warning: could not read existing {today_file}: {e}')
+
+        # Normalize text for dedup so minor reformatting doesn't create duplicates
+        def text_key(ins):
+            return re.sub(r'\W+', '', ins.get('text', '').lower())[:140]
+
+        seen_keys = {text_key(ins) for ins in existing_insights}
+        merged_insights = list(existing_insights)  # start with what's already there
+        added_this_run = 0
+        for ins in insights_data.get('insights', []):
+            k = text_key(ins)
+            if k and k not in seen_keys:
+                seen_keys.add(k)
+                # Annotate when this insight first appeared in the cycle
+                merged_ins = dict(ins)
+                merged_ins.setdefault('first_detected', now_iso)
+                merged_insights.append(merged_ins)
+                added_this_run += 1
+
+        # For most-mentioned, keep the most recent counts (authoritative)
+        merged_most_mentioned = insights_data.get('most_mentioned', existing_most_mentioned)
+
+        snapshot = {
+            'date': date_str,
+            'weekday': weekday,
+            'first_seen': first_seen_iso,
+            'last_updated': now_iso,
+            'insights': merged_insights,
+            'most_mentioned': merged_most_mentioned,
+        }
+        with open(today_file, 'w') as f:
+            json.dump(snapshot, f, indent=2)
+        print(f'  Wrote history/insights-{date_str}.json ({len(merged_insights)} total insights, +{added_this_run} new this run)')
+
+        # Prune files older than 30 days
+        cutoff = et.date() - timedelta(days=30)
+        pruned = 0
+        for fname in os.listdir(history_dir):
+            m = re.match(r'^insights-(\d{4}-\d{2}-\d{2})\.json$', fname)
+            if not m:
+                continue
+            try:
+                file_date = datetime.strptime(m.group(1), '%Y-%m-%d').date()
+                if file_date < cutoff:
+                    os.remove(os.path.join(history_dir, fname))
+                    pruned += 1
+            except Exception:
+                pass
+        if pruned:
+            print(f'  Pruned {pruned} history file(s) older than 30 days')
+
+        # Rebuild index.json listing all available dates
+        dates = []
+        for fname in sorted(os.listdir(history_dir), reverse=True):
+            m = re.match(r'^insights-(\d{4}-\d{2}-\d{2})\.json$', fname)
+            if m:
+                date_key = m.group(1)
+                try:
+                    with open(os.path.join(history_dir, fname)) as f:
+                        s = json.load(f)
+                    dates.append({
+                        'date': date_key,
+                        'weekday': s.get('weekday', ''),
+                        'insight_count': len(s.get('insights', [])),
+                        'last_updated': s.get('last_updated', ''),
+                    })
+                except Exception:
+                    dates.append({'date': date_key, 'weekday': '', 'insight_count': 0, 'last_updated': ''})
+
+        with open(os.path.join(history_dir, 'index.json'), 'w') as f:
+            json.dump({'updated': now_iso, 'days': dates}, f, indent=2)
+        print(f'  Wrote history/index.json ({len(dates)} days tracked)')
+
+    except Exception as e:
+        print(f'  Error writing history snapshot: {e}')
+        import traceback
+        traceback.print_exc()
+
+
 def main():
     now_iso = datetime.now(timezone.utc).isoformat()
 
@@ -752,6 +867,9 @@ def main():
     with open(os.path.join(OUT_DIR, 'insights.json'), 'w') as f:
         json.dump({'updated': now_iso, **insights_data}, f, indent=2)
     print(f'  Wrote insights.json ({len(insights_data["insights"])} insights, {len(insights_data["most_mentioned"])} most-mentioned companies)')
+
+    # ── Historical daily snapshots (additive — never removes existing insights) ──
+    write_history_snapshot(insights_data, now_iso)
 
     with open(os.path.join(OUT_DIR, 'manifest.json'), 'w') as f:
         json.dump({

@@ -1253,24 +1253,57 @@ function filterNews(type, btn) {
   renderGlobalNews(filtered);
 }
 
-// ─── Overview AI summary ────────────────────────────────────────────────────
+// ─── Overview AI summary with historical browsing ─────────────────────────────
 
-async function loadOverviewAI() {
+let _historyIndex = null;  // {updated, days: [{date, weekday, insight_count, last_updated}, …]}
+let _currentHistoryDate = null;  // null = 'today' (live insights.json); otherwise 'YYYY-MM-DD'
+
+async function loadOverviewAI(targetDate = null) {
   const target = document.getElementById('overviewAI');
-  const data = await loadJSON('insights.json');
+  _currentHistoryDate = targetDate;
+
+  // Load the history index once (always fresh) so we know what dates are available
+  if (!_historyIndex) {
+    _historyIndex = await loadJSON('../history/index.json');
+  }
+
+  // Fetch the right data source
+  let data;
+  let sourceLabel;
+  if (targetDate) {
+    data = await loadJSON(`../history/insights-${targetDate}.json`);
+    sourceLabel = 'historical';
+  } else {
+    // Today — load the most recent snapshot. Prefer live insights.json but also
+    // merge in today's history file if it exists (so already-logged bullets aren't lost
+    // in the rare window where insights.json is mid-refresh).
+    data = await loadJSON('insights.json');
+    sourceLabel = 'today';
+  }
 
   if (!data || !data.insights) {
     target.innerHTML = `<div style="color:var(--text3);font-size:13px;">Insights being refreshed — check back shortly.</div>`;
     return;
   }
 
-  const updatedStr = data.updated
-    ? new Date(data.updated).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })
-    : '';
+  // Build the date picker dropdown
+  const pickerHtml = buildDatePickerHtml(_historyIndex, targetDate);
+
+  // Header label
+  let headerLabel;
+  if (targetDate) {
+    const d = new Date(targetDate + 'T12:00:00');
+    headerLabel = `Summary for ${d.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' })}`;
+  } else {
+    const updatedStr = data.updated || data.last_updated
+      ? new Date(data.updated || data.last_updated).toLocaleString('en-US', { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' })
+      : 'today';
+    headerLabel = `Live signals — last updated ${updatedStr}`;
+  }
 
   // Render each insight as a bullet with inline citations
   const insightHtml = data.insights.length === 0
-    ? '<div style="color:var(--text3);font-size:13px;padding:6px 0;">No significant signals detected in the current news cycle. Next refresh in ~30 minutes.</div>'
+    ? '<div style="color:var(--text3);font-size:13px;padding:6px 0;">No significant signals detected.</div>'
     : data.insights.map(ins => {
         const citations = (ins.sources || []).map((src, i) => {
           const num = i + 1;
@@ -1280,9 +1313,13 @@ async function loadOverviewAI() {
           }
           return `<span style="color:var(--text3);margin-left:3px;font-size:11px;vertical-align:super;">[${num}]</span>`;
         }).join('');
+        // First-detected time stamp for historical view
+        const firstDetected = ins.first_detected && targetDate
+          ? ` <span style="color:var(--text3);font-size:11px;margin-left:6px;">(${new Date(ins.first_detected).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })})</span>`
+          : '';
         return `<div style="display:flex;gap:10px;margin-bottom:10px;align-items:flex-start;">
           <span style="color:var(--purple);font-weight:700;line-height:1.6;">•</span>
-          <div style="flex:1;line-height:1.6;">${escapeHtml(ins.text)}${citations}</div>
+          <div style="flex:1;line-height:1.6;">${escapeHtml(ins.text)}${citations}${firstDetected}</div>
         </div>`;
       }).join('');
 
@@ -1303,17 +1340,36 @@ async function loadOverviewAI() {
       </div>`;
   }
 
-  // Sources legend (tiny footer explaining the [1][2] numbering)
   const citationNote = data.insights.some(i => (i.sources || []).length > 0)
-    ? `<div style="margin-top:10px;font-size:11px;color:var(--text3);">Citation numbers in superscript link to source articles. Click any for the original piece.</div>`
+    ? `<div style="margin-top:10px;font-size:11px;color:var(--text3);">Citation numbers in superscript link to source articles. Daily summaries retained for 30 days.</div>`
     : '';
 
   target.innerHTML = `
-    <div style="font-size:11px;color:var(--text3);margin-bottom:10px;text-transform:uppercase;letter-spacing:0.5px;font-weight:600;">Signals detected ${updatedStr}</div>
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;flex-wrap:wrap;gap:8px;">
+      <div style="font-size:11px;color:var(--text3);text-transform:uppercase;letter-spacing:0.5px;font-weight:600;">${headerLabel}</div>
+      ${pickerHtml}
+    </div>
     ${insightHtml}
     ${mostMentionedHtml}
     ${citationNote}
   `;
+}
+
+function buildDatePickerHtml(index, currentDate) {
+  if (!index || !index.days || index.days.length === 0) return '';
+
+  const opts = [`<option value="">Today (live)</option>`];
+  for (const d of index.days) {
+    const dt = new Date(d.date + 'T12:00:00');
+    const label = `${d.weekday || dt.toLocaleDateString('en-US', { weekday: 'short' })} · ${dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })} (${d.insight_count})`;
+    const selected = currentDate === d.date ? ' selected' : '';
+    opts.push(`<option value="${d.date}"${selected}>${label}</option>`);
+  }
+
+  return `<select onchange="loadOverviewAI(this.value || null)"
+    style="font-family:inherit;font-size:12px;padding:4px 8px;border-radius:6px;border:0.5px solid var(--border2);background:var(--bg);color:var(--text);cursor:pointer;">
+    ${opts.join('')}
+  </select>`;
 }
 
 function escapeHtml(str) {
@@ -1439,7 +1495,25 @@ function submitSubscribe() {
 async function refreshAll() {
   document.getElementById('refreshBtn').innerHTML = '<span class="spinner" style="display:inline-block;width:13px;height:13px;"></span> Refreshing…';
   document.getElementById('lastUpdated').textContent = 'Refreshing…';
+
+  // Clear all in-memory caches so everything fetches fresh
+  _financialsCache = null;
+  _privateDataCache = null;
+  stocksCache = null;
+  newsCache = {};
+  aiSummaryCache = {};
+  window._globalNews = null;
+  _currentHistoryDate = null;  // reset to today
+  _historyIndex = null;  // re-fetch index so new snapshot dates appear in picker
+
+  // Re-fetch sort data, then rebuild sidebar and chart
+  await preloadSortData();
+  buildSidebar();
+  await buildStockChart(currentRange);
+
+  // Re-fetch all overview content
   await Promise.all([loadOverviewAI(), loadHighlights(), loadGlobalNews()]);
+
   document.getElementById('refreshBtn').innerHTML = '↻ Refresh All';
   document.getElementById('lastUpdated').textContent = 'Last refreshed: ' + new Date().toLocaleTimeString();
 }
