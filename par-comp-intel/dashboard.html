@@ -755,19 +755,41 @@ const RANGE_PARAMS = {
   'YTD': { range: 'ytd', interval: '1wk' },
 };
 
+// Multi-proxy fetch with automatic fallback. Proxies used in order of reliability.
+const CORS_PROXIES = [
+  url => `https://corsproxy.io/?url=${encodeURIComponent(url)}`,
+  url => `https://api.codetabs.com/v1/proxy/?quest=${encodeURIComponent(url)}`,
+  url => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+];
+
+async function proxyFetch(targetUrl, timeoutMs = 9000) {
+  for (let i = 0; i < CORS_PROXIES.length; i++) {
+    try {
+      const res = await fetch(CORS_PROXIES[i](targetUrl), { signal: AbortSignal.timeout(timeoutMs) });
+      if (!res.ok) continue;
+      return await res.text();
+    } catch (e) {
+      // try next proxy
+      continue;
+    }
+  }
+  throw new Error('All proxies failed for ' + targetUrl);
+}
+
 async function fetchTickerChange(ticker, range) {
   try {
     const { range: r, interval } = RANGE_PARAMS[range];
     const url = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?range=${r}&interval=${interval}&events=history`;
-    const proxy = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
-    const res = await fetch(proxy, { signal: AbortSignal.timeout(8000) });
-    const json = await res.json();
-    const chart = JSON.parse(json.contents).chart.result[0];
-    const closes = chart.indicators.quote[0].close.filter(v => v != null);
+    const text = await proxyFetch(url, 9000);
+    const data = JSON.parse(text);
+    const chart = data.chart?.result?.[0];
+    if (!chart) return null;
+    const closes = (chart.indicators?.quote?.[0]?.close || []).filter(v => v != null);
     if (closes.length < 2) return null;
     const pct = ((closes[closes.length - 1] - closes[0]) / closes[0]) * 100;
     return Math.round(pct * 10) / 10;
-  } catch {
+  } catch (e) {
+    console.warn(`Failed ${ticker}:`, e.message);
     return null;
   }
 }
@@ -775,8 +797,15 @@ async function fetchTickerChange(ticker, range) {
 async function buildStockChart(range = '1W') {
   document.getElementById('stockUpdated').textContent = 'Fetching live data…';
 
-  // Fetch all tickers in parallel
-  const results = await Promise.all(TICKERS.map(t => fetchTickerChange(t, range)));
+  // Stagger requests in batches of 3 to avoid proxy rate limits
+  const results = [];
+  const BATCH = 3;
+  for (let i = 0; i < TICKERS.length; i += BATCH) {
+    const batch = TICKERS.slice(i, i + BATCH);
+    const batchResults = await Promise.all(batch.map(t => fetchTickerChange(t, range)));
+    results.push(...batchResults);
+    if (i + BATCH < TICKERS.length) await new Promise(r => setTimeout(r, 200));
+  }
 
   const labels = [], data = [], colors = [];
   TICKERS.forEach((t, i) => {
@@ -859,20 +888,29 @@ function detectCompany(text) {
 
 async function fetchRSSFeed(feed) {
   try {
-    const proxy = `https://api.allorigins.win/get?url=${encodeURIComponent(feed.url)}`;
-    const res = await fetch(proxy, { signal: AbortSignal.timeout(8000) });
-    const json = await res.json();
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(json.contents, 'text/xml');
-    const items = Array.from(doc.querySelectorAll('item')).slice(0, 20);
-    return items.map(item => ({
-      headline: item.querySelector('title')?.textContent?.trim() || '',
-      url: item.querySelector('link')?.textContent?.trim() || '',
-      date: item.querySelector('pubDate')?.textContent?.trim() || '',
-      source: feed.name,
-      type: 'trade',
-    })).filter(i => i.headline);
-  } catch {
+    const text = await proxyFetch(feed.url, 10000);
+    const doc = new DOMParser().parseFromString(text, 'text/xml');
+    // Try RSS <item> first, then Atom <entry>
+    let nodes = Array.from(doc.querySelectorAll('item'));
+    if (!nodes.length) nodes = Array.from(doc.querySelectorAll('entry'));
+    nodes = nodes.slice(0, 30);
+    return nodes.map(item => {
+      const getLink = () => {
+        const l = item.querySelector('link');
+        if (!l) return '';
+        // Atom: <link href="...">  |  RSS: <link>...</link>
+        return l.getAttribute('href') || l.textContent?.trim() || '';
+      };
+      return {
+        headline: (item.querySelector('title')?.textContent || '').trim(),
+        url: getLink(),
+        date: (item.querySelector('pubDate')?.textContent || item.querySelector('published')?.textContent || item.querySelector('updated')?.textContent || '').trim(),
+        source: feed.name,
+        type: 'trade',
+      };
+    }).filter(i => i.headline);
+  } catch (e) {
+    console.warn(`RSS failed ${feed.name}:`, e.message);
     return [];
   }
 }
@@ -883,24 +921,30 @@ async function loadGlobalNews() {
     const allFeeds = await Promise.all(RSS_FEEDS.map(fetchRSSFeed));
     let all = allFeeds.flat();
 
-    // Also fetch Yahoo Finance RSS for public tickers
-    const yahooFeeds = await Promise.all(['TOST','DASH','FOUR','SQ','UBER','PAR'].map(async ticker => {
-      try {
-        const url = `https://feeds.finance.yahoo.com/rss/2.0/headline?s=${ticker}&region=US&lang=en-US`;
-        const proxy = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
-        const res = await fetch(proxy, { signal: AbortSignal.timeout(6000) });
-        const json = await res.json();
-        const doc = new DOMParser().parseFromString(json.contents, 'text/xml');
-        return Array.from(doc.querySelectorAll('item')).slice(0, 4).map(item => ({
-          headline: item.querySelector('title')?.textContent?.trim() || '',
-          url: item.querySelector('link')?.textContent?.trim() || '',
-          date: item.querySelector('pubDate')?.textContent?.trim() || '',
-          source: `Yahoo Finance (${ticker})`,
-          type: 'public',
-          company: { TOST:'Toast',DASH:'DoorDash',FOUR:'Shift4',SQ:'Square',UBER:'Uber',PAR:'PAR' }[ticker],
-        })).filter(i => i.headline);
-      } catch { return []; }
-    }));
+    // Fetch Yahoo Finance RSS for public tickers — staggered
+    const yfTickers = ['PAR','TOST','DASH','FOUR','SQ','UBER','VYX','LSPD','GPN','FI'];
+    const yfCompanyMap = { PAR:'PAR',TOST:'Toast',DASH:'DoorDash',FOUR:'Shift4',SQ:'Square',UBER:'Uber',VYX:'NCR Voyix',LSPD:'Lightspeed',GPN:'Global Payments',FI:'Fiserv' };
+    const yahooFeeds = [];
+    for (let i = 0; i < yfTickers.length; i += 3) {
+      const batch = yfTickers.slice(i, i + 3);
+      const results = await Promise.all(batch.map(async ticker => {
+        try {
+          const url = `https://feeds.finance.yahoo.com/rss/2.0/headline?s=${ticker}&region=US&lang=en-US`;
+          const text = await proxyFetch(url, 8000);
+          const doc = new DOMParser().parseFromString(text, 'text/xml');
+          return Array.from(doc.querySelectorAll('item')).slice(0, 3).map(item => ({
+            headline: (item.querySelector('title')?.textContent || '').trim(),
+            url: (item.querySelector('link')?.textContent || '').trim(),
+            date: (item.querySelector('pubDate')?.textContent || '').trim(),
+            source: `Yahoo Finance (${ticker})`,
+            type: 'public',
+            company: yfCompanyMap[ticker],
+          })).filter(i => i.headline);
+        } catch { return []; }
+      }));
+      yahooFeeds.push(...results);
+      if (i + 3 < yfTickers.length) await new Promise(r => setTimeout(r, 150));
+    }
     all = all.concat(yahooFeeds.flat());
 
     // Tag company from headline for trade articles
@@ -928,22 +972,27 @@ async function loadHighlights() {
   try {
     // Pull from RSS and pick top items with company matches
     const allFeeds = await Promise.all(RSS_FEEDS.map(fetchRSSFeed));
-    const yahooItems = await Promise.all(['TOST','DASH','FOUR','SQ','UBER','PAR'].map(async ticker => {
-      try {
-        const url = `https://feeds.finance.yahoo.com/rss/2.0/headline?s=${ticker}&region=US&lang=en-US`;
-        const proxy = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
-        const res = await fetch(proxy, { signal: AbortSignal.timeout(6000) });
-        const json = await res.json();
-        const doc = new DOMParser().parseFromString(json.contents, 'text/xml');
-        const companyMap = { TOST:'Toast',DASH:'DoorDash',FOUR:'Shift4',SQ:'Square',UBER:'Uber',PAR:'PAR' };
-        return Array.from(doc.querySelectorAll('item')).slice(0, 2).map(item => ({
-          headline: item.querySelector('title')?.textContent?.trim() || '',
-          date: item.querySelector('pubDate')?.textContent?.trim() || '',
-          company: companyMap[ticker],
-          emoji: '📈',
-        })).filter(i => i.headline);
-      } catch { return []; }
-    }));
+    const hlTickers = ['PAR','TOST','DASH','FOUR','SQ','UBER','VYX','LSPD','GPN','FI'];
+    const hlCompanyMap = { PAR:'PAR',TOST:'Toast',DASH:'DoorDash',FOUR:'Shift4',SQ:'Square',UBER:'Uber',VYX:'NCR Voyix',LSPD:'Lightspeed',GPN:'Global Payments',FI:'Fiserv' };
+    const yahooItems = [];
+    for (let i = 0; i < hlTickers.length; i += 3) {
+      const batch = hlTickers.slice(i, i + 3);
+      const results = await Promise.all(batch.map(async ticker => {
+        try {
+          const url = `https://feeds.finance.yahoo.com/rss/2.0/headline?s=${ticker}&region=US&lang=en-US`;
+          const text = await proxyFetch(url, 8000);
+          const doc = new DOMParser().parseFromString(text, 'text/xml');
+          return Array.from(doc.querySelectorAll('item')).slice(0, 2).map(item => ({
+            headline: (item.querySelector('title')?.textContent || '').trim(),
+            date: (item.querySelector('pubDate')?.textContent || '').trim(),
+            company: hlCompanyMap[ticker],
+            emoji: '📈',
+          })).filter(i => i.headline);
+        } catch { return []; }
+      }));
+      yahooItems.push(...results);
+      if (i + 3 < hlTickers.length) await new Promise(r => setTimeout(r, 150));
+    }
 
     let all = allFeeds.flat().concat(yahooItems.flat());
     all = all.map(i => {
@@ -995,11 +1044,9 @@ async function loadOverviewAI() {
   let parHeadline = '';
   try {
     const url = 'https://feeds.finance.yahoo.com/rss/2.0/headline?s=PAR&region=US&lang=en-US';
-    const proxy = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
-    const res = await fetch(proxy, { signal: AbortSignal.timeout(6000) });
-    const json = await res.json();
-    const doc = new DOMParser().parseFromString(json.contents, 'text/xml');
-    parHeadline = doc.querySelector('item title')?.textContent?.trim() || '';
+    const text = await proxyFetch(url, 8000);
+    const doc = new DOMParser().parseFromString(text, 'text/xml');
+    parHeadline = (doc.querySelector('item title')?.textContent || '').trim();
   } catch {}
 
   const today = new Date().toLocaleDateString('en-US', { weekday:'long', month:'long', day:'numeric', year:'numeric' });
@@ -1107,45 +1154,42 @@ async function callClaude(prompt, maxTokens = 800) {
   if (ticker) {
     try {
       const url = `https://feeds.finance.yahoo.com/rss/2.0/headline?s=${ticker}&region=US&lang=en-US`;
-      const proxy = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
-      const res = await fetch(proxy, { signal: AbortSignal.timeout(8000) });
-      const json = await res.json();
-      const doc = new DOMParser().parseFromString(json.contents, 'text/xml');
+      const text = await proxyFetch(url, 8000);
+      const doc = new DOMParser().parseFromString(text, 'text/xml');
       const items = Array.from(doc.querySelectorAll('item')).slice(0, 6);
       const newsItems = items.map(i => ({
-        headline: i.querySelector('title')?.textContent?.trim() || '',
+        headline: (i.querySelector('title')?.textContent || '').trim(),
         source: 'Yahoo Finance',
         date: i.querySelector('pubDate')?.textContent ? new Date(i.querySelector('pubDate').textContent).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) : '',
-        url: i.querySelector('link')?.textContent?.trim() || '',
+        url: (i.querySelector('link')?.textContent || '').trim(),
         relevance: 'Latest headline',
       })).filter(i => i.headline);
       newsText = JSON.stringify(newsItems);
 
       // Fetch quote summary
       const quoteUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?range=5d&interval=1d`;
-      const qProxy = `https://api.allorigins.win/get?url=${encodeURIComponent(quoteUrl)}`;
-      const qRes = await fetch(qProxy, { signal: AbortSignal.timeout(8000) });
-      const qJson = await qRes.json();
-      const chart = JSON.parse(qJson.contents).chart.result[0];
-      const meta = chart.meta;
-      const closes = chart.indicators.quote[0].close.filter(v => v != null);
-      const weekPct = closes.length >= 2 ? (((closes[closes.length-1] - closes[0]) / closes[0]) * 100).toFixed(1) : '—';
-      statsJson = JSON.stringify({
-        price: meta.regularMarketPrice ? '$' + meta.regularMarketPrice.toFixed(2) : '—',
-        weeklyChange: weekPct !== '—' ? (weekPct > 0 ? '+' : '') + weekPct + '%' : '—',
-        mktcap: meta.marketCap ? '$' + (meta.marketCap / 1e9).toFixed(1) + 'B' : '—',
-        revenue: '—',
-      });
+      const qText = await proxyFetch(quoteUrl, 8000);
+      const qData = JSON.parse(qText);
+      const chart = qData.chart?.result?.[0];
+      if (chart) {
+        const meta = chart.meta || {};
+        const closes = (chart.indicators?.quote?.[0]?.close || []).filter(v => v != null);
+        const weekPct = closes.length >= 2 ? (((closes[closes.length-1] - closes[0]) / closes[0]) * 100).toFixed(1) : '—';
+        statsJson = JSON.stringify({
+          price: meta.regularMarketPrice ? '$' + meta.regularMarketPrice.toFixed(2) : '—',
+          weeklyChange: weekPct !== '—' ? (weekPct > 0 ? '+' : '') + weekPct + '%' : '—',
+          mktcap: meta.marketCap ? '$' + (meta.marketCap / 1e9).toFixed(1) + 'B' : '—',
+          revenue: '—',
+        });
+      }
     } catch(e) { console.warn('Yahoo fetch failed', e); }
   }
 
   // Fetch trade press RSS for company mentions
   try {
     const rssUrl = 'https://restauranttechnologynews.com/feed/';
-    const proxy = `https://api.allorigins.win/get?url=${encodeURIComponent(rssUrl)}`;
-    const res = await fetch(proxy, { signal: AbortSignal.timeout(6000) });
-    const json = await res.json();
-    const doc = new DOMParser().parseFromString(json.contents, 'text/xml');
+    const text = await proxyFetch(rssUrl, 8000);
+    const doc = new DOMParser().parseFromString(text, 'text/xml');
     const lowerName = compName.toLowerCase();
     const items = Array.from(doc.querySelectorAll('item'))
       .filter(i => (i.querySelector('title')?.textContent || '').toLowerCase().includes(lowerName))
