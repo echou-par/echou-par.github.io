@@ -263,7 +263,7 @@
     <!-- Overview view -->
     <div class="view active" id="view-overview">
       <div class="overview-grid" id="overviewMetrics">
-        <div class="metric-card"><div class="metric-label">Competitors tracked</div><div class="metric-value">25</div><div class="metric-sub">8 public · 17 private</div></div>
+        <div class="metric-card"><div class="metric-label">Competitors tracked</div><div class="metric-value">25</div><div class="metric-sub">9 public · 16 private</div></div>
         <div class="metric-card"><div class="metric-label">News items today</div><div class="metric-value" id="newsCount">—</div><div class="metric-sub">Across all sources</div></div>
         <div class="metric-card"><div class="metric-label">Alerts</div><div class="metric-value" id="alertCount" style="color:var(--amber)">—</div><div class="metric-sub">Significant changes</div></div>
         <div class="metric-card"><div class="metric-label">Next digest</div><div class="metric-value" id="nextDigest" style="font-size:16px">—</div><div class="metric-sub" id="nextDigestType">—</div></div>
@@ -315,7 +315,6 @@
             <button class="chip active" onclick="filterNews('all', this)">All</button>
             <button class="chip" onclick="filterNews('public', this)">Public cos</button>
             <button class="chip" onclick="filterNews('private', this)">Private cos</button>
-            <button class="chip" onclick="filterNews('financial', this)">Financial</button>
           </div>
         </div>
         <div id="globalNewsContent">
@@ -487,16 +486,48 @@ function renderCompetitorSkeleton(c) {
 
     ${isPublic ? `
     <div class="stats-row" id="statsRow-${c.id}">
-      <div class="stat-box"><div class="stat-label">Stock price</div><div class="stat-value" id="stat-price-${c.id}"><span class="spinner" style="width:14px;height:14px;display:inline-block;"></span></div></div>
-      <div class="stat-box"><div class="stat-label">Weekly change</div><div class="stat-value" id="stat-change-${c.id}">—</div></div>
-      <div class="stat-box"><div class="stat-label">Market cap</div><div class="stat-value" id="stat-mktcap-${c.id}">—</div></div>
-      <div class="stat-box"><div class="stat-label">TTM Revenue</div><div class="stat-value" id="stat-rev-${c.id}">—</div></div>
+      <div class="stat-box">
+        <div class="stat-label">Stock price</div>
+        <div class="stat-value" id="stat-price-${c.id}"><span class="spinner" style="width:14px;height:14px;display:inline-block;"></span></div>
+        <div class="stat-change" id="stat-change-${c.id}">—</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-label">Market cap</div>
+        <div class="stat-value" id="stat-mktcap-${c.id}">—</div>
+        <div class="stat-change" id="stat-mktcap-change-${c.id}">—</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-label">TTM Revenue</div>
+        <div class="stat-value" id="stat-rev-${c.id}">—</div>
+        <div class="stat-change" id="stat-rev-change-${c.id}">—</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-label">TTM EBITDA</div>
+        <div class="stat-value" id="stat-ebitda-${c.id}">—</div>
+        <div class="stat-change" id="stat-ebitda-change-${c.id}">—</div>
+      </div>
     </div>` : `
     <div class="stats-row">
-      <div class="stat-box"><div class="stat-label">Funding stage</div><div class="stat-value" id="stat-funding-${c.id}"><span class="spinner" style="width:14px;height:14px;display:inline-block;"></span></div></div>
-      <div class="stat-box"><div class="stat-label">Total raised</div><div class="stat-value" id="stat-raised-${c.id}">—</div></div>
-      <div class="stat-box"><div class="stat-label">Est. employees</div><div class="stat-value" id="stat-emp-${c.id}">—</div></div>
-      <div class="stat-box"><div class="stat-label">Last funding</div><div class="stat-value" id="stat-lastfund-${c.id}">—</div></div>
+      <div class="stat-box">
+        <div class="stat-label">Latest valuation</div>
+        <div class="stat-value" id="stat-val-${c.id}"><span class="spinner" style="width:14px;height:14px;display:inline-block;"></span></div>
+        <div class="stat-change" id="stat-val-date-${c.id}">—</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-label">Latest TTM revenue</div>
+        <div class="stat-value" id="stat-rev-${c.id}">—</div>
+        <div class="stat-change" id="stat-rev-date-${c.id}">—</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-label">Est. employees</div>
+        <div class="stat-value" id="stat-emp-${c.id}">—</div>
+        <div class="stat-change" id="stat-emp-date-${c.id}">—</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-label">Funding status</div>
+        <div class="stat-value" id="stat-funding-${c.id}" style="font-size:14px;line-height:1.3;">—</div>
+        <div class="stat-change" id="stat-funding-date-${c.id}">—</div>
+      </div>
     </div>`}
 
     <div class="ai-box">
@@ -539,206 +570,391 @@ function switchCompTab(tab, btn, id) {
 }
 
 async function loadCompetitorData(c) {
-  const prompt = buildCompetitorPrompt(c);
-  try {
-    const resp = await callClaude(prompt, 1200);
-    const parts = resp.split('|||');
-    if (parts[0]) {
-      document.getElementById(`ai-summary-${c.id}`).textContent = parts[0].trim();
+  // Fetch all required data files in parallel
+  const [compData, financials, privateData, stocks] = await Promise.all([
+    loadJSON('competitors.json'),
+    loadJSON('financials.json'),
+    loadJSON('private_companies.json'),
+    loadJSON('stocks.json'),
+  ]);
+
+  // Determine company key — companies.json uses the 'name' from COMPETITORS
+  const compKey = c.name;
+  const altKey = c.id === 'uber' ? 'Uber Eats' : c.name;  // Uber is special
+
+  // ─── News tab ────────────────────────────────────────────────────────────
+  let companyNews = [];
+  if (compData && compData.companies) {
+    companyNews = compData.companies[compKey] || compData.companies[altKey] || [];
+  }
+  renderCompetitorNews(c.id, companyNews, c);
+
+  // ─── Stats (hero metrics) ────────────────────────────────────────────────
+  if (c.type === 'public') {
+    fillPublicStats(c, financials, stocks);
+  } else {
+    fillPrivateStats(c, privateData);
+  }
+
+  // ─── AI summary ──────────────────────────────────────────────────────────
+  const summaryEl = document.getElementById(`ai-summary-${c.id}`);
+  if (summaryEl) {
+    const newsSummary = companyNews.length
+      ? `${companyNews.length} news item${companyNews.length > 1 ? 's' : ''} tracked. Latest: "${companyNews[0].headline.slice(0, 140)}${companyNews[0].headline.length > 140 ? '…' : ''}"`
+      : 'No recent news tracked in the current window. See the News tab for historical coverage, or wait for the next 30-min refresh.';
+    summaryEl.textContent = `${c.name} operates in the ${c.category} space. ${newsSummary}`;
+  }
+
+  // ─── Financial Overview tab ──────────────────────────────────────────────
+  if (c.type === 'public') {
+    renderPublicFinancialOverview(c, financials);
+  } else {
+    renderPrivateFinancialOverview(c, privateData);
+  }
+
+  // ─── Strategic Analysis tab ──────────────────────────────────────────────
+  renderStrategicAnalysis(c, companyNews);
+}
+
+// ─── Hero metric fillers ──────────────────────────────────────────────────────
+
+function fmtCurrency(n, digits = 1) {
+  if (n == null || isNaN(n)) return '—';
+  const abs = Math.abs(n);
+  if (abs >= 1e12) return '$' + (n / 1e12).toFixed(digits) + 'T';
+  if (abs >= 1e9) return '$' + (n / 1e9).toFixed(digits) + 'B';
+  if (abs >= 1e6) return '$' + (n / 1e6).toFixed(digits) + 'M';
+  if (abs >= 1e3) return '$' + (n / 1e3).toFixed(digits) + 'K';
+  return '$' + n.toFixed(digits);
+}
+
+function fmtPct(n, digits = 1) {
+  if (n == null || isNaN(n)) return '—';
+  const pct = n > 1 || n < -1 ? n : n * 100;  // handle fractional or already-pct
+  return (pct >= 0 ? '+' : '') + pct.toFixed(digits) + '%';
+}
+
+function fmtChangeColored(pct) {
+  if (pct == null || isNaN(pct)) return '<span style="color:var(--text3);">—</span>';
+  const p = pct > 1 || pct < -1 ? pct : pct * 100;
+  const cls = p >= 0 ? 'up' : 'down';
+  return `<span class="${cls}">${(p >= 0 ? '+' : '') + p.toFixed(1)}%</span>`;
+}
+
+function fillPublicStats(c, financials, stocks) {
+  const fin = financials?.tickers?.[c.ticker];
+  const stock1W = stocks?.ranges?.['1W']?.find(s => s.ticker === c.ticker);
+
+  // Stock price + weekly change
+  const priceEl = document.getElementById(`stat-price-${c.id}`);
+  const changeEl = document.getElementById(`stat-change-${c.id}`);
+  if (priceEl) {
+    const price = fin?.price ?? stock1W?.price;
+    priceEl.textContent = price != null ? '$' + price.toFixed(2) : '—';
+  }
+  if (changeEl) {
+    const wChg = stock1W?.change_pct;
+    changeEl.innerHTML = wChg != null ? `${wChg >= 0 ? '+' : ''}${wChg.toFixed(1)}% <span style="color:var(--text3);">1W</span>` : '—';
+    if (wChg != null) changeEl.style.color = wChg >= 0 ? 'var(--green)' : 'var(--red)';
+  }
+
+  // Market cap (with weekly change derived from stock change since mcap moves with price)
+  const mktcapEl = document.getElementById(`stat-mktcap-${c.id}`);
+  const mktcapChangeEl = document.getElementById(`stat-mktcap-change-${c.id}`);
+  if (mktcapEl) mktcapEl.textContent = fin?.market_cap ? fmtCurrency(fin.market_cap) : '—';
+  if (mktcapChangeEl) {
+    const wChg = stock1W?.change_pct;
+    mktcapChangeEl.innerHTML = wChg != null ? `${wChg >= 0 ? '+' : ''}${wChg.toFixed(1)}% <span style="color:var(--text3);">1W</span>` : '—';
+    if (wChg != null) mktcapChangeEl.style.color = wChg >= 0 ? 'var(--green)' : 'var(--red)';
+  }
+
+  // TTM Revenue with YoY growth
+  const revEl = document.getElementById(`stat-rev-${c.id}`);
+  const revChangeEl = document.getElementById(`stat-rev-change-${c.id}`);
+  if (revEl) revEl.textContent = fin?.ttm_revenue ? fmtCurrency(fin.ttm_revenue) : '—';
+  if (revChangeEl) {
+    if (fin?.revenue_growth_yoy != null) {
+      revChangeEl.innerHTML = `${fmtPct(fin.revenue_growth_yoy)} <span style="color:var(--text3);">YoY</span>`;
+      revChangeEl.style.color = fin.revenue_growth_yoy >= 0 ? 'var(--green)' : 'var(--red)';
+    } else {
+      revChangeEl.textContent = '—';
     }
-    if (parts[1]) {
-      renderNews(c.id, parts[1].trim());
+  }
+
+  // TTM EBITDA with margin change
+  const ebitdaEl = document.getElementById(`stat-ebitda-${c.id}`);
+  const ebitdaChangeEl = document.getElementById(`stat-ebitda-change-${c.id}`);
+  if (ebitdaEl) ebitdaEl.textContent = fin?.ttm_ebitda ? fmtCurrency(fin.ttm_ebitda) : '—';
+  if (ebitdaChangeEl) {
+    if (fin?.ebitda_margin != null) {
+      ebitdaChangeEl.innerHTML = `${fmtPct(fin.ebitda_margin)} <span style="color:var(--text3);">margin</span>`;
+      ebitdaChangeEl.style.color = fin.ebitda_margin >= 0 ? 'var(--green)' : 'var(--red)';
+    } else {
+      ebitdaChangeEl.textContent = '—';
     }
-    if (parts[2]) {
-      document.getElementById(`financial-${c.id}`).innerHTML = formatFinancial(parts[2].trim(), c);
-    }
-    if (parts[3]) {
-      document.getElementById(`strategy-${c.id}`).innerHTML = formatStrategy(parts[3].trim());
-    }
-    if (c.type === 'public' && parts[4]) {
-      fillStockStats(c.id, parts[4].trim());
-    }
-    if (c.type === 'private' && parts[4]) {
-      fillPrivateStats(c.id, parts[4].trim());
-    }
-  } catch(e) {
-    document.getElementById(`ai-summary-${c.id}`).textContent = 'Unable to load. Check API connectivity.';
   }
 }
 
-function buildCompetitorPrompt(c) {
-  const isPublic = c.type === 'public';
-  return `You are a competitive intelligence analyst at PAR Technology, a restaurant technology company. Research the competitor "${c.name}" (${isPublic ? 'NYSE: ' + c.ticker : 'private company'}), which operates in the ${c.category} space.
-
-Provide a structured response in EXACTLY this format, separated by |||:
-
-PART 1 (2-3 sentence executive summary highlighting their biggest recent development and PAR competitive threat):
-[summary]
-
-|||
-
-PART 2 (news items, JSON array of up to 6 items: [{headline, source, date, url, relevance}]):
-[json array]
-
-|||
-
-PART 3 (financial overview: ${isPublic ? 'stock price, market cap, TTM revenue, YoY growth, gross margin, recent 10-K/10-Q highlights, key financial risks from SEC filings' : 'funding rounds, total raised, investors, estimated revenue range, recent fundraising news'}):
-[financial text]
-
-|||
-
-PART 4 (strategic analysis: product strategy, go-to-market, key restaurant customer wins, competitive positioning vs PAR, partnerships, M&A activity, product roadmap signals):
-[strategy text]
-
-|||
-
-PART 5 (${isPublic ? 'JSON: {price, weeklyChange, mktcap, revenue}' : 'JSON: {fundingStage, totalRaised, employees, lastFunding}'}):
-[json]
-
-Draw from: company website, LinkedIn, Yahoo Finance, SEC EDGAR (for public cos), Crunchbase, restaurant tech media (restauranttechnologynews.com, restaurantdive.com, nrn.com, restaurantbusinessonline.com, hospitalitytech.com), and any recent news. Be specific with numbers and dates where possible.`;
-}
-
-function renderNews(id, raw) {
-  const container = document.getElementById(`news-${id}`);
-  try {
-    const clean = raw.replace(/```json|```/g, '').trim();
-    const items = JSON.parse(clean);
-    if (!items.length) { container.innerHTML = '<p style="color:var(--text3);font-size:13px;padding:12px 0;">No recent news found.</p>'; return; }
-    container.innerHTML = items.map(item => `
-      <div class="news-item">
-        <div class="news-source">${item.source || 'Industry source'}</div>
-        <div class="news-headline" onclick="window.open('${item.url || '#'}','_blank')">${item.headline}</div>
-        <div class="news-meta">${item.date || ''} ${item.relevance ? '· ' + item.relevance : ''}</div>
-      </div>`).join('');
-  } catch {
-    container.innerHTML = `<div style="font-size:13px;line-height:1.7;color:var(--text);">${raw}</div>`;
+function fillPrivateStats(c, privateData) {
+  const p = privateData?.companies?.[c.name];
+  const els = {
+    val: document.getElementById(`stat-val-${c.id}`),
+    valDate: document.getElementById(`stat-val-date-${c.id}`),
+    rev: document.getElementById(`stat-rev-${c.id}`),
+    revDate: document.getElementById(`stat-rev-date-${c.id}`),
+    emp: document.getElementById(`stat-emp-${c.id}`),
+    empDate: document.getElementById(`stat-emp-date-${c.id}`),
+    funding: document.getElementById(`stat-funding-${c.id}`),
+    fundingDate: document.getElementById(`stat-funding-date-${c.id}`),
+  };
+  if (!p) {
+    Object.values(els).forEach(el => { if (el) el.textContent = '—'; });
+    return;
   }
+  if (els.val) els.val.textContent = p.latest_valuation?.value || '—';
+  if (els.valDate) els.valDate.textContent = p.latest_valuation?.date ? `as of ${p.latest_valuation.date}` : '—';
+  if (els.rev) els.rev.textContent = p.latest_ttm_revenue?.value || '—';
+  if (els.revDate) els.revDate.textContent = p.latest_ttm_revenue?.date && p.latest_ttm_revenue.date !== '—' ? `as of ${p.latest_ttm_revenue.date}` : '—';
+  if (els.emp) els.emp.textContent = p.est_employees?.value || '—';
+  if (els.empDate) els.empDate.textContent = p.est_employees?.date ? `${p.est_employees.date} (${p.est_employees.source || 'est.'})` : '—';
+  if (els.funding) els.funding.textContent = p.funding_status?.value || '—';
+  if (els.fundingDate) els.fundingDate.textContent = p.funding_status?.date && p.funding_status.date !== '—' ? `as of ${p.funding_status.date}` : '—';
 }
 
-function formatFinancial(text, c) {
-  return `<div style="font-size:13px;line-height:1.7;color:var(--text);white-space:pre-wrap;">${text}</div>
-  ${c.type === 'public' ? `<div style="margin-top:12px;"><a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=10-K&dateb=&owner=include&count=5&search_text=&company=${encodeURIComponent(c.name)}" target="_blank" style="font-size:12px;color:var(--accent);">View SEC filings on EDGAR ↗</a></div>` : ''}`;
+// ─── News tab ─────────────────────────────────────────────────────────────────
+
+function renderCompetitorNews(compId, items, c) {
+  const container = document.getElementById(`news-${compId}`);
+  if (!items || !items.length) {
+    container.innerHTML = `<p style="color:var(--text3);font-size:13px;padding:12px 0;">
+      No news items currently tracked for ${c.name}. 
+      ${c.type === 'private' ? `Visit <a href="https://${c.website}" target="_blank" style="color:var(--accent);">${c.website}</a> or <a href="https://news.google.com/search?q=%22${encodeURIComponent(c.name)}%22" target="_blank" style="color:var(--accent);">search Google News</a> directly.` : ''}
+    </p>`;
+    return;
+  }
+  container.innerHTML = items.slice(0, 12).map(item => `
+    <div class="news-item">
+      <div class="news-source">${item.source || 'Industry'} ${item.emoji ? ' · ' + item.emoji : ''}</div>
+      <div class="news-headline" onclick="window.open('${(item.url || '#').replace(/'/g,'%27')}','_blank')">${item.headline}</div>
+      <div class="news-meta">${formatDate(item.date)}${item.url ? ` · <a href="${item.url}" target="_blank" style="color:var(--accent);">Read ↗</a>` : ''}</div>
+    </div>
+  `).join('');
 }
 
-function formatStrategy(text) {
-  return `<div style="font-size:13px;line-height:1.7;color:var(--text);white-space:pre-wrap;">${text}</div>`;
-}
+// ─── Financial Overview tab ──────────────────────────────────────────────────
 
-function fillStockStats(id, raw) {
-  try {
-    const clean = raw.replace(/```json|```/g, '').trim();
-    const d = JSON.parse(clean);
-    const priceEl = document.getElementById(`stat-price-${id}`);
-    const changeEl = document.getElementById(`stat-change-${id}`);
-    const mktcapEl = document.getElementById(`stat-mktcap-${id}`);
-    const revEl = document.getElementById(`stat-rev-${id}`);
-    if (priceEl) priceEl.textContent = d.price || '—';
-    if (changeEl && d.weeklyChange) {
-      const isUp = String(d.weeklyChange).startsWith('+') || parseFloat(d.weeklyChange) > 0;
-      changeEl.innerHTML = `<span class="${isUp ? 'up' : 'down'}">${d.weeklyChange}</span>`;
+function renderPublicFinancialOverview(c, financials) {
+  const container = document.getElementById(`financial-${c.id}`);
+  const fin = financials?.tickers?.[c.ticker];
+  if (!fin) {
+    container.innerHTML = `<p style="color:var(--text3);font-size:13px;">
+      Financial data not yet loaded. The background data job runs every 30 minutes.
+    </p>`;
+    return;
+  }
+
+  // Build Income Statement table (most recent 2 quarters + most recent annual)
+  const isQ = fin.income_statement_quarterly || [];
+  const isA = fin.income_statement_annual || [];
+  const bsQ = fin.balance_sheet_quarterly || [];
+  const bsA = fin.balance_sheet_annual || [];
+
+  // Commentary: compare most recent quarterly period to prior quarter
+  let commentary = '';
+  if (isQ.length >= 2) {
+    const curr = isQ[0];
+    const prev = isQ[1];
+    const revChange = (curr.totalRevenue && prev.totalRevenue)
+      ? ((curr.totalRevenue - prev.totalRevenue) / Math.abs(prev.totalRevenue)) * 100
+      : null;
+    const niChange = (curr.netIncome != null && prev.netIncome != null)
+      ? curr.netIncome - prev.netIncome
+      : null;
+    const opIncChange = (curr.operatingIncome != null && prev.operatingIncome != null)
+      ? curr.operatingIncome - prev.operatingIncome
+      : null;
+
+    const parts = [];
+    if (revChange != null) {
+      parts.push(`Revenue ${revChange >= 0 ? 'grew' : 'declined'} ${Math.abs(revChange).toFixed(1)}% QoQ from ${fmtCurrency(prev.totalRevenue)} to ${fmtCurrency(curr.totalRevenue)}.`);
     }
-    if (mktcapEl) mktcapEl.textContent = d.mktcap || '—';
-    if (revEl) revEl.textContent = d.revenue || '—';
-  } catch { 
-    const el = document.getElementById(`stat-price-${id}`);
-    if (el) el.textContent = '—';
+    if (niChange != null) {
+      parts.push(`Net income ${niChange >= 0 ? 'improved' : 'weakened'} by ${fmtCurrency(Math.abs(niChange))} ${niChange >= 0 ? 'vs.' : 'from'} prior quarter.`);
+    }
+    if (opIncChange != null) {
+      parts.push(`Operating income ${opIncChange >= 0 ? 'rose' : 'fell'} ${fmtCurrency(Math.abs(opIncChange))}.`);
+    }
+    if (parts.length) commentary = parts.join(' ');
   }
-}
 
-function fillPrivateStats(id, raw) {
-  try {
-    const clean = raw.replace(/```json|```/g, '').trim();
-    const d = JSON.parse(clean);
-    const els = ['funding', 'raised', 'emp', 'lastfund'];
-    const vals = [d.fundingStage, d.totalRaised, d.employees, d.lastFunding];
-    els.forEach((k, i) => {
-      const el = document.getElementById(`stat-${k}-${id}`);
-      if (el) el.textContent = vals[i] || '—';
-    });
-  } catch {
-    const el = document.getElementById(`stat-funding-${id}`);
-    if (el) el.textContent = '—';
+  // Balance sheet commentary
+  let bsCommentary = '';
+  if (bsQ.length >= 2) {
+    const curr = bsQ[0];
+    const prev = bsQ[1];
+    const bsParts = [];
+    if (curr.cash != null && prev.cash != null) {
+      const diff = curr.cash - prev.cash;
+      bsParts.push(`Cash position ${diff >= 0 ? 'increased' : 'decreased'} by ${fmtCurrency(Math.abs(diff))} QoQ (now ${fmtCurrency(curr.cash)}).`);
+    }
+    if (curr.totalAssets != null && prev.totalAssets != null) {
+      const diff = curr.totalAssets - prev.totalAssets;
+      bsParts.push(`Total assets ${diff >= 0 ? 'up' : 'down'} ${fmtCurrency(Math.abs(diff))}.`);
+    }
+    if (curr.longTermDebt != null && prev.longTermDebt != null) {
+      const diff = curr.longTermDebt - prev.longTermDebt;
+      if (Math.abs(diff) > 1e5) {
+        bsParts.push(`Long-term debt ${diff >= 0 ? 'rose' : 'fell'} by ${fmtCurrency(Math.abs(diff))}.`);
+      }
+    }
+    if (bsParts.length) bsCommentary = bsParts.join(' ');
   }
+
+  const incomeTable = buildStatementTable('Income Statement', [
+    ['Total Revenue', 'totalRevenue'],
+    ['Cost of Revenue', 'costOfRevenue'],
+    ['Gross Profit', 'grossProfit'],
+    ['R&D', 'researchDevelopment'],
+    ['SG&A', 'sellingGeneralAdministrative'],
+    ['Operating Income', 'operatingIncome'],
+    ['Net Income', 'netIncome'],
+  ], isQ.slice(0, 2), isA.slice(0, 1));
+
+  const balanceTable = buildStatementTable('Balance Sheet', [
+    ['Cash & Short-term Inv.', 'cash'],
+    ['Total Current Assets', 'totalCurrentAssets'],
+    ['Goodwill', 'goodWill'],
+    ['Total Assets', 'totalAssets'],
+    ['Total Current Liab.', 'totalCurrentLiabilities'],
+    ['Long-term Debt', 'longTermDebt'],
+    ['Total Liabilities', 'totalLiab'],
+    ['Stockholders\' Equity', 'totalStockholderEquity'],
+  ], bsQ.slice(0, 2), bsA.slice(0, 1));
+
+  container.innerHTML = `
+    ${commentary || bsCommentary ? `
+    <div style="background:var(--accent-bg);border-radius:var(--radius-sm);padding:12px 14px;margin-bottom:16px;">
+      <div style="font-size:12px;font-weight:600;color:var(--accent-text);margin-bottom:6px;">Period-over-period commentary</div>
+      <div style="font-size:13px;color:var(--text);line-height:1.6;">${commentary}${commentary && bsCommentary ? ' ' : ''}${bsCommentary}</div>
+    </div>` : ''}
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin-bottom:16px;">
+      <div class="stat-box"><div class="stat-label">TTM Revenue</div><div class="stat-value">${fin.ttm_revenue ? fmtCurrency(fin.ttm_revenue) : '—'}</div><div class="stat-change">${fin.revenue_growth_yoy != null ? fmtPct(fin.revenue_growth_yoy) + ' YoY' : '—'}</div></div>
+      <div class="stat-box"><div class="stat-label">TTM EBITDA</div><div class="stat-value">${fin.ttm_ebitda ? fmtCurrency(fin.ttm_ebitda) : '—'}</div><div class="stat-change">${fin.ebitda_margin != null ? fmtPct(fin.ebitda_margin) + ' margin' : '—'}</div></div>
+      <div class="stat-box"><div class="stat-label">Gross margin</div><div class="stat-value">${fin.gross_margin != null ? fmtPct(fin.gross_margin) : '—'}</div></div>
+      <div class="stat-box"><div class="stat-label">Trailing P/E</div><div class="stat-value">${fin.trailing_pe != null ? fin.trailing_pe.toFixed(1) + 'x' : '—'}</div></div>
+      <div class="stat-box"><div class="stat-label">Enterprise Value</div><div class="stat-value">${fin.enterprise_value ? fmtCurrency(fin.enterprise_value) : '—'}</div></div>
+    </div>
+
+    <div style="font-size:13px;font-weight:500;margin:18px 0 8px;color:var(--text);">Income Statement</div>
+    ${incomeTable}
+
+    <div style="font-size:13px;font-weight:500;margin:20px 0 8px;color:var(--text);">Balance Sheet</div>
+    ${balanceTable}
+
+    <div style="margin-top:16px;font-size:12px;color:var(--text3);">
+      Source: Yahoo Finance ·
+      <a href="https://finance.yahoo.com/quote/${c.ticker}/financials" target="_blank" style="color:var(--accent);">Full financials on Yahoo ↗</a> ·
+      <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=${encodeURIComponent(c.name)}&type=10-K" target="_blank" style="color:var(--accent);">SEC filings ↗</a>
+    </div>
+  `;
 }
 
-async function loadOverviewAI() {
-  const prompt = `You are a competitive intelligence analyst at PAR Technology (restaurant POS, payments, loyalty). Write a 3-4 sentence executive summary of the current restaurant technology competitive landscape, highlighting: (1) the biggest competitive threat to PAR right now, (2) one major industry trend in the past 30 days, (3) one M&A or funding event, and (4) one strategic opportunity for PAR. Be specific and data-driven. Current competitors tracked: Toast (TOST), DoorDash (DASH), NCR Voyix (VYX), Lightspeed (LSPD), Olo (private), Shift4/Revel (FOUR), Square/Block (SQ), Global Payments/Heartland (GPN), Fiserv/Clover (FI), Uber Eats (UBER), SpotOn, TouchBistro, Deliverect, Paytronix, Snackpass, Bikky, and others.`;
-  const text = await callClaude(prompt, 500);
-  document.getElementById('overviewAI').textContent = text;
-}
-
-async function loadHighlights() {
-  document.getElementById('highlightsContent').innerHTML = '<span class="news-loading"><span class="spinner"></span> Loading…</span>';
-  const prompt = `List 6 recent significant developments (last 1-2 weeks) across restaurant technology companies: Toast, DoorDash, NCR Voyix, Lightspeed, Shift4/Revel, Block/Square for Restaurants, Global Payments/Heartland, Fiserv/Clover, Uber Eats, SpotOn, Paytronix, Deliverect, Olo, TouchBistro. Return JSON array of {emoji, company, headline, time} — emoji should indicate type (📈 financial, 🤝 partnership, 🚀 product, 📰 news, ⚠️ risk). Be specific.`;
-  try {
-    const text = await callClaude(prompt, 600);
-    const clean = text.replace(/```json|```/g, '').trim();
-    const items = JSON.parse(clean);
-    document.getElementById('highlightsContent').innerHTML = items.map(i => `
-      <div class="highlight-row">
-        <span class="highlight-icon">${i.emoji}</span>
-        <span class="highlight-text"><strong>${i.company}</strong> — ${i.headline}</span>
-        <span class="highlight-time">${i.time}</span>
-      </div>`).join('');
-    document.getElementById('alertCount').textContent = items.filter(i => i.emoji === '⚠️').length;
-    document.getElementById('newsCount').textContent = items.length;
-  } catch(e) {
-    document.getElementById('highlightsContent').innerHTML = '<p style="color:var(--text3);font-size:13px;padding:12px 0;">Could not load highlights.</p>';
+function buildStatementTable(title, rows, quarterlyCols, annualCols) {
+  // Merge periods: quarterly first (most recent), then annual
+  const periods = [...quarterlyCols.map(c => ({ ...c, label: c.endDate || '?', type: 'Q' })),
+                    ...annualCols.map(c => ({ ...c, label: c.endDate || '?', type: 'A' }))];
+  if (!periods.length) {
+    return '<p style="color:var(--text3);font-size:12px;">No statement data available.</p>';
   }
+
+  const headerCells = periods.map(p => `<th style="text-align:right;padding:6px 10px;font-size:11px;color:var(--text3);font-weight:500;">${p.label}<br><span style="font-size:10px;color:var(--text3);">${p.type === 'Q' ? 'Quarterly' : 'Annual'}</span></th>`).join('');
+
+  const bodyRows = rows.map(([label, key]) => {
+    const cells = periods.map(p => {
+      const v = p[key];
+      return `<td style="text-align:right;padding:6px 10px;font-size:12px;color:var(--text);font-variant-numeric:tabular-nums;">${v != null ? fmtCurrency(v) : '—'}</td>`;
+    }).join('');
+    return `<tr><td style="padding:6px 10px;font-size:12px;color:var(--text2);">${label}</td>${cells}</tr>`;
+  }).join('');
+
+  return `<div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;border:0.5px solid var(--border);border-radius:var(--radius-sm);">
+      <thead><tr style="background:var(--bg2);"><th style="text-align:left;padding:6px 10px;font-size:11px;color:var(--text3);font-weight:500;">Metric</th>${headerCells}</tr></thead>
+      <tbody>${bodyRows}</tbody>
+    </table>
+  </div>`;
 }
 
-async function loadGlobalNews() {
-  const prompt = `Search for the 8 most recent and relevant news items about restaurant technology companies (Toast, DoorDash, NCR Voyix, Lightspeed, Shift4, Square for Restaurants, Global Payments Heartland, Fiserv Clover, Uber Eats, SpotOn, Paytronix, Olo, Deliverect, Snackpass, Bikky, TouchBistro). Prioritize: restauranttechnologynews.com, restaurantdive.com, nrn.com, restaurantbusinessonline.com, hospitalitytech.com, Yahoo Finance. Return JSON array of {headline, company, source, date, url, type} where type is "public" or "private".`;
-  try {
-    const text = await callClaude(prompt, 700);
-    const clean = text.replace(/```json|```/g, '').trim();
-    const items = JSON.parse(clean);
-    window._globalNews = items;
-    renderGlobalNews(items);
-  } catch {
-    document.getElementById('globalNewsContent').innerHTML = '<p style="color:var(--text3);font-size:13px;padding:12px 0;">Unable to load news feed.</p>';
+function renderPrivateFinancialOverview(c, privateData) {
+  const container = document.getElementById(`financial-${c.id}`);
+  const p = privateData?.companies?.[c.name];
+  if (!p) {
+    container.innerHTML = `<p style="color:var(--text3);font-size:13px;">Private company data not available.</p>`;
+    return;
   }
+  container.innerHTML = `
+    <div style="background:var(--accent-bg);border-radius:var(--radius-sm);padding:12px 14px;margin-bottom:16px;">
+      <div style="font-size:12px;font-weight:600;color:var(--accent-text);margin-bottom:6px;">Financial highlights (public disclosures)</div>
+      <div style="font-size:13px;color:var(--text);line-height:1.6;">${p.financial_highlights || 'No additional public financial disclosures tracked.'}</div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin-bottom:16px;">
+      <div class="stat-box"><div class="stat-label">Valuation</div><div class="stat-value" style="font-size:15px;">${p.latest_valuation?.value || '—'}</div><div class="stat-change">${p.latest_valuation?.date && p.latest_valuation.date !== '—' ? p.latest_valuation.date : ''}</div></div>
+      <div class="stat-box"><div class="stat-label">TTM Revenue</div><div class="stat-value" style="font-size:15px;">${p.latest_ttm_revenue?.value || '—'}</div><div class="stat-change">${p.latest_ttm_revenue?.date && p.latest_ttm_revenue.date !== '—' ? p.latest_ttm_revenue.date : ''}</div></div>
+      <div class="stat-box"><div class="stat-label">Employees</div><div class="stat-value" style="font-size:15px;">${p.est_employees?.value || '—'}</div><div class="stat-change">${p.est_employees?.date || ''}</div></div>
+      <div class="stat-box"><div class="stat-label">Funding</div><div class="stat-value" style="font-size:13px;line-height:1.3;">${p.funding_status?.value || '—'}</div><div class="stat-change">${p.funding_status?.date && p.funding_status.date !== '—' ? p.funding_status.date : ''}</div></div>
+    </div>
+
+    <div style="font-size:12px;color:var(--text3);margin-top:8px;">
+      <strong>Sources:</strong><br>
+      ${p.latest_valuation?.source ? '• Valuation: ' + p.latest_valuation.source + '<br>' : ''}
+      ${p.latest_ttm_revenue?.source && p.latest_ttm_revenue.source !== '—' ? '• Revenue: ' + p.latest_ttm_revenue.source + '<br>' : ''}
+      ${p.est_employees?.source ? '• Employees: ' + p.est_employees.source + '<br>' : ''}
+      ${p.funding_status?.source && p.funding_status.source !== '—' ? '• Funding: ' + p.funding_status.source + '<br>' : ''}
+      • For deeper financial detail: <a href="https://www.crunchbase.com/organization/${c.name.toLowerCase().replace(/\s+/g,'-')}" target="_blank" style="color:var(--accent);">Crunchbase ↗</a> ·
+      <a href="https://${c.website}" target="_blank" style="color:var(--accent);">${c.website} ↗</a>
+    </div>
+  `;
 }
 
-function renderGlobalNews(items) {
-  document.getElementById('globalNewsContent').innerHTML = items.map(item => `
-    <div class="news-item" data-type="${item.type}">
-      <div class="news-source">${item.source} · <span style="color:var(--accent-text)">${item.company}</span></div>
-      <div class="news-headline" onclick="window.open('${item.url || '#'}','_blank')">${item.headline}</div>
-      <div class="news-meta">${item.date || ''}</div>
-    </div>`).join('');
-}
+// ─── Strategic Analysis tab ───────────────────────────────────────────────────
 
-function filterNews(type, btn) {
-  document.querySelectorAll('.filter-chips .chip').forEach(c => c.classList.remove('active'));
-  btn.classList.add('active');
-  if (!window._globalNews) return;
-  const filtered = type === 'all' ? window._globalNews : window._globalNews.filter(i => i.type === type || (type === 'financial' && i.company && ['Toast','DoorDash','NCR Voyix','Lightspeed','Shift4','Block','Global Payments','Fiserv','Uber'].includes(i.company)));
-  renderGlobalNews(filtered);
-}
+function renderStrategicAnalysis(c, news) {
+  const container = document.getElementById(`strategy-${c.id}`);
+  // Categorize news by type
+  const partnerships = news.filter(n => n.emoji === '🤝');
+  const products = news.filter(n => n.emoji === '🚀');
+  const financial = news.filter(n => n.emoji === '📈');
+  const risks = news.filter(n => n.emoji === '⚠️');
 
-async function loadEmailPreview(type) {
-  document.getElementById('emailPreviewContent').innerHTML = '<span class="news-loading"><span class="spinner"></span> Generating digest…</span>';
-  const isMonday = type === 'monday';
-  const prompt = isMonday
-    ? `Generate a sample Monday 9:30am ET PAR Intel Digest email for PAR Technology's competitive intelligence team. Include: (1) subject line, (2) market open summary for public restaurant tech stocks, (3) top 3 competitor news items from the past week, (4) one financial metric change of note (e.g. Toast stock movement, DoorDash earnings update), (5) one PAR strategic takeaway. Format clearly with section headers. Be specific and realistic.`
-    : `Generate a sample Friday 4:00pm ET PAR Intel Digest email for PAR Technology's competitive intelligence team. Include: (1) subject line, (2) weekly recap of key events across competitors, (3) notable product launches or partnerships, (4) financial performance summary for public cos, (5) private company news, (6) one key strategic implication for PAR. Format clearly with section headers.`;
-  const text = await callClaude(prompt, 800);
-  const today = new Date().toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric' });
-  document.getElementById('emailPreviewContent').innerHTML = `
-    <div class="email-preview">
-      <div style="font-size:11px;color:var(--text3);margin-bottom:12px;padding-bottom:12px;border-bottom:0.5px solid var(--border);">
-        <strong>To:</strong> PAR Intel Subscribers &nbsp;·&nbsp; <strong>From:</strong> intel@par.com &nbsp;·&nbsp; <strong>Sent:</strong> ${today}, ${isMonday ? '9:30 AM ET' : '4:00 PM ET'}
-      </div>
-      <div style="font-size:13px;line-height:1.8;color:var(--text);white-space:pre-wrap;">${text}</div>
-    </div>`;
-}
+  const mkSection = (title, items, colorVar) => items.length ? `
+    <div style="margin-bottom:14px;">
+      <div style="font-size:12px;font-weight:600;color:var(${colorVar});margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px;">${title}</div>
+      ${items.slice(0, 4).map(i => `<div style="font-size:13px;padding:4px 0;">• ${i.headline}</div>`).join('')}
+    </div>` : '';
 
-function switchEmailTab(type, btn) {
-  currentEmailTab = type;
-  document.querySelectorAll('#view-email-preview .tab').forEach(t => t.classList.remove('active'));
-  btn.classList.add('active');
-  loadEmailPreview(type);
+  container.innerHTML = `
+    <div style="font-size:13px;line-height:1.7;color:var(--text);margin-bottom:16px;">
+      <strong>${c.name}</strong> operates in the ${c.category} space.
+      Website: <a href="https://${c.website}" target="_blank" style="color:var(--accent);">${c.website} ↗</a>.
+      Below is a categorized breakdown of the most recent tracked news, organized by strategic signal type.
+    </div>
+    ${mkSection('Partnerships & integrations', partnerships, '--accent-text')}
+    ${mkSection('Product launches & releases', products, '--accent-text')}
+    ${mkSection('Financial & market signals', financial, '--accent-text')}
+    ${mkSection('Risk signals', risks, '--red')}
+    ${!news.length ? '<p style="color:var(--text3);font-size:13px;">No strategic signals tracked in the current window.</p>' : ''}
+
+    <div style="margin-top:18px;padding-top:14px;border-top:0.5px solid var(--border);">
+      <div style="font-size:12px;font-weight:600;color:var(--text3);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px;">Key questions for PAR strategy</div>
+      <ul style="font-size:13px;color:var(--text2);line-height:1.7;padding-left:18px;">
+        <li>What customer segments does ${c.name} target that overlap with PAR's Brink POS base?</li>
+        <li>Are there hiring or product signals suggesting ${c.name} is entering new verticals?</li>
+        <li>What integration or partnership moves could signal platform consolidation risk?</li>
+      </ul>
+    </div>
+  `;
 }
 
 // ─── Static JSON data loader (data fetched by GitHub Actions every 30 min) ──
@@ -905,7 +1121,6 @@ function filterNews(type, btn) {
   let filtered = window._globalNews;
   if (type === 'public') filtered = window._globalNews.filter(i => publicCos.includes(i.company));
   else if (type === 'private') filtered = window._globalNews.filter(i => !publicCos.includes(i.company) && i.company !== 'Industry');
-  else if (type === 'financial') filtered = window._globalNews.filter(i => i.type === 'public' || (i.emoji === '📈'));
   renderGlobalNews(filtered);
 }
 
@@ -1006,70 +1221,6 @@ function daysUntil(targetDay) {
   const d = now.getDay();
   const diff = ((targetDay - d + 7) % 7) || 7;
   return diff === 0 ? 'Today' : diff === 1 ? 'Tomorrow' : `${diff} days`;
-}
-
-async function callClaude(prompt, maxTokens = 800) {
-  // Data-driven deep dive: use static competitors.json + stocks.json
-  // Extract company name + ticker from the prompt
-  const nameMatch = prompt.match(/Research the competitor "([^"]+)"/);
-  const compName = nameMatch ? nameMatch[1] : '';
-  const tickerMatch = prompt.match(/NYSE:\s*(\w+)/);
-  const ticker = tickerMatch ? tickerMatch[1] : '';
-
-  const c = COMPETITORS.find(x => x.name === compName);
-  const isPrivate = c && c.type === 'private';
-
-  // Fetch news for this company
-  const compData = await loadJSON('competitors.json');
-  let companyNews = [];
-  if (compData && compData.companies) {
-    // Try exact match and also Toast -> "Toast" key aliasing
-    companyNews = compData.companies[compName] || compData.companies[c?.name] || [];
-  }
-
-  const newsItems = companyNews.slice(0, 8).map(i => ({
-    headline: i.headline,
-    source: i.source || 'Industry',
-    date: i.date ? new Date(i.date).toLocaleDateString('en-US', {month:'short',day:'numeric',year:'numeric'}) : '',
-    url: i.url || '',
-    relevance: i.emoji === '📈' ? 'Financial' : i.emoji === '🚀' ? 'Product' : i.emoji === '🤝' ? 'Partnership' : i.emoji === '⚠️' ? 'Risk signal' : 'Industry news',
-  }));
-  const newsText = JSON.stringify(newsItems);
-
-  // Stock stats
-  let statsJson = '{}';
-  if (ticker) {
-    const stocks = await loadJSON('stocks.json');
-    if (stocks && stocks.ranges && stocks.ranges['1W']) {
-      const tickerData = stocks.ranges['1W'].find(d => d.ticker === ticker);
-      if (tickerData) {
-        statsJson = JSON.stringify({
-          price: tickerData.price ? '$' + tickerData.price.toFixed(2) : '—',
-          weeklyChange: tickerData.change_pct !== null ? (tickerData.change_pct >= 0 ? '+' : '') + tickerData.change_pct.toFixed(1) + '%' : '—',
-          mktcap: tickerData.market_cap_b ? '$' + tickerData.market_cap_b.toFixed(1) + 'B' : '—',
-          revenue: '—',
-        });
-      }
-    }
-  }
-
-  // Summary
-  const newsSummary = companyNews.length
-    ? `${companyNews.length} recent news items tracked. Most recent: "${companyNews[0].headline.slice(0, 120)}${companyNews[0].headline.length > 120 ? '…' : ''}"`
-    : 'No recent news tracked. Data refreshes every 30 minutes.';
-  const summary = `${compName} operates in the ${c ? c.category : 'restaurant technology'} space. ${newsSummary}`;
-
-  // Financial text
-  const financial = ticker
-    ? `Live financial data loaded from Yahoo Finance for ${ticker}. Check the stats above for current price and weekly performance.\n\n• Yahoo Finance: https://finance.yahoo.com/quote/${ticker}\n• SEC EDGAR 10-K/10-Q filings: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=${encodeURIComponent(compName)}&type=10-K\n• Most recent news and earnings coverage is shown in the News tab.`
-    : `${compName} is a private company.\n\n• Crunchbase profile: https://www.crunchbase.com/organization/${(c?.name||'').toLowerCase().replace(/\s+/g,'-')}\n• LinkedIn (for headcount + hiring signals): search "${compName}" on LinkedIn\n• PitchBook and Tracxn have funding round details.\n• For the latest news coverage, see the News tab.`;
-
-  // Strategy
-  const strategy = `${compName} operates in the ${c ? c.category : 'restaurant tech'} space.\n\nWebsite: ${c ? 'https://' + c.website : '#'}\n\nKey competitive considerations for PAR:\n• Monitor press releases and LinkedIn for go-to-market signals (hiring, customer wins, partnerships).\n• Track product launches relevant to PAR's Brink POS, loyalty, and payments products.\n• Watch for M&A signals — consolidation in loyalty/CRM and POS/payments remains active.\n• Review the News tab for the latest tracked headlines and their categorization (financial, product, partnership, risk).`;
-
-  const privateStats = JSON.stringify({ fundingStage: 'See Crunchbase', totalRaised: '—', employees: '—', lastFunding: '—' });
-
-  return [summary, newsText, financial, strategy, isPrivate ? privateStats : statsJson].join('|||');
 }
 
 function openSubscribe() {
