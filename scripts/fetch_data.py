@@ -472,6 +472,209 @@ def parse_dt(s):
     return datetime.min.replace(tzinfo=timezone.utc)
 
 
+def detect_alerts(deduped_news, stocks, now_utc_iso):
+    """
+    Scan the full news corpus (last ~48h) for material, PAR-relevant alerts.
+    Returns a list of {category, severity, company, headline, url, source,
+    detected_at, par_relevance} dicts and a by-category count dict.
+
+    Categories:
+      analyst_downgrade  — broker downgrade / rating cut
+      executive_departure — CEO/CFO/president resign / steps down
+      guidance_cut        — lowers guidance / cuts forecast / misses
+      stock_move          — abs(1W change) >= 7% (using the weekly bucket as proxy for 'material')
+      cross_competitor    — single headline mentions 3+ tracked competitors
+      regulatory          — SEC / FTC / lawsuit / investigation / subpoena / probe
+
+    PAR relevance scoring (0-3):
+      3 — PAR itself, or a direct head-to-head in POS/loyalty/payments
+      2 — adjacent competitor (delivery platform, horizontal SaaS)
+      1 — tangentially relevant (e.g. Block, Uber)
+      0 — not tracked / low relevance
+    Only alerts with relevance >= 1 are surfaced.
+    """
+    alerts = []
+
+    # PAR competitive-zone map → relevance weight
+    # Direct head-to-head (POS, loyalty, payments to restaurants)
+    PAR_DIRECT = {
+        'PAR': 3, 'Toast': 3, 'NCR Voyix': 3, 'Lightspeed': 3, 'SpotOn': 3,
+        'TouchBistro': 3, 'Otter POS': 3, 'Revi': 3, 'Peppr POS': 3,
+        'Shift4': 3, 'Fiserv': 3, 'Global Payments': 3, 'Square': 3, 'Block': 3,
+        'Paytronix': 3, 'Thanx': 3, 'Sparkfly': 3, 'Hang': 3, 'Spendgo': 3,
+        'Punchh': 3,
+    }
+    # Adjacent (delivery aggregators, horizontal, ordering)
+    PAR_ADJACENT = {
+        'DoorDash': 2, 'Uber Eats': 2, 'Olo': 2, 'Deliverect': 2,
+        'ItsaCheckmate': 2, 'Snackpass': 2, 'Bikky': 2, 'Tillster': 2,
+        'TalonOne': 2,
+    }
+
+    def par_relevance(company):
+        if not company:
+            return 0
+        if company in PAR_DIRECT:
+            return PAR_DIRECT[company]
+        if company in PAR_ADJACENT:
+            return PAR_ADJACENT[company]
+        return 0
+
+    # Keyword patterns (word-boundary) per category — tuned to avoid common false positives
+    CATEGORY_PATTERNS = [
+        # (category, severity_weight, regex_pattern_list)
+        ('analyst_downgrade', 'high', [
+            r'\bdowngrad',  # downgrade/downgraded/downgrades
+            r'\b(cuts?|lowers?|reduces?)\s+(price\s+target|target\s+price|rating)',
+            r'\bsell\s+rating',
+        ]),
+        ('executive_departure', 'high', [
+            r'\b(CEO|CFO|COO|President|chief\s+\w+\s+officer)\s+(resign|step\s+down|steps\s+down|depart|exits?|leaves?|ousted|fired)',
+            r'\b(resign|step\s+down|steps\s+down|departs?)\s+as\s+(CEO|CFO|COO|President)',
+            r'\b(announces?|appoints?)\s+new\s+(CEO|CFO|COO|President)',
+        ]),
+        ('guidance_cut', 'high', [
+            r'\b(cut|lower|reduce|slash)\w*\s+(guidance|outlook|forecast)',
+            r'\bmisses?\s+(earnings|revenue|expectations?|estimates?)',
+            r'\b(weak|soft|disappointing)\s+(guidance|outlook|quarter|results)',
+            r'\bearnings?\s+miss',
+        ]),
+        ('regulatory', 'medium', [
+            r'\b(SEC|FTC|DOJ)\s+(investigation|probe|subpoena|charges?|lawsuit)',
+            r'\b(SEC|FTC|DOJ)\s+(files?|launches?)',
+            r'\b(class[- ]action|antitrust)\s+(lawsuit|suit|investigation)',
+            r'\bsubpoena',
+            r'\bdata\s+breach',
+            r'\bsecurity\s+breach',
+        ]),
+    ]
+
+    compiled = [(cat, sev, [re.compile(p, re.IGNORECASE) for p in pats]) for cat, sev, pats in CATEGORY_PATTERNS]
+
+    # Cross-competitor detection: scan headlines for 3+ tracked names via word boundary
+    tracked_names = set(COMPETITOR_QUERIES.keys()) | {'Block', 'Square', 'PAR'}
+
+    seen_dedup_keys = set()
+
+    def add_alert(item, category, severity, note=None):
+        # Dedup by (category, normalized headline)
+        key = (category, re.sub(r'\W+', '', item['headline'].lower())[:80])
+        if key in seen_dedup_keys:
+            return
+        seen_dedup_keys.add(key)
+
+        company = item.get('company', '')
+        rel = par_relevance(company)
+        if rel == 0 and category != 'cross_competitor':
+            return  # filter Option C
+
+        alerts.append({
+            'category': category,
+            'severity': severity,
+            'company': company,
+            'headline': item['headline'],
+            'url': item.get('url', ''),
+            'source': item.get('source', 'Industry'),
+            'date': item.get('date', ''),
+            'par_relevance': rel,
+            'note': note,
+            'detected_at': now_utc_iso,
+        })
+
+    # Keyword-driven category scan over the last 7 days of news (wider than live feed
+    # so rotating in/out of the top 50 feed doesn't silently drop recent downgrades)
+    try:
+        cutoff_dt = datetime.now(timezone.utc) - timedelta(days=7)
+    except Exception:
+        cutoff_dt = None
+
+    for item in deduped_news:
+        # Date filter — keep items without parseable dates, drop older than 48h
+        item_dt = parse_dt(item.get('date', ''))
+        if cutoff_dt and item_dt != datetime.min.replace(tzinfo=timezone.utc) and item_dt < cutoff_dt:
+            continue
+
+        headline = item['headline']
+        for cat, sev, patterns in compiled:
+            for rx in patterns:
+                if rx.search(headline):
+                    add_alert(item, cat, sev)
+                    break  # one category per item
+
+        # Cross-competitor cluster detection
+        mentioned = set()
+        for name in tracked_names:
+            if len(name) < 4:
+                continue
+            if re.search(r'\b' + re.escape(name) + r'\b', headline, re.IGNORECASE):
+                mentioned.add(name)
+        if len(mentioned) >= 3:
+            # Relevance = max of mentioned companies
+            max_rel = max((par_relevance(n) for n in mentioned), default=0)
+            if max_rel >= 1:
+                key = ('cross_competitor', re.sub(r'\W+', '', headline.lower())[:80])
+                if key not in seen_dedup_keys:
+                    seen_dedup_keys.add(key)
+                    alerts.append({
+                        'category': 'cross_competitor',
+                        'severity': 'medium',
+                        'company': ', '.join(sorted(mentioned)),
+                        'headline': headline,
+                        'url': item.get('url', ''),
+                        'source': item.get('source', 'Industry'),
+                        'date': item.get('date', ''),
+                        'par_relevance': max_rel,
+                        'note': f'{len(mentioned)} tracked competitors co-mentioned',
+                        'detected_at': now_utc_iso,
+                    })
+
+    # Material stock moves — from weekly stock data (>= 7% abs)
+    if stocks and stocks.get('1W'):
+        for row in stocks['1W']:
+            pct = row.get('change_pct')
+            ticker = row.get('ticker')
+            company = row.get('company', ticker)
+            if pct is None or abs(pct) < 7:
+                continue
+            rel = par_relevance(company)
+            # PAR itself always qualifies even if not in _DIRECT (it is, but explicit)
+            if ticker == 'PAR':
+                rel = 3
+            if rel == 0:
+                continue
+            direction = 'up' if pct > 0 else 'down'
+            alerts.append({
+                'category': 'stock_move',
+                'severity': 'medium' if abs(pct) < 12 else 'high',
+                'company': company,
+                'headline': f'{company} ({ticker}) stock {direction} {abs(pct):.1f}% over the past week',
+                'url': f'https://finance.yahoo.com/quote/{ticker}',
+                'source': 'Yahoo Finance',
+                'date': now_utc_iso,
+                'par_relevance': rel,
+                'note': f'{pct:+.1f}% 1W',
+                'detected_at': now_utc_iso,
+            })
+
+    # Sort: highest severity first, then highest PAR relevance, then most recent
+    severity_rank = {'high': 0, 'medium': 1, 'low': 2}
+    alerts.sort(key=lambda a: (
+        severity_rank.get(a['severity'], 3),
+        -a['par_relevance'],
+        -parse_dt(a['date']).timestamp() if a['date'] else 0,
+    ))
+
+    # Counts by category (for the overview card breakdown)
+    from collections import Counter
+    by_category = Counter(a['category'] for a in alerts)
+
+    return {
+        'total': len(alerts),
+        'by_category': dict(by_category),
+        'alerts': alerts,
+    }
+
+
 def generate_insights(deduped_news, per_company, financials, stocks):
     """
     Derive specific, sourced insight bullets from the current news cycle.
@@ -833,11 +1036,10 @@ def main():
         if len(highlights) >= 10:
             break
     highlights = highlights[:10]
-    alert_count = sum(1 for i in highlights if i.get('emoji') == '⚠️')
 
     with open(os.path.join(OUT_DIR, 'highlights.json'), 'w') as f:
-        json.dump({'updated': now_iso, 'items': highlights, 'alert_count': alert_count}, f, indent=2)
-    print(f'  Wrote highlights.json ({len(highlights)} items, {alert_count} alerts)')
+        json.dump({'updated': now_iso, 'items': highlights}, f, indent=2)
+    print(f'  Wrote highlights.json ({len(highlights)} items)')
 
     # Per-competitor news
     per_comp = {}
@@ -858,6 +1060,24 @@ def main():
         json.dump({'updated': now_iso, 'companies': per_comp}, f, indent=2)
     print(f'  Wrote competitors.json ({len(per_comp)} companies)')
 
+    # ── Alerts: scan full corpus (deduped top 50 + per-competitor items) for
+    # PAR-relevant, categorized signals ──────────
+    full_corpus = list(deduped)
+    seen_headlines = {re.sub(r'\W+', '', i['headline'].lower())[:80] for i in full_corpus}
+    for company, items in per_comp.items():
+        for item in items:
+            key = re.sub(r'\W+', '', item['headline'].lower())[:80]
+            if key not in seen_headlines:
+                seen_headlines.add(key)
+                full_corpus.append(item)
+
+    alerts_data = detect_alerts(full_corpus, stock_data, now_iso)
+    with open(os.path.join(OUT_DIR, 'alerts.json'), 'w') as f:
+        json.dump({'updated': now_iso, **alerts_data}, f, indent=2)
+    print(f'  Wrote alerts.json ({alerts_data["total"]} alerts scanning {len(full_corpus)} items)')
+    for cat, n in alerts_data['by_category'].items():
+        print(f'    {cat}: {n}')
+
     # Private company curated data (valuations, funding, employees)
     n_private = write_private_data(OUT_DIR)
     print(f'  Wrote private_companies.json ({n_private} companies)')
@@ -877,7 +1097,8 @@ def main():
             'financials_count': len(financials),
             'news_count': len(deduped),
             'highlights_count': len(highlights),
-            'alert_count': alert_count,
+            'alert_count': alerts_data['total'],
+            'alerts_by_category': alerts_data['by_category'],
             'per_competitor_count': len(per_comp),
             'public_companies_with_news': len(pubs),
             'private_companies_with_news': len(privs),

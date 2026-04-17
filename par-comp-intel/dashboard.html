@@ -127,6 +127,37 @@
   /* Overview */
   .overview-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin-bottom: 20px; }
   .metric-card { background: var(--bg2); border-radius: var(--radius-sm); padding: 14px; }
+  .clickable-metric { transition: background 0.15s, box-shadow 0.15s; }
+  .clickable-metric:hover { background: var(--bg); box-shadow: 0 1px 3px rgba(47,52,82,0.08); }
+  .metric-card.alerts-active { background: rgba(255, 87, 25, 0.08); border: 0.5px solid rgba(255, 87, 25, 0.28); }
+
+  /* Alerts side panel */
+  .alerts-panel-overlay { position: fixed; inset: 0; background: rgba(47,52,82,0.4); z-index: 199; opacity: 0; pointer-events: none; transition: opacity 0.2s; }
+  .alerts-panel-overlay.open { opacity: 1; pointer-events: auto; }
+  .alerts-panel { position: fixed; top: 0; right: 0; bottom: 0; width: 480px; max-width: 92vw; background: var(--bg); box-shadow: -4px 0 20px rgba(47,52,82,0.12); z-index: 200; transform: translateX(100%); transition: transform 0.22s cubic-bezier(.25,.8,.35,1); display: flex; flex-direction: column; }
+  .alerts-panel.open { transform: translateX(0); }
+  .alerts-panel-header { padding: 18px 22px 14px; border-bottom: 0.5px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+  .alerts-panel-header h3 { font-size: 16px; font-weight: 700; color: var(--text); margin: 0; }
+  .alerts-panel-close { background: transparent; border: none; color: var(--text2); font-size: 22px; cursor: pointer; padding: 0 4px; line-height: 1; }
+  .alerts-panel-close:hover { color: var(--text); }
+  .alerts-panel-body { flex: 1; overflow-y: auto; padding: 14px 22px 22px; }
+  .alerts-category-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; }
+  .cat-chip { font-size: 11px; padding: 4px 10px; border-radius: 14px; background: var(--bg2); color: var(--text2); border: 0.5px solid var(--border); cursor: pointer; font-family: inherit; transition: all 0.15s; }
+  .cat-chip.active { background: var(--accent); color: white; border-color: var(--accent); }
+  .alert-item { padding: 12px 0; border-bottom: 0.5px solid var(--border); }
+  .alert-item:last-child { border-bottom: none; }
+  .alert-row1 { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; flex-wrap: wrap; }
+  .alert-cat-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.6px; padding: 2px 7px; border-radius: 10px; }
+  .sev-high { background: rgba(255, 87, 25, 0.14); color: var(--orange); }
+  .sev-medium { background: rgba(248, 147, 28, 0.14); color: var(--amber); }
+  .sev-low { background: var(--bg2); color: var(--text3); }
+  .alert-company { font-size: 12px; font-weight: 600; color: var(--text); }
+  .alert-relevance { font-size: 10px; color: var(--text3); margin-left: auto; }
+  .alert-headline { font-size: 13px; color: var(--text); line-height: 1.45; margin-bottom: 4px; }
+  .alert-headline a { color: var(--text); text-decoration: none; }
+  .alert-headline a:hover { color: var(--accent); text-decoration: underline; }
+  .alert-meta { font-size: 11px; color: var(--text3); }
+  .alert-meta a { color: var(--accent); text-decoration: none; }
   .metric-label { font-size: 11px; color: var(--text3); margin-bottom: 6px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.5px; }
   .metric-value { font-size: 22px; font-weight: 500; color: var(--text); }
   .metric-sub { font-size: 11px; color: var(--text3); margin-top: 2px; }
@@ -282,7 +313,11 @@
       <div class="overview-grid" id="overviewMetrics">
         <div class="metric-card"><div class="metric-label">Competitors tracked</div><div class="metric-value">25</div><div class="metric-sub">9 public · 16 private</div></div>
         <div class="metric-card"><div class="metric-label">News items today</div><div class="metric-value" id="newsCount">—</div><div class="metric-sub">Across all sources</div></div>
-        <div class="metric-card"><div class="metric-label">Alerts</div><div class="metric-value" id="alertCount" style="color:var(--amber)">—</div><div class="metric-sub">Significant changes</div></div>
+        <div class="metric-card clickable-metric" id="alertsCard" onclick="openAlertsPanel()" style="cursor:pointer;">
+          <div class="metric-label">Alerts <span style="font-size:10px;color:var(--text3);font-weight:400;">(7d, PAR-relevant)</span></div>
+          <div class="metric-value" id="alertCount" style="color:var(--amber)">—</div>
+          <div class="metric-sub" id="alertSub">Click to view</div>
+        </div>
         <div class="metric-card"><div class="metric-label">Next digest</div><div class="metric-value" id="nextDigest" style="font-size:16px">—</div><div class="metric-sub" id="nextDigestType">—</div></div>
       </div>
 
@@ -369,6 +404,21 @@
         <span class="news-loading"><span class="spinner"></span> Loading PAR summary…</span>
       </div>
     </div>
+  </div>
+</div>
+
+<!-- Alerts slide-in panel -->
+<div class="alerts-panel-overlay" id="alertsOverlay" onclick="closeAlertsPanel()"></div>
+<div class="alerts-panel" id="alertsPanel">
+  <div class="alerts-panel-header">
+    <div>
+      <h3>Alerts</h3>
+      <div style="font-size:11px;color:var(--text3);margin-top:2px;" id="alertsPanelSubtitle">Material signals from the last 7 days</div>
+    </div>
+    <button class="alerts-panel-close" onclick="closeAlertsPanel()" aria-label="Close">×</button>
+  </div>
+  <div class="alerts-panel-body" id="alertsPanelBody">
+    <span class="news-loading"><span class="spinner"></span> Loading alerts…</span>
   </div>
 </div>
 
@@ -1205,8 +1255,158 @@ async function loadHighlights() {
       <span class="highlight-time">${timeAgoShort(i.date)}</span>
     </div>
   `).join('');
+}
 
-  document.getElementById('alertCount').textContent = data.alert_count || '0';
+// ─── Alerts ─────────────────────────────────────────────────────────────────
+
+let _alertsData = null;
+let _alertsCategoryFilter = 'all';
+
+async function loadAlerts() {
+  _alertsData = await loadJSON('alerts.json');
+  updateAlertsCard();
+}
+
+function updateAlertsCard() {
+  const countEl = document.getElementById('alertCount');
+  const subEl = document.getElementById('alertSub');
+  const card = document.getElementById('alertsCard');
+  if (!_alertsData) {
+    countEl.textContent = '—';
+    subEl.textContent = 'Click to view';
+    return;
+  }
+  const total = _alertsData.total || 0;
+  const byCat = _alertsData.by_category || {};
+  countEl.textContent = total;
+
+  // Color based on severity of alerts present
+  const highCount = (_alertsData.alerts || []).filter(a => a.severity === 'high').length;
+  if (highCount > 0) {
+    countEl.style.color = 'var(--orange)';
+    card.classList.add('alerts-active');
+  } else if (total > 0) {
+    countEl.style.color = 'var(--amber)';
+    card.classList.remove('alerts-active');
+  } else {
+    countEl.style.color = 'var(--text3)';
+    card.classList.remove('alerts-active');
+  }
+
+  // Subtitle: top 2 categories or "No alerts"
+  if (total === 0) {
+    subEl.textContent = 'No material signals';
+  } else {
+    const topCats = Object.entries(byCat).sort((a, b) => b[1] - a[1]).slice(0, 2);
+    subEl.textContent = topCats.map(([cat, n]) => `${n} ${CATEGORY_LABELS[cat] || cat}`).join(' · ');
+  }
+}
+
+const CATEGORY_LABELS = {
+  analyst_downgrade: 'downgrade',
+  executive_departure: 'exec change',
+  guidance_cut: 'guidance cut',
+  stock_move: 'stock move',
+  cross_competitor: 'cross-comp',
+  regulatory: 'regulatory',
+};
+
+const CATEGORY_COLORS = {
+  analyst_downgrade: 'sev-high',
+  executive_departure: 'sev-high',
+  guidance_cut: 'sev-high',
+  stock_move: 'sev-medium',
+  cross_competitor: 'sev-medium',
+  regulatory: 'sev-medium',
+};
+
+function openAlertsPanel() {
+  document.getElementById('alertsOverlay').classList.add('open');
+  document.getElementById('alertsPanel').classList.add('open');
+  renderAlertsPanel();
+}
+
+function closeAlertsPanel() {
+  document.getElementById('alertsOverlay').classList.remove('open');
+  document.getElementById('alertsPanel').classList.remove('open');
+}
+
+function renderAlertsPanel() {
+  const body = document.getElementById('alertsPanelBody');
+  if (!_alertsData || !_alertsData.alerts) {
+    body.innerHTML = '<p style="color:var(--text3);font-size:13px;">Alerts being refreshed — check back shortly.</p>';
+    return;
+  }
+
+  const all = _alertsData.alerts;
+  const byCat = _alertsData.by_category || {};
+
+  if (all.length === 0) {
+    body.innerHTML = `
+      <div style="text-align:center;padding:40px 20px;color:var(--text3);">
+        <div style="font-size:32px;margin-bottom:10px;">✓</div>
+        <p style="font-size:14px;margin-bottom:4px;color:var(--text2);">No material signals detected</p>
+        <p style="font-size:12px;">No PAR-relevant downgrades, departures, guidance cuts, large stock moves, regulatory actions, or cross-competitor events in the last 7 days.</p>
+      </div>
+    `;
+    document.getElementById('alertsPanelSubtitle').textContent = 'No alerts — 0 material signals';
+    return;
+  }
+
+  // Category filter chips
+  const cats = ['all', ...Object.keys(byCat).sort()];
+  const chipsHtml = cats.map(c => {
+    const label = c === 'all' ? `All (${all.length})` : `${CATEGORY_LABELS[c] || c} (${byCat[c]})`;
+    const active = _alertsCategoryFilter === c ? ' active' : '';
+    return `<button class="cat-chip${active}" onclick="filterAlerts('${c}')">${label}</button>`;
+  }).join('');
+
+  const filtered = _alertsCategoryFilter === 'all'
+    ? all
+    : all.filter(a => a.category === _alertsCategoryFilter);
+
+  // Relevance indicator (★)
+  const relDots = (n) => {
+    const filled = '●'.repeat(n);
+    const empty = '○'.repeat(3 - n);
+    return `<span style="letter-spacing:1px;font-size:10px;">${filled}${empty}</span>`;
+  };
+
+  const itemsHtml = filtered.map(a => {
+    const catColor = CATEGORY_COLORS[a.category] || 'sev-low';
+    const catLabel = (CATEGORY_LABELS[a.category] || a.category).toUpperCase();
+    const dateStr = a.date ? formatDate(a.date) : '';
+    const note = a.note ? ` <span style="color:var(--text3);">· ${a.note}</span>` : '';
+    const headlineLink = a.url
+      ? `<a href="${a.url}" target="_blank" rel="noopener">${escapeHtml(a.headline)}</a>`
+      : escapeHtml(a.headline);
+    return `
+      <div class="alert-item">
+        <div class="alert-row1">
+          <span class="alert-cat-label ${catColor}">${catLabel}</span>
+          <span class="alert-company">${escapeHtml(a.company || '—')}</span>
+          <span class="alert-relevance" title="PAR relevance: ${a.par_relevance}/3">PAR ${relDots(a.par_relevance)}</span>
+        </div>
+        <div class="alert-headline">${headlineLink}</div>
+        <div class="alert-meta">${escapeHtml(a.source || '')} · ${dateStr}${note}</div>
+      </div>
+    `;
+  }).join('');
+
+  body.innerHTML = `
+    <div class="alerts-category-chips">${chipsHtml}</div>
+    <div style="font-size:11px;color:var(--text3);margin-bottom:8px;">
+      ${filtered.length} alert${filtered.length !== 1 ? 's' : ''}, sorted by severity &amp; PAR relevance. <span style="color:var(--text3);">●●●</span> = direct competitor; <span style="color:var(--text3);">●●○</span> = adjacent; <span style="color:var(--text3);">●○○</span> = tangential.
+    </div>
+    ${itemsHtml}
+  `;
+
+  document.getElementById('alertsPanelSubtitle').textContent = `${all.length} signal${all.length !== 1 ? 's' : ''} from the last 7 days`;
+}
+
+function filterAlerts(category) {
+  _alertsCategoryFilter = category;
+  renderAlertsPanel();
 }
 
 // ─── Global news feed ───────────────────────────────────────────────────────
@@ -1734,7 +1934,14 @@ buildSidebar();  // initial render (unsorted, since sort data not yet loaded)
 addEmailPreviewToSidebar();
 buildStockChart();
 setNextDigest();
-setTimeout(() => { loadOverviewAI(); loadHighlights(); loadGlobalNews(); }, 300);
+setTimeout(() => { loadOverviewAI(); loadHighlights(); loadGlobalNews(); loadAlerts(); }, 300);
+
+// Esc closes alerts panel
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && document.getElementById('alertsPanel').classList.contains('open')) {
+    closeAlertsPanel();
+  }
+});
 
 // Preload sort data and re-render sidebar with proper ordering once available
 preloadSortData().then(() => {
