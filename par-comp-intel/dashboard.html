@@ -223,6 +223,17 @@
   .schedule-dot.fri { background: var(--purple); }
   .schedule-text { font-size: 12px; color: var(--text2); }
   .schedule-text strong { color: var(--text); font-weight: 500; }
+  /* Checkbox variant of schedule-item */
+  .schedule-check { display: flex; align-items: flex-start; gap: 10px; padding: 8px 6px; border-radius: var(--radius-sm); cursor: pointer; transition: background 0.12s; }
+  .schedule-check:hover { background: var(--bg3); }
+  .schedule-check input[type="checkbox"] { appearance: none; -webkit-appearance: none; width: 16px; height: 16px; border: 1.5px solid var(--border2); border-radius: 4px; flex-shrink: 0; cursor: pointer; margin: 1px 0 0; position: relative; background: var(--bg); transition: all 0.12s; }
+  .schedule-check input[type="checkbox"]:checked { background: var(--accent); border-color: var(--accent); }
+  .schedule-check input[type="checkbox"]:checked::after { content: ''; position: absolute; left: 4px; top: 1px; width: 5px; height: 9px; border: solid white; border-width: 0 2px 2px 0; transform: rotate(45deg); }
+  .schedule-check input[type="checkbox"]:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .schedule-check-body { flex: 1; }
+  .schedule-check-body strong { color: var(--text); font-weight: 600; font-size: 13px; }
+  .schedule-check-body .desc { font-size: 12px; color: var(--text2); margin-top: 2px; line-height: 1.4; }
+  .schedule-validation { font-size: 12px; color: var(--orange); margin-top: 6px; display: none; }
   .modal-actions { display: flex; gap: 10px; justify-content: flex-end; }
   .success-msg { background: var(--green-bg); color: var(--green); padding: 10px 14px; border-radius: var(--radius-sm); font-size: 13px; text-align: center; margin-top: 12px; display: none; }
 
@@ -440,15 +451,22 @@
       <input class="form-input" type="text" id="subRole" placeholder="e.g. Product, Sales, Strategy">
     </div>
     <div class="schedule-box">
-      <div style="font-size: 12px; font-weight: 500; color: var(--text2); margin-bottom: 8px;">Digest schedule</div>
-      <div class="schedule-item">
-        <div class="schedule-dot mon"></div>
-        <div class="schedule-text"><strong>Monday 9:30am ET</strong> — Market open: key news, financial changes, opening announcements</div>
-      </div>
-      <div class="schedule-item">
-        <div class="schedule-dot fri"></div>
-        <div class="schedule-text"><strong>Friday 4:00pm ET</strong> — Market close: weekly recap of key competitor developments</div>
-      </div>
+      <div style="font-size: 12px; font-weight: 500; color: var(--text2); margin-bottom: 8px;">Which digests do you want to receive?</div>
+      <label class="schedule-check">
+        <input type="checkbox" id="subMonday" checked>
+        <div class="schedule-check-body">
+          <strong>Monday 9:30 AM ET — Market open</strong>
+          <div class="desc">Key news, alerts, and AI Intelligence Summary to start the week</div>
+        </div>
+      </label>
+      <label class="schedule-check">
+        <input type="checkbox" id="subFriday" checked>
+        <div class="schedule-check-body">
+          <strong>Friday 4:00 PM ET — Market close</strong>
+          <div class="desc">Weekly recap of competitor developments, stock moves, and stories</div>
+        </div>
+      </label>
+      <div class="schedule-validation" id="subValidation">Please select at least one digest.</div>
     </div>
     <div class="modal-actions">
       <button class="btn" onclick="closeSubscribe()">Cancel</button>
@@ -1955,20 +1973,57 @@ function formatCountdown(minutes) {
 function openSubscribe() {
   document.getElementById('subscribeModal').classList.add('open');
   document.getElementById('subSuccess').style.display = 'none';
+  document.getElementById('subValidation').style.display = 'none';
+  // Reset checkboxes to both checked by default each time the modal opens
+  document.getElementById('subMonday').checked = true;
+  document.getElementById('subFriday').checked = true;
 }
-function closeSubscribe() { document.getElementById('subscribeModal').classList.remove('open'); }
+function closeSubscribe() {
+  document.getElementById('subscribeModal').classList.remove('open');
+  document.getElementById('subValidation').style.display = 'none';
+}
 function submitSubscribe() {
   const email = document.getElementById('subEmail').value.trim();
   const name = document.getElementById('subName').value.trim();
+  const wantMonday = document.getElementById('subMonday').checked;
+  const wantFriday = document.getElementById('subFriday').checked;
+  const validationEl = document.getElementById('subValidation');
+
   if (!email || !email.includes('@')) { alert('Please enter a valid email.'); return; }
-  const sub = { email, name, role: document.getElementById('subRole').value.trim(), subscribedAt: new Date().toISOString() };
+  if (!wantMonday && !wantFriday) {
+    validationEl.style.display = 'block';
+    return;
+  }
+  validationEl.style.display = 'none';
+
+  const sub = {
+    email,
+    name,
+    role: document.getElementById('subRole').value.trim(),
+    preferences: { monday: wantMonday, friday: wantFriday },
+    subscribedAt: new Date().toISOString(),
+  };
   subscribers.push(sub);
   try { localStorage.setItem('par_intel_subs', JSON.stringify(subscribers)); } catch {}
-  document.getElementById('subSuccess').style.display = 'block';
-  setTimeout(closeSubscribe, 2500);
+
+  // Tailored success message
+  const which = wantMonday && wantFriday
+    ? 'Monday and Friday digests'
+    : wantMonday
+      ? 'Monday market-open digest'
+      : 'Friday market-close digest';
+  const successEl = document.getElementById('subSuccess');
+  successEl.textContent = `✓ You're subscribed to the ${which}. First digest will arrive at the next scheduled send.`;
+  successEl.style.display = 'block';
+  setTimeout(closeSubscribe, 2800);
 }
 
 document.getElementById('subscribeModal').onclick = function(e) { if (e.target === this) closeSubscribe(); };
+['subMonday', 'subFriday'].forEach(id => {
+  document.getElementById(id).addEventListener('change', () => {
+    document.getElementById('subValidation').style.display = 'none';
+  });
+});
 
 function addEmailPreviewToSidebar() {
   const section = document.createElement('div');
