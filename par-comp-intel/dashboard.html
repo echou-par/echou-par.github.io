@@ -245,7 +245,7 @@
       <div class="sidebar-label">Overview</div>
       <div class="sidebar-item active" data-view="overview" onclick="showView('overview', this)">
         <span class="comp-name">All Competitors</span>
-        <span class="comp-ticker">24</span>
+        <span class="comp-ticker">25</span>
       </div>
     </div>
     <div class="sidebar-section">
@@ -263,7 +263,7 @@
     <!-- Overview view -->
     <div class="view active" id="view-overview">
       <div class="overview-grid" id="overviewMetrics">
-        <div class="metric-card"><div class="metric-label">Competitors tracked</div><div class="metric-value">24</div><div class="metric-sub">8 public · 16 private</div></div>
+        <div class="metric-card"><div class="metric-label">Competitors tracked</div><div class="metric-value">25</div><div class="metric-sub">9 public · 16 private</div></div>
         <div class="metric-card"><div class="metric-label">News items today</div><div class="metric-value" id="newsCount">—</div><div class="metric-sub">Across all sources</div></div>
         <div class="metric-card"><div class="metric-label">Alerts</div><div class="metric-value" id="alertCount" style="color:var(--amber)">—</div><div class="metric-sub">Significant changes</div></div>
         <div class="metric-card"><div class="metric-label">Next digest</div><div class="metric-value" id="nextDigest" style="font-size:16px">—</div><div class="metric-sub" id="nextDigestType">—</div></div>
@@ -393,6 +393,7 @@
 
 <script>
 const COMPETITORS = [
+  { id: 'par', name: 'PAR Technology', ticker: 'PAR', exchange: 'NYSE', type: 'public', category: 'Restaurant Technology', website: 'partech.com', description: 'PAR Technology — restaurant POS (Brink), loyalty (Punchh), payments, and data platform. This is us.', isSelf: true },
   { id: 'tost', name: 'Toast', ticker: 'TOST', exchange: 'NYSE', type: 'public', category: 'POS / Payments', website: 'toasttab.com', description: 'Restaurant management platform and POS with integrated payments, marketing, and operations.' },
   { id: 'dash', name: 'DoorDash', ticker: 'DASH', exchange: 'NYSE', type: 'public', category: 'Delivery / Marketplace', website: 'doordash.com', description: 'Food delivery marketplace and logistics platform for restaurants.' },
   { id: 'vyx', name: 'NCR Voyix', ticker: 'VYX', exchange: 'NYSE', type: 'public', category: 'POS / Technology', website: 'ncrvoyix.com', description: 'Restaurant and retail technology including POS, payments, and digital solutions.' },
@@ -1486,7 +1487,7 @@ async function showPARSummary(sidebarEl) {
         <span class="card-title">Strategic context</span>
       </div>
       <div style="font-size:13px;color:var(--text);line-height:1.7;">
-        <p style="margin-bottom:10px;">This dashboard tracks 24 restaurant technology competitors (8 public, 16 private) across PAR's core product areas: POS, online ordering, loyalty, payments, and delivery.</p>
+        <p style="margin-bottom:10px;">This dashboard tracks 25 restaurant technology competitors (9 public, 16 private) across PAR's core product areas: POS, online ordering, loyalty, payments, and delivery.</p>
         <p style="margin-bottom:10px;"><strong>Where PAR competes most directly:</strong> Brink POS vs. Toast, NCR Voyix, Lightspeed, SpotOn, TouchBistro; Punchh/Data Central loyalty vs. Paytronix, Thanx, Sparkfly, Hang; and payments integrations vs. Shift4/Revel, Clover (Fiserv), Heartland (Global Payments), and Square for Restaurants.</p>
         <p style="margin-bottom:0;"><strong>Where to monitor closely:</strong> enterprise POS consolidation (Toast's enterprise push, Olo's take-private), loyalty/CRM M&A activity, and delivery-aggregator platform plays (DoorDash, Uber Eats) moving upstream into POS.</p>
       </div>
