@@ -1,3 +1,4 @@
+# Last manual trigger: 2026-04-17 16:22:55
 #!/usr/bin/env python3
 """
 PAR Intel data fetcher — runs in GitHub Actions on a schedule.
