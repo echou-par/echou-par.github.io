@@ -113,8 +113,12 @@
   .sidebar-item.active .comp-ticker { color: var(--accent-text); opacity: 0.7; }
   .comp-name { font-size: 13px; font-weight: 500; flex: 1; }
   .comp-ticker { font-size: 11px; color: var(--text3); }
-  .public-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green); flex-shrink: 0; }
-  .private-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--text3); flex-shrink: 0; }
+  /* Sidebar activity dots — indicate mention status in current news cycle */
+  .sidebar-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; background: var(--text3); transition: background 0.2s; }
+  .sidebar-dot.insight { background: var(--orange); }     /* PAR 4 — mentioned in AI Intelligence Summary */
+  .sidebar-dot.highlight { background: var(--amber); }    /* PAR 5 — mentioned in Recent highlights only */
+  /* Back-compat: older code paths still reference these class names */
+  .public-dot, .private-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--text3); flex-shrink: 0; }
 
   /* Search */
   .search-wrap { padding: 12px 16px; border-bottom: 0.5px solid var(--border); }
@@ -312,6 +316,17 @@
   <div class="sidebar">
     <div class="search-wrap">
       <input class="search-input" type="text" placeholder="Search competitors..." id="sidebarSearch" oninput="filterSidebar(this.value)">
+    </div>
+    <div style="padding: 4px 18px 10px; font-size: 10px; color: var(--text3); line-height: 1.55;">
+      <div style="display:flex;align-items:center;gap:6px;margin-bottom:2px;">
+        <span class="sidebar-dot insight"></span><span>In AI Intelligence Summary</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:6px;margin-bottom:2px;">
+        <span class="sidebar-dot highlight"></span><span>In Recent highlights only</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:6px;">
+        <span class="sidebar-dot"></span><span>Not in current cycle</span>
+      </div>
     </div>
     <div class="sidebar-section">
       <div class="sidebar-label">Overview</div>
@@ -653,6 +668,8 @@ async function preloadSortData() {
   const [fin, priv] = await Promise.all([loadJSON('financials.json'), loadJSON('private_companies.json')]);
   _financialsCache = fin;
   _privateDataCache = priv;
+  // Also compute sidebar mention state in parallel so buildSidebar renders the right dots
+  await computeMentionState();
 }
 
 function sortPublicByMarketCap(companies) {
@@ -684,6 +701,87 @@ function sortPrivateByValuation(companies) {
   });
 }
 
+// Cache for the latest insights + highlights so we can compute which competitors
+// are mentioned in the current news cycle (used for sidebar activity dots).
+let _mentionStateCache = null;  // { insight: Set<id>, highlight: Set<id> }
+
+async function computeMentionState() {
+  const [insights, highlights] = await Promise.all([
+    loadJSON('insights.json'),
+    loadJSON('highlights.json'),
+  ]);
+
+  const insightIds = new Set();
+  const highlightIds = new Set();
+
+  // Build a lookup: company name → competitor id. Used to detect mentions in
+  // freeform text (insight bullets, headlines) via word-boundary matching.
+  const nameToId = {};
+  for (const c of COMPETITORS) {
+    nameToId[c.name.toLowerCase()] = c.id;
+    // Also match common aliases
+    if (c.name === 'Uber (Eats)') { nameToId['uber eats'] = c.id; nameToId['uber'] = c.id; }
+    if (c.name === 'Block (Square)') { nameToId['block'] = c.id; nameToId['square'] = c.id; }
+    if (c.name === 'Lightspeed Commerce') { nameToId['lightspeed'] = c.id; }
+    if (c.name === 'PAR Technology') { nameToId['par technology'] = c.id; nameToId['par'] = c.id; }
+  }
+  const allAliases = Object.keys(nameToId).sort((a, b) => b.length - a.length);  // longest first
+
+  const detectIdsInText = (text) => {
+    if (!text) return [];
+    const hits = [];
+    const lower = text.toLowerCase();
+    for (const alias of allAliases) {
+      if (alias.length < 3) continue;
+      const rx = new RegExp('\\b' + alias.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b', 'i');
+      if (rx.test(lower)) {
+        hits.push(nameToId[alias]);
+      }
+    }
+    return hits;
+  };
+
+  // From insights.json — scan both the company field (may be comma-separated) and the bullet text
+  for (const ins of (insights?.insights || [])) {
+    // Parse explicit company field — can be "Shift4" or "Fiserv, Global Payments, Shift4"
+    if (ins.company) {
+      for (const name of String(ins.company).split(',')) {
+        const id = nameToId[name.trim().toLowerCase()];
+        if (id) insightIds.add(id);
+      }
+    }
+    // Also scan the bullet text for any mentioned company (catches cross-competitor and rich context)
+    for (const id of detectIdsInText(ins.text)) insightIds.add(id);
+  }
+
+  // From highlights.json — company field is authoritative
+  for (const item of (highlights?.items || [])) {
+    if (item.company) {
+      const id = nameToId[String(item.company).toLowerCase()];
+      if (id) highlightIds.add(id);
+    }
+    // Also scan headline for any additional tracked mentions
+    for (const id of detectIdsInText(item.headline)) highlightIds.add(id);
+  }
+
+  _mentionStateCache = { insight: insightIds, highlight: highlightIds };
+  return _mentionStateCache;
+}
+
+function dotClassForCompetitor(competitorId) {
+  if (!_mentionStateCache) return '';  // fallback until data loads — neutral gray from base class
+  if (_mentionStateCache.insight.has(competitorId)) return 'insight';
+  if (_mentionStateCache.highlight.has(competitorId)) return 'highlight';
+  return '';
+}
+
+function dotTitleForCompetitor(competitorId) {
+  if (!_mentionStateCache) return '';
+  if (_mentionStateCache.insight.has(competitorId)) return 'Mentioned in AI Intelligence Summary this cycle';
+  if (_mentionStateCache.highlight.has(competitorId)) return 'Mentioned in Recent highlights this cycle';
+  return 'Not mentioned in current cycle';
+}
+
 function buildSidebar() {
   const pub = document.getElementById('publicList');
   const priv = document.getElementById('privateList');
@@ -702,7 +800,9 @@ function buildSidebar() {
     const el = document.createElement('div');
     el.className = 'sidebar-item';
     el.dataset.id = c.id;
-    el.innerHTML = `<span class="${c.type === 'public' ? 'public-dot' : 'private-dot'}"></span><span class="comp-name">${c.name}</span><span class="comp-ticker">${c.ticker || 'Private'}</span>`;
+    const dotClass = dotClassForCompetitor(c.id);
+    const dotTitle = dotTitleForCompetitor(c.id);
+    el.innerHTML = `<span class="sidebar-dot ${dotClass}" title="${dotTitle}"></span><span class="comp-name">${c.name}</span><span class="comp-ticker">${c.ticker || 'Private'}</span>`;
     el.onclick = () => showCompetitor(c.id, el);
     return el;
   };
@@ -720,7 +820,9 @@ function buildSidebar() {
     parEl.className = 'sidebar-item';
     parEl.dataset.id = par.id;
     parEl.style.cssText = 'background: var(--accent-bg); margin: 0 4px; border-radius: var(--radius-sm);';
-    parEl.innerHTML = `<span class="public-dot" style="background:var(--accent);"></span><span class="comp-name" style="color:var(--accent-text);font-weight:500;">${par.name}</span><span class="comp-ticker" style="color:var(--accent-text);opacity:0.7;">${par.ticker}</span>`;
+    const parDotClass = dotClassForCompetitor('par');
+    const parDotTitle = dotTitleForCompetitor('par');
+    parEl.innerHTML = `<span class="sidebar-dot ${parDotClass}" style="${parDotClass ? '' : 'background:var(--accent);'}" title="${parDotTitle}"></span><span class="comp-name" style="color:var(--accent-text);font-weight:500;">${par.name}</span><span class="comp-ticker" style="color:var(--accent-text);opacity:0.7;">${par.ticker}</span>`;
     parEl.onclick = () => showPARSummary(parEl);
     pub.appendChild(parEl);
   }
