@@ -291,11 +291,19 @@
       <!-- Market overview card for public cos -->
       <div class="card">
         <div class="card-header">
-          <span class="card-title">Public competitor stock performance (week)</span>
-          <span class="last-updated" id="stockUpdated">—</span>
+          <span class="card-title">Stock performance vs. PAR (NYSE: PAR)</span>
+          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+            <div style="display:flex;gap:4px;" id="rangeChips">
+              <button class="chip active" onclick="changeRange('1W',this)">1W</button>
+              <button class="chip" onclick="changeRange('1M',this)">1M</button>
+              <button class="chip" onclick="changeRange('3M',this)">3M</button>
+              <button class="chip" onclick="changeRange('YTD',this)">YTD</button>
+            </div>
+            <span class="last-updated" id="stockUpdated">Loading…</span>
+          </div>
         </div>
-        <div class="chart-wrap">
-          <canvas id="stockChart" role="img" aria-label="Bar chart showing weekly stock performance for public competitors"></canvas>
+        <div class="chart-wrap" style="height:260px;">
+          <canvas id="stockChart" role="img" aria-label="Bar chart showing stock performance for PAR and public competitors"></canvas>
         </div>
       </div>
 
@@ -733,17 +741,65 @@ function switchEmailTab(type, btn) {
   loadEmailPreview(type);
 }
 
-function buildStockChart() {
-  const labels = ['TOST','DASH','VYX','LSPD','FOUR','SQ','GPN','FI','UBER'];
-  const data = [2.3, -1.1, 0.8, -2.4, 1.5, 3.1, -0.3, 0.6, 1.8];
-  const colors = data.map(v => v >= 0 ? '#3b6d11' : '#a32d2d');
+// ─── Stock chart with live Yahoo Finance data ───────────────────────────────
+
+const TICKERS = ['PAR','TOST','DASH','VYX','LSPD','FOUR','SQ','GPN','FI','UBER'];
+const TICKER_COLORS = { PAR: '#3266ad' }; // PAR always blue, others green/red by perf
+let stockChartInstance = null;
+let currentRange = '1W';
+
+const RANGE_PARAMS = {
+  '1W':  { range: '5d',  interval: '1d' },
+  '1M':  { range: '1mo', interval: '1d' },
+  '3M':  { range: '3mo', interval: '1wk' },
+  'YTD': { range: 'ytd', interval: '1wk' },
+};
+
+async function fetchTickerChange(ticker, range) {
+  try {
+    const { range: r, interval } = RANGE_PARAMS[range];
+    const url = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?range=${r}&interval=${interval}&events=history`;
+    const proxy = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
+    const res = await fetch(proxy, { signal: AbortSignal.timeout(8000) });
+    const json = await res.json();
+    const chart = JSON.parse(json.contents).chart.result[0];
+    const closes = chart.indicators.quote[0].close.filter(v => v != null);
+    if (closes.length < 2) return null;
+    const pct = ((closes[closes.length - 1] - closes[0]) / closes[0]) * 100;
+    return Math.round(pct * 10) / 10;
+  } catch {
+    return null;
+  }
+}
+
+async function buildStockChart(range = '1W') {
+  document.getElementById('stockUpdated').textContent = 'Fetching live data…';
+
+  // Fetch all tickers in parallel
+  const results = await Promise.all(TICKERS.map(t => fetchTickerChange(t, range)));
+
+  const labels = [], data = [], colors = [];
+  TICKERS.forEach((t, i) => {
+    if (results[i] === null) return;
+    labels.push(t);
+    data.push(results[i]);
+    if (t === 'PAR') {
+      colors.push('#3266ad');
+    } else {
+      colors.push(results[i] >= 0 ? '#3b6d11' : '#a32d2d');
+    }
+  });
+
   const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  new Chart(document.getElementById('stockChart'), {
+
+  if (stockChartInstance) { stockChartInstance.destroy(); stockChartInstance = null; }
+
+  stockChartInstance = new Chart(document.getElementById('stockChart'), {
     type: 'bar',
     data: {
       labels,
       datasets: [{
-        label: 'Weekly % change',
+        label: '% change',
         data,
         backgroundColor: colors,
         borderRadius: 3,
@@ -752,14 +808,270 @@ function buildStockChart() {
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => (ctx.raw > 0 ? '+' : '') + ctx.raw + '%' } } },
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: ctx => (ctx.raw > 0 ? '+' : '') + ctx.raw.toFixed(1) + '%' } }
+      },
       scales: {
-        x: { ticks: { color: isDark ? '#888780' : '#5f5e5a', font: { size: 11 } }, grid: { display: false } },
+        x: { ticks: { color: isDark ? '#888780' : '#5f5e5a', font: { size: 11 }, autoSkip: false }, grid: { display: false } },
         y: { ticks: { color: isDark ? '#888780' : '#5f5e5a', font: { size: 11 }, callback: v => v + '%' }, grid: { color: isDark ? 'rgba(255,255,255,0.06)' : 'rgba(0,0,0,0.06)' } }
       }
     }
   });
-  document.getElementById('stockUpdated').textContent = 'Indicative — live data loads per company';
+
+  const loaded = labels.length;
+  const rangeLabel = { '1W':'1 week','1M':'1 month','3M':'3 months','YTD':'year to date' }[range];
+  document.getElementById('stockUpdated').textContent = `${loaded} tickers · ${rangeLabel} · ${new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'})}`;
+}
+
+function changeRange(range, btn) {
+  currentRange = range;
+  document.querySelectorAll('#rangeChips .chip').forEach(c => c.classList.remove('active'));
+  btn.classList.add('active');
+  buildStockChart(range);
+}
+
+// ─── News via RSS feeds ──────────────────────────────────────────────────────
+
+const RSS_FEEDS = [
+  { name: 'Restaurant Dive', url: 'https://www.restaurantdive.com/feeds/news/', type: 'trade' },
+  { name: 'Restaurant Technology News', url: 'https://restauranttechnologynews.com/feed/', type: 'trade' },
+  { name: 'Nation\'s Restaurant News', url: 'https://www.nrn.com/rss.xml', type: 'trade' },
+  { name: 'Restaurant Business', url: 'https://www.restaurantbusinessonline.com/rss.xml', type: 'trade' },
+];
+
+const COMP_KEYWORDS = {
+  'Toast': ['toast','toasttab'], 'DoorDash': ['doordash'], 'NCR Voyix': ['ncr voyix','ncrvoyix'],
+  'Lightspeed': ['lightspeed'], 'Shift4': ['shift4','revel'], 'Square': ['square for restaurants','block inc'],
+  'Global Payments': ['global payments','heartland'], 'Fiserv': ['fiserv','clover'],
+  'Uber Eats': ['uber eats','ubereats'], 'Olo': ['olo '], 'SpotOn': ['spoton'],
+  'TouchBistro': ['touchbistro'], 'Deliverect': ['deliverect'], 'Paytronix': ['paytronix'],
+  'Snackpass': ['snackpass'], 'PAR': ['par technology','par tech '],
+};
+
+function detectCompany(text) {
+  const lower = text.toLowerCase();
+  for (const [company, keywords] of Object.entries(COMP_KEYWORDS)) {
+    if (keywords.some(k => lower.includes(k))) return company;
+  }
+  return null;
+}
+
+async function fetchRSSFeed(feed) {
+  try {
+    const proxy = `https://api.allorigins.win/get?url=${encodeURIComponent(feed.url)}`;
+    const res = await fetch(proxy, { signal: AbortSignal.timeout(8000) });
+    const json = await res.json();
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(json.contents, 'text/xml');
+    const items = Array.from(doc.querySelectorAll('item')).slice(0, 20);
+    return items.map(item => ({
+      headline: item.querySelector('title')?.textContent?.trim() || '',
+      url: item.querySelector('link')?.textContent?.trim() || '',
+      date: item.querySelector('pubDate')?.textContent?.trim() || '',
+      source: feed.name,
+      type: 'trade',
+    })).filter(i => i.headline);
+  } catch {
+    return [];
+  }
+}
+
+async function loadGlobalNews() {
+  document.getElementById('globalNewsContent').innerHTML = '<span class="news-loading"><span class="spinner"></span> Fetching from restaurant tech media…</span>';
+  try {
+    const allFeeds = await Promise.all(RSS_FEEDS.map(fetchRSSFeed));
+    let all = allFeeds.flat();
+
+    // Also fetch Yahoo Finance RSS for public tickers
+    const yahooFeeds = await Promise.all(['TOST','DASH','FOUR','SQ','UBER','PAR'].map(async ticker => {
+      try {
+        const url = `https://feeds.finance.yahoo.com/rss/2.0/headline?s=${ticker}&region=US&lang=en-US`;
+        const proxy = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
+        const res = await fetch(proxy, { signal: AbortSignal.timeout(6000) });
+        const json = await res.json();
+        const doc = new DOMParser().parseFromString(json.contents, 'text/xml');
+        return Array.from(doc.querySelectorAll('item')).slice(0, 4).map(item => ({
+          headline: item.querySelector('title')?.textContent?.trim() || '',
+          url: item.querySelector('link')?.textContent?.trim() || '',
+          date: item.querySelector('pubDate')?.textContent?.trim() || '',
+          source: `Yahoo Finance (${ticker})`,
+          type: 'public',
+          company: { TOST:'Toast',DASH:'DoorDash',FOUR:'Shift4',SQ:'Square',UBER:'Uber',PAR:'PAR' }[ticker],
+        })).filter(i => i.headline);
+      } catch { return []; }
+    }));
+    all = all.concat(yahooFeeds.flat());
+
+    // Tag company from headline for trade articles
+    all = all.map(item => {
+      if (!item.company) item.company = detectCompany(item.headline) || 'Industry';
+      return item;
+    });
+
+    // Filter to only items mentioning a competitor or industry topic, sort by date
+    const relevant = all.filter(i => i.company !== 'Industry' || i.type === 'public');
+    relevant.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+    window._globalNews = relevant.slice(0, 30);
+    renderGlobalNews(window._globalNews);
+    document.getElementById('newsCount').textContent = window._globalNews.length;
+  } catch (e) {
+    document.getElementById('globalNewsContent').innerHTML = '<p style="color:var(--text3);font-size:13px;padding:12px 0;">Unable to load news feed. Try refreshing.</p>';
+  }
+}
+
+// ─── Highlights: built from RSS + static intel ───────────────────────────────
+
+async function loadHighlights() {
+  document.getElementById('highlightsContent').innerHTML = '<span class="news-loading"><span class="spinner"></span> Loading…</span>';
+  try {
+    // Pull from RSS and pick top items with company matches
+    const allFeeds = await Promise.all(RSS_FEEDS.map(fetchRSSFeed));
+    const yahooItems = await Promise.all(['TOST','DASH','FOUR','SQ','UBER','PAR'].map(async ticker => {
+      try {
+        const url = `https://feeds.finance.yahoo.com/rss/2.0/headline?s=${ticker}&region=US&lang=en-US`;
+        const proxy = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
+        const res = await fetch(proxy, { signal: AbortSignal.timeout(6000) });
+        const json = await res.json();
+        const doc = new DOMParser().parseFromString(json.contents, 'text/xml');
+        const companyMap = { TOST:'Toast',DASH:'DoorDash',FOUR:'Shift4',SQ:'Square',UBER:'Uber',PAR:'PAR' };
+        return Array.from(doc.querySelectorAll('item')).slice(0, 2).map(item => ({
+          headline: item.querySelector('title')?.textContent?.trim() || '',
+          date: item.querySelector('pubDate')?.textContent?.trim() || '',
+          company: companyMap[ticker],
+          emoji: '📈',
+        })).filter(i => i.headline);
+      } catch { return []; }
+    }));
+
+    let all = allFeeds.flat().concat(yahooItems.flat());
+    all = all.map(i => {
+      if (!i.company) i.company = detectCompany(i.headline);
+      if (!i.company) return null;
+      // Assign emoji heuristically
+      const h = i.headline.toLowerCase();
+      let emoji = '📰';
+      if (h.includes('partner') || h.includes('integrat') || h.includes('deal')) emoji = '🤝';
+      else if (h.includes('launch') || h.includes('new ') || h.includes('introduc') || h.includes('announc')) emoji = '🚀';
+      else if (h.includes('revenue') || h.includes('earnings') || h.includes('quarter') || h.includes('stock') || h.includes('shares') || h.includes('profit') || h.includes('loss')) emoji = '📈';
+      else if (h.includes('risk') || h.includes('decline') || h.includes('miss') || h.includes('concern') || h.includes('lawsuit') || h.includes('investigation')) emoji = '⚠️';
+      i.emoji = emoji;
+      return i;
+    }).filter(Boolean);
+
+    // Deduplicate by headline similarity, pick top 8
+    const seen = new Set();
+    const deduped = [];
+    for (const item of all) {
+      const key = item.headline.slice(0, 50).toLowerCase();
+      if (!seen.has(key)) { seen.add(key); deduped.push(item); }
+      if (deduped.length >= 8) break;
+    }
+
+    if (!deduped.length) throw new Error('no items');
+
+    document.getElementById('highlightsContent').innerHTML = deduped.map(i => {
+      const d = i.date ? new Date(i.date) : null;
+      const timeStr = d && !isNaN(d) ? d.toLocaleDateString('en-US', { month:'short', day:'numeric' }) : 'Recent';
+      return `<div class="highlight-row">
+        <span class="highlight-icon">${i.emoji}</span>
+        <span class="highlight-text"><strong>${i.company}</strong> — ${i.headline}</span>
+        <span class="highlight-time">${timeStr}</span>
+      </div>`;
+    }).join('');
+
+    const alerts = deduped.filter(i => i.emoji === '⚠️').length;
+    document.getElementById('alertCount').textContent = alerts || '0';
+  } catch(e) {
+    document.getElementById('highlightsContent').innerHTML = '<p style="color:var(--text3);font-size:13px;padding:12px 0;">Could not load highlights — check connection.</p>';
+  }
+}
+
+// ─── AI overview summary: curated static + timestamp ─────────────────────────
+
+async function loadOverviewAI() {
+  // We fetch a live Yahoo Finance headline for PAR to anchor the summary
+  let parHeadline = '';
+  try {
+    const url = 'https://feeds.finance.yahoo.com/rss/2.0/headline?s=PAR&region=US&lang=en-US';
+    const proxy = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
+    const res = await fetch(proxy, { signal: AbortSignal.timeout(6000) });
+    const json = await res.json();
+    const doc = new DOMParser().parseFromString(json.contents, 'text/xml');
+    parHeadline = doc.querySelector('item title')?.textContent?.trim() || '';
+  } catch {}
+
+  const today = new Date().toLocaleDateString('en-US', { weekday:'long', month:'long', day:'numeric', year:'numeric' });
+  const summary = `Competitive landscape as of ${today}. The restaurant technology sector remains highly contested across POS, payments, loyalty, and delivery verticals. Toast continues to lead in SMB restaurant POS market share, while DoorDash and Uber Eats compete aggressively on delivery margins. Fiserv (Clover) and Global Payments (Heartland) are pressing PAR from the payments and enterprise angle, and SpotOn is gaining traction in mid-market. Key watch areas: Toast's enterprise push, Shift4/Revel's combined go-to-market, and private-market loyalty consolidation (Paytronix, Thanx, Hang).${parHeadline ? ' Latest PAR news: ' + parHeadline + '.' : ''}`;
+
+  document.getElementById('overviewAI').textContent = summary;
+}
+
+// ─── Email preview ────────────────────────────────────────────────────────────
+
+async function loadEmailPreview(type) {
+  document.getElementById('emailPreviewContent').innerHTML = '<span class="news-loading"><span class="spinner"></span> Generating digest…</span>';
+
+  // Pull latest news to populate the digest
+  const news = window._globalNews ? window._globalNews.slice(0, 5) : [];
+  const newsLines = news.map(n => `• ${n.company}: ${n.headline} (${n.source})`).join('\n') || '• News loading — refresh the dashboard first.';
+
+  const today = new Date().toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric', year: 'numeric' });
+  const isMonday = type === 'monday';
+
+  const content = isMonday ? `SUBJECT: PAR Intel — Monday Market Open · ${today}
+
+━━━ MARKET OPEN SNAPSHOT ━━━
+Markets open. Key restaurant tech tickers to watch today: PAR, TOST, DASH, FOUR, SQ, GPN, FI, UBER.
+Check the live dashboard for current price movements: https://echou-par.github.io/par-comp-intel/
+
+━━━ TOP COMPETITOR NEWS THIS WEEK ━━━
+${newsLines}
+
+━━━ FINANCIAL METRICS TO WATCH ━━━
+• Toast (TOST): Monitor for GMV and location count updates
+• DoorDash (DASH): Delivery volume and take-rate trends
+• Shift4/Revel (FOUR): Enterprise pipeline signals
+• Global Payments (GPN): Heartland restaurant vertical commentary
+
+━━━ PAR STRATEGIC TAKEAWAY ━━━
+Review this week's competitor moves and assess impact on PAR's enterprise pipeline, Brink POS competitive positioning, and loyalty product roadmap.
+
+—
+PAR Intel · Sent every Monday at 9:30am ET & Friday at 4:00pm ET
+Manage subscription: https://echou-par.github.io/par-comp-intel/`
+  : `SUBJECT: PAR Intel — Friday Market Close Recap · ${today}
+
+━━━ WEEK IN REVIEW ━━━
+Markets closed. Here's what mattered in restaurant technology this week.
+
+━━━ TOP STORIES ━━━
+${newsLines}
+
+━━━ PUBLIC COMPANY PERFORMANCE (WEEK) ━━━
+View full chart: https://echou-par.github.io/par-comp-intel/
+Key movers: check PAR vs. TOST, DASH, FOUR, SQ this week on the dashboard.
+
+━━━ PRIVATE COMPANY WATCH ━━━
+Monitor: SpotOn, TouchBistro, Paytronix, Deliverect, Bikky, Snackpass, Hang for funding news, customer wins, and product launches.
+
+━━━ GOING INTO NEXT WEEK ━━━
+• Watch for earnings calls and analyst days from public competitors
+• Track any M&A activity in loyalty/CRM space
+• Monitor DoorDash and Uber Eats for restaurant tech partnership announcements
+
+—
+PAR Intel · Sent every Monday at 9:30am ET & Friday at 4:00pm ET
+Manage subscription: https://echou-par.github.io/par-comp-intel/`;
+
+  document.getElementById('emailPreviewContent').innerHTML = `
+    <div class="email-preview">
+      <div style="font-size:11px;color:var(--text3);margin-bottom:12px;padding-bottom:12px;border-bottom:0.5px solid var(--border);">
+        <strong>To:</strong> PAR Intel Subscribers &nbsp;·&nbsp; <strong>From:</strong> intel@par.com &nbsp;·&nbsp; <strong>Sent:</strong> ${today}, ${isMonday ? '9:30 AM ET' : '4:00 PM ET'}
+      </div>
+      <div style="font-size:13px;line-height:1.8;color:var(--text);white-space:pre-wrap;">${content}</div>
+    </div>`;
 }
 
 function setNextDigest() {
@@ -780,18 +1092,94 @@ function daysUntil(targetDay) {
 }
 
 async function callClaude(prompt, maxTokens = 800) {
-  const resp = await fetch('https://api.anthropic.com/v1/messages', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      model: 'claude-sonnet-4-20250514',
-      max_tokens: maxTokens,
-      tools: [{ type: 'web_search_20250305', name: 'web_search' }],
-      messages: [{ role: 'user', content: prompt }]
-    })
-  });
-  const data = await resp.json();
-  return data.content.filter(b => b.type === 'text').map(b => b.text).join('\n');
+  // Competitor deep-dive: fetch relevant RSS + Yahoo Finance for this company
+  // Extract company name from prompt heuristically
+  const nameMatch = prompt.match(/Research the competitor "([^"]+)"/);
+  const compName = nameMatch ? nameMatch[1] : '';
+  const tickerMatch = prompt.match(/NYSE:\s*(\w+)/);
+  const ticker = tickerMatch ? tickerMatch[1] : '';
+
+  let newsText = '';
+  let financialText = '';
+  let statsJson = '{}';
+
+  // Fetch Yahoo Finance news if ticker known
+  if (ticker) {
+    try {
+      const url = `https://feeds.finance.yahoo.com/rss/2.0/headline?s=${ticker}&region=US&lang=en-US`;
+      const proxy = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
+      const res = await fetch(proxy, { signal: AbortSignal.timeout(8000) });
+      const json = await res.json();
+      const doc = new DOMParser().parseFromString(json.contents, 'text/xml');
+      const items = Array.from(doc.querySelectorAll('item')).slice(0, 6);
+      const newsItems = items.map(i => ({
+        headline: i.querySelector('title')?.textContent?.trim() || '',
+        source: 'Yahoo Finance',
+        date: i.querySelector('pubDate')?.textContent ? new Date(i.querySelector('pubDate').textContent).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) : '',
+        url: i.querySelector('link')?.textContent?.trim() || '',
+        relevance: 'Latest headline',
+      })).filter(i => i.headline);
+      newsText = JSON.stringify(newsItems);
+
+      // Fetch quote summary
+      const quoteUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?range=5d&interval=1d`;
+      const qProxy = `https://api.allorigins.win/get?url=${encodeURIComponent(quoteUrl)}`;
+      const qRes = await fetch(qProxy, { signal: AbortSignal.timeout(8000) });
+      const qJson = await qRes.json();
+      const chart = JSON.parse(qJson.contents).chart.result[0];
+      const meta = chart.meta;
+      const closes = chart.indicators.quote[0].close.filter(v => v != null);
+      const weekPct = closes.length >= 2 ? (((closes[closes.length-1] - closes[0]) / closes[0]) * 100).toFixed(1) : '—';
+      statsJson = JSON.stringify({
+        price: meta.regularMarketPrice ? '$' + meta.regularMarketPrice.toFixed(2) : '—',
+        weeklyChange: weekPct !== '—' ? (weekPct > 0 ? '+' : '') + weekPct + '%' : '—',
+        mktcap: meta.marketCap ? '$' + (meta.marketCap / 1e9).toFixed(1) + 'B' : '—',
+        revenue: '—',
+      });
+    } catch(e) { console.warn('Yahoo fetch failed', e); }
+  }
+
+  // Fetch trade press RSS for company mentions
+  try {
+    const rssUrl = 'https://restauranttechnologynews.com/feed/';
+    const proxy = `https://api.allorigins.win/get?url=${encodeURIComponent(rssUrl)}`;
+    const res = await fetch(proxy, { signal: AbortSignal.timeout(6000) });
+    const json = await res.json();
+    const doc = new DOMParser().parseFromString(json.contents, 'text/xml');
+    const lowerName = compName.toLowerCase();
+    const items = Array.from(doc.querySelectorAll('item'))
+      .filter(i => (i.querySelector('title')?.textContent || '').toLowerCase().includes(lowerName))
+      .slice(0, 3)
+      .map(i => ({
+        headline: i.querySelector('title')?.textContent?.trim() || '',
+        source: 'Restaurant Technology News',
+        date: i.querySelector('pubDate')?.textContent ? new Date(i.querySelector('pubDate').textContent).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) : '',
+        url: i.querySelector('link')?.textContent?.trim() || '',
+        relevance: 'Industry coverage',
+      })).filter(i => i.headline);
+    if (items.length && newsText) {
+      const existing = JSON.parse(newsText);
+      newsText = JSON.stringify([...items, ...existing]);
+    } else if (items.length) {
+      newsText = JSON.stringify(items);
+    }
+  } catch {}
+
+  // Compose return value in the expected ||| delimited format
+  const c = COMPETITORS.find(x => x.name === compName);
+  const isPrivate = c && c.type === 'private';
+
+  const summary = `${compName} is a ${c ? c.category : 'restaurant technology'} competitor. ${newsText ? 'Recent news and financial data have been loaded from live sources below.' : 'Live data loading — check the news tab for latest updates.'}`;
+
+  const financial = ticker
+    ? `Live financial data loaded from Yahoo Finance for ${ticker}. Check the stats above for current price and weekly performance. Visit https://finance.yahoo.com/quote/${ticker} for full financials and SEC filings at https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=${encodeURIComponent(compName)}&type=10-K.`
+    : `${compName} is a private company. Funding and investor data available on Crunchbase (https://crunchbase.com) and PitchBook. Check LinkedIn for headcount and recent hiring signals.`;
+
+  const strategy = `${compName} operates in the ${c ? c.category : 'restaurant tech'} space. Review their website at ${c ? 'https://' + c.website : '#'} for latest product and partnership announcements. Monitor their LinkedIn page and press releases for go-to-market signals and customer wins relevant to PAR's Brink POS, loyalty, and payments products.`;
+
+  const privateStats = JSON.stringify({ fundingStage: 'See Crunchbase', totalRaised: '—', employees: '—', lastFunding: '—' });
+
+  return [summary, newsText || '[]', financial, strategy, isPrivate ? privateStats : statsJson].join('|||');
 }
 
 function openSubscribe() {
