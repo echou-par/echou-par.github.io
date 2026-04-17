@@ -15,6 +15,7 @@
 <title>PAR Competitor Intelligence Dashboard</title>
 <link rel="icon" type="image/jpeg" href="assets/par-logo.jpg">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;700;800&display=swap" rel="stylesheet">
@@ -216,6 +217,18 @@
   .form-label { font-size: 12px; color: var(--text2); margin-bottom: 5px; display: block; }
   .form-input { width: 100%; padding: 9px 12px; border: 0.5px solid var(--border2); border-radius: var(--radius-sm); background: var(--bg2); color: var(--text); font-size: 13px; font-family: inherit; outline: none; }
   .form-input:focus { border-color: var(--accent); }
+  textarea.form-input { line-height: 1.5; resize: vertical; min-height: 60px; }
+
+  /* Intel upload drop zone */
+  .upload-drop-zone { border: 1.5px dashed var(--border2); border-radius: var(--radius-sm); padding: 22px 16px; text-align: center; cursor: pointer; transition: all 0.15s; background: var(--bg2); }
+  .upload-drop-zone:hover { border-color: var(--accent); background: var(--accent-bg); }
+  .upload-drop-zone.drag-over { border-color: var(--accent); background: var(--accent-bg); border-style: solid; }
+  .intel-file-row { display: flex; align-items: center; gap: 10px; padding: 8px 10px; background: var(--bg2); border-radius: var(--radius-sm); margin-bottom: 6px; font-size: 12px; }
+  .intel-file-icon { font-size: 18px; flex-shrink: 0; }
+  .intel-file-name { flex: 1; color: var(--text); font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .intel-file-size { color: var(--text3); font-size: 11px; flex-shrink: 0; }
+  .intel-file-remove { background: transparent; border: none; color: var(--text3); font-size: 16px; cursor: pointer; padding: 0 4px; line-height: 1; }
+  .intel-file-remove:hover { color: var(--red); }
   .schedule-box { background: var(--bg2); border-radius: var(--radius-sm); padding: 12px; margin-bottom: 16px; }
   .schedule-item { display: flex; align-items: center; gap: 10px; padding: 5px 0; }
   .schedule-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
@@ -413,6 +426,93 @@
     <div class="view" id="view-par">
       <div id="parSummaryContent">
         <span class="news-loading"><span class="spinner"></span> Loading PAR summary…</span>
+      </div>
+    </div>
+
+    <!-- Competitive Intel Upload view -->
+    <div class="view" id="view-intel-upload">
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title">Competitive Intel Upload</span>
+          <span class="last-updated">Share intel with the PAR team</span>
+        </div>
+        <div style="font-size:13px;color:var(--text2);line-height:1.6;margin-bottom:16px;">
+          Spotted something competitors are doing? Got a document, email, screenshot, or link that would help the team? Drop it here. Your submission will be packaged and sent to the Intel team.
+        </div>
+
+        <!-- Submitter info -->
+        <div class="form-row">
+          <label class="form-label">Your name</label>
+          <input class="form-input" type="text" id="intelSubmitter" placeholder="Full name">
+        </div>
+        <div class="form-row">
+          <label class="form-label">Your email</label>
+          <input class="form-input" type="email" id="intelEmail" placeholder="you@partech.com">
+        </div>
+
+        <!-- Subject / title -->
+        <div class="form-row">
+          <label class="form-label">Title <span style="color:var(--text3);font-weight:400;">(short summary)</span></label>
+          <input class="form-input" type="text" id="intelTitle" placeholder="e.g. Toast pitched enterprise bundle to Wendy's franchisee">
+        </div>
+
+        <!-- Text / details -->
+        <div class="form-row">
+          <label class="form-label">Details <span style="color:var(--text3);font-weight:400;">(paste text, comments, context — anything)</span></label>
+          <textarea class="form-input" id="intelText" rows="6" placeholder="Paste email content, meeting notes, observations, or any context here. Markdown is fine — links will be preserved."></textarea>
+        </div>
+
+        <!-- Links -->
+        <div class="form-row">
+          <label class="form-label">Links <span style="color:var(--text3);font-weight:400;">(optional — websites, cloud file links, LinkedIn posts, etc. — one per line)</span></label>
+          <textarea class="form-input" id="intelLinks" rows="3" placeholder="https://example.com/article&#10;https://drive.google.com/file/d/...&#10;https://linkedin.com/posts/..."></textarea>
+        </div>
+
+        <!-- File uploads -->
+        <div class="form-row">
+          <label class="form-label">Attach files <span style="color:var(--text3);font-weight:400;">(drag &amp; drop or click to browse — any type)</span></label>
+          <div class="upload-drop-zone" id="intelDropZone" onclick="document.getElementById('intelFileInput').click()">
+            <div style="font-size:24px;color:var(--accent);margin-bottom:4px;">⬆</div>
+            <div style="font-size:13px;color:var(--text);font-weight:500;">Drop files here or click to browse</div>
+            <div style="font-size:11px;color:var(--text3);margin-top:4px;">Office docs, PDFs, emails (.eml, .msg), text files, images — all accepted</div>
+          </div>
+          <input type="file" id="intelFileInput" multiple style="display:none;" onchange="handleIntelFiles(this.files)">
+          <div id="intelFileList" style="margin-top:10px;"></div>
+          <div id="intelStorageWarning" style="margin-top:8px;font-size:12px;color:var(--orange);display:none;"></div>
+        </div>
+
+        <!-- Actions -->
+        <div style="display:flex;gap:10px;justify-content:flex-end;align-items:center;flex-wrap:wrap;padding-top:8px;border-top:0.5px solid var(--border);">
+          <div id="intelStatusMsg" style="flex:1;font-size:12px;color:var(--text3);"></div>
+          <button class="btn" onclick="clearIntelForm()">Clear</button>
+          <button class="btn btn-primary" onclick="submitIntel()">Generate submission packet</button>
+        </div>
+
+        <!-- Success state -->
+        <div id="intelSuccess" style="display:none;margin-top:14px;padding:14px;background:rgba(52, 198, 121, 0.1);border:0.5px solid var(--green);border-radius:var(--radius-sm);">
+          <div style="font-size:13px;font-weight:600;color:var(--green);margin-bottom:6px;">✓ Submission packet created</div>
+          <div style="font-size:12px;color:var(--text);line-height:1.5;" id="intelSuccessDetail"></div>
+          <div style="display:flex;gap:8px;margin-top:10px;flex-wrap:wrap;">
+            <button class="btn btn-primary" id="intelDownloadBtn" style="font-size:12px;">⬇ Download packet (.zip)</button>
+            <button class="btn" onclick="closeIntelSuccess()" style="font-size:12px;">Dismiss</button>
+          </div>
+          <div style="font-size:11px;color:var(--text3);margin-top:10px;padding-top:10px;border-top:0.5px solid var(--border);">
+            <strong>Next step:</strong> email the downloaded zip to <a href="mailto:intel@partech.com" style="color:var(--accent);">intel@partech.com</a>, or drop it in the #competitive-intel Slack channel. Automatic repo submission is coming in v2.
+          </div>
+        </div>
+
+        <!-- Draft indicator -->
+        <div id="intelDraftIndicator" style="display:none;margin-top:14px;font-size:11px;color:var(--text3);text-align:right;">
+          Draft auto-saved · <a href="#" onclick="clearIntelDraft();return false;" style="color:var(--accent);">Discard draft</a>
+        </div>
+      </div>
+
+      <!-- Recent submissions this session -->
+      <div class="card" id="intelHistoryCard" style="display:none;">
+        <div class="card-header">
+          <span class="card-title">Your recent submissions (this browser)</span>
+        </div>
+        <div id="intelHistoryList" style="font-size:13px;"></div>
       </div>
     </div>
   </div>
@@ -2032,6 +2132,10 @@ function addEmailPreviewToSidebar() {
     <div class="sidebar-item" onclick="showEmailPreview(this)" style="cursor:pointer;">
       <span style="font-size:14px;">✉</span>
       <span class="comp-name">Email digest preview</span>
+    </div>
+    <div class="sidebar-item" onclick="showIntelUpload(this)" style="cursor:pointer;">
+      <span style="font-size:14px;">⬆</span>
+      <span class="comp-name">Competitive Intel Upload</span>
     </div>`;
   document.querySelector('.sidebar').appendChild(section);
 }
@@ -2039,6 +2143,13 @@ function addEmailPreviewToSidebar() {
 function showEmailPreview(el) {
   showView('email-preview', el);
   loadEmailPreview('monday');
+}
+
+function showIntelUpload(el) {
+  showView('intel-upload', el);
+  setupIntelDropZone();
+  restoreIntelDraft();
+  renderIntelHistory();
 }
 
 // ─── PAR self-summary page ───────────────────────────────────────────────────
@@ -2262,6 +2373,336 @@ async function showPARSummary(sidebarEl) {
   } else {
     document.getElementById('par-financial-detail').innerHTML = '<p style="color:var(--text3);font-size:13px;">Financial data not yet loaded.</p>';
   }
+}
+
+// ─── Competitive Intel Upload (v1) ───────────────────────────────────────────
+
+const INTEL_DRAFT_KEY = 'par_intel_upload_draft_v1';
+const INTEL_HISTORY_KEY = 'par_intel_upload_history_v1';
+const INTEL_STORAGE_WARN_THRESHOLD = 50 * 1024 * 1024;  // 50 MB — warn, not block
+
+let _intelFiles = [];  // [{file: File, id: string}]
+let _intelDragSetup = false;
+
+function setupIntelDropZone() {
+  if (_intelDragSetup) return;
+  _intelDragSetup = true;
+  const zone = document.getElementById('intelDropZone');
+  if (!zone) return;
+  ['dragenter', 'dragover'].forEach(evt => {
+    zone.addEventListener(evt, (e) => {
+      e.preventDefault(); e.stopPropagation();
+      zone.classList.add('drag-over');
+    });
+  });
+  ['dragleave', 'drop'].forEach(evt => {
+    zone.addEventListener(evt, (e) => {
+      e.preventDefault(); e.stopPropagation();
+      zone.classList.remove('drag-over');
+    });
+  });
+  zone.addEventListener('drop', (e) => {
+    e.preventDefault();
+    if (e.dataTransfer?.files) handleIntelFiles(e.dataTransfer.files);
+  });
+
+  // Auto-save draft on any input change
+  ['intelSubmitter', 'intelEmail', 'intelTitle', 'intelText', 'intelLinks'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.addEventListener('input', debounceSaveDraft);
+  });
+}
+
+let _draftSaveTimer = null;
+function debounceSaveDraft() {
+  clearTimeout(_draftSaveTimer);
+  _draftSaveTimer = setTimeout(saveIntelDraft, 600);
+}
+
+function saveIntelDraft() {
+  const draft = {
+    submitter: document.getElementById('intelSubmitter')?.value || '',
+    email: document.getElementById('intelEmail')?.value || '',
+    title: document.getElementById('intelTitle')?.value || '',
+    text: document.getElementById('intelText')?.value || '',
+    links: document.getElementById('intelLinks')?.value || '',
+    savedAt: new Date().toISOString(),
+  };
+  // Only save if there's at least some content
+  const hasContent = draft.submitter || draft.email || draft.title || draft.text || draft.links;
+  try {
+    if (hasContent) {
+      localStorage.setItem(INTEL_DRAFT_KEY, JSON.stringify(draft));
+      document.getElementById('intelDraftIndicator').style.display = 'block';
+    } else {
+      localStorage.removeItem(INTEL_DRAFT_KEY);
+      document.getElementById('intelDraftIndicator').style.display = 'none';
+    }
+  } catch (e) {
+    // Quota exceeded — silently ignore
+  }
+}
+
+function restoreIntelDraft() {
+  try {
+    const raw = localStorage.getItem(INTEL_DRAFT_KEY);
+    if (!raw) return;
+    const draft = JSON.parse(raw);
+    if (draft.submitter) document.getElementById('intelSubmitter').value = draft.submitter;
+    if (draft.email) document.getElementById('intelEmail').value = draft.email;
+    if (draft.title) document.getElementById('intelTitle').value = draft.title;
+    if (draft.text) document.getElementById('intelText').value = draft.text;
+    if (draft.links) document.getElementById('intelLinks').value = draft.links;
+    if (draft.submitter || draft.email || draft.title || draft.text || draft.links) {
+      document.getElementById('intelDraftIndicator').style.display = 'block';
+    }
+  } catch (e) { /* corrupt draft, ignore */ }
+}
+
+function clearIntelDraft() {
+  try { localStorage.removeItem(INTEL_DRAFT_KEY); } catch {}
+  clearIntelForm();
+}
+
+function handleIntelFiles(fileList) {
+  for (const file of fileList) {
+    _intelFiles.push({ file, id: 'f_' + Math.random().toString(36).slice(2, 9) });
+  }
+  renderIntelFileList();
+}
+
+function removeIntelFile(id) {
+  _intelFiles = _intelFiles.filter(f => f.id !== id);
+  renderIntelFileList();
+}
+
+function renderIntelFileList() {
+  const list = document.getElementById('intelFileList');
+  const warn = document.getElementById('intelStorageWarning');
+  if (_intelFiles.length === 0) {
+    list.innerHTML = '';
+    warn.style.display = 'none';
+    return;
+  }
+  list.innerHTML = _intelFiles.map(f => {
+    const icon = guessFileIcon(f.file);
+    const size = formatBytes(f.file.size);
+    return `<div class="intel-file-row">
+      <span class="intel-file-icon">${icon}</span>
+      <span class="intel-file-name" title="${escapeHtml(f.file.name)}">${escapeHtml(f.file.name)}</span>
+      <span class="intel-file-size">${size}</span>
+      <button class="intel-file-remove" onclick="removeIntelFile('${f.id}')" title="Remove">×</button>
+    </div>`;
+  }).join('');
+
+  // Memory warning: if total > 50MB, show a soft caution
+  const total = _intelFiles.reduce((sum, f) => sum + f.file.size, 0);
+  if (total > INTEL_STORAGE_WARN_THRESHOLD) {
+    warn.textContent = `⚠ ${_intelFiles.length} files totaling ${formatBytes(total)} — large submissions may take a moment to package. If the browser becomes unresponsive, try uploading fewer files per submission.`;
+    warn.style.display = 'block';
+  } else {
+    warn.style.display = 'none';
+  }
+}
+
+function guessFileIcon(file) {
+  const ext = (file.name.split('.').pop() || '').toLowerCase();
+  const type = file.type || '';
+  if (type.startsWith('image/')) return '🖼';
+  if (type === 'application/pdf' || ext === 'pdf') return '📄';
+  if (['doc', 'docx'].includes(ext)) return '📝';
+  if (['xls', 'xlsx', 'csv'].includes(ext)) return '📊';
+  if (['ppt', 'pptx'].includes(ext)) return '📊';
+  if (['eml', 'msg'].includes(ext)) return '✉';
+  if (['txt', 'md', 'rtf'].includes(ext)) return '📄';
+  if (['zip', 'rar', '7z'].includes(ext)) return '🗜';
+  return '📎';
+}
+
+function formatBytes(bytes) {
+  if (bytes < 1024) return bytes + ' B';
+  if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + ' KB';
+  if (bytes < 1024 * 1024 * 1024) return (bytes / (1024 * 1024)).toFixed(1) + ' MB';
+  return (bytes / (1024 * 1024 * 1024)).toFixed(2) + ' GB';
+}
+
+function clearIntelForm() {
+  document.getElementById('intelSubmitter').value = '';
+  document.getElementById('intelEmail').value = '';
+  document.getElementById('intelTitle').value = '';
+  document.getElementById('intelText').value = '';
+  document.getElementById('intelLinks').value = '';
+  _intelFiles = [];
+  renderIntelFileList();
+  document.getElementById('intelSuccess').style.display = 'none';
+  document.getElementById('intelStatusMsg').textContent = '';
+  document.getElementById('intelDraftIndicator').style.display = 'none';
+  try { localStorage.removeItem(INTEL_DRAFT_KEY); } catch {}
+}
+
+function closeIntelSuccess() {
+  document.getElementById('intelSuccess').style.display = 'none';
+}
+
+async function submitIntel() {
+  const submitter = document.getElementById('intelSubmitter').value.trim();
+  const email = document.getElementById('intelEmail').value.trim();
+  const title = document.getElementById('intelTitle').value.trim();
+  const text = document.getElementById('intelText').value.trim();
+  const linksRaw = document.getElementById('intelLinks').value.trim();
+  const statusEl = document.getElementById('intelStatusMsg');
+
+  // Validation: require submitter name, email, and at least one of title/text/links/files
+  if (!submitter) { statusEl.textContent = '⚠ Please provide your name.'; statusEl.style.color = 'var(--red)'; return; }
+  if (!email || !email.includes('@')) { statusEl.textContent = '⚠ Please provide a valid email.'; statusEl.style.color = 'var(--red)'; return; }
+  const hasBody = title || text || linksRaw || _intelFiles.length > 0;
+  if (!hasBody) { statusEl.textContent = '⚠ Please provide a title, details, link, or file.'; statusEl.style.color = 'var(--red)'; return; }
+
+  statusEl.textContent = 'Packaging submission…'; statusEl.style.color = 'var(--text3)';
+
+  if (typeof JSZip === 'undefined') {
+    statusEl.textContent = '⚠ Packaging library not yet loaded — try again in a moment.'; statusEl.style.color = 'var(--red)';
+    return;
+  }
+
+  const submittedAt = new Date();
+  const submissionId = submittedAt.toISOString().replace(/[:.]/g, '-').slice(0, 19) + '_' + Math.random().toString(36).slice(2, 7);
+  const links = linksRaw.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+
+  const metadata = {
+    submission_id: submissionId,
+    submitted_at: submittedAt.toISOString(),
+    submitter: { name: submitter, email: email },
+    title: title || '(no title)',
+    details_text: text,
+    links: links,
+    files: _intelFiles.map(f => ({
+      filename: f.file.name,
+      size_bytes: f.file.size,
+      mime_type: f.file.type || 'application/octet-stream',
+    })),
+    dashboard_version: 'par-intel-v1',
+  };
+
+  try {
+    const zip = new JSZip();
+    // Metadata
+    zip.file('submission.json', JSON.stringify(metadata, null, 2));
+
+    // Human-readable summary
+    const readmeLines = [
+      `# Competitive Intel Submission`,
+      ``,
+      `**Submission ID:** ${submissionId}`,
+      `**Submitted:** ${submittedAt.toLocaleString()} (${submittedAt.toISOString()})`,
+      `**From:** ${submitter} <${email}>`,
+      ``,
+      `## ${title || '(no title)'}`,
+      ``,
+    ];
+    if (text) { readmeLines.push(`### Details`, ``, text, ``); }
+    if (links.length) {
+      readmeLines.push(`### Links`, ``);
+      for (const link of links) readmeLines.push(`- ${link}`);
+      readmeLines.push(``);
+    }
+    if (_intelFiles.length) {
+      readmeLines.push(`### Attached files`, ``);
+      for (const f of _intelFiles) {
+        readmeLines.push(`- \`${f.file.name}\` (${formatBytes(f.file.size)})`);
+      }
+      readmeLines.push(``);
+    }
+    readmeLines.push(`---`, ``, `Generated by PAR Competitive Intelligence Monitor · Dashboard v1`);
+    zip.file('README.md', readmeLines.join('\n'));
+
+    // Attached files under files/ folder
+    if (_intelFiles.length) {
+      const filesFolder = zip.folder('files');
+      for (const entry of _intelFiles) {
+        const buf = await entry.file.arrayBuffer();
+        filesFolder.file(entry.file.name, buf);
+      }
+    }
+
+    const blob = await zip.generateAsync({ type: 'blob', compression: 'DEFLATE', compressionOptions: { level: 6 } });
+    const zipName = `intel_submission_${submissionId}.zip`;
+    const url = URL.createObjectURL(blob);
+
+    // Wire up the download button with the blob URL
+    const btn = document.getElementById('intelDownloadBtn');
+    btn.onclick = () => {
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = zipName;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    };
+
+    // Auto-trigger the first download
+    btn.onclick();
+
+    // Record in session history
+    const hist = loadIntelHistory();
+    hist.unshift({
+      id: submissionId,
+      at: submittedAt.toISOString(),
+      title: title || '(no title)',
+      submitter,
+      file_count: _intelFiles.length,
+      link_count: links.length,
+      size_bytes: blob.size,
+    });
+    // Keep last 20
+    try { localStorage.setItem(INTEL_HISTORY_KEY, JSON.stringify(hist.slice(0, 20))); } catch {}
+    renderIntelHistory();
+
+    // Success display
+    const detailLines = [];
+    detailLines.push(`<strong>${escapeHtml(title || '(no title)')}</strong>`);
+    detailLines.push(`<span style="color:var(--text3);">${_intelFiles.length} file${_intelFiles.length !== 1 ? 's' : ''}, ${links.length} link${links.length !== 1 ? 's' : ''}, packet size ${formatBytes(blob.size)}</span>`);
+    document.getElementById('intelSuccessDetail').innerHTML = detailLines.join('<br>');
+    document.getElementById('intelSuccess').style.display = 'block';
+
+    statusEl.textContent = '';
+    // Clear the form fields (but leave submitter/email for convenience in subsequent submissions)
+    document.getElementById('intelTitle').value = '';
+    document.getElementById('intelText').value = '';
+    document.getElementById('intelLinks').value = '';
+    _intelFiles = [];
+    renderIntelFileList();
+    try { localStorage.removeItem(INTEL_DRAFT_KEY); } catch {}
+    document.getElementById('intelDraftIndicator').style.display = 'none';
+
+  } catch (err) {
+    console.error('Submission packaging failed:', err);
+    statusEl.textContent = '⚠ Failed to package submission: ' + (err.message || 'unknown error');
+    statusEl.style.color = 'var(--red)';
+  }
+}
+
+function loadIntelHistory() {
+  try {
+    const raw = localStorage.getItem(INTEL_HISTORY_KEY);
+    return raw ? JSON.parse(raw) : [];
+  } catch { return []; }
+}
+
+function renderIntelHistory() {
+  const hist = loadIntelHistory();
+  const card = document.getElementById('intelHistoryCard');
+  const list = document.getElementById('intelHistoryList');
+  if (!card) return;
+  if (hist.length === 0) { card.style.display = 'none'; return; }
+  card.style.display = 'block';
+  list.innerHTML = hist.slice(0, 10).map(h => {
+    const when = new Date(h.at).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
+    return `<div style="padding:8px 0;border-bottom:0.5px solid var(--border);font-size:12px;">
+      <div style="color:var(--text);font-weight:500;">${escapeHtml(h.title)}</div>
+      <div style="color:var(--text3);margin-top:2px;">${when} · ${h.file_count} file${h.file_count !== 1 ? 's' : ''} · ${h.link_count} link${h.link_count !== 1 ? 's' : ''} · ${formatBytes(h.size_bytes)}</div>
+    </div>`;
+  }).join('');
 }
 
 // Init
