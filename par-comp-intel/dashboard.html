@@ -1656,20 +1656,65 @@ Manage subscription: https://echou-par.github.io/par-comp-intel/`;
 }
 
 function setNextDigest() {
+  // Schedule: Monday 9:30am ET (open) + Friday 4:00pm ET (close)
+  // We compute the next occurrence in America/New_York, regardless of viewer TZ.
   const now = new Date();
-  const day = now.getDay();
-  let next, type;
-  if (day < 1 || (day === 1 && now.getHours() < 9)) { type = 'Monday open'; next = daysUntil(1); }
-  else if (day < 5 || (day === 5 && now.getHours() < 16)) { type = 'Friday close'; next = daysUntil(5); }
-  else { type = 'Monday open'; next = daysUntil(8); }
-  document.getElementById('nextDigest').textContent = next;
-  document.getElementById('nextDigestType').textContent = type + ' digest';
+
+  // Get current components in ET
+  const etFmt = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'America/New_York',
+    weekday: 'short', year: 'numeric', month: 'numeric', day: 'numeric',
+    hour: 'numeric', minute: 'numeric', hour12: false,
+  });
+  const etParts = Object.fromEntries(etFmt.formatToParts(now).map(p => [p.type, p.value]));
+  const etWeekday = etParts.weekday;  // 'Mon', 'Tue', ...
+  const etHour = parseInt(etParts.hour, 10) % 24;
+  const etMinute = parseInt(etParts.minute, 10);
+  const dayNum = { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 }[etWeekday];
+  const nowMinutesOfWeek = dayNum * 24 * 60 + etHour * 60 + etMinute;
+
+  // Target slots in minutes-of-week (ET)
+  const mondayOpen = 1 * 24 * 60 + 9 * 60 + 30;   // Mon 9:30
+  const fridayClose = 5 * 24 * 60 + 16 * 60;      // Fri 16:00
+
+  // Compute minutes-from-now to each upcoming slot (wrapping to next week if passed)
+  const minutesUntil = (target) => {
+    let diff = target - nowMinutesOfWeek;
+    if (diff <= 0) diff += 7 * 24 * 60;
+    return diff;
+  };
+  const toMon = minutesUntil(mondayOpen);
+  const toFri = minutesUntil(fridayClose);
+
+  let nextSlot, label;
+  if (toFri <= toMon) {
+    nextSlot = toFri;
+    label = 'Friday close';
+  } else {
+    nextSlot = toMon;
+    label = 'Monday open';
+  }
+
+  // Format the countdown human-readably
+  document.getElementById('nextDigest').textContent = formatCountdown(nextSlot);
+  document.getElementById('nextDigestType').textContent = label + ' · ' + (label === 'Friday close' ? '4:00 PM ET' : '9:30 AM ET');
 }
-function daysUntil(targetDay) {
-  const now = new Date();
-  const d = now.getDay();
-  const diff = ((targetDay - d + 7) % 7) || 7;
-  return diff === 0 ? 'Today' : diff === 1 ? 'Tomorrow' : `${diff} days`;
+
+function formatCountdown(minutes) {
+  if (minutes <= 0) return 'Now';
+  if (minutes < 60) return minutes === 1 ? '1 min' : `${minutes} mins`;
+  if (minutes < 24 * 60) {
+    const hrs = Math.floor(minutes / 60);
+    const mins = minutes % 60;
+    if (mins === 0) return hrs === 1 ? '1 hour' : `${hrs} hours`;
+    return `${hrs}h ${mins}m`;
+  }
+  const days = Math.floor(minutes / (24 * 60));
+  const remainHrs = Math.floor((minutes % (24 * 60)) / 60);
+  if (days === 1 && remainHrs === 0) return '1 day';
+  if (days === 1) return `1d ${remainHrs}h`;
+  if (remainHrs === 0) return `${days} days`;
+  return `${days}d ${remainHrs}h`;
 }
 
 function openSubscribe() {
@@ -1934,6 +1979,8 @@ buildSidebar();  // initial render (unsorted, since sort data not yet loaded)
 addEmailPreviewToSidebar();
 buildStockChart();
 setNextDigest();
+// Keep countdown current
+setInterval(setNextDigest, 60000);
 setTimeout(() => { loadOverviewAI(); loadHighlights(); loadGlobalNews(); loadAlerts(); }, 300);
 
 // Esc closes alerts panel
