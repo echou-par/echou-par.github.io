@@ -856,22 +856,99 @@ def write_history_snapshot(insights_data, now_iso):
             except Exception as e:
                 print(f'  Warning: could not read existing {today_file}: {e}')
 
-        # Normalize text for dedup so minor reformatting doesn't create duplicates
-        def text_key(ins):
-            return re.sub(r'\W+', '', ins.get('text', '').lower())[:140]
+        # Normalize insights for dedup by their *semantic shape* rather than exact text.
+        # Thematic-density insights ("X shows concentrated Y activity — N items ... Latest: ...")
+        # should dedup on (company, category) only — the count and example headline change
+        # across the day but the underlying signal is the same. Same logic for other insight
+        # types: collapse to (category, primary-company) as the identity.
+        THEMATIC_RX = re.compile(
+            r'^\s*(.+?)\s+shows concentrated\s+(.+?)\s+activity\b',
+            re.IGNORECASE,
+        )
+        STOCK_MOVE_RX = re.compile(
+            r'^\s*(.+?)\s*\(([A-Z]+)\)\s+stock\s+(gained|declined)\b',
+            re.IGNORECASE,
+        )
+        CROSS_COMP_RX = re.compile(
+            r'^\s*Cross-competitor event:\s*(.+?)\s+appeared together',
+            re.IGNORECASE,
+        )
+        RISK_RX = re.compile(r'^\s*Risk signal\s*—\s*(.+?):', re.IGNORECASE)
+        GROWTH_RX = re.compile(r'^\s*(.+?)\s+\([A-Z]+\)\s+leading revenue growth', re.IGNORECASE)
 
-        seen_keys = {text_key(ins) for ins in existing_insights}
-        merged_insights = list(existing_insights)  # start with what's already there
+        def text_key(ins):
+            text = ins.get('text', '')
+            if not text:
+                return ''
+
+            # Try semantic shape matchers in priority order
+            m = THEMATIC_RX.search(text)
+            if m:
+                company = m.group(1).strip().lower()
+                category = m.group(2).strip().lower()
+                return f'thematic::{company}::{category}'
+
+            m = STOCK_MOVE_RX.search(text)
+            if m:
+                ticker = m.group(2).lower()
+                direction = m.group(3).lower()
+                return f'stock::{ticker}::{direction}'
+
+            m = CROSS_COMP_RX.search(text)
+            if m:
+                # Normalize companies-list order so "A, B" and "B, A" dedup
+                companies = sorted(c.strip().lower() for c in m.group(1).split(','))
+                return f'cross::{"|".join(companies)}'
+
+            m = RISK_RX.search(text)
+            if m:
+                company = m.group(1).strip().lower()
+                return f'risk::{company}'
+
+            m = GROWTH_RX.search(text)
+            if m:
+                company = m.group(1).strip().lower()
+                return f'growth::{company}'
+
+            # Fallback: normalized prefix. Only useful for genuinely unique free-form insights.
+            return 'fallback::' + re.sub(r'\W+', '', text.lower())[:140]
+
+        seen_keys = {text_key(ins) for ins in existing_insights if text_key(ins)}
+
+        # Also scrub any duplicates already in the existing file (from earlier buggy runs
+        # before this dedup fix — one-time cleanup so old duplicated history corrects itself)
+        cleaned_existing = []
+        seen_in_existing = set()
+        for ins in existing_insights:
+            k = text_key(ins)
+            if not k or k in seen_in_existing:
+                continue
+            seen_in_existing.add(k)
+            cleaned_existing.append(ins)
+        merged_insights = list(cleaned_existing)
+        seen_keys = set(seen_in_existing)
+
         added_this_run = 0
         for ins in insights_data.get('insights', []):
             k = text_key(ins)
             if k and k not in seen_keys:
                 seen_keys.add(k)
-                # Annotate when this insight first appeared in the cycle
                 merged_ins = dict(ins)
                 merged_ins.setdefault('first_detected', now_iso)
                 merged_insights.append(merged_ins)
                 added_this_run += 1
+            elif k and k in seen_keys:
+                # Update the existing insight in place when a later run has a better
+                # (higher count, fresher example) version of the same signal. Keeps the
+                # original first_detected but refreshes the text/sources/company fields.
+                for i, existing in enumerate(merged_insights):
+                    if text_key(existing) == k:
+                        # Keep earliest first_detected timestamp
+                        first = existing.get('first_detected', now_iso)
+                        updated = dict(ins)
+                        updated['first_detected'] = first
+                        merged_insights[i] = updated
+                        break
 
         # For most-mentioned, keep the most recent counts (authoritative)
         merged_most_mentioned = insights_data.get('most_mentioned', existing_most_mentioned)
