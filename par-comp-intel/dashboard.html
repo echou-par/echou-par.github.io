@@ -1854,11 +1854,17 @@ async function loadEmailPreview(type) {
         <tr>
           <td style="padding:18px 24px 14px;border-bottom:3px solid ${headerColor};">
             <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"><tr>
-              <td>
-                <div style="font-size:20px;font-weight:800;letter-spacing:-0.3px;color:#2F3452;">PAR <span style="color:#6864D1;">Intel</span></div>
-                <div style="font-size:12px;color:#8a90a8;margin-top:2px;">Competitive Intelligence Monitor</div>
+              <td style="vertical-align:middle;">
+                <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+                  <td style="vertical-align:middle;padding-right:10px;">
+                    <img src="https://echou-par.github.io/par-comp-intel/assets/par-logo.jpg" alt="PAR" width="32" height="32" style="display:block;border-radius:5px;">
+                  </td>
+                  <td style="vertical-align:middle;">
+                    <div style="font-size:18px;font-weight:800;letter-spacing:-0.2px;color:#6864D1;line-height:1.2;">Competitive Intelligence Monitor</div>
+                  </td>
+                </tr></table>
               </td>
-              <td align="right" style="vertical-align:top;">
+              <td align="right" style="vertical-align:middle;">
                 <div style="font-size:11px;color:#8a90a8;">${isMonday ? 'Monday Market Open' : 'Friday Market Close'}</div>
                 <div style="font-size:11px;color:#8a90a8;">${todayStr}</div>
               </td>
@@ -1872,7 +1878,7 @@ async function loadEmailPreview(type) {
         <tr>
           <td style="padding:22px 24px;background:#F3F5FF;border-top:0.5px solid #e6e6f0;">
             <div style="font-size:11px;color:#8a90a8;line-height:1.5;">
-              <strong style="color:#2F3452;">PAR Intel · Competitive Intelligence Monitor</strong><br>
+              <strong style="color:#2F3452;">Competitive Intelligence Monitor</strong><br>
               Sent every Monday at 9:30 AM ET and Friday at 4:00 PM ET.<br>
               <a href="https://echou-par.github.io/par-comp-intel/" style="color:#6864D1;text-decoration:none;">View dashboard</a> · <a href="#" style="color:#6864D1;text-decoration:none;">Manage subscription</a> · PAR Technology, Internal use only
             </div>
