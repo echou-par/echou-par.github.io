@@ -13,7 +13,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PAR Competitor Intelligence Dashboard</title>
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%232F3452'/%3E%3Ctext x='16' y='22' font-family='Arial,sans-serif' font-size='16' font-weight='800' text-anchor='middle' fill='%236864D1'%3EP%3C/text%3E%3C/svg%3E">
+<link rel="icon" type="image/jpeg" href="assets/par-logo.jpg">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -87,10 +87,10 @@
 
   /* Header */
   .header { background: var(--bg); border-bottom: 0.5px solid var(--border); padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
-  .header-left { display: flex; align-items: center; gap: 12px; }
-  .logo { font-size: 18px; font-weight: 600; color: var(--text); letter-spacing: -0.3px; }
-  .logo span { color: var(--accent); }
-  .badge { font-size: 11px; background: var(--accent-bg); color: var(--accent-text); padding: 3px 8px; border-radius: 20px; font-weight: 500; }
+  .header-left { display: flex; align-items: center; gap: 14px; }
+  .logo { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 600; color: var(--text); letter-spacing: -0.3px; }
+  .par-logo-img { height: 28px; width: 28px; border-radius: 4px; display: block; }
+  .logo-title { color: var(--accent); font-weight: 800; font-size: 17px; letter-spacing: -0.2px; }
   .last-updated { font-size: 12px; color: var(--text3); }
   .header-actions { display: flex; gap: 10px; align-items: center; }
   .btn { padding: 7px 16px; border-radius: var(--radius-sm); border: 0.5px solid var(--border2); background: transparent; color: var(--text); font-size: 13px; cursor: pointer; transition: background 0.15s; font-family: inherit; }
@@ -210,9 +210,6 @@
   .ep-item { padding: 7px 0; border-bottom: 0.5px solid var(--border); }
   .ep-item:last-child { border-bottom: none; }
 
-  /* Refresh button states */
-  .refresh-indicator { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text3); }
-
   /* Filter chips */
   .filter-chips { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
   .chip { padding: 5px 12px; border-radius: 20px; border: 0.5px solid var(--border2); font-size: 12px; cursor: pointer; background: transparent; color: var(--text2); font-family: inherit; transition: all 0.15s; }
@@ -243,14 +240,13 @@
 <!-- Header -->
 <div class="header">
   <div class="header-left">
-    <div class="logo">PAR <span>Intel</span></div>
-    <span class="badge">Competitor Monitor</span>
+    <div class="logo">
+      <img src="assets/par-logo.jpg" alt="PAR" class="par-logo-img">
+      <span class="logo-title">Competitive Intelligence Monitor</span>
+    </div>
     <span class="last-updated" id="lastUpdated">Last refreshed: —</span>
   </div>
   <div class="header-actions">
-    <button class="btn refresh-indicator" id="refreshBtn" onclick="refreshAll()">
-      <span id="refreshIcon">↻</span> Refresh All
-    </button>
     <button class="btn btn-primary" onclick="openSubscribe()">Subscribe to Updates</button>
   </div>
 </div>
@@ -1490,32 +1486,6 @@ function submitSubscribe() {
   try { localStorage.setItem('par_intel_subs', JSON.stringify(subscribers)); } catch {}
   document.getElementById('subSuccess').style.display = 'block';
   setTimeout(closeSubscribe, 2500);
-}
-
-async function refreshAll() {
-  document.getElementById('refreshBtn').innerHTML = '<span class="spinner" style="display:inline-block;width:13px;height:13px;"></span> Refreshing…';
-  document.getElementById('lastUpdated').textContent = 'Refreshing…';
-
-  // Clear all in-memory caches so everything fetches fresh
-  _financialsCache = null;
-  _privateDataCache = null;
-  stocksCache = null;
-  newsCache = {};
-  aiSummaryCache = {};
-  window._globalNews = null;
-  _currentHistoryDate = null;  // reset to today
-  _historyIndex = null;  // re-fetch index so new snapshot dates appear in picker
-
-  // Re-fetch sort data, then rebuild sidebar and chart
-  await preloadSortData();
-  buildSidebar();
-  await buildStockChart(currentRange);
-
-  // Re-fetch all overview content
-  await Promise.all([loadOverviewAI(), loadHighlights(), loadGlobalNews()]);
-
-  document.getElementById('refreshBtn').innerHTML = '↻ Refresh All';
-  document.getElementById('lastUpdated').textContent = 'Last refreshed: ' + new Date().toLocaleTimeString();
 }
 
 document.getElementById('subscribeModal').onclick = function(e) { if (e.target === this) closeSubscribe(); };

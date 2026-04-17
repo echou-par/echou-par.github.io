@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PAR Intel — Sign In</title>
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%232F3452'/%3E%3Ctext x='16' y='22' font-family='Arial,sans-serif' font-size='16' font-weight='800' text-anchor='middle' fill='%236864D1'%3EP%3C/text%3E%3C/svg%3E">
+<link rel="icon" type="image/jpeg" href="assets/par-logo.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;700;800&display=swap" rel="stylesheet">
@@ -27,8 +27,9 @@
     width: 380px;
     max-width: 92vw;
   }
-  .logo { font-size: 22px; font-weight: 800; letter-spacing: -0.4px; margin-bottom: 6px; color: #2F3452; }
-  .logo span { color: #6864D1; }
+  .logo { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+  .par-logo-img { height: 32px; width: 32px; border-radius: 5px; display: block; }
+  .logo-title { font-size: 18px; font-weight: 800; letter-spacing: -0.3px; color: #6864D1; }
   .subtitle { font-size: 13px; color: #8a90a8; margin-bottom: 28px; }
   label { font-size: 12px; color: #5a607a; display: block; margin-bottom: 5px; }
   input[type="password"] {
@@ -73,8 +74,11 @@
 </head>
 <body>
 <div class="card">
-  <div class="logo">PAR <span>Intel</span></div>
-  <div class="subtitle">Competitor Intelligence Dashboard</div>
+  <div class="logo">
+    <img src="assets/par-logo.jpg" alt="PAR" class="par-logo-img">
+    <span class="logo-title">Competitive Intelligence Monitor</span>
+  </div>
+  <div class="subtitle">Internal access — sign in to continue</div>
   <label for="pw">Access password</label>
   <input type="password" id="pw" placeholder="Enter password" autofocus onkeydown="if(event.key==='Enter')unlock()">
   <button onclick="unlock()">Sign in</button>
