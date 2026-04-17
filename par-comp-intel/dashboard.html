@@ -1591,68 +1591,297 @@ function navigateToCompetitor(compId) {
 
 // ─── Email preview ────────────────────────────────────────────────────────────
 
+// ─── Email digest preview ────────────────────────────────────────────────────
+
+function switchEmailTab(type, btnEl) {
+  // Toggle tab active state
+  document.querySelectorAll('#view-email-preview .tab').forEach(b => b.classList.remove('active'));
+  if (btnEl) btnEl.classList.add('active');
+  currentEmailTab = type;
+  loadEmailPreview(type);
+}
+
 async function loadEmailPreview(type) {
   document.getElementById('emailPreviewContent').innerHTML = '<span class="news-loading"><span class="spinner"></span> Generating digest…</span>';
 
-  // Pull latest news to populate the digest
-  const news = window._globalNews ? window._globalNews.slice(0, 5) : [];
-  const newsLines = news.map(n => `• ${n.company}: ${n.headline} (${n.source})`).join('\n') || '• News loading — refresh the dashboard first.';
+  // Load data needed for both templates
+  const [insights, alerts, stocks, financials, news] = await Promise.all([
+    loadJSON('insights.json'),
+    loadJSON('alerts.json'),
+    stocksCache ? Promise.resolve(stocksCache) : loadJSON('stocks.json'),
+    _financialsCache ? Promise.resolve(_financialsCache) : loadJSON('financials.json'),
+    loadJSON('news.json'),
+  ]);
+  if (!stocksCache && stocks) stocksCache = stocks;
+  if (!_financialsCache && financials) _financialsCache = financials;
 
-  const today = new Date().toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric', year: 'numeric' });
+  const today = new Date();
+  const todayStr = today.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
   const isMonday = type === 'monday';
 
-  const content = isMonday ? `SUBJECT: PAR Intel — Monday Market Open · ${today}
+  // ── Build shared components ──
+  // AI Intelligence Summary bullets (max 5, with citations)
+  const aiInsights = (insights?.insights || []).slice(0, 5);
+  const aiBulletsHtml = aiInsights.length === 0
+    ? '<div style="color:#8a90a8;font-size:13px;padding:6px 0;font-style:italic;">No significant signals this cycle.</div>'
+    : aiInsights.map(ins => {
+        const citations = (ins.sources || []).slice(0, 3).map((src, i) => {
+          const num = i + 1;
+          return src.url
+            ? `<a href="${src.url}" style="color:#6864D1;text-decoration:none;font-size:10px;vertical-align:super;margin-left:2px;">[${num}]</a>`
+            : `<span style="color:#8a90a8;font-size:10px;vertical-align:super;margin-left:2px;">[${num}]</span>`;
+        }).join('');
+        return `<tr><td style="padding:6px 0;vertical-align:top;">
+          <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"><tr>
+            <td style="width:16px;vertical-align:top;color:#6864D1;font-weight:700;font-size:14px;line-height:1.5;">•</td>
+            <td style="font-size:13px;line-height:1.55;color:#2F3452;">${escapeHtml(ins.text)}${citations}</td>
+          </tr></table>
+        </td></tr>`;
+      }).join('');
 
-━━━ MARKET OPEN SNAPSHOT ━━━
-Markets open. Key restaurant tech tickers to watch today: PAR, TOST, DASH, FOUR, SQ, GPN, FI, UBER.
-Check the live dashboard for current price movements: https://echou-par.github.io/par-comp-intel/
+  // Most-mentioned companies (compact inline list)
+  const mentioned = (insights?.most_mentioned || []).slice(0, 6);
+  const mentionedHtml = mentioned.length === 0 ? '' : mentioned.map(m => {
+    return `<span style="display:inline-block;font-size:11px;color:#2F3452;background:#F3F5FF;padding:2px 8px;border-radius:10px;margin:0 4px 4px 0;">${escapeHtml(m.company)} <strong style="color:#6864D1;">${m.count}</strong></span>`;
+  }).join('');
 
-━━━ TOP COMPETITOR NEWS THIS WEEK ━━━
-${newsLines}
+  // High-severity alerts (for Monday pre-market / Friday recap)
+  const highAlerts = (alerts?.alerts || []).filter(a => a.severity === 'high').slice(0, 4);
+  const alertsHtml = highAlerts.length === 0
+    ? '<div style="color:#8a90a8;font-size:13px;font-style:italic;">No high-severity alerts pending.</div>'
+    : highAlerts.map(a => {
+        const catColors = {
+          analyst_downgrade: '#FF5719',
+          executive_departure: '#FF5719',
+          guidance_cut: '#FF5719',
+          stock_move: '#F8931C',
+          cross_competitor: '#F8931C',
+          regulatory: '#F8931C',
+        };
+        const catLabels = {
+          analyst_downgrade: 'DOWNGRADE',
+          executive_departure: 'EXEC CHANGE',
+          guidance_cut: 'GUIDANCE CUT',
+          stock_move: 'STOCK MOVE',
+          cross_competitor: 'CROSS-COMP',
+          regulatory: 'REGULATORY',
+        };
+        const color = catColors[a.category] || '#F8931C';
+        const label = catLabels[a.category] || a.category.toUpperCase();
+        const headlineLink = a.url
+          ? `<a href="${a.url}" style="color:#2F3452;text-decoration:none;">${escapeHtml(a.headline)}</a>`
+          : escapeHtml(a.headline);
+        return `<tr><td style="padding:8px 0;border-bottom:0.5px solid #e6e6f0;">
+          <div style="margin-bottom:2px;">
+            <span style="font-size:10px;font-weight:700;letter-spacing:0.5px;color:${color};background:${color}22;padding:2px 7px;border-radius:10px;">${label}</span>
+            <span style="font-size:12px;font-weight:600;color:#2F3452;margin-left:6px;">${escapeHtml(a.company)}</span>
+          </div>
+          <div style="font-size:13px;color:#2F3452;line-height:1.4;">${headlineLink}</div>
+          <div style="font-size:11px;color:#8a90a8;margin-top:2px;">${escapeHtml(a.source || '')}</div>
+        </td></tr>`;
+      }).join('');
 
-━━━ FINANCIAL METRICS TO WATCH ━━━
-• Toast (TOST): Monitor for GMV and location count updates
-• DoorDash (DASH): Delivery volume and take-rate trends
-• Shift4/Revel (FOUR): Enterprise pipeline signals
-• Global Payments (GPN): Heartland restaurant vertical commentary
+  // Stock movers — from the weekly bucket
+  const tickers = ['PAR', 'TOST', 'DASH', 'XYZ', 'FISV', 'GPN', 'UBER', 'FOUR', 'LSPD', 'VYX'];
+  const weekStocks = (stocks?.ranges?.['1W'] || []).filter(s => tickers.includes(s.ticker));
+  const sortedMovers = [...weekStocks].sort((a, b) => Math.abs(b.change_pct) - Math.abs(a.change_pct));
+  const topMovers = sortedMovers.slice(0, 5);
+  const moversHtml = topMovers.map(m => {
+    const up = (m.change_pct || 0) >= 0;
+    const color = up ? '#34C679' : '#FF2751';
+    const arrow = up ? '▲' : '▼';
+    return `<tr>
+      <td style="padding:6px 10px 6px 0;font-size:13px;color:#2F3452;font-weight:600;">${m.ticker}</td>
+      <td style="padding:6px 10px;font-size:13px;color:#2F3452;">${escapeHtml(m.company || '')}</td>
+      <td style="padding:6px 0;font-size:13px;color:${color};font-weight:600;text-align:right;">${arrow} ${up ? '+' : ''}${(m.change_pct || 0).toFixed(1)}%</td>
+    </tr>`;
+  }).join('');
 
-━━━ PAR STRATEGIC TAKEAWAY ━━━
-Review this week's competitor moves and assess impact on PAR's enterprise pipeline, Brink POS competitive positioning, and loyalty product roadmap.
+  // Latest news headlines (for story digest in templates)
+  const topNews = (news?.items || []).slice(0, 5);
+  const newsHtml = topNews.map(n => {
+    const headlineLink = n.url
+      ? `<a href="${n.url}" style="color:#2F3452;text-decoration:none;">${escapeHtml(n.headline)}</a>`
+      : escapeHtml(n.headline);
+    return `<tr><td style="padding:6px 0;border-bottom:0.5px solid #e6e6f0;">
+      <div style="font-size:12px;color:#6864D1;font-weight:600;margin-bottom:2px;">${escapeHtml(n.company || 'Industry')}</div>
+      <div style="font-size:13px;color:#2F3452;line-height:1.4;">${headlineLink}</div>
+      <div style="font-size:11px;color:#8a90a8;margin-top:2px;">${escapeHtml(n.source || '')}</div>
+    </td></tr>`;
+  }).join('');
 
-—
-PAR Intel · Sent every Monday at 9:30am ET & Friday at 4:00pm ET
-Manage subscription: https://echou-par.github.io/par-comp-intel/`
-  : `SUBJECT: PAR Intel — Friday Market Close Recap · ${today}
+  // ── Shared email shell ──
+  const subject = isMonday
+    ? `PAR Intel — Monday Market Open · ${todayStr}`
+    : `PAR Intel — Friday Market Close Recap · ${todayStr}`;
+  const preheader = isMonday
+    ? 'Competitor intelligence for the week ahead.'
+    : 'Week in review: what mattered in restaurant technology.';
+  const headerColor = isMonday ? '#6864D1' : '#2F3452';
+  const timeLabel = isMonday ? '9:30 AM ET' : '4:00 PM ET';
 
-━━━ WEEK IN REVIEW ━━━
-Markets closed. Here's what mattered in restaurant technology this week.
+  // ── Body sections vary by digest type ──
+  let bodyBlocks = '';
 
-━━━ TOP STORIES ━━━
-${newsLines}
+  if (isMonday) {
+    bodyBlocks = `
+      <!-- Market Open Framing -->
+      <tr><td style="padding:0 24px 8px;">
+        <p style="margin:0;font-size:14px;line-height:1.6;color:#2F3452;">Markets open in a few minutes. Here's what to watch in restaurant technology today, with the key signals detected over the weekend and going into the new week.</p>
+      </td></tr>
 
-━━━ PUBLIC COMPANY PERFORMANCE (WEEK) ━━━
-View full chart: https://echou-par.github.io/par-comp-intel/
-Key movers: check PAR vs. TOST, DASH, FOUR, SQ this week on the dashboard.
+      <!-- AI Intelligence Summary -->
+      <tr><td style="padding:18px 24px 4px;">
+        <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.8px;color:#6864D1;margin-bottom:6px;">✦ AI Intelligence Summary</div>
+        <div style="font-size:12px;color:#8a90a8;margin-bottom:4px;">Signals detected this cycle, with source citations.</div>
+      </td></tr>
+      <tr><td style="padding:0 24px;">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">${aiBulletsHtml}</table>
+      </td></tr>
 
-━━━ PRIVATE COMPANY WATCH ━━━
-Monitor: SpotOn, TouchBistro, Paytronix, Deliverect, Bikky, Snackpass, Hang for funding news, customer wins, and product launches.
+      ${mentionedHtml ? `
+      <tr><td style="padding:8px 24px 0;">
+        <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.6px;color:#8a90a8;margin-bottom:6px;">Most-mentioned this cycle</div>
+        <div>${mentionedHtml}</div>
+      </td></tr>` : ''}
 
-━━━ GOING INTO NEXT WEEK ━━━
-• Watch for earnings calls and analyst days from public competitors
-• Track any M&A activity in loyalty/CRM space
-• Monitor DoorDash and Uber Eats for restaurant tech partnership announcements
+      <!-- High-severity alerts heading into the week -->
+      <tr><td style="padding:20px 24px 4px;">
+        <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.8px;color:#FF5719;margin-bottom:6px;">⚠ Alerts heading into the week</div>
+      </td></tr>
+      <tr><td style="padding:0 24px;">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">${alertsHtml}</table>
+      </td></tr>
 
-—
-PAR Intel · Sent every Monday at 9:30am ET & Friday at 4:00pm ET
-Manage subscription: https://echou-par.github.io/par-comp-intel/`;
+      <!-- Public competitor tickers to watch -->
+      <tr><td style="padding:20px 24px 4px;">
+        <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.8px;color:#2F3452;margin-bottom:6px;">Public competitor tickers to watch</div>
+      </td></tr>
+      <tr><td style="padding:0 24px;">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">${moversHtml}</table>
+        <div style="font-size:11px;color:#8a90a8;margin-top:6px;">Prior-week performance. <a href="https://echou-par.github.io/par-comp-intel/" style="color:#6864D1;text-decoration:none;">View live chart →</a></div>
+      </td></tr>
 
-  document.getElementById('emailPreviewContent').innerHTML = `
-    <div class="email-preview">
-      <div style="font-size:11px;color:var(--text3);margin-bottom:12px;padding-bottom:12px;border-bottom:0.5px solid var(--border);">
-        <strong>To:</strong> PAR Intel Subscribers &nbsp;·&nbsp; <strong>From:</strong> intel@par.com &nbsp;·&nbsp; <strong>Sent:</strong> ${today}, ${isMonday ? '9:30 AM ET' : '4:00 PM ET'}
+      <!-- Strategic takeaway -->
+      <tr><td style="padding:20px 24px 0;">
+        <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.8px;color:#2F3452;margin-bottom:6px;">PAR strategic takeaway</div>
+        <p style="margin:0;font-size:13px;line-height:1.6;color:#2F3452;">Review the weekend's signals for impact on PAR's enterprise pipeline, Brink POS competitive positioning, and Punchh / loyalty roadmap. Flag any alerts above to the product and GTM leads.</p>
+      </td></tr>
+    `;
+  } else {
+    // Friday Market Close Recap
+    bodyBlocks = `
+      <tr><td style="padding:0 24px 8px;">
+        <p style="margin:0;font-size:14px;line-height:1.6;color:#2F3452;">Markets closed. Here's what mattered in restaurant technology this week — signals, stock performance, and stories to carry into next week.</p>
+      </td></tr>
+
+      <!-- AI Intelligence Summary -->
+      <tr><td style="padding:18px 24px 4px;">
+        <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.8px;color:#6864D1;margin-bottom:6px;">✦ AI Intelligence Summary — week recap</div>
+        <div style="font-size:12px;color:#8a90a8;margin-bottom:4px;">Cross-competitor signals, thematic clusters, and material moves detected this week.</div>
+      </td></tr>
+      <tr><td style="padding:0 24px;">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">${aiBulletsHtml}</table>
+      </td></tr>
+
+      ${mentionedHtml ? `
+      <tr><td style="padding:8px 24px 0;">
+        <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.6px;color:#8a90a8;margin-bottom:6px;">Most-mentioned this week</div>
+        <div>${mentionedHtml}</div>
+      </td></tr>` : ''}
+
+      <!-- Public stock performance -->
+      <tr><td style="padding:20px 24px 4px;">
+        <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.8px;color:#2F3452;margin-bottom:6px;">Public competitor performance (1W)</div>
+      </td></tr>
+      <tr><td style="padding:0 24px;">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">${moversHtml}</table>
+        <div style="font-size:11px;color:#8a90a8;margin-top:6px;">Top movers by absolute %. <a href="https://echou-par.github.io/par-comp-intel/" style="color:#6864D1;text-decoration:none;">View full chart →</a></div>
+      </td></tr>
+
+      <!-- Alerts -->
+      <tr><td style="padding:20px 24px 4px;">
+        <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.8px;color:#FF5719;margin-bottom:6px;">⚠ Alerts this week</div>
+      </td></tr>
+      <tr><td style="padding:0 24px;">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">${alertsHtml}</table>
+      </td></tr>
+
+      <!-- Top stories -->
+      <tr><td style="padding:20px 24px 4px;">
+        <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.8px;color:#2F3452;margin-bottom:6px;">Top stories</div>
+      </td></tr>
+      <tr><td style="padding:0 24px;">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">${newsHtml}</table>
+      </td></tr>
+
+      <!-- Going into next week -->
+      <tr><td style="padding:20px 24px 0;">
+        <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.8px;color:#2F3452;margin-bottom:6px;">Going into next week</div>
+        <ul style="margin:0;padding-left:20px;font-size:13px;line-height:1.7;color:#2F3452;">
+          <li>Monitor any fallout from analyst downgrades flagged above</li>
+          <li>Watch for follow-on M&A or partnership announcements in the loyalty/CRM space</li>
+          <li>Track DoorDash and Uber Eats for restaurant tech partnership moves</li>
+          <li>Review PAR's positioning against stock-move outliers in the public cohort</li>
+        </ul>
+      </td></tr>
+    `;
+  }
+
+  // ── Assemble full email shell ──
+  const emailHtml = `
+    <div class="email-preview" style="background:#F3F5FF;padding:24px 12px;border-radius:var(--radius);">
+      <div style="font-size:11px;color:var(--text3);margin-bottom:10px;padding:0 8px;">
+        <strong>Preview:</strong> this is what subscribers receive. Sending is not yet wired up.
       </div>
-      <div style="font-size:13px;line-height:1.8;color:var(--text);white-space:pre-wrap;">${content}</div>
+      <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="600" style="max-width:600px;margin:0 auto;background:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(47,52,82,0.08);font-family:'Manrope',-apple-system,BlinkMacSystemFont,sans-serif;">
+        <!-- Email header bar -->
+        <tr>
+          <td style="padding:16px 24px;border-bottom:0.5px solid #e6e6f0;font-size:11px;color:#8a90a8;background:#fafbff;">
+            <strong style="color:#2F3452;">To:</strong> PAR Intel Subscribers &nbsp;·&nbsp; <strong style="color:#2F3452;">From:</strong> intel@partech.com &nbsp;·&nbsp; <strong style="color:#2F3452;">Sent:</strong> ${todayStr}, ${timeLabel}
+          </td>
+        </tr>
+        <!-- Subject -->
+        <tr>
+          <td style="padding:10px 24px 0;">
+            <div style="font-size:11px;color:#8a90a8;">Subject</div>
+            <div style="font-size:15px;font-weight:700;color:#2F3452;">${escapeHtml(subject)}</div>
+            <div style="font-size:12px;color:#8a90a8;margin-top:4px;font-style:italic;">${escapeHtml(preheader)}</div>
+          </td>
+        </tr>
+
+        <!-- Brand header -->
+        <tr>
+          <td style="padding:18px 24px 14px;border-bottom:3px solid ${headerColor};">
+            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"><tr>
+              <td>
+                <div style="font-size:20px;font-weight:800;letter-spacing:-0.3px;color:#2F3452;">PAR <span style="color:#6864D1;">Intel</span></div>
+                <div style="font-size:12px;color:#8a90a8;margin-top:2px;">Competitive Intelligence Monitor</div>
+              </td>
+              <td align="right" style="vertical-align:top;">
+                <div style="font-size:11px;color:#8a90a8;">${isMonday ? 'Monday Market Open' : 'Friday Market Close'}</div>
+                <div style="font-size:11px;color:#8a90a8;">${todayStr}</div>
+              </td>
+            </tr></table>
+          </td>
+        </tr>
+
+        ${bodyBlocks}
+
+        <!-- Footer -->
+        <tr>
+          <td style="padding:22px 24px;background:#F3F5FF;border-top:0.5px solid #e6e6f0;">
+            <div style="font-size:11px;color:#8a90a8;line-height:1.5;">
+              <strong style="color:#2F3452;">PAR Intel · Competitive Intelligence Monitor</strong><br>
+              Sent every Monday at 9:30 AM ET and Friday at 4:00 PM ET.<br>
+              <a href="https://echou-par.github.io/par-comp-intel/" style="color:#6864D1;text-decoration:none;">View dashboard</a> · <a href="#" style="color:#6864D1;text-decoration:none;">Manage subscription</a> · PAR Technology, Internal use only
+            </div>
+          </td>
+        </tr>
+      </table>
     </div>`;
+
+  document.getElementById('emailPreviewContent').innerHTML = emailHtml;
 }
 
 function setNextDigest() {
