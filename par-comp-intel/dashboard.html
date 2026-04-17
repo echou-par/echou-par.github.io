@@ -1105,16 +1105,27 @@ async function buildStockChart(range = '1W') {
   if (!stocksCache) {
     stocksCache = await loadJSON('stocks.json');
   }
+  // Also ensure financials loaded so we can sort by market cap (same as sidebar)
+  if (!_financialsCache) {
+    _financialsCache = await loadJSON('financials.json');
+  }
   if (!stocksCache || !stocksCache.ranges || !stocksCache.ranges[range]) {
     document.getElementById('stockUpdated').textContent = 'Data unavailable — check back shortly';
     return;
   }
 
   const rangeData = stocksCache.ranges[range];
-  // Sort to match TICKERS order so PAR is always first
-  const ordered = TICKERS
-    .map(t => rangeData.find(d => d.ticker === t))
-    .filter(Boolean);
+
+  // Sort by market cap descending, matching sidebar order. PAR always last (as "self").
+  const nonPAR = rangeData
+    .filter(d => d.ticker !== 'PAR')
+    .sort((a, b) => {
+      const mcapA = _financialsCache?.tickers?.[a.ticker]?.market_cap ?? 0;
+      const mcapB = _financialsCache?.tickers?.[b.ticker]?.market_cap ?? 0;
+      return mcapB - mcapA;
+    });
+  const parRow = rangeData.find(d => d.ticker === 'PAR');
+  const ordered = parRow ? [...nonPAR, parRow] : nonPAR;
 
   const labels = ordered.map(d => d.ticker);
   const data = ordered.map(d => d.change_pct);
@@ -1412,6 +1423,7 @@ async function showPARSummary(sidebarEl) {
 
   const parYoYRank = rank('yoy');
   const parGrossRank = rank('grossMargin');
+  const parEbitdaMarginRank = rank('ebitdaMargin');
 
   // Recent news: PAR specifically + any cross-mentions
   const parRelatedNews = (news?.items || []).filter(i => i.company === 'PAR').slice(0, 6);
@@ -1479,6 +1491,10 @@ async function showPARSummary(sidebarEl) {
         <div class="stat-box">
           <div class="stat-label">Gross margin rank</div>
           <div class="stat-value" style="font-size:18px;">#${parGrossRank}</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-label">EBITDA margin rank</div>
+          <div class="stat-value" style="font-size:18px;">#${parEbitdaMarginRank}</div>
         </div>
         <div class="stat-box">
           <div class="stat-label">Public competitors tracked</div>
