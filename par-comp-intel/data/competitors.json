@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-17T21:28:22.255014+00:00",
+  "updated": "2026-04-17T21:34:16.190558+00:00",
   "companies": {
     "Shift4": [
       {
@@ -9,7 +9,8 @@
         "source": "Google News",
         "company": "Shift4",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Stephens Downgrades Shift4 Payments (NYSE:FOUR) to Equal Weight - MarketBeat",
@@ -18,7 +19,8 @@
         "source": "Google News",
         "company": "Shift4",
         "type": "public",
-        "emoji": "\u26a0\ufe0f"
+        "emoji": "\u26a0\ufe0f",
+        "content_type": "press_general"
       },
       {
         "headline": "Seaport downgrades Shift4 Payments stock rating on fintech headwinds - Investing.com",
@@ -27,7 +29,8 @@
         "source": "Google News",
         "company": "Shift4",
         "type": "public",
-        "emoji": "\u26a0\ufe0f"
+        "emoji": "\u26a0\ufe0f",
+        "content_type": "press_general"
       },
       {
         "headline": "Q4 Earnings Highs And Lows: Shift4 (NYSE:FOUR) Vs The Rest Of The Payment Processing Stocks - StockStory",
@@ -36,16 +39,8 @@
         "source": "Google News",
         "company": "Shift4",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
-      },
-      {
-        "headline": "Shift4 wraps up purchase of paytech firm Global Blue - MSN",
-        "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxQYzc2Tnlua2xRSWFzWDYtVnVKU2tvNVd2LXp1cUw4ekRoTDhTbkZ1NDV2ZGVnald2V0hvRHNFSnhsN3BKZG9sakZ3MUdtZjNsaTgtR0JxYnZDOWhyT3JNcTBNeEZMUWpLOU1jTUlFUGNUWHROYnVaclJ4OHJhTjBoSFlPcnJUQmlkYkk0MkFTTUV4YUtDbUZER2lwRnd1TndiQ2VYYVBWUGx6YXFwNzR3N2NMMlp2VzhwY1ZiYXB6LUZEOTd5TDlQS0VKbmNBSzhXZFNfQTBTamYtZzg0VVEzd0s0RERMbHR5bGJBb0R0RF90RF9YZjZjNXhmM0l5RVYzdVlwV3BQY0JOeGFRaE80SHdHUFhUVDVtLUZsa0FjUF9Wc0NNMDBHcGc5Y1ktclNqSnVjaTdjRUJ4dE15QlZiSw?oc=5",
-        "date": "Wed, 15 Apr 2026 15:11:13 GMT",
-        "source": "Google News",
-        "company": "Shift4",
-        "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Assessing Shift4 Payments (FOUR) Valuation As Optimism Builds Around Near Term Earnings - simplywall.st",
@@ -54,7 +49,8 @@
         "source": "Google News",
         "company": "Shift4",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Chicago Fire FC Welcomes Shift4 to Elevate Matchday Commerce Experience - chicagofirefc.com",
@@ -63,7 +59,8 @@
         "source": "Google News",
         "company": "Shift4",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Shift4 Announces Fourth Dividend Date for Mandatory Convertible Preferred Stock - Shift4",
@@ -72,7 +69,8 @@
         "source": "Google News",
         "company": "Shift4",
         "type": "public",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "Raymond James Downgrades Shift4 Payments (FOUR) to Outperform - Yahoo Finance",
@@ -81,7 +79,8 @@
         "source": "Google News",
         "company": "Shift4",
         "type": "public",
-        "emoji": "\u26a0\ufe0f"
+        "emoji": "\u26a0\ufe0f",
+        "content_type": "press_general"
       },
       {
         "headline": "Shift4 Announces Executive Promotions and Leadership Changes - Shift4",
@@ -90,7 +89,8 @@
         "source": "Google News",
         "company": "Shift4",
         "type": "public",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "Why Are Shift4 (FOUR) Shares Soaring Today - Yahoo Finance",
@@ -99,7 +99,8 @@
         "source": "Google News",
         "company": "Shift4",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Shift4 Completes Previously Announced Acquisition of Worldline's North American Subsidiaries - Shift4",
@@ -108,7 +109,8 @@
         "source": "Google News",
         "company": "Shift4",
         "type": "public",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "Shift4 Payments (FOUR) Falls to 2-Year Low as Profits Plunge 65% - Yahoo Finance",
@@ -117,7 +119,18 @@
         "source": "Google News",
         "company": "Shift4",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Reassessing Shift4 Payments (FOUR) After A 55% One Year Share Price Slide - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMXFSeDRUTzh4eTJkR05aVVBaRzVic0dzWm05X3o3UkVYX1FlYWJEYnFJVE8xenJjYTNGeUstMkZ0WV81ZXVJQU1Rbnh4Ry1tTVNtNTNOU1Jlbk5GQWhib3NHZk1uOTI2cWF5SEpqVGFsWjRMUGdqYUppSEhqOVFwRjRFbXNhRlVR?oc=5",
+        "date": "Sat, 14 Feb 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "Shift4",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Shift4 Payments, Inc., Now a Single Share Class Company, Removing Super-Voting Stock, and Eliminating Tax Receivable Obligations to Founder - Shift4",
@@ -126,7 +139,8 @@
         "source": "Google News",
         "company": "Shift4",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       }
     ],
     "Lightspeed": [
@@ -137,7 +151,8 @@
         "source": "Google News",
         "company": "Lightspeed",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "A Look At Lightspeed Commerce (TSX:LSPD) Valuation After New Faire Integration News - Yahoo Finance",
@@ -146,7 +161,8 @@
         "source": "Google News",
         "company": "Lightspeed",
         "type": "public",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "LIGHTSPEED COMMERCE INC (LSPD.CA) Fundamental Analysis & Valuation - ChartMill",
@@ -155,7 +171,8 @@
         "source": "Google News",
         "company": "Lightspeed",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Lightspeed Commerce Inc. (LSPD) declines more than market: Some information for investors - MSN",
@@ -164,7 +181,8 @@
         "source": "Google News",
         "company": "Lightspeed",
         "type": "public",
-        "emoji": "\u26a0\ufe0f"
+        "emoji": "\u26a0\ufe0f",
+        "content_type": "press_general"
       },
       {
         "headline": "Lightspeed Commerce Inc. (LSPD) stock sinks as market gains: Here's why - MSN",
@@ -173,7 +191,8 @@
         "source": "Google News",
         "company": "Lightspeed",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Lightspeed Commerce Faire Deal Tests Thesis On Retailer Stickiness And Value - Yahoo Finance",
@@ -182,7 +201,8 @@
         "source": "Google News",
         "company": "Lightspeed",
         "type": "public",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Lightspeed Commerce Inc. (TSE:LSPD) Given Consensus Rating of \"Hold\" by Analysts - MarketBeat",
@@ -191,7 +211,8 @@
         "source": "Google News",
         "company": "Lightspeed",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Lightspeed Commerce (TSE:LSPD) Stock Price Up 0.4% - Here's Why - MarketBeat",
@@ -200,7 +221,8 @@
         "source": "Google News",
         "company": "Lightspeed",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "The McCourt Foundation Partners With Lightspeed Commerce as the Official POS Partner of the 2027 ASICS Los Angeles Marathon - Endurance Sportswire",
@@ -209,7 +231,8 @@
         "source": "Google News",
         "company": "Lightspeed",
         "type": "public",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Lightspeed Commerce Launches AI-Powered Automation To Help Retailers Eliminate Manual Inventory Entry - PR Newswire",
@@ -218,7 +241,8 @@
         "source": "Google News",
         "company": "Lightspeed",
         "type": "public",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "Assessing Lightspeed Commerce (TSX:LSPD) Valuation After Mixed Share Performance And Conflicting Fair Value Signals - Yahoo Finance",
@@ -227,7 +251,8 @@
         "source": "Google News",
         "company": "Lightspeed",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Lightspeed Commerce Unveils Q3 Product Innovations Designed to Help Merchants Run Smarter and Serve Better - PR Newswire",
@@ -236,7 +261,8 @@
         "source": "Google News",
         "company": "Lightspeed",
         "type": "public",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "Lightspeed Commerce Launches a New Multi-Brand Shopping and Ordering Experience in the Marketplace - PR Newswire",
@@ -245,7 +271,8 @@
         "source": "Google News",
         "company": "Lightspeed",
         "type": "public",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "Lightspeed Commerce Launches Lightspeed AI, a New AI-Powered Intelligence Layer for Retail and Hospitality - PR Newswire",
@@ -254,7 +281,8 @@
         "source": "Google News",
         "company": "Lightspeed",
         "type": "public",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       }
     ],
     "PAR": [
@@ -265,7 +293,8 @@
         "source": "Google News",
         "company": "PAR",
         "type": "public",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "PAR TECHNOLOGY CORP ($PAR) CEO and President 2025 Pay Revealed - Quiver Quantitative",
@@ -274,7 +303,8 @@
         "source": "Google News",
         "company": "PAR",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "[ARS] PAR TECHNOLOGY CORP SEC Filing - Stock Titan",
@@ -283,7 +313,8 @@
         "source": "Google News",
         "company": "PAR",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Executive pay, equity plan and board elections at PAR Technology (PAR) 2026 meeting - Stock Titan",
@@ -292,7 +323,8 @@
         "source": "Google News",
         "company": "PAR",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "PAR Technology (PAR) price target decreased by 39.66% to 36.38 - MSN",
@@ -301,7 +333,8 @@
         "source": "Google News",
         "company": "PAR",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "PAR Technology Corporation (NYSE:PAR) Short Interest Update - MarketBeat",
@@ -310,7 +343,8 @@
         "source": "Google News",
         "company": "PAR",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Par technology corp entered into a board observer agreement with Voss Capital - marketscreener.com",
@@ -319,7 +353,8 @@
         "source": "Google News",
         "company": "PAR",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "PAR Technology Adds Voss Capital Board Observer in Agreement - TipRanks",
@@ -328,7 +363,8 @@
         "source": "Google News",
         "company": "PAR",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Voss Capital gains PAR (NYSE: PAR) non-voting board observer role - Stock Titan",
@@ -337,7 +373,8 @@
         "source": "Google News",
         "company": "PAR",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "PAR Technology (NYSE:PAR) Trading 10.3% Higher - Here's What Happened - MarketBeat",
@@ -346,7 +383,8 @@
         "source": "Google News",
         "company": "PAR",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "PAR Technology launches PAR Intelligence AI Platform for multi-unit operators - QSR Web",
@@ -355,7 +393,8 @@
         "source": "Google News",
         "company": "PAR",
         "type": "public",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "PAR Technology Announces PAR Intelligence: Establishing the Agentic OS for Multi-Unit Operators - Yahoo Finance",
@@ -364,7 +403,8 @@
         "source": "Google News",
         "company": "PAR",
         "type": "public",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "PAR Technology\u2019s Subscription Pivot Hit A Convertible-Notes Speed Bump - Finimize",
@@ -373,7 +413,8 @@
         "source": "Google News",
         "company": "PAR",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "PAR Technology Corporation Announces Proposed Offering of $225.0 Million of Convertible Senior Notes - Yahoo Finance",
@@ -382,7 +423,8 @@
         "source": "Google News",
         "company": "PAR",
         "type": "public",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "Par Tech faces investor pressure - Payments Dive",
@@ -391,7 +433,8 @@
         "source": "Google News",
         "company": "PAR",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       }
     ],
     "Toast": [
@@ -402,7 +445,8 @@
         "source": "Google News",
         "company": "Toast",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Toast Launches 'Built For Busy' Campaign with NYC Customer Spotlights - Toast",
@@ -411,7 +455,8 @@
         "source": "Google News",
         "company": "Toast",
         "type": "public",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "Toast, Inc. (TOST) Is a Trending Stock: Facts to Know Before Betting on It - Yahoo Finance Australia",
@@ -420,7 +465,8 @@
         "source": "Google News",
         "company": "Toast",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Toast Inc. (NYSE:TOST): A Growth Stock at a Technical Turning Point - ChartMill",
@@ -429,7 +475,8 @@
         "source": "Google News",
         "company": "Toast",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Capelight Capital Asset Management LP Purchases Shares of 60,000 Toast, Inc. $TOST - MarketBeat",
@@ -438,7 +485,8 @@
         "source": "Google News",
         "company": "Toast",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "A Look Back at Vertical Software Stocks\u2019 Q4 Earnings: Toast (NYSE:TOST) Vs The Rest Of The Pack - Yahoo Finance",
@@ -447,16 +495,8 @@
         "source": "Google News",
         "company": "Toast",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
-      },
-      {
-        "headline": "NU Appears Expensive to Its Industry: Is the Premium Warranted? - TradingView \u2014 Track All Markets",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOd1dHRnAwUk1HRFU1WW5fcGx0TnIwcUF1dkFZaUh6dnpFdy02LUhKNjZlN1RsODBkY21UeFoxWFBaVTRweXRRVHpFQzRiUkU5Z29DUV9lZjRHU1o1cEtlU0FCRTFxS3VYeG8yNjA0M1NDM08ybEU0S1hGcC1SMDMzNmVFbzNqQTJib05YX1RLTzMzM2ZDT19ZcWphSFk0VTIyeTlGRXhJREhMTFRBVGVyUFdhRlNFMHRj?oc=5",
-        "date": "Tue, 14 Apr 2026 16:36:00 GMT",
-        "source": "Google News",
-        "company": "Toast",
-        "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Toast, Inc. Launches Toast Drive-Thru Solution - marketscreener.com",
@@ -465,7 +505,8 @@
         "source": "Google News",
         "company": "Toast",
         "type": "public",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "Robeco Institutional Asset Management B.V. Increases Holdings in Toast, Inc. $TOST - MarketBeat",
@@ -474,7 +515,8 @@
         "source": "Google News",
         "company": "Toast",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "TOST Stock Price, Quote & Chart | TOAST INC-CLASS A (NYSE:TOST) - ChartMill",
@@ -483,16 +525,8 @@
         "source": "Google News",
         "company": "Toast",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
-      },
-      {
-        "headline": "Here is why Toast Inc. (TOST) appears so attractive - MSN",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWDlWOHhRMVdKNEtFMVMwYVpXT3N6dDU3VXVZU0RxR1pHRTJydlIwMGR1b0RyZ2VhOXRrRGhxaVdHMl84U1BIemE1ZnBnaEZHeF9hc29CdjRlN2dFX0hCVXAwc0xfal9ET0F4V3kteExLcnBMYVBBV0ZBMHlvOTVhNHllb1Y0TUtDdUFrelUwMHkzQVlTV3JvSkUya0NHRGJ4WlBsTWl5eEVKVDBxSXBNMjZFUkljZDRMRW5FNVNhMU5DUURIakdR?oc=5",
-        "date": "Tue, 14 Apr 2026 05:09:07 GMT",
-        "source": "Google News",
-        "company": "Toast",
-        "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "A Review of Q4 Earnings for Vertical Software Stocks: Comparing Toast (NYSE:TOST) with Its Competitors - Bitget",
@@ -501,7 +535,8 @@
         "source": "Google News",
         "company": "Toast",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Sumitomo Mitsui Trust Group Inc. Sells 484,321 Shares of Toast, Inc. $TOST - MarketBeat",
@@ -510,7 +545,8 @@
         "source": "Google News",
         "company": "Toast",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Toast Inc: General counsel Elworthy sells $95,949 in shares - Investing.com",
@@ -519,7 +555,28 @@
         "source": "Google News",
         "company": "Toast",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "[Form 4] Toast, Inc. Insider Trading Activity - Stock Titan",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNejVYZEFyOERJN3YzeWprSF95YVJNaGI2eG96NFhnMG1hWG5nZkVyUWc5NWFFbDZMdDVBc1FNdHFBSmdmeGZYa3FlV3FDcS03V01sQWIxOExsTU5NWnRRczA1TXVOR25mTnozdnFVLXR0THV4TlhQX0szTGlWUHhyMGN3dDhyQjl6MW5WN2YzWF85NGlxb0luYnlKakdSWHFuMFhlY3d3?oc=5",
+        "date": "Fri, 03 Apr 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Toast",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Here is why Toast Inc. (TOST) appears so attractive - MSN",
+        "url": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxOMHlSTEJpRGUyUlZycmUwZHhpZnJaMU8yWGlaYmRjQktvOHl0WHViN3RvUFRLVFRsT19fTzAya05RbnBrLWNxVnRlNGFLT0Q3SEg4VlplejJORGNNQnB4X2FRR2dhUDBWZS14UUM4bGZ2OUZ0aVU0WXdxUVE2cmo0SGktaEYyR1pyUnpCUVFibTZoSG5JYjY3YUFXUFNSXzRtbzh0TjJuSWR6VDktQWswamRYVnN0ZEZpdE5lcmlPcHFIQW5kRzVsUzNyOTNTb0NyQkNPZlVENjNZV2o2cGgzTnF3Umg1TGVhZkFzcDJmUlUtc182V2x1cEgyVV9fUVROV2lvTE5pNHM0bDY2WDM1Vkcwek9jRUNYVjlzT1pUdXNJc0dmN1YzNHk2VUZwUkFTTlp0UVJ6S3k5MXZiYmlIMzU5bUV0UW1pQTkxY0hKMHVNcnJiMWV2bnBjTE9fUQ?oc=5",
+        "date": "Mon, 30 Mar 2026 02:07:07 GMT",
+        "source": "Google News",
+        "company": "Toast",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       }
     ],
     "Deliverect": [
@@ -530,7 +587,8 @@
         "source": "Google News",
         "company": "Deliverect",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "ConverseNow and Deliverect Announce Partnership to Bring Voice AI Ordering into Unified Restaurant Order & Menu Management - PR Newswire",
@@ -539,7 +597,8 @@
         "source": "Google News",
         "company": "Deliverect",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "ConverseNow, Deliverect partner to integrate Voice AI into restaurant management - QSR Web",
@@ -548,7 +607,8 @@
         "source": "Google News",
         "company": "Deliverect",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Deliverect streamlines quick-commerce operations for Asda - RetailDetail EU",
@@ -557,7 +617,8 @@
         "source": "Google News",
         "company": "Deliverect",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Asda and Deliverect partner to enhance rapid delivery across Asda Express - Yahoo Finance Singapore",
@@ -566,7 +627,8 @@
         "source": "Google News",
         "company": "Deliverect",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Deliverect launches AI agents to optimise restaurant digital menus - MSN",
@@ -575,7 +637,8 @@
         "source": "Google News",
         "company": "Deliverect",
         "type": "private",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "Deliverect Launches AI Agents and Smart Assistants - Nation\u2019s Restaurant News",
@@ -584,7 +647,8 @@
         "source": "Google News",
         "company": "Deliverect",
         "type": "private",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "Deliverect AI debuts autonomous workforce to manage menus, protect digital revenue - fastcasual.com",
@@ -593,7 +657,8 @@
         "source": "Google News",
         "company": "Deliverect",
         "type": "private",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "Deliverect Launches AI Agents and Smart Assistants to Boost Restaurant Sales and Protect Digital Revenue",
@@ -602,7 +667,8 @@
         "source": "Restaurant Technology News",
         "type": "trade",
         "company": "Deliverect",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "Papa Johns Selects Deliverect to Modernize Delivery Operations Across U.S. Restaurants - PR Newswire",
@@ -611,7 +677,8 @@
         "source": "Google News",
         "company": "Deliverect",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Thanx and Deliverect Partner to Deliver First-Party Ordering and Loyalty for Restaurants - The National Law Review",
@@ -620,7 +687,8 @@
         "source": "Google News",
         "company": "Deliverect",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "bb.q Chicken Deploys Deliverect Platform Across All U.S. Restaurants to Streamline Digital Operations - Restaurant Technology News",
@@ -629,7 +697,8 @@
         "source": "Google News",
         "company": "Deliverect",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "bb.q Chicken Deploys Deliverect to Modernize Digital Operations Across All US Locations - PR Newswire",
@@ -638,7 +707,8 @@
         "source": "Google News",
         "company": "Deliverect",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Deliverect Launches Industry First AI Agent Library to Automate Restaurant Operations - PR Newswire",
@@ -647,7 +717,8 @@
         "source": "Google News",
         "company": "Deliverect",
         "type": "private",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "Five Guys testing ordering platform co-created by Flybuy, Deliverect - fastcasual.com",
@@ -656,7 +727,8 @@
         "source": "Google News",
         "company": "Deliverect",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       }
     ],
     "Uber Eats": [
@@ -667,16 +739,18 @@
         "source": "Google News",
         "company": "Uber Eats",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Health and safety tips for Uber Eats customers - Uber",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE05ejQtX3VRZkxIbmNxdEg0Z012cjBnU1JOZ0RIR2lFRnA0VkNUTkpFdFIxNUR4LUtyZF9Wc0oyYW0tU3dpVXhxS21tUmxQY3E5SUZHZzFOLXhLQzJqOUVhMGN3V1YzZXNX?oc=5",
-        "date": "Thu, 09 Apr 2026 10:50:14 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9kSFlDZml2elp5ZDVnMlI0Vm92V0o2aDBJZXl6YVBwb19XbXF2c2xzN3BWSXo4QlpXY0ViSmJ2NEhJU1ZyeEVHeDlZQm4tVWVCalNndUYyd05aa3NpeENUOVB2SFNkYklK?oc=5",
+        "date": "Mon, 06 Apr 2026 16:04:47 GMT",
         "source": "Google News",
         "company": "Uber Eats",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Popular pizza chain cuts ties with Uber Eats - thestreet.com",
@@ -685,25 +759,18 @@
         "source": "Google News",
         "company": "Uber Eats",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
-        "headline": "Managing allergy requests on Uber Eats - Uber",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5hazVZRHJCSFFwRkRQZjlNN3pDYzdodEt4Zm5yYXpMWDFaQ0UzVzhYNUVwaEdRaVpuVlJEdUVnNHM4Z3d5N0MwaVpEN2pPdW1RV2Rva1JXdkVuQmJUSkVFb1A3d0MxWFZXN0kyYzRZV20tZkY3NU5xa0pONA?oc=5",
-        "date": "Wed, 01 Apr 2026 23:45:52 GMT",
+        "headline": "Supporting local restaurants and workers with Uber Eats in Canada - Uber",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeG45TXF0eXJvMHBOTjl2cVVycm5IRnVWbmNGbHRjNjRZeEFTTldtWWM2b1hGVXpyWVdqRjdUV2t3YVNJTkJwVFdpejBQM0VGa21ZdnNIdDNRdGlwVVkzdUpSN05hd0twN0s5WVprMm5RYnY4dTBZSXpqaWQ3bVA2Y29Ec2lQbjlrQnJmYWRDd0thcXhhYXRoRndmQjl4dHlI?oc=5",
+        "date": "Thu, 02 Apr 2026 23:12:24 GMT",
         "source": "Google News",
         "company": "Uber Eats",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
-      },
-      {
-        "headline": "How the Uber Eats Fees Stack Up Against 3PD Competitors - Food On Demand",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTGxkN2N4WTU1aWk3U3ZWWnJhSm5ueGMzdnBSWUlpSDhUTzVoSzZyTmdjaW96MmY0TjdCYU5tMVI1UDBQT2Y1QU95RkRZNk1BN3EzT1N2NVlrb00tZVpsSzJkVFB1YWtrTG1HYnRwNmhHNG9MdnBXX09sZmN3NTB1UEEzdl80NEt2VkdfanlSNkNrOXFE?oc=5",
-        "date": "Wed, 01 Apr 2026 19:35:25 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Why Rave Restaurant Group cut ties with Uber Eats - Restaurant Dive",
@@ -712,7 +779,28 @@
         "source": "Google News",
         "company": "Uber Eats",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Order from your favourite Uber Eats restaurant partner through Instagram - Uber",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fRlpXUFpoSjVzcl9tdlpQWlNvT2dhYzY4UXk2NDRKdG5mT1BXVHRJdzFSYlBkdVVjSGNuRHJQTzQ3Q0drRFlZUEthQXZDMTBCQmoybkZndlg1T0tnRXQwcllIMG84cU4wTnRxSUplWnZRUQ?oc=5",
+        "date": "Wed, 01 Apr 2026 05:37:30 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "How to improve account security for Uber Eats Manager - Uber",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWmNsR0dpNXZwVktQTWNWWE9HeGZ3R3dxQmppY1VrTW04Tzk2VWhPZXZVSHBfUU5Ha05yRGh3MjN5UWlaTHB0bVBWRjVHY2xRMEFBdlFKZVRKQTJ1dW1mR3Nkc0tjS3hBYkg0OXdWc09ER2dTRUJoRjNDaVV2NzctUUxQaUZmemVtSDQzRldLdw?oc=5",
+        "date": "Wed, 01 Apr 2026 05:26:08 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Alexa+ can now order delivery through Grubhub and Uber Eats - About Amazon",
@@ -721,25 +809,28 @@
         "source": "Google News",
         "company": "Uber Eats",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
-        "headline": "Get hungry Boston: the UberEATS app is here - Uber",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1BYVl5Z0JIVVBDSW1YUFdvU2lDdmc5MkRiMlFtZFNzalUxV182NmdkbGdITHdNcjB6WjZCME1FaWxFOXV3ZFNNQXQ0X1dKV0hxRk1wWjBod1Q2MmVNdFk5WGo2OWZTbjdQSjNJZA?oc=5",
-        "date": "Wed, 25 Mar 2026 11:55:57 GMT",
+        "headline": "Eat Local: Kickstarting Restaurant Success in 2021 - Uber",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWEVKN2dXN29uYTFUQUZTSzBpOWZZcUxHcnJ0Z0w4NGRZbEVOLU9fcjlhVGo4c0pyTUxta3B6TDVBN3dzSk1iWWNXRFNjamxFSDJJYVdTczhvelZZN3VNWUh3QnZoNm43ZVc0WmJKZnk1ckZrVU5rcDJRbnZnU0N0dWltUGxiUQ?oc=5",
+        "date": "Tue, 31 Mar 2026 04:13:20 GMT",
         "source": "Google News",
         "company": "Uber Eats",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
-        "headline": "Buy One Get One Free on your favourite Asian restaurants on UberEATS - Uber",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOWc2X1V3SEoxNGxEeThoN21jMnA1cXQ1cEQ3ZDNuaDRBQnd5NVp6cm1LR2k0LXp0Q0JxeDF3SUtMRGs5SlVNSFFnZ1BaVlNXWjhhNXR0NjlFdnlNVW93eGRfLXdQNTFRTl9ObjUyLW1XXzlxSUl6ci0yZWZJR0luVUNnR0hhVVJLeENTWU5LZjJBZkhE?oc=5",
-        "date": "Fri, 13 Mar 2026 23:33:43 GMT",
+        "headline": "Minneapolis: UberEATS is here - Uber",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9nNXZaOVFLRGh4a1dZUEZuOFNKRzRlSlJjcnJrbE9BQ3NENFVMVXBhaVVPUzEyUGtWcVlFR3hEMHRZa2tabEViN0ttR242THlsYm54UDM2LU1IVktMZkpmNWhoMXJkUzE3eTFTOXJRQXZCSm8?oc=5",
+        "date": "Sun, 22 Mar 2026 12:55:50 GMT",
         "source": "Google News",
         "company": "Uber Eats",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Uber Eats raises marketplace fees - Restaurant Dive",
@@ -748,7 +839,8 @@
         "source": "Google News",
         "company": "Uber Eats",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Silver\u2019s Deli takes gold at Uber Eats Restaurant of the Year Awards 2025 - Uber",
@@ -757,7 +849,8 @@
         "source": "Google News",
         "company": "Uber Eats",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Perfect Your Order and Save With Multi-Store Ordering - Uber",
@@ -766,7 +859,8 @@
         "source": "Google News",
         "company": "Uber Eats",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Uber Eats is raising delivery fees for some restaurants - Restaurant Business",
@@ -775,16 +869,8 @@
         "source": "Google News",
         "company": "Uber Eats",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
-      },
-      {
-        "headline": "Everything to Know About Uber Eats for Restaurants - Business.com",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBWcDNnaE1yb1ozd1J4VDhYTXAzY3QwM0NMZTh3NXJCRVM5WFhhOG1TS3hSSE9QbGNKaFpwMTFCaHFIV3ZCSzNjTS1OU21McnpMWnlsUmpRNXNDWTVFXy10Q1EyS0FJWDVHSlNF?oc=5",
-        "date": "Tue, 13 Jan 2026 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Restaurants on the New Path to Purchase - Uber",
@@ -793,7 +879,8 @@
         "source": "Google News",
         "company": "Uber Eats",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       }
     ],
     "SpotOn": [
@@ -804,7 +891,8 @@
         "source": "Google News",
         "company": "SpotOn",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Popmenu, SpotOn combine tech stacks to support restaurant growth - fastcasual.com",
@@ -813,7 +901,8 @@
         "source": "Google News - POS Industry",
         "type": "trade",
         "company": "SpotOn",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Popmenu Integrates With SpotOn to Streamline Restaurant Operations and Drive Revenue Growth - Restaurant Technology News",
@@ -822,7 +911,8 @@
         "source": "Google News",
         "company": "SpotOn",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Quantiiv\u2019s Virtual Executive for Restaurants; Popmenu and SpotOn Create a Unified Commerce Platform - Digital Transactions",
@@ -831,7 +921,8 @@
         "source": "Google News",
         "company": "SpotOn",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "SpotOn Expands Financial Services Offerings for Restaurants With Launch of Rapid Fund - Business Wire",
@@ -840,7 +931,8 @@
         "source": "Google News",
         "company": "SpotOn",
         "type": "private",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "SpotOn Reports Independent Restaurants Increased Non-Alcoholic Beverage Menu Additions 47% Year Over Year as They Rebuild Beverage Profit Margin - Business Wire",
@@ -849,7 +941,8 @@
         "source": "Google News",
         "company": "SpotOn",
         "type": "private",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Loman AI and SpotOn partner to automate restaurant phone calls - Verdict Food Service",
@@ -858,7 +951,8 @@
         "source": "Google News",
         "company": "SpotOn",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Loman AI and SpotOn Announce Partnership Bringing Voice AI to SpotOn POS Restaurants - Business Wire",
@@ -867,7 +961,8 @@
         "source": "Google News",
         "company": "SpotOn",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "SpotOn Outlines a Game-Day Strategy for Independent Restaurants This Super Bowl - WhatNow",
@@ -876,7 +971,8 @@
         "source": "Google News",
         "company": "SpotOn",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "SpotOn, the Restaurant Tech Partner of Guy's Flavortown Tailgate, Helps Independent Restaurants Get Game-Day Ready - PR Newswire",
@@ -885,7 +981,8 @@
         "source": "Google News",
         "company": "SpotOn",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "SpotOn Unveils 2026 Restaurant Outlook Focused on Profit, Not Hype - PR Newswire",
@@ -894,7 +991,8 @@
         "source": "Google News",
         "company": "SpotOn",
         "type": "private",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "SoundHound Launches an In-Vehicle Reservation System; SpotOn Releases a Report on Restaurant Profitability - Digital Transactions",
@@ -903,7 +1001,8 @@
         "source": "Google News",
         "company": "SpotOn",
         "type": "private",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "SpotOn Ranked #1 Restaurant POS by G2 for Fall 2025, Outperforming Toast Where It Matters Most - PR Newswire",
@@ -912,7 +1011,8 @@
         "source": "Google News - Restaurant Tech",
         "type": "trade",
         "company": "SpotOn",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "SpotOn Debuts DayCheck for Faster Tip Payouts - PYMNTS.com",
@@ -921,7 +1021,8 @@
         "source": "Google News",
         "company": "SpotOn",
         "type": "private",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "SpotOn Redefines Online Ordering to Help Restaurants Take Back Control from Third Parties - PR Newswire",
@@ -930,7 +1031,8 @@
         "source": "Google News",
         "company": "SpotOn",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "SpotOn Maintains its Position as #1 Restaurant POS System in G2's Summer Report - PR Newswire",
@@ -939,7 +1041,8 @@
         "source": "Google News - POS Industry",
         "type": "trade",
         "company": "SpotOn",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       }
     ],
     "TalonOne": [
@@ -950,7 +1053,8 @@
         "source": "Google News",
         "company": "TalonOne",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Talon.One releases integration with Adobe Experience Platform to power real-time loyalty and promotions for enterprise brands - MSN",
@@ -959,7 +1063,8 @@
         "source": "Google News",
         "company": "TalonOne",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Dreaming of becoming a founder? \u2018Be critical of your own ideas\u2019 - Euronews.com",
@@ -968,7 +1073,8 @@
         "source": "Google News",
         "company": "TalonOne",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Talon.One Announces Unified Incentives Protocol to Power Loyalty and Promotions in Agentic Commerce - Business Wire",
@@ -977,7 +1083,8 @@
         "source": "Google News",
         "company": "TalonOne",
         "type": "private",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "Loyalty and discount capabilities Agentic Commerce from Talon.One - channelx.world",
@@ -986,7 +1093,8 @@
         "source": "Google News",
         "company": "TalonOne",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "WTF is an incentives marketing strategy? | How brands are merging loyalty programs and promotions to build long-term customer value - Digiday",
@@ -995,7 +1103,8 @@
         "source": "Google News",
         "company": "TalonOne",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Lush works with Talon.One on launch of 'truly omnichannel' app-based rewards programme - Retail Technology Innovation Hub",
@@ -1004,7 +1113,8 @@
         "source": "Google News",
         "company": "TalonOne",
         "type": "private",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "From discount death spiral to growth engine: Rethinking incentives - Fortune",
@@ -1013,7 +1123,8 @@
         "source": "Google News",
         "company": "TalonOne",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Talon.One Secures $135m to Accelerate Growth and Innovation Through AI - The Wise Marketer",
@@ -1022,7 +1133,8 @@
         "source": "Google News",
         "company": "TalonOne",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Talon.One Secures \u20ac114 Million in Funding - The SaaS News",
@@ -1031,7 +1143,8 @@
         "source": "Google News",
         "company": "TalonOne",
         "type": "private",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Talon.One: $135 Million Growth Raised For Enterprise Loyalty Platform - Pulse 2.0",
@@ -1040,7 +1153,8 @@
         "source": "Google News",
         "company": "TalonOne",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Berlin\u2019s Talon.One raises \u20ac114.7M to scale its platform for promotions, loyalty and gamification - Silicon Canals",
@@ -1049,7 +1163,8 @@
         "source": "Google News",
         "company": "TalonOne",
         "type": "private",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Talon.One Raises $135M in Funding - FinSMEs",
@@ -1058,7 +1173,8 @@
         "source": "Google News",
         "company": "TalonOne",
         "type": "private",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Berlin-based loyalty and promotion platform Talon.One raises \u20ac114 million to accelerate growth and innovation through AI - EU-Startups",
@@ -1067,7 +1183,8 @@
         "source": "Google News",
         "company": "TalonOne",
         "type": "private",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       }
     ],
     "NCR Voyix": [
@@ -1078,7 +1195,8 @@
         "source": "Google News",
         "company": "NCR Voyix",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "RBC Capital Maintains NCR Voyix(VYX.US) With Buy Rating, Cuts Target Price to $10 - \u5bcc\u9014\u725b\u725b",
@@ -1087,7 +1205,8 @@
         "source": "Google News",
         "company": "NCR Voyix",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "NCR Voyix (VYX) price target decreased by 16.21% to 13.52 - MSN",
@@ -1096,7 +1215,8 @@
         "source": "Google News",
         "company": "NCR Voyix",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "How The NCR Voyix (VYX) Story Is Shifting As Analysts Tighten Targets And Weigh Execution - Yahoo Finance",
@@ -1105,7 +1225,8 @@
         "source": "Google News",
         "company": "NCR Voyix",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "How The NCR Voyix (VYX) Investment Story Is Shifting As Analyst Views Rebalance - Yahoo Finance",
@@ -1114,7 +1235,8 @@
         "source": "Google News",
         "company": "NCR Voyix",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "DC Advisory acted as the exclusive financial advisor to NTT DATA on the acquisition of NCR Voyix\u2019s bank technology solutions business in Japan - DC Advisory",
@@ -1123,7 +1245,8 @@
         "source": "Google News",
         "company": "NCR Voyix",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Stifel reiterates NCR Voyix stock rating after Japan unit sale - Investing.com",
@@ -1132,7 +1255,8 @@
         "source": "Google News",
         "company": "NCR Voyix",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "NCR Voyix to sell Japanese bank technology business to NTT Data - FinTech Futures",
@@ -1141,7 +1265,8 @@
         "source": "Google News",
         "company": "NCR Voyix",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "NCR Voyix to Sell Bank Technology Solutions Business in Japan - Business Wire",
@@ -1150,7 +1275,8 @@
         "source": "Google News",
         "company": "NCR Voyix",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "How The Investment Narrative For NCR Voyix (VYX) Is Shifting On Mixed Analyst Signals - Yahoo Finance",
@@ -1159,7 +1285,8 @@
         "source": "Google News",
         "company": "NCR Voyix",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "A Hedge Fund Just Trimmed $2.7 Million of NCR Voyix. Should You Care? - The Motley Fool",
@@ -1168,7 +1295,8 @@
         "source": "Google News",
         "company": "NCR Voyix",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Pilot taps NCR Voyix for POS platform - Retail Customer Experience",
@@ -1177,7 +1305,8 @@
         "source": "Google News",
         "company": "NCR Voyix",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Pilot Selects NCR Voyix to Modernize Point of Sale Across Its Industry-Leading Travel Center Network - Pilot Travel Center",
@@ -1186,7 +1315,8 @@
         "source": "Google News",
         "company": "NCR Voyix",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Does NCR Voyix (VYX) Still Look Like a Software-Led Story After Its 7-Eleven Philippines Win? - Yahoo Finance",
@@ -1195,7 +1325,8 @@
         "source": "Google News",
         "company": "NCR Voyix",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "After 140 years, POS giant NCR Voyix looks to reinvent itself - Restaurant Business",
@@ -1204,7 +1335,8 @@
         "source": "Google News - POS Industry",
         "type": "trade",
         "company": "NCR Voyix",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       }
     ],
     "Paytronix": [
@@ -1215,7 +1347,8 @@
         "source": "Google News",
         "company": "Paytronix",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Paytronix Customer Conference Draws Top Brands in Hospitality to PX|NXT - GlobeNewswire",
@@ -1224,7 +1357,8 @@
         "source": "Google News",
         "company": "Paytronix",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Why points-based loyalty programs aren\u2019t cutting it anymore - Restaurant Dive",
@@ -1233,7 +1367,8 @@
         "source": "Google News",
         "company": "Paytronix",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Paytronix Finds Personalization Drives Loyalty Success - Convenience Store News",
@@ -1242,7 +1377,8 @@
         "source": "Google News",
         "company": "Paytronix",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Paytronix 2026 Loyalty Report: Real-Time Personalization & AI-Powered Decisioning Drive Success - GlobeNewswire",
@@ -1251,7 +1387,8 @@
         "source": "Google News",
         "company": "Paytronix",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Las Palapas Kicks Off 2026 with New Loyalty, Mobile, Ordering & More from Paytronix - The Wise Marketer",
@@ -1260,7 +1397,8 @@
         "source": "Google News",
         "company": "Paytronix",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Las Palapas taps Paytronix for digital overhaul, adds mobile app - fastcasual.com",
@@ -1269,7 +1407,8 @@
         "source": "Google News",
         "company": "Paytronix",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Tiger Fuel connects car wash customers with c-store rewards - C-Store Dive",
@@ -1278,7 +1417,8 @@
         "source": "Google News",
         "company": "Paytronix",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Paytronix, Rinsed integration links TigerWash with Market Rewards - Professional Carwashing & Detailing",
@@ -1287,7 +1427,8 @@
         "source": "Google News",
         "company": "Paytronix",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Tiger Fuel Integrates Paytronix Loyalty & Rinsed CRM to Bring C-store Rewards to Car Wash Customers - Yahoo Finance",
@@ -1296,7 +1437,8 @@
         "source": "Google News",
         "company": "Paytronix",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Paytronix: AI Will Continue to Shape 2026 Trends - NACS",
@@ -1305,7 +1447,8 @@
         "source": "Google News",
         "company": "Paytronix",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Paytronix 2026 Trends & Predictions: Gen AI Will Drive Personalized Offers & Operational Optimization - Yahoo Finance",
@@ -1314,7 +1457,8 @@
         "source": "Google News",
         "company": "Paytronix",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Paytronix and Deliverect Partner to Enable Seamless Operations Across Online Orders for Restaurants - GlobeNewswire",
@@ -1323,7 +1467,8 @@
         "source": "Google News",
         "company": "Paytronix",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Paytronix Online Ordering Report: Order Completion 4X Faster Via Native Mobile Apps Than on Web - The Wise Marketer",
@@ -1332,16 +1477,18 @@
         "source": "Google News",
         "company": "Paytronix",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
-        "headline": "Paytronix and Qu Partner to Deliver Smarter, More Personalized Guest Experiences - The Wise Marketer",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPV2RGYWEwd3RWSUVKZVhnaHpaOTdSbU5WTFRHcFVBaDV3SWJBU0c1OWhyWlM4bmRIdkFERXlNUGQyRUE3QkRSd19aUjhuM0FVUmlJaVluV0NtNzFVLUtQQXhIaERVVUE3Z3ZHcjBNcmRoSUkzVXJpR2xyX0FuQ1BPZS1GMnN1eXNqWTV2SHpxMXJfSmwxdy1Pa29yYkVHX2RFVGhqM2RaYmVDNDVX?oc=5",
-        "date": "Wed, 08 Oct 2025 07:00:00 GMT",
+        "headline": "People on the Move: EG Group, Paytronix & The Wills Group - Convenience Store News",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0wN3F4YW9Cd2NqdDFveEhXSXlFWVExM1lKUzBQTGw4TkRDVU9WSG9pTk13YXAyV05LMmdvRU1PenFSS3lLTGNJaGQySlY3MnBWaEotT015RTY3eXhjMGpBUjJXVVVJODNIY2hab1Jn?oc=5",
+        "date": "Wed, 20 Aug 2025 07:00:00 GMT",
         "source": "Google News",
         "company": "Paytronix",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       }
     ],
     "Fiserv": [
@@ -1352,7 +1499,8 @@
         "source": "Google News",
         "company": "Fiserv",
         "type": "public",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Is Fiserv\u2019s (FISV) Deeper Clover Tax and Pay by Bank Push Altering Its Investment Case? - Sahm",
@@ -1361,7 +1509,8 @@
         "source": "Google News",
         "company": "Fiserv",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Small businesses on Clover will get taxes set aside and filed automatically - Stock Titan",
@@ -1370,7 +1519,8 @@
         "source": "Google News",
         "company": "Fiserv",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Fiserv Western Alliance Deal Highlights Clover Growth Potential And Valuation Gap - simplywall.st",
@@ -1379,7 +1529,8 @@
         "source": "Google News",
         "company": "Fiserv",
         "type": "public",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Fiserv Has Crashed 75% From Its Peak: Can it Recover in 2026? - TIKR.com",
@@ -1388,7 +1539,8 @@
         "source": "Google News",
         "company": "Fiserv",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Down 73% From Peak, Can Fiserv Stock Deliver Better Returns in 2026? - TIKR.com",
@@ -1397,7 +1549,8 @@
         "source": "Google News",
         "company": "Fiserv",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Fiserv Top Brass Misrepresented Clover\u2019s Prospects, Suit Says - Bloomberg Law News",
@@ -1406,7 +1559,8 @@
         "source": "Google News",
         "company": "Fiserv",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Fiserv signs Clover partnership with Japan's Sumitomo Mitsui - FinTech Futures",
@@ -1415,7 +1569,8 @@
         "source": "Google News",
         "company": "Fiserv",
         "type": "public",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Will Fiserv\u2019s (FISV) Japan Clover Launch with SMCC Reshape Its Global Payments Platform Narrative - Yahoo Finance",
@@ -1424,7 +1579,8 @@
         "source": "Google News",
         "company": "Fiserv",
         "type": "public",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "How Investors Are Reacting To Fiserv (FISV) Embedding Biometric Payments Into Clover\u2019s Checkout Platform - Yahoo Finance",
@@ -1433,7 +1589,8 @@
         "source": "Google News",
         "company": "Fiserv",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Clover Introduces Identity-Based Payments to Transform Everyday Transactions - Fiserv",
@@ -1442,7 +1599,8 @@
         "source": "Google News",
         "company": "Fiserv",
         "type": "public",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "Fiserv\u2019s Clover adopts biometrics - Payments Dive",
@@ -1451,7 +1609,8 @@
         "source": "Google News",
         "company": "Fiserv",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Fiserv turns to AI for help - Payments Dive",
@@ -1460,7 +1619,8 @@
         "source": "Google News",
         "company": "Fiserv",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Fiserv Shares Plunge After Earnings Miss and Leadership Shake-Up - FinTech Weekly",
@@ -1469,7 +1629,8 @@
         "source": "Google News",
         "company": "Fiserv",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Fiserv sued over Clover migration - Payments Dive",
@@ -1478,7 +1639,8 @@
         "source": "Google News",
         "company": "Fiserv",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       }
     ],
     "Bikky": [
@@ -1489,7 +1651,8 @@
         "source": "Google News",
         "company": "Bikky",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "With QSR Sales Down and Consumer Sentiment Falling, Brands Turn to Data for Answers - franchisetimes.com",
@@ -1498,7 +1661,8 @@
         "source": "Google News",
         "company": "Bikky",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Abhinav Kapur, Co-Founder & CEO, Bikky - restfinance.com",
@@ -1507,7 +1671,8 @@
         "source": "Google News",
         "company": "Bikky",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Mellow Mushroom powers data-driven marketing and expansion with Bikky - GlobeNewswire",
@@ -1516,7 +1681,8 @@
         "source": "Google News",
         "company": "Bikky",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Postino Elevates Hospitality Through Personalization With Bikky - GlobeNewswire",
@@ -1525,7 +1691,8 @@
         "source": "Google News",
         "company": "Bikky",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Bikky and MOD Pizza Announce Tasty Partnership - Food On Demand",
@@ -1534,7 +1701,8 @@
         "source": "Google News",
         "company": "Bikky",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "MOD Pizza Is Diving Deeper Into the Customer Analytics Game - PMQ Pizza",
@@ -1543,7 +1711,8 @@
         "source": "Google News",
         "company": "Bikky",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Bojangles Joins Forces with Bikky for Digital Transformation - Food On Demand",
@@ -1552,7 +1721,8 @@
         "source": "Google News",
         "company": "Bikky",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Bikky Partners with NYC\u2019s Leading Restaurant Brands to Bolster Data and Marketing Capabilities - GlobeNewswire",
@@ -1561,7 +1731,8 @@
         "source": "Google News",
         "company": "Bikky",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Bikky Founder Details Data-Driven Mission After Seed Round - Food On Demand",
@@ -1570,7 +1741,8 @@
         "source": "Google News",
         "company": "Bikky",
         "type": "private",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Restaurant customer data platform Bikky raises $5M - Restaurant Business",
@@ -1579,7 +1751,8 @@
         "source": "Google News",
         "company": "Bikky",
         "type": "private",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       }
     ],
     "Global Payments": [
@@ -1590,7 +1763,8 @@
         "source": "Google News",
         "company": "Global Payments",
         "type": "public",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "BNP Paribas Exane Has Lowered Expectations for Global Payments (NYSE:GPN) Stock Price - MarketBeat",
@@ -1599,7 +1773,8 @@
         "source": "Google News",
         "company": "Global Payments",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Global Payments (NYSE:GPN) Sets New 52-Week Low - Time to Sell? - MarketBeat",
@@ -1608,7 +1783,8 @@
         "source": "Google News",
         "company": "Global Payments",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Global Payments Lands IRS Role Raising Questions On Value And Growth - simplywall.st",
@@ -1617,7 +1793,8 @@
         "source": "Google News",
         "company": "Global Payments",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Global Payments (NYSE:GPN) Reaches New 1-Year Low - Here's Why - MarketBeat",
@@ -1626,7 +1803,8 @@
         "source": "Google News",
         "company": "Global Payments",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Global Payments (NYSE:GPN) Price Target Lowered to $90.00 at Citigroup - MarketBeat",
@@ -1635,7 +1813,8 @@
         "source": "Google News",
         "company": "Global Payments",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "A Look At Global Payments (GPN) Valuation As Shares Lag And Fair Value Estimates Diverge - simplywall.st",
@@ -1644,7 +1823,8 @@
         "source": "Google News",
         "company": "Global Payments",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Gen Z Driving the Shift from Cards to Digital Wallets, New Research from Global Payments Suggests - Business Wire",
@@ -1653,7 +1833,8 @@
         "source": "Google News",
         "company": "Global Payments",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Global Payments Balances Middle East Disruption With US$1b Debt Refinance - Yahoo Finance",
@@ -1662,7 +1843,8 @@
         "source": "Google News",
         "company": "Global Payments",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Global Payments Recasts Business Around Merchant Solutions And Worldpay Integration - Yahoo Finance",
@@ -1671,7 +1853,8 @@
         "source": "Google News",
         "company": "Global Payments",
         "type": "public",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Global Payments to Report Fourth Quarter and Full Year 2025 Results on February 18, 2026 - Yahoo Finance",
@@ -1680,7 +1863,8 @@
         "source": "Google News",
         "company": "Global Payments",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Acrisure Completes Acquisition of Global Payments\u2019 Payroll Business - Yahoo Finance",
@@ -1689,7 +1873,8 @@
         "source": "Google News",
         "company": "Global Payments",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Global Payments to sell payroll unit to fintech Acrisure for $1.1 billion - Reuters",
@@ -1698,7 +1883,8 @@
         "source": "Google News",
         "company": "Global Payments",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       }
     ],
     "DoorDash": [
@@ -1709,7 +1895,8 @@
         "source": "Google News",
         "company": "DoorDash",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "You Can Now Snag That Hot Restaurant Reservation \u2026 on DoorDash? - Food & Wine",
@@ -1718,7 +1905,8 @@
         "source": "Google News",
         "company": "DoorDash",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "DoorDash winds down restaurant discovery app Zesty - Nation\u2019s Restaurant News",
@@ -1727,7 +1915,8 @@
         "source": "Google News",
         "company": "DoorDash",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "CAUGHT ON CAMERA: DoorDash driver appears to steal tips from Lake Charles restaurant - KPLC 7 News",
@@ -1736,7 +1925,8 @@
         "source": "Google News",
         "company": "DoorDash",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "As Reservation Wars Heat Up, DoorDash Will Pay You to Eat at a Restaurant - WIRED",
@@ -1745,7 +1935,8 @@
         "source": "Google News",
         "company": "DoorDash",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "DoorDash, City of Fremont Kick Off Restaurant Week with Inaugural Dot Delivery - DoorDash",
@@ -1754,7 +1945,8 @@
         "source": "Google News",
         "company": "DoorDash",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "DoorDash Reservations Expands to Chicago and Adds New Premier Restaurant Partners Nationwide - DoorDash",
@@ -1763,7 +1955,8 @@
         "source": "Google News",
         "company": "DoorDash",
         "type": "public",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Restaurant reservation wars heat up as DoorDash enters the arena with Resy, OpenTable - CNBC",
@@ -1772,7 +1965,8 @@
         "source": "Google News",
         "company": "DoorDash",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "DoorDash Announces DMV Flavor Fest \u2014 A Celebration of Local Flavor in the DMV - DoorDash",
@@ -1781,7 +1975,8 @@
         "source": "Google News",
         "company": "DoorDash",
         "type": "public",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "DoorDash and the dilemma of affluence - Slow Boring",
@@ -1790,7 +1985,8 @@
         "source": "Google News",
         "company": "DoorDash",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "DoorDash Reservations and Casadonna Unveil 'The Sand CastleDonna' Pop-Up: Miami\u2019s Most Exclusive Table - DoorDash",
@@ -1799,7 +1995,8 @@
         "source": "Google News",
         "company": "DoorDash",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "DoorDash Unveils Second Annual List of America\u2019s Favorite Delivery Spots Across Cuisines - DoorDash",
@@ -1808,7 +2005,8 @@
         "source": "Google News",
         "company": "DoorDash",
         "type": "public",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "DoorDash Launches Emergency Food Response As SNAP Funding Cliff Threatens To Impact 40 Million Americans - DoorDash",
@@ -1817,7 +2015,8 @@
         "source": "Google News",
         "company": "DoorDash",
         "type": "public",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "DoorDash Launches In-App Restaurant Reservations with Exclusive Dining Experiences and Rewards For Every Booking - DoorDash",
@@ -1826,7 +2025,8 @@
         "source": "Google News",
         "company": "DoorDash",
         "type": "public",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "DoorDash Launches \u2018Going Out,\u2019 Adding Reservations and In-Store Rewards to the App - DoorDash",
@@ -1835,7 +2035,8 @@
         "source": "Google News",
         "company": "DoorDash",
         "type": "public",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "DoorDash adds loyalty program for partner restaurants - Customer Experience Dive",
@@ -1844,7 +2045,8 @@
         "source": "Google News - Restaurant Loyalty",
         "type": "trade",
         "company": "DoorDash",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "DoorDash announces commerce platform expansion with new tools - Yahoo Finance",
@@ -1853,7 +2055,8 @@
         "source": "Google News - Restaurant Loyalty",
         "type": "trade",
         "company": "DoorDash",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "DoorDash Expands Its Commerce Platform With New Tools to Fuel Profitable Growth - DoorDash",
@@ -1862,7 +2065,8 @@
         "source": "Google News - Restaurant Loyalty",
         "type": "trade",
         "company": "DoorDash",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "DoorDash Puts Loyalty at the Center of Its New Restaurant Tools - Food On Demand",
@@ -1871,7 +2075,8 @@
         "source": "Google News - Restaurant Loyalty",
         "type": "trade",
         "company": "DoorDash",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "DoorDash Adds Tiered Membership Packages to Commerce Platform for Restaurants - PYMNTS.com",
@@ -1880,7 +2085,8 @@
         "source": "Google News - Restaurant Loyalty",
         "type": "trade",
         "company": "DoorDash",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "DoorDash Acquires SevenRooms to Deepen Subscription and Loyalty Services for Merchants - Subscription Insider",
@@ -1889,7 +2095,8 @@
         "source": "Google News - Restaurant Loyalty",
         "type": "trade",
         "company": "DoorDash",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       }
     ],
     "Otter POS": [
@@ -1900,7 +2107,8 @@
         "source": "Google News",
         "company": "Otter POS",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "AI Was Supposed to Help Her Launch. Instead, It Nearly Destroyed Her Business - inc.com",
@@ -1909,7 +2117,8 @@
         "source": "Google News",
         "company": "Otter POS",
         "type": "private",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "Catapult Cuts Their Share of Order Issues by Over 50% With Otter - Business Wire",
@@ -1918,7 +2127,8 @@
         "source": "Google News",
         "company": "Otter POS",
         "type": "private",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Otter and Orbital Kitchens Celebrate 2 Million Orders Processed and Delivered, Reinforcing Commitment to Innovation in the Food Industry - Business Wire",
@@ -1927,7 +2137,8 @@
         "source": "Google News",
         "company": "Otter POS",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Inside the Otter and Sloane\u2019s, Alex Stupak\u2019s New Seafood Restaurant and Cocktail Bar in New York - Robb Report",
@@ -1936,7 +2147,8 @@
         "source": "Google News",
         "company": "Otter POS",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Checking out The Frisky Otter restaurant and bar - WDIO.com",
@@ -1945,7 +2157,8 @@
         "source": "Google News",
         "company": "Otter POS",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Ely\u2019s new Frisky Otter hopes to open mid-May - The Timberjay",
@@ -1954,7 +2167,8 @@
         "source": "Google News",
         "company": "Otter POS",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "2023 Restaurant & Delivery Data Report by Otter - Business Wire",
@@ -1963,7 +2177,8 @@
         "source": "Google News",
         "company": "Otter POS",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Industry Leaders Otter and PDI Technologies Join Forces to Help Convenience Stores Maximize Digital, Mobile and Delivery Channels - Business Wire",
@@ -1972,7 +2187,8 @@
         "source": "Google News",
         "company": "Otter POS",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "West Asheville's Lucky Otter restaurant to close at end of the year - The Asheville Citizen Times",
@@ -1981,7 +2197,8 @@
         "source": "Google News",
         "company": "Otter POS",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       }
     ],
     "ItsaCheckmate": [
@@ -1992,7 +2209,8 @@
         "source": "Google News",
         "company": "ItsaCheckmate",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Checkmate Launches AI-Powered Digital Menu Boards - Food On Demand",
@@ -2001,7 +2219,8 @@
         "source": "Google News",
         "company": "ItsaCheckmate",
         "type": "private",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "Checkmate Launches AI-Powered Digital Menu Boards to Help Enterprise Restaurants Sell Smarter - RestaurantNews.com",
@@ -2010,7 +2229,8 @@
         "source": "Google News",
         "company": "ItsaCheckmate",
         "type": "private",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "Checkmate's integration with ezCater helping restaurants streamline catering - fastcasual.com",
@@ -2019,7 +2239,8 @@
         "source": "Google News",
         "company": "ItsaCheckmate",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Tech provider Checkmate raises $10M to grow AI ordering - Restaurant Business",
@@ -2028,7 +2249,8 @@
         "source": "Google News",
         "company": "ItsaCheckmate",
         "type": "private",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Checkmate Raises $10 Million in Series B Funding Led by Tiger Global to Scale the Adoption of its Restaurant Voice AI and Kiosk Solutions - PRWeb",
@@ -2037,7 +2259,8 @@
         "source": "Google News",
         "company": "ItsaCheckmate",
         "type": "private",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Checkmate Secures $10 Million to Fuel Expansion of Its Voice AI, Kiosk and Other Restaurant Technology Solutions - Restaurant Technology News",
@@ -2046,7 +2269,8 @@
         "source": "Google News",
         "company": "ItsaCheckmate",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Checkmate Unveils New Loyalty & Marketing Solution to Unify Customer Engagement Tools for Enterprise Restaurants - The Wise Marketer",
@@ -2055,7 +2279,8 @@
         "source": "Google News",
         "company": "ItsaCheckmate",
         "type": "private",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "Checkmate Steps Out With a New Identity and Expanded Ordering Solutions - Food On Demand",
@@ -2064,7 +2289,8 @@
         "source": "Google News",
         "company": "ItsaCheckmate",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Checkmate Acquires VoiceBite Integrated Voice AI Solution for Restaurants | - Restaurant Technology News",
@@ -2073,7 +2299,8 @@
         "source": "Google News",
         "company": "ItsaCheckmate",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "ItsaCheckmate rebrands, acquires AI voice provider VoiceBite - Restaurant Business",
@@ -2082,7 +2309,8 @@
         "source": "Google News",
         "company": "ItsaCheckmate",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "DoorDash Debuts Seamless Self-Serve Integration Onboarding Capabilities - DoorDash",
@@ -2091,7 +2319,8 @@
         "source": "Google News",
         "company": "ItsaCheckmate",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "DoorDash teams with ItsaCheckmate, Deliverect for easier restaurant signups - Restaurant Dive",
@@ -2100,7 +2329,8 @@
         "source": "Google News",
         "company": "ItsaCheckmate",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "ItsaCheckmate Acquires Open Tender, a First-Party Ordering Platform For Restaurants - GlobeNewswire",
@@ -2109,7 +2339,8 @@
         "source": "Google News",
         "company": "ItsaCheckmate",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Inspire Brands to Invest in and Deploy ItsaCheckmate - stories.inspirebrands.com",
@@ -2118,7 +2349,8 @@
         "source": "Google News",
         "company": "ItsaCheckmate",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       }
     ],
     "Olo": [
@@ -2129,7 +2361,8 @@
         "source": "Google News",
         "company": "Olo",
         "type": "private",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "OLO|Olo Inc|Price:10.260| - TradingKey",
@@ -2138,7 +2371,8 @@
         "source": "Google News",
         "company": "Olo",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Thoma Bravo Completes Acquisition of Olo, Inc. - Thoma Bravo",
@@ -2147,7 +2381,8 @@
         "source": "Google News",
         "company": "Olo",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "OLO Investors Have the Opportunity to Join Investigation of Olo Inc. with the Schall Law Firm - PR Newswire",
@@ -2156,16 +2391,8 @@
         "source": "Google News",
         "company": "Olo",
         "type": "private",
-        "emoji": "\u26a0\ufe0f"
-      },
-      {
-        "headline": "Earnings call transcript: Olo Inc Q1 2025 sees stock rise despite EPS miss - Investing.com UK",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSFpMQ1hVMjdpZzVxeFpCYjFxekltV0NnZElOQmZGUGJjZ2lTT1Z5OEtEb3NWcGdhbnlXTkljLVJzWEV3Y29vQjZjaTI1T19BaXJiUW9xVHVLb3BJdHJ0M3pvTzM5Wk1TcmpSNzhTcEZVVFh1anRzLVpmcDVtUnZtaFg5UG1sSngxUHRJVTZWMS1xSFZHdEc2Q2hlOGhTMDV1ZTBpeElwZ0FnQW5hMkVPQ1FVeU5adWVETVNMLUtyZXI2OWlkaC1r?oc=5",
-        "date": "Tue, 05 Aug 2025 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Olo",
-        "type": "private",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\u26a0\ufe0f",
+        "content_type": "press_general"
       },
       {
         "headline": "OLO INC. BUYOUT INVESTIGATION ALERT: Kaskela Law LLC Announces Investigation into Proposed Buyout of Olo Inc. (NYSE: OLO) Shareholders - Does $10.25 Per Share Represent Sufficient Consideration for OLO Shares? - PR Newswire",
@@ -2174,7 +2401,8 @@
         "source": "Google News",
         "company": "Olo",
         "type": "private",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "Is There Now An Opportunity In Olo Inc. (NYSE:OLO)? - simplywall.st",
@@ -2183,7 +2411,8 @@
         "source": "Google News",
         "company": "Olo",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "FMR LLC Increases Stake in Olo Inc with Significant Share Acquis - GuruFocus",
@@ -2192,7 +2421,8 @@
         "source": "Google News",
         "company": "Olo",
         "type": "private",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "With 57% ownership in Olo Inc. (NYSE:OLO), institutional investors have a lot riding on the business - Yahoo Finance",
@@ -2201,7 +2431,8 @@
         "source": "Google News",
         "company": "Olo",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Olo Inc. (OLO): Among the Best Food Delivery Stocks to Buy - Yahoo Finance",
@@ -2210,7 +2441,8 @@
         "source": "Google News",
         "company": "Olo",
         "type": "private",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "OLO Stock Price, News & Analysis - Stock Titan",
@@ -2219,7 +2451,8 @@
         "source": "Google News",
         "company": "Olo",
         "type": "private",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Raine Group, Olo Inc. Board Sued by Investor Over Stock Buybacks - Bloomberg Law News",
@@ -2228,7 +2461,18 @@
         "source": "Google News",
         "company": "Olo",
         "type": "private",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Olo Inc. extends partnership with DoorDash for three years - Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUUJmRUVnZHV6T3hFV1ZmZ05uQks5TjM5emNGY09aRE5KN2d0S3JjSnRlZWpSV2FHUm51aDhYNjM0RzRjc2hwWHdNVkhYUVRnRFVTV2VCWE0zenFQVk5NR0tXOFJRNlo0dFA3Tm1xOVd0WXFsU21QRXgzVDBZQWdGX0xPZnAwQmZoZGZ0Vzk5S2FUc2hQaklaNTNCMHdLNHJRQ1ZWcWJVbEx5aTJfSklLaUdDck4?oc=5",
+        "date": "Mon, 01 Apr 2024 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Olo",
+        "type": "private",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Olo Inc. (OLO) Announces COO Resignation - StreetInsider",
@@ -2237,7 +2481,8 @@
         "source": "Google News",
         "company": "Olo",
         "type": "private",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "ROSEN, GLOBAL INVESTOR COUNSEL, Encourages Olo Inc. - GlobeNewswire",
@@ -2246,7 +2491,8 @@
         "source": "Google News",
         "company": "Olo",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       }
     ],
     "Sparkfly": [
@@ -2257,7 +2503,8 @@
         "source": "Google News",
         "company": "Sparkfly",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Sparkfly and Bojangles Partner to Transform Brand\u2019s Personalized Mobile App and Digital Dining Experience - Business Wire",
@@ -2266,7 +2513,8 @@
         "source": "Google News",
         "company": "Sparkfly",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Sparkfly Expands to Over 18,000 Locations, Posts 30% Growth in 2024 - Business Wire",
@@ -2275,7 +2523,8 @@
         "source": "Google News",
         "company": "Sparkfly",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Costa Vida Drives Fresh Customer Engagement Through Sparkfly Partnership - Business Wire",
@@ -2284,7 +2533,8 @@
         "source": "Google News",
         "company": "Sparkfly",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360",
@@ -2293,7 +2543,8 @@
         "source": "Google News",
         "company": "Sparkfly",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Piada Italian Street Food Partners with Sparkfly to Launch Enhanced Loyalty Program - PRWeb",
@@ -2302,7 +2553,8 @@
         "source": "Google News",
         "company": "Sparkfly",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Olo, Sparkfly Partner to Offer Real-Time Engagement Ecosystem - Food On Demand",
@@ -2311,7 +2563,8 @@
         "source": "Google News",
         "company": "Sparkfly",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Sparkfly and Olo Team Up to Revolutionize Guest Engagement - Business Wire",
@@ -2320,7 +2573,8 @@
         "source": "Google News",
         "company": "Sparkfly",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Denny\u2019s Partners with Olo, Sparkfly to Ramp Up Customer Engagement - Food On Demand",
@@ -2329,7 +2583,8 @@
         "source": "Google News",
         "company": "Sparkfly",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Denny\u2019s, Olo and Sparkfly team up for rewards, customer engagement effort - Restaurant Dive",
@@ -2338,7 +2593,8 @@
         "source": "Google News",
         "company": "Sparkfly",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Bojangles streamlines mobile customer experience - Chain Store Age",
@@ -2347,7 +2603,8 @@
         "source": "Google News",
         "company": "Sparkfly",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Eye on the POS: Texas Roadhouse Selects Sparkfly for Offers; Merrco\u2019s POS System Marks U.S. Entry - Digital Transactions",
@@ -2356,7 +2613,8 @@
         "source": "Google News",
         "company": "Sparkfly",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Texas Roadhouse Partners With Sparkfly to Modernize Its Digital Dining and Guest Engagement Experience - Business Wire",
@@ -2365,7 +2623,8 @@
         "source": "Google News",
         "company": "Sparkfly",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Sparkfly and Wisely Partner to Redefine the Future of Restaurant Loyalty - Business Wire",
@@ -2374,7 +2633,8 @@
         "source": "Google News - Restaurant Loyalty",
         "type": "trade",
         "company": "Sparkfly",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Chipotle Officially Announces Its Partnership With Tech Platform Sparkfly - thespoon.tech",
@@ -2383,7 +2643,8 @@
         "source": "Google News",
         "company": "Sparkfly",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Employee discount program sparks summer savings | Emory University | Atlanta GA - Emory University",
@@ -2392,7 +2653,8 @@
         "source": "Google News",
         "company": "Sparkfly",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       }
     ],
     "Square": [
@@ -2403,7 +2665,18 @@
         "source": "Google News",
         "company": "Square",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Block shares surge on workforce reduction, in-line fourth quarter earnings - Proactive financial news",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNV3VjajVEc0JsTjdqVDU5M3JobFNEelRsX0ZWdVdTSUJTYTJrN0hUT2Nha2JHaFNUZVBmX0VqNklaTUlpbGNESjM2RDlLRUNVZW1RazlJLVZqMWRncFdlVzc2dVQ0UWNOS0pBVXlxcHlfYnlQUmw0Wi1CYWpMODFNMUh4QS1KeERkdU94bmhjM0h6RFdxUDBRdVVsTW1LSm91eWdITEc3T2Y3cXhkYkpNUl8tSUpLWm40WTljN3JCREdUY01mVHE0U1N4RlFvVFpKN3c4akU4R0dtM3BM?oc=5",
+        "date": "Fri, 27 Feb 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "Square",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Block set to deliver Q4 earnings beat, gross payment volume acceleration eyed - Proactive financial news",
@@ -2412,7 +2685,8 @@
         "source": "Google News",
         "company": "Square",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Block shares rise on strong multi-year outlook, buyback boost - Proactive financial news",
@@ -2421,7 +2695,8 @@
         "source": "Google News",
         "company": "Square",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Block shares fall on disappointing third quarter earnings - Proactive Investors",
@@ -2430,7 +2705,8 @@
         "source": "Google News",
         "company": "Square",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Square for Restaurants Review 2026: Features & Pricing - NerdWallet",
@@ -2439,16 +2715,18 @@
         "source": "Google News",
         "company": "Square",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
-        "headline": "Block shares plunge after revenue miss, guidance cut - Proactive financial news",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTWdjemNVWVNHTlNRamRXZ19CNXZ6SF9Dbm5mdWJVNEtsMkZEVV8xZjhWZEkzS0xiV3VJcWdmRUEwVnZTM0VxZHVzeDA0M1VpMG9FT0ZxdGFQTnNlUjd2dEVNTzgzZDJ3dFgwYXZDMWM3NHEwaGJlTUpYWk05MUtsUVpYcVktTGpEbXB3MWNIS3ZFLW5sak1xZFVkZDJzb0RUa3REWEJjQlh1VzBIaHZMQ25abC1fRVM2OHVMV01GUQ?oc=5",
-        "date": "Fri, 02 May 2025 07:00:00 GMT",
+        "headline": "Block shares slump on Q4 earnings miss | NYSE:SQ - Proactive financial news",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQU2F0SWpZRklraUpmUzhiNWg3OVBnNGNYYjI1YXBTM182dGUyQ2J0NWp6UWdoeVplUTVHQmZZLWhMN05SaHZ3TlB5MDBGQkd3N0VLRXRVNFoxUW8tOVhzMzFBT0pZSmMwUWUxdVRtQS1DOVJXWlBTeXdRanJXN214WXRaTDBUTVhsNUREZE5ReXYxcVlDLW1jUEpId0pCcUoyOTRGZFVhQ08ySmY2d0E?oc=5",
+        "date": "Fri, 21 Feb 2025 08:00:00 GMT",
         "source": "Google News",
         "company": "Square",
         "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Square for Restaurants Partners with Sysco and Unveils New Product Features that Deliver Time-Saving Technology - Restaurant Technology News",
@@ -2457,7 +2735,28 @@
         "source": "Google News",
         "company": "Square",
         "type": "public",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Jim Cramer Thinks Block Inc (SQ) Is \u2018Not Done\u2019 - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5BTks5TmRQcWF4bVRvRnhxMjdvV1E4MGs5eDI4TkhVT0VCcy0yLU9FcTFXZWh5UzlfcGpscGtlVFJpVGVkeldIbjFmRHZEMzFLMmpJemVMdEFuY29HXzNTUEJZcHhaSXdqVFA3VXZtd25IMEF3MnVWa2x3ellwZw?oc=5",
+        "date": "Thu, 21 Nov 2024 08:00:00 GMT",
+        "source": "Google News",
+        "company": "Square",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Is Block, Inc. (SQ) the Best Long Term Tech Stock To Invest In Now? - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5KTlpYNDNmVmx1aW1fdVQyeEdZT2NxcjA3UnpRSmhpaGlpTDRYQUt1c09XVlVlYXZxbC1hazh4MTJXcmZKUElGVVViS3NFVVdTU1NUcHNEaFZ4d3M3TFI4RHhfMHRKdWVNeUpRUFM2WGZqZFpNSWpj?oc=5",
+        "date": "Sun, 29 Sep 2024 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Square",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "With 63% ownership, Block, Inc. (NYSE:SQ) boasts of strong institutional backing - Yahoo Finance",
@@ -2466,52 +2765,38 @@
         "source": "Google News",
         "company": "Square",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
-        "headline": "Fintech giant Block Inc. confirms Atlanta layoffs - The Business Journals",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcHY0TlViYjllVnJuN1p0VjZSWV9KSXdPbjM1QndWN290VlpUUkJqZngtYnBVVnQ2Sm14bGpGeWc1aVhzVE5DaWQxcER0WTBSYWlaY2ZQQkE4LTN4by1HTW1fRjg2Z0lwWm9FMHlNOEtHZ1BWLWI3dEJnTlZMTW93VS1SdTIzdy12MmU3cXVtQ2xVeWlxMDlzaTBoYWN6Z3RGbHNrTFJBcw?oc=5",
-        "date": "Mon, 05 Feb 2024 08:00:00 GMT",
+        "headline": "Block, Inc. (SQ) in the Spotlight: Evaluating Its Position Among Top Digital Currency and Payments Stocks - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVHFCWEpGZ0lHX1BqWndrVWd3bElid2NPb0xJbXhJc2hCWFB4V3hKSW00MUVYbVJCUUttOFY2UUhodldBcjVSTHFxd3hDRU5wMWlrdF9tNEJOQ0toa3duV1NJOEVxSm45cWo1ZjMtNHEtOFlMbG1YdkwtZVYtNGVkbWRjVVhvdw?oc=5",
+        "date": "Mon, 26 Aug 2024 07:00:00 GMT",
         "source": "Google News",
         "company": "Square",
         "type": "public",
-        "emoji": "\u26a0\ufe0f"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
-        "headline": "Square\u2019s New Tools Aim to Keep Restaurants a Step Ahead in the Technology Arms Race - Digital Transactions",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcHZNVnZvcWJwX0xRdzRyVU4wTmRUVDhZVzlVc1pEMXlQckZuQWxmMTd3Mm4ySVNsT0FHeXoxcjh2LVJZbWZsVFdTMXVMRHdwM2Z2ZFpQMmVIcmlqSVZaOVM2czBFUklJYVpsNUZYVmpxVy00YTRad01LV1R1MXU3eUl0Z0g3QlkxUWFLdEZmSnpLOTNMQkVOb2JNQ2JzcTg3Uk5fRDdWMFpVMVpsZ3FsdTJ0djJTVklrWGlB?oc=5",
-        "date": "Thu, 19 May 2022 07:00:00 GMT",
+        "headline": "Block, Inc. (NYSE:SQ) institutional owners may be pleased with recent gains after 8.6% loss over the past year - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPa0RJU1U3VHVhNlVCRXhwSUJNb2VmMTB1NTBfNUR2bFJsRGd3MHNsdUM4NmxhTlk1R3BublhreGJDZUxmTnExQ3BhTVJVOENJMl9idTJCZ2VqTTNHMWRpNFVsdXpMcV9oME9wVkRLRTJsREE4dXc5TEU0c25lOWlYSHhnaw?oc=5",
+        "date": "Thu, 09 Nov 2023 08:00:00 GMT",
         "source": "Google News",
         "company": "Square",
         "type": "public",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
-        "headline": "Square Launches Mobile Restaurant POS Platform - PYMNTS.com",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYjYzdDB0ZnNVVG9oNENHN0x6dEZFbEw3eldWSXFzNVNQSHZBYlB1TTJHMTF4U2VNLXlxNGw3Z0pOa2FaZ3hLYXBrSV8zVzlrMzFMNFc0UWR2SUtzcmJ3X1VnUzVmU3c2aHI4RWFvSXdZa2JEMW9ON1RWa3BWemJQRmlkR3QtazRhZllfUlRYdDJLbTZVWnJjc1JnRQ?oc=5",
-        "date": "Thu, 19 May 2022 07:00:00 GMT",
+        "headline": "Block, Inc. (NYSE:SQ) is largely controlled by institutional shareholders who own 66% of the company - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5OcElpalRibXRtM090N3c1OXNnMDFUMU5naC1JVC1LZ01LYUh6aFlReUhzTDdhSmt1VGlEM2VUUmNLUjhKS2ZTWEJvTEl5UGdhU0pJSW9CUzJPMUlTZVRKWkRFUFRUcVZlVnlJNmM2Q081bVExandZZ1JaOA?oc=5",
+        "date": "Mon, 24 Jul 2023 07:00:00 GMT",
         "source": "Google News",
         "company": "Square",
         "type": "public",
-        "emoji": "\ud83d\ude80"
-      },
-      {
-        "headline": "SQ Technical Analysis | Trend, Signals & Chart Patterns | BLOCK INC (NYSE:SQ) - ChartMill",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBpTmpIbndOMWxTZmotNWZBNFU5N0ZNQ0U5ZXg2OF9uOFBsSUhIeENTX0g3RThMbXA0ZEhlYUFhLUpPbWo2a2ZBYUlua2NuYndxbVVVMXRLUlh5RlRIbG5sRHlYU3Q3SFIwOW1F?oc=5",
-        "date": "Sun, 13 Oct 2019 16:34:35 GMT",
-        "source": "Google News",
-        "company": "Square",
-        "type": "public",
-        "emoji": "\ud83d\udcf0"
-      },
-      {
-        "headline": "SQ Stock Price, Quote & Chart | BLOCK INC (NYSE:SQ) - ChartMill",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1HNE1jOFMwV01iNFlNQ1E5YjNKTHpOZVlYUFlHbmtYNFlaclBaWFYwZUIwQ3E2Y3hsS3lvOU9ldkxDdDhjdm8wS1ZZVXVfbGpIaTIzSWFITEJBUWYz?oc=5",
-        "date": "Fri, 20 Sep 2019 07:45:20 GMT",
-        "source": "Google News",
-        "company": "Square",
-        "type": "public",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       }
     ],
     "TouchBistro": [
@@ -2522,7 +2807,8 @@
         "source": "Google News",
         "company": "TouchBistro",
         "type": "private",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Restaurants Post Strong Margins in Uneven Recovery: TouchBistro\u2019s 2026 Canadian State of Restaurants Report - The AI Journal",
@@ -2531,16 +2817,8 @@
         "source": "Google News",
         "company": "TouchBistro",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
-      },
-      {
-        "headline": "8 Best Hospitality POS Systems | Top Platforms Compared - Startups.co.uk",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAxNm00ZVhkTVZlZ0V0MERCYTc1QlhCNE5YNjFvMXBQbWtRd2hhM1BNOS1QWTZJT05uYVU4UzZMSDJJM1hkVjNYS01XbHIwYlJzUWV2bFNUN0k2ckVZWFVrM3FXQkF0NTh1TkFJek9tZ2FiQXNibFYxRllWYw?oc=5",
-        "date": "Fri, 02 Jan 2026 08:00:00 GMT",
-        "source": "Google News",
-        "company": "TouchBistro",
-        "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "TouchBistro vs Square: Pricing, Costs & User Experience Rated - tech.co",
@@ -2549,7 +2827,8 @@
         "source": "Google News",
         "company": "TouchBistro",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Moneris launches new Go Restaurant point-of-sale solution and extends partnership with TouchBistro for full restaurant solution delivery - Newswire Canada",
@@ -2558,7 +2837,18 @@
         "source": "Google News",
         "company": "TouchBistro",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "TouchBistro Review 2025: Features and Pricing - NerdWallet",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1QWlR6b1JMNUlIWnVqYy16cmwyNUEwdFJ5bFVDRm1NSjdMYlRzaW5aRERwSDVMOTdJekp6RmlNUjdQbl9neUprTkRJRmlSQ041cDFGdm5vLWVsM0NjZmE0MHZ3NmZJQ19yZFNtbDhJVUVuQQ?oc=5",
+        "date": "Thu, 02 Oct 2025 12:15:44 GMT",
+        "source": "Google News",
+        "company": "TouchBistro",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Top 5 Best Kitchen Display Systems in the USA - vocal.media",
@@ -2567,7 +2857,8 @@
         "source": "Google News",
         "company": "TouchBistro",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "TD and TouchBistro Simplify Restaurant Payments - Fintech.ca |",
@@ -2576,7 +2867,8 @@
         "source": "Google News",
         "company": "TouchBistro",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Solo dining is on the rise, report finds - Restaurant Dive",
@@ -2585,7 +2877,8 @@
         "source": "Google News",
         "company": "TouchBistro",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Barclays and JP Morgan Chase invest in TouchBistro - FinTech Futures",
@@ -2594,7 +2887,8 @@
         "source": "Google News",
         "company": "TouchBistro",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "TouchBistro POS Review and Pricing Plans in 2026 - Business.com",
@@ -2603,7 +2897,8 @@
         "source": "Google News",
         "company": "TouchBistro",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "TouchBistro Review 2026 - Business News Daily",
@@ -2612,7 +2907,8 @@
         "source": "Google News",
         "company": "TouchBistro",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "TouchBistro Revolutionizes Restaurant Operations with Innovative POS-Powered Solutions - totalfood.com",
@@ -2621,7 +2917,8 @@
         "source": "Google News",
         "company": "TouchBistro",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "TouchBistro raises $110M for growth and acquisitions - Restaurant Business",
@@ -2630,7 +2927,8 @@
         "source": "Google News",
         "company": "TouchBistro",
         "type": "private",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "TouchBistro bakes CAD$150M into restaurant management tech recipe - TechCrunch",
@@ -2639,7 +2937,8 @@
         "source": "Google News",
         "company": "TouchBistro",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "TouchBistro Acquires Loyalty and CRM Company TableUp - thespoon.tech",
@@ -2648,7 +2947,18 @@
         "source": "Google News - Restaurant Loyalty",
         "type": "trade",
         "company": "TouchBistro",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "TouchBistro acquires TableUp to launch new loyalty solution for restaurants - BetaKit",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNblliT2trNFZlT3cwSXJFQThST0xOVFJ6MWluVk9mVzFPa2E3bzEyZXM2Sl9HVlRHLXZKMlYyLW1POUQ0dDF0NERIV2p3UDV3VEZvd2U2Z1NuelZPd0Z6ZDA5dWh2aWhLbTY0b292TWVPcFlvd0lxSXkxczM1d2hveGRoczBtYmxvajlKZ3hpc0VaVFNCVEJ1OC1Za3E?oc=5",
+        "date": "Wed, 05 Aug 2020 07:00:00 GMT",
+        "source": "Google News - Restaurant Loyalty",
+        "type": "trade",
+        "company": "TouchBistro",
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "TouchBistro and Chase Introduce the Next Generation of Payment Technology for Restaurants - Chase Media Center",
@@ -2657,7 +2967,8 @@
         "source": "Google News",
         "company": "TouchBistro",
         "type": "private",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       }
     ],
     "Spendgo": [
@@ -2668,7 +2979,8 @@
         "source": "Google News",
         "company": "Spendgo",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "What's next for Olo after a pivotal year - Restaurant Business",
@@ -2677,7 +2989,8 @@
         "source": "Google News",
         "company": "Spendgo",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Branded Hospitality Ventures Announces Portfolio Exit with Acquisition of Spendgo by Olo - Milwaukee Journal Sentinel",
@@ -2686,7 +2999,8 @@
         "source": "Google News",
         "company": "Spendgo",
         "type": "private",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "Olo Expands Platform With New Loyalty Offering - Loyalty360",
@@ -2695,7 +3009,8 @@
         "source": "Google News",
         "company": "Spendgo",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Olo closes Spendgo deal to expand loyalty offer - Verdict Food Service",
@@ -2704,7 +3019,8 @@
         "source": "Google News",
         "company": "Spendgo",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Olo Strengthens Restaurant Tech Stack with Strategic Loyalty Acquisition - AD HOC NEWS",
@@ -2713,7 +3029,8 @@
         "source": "Google News",
         "company": "Spendgo",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Olo launches loyalty platform after acquiring Spendgo - Nation\u2019s Restaurant News",
@@ -2722,7 +3039,8 @@
         "source": "Google News",
         "company": "Spendgo",
         "type": "private",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "Olo acquires Spendgo and launches its own loyalty offering - Restaurant Business",
@@ -2731,7 +3049,8 @@
         "source": "Google News",
         "company": "Spendgo",
         "type": "private",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "Olo Acquires Spendgo to Expand Platform with Loyalty - Food On Demand",
@@ -2740,7 +3059,8 @@
         "source": "Google News",
         "company": "Spendgo",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Olo Completes Spendgo Acquisition - citybiz",
@@ -2749,7 +3069,8 @@
         "source": "Google News",
         "company": "Spendgo",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Golden Chick Launches Golden Chick Rewards to Power Next Era of Guest Loyalty - Franchising.com",
@@ -2758,7 +3079,8 @@
         "source": "Google News",
         "company": "Spendgo",
         "type": "private",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       },
       {
         "headline": "Lee\u2019s Famous Recipe Chicken Amps up Digitial Experience With a New Website, Mobile App and Loyalty Program - RestaurantNews.com",
@@ -2767,7 +3089,8 @@
         "source": "Google News",
         "company": "Spendgo",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Cookie Plug looks to continue expansion momentum in 2023 - Snack Food & Wholesale Bakery",
@@ -2776,7 +3099,8 @@
         "source": "Google News",
         "company": "Spendgo",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "41 Startup Guys Show Us What They ACTUALLY Wear to Work - tech.co",
@@ -2785,7 +3109,8 @@
         "source": "Google News",
         "company": "Spendgo",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Jamba Juice Debuts New Jamba Insider Rewards Customer Loyalty Program in Stores Across the Nation - PR Newswire",
@@ -2794,7 +3119,8 @@
         "source": "Google News",
         "company": "Spendgo",
         "type": "private",
-        "emoji": "\ud83d\ude80"
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
       }
     ],
     "Peppr POS": [
@@ -2805,7 +3131,8 @@
         "source": "Google News",
         "company": "Peppr POS",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       }
     ],
     "Tillster": [
@@ -2816,7 +3143,8 @@
         "source": "Google News",
         "company": "Tillster",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Diebold Nixdorf Builds Self-Service Checkouts and Kiosk Systems in the U.S. - PR Newswire",
@@ -2825,7 +3153,8 @@
         "source": "Google News",
         "company": "Tillster",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Tillster: 61% of users want more restaurant kiosks - Restaurant Dive",
@@ -2834,7 +3163,8 @@
         "source": "Google News",
         "company": "Tillster",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Restaurant Loyalty in Crisis: One-Third of Diners Switched Their Favorite Restaurants in the Past Year, New Report Finds - Business Wire",
@@ -2843,7 +3173,8 @@
         "source": "Google News",
         "company": "Tillster",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "One-Third of US Diners Switching Their Favorite Restaurants Up for Value and Quality, AI and Kiosks Gain in Popularity - RetailWire",
@@ -2852,7 +3183,8 @@
         "source": "Google News",
         "company": "Tillster",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Tillster expands global partnership with Stripe - Kiosk Marketplace",
@@ -2861,7 +3193,8 @@
         "source": "Google News",
         "company": "Tillster",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Tillster Partners with Stripe, Bolstering Frictionless Payment Options for Tillster Customers - Business Wire",
@@ -2870,7 +3203,8 @@
         "source": "Google News",
         "company": "Tillster",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Porto's boosts efficiency in a big way - Bake Magazine",
@@ -2879,7 +3213,8 @@
         "source": "Google News",
         "company": "Tillster",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Porto's Bakery & Caf\u00e9 enhances digital experience with new partnership - Bake Magazine",
@@ -2888,7 +3223,8 @@
         "source": "Google News",
         "company": "Tillster",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Foodservice customers want delivery with a side of loyalty, survey says - C-Store Dive",
@@ -2897,7 +3233,8 @@
         "source": "Google News",
         "company": "Tillster",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Why fast food customers want more kiosks - Ad Age",
@@ -2906,7 +3243,8 @@
         "source": "Google News",
         "company": "Tillster",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "UK motorway service operator selects Tillster to provide kiosks for Burger King franchises - Kiosk Marketplace",
@@ -2915,7 +3253,8 @@
         "source": "Google News",
         "company": "Tillster",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Tillster digital ordering platform joins ParTech's Brink POS ecosystem - fastcasual.com",
@@ -2924,7 +3263,8 @@
         "source": "Google News",
         "company": "Tillster",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Tillster Releases Latest Delivery Survey - Food On Demand",
@@ -2933,7 +3273,8 @@
         "source": "Google News",
         "company": "Tillster",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "EMN8 rebrands to Tillster as company evolves beyond kiosks - Kiosk Marketplace",
@@ -2942,7 +3283,8 @@
         "source": "Google News",
         "company": "Tillster",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       }
     ],
     "Snackpass": [
@@ -2953,7 +3295,8 @@
         "source": "Google News",
         "company": "Snackpass",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Sharing smoothies, making bread - Yale Alumni Magazine",
@@ -2962,7 +3305,8 @@
         "source": "Google News",
         "company": "Snackpass",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Andrew Chen Examines the \u2018Cold Start Problem\u2019 for Platforms like Uber, Snackpass - Food On Demand",
@@ -2971,7 +3315,8 @@
         "source": "Google News",
         "company": "Snackpass",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Snackpass acquires line-skipping app Sleek - Restaurant Business",
@@ -2980,7 +3325,8 @@
         "source": "Google News",
         "company": "Snackpass",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Exclusive: Kevin Tan on how Snackpass went from munchies fix for Yale students to $400 million valuation - The Business of Business",
@@ -2989,7 +3335,8 @@
         "source": "Google News",
         "company": "Snackpass",
         "type": "private",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Snackpass Nabs $70 Million for Highly Social Digital Ordering - Food On Demand",
@@ -2998,7 +3345,8 @@
         "source": "Google News",
         "company": "Snackpass",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "College-Focused Food-Ordering App Snackpass Has Raised Nearly $95 Million - Business Insider",
@@ -3007,7 +3355,8 @@
         "source": "Google News",
         "company": "Snackpass",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Snackpass raises $70M to expand off-campus - FoodService Director",
@@ -3016,7 +3365,8 @@
         "source": "Google News",
         "company": "Snackpass",
         "type": "private",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Social e-commerce platform Snackpass raises $70M - Restaurant Dive",
@@ -3025,7 +3375,8 @@
         "source": "Google News",
         "company": "Snackpass",
         "type": "private",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       },
       {
         "headline": "Snackpass app partners with local businesses, supports them during lockdown - The Michigan Daily",
@@ -3034,7 +3385,8 @@
         "source": "Google News",
         "company": "Snackpass",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Why we\u2019re investing in Snackpass - Andreessen Horowitz",
@@ -3043,7 +3395,8 @@
         "source": "Google News",
         "company": "Snackpass",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Snackpass snags $21M to let you earn friends free takeout - TechCrunch",
@@ -3052,7 +3405,8 @@
         "source": "Google News",
         "company": "Snackpass",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Food app Snackpass expands to Providence - The Brown Daily Herald",
@@ -3061,7 +3415,8 @@
         "source": "Google News",
         "company": "Snackpass",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Snackpass founder shares wisdom - Yale Daily News",
@@ -3070,7 +3425,8 @@
         "source": "Google News",
         "company": "Snackpass",
         "type": "private",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       }
     ],
     "Thanx": [
@@ -3081,7 +3437,8 @@
         "source": "Google News",
         "company": "Thanx",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Thanx integrates with Square - Pizza Marketplace",
@@ -3090,7 +3447,8 @@
         "source": "Google News",
         "company": "Thanx",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "Thanx and Bite Announce Strategic Partnership to Enhance Guest Experience in Quick Service and Fast Casual Restaurants - Business Wire",
@@ -3099,7 +3457,8 @@
         "source": "Google News",
         "company": "Thanx",
         "type": "private",
-        "emoji": "\ud83e\udd1d"
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
       },
       {
         "headline": "With new loyalty system, Thanx wants to bring restaurants into new era of rewards - Restaurant Business",
@@ -3108,7 +3467,8 @@
         "source": "Google News",
         "company": "Thanx",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Thanx acquires ZeroStoreFront - fastcasual.com",
@@ -3117,7 +3477,8 @@
         "source": "Google News",
         "company": "Thanx",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Pincho, Hattie B\u2019s tapping Thanx hidden menu capability - QSR Web",
@@ -3126,7 +3487,8 @@
         "source": "Google News",
         "company": "Thanx",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Study finds 70% of retail and restaurant customers never make a return visit - PR Newswire",
@@ -3135,7 +3497,8 @@
         "source": "Google News",
         "company": "Thanx",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "Here's Why Restaurants Hate the Holidays - Time Magazine",
@@ -3144,7 +3507,8 @@
         "source": "Google News",
         "company": "Thanx",
         "type": "private",
-        "emoji": "\ud83d\udcf0"
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       },
       {
         "headline": "New Study Finds Restaurant Revenue Down 45% In Post-Thanksgiving Holiday Season - PR Newswire",
@@ -3153,7 +3517,8 @@
         "source": "Google News",
         "company": "Thanx",
         "type": "private",
-        "emoji": "\ud83d\udcc8"
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
       }
     ]
   }
