@@ -1,0 +1,43 @@
+name: Refresh PAR Intel data
+
+on:
+  schedule:
+    # Every 30 minutes
+    - cron: '*/30 * * * *'
+  workflow_dispatch:  # allow manual trigger
+  push:
+    paths:
+      - 'scripts/fetch_data.py'
+      - '.github/workflows/refresh-data.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests feedparser
+
+      - name: Fetch data
+        run: python scripts/fetch_data.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "PAR Intel Bot"
+          git config user.email "actions@github.com"
+          git add par-comp-intel/data/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: refresh intel data [skip ci]"
+            git push
+          fi
