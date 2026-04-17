@@ -741,98 +741,80 @@ function switchEmailTab(type, btn) {
   loadEmailPreview(type);
 }
 
-// ─── Stock chart with live Yahoo Finance data ───────────────────────────────
+// ─── Static JSON data loader (data fetched by GitHub Actions every 30 min) ──
 
-const TICKERS = ['PAR','TOST','DASH','VYX','LSPD','FOUR','SQ','GPN','FI','UBER'];
-const TICKER_COLORS = { PAR: '#3266ad' }; // PAR always blue, others green/red by perf
-let stockChartInstance = null;
-let currentRange = '1W';
+const DATA_BASE = './data';
 
-const RANGE_PARAMS = {
-  '1W':  { range: '5d',  interval: '1d' },
-  '1M':  { range: '1mo', interval: '1d' },
-  '3M':  { range: '3mo', interval: '1wk' },
-  'YTD': { range: 'ytd', interval: '1wk' },
-};
-
-// Multi-proxy fetch with automatic fallback. Proxies used in order of reliability.
-const CORS_PROXIES = [
-  url => `https://corsproxy.io/?url=${encodeURIComponent(url)}`,
-  url => `https://api.codetabs.com/v1/proxy/?quest=${encodeURIComponent(url)}`,
-  url => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
-];
-
-async function proxyFetch(targetUrl, timeoutMs = 9000) {
-  for (let i = 0; i < CORS_PROXIES.length; i++) {
-    try {
-      const res = await fetch(CORS_PROXIES[i](targetUrl), { signal: AbortSignal.timeout(timeoutMs) });
-      if (!res.ok) continue;
-      return await res.text();
-    } catch (e) {
-      // try next proxy
-      continue;
-    }
-  }
-  throw new Error('All proxies failed for ' + targetUrl);
-}
-
-async function fetchTickerChange(ticker, range) {
+async function loadJSON(path) {
   try {
-    const { range: r, interval } = RANGE_PARAMS[range];
-    const url = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?range=${r}&interval=${interval}&events=history`;
-    const text = await proxyFetch(url, 9000);
-    const data = JSON.parse(text);
-    const chart = data.chart?.result?.[0];
-    if (!chart) return null;
-    const closes = (chart.indicators?.quote?.[0]?.close || []).filter(v => v != null);
-    if (closes.length < 2) return null;
-    const pct = ((closes[closes.length - 1] - closes[0]) / closes[0]) * 100;
-    return Math.round(pct * 10) / 10;
+    const res = await fetch(`${DATA_BASE}/${path}?_=${Date.now()}`, { cache: 'no-store' });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return await res.json();
   } catch (e) {
-    console.warn(`Failed ${ticker}:`, e.message);
+    console.warn(`Failed to load ${path}:`, e.message);
     return null;
   }
 }
 
-async function buildStockChart(range = '1W') {
-  document.getElementById('stockUpdated').textContent = 'Fetching live data…';
+function formatDate(raw) {
+  if (!raw) return 'Recent';
+  const d = new Date(raw);
+  if (isNaN(d)) return 'Recent';
+  const now = new Date();
+  const diffHrs = (now - d) / (1000 * 60 * 60);
+  if (diffHrs < 1) return Math.round(diffHrs * 60) + 'm ago';
+  if (diffHrs < 24) return Math.round(diffHrs) + 'h ago';
+  if (diffHrs < 24 * 7) return Math.round(diffHrs / 24) + 'd ago';
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+}
 
-  // Stagger requests in batches of 3 to avoid proxy rate limits
-  const results = [];
-  const BATCH = 3;
-  for (let i = 0; i < TICKERS.length; i += BATCH) {
-    const batch = TICKERS.slice(i, i + BATCH);
-    const batchResults = await Promise.all(batch.map(t => fetchTickerChange(t, range)));
-    results.push(...batchResults);
-    if (i + BATCH < TICKERS.length) await new Promise(r => setTimeout(r, 200));
+function timeAgoShort(raw) {
+  if (!raw) return 'Recent';
+  const d = new Date(raw);
+  if (isNaN(d)) return 'Recent';
+  const now = new Date();
+  const diffHrs = (now - d) / (1000 * 60 * 60);
+  if (diffHrs < 1) return Math.round(diffHrs * 60) + 'm';
+  if (diffHrs < 24) return Math.round(diffHrs) + 'h';
+  if (diffHrs < 24 * 7) return Math.round(diffHrs / 24) + 'd';
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+}
+
+// ─── Stock chart ────────────────────────────────────────────────────────────
+
+const TICKERS = ['PAR','TOST','DASH','VYX','LSPD','FOUR','SQ','GPN','FI','UBER'];
+let stockChartInstance = null;
+let stocksCache = null;
+let currentRange = '1W';
+
+async function buildStockChart(range = '1W') {
+  document.getElementById('stockUpdated').textContent = 'Loading…';
+  if (!stocksCache) {
+    stocksCache = await loadJSON('stocks.json');
+  }
+  if (!stocksCache || !stocksCache.ranges || !stocksCache.ranges[range]) {
+    document.getElementById('stockUpdated').textContent = 'Data unavailable — check back shortly';
+    return;
   }
 
-  const labels = [], data = [], colors = [];
-  TICKERS.forEach((t, i) => {
-    if (results[i] === null) return;
-    labels.push(t);
-    data.push(results[i]);
-    if (t === 'PAR') {
-      colors.push('#3266ad');
-    } else {
-      colors.push(results[i] >= 0 ? '#3b6d11' : '#a32d2d');
-    }
-  });
+  const rangeData = stocksCache.ranges[range];
+  // Sort to match TICKERS order so PAR is always first
+  const ordered = TICKERS
+    .map(t => rangeData.find(d => d.ticker === t))
+    .filter(Boolean);
+
+  const labels = ordered.map(d => d.ticker);
+  const data = ordered.map(d => d.change_pct);
+  const colors = ordered.map(d => d.ticker === 'PAR' ? '#3266ad' : (d.change_pct >= 0 ? '#3b6d11' : '#a32d2d'));
 
   const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-
   if (stockChartInstance) { stockChartInstance.destroy(); stockChartInstance = null; }
 
   stockChartInstance = new Chart(document.getElementById('stockChart'), {
     type: 'bar',
     data: {
       labels,
-      datasets: [{
-        label: '% change',
-        data,
-        backgroundColor: colors,
-        borderRadius: 3,
-      }]
+      datasets: [{ label: '% change', data, backgroundColor: colors, borderRadius: 3 }]
     },
     options: {
       responsive: true,
@@ -848,9 +830,9 @@ async function buildStockChart(range = '1W') {
     }
   });
 
-  const loaded = labels.length;
-  const rangeLabel = { '1W':'1 week','1M':'1 month','3M':'3 months','YTD':'year to date' }[range];
-  document.getElementById('stockUpdated').textContent = `${loaded} tickers · ${rangeLabel} · ${new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'})}`;
+  const rangeLabel = { '1W': '1 week', '1M': '1 month', '3M': '3 months', 'YTD': 'year to date' }[range];
+  const updatedStr = stocksCache.updated ? new Date(stocksCache.updated).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' }) : '';
+  document.getElementById('stockUpdated').textContent = `${ordered.length} tickers · ${rangeLabel} · as of ${updatedStr}`;
 }
 
 function changeRange(range, btn) {
@@ -860,199 +842,87 @@ function changeRange(range, btn) {
   buildStockChart(range);
 }
 
-// ─── News via RSS feeds ──────────────────────────────────────────────────────
-
-const RSS_FEEDS = [
-  { name: 'Restaurant Dive', url: 'https://www.restaurantdive.com/feeds/news/', type: 'trade' },
-  { name: 'Restaurant Technology News', url: 'https://restauranttechnologynews.com/feed/', type: 'trade' },
-  { name: 'Nation\'s Restaurant News', url: 'https://www.nrn.com/rss.xml', type: 'trade' },
-  { name: 'Restaurant Business', url: 'https://www.restaurantbusinessonline.com/rss.xml', type: 'trade' },
-];
-
-const COMP_KEYWORDS = {
-  'Toast': ['toast','toasttab'], 'DoorDash': ['doordash'], 'NCR Voyix': ['ncr voyix','ncrvoyix'],
-  'Lightspeed': ['lightspeed'], 'Shift4': ['shift4','revel'], 'Square': ['square for restaurants','block inc'],
-  'Global Payments': ['global payments','heartland'], 'Fiserv': ['fiserv','clover'],
-  'Uber Eats': ['uber eats','ubereats'], 'Olo': ['olo '], 'SpotOn': ['spoton'],
-  'TouchBistro': ['touchbistro'], 'Deliverect': ['deliverect'], 'Paytronix': ['paytronix'],
-  'Snackpass': ['snackpass'], 'PAR': ['par technology','par tech '],
-};
-
-function detectCompany(text) {
-  const lower = text.toLowerCase();
-  for (const [company, keywords] of Object.entries(COMP_KEYWORDS)) {
-    if (keywords.some(k => lower.includes(k))) return company;
-  }
-  return null;
-}
-
-async function fetchRSSFeed(feed) {
-  try {
-    const text = await proxyFetch(feed.url, 10000);
-    const doc = new DOMParser().parseFromString(text, 'text/xml');
-    // Try RSS <item> first, then Atom <entry>
-    let nodes = Array.from(doc.querySelectorAll('item'));
-    if (!nodes.length) nodes = Array.from(doc.querySelectorAll('entry'));
-    nodes = nodes.slice(0, 30);
-    return nodes.map(item => {
-      const getLink = () => {
-        const l = item.querySelector('link');
-        if (!l) return '';
-        // Atom: <link href="...">  |  RSS: <link>...</link>
-        return l.getAttribute('href') || l.textContent?.trim() || '';
-      };
-      return {
-        headline: (item.querySelector('title')?.textContent || '').trim(),
-        url: getLink(),
-        date: (item.querySelector('pubDate')?.textContent || item.querySelector('published')?.textContent || item.querySelector('updated')?.textContent || '').trim(),
-        source: feed.name,
-        type: 'trade',
-      };
-    }).filter(i => i.headline);
-  } catch (e) {
-    console.warn(`RSS failed ${feed.name}:`, e.message);
-    return [];
-  }
-}
-
-async function loadGlobalNews() {
-  document.getElementById('globalNewsContent').innerHTML = '<span class="news-loading"><span class="spinner"></span> Fetching from restaurant tech media…</span>';
-  try {
-    const allFeeds = await Promise.all(RSS_FEEDS.map(fetchRSSFeed));
-    let all = allFeeds.flat();
-
-    // Fetch Yahoo Finance RSS for public tickers — staggered
-    const yfTickers = ['PAR','TOST','DASH','FOUR','SQ','UBER','VYX','LSPD','GPN','FI'];
-    const yfCompanyMap = { PAR:'PAR',TOST:'Toast',DASH:'DoorDash',FOUR:'Shift4',SQ:'Square',UBER:'Uber',VYX:'NCR Voyix',LSPD:'Lightspeed',GPN:'Global Payments',FI:'Fiserv' };
-    const yahooFeeds = [];
-    for (let i = 0; i < yfTickers.length; i += 3) {
-      const batch = yfTickers.slice(i, i + 3);
-      const results = await Promise.all(batch.map(async ticker => {
-        try {
-          const url = `https://feeds.finance.yahoo.com/rss/2.0/headline?s=${ticker}&region=US&lang=en-US`;
-          const text = await proxyFetch(url, 8000);
-          const doc = new DOMParser().parseFromString(text, 'text/xml');
-          return Array.from(doc.querySelectorAll('item')).slice(0, 3).map(item => ({
-            headline: (item.querySelector('title')?.textContent || '').trim(),
-            url: (item.querySelector('link')?.textContent || '').trim(),
-            date: (item.querySelector('pubDate')?.textContent || '').trim(),
-            source: `Yahoo Finance (${ticker})`,
-            type: 'public',
-            company: yfCompanyMap[ticker],
-          })).filter(i => i.headline);
-        } catch { return []; }
-      }));
-      yahooFeeds.push(...results);
-      if (i + 3 < yfTickers.length) await new Promise(r => setTimeout(r, 150));
-    }
-    all = all.concat(yahooFeeds.flat());
-
-    // Tag company from headline for trade articles
-    all = all.map(item => {
-      if (!item.company) item.company = detectCompany(item.headline) || 'Industry';
-      return item;
-    });
-
-    // Filter to only items mentioning a competitor or industry topic, sort by date
-    const relevant = all.filter(i => i.company !== 'Industry' || i.type === 'public');
-    relevant.sort((a, b) => new Date(b.date) - new Date(a.date));
-
-    window._globalNews = relevant.slice(0, 30);
-    renderGlobalNews(window._globalNews);
-    document.getElementById('newsCount').textContent = window._globalNews.length;
-  } catch (e) {
-    document.getElementById('globalNewsContent').innerHTML = '<p style="color:var(--text3);font-size:13px;padding:12px 0;">Unable to load news feed. Try refreshing.</p>';
-  }
-}
-
-// ─── Highlights: built from RSS + static intel ───────────────────────────────
+// ─── Highlights ─────────────────────────────────────────────────────────────
 
 async function loadHighlights() {
-  document.getElementById('highlightsContent').innerHTML = '<span class="news-loading"><span class="spinner"></span> Loading…</span>';
-  try {
-    // Pull from RSS and pick top items with company matches
-    const allFeeds = await Promise.all(RSS_FEEDS.map(fetchRSSFeed));
-    const hlTickers = ['PAR','TOST','DASH','FOUR','SQ','UBER','VYX','LSPD','GPN','FI'];
-    const hlCompanyMap = { PAR:'PAR',TOST:'Toast',DASH:'DoorDash',FOUR:'Shift4',SQ:'Square',UBER:'Uber',VYX:'NCR Voyix',LSPD:'Lightspeed',GPN:'Global Payments',FI:'Fiserv' };
-    const yahooItems = [];
-    for (let i = 0; i < hlTickers.length; i += 3) {
-      const batch = hlTickers.slice(i, i + 3);
-      const results = await Promise.all(batch.map(async ticker => {
-        try {
-          const url = `https://feeds.finance.yahoo.com/rss/2.0/headline?s=${ticker}&region=US&lang=en-US`;
-          const text = await proxyFetch(url, 8000);
-          const doc = new DOMParser().parseFromString(text, 'text/xml');
-          return Array.from(doc.querySelectorAll('item')).slice(0, 2).map(item => ({
-            headline: (item.querySelector('title')?.textContent || '').trim(),
-            date: (item.querySelector('pubDate')?.textContent || '').trim(),
-            company: hlCompanyMap[ticker],
-            emoji: '📈',
-          })).filter(i => i.headline);
-        } catch { return []; }
-      }));
-      yahooItems.push(...results);
-      if (i + 3 < hlTickers.length) await new Promise(r => setTimeout(r, 150));
-    }
+  const container = document.getElementById('highlightsContent');
+  container.innerHTML = '<span class="news-loading"><span class="spinner"></span> Loading highlights…</span>';
 
-    let all = allFeeds.flat().concat(yahooItems.flat());
-    all = all.map(i => {
-      if (!i.company) i.company = detectCompany(i.headline);
-      if (!i.company) return null;
-      // Assign emoji heuristically
-      const h = i.headline.toLowerCase();
-      let emoji = '📰';
-      if (h.includes('partner') || h.includes('integrat') || h.includes('deal')) emoji = '🤝';
-      else if (h.includes('launch') || h.includes('new ') || h.includes('introduc') || h.includes('announc')) emoji = '🚀';
-      else if (h.includes('revenue') || h.includes('earnings') || h.includes('quarter') || h.includes('stock') || h.includes('shares') || h.includes('profit') || h.includes('loss')) emoji = '📈';
-      else if (h.includes('risk') || h.includes('decline') || h.includes('miss') || h.includes('concern') || h.includes('lawsuit') || h.includes('investigation')) emoji = '⚠️';
-      i.emoji = emoji;
-      return i;
-    }).filter(Boolean);
-
-    // Deduplicate by headline similarity, pick top 8
-    const seen = new Set();
-    const deduped = [];
-    for (const item of all) {
-      const key = item.headline.slice(0, 50).toLowerCase();
-      if (!seen.has(key)) { seen.add(key); deduped.push(item); }
-      if (deduped.length >= 8) break;
-    }
-
-    if (!deduped.length) throw new Error('no items');
-
-    document.getElementById('highlightsContent').innerHTML = deduped.map(i => {
-      const d = i.date ? new Date(i.date) : null;
-      const timeStr = d && !isNaN(d) ? d.toLocaleDateString('en-US', { month:'short', day:'numeric' }) : 'Recent';
-      return `<div class="highlight-row">
-        <span class="highlight-icon">${i.emoji}</span>
-        <span class="highlight-text"><strong>${i.company}</strong> — ${i.headline}</span>
-        <span class="highlight-time">${timeStr}</span>
-      </div>`;
-    }).join('');
-
-    const alerts = deduped.filter(i => i.emoji === '⚠️').length;
-    document.getElementById('alertCount').textContent = alerts || '0';
-  } catch(e) {
-    document.getElementById('highlightsContent').innerHTML = '<p style="color:var(--text3);font-size:13px;padding:12px 0;">Could not load highlights — check connection.</p>';
+  const data = await loadJSON('highlights.json');
+  if (!data || !data.items || !data.items.length) {
+    container.innerHTML = `<p style="color:var(--text3);font-size:13px;padding:12px 0;">
+      Highlights data is being refreshed. The background job runs every 30 minutes —
+      check back shortly or visit the <a href="https://github.com/echou-par/echou-par.github.io/actions" target="_blank" style="color:var(--accent);">workflow runs</a> to see the latest status.
+    </p>`;
+    return;
   }
+
+  container.innerHTML = data.items.map(i => `
+    <div class="highlight-row">
+      <span class="highlight-icon">${i.emoji || '📰'}</span>
+      <span class="highlight-text"><strong>${i.company}</strong> — ${i.headline}${i.url ? ` <a href="${i.url}" target="_blank" style="color:var(--accent);font-size:11px;margin-left:4px;">Read ↗</a>` : ''}</span>
+      <span class="highlight-time">${timeAgoShort(i.date)}</span>
+    </div>
+  `).join('');
+
+  document.getElementById('alertCount').textContent = data.alert_count || '0';
 }
 
-// ─── AI overview summary: curated static + timestamp ─────────────────────────
+// ─── Global news feed ───────────────────────────────────────────────────────
+
+async function loadGlobalNews() {
+  const container = document.getElementById('globalNewsContent');
+  container.innerHTML = '<span class="news-loading"><span class="spinner"></span> Loading news…</span>';
+
+  const data = await loadJSON('news.json');
+  if (!data || !data.items || !data.items.length) {
+    container.innerHTML = `<p style="color:var(--text3);font-size:13px;padding:12px 0;">
+      News feed is being refreshed. Background job runs every 30 minutes.
+    </p>`;
+    return;
+  }
+
+  window._globalNews = data.items;
+  renderGlobalNews(data.items);
+  document.getElementById('newsCount').textContent = data.items.length;
+}
+
+function renderGlobalNews(items) {
+  document.getElementById('globalNewsContent').innerHTML = items.map(item => `
+    <div class="news-item" data-type="${item.type || 'trade'}">
+      <div class="news-source">${item.source || 'Industry source'} · <span style="color:var(--accent-text)">${item.company || 'Industry'}</span></div>
+      <div class="news-headline" onclick="window.open('${(item.url || '#').replace(/'/g,'%27')}','_blank')">${item.headline}</div>
+      <div class="news-meta">${formatDate(item.date)}</div>
+    </div>
+  `).join('');
+}
+
+function filterNews(type, btn) {
+  document.querySelectorAll('.filter-chips .chip').forEach(c => c.classList.remove('active'));
+  btn.classList.add('active');
+  if (!window._globalNews) return;
+  const publicCos = ['Toast','DoorDash','NCR Voyix','Lightspeed','Shift4','Square','Block','Global Payments','Fiserv','Uber','PAR'];
+  let filtered = window._globalNews;
+  if (type === 'public') filtered = window._globalNews.filter(i => publicCos.includes(i.company));
+  else if (type === 'private') filtered = window._globalNews.filter(i => !publicCos.includes(i.company) && i.company !== 'Industry');
+  else if (type === 'financial') filtered = window._globalNews.filter(i => i.type === 'public' || (i.emoji === '📈'));
+  renderGlobalNews(filtered);
+}
+
+// ─── Overview AI summary ────────────────────────────────────────────────────
 
 async function loadOverviewAI() {
-  // We fetch a live Yahoo Finance headline for PAR to anchor the summary
-  let parHeadline = '';
-  try {
-    const url = 'https://feeds.finance.yahoo.com/rss/2.0/headline?s=PAR&region=US&lang=en-US';
-    const text = await proxyFetch(url, 8000);
-    const doc = new DOMParser().parseFromString(text, 'text/xml');
-    parHeadline = (doc.querySelector('item title')?.textContent || '').trim();
-  } catch {}
+  const target = document.getElementById('overviewAI');
+  const news = await loadJSON('news.json');
 
-  const today = new Date().toLocaleDateString('en-US', { weekday:'long', month:'long', day:'numeric', year:'numeric' });
-  const summary = `Competitive landscape as of ${today}. The restaurant technology sector remains highly contested across POS, payments, loyalty, and delivery verticals. Toast continues to lead in SMB restaurant POS market share, while DoorDash and Uber Eats compete aggressively on delivery margins. Fiserv (Clover) and Global Payments (Heartland) are pressing PAR from the payments and enterprise angle, and SpotOn is gaining traction in mid-market. Key watch areas: Toast's enterprise push, Shift4/Revel's combined go-to-market, and private-market loyalty consolidation (Paytronix, Thanx, Hang).${parHeadline ? ' Latest PAR news: ' + parHeadline + '.' : ''}`;
+  const today = new Date().toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
+  let topEvents = '';
+  if (news && news.items && news.items.length) {
+    const topCompanies = [...new Set(news.items.slice(0, 6).map(i => i.company))].filter(c => c !== 'Industry');
+    topEvents = topCompanies.length ? ` Most-mentioned companies this cycle: ${topCompanies.join(', ')}.` : '';
+  }
 
-  document.getElementById('overviewAI').textContent = summary;
+  target.textContent = `Competitive landscape as of ${today}. The restaurant technology sector remains highly contested across POS, payments, loyalty, and delivery verticals. Toast continues to lead in SMB restaurant POS market share, while DoorDash and Uber Eats compete aggressively on delivery margins. Fiserv (Clover) and Global Payments (Heartland) are pressing PAR from the payments and enterprise angle, and SpotOn is gaining traction in mid-market. Key watch areas: Toast's enterprise push, Shift4/Revel's combined go-to-market, and private-market loyalty consolidation (Paytronix, Thanx, Hang).${topEvents}`;
 }
 
 // ─── Email preview ────────────────────────────────────────────────────────────
@@ -1139,91 +1009,67 @@ function daysUntil(targetDay) {
 }
 
 async function callClaude(prompt, maxTokens = 800) {
-  // Competitor deep-dive: fetch relevant RSS + Yahoo Finance for this company
-  // Extract company name from prompt heuristically
+  // Data-driven deep dive: use static competitors.json + stocks.json
+  // Extract company name + ticker from the prompt
   const nameMatch = prompt.match(/Research the competitor "([^"]+)"/);
   const compName = nameMatch ? nameMatch[1] : '';
   const tickerMatch = prompt.match(/NYSE:\s*(\w+)/);
   const ticker = tickerMatch ? tickerMatch[1] : '';
 
-  let newsText = '';
-  let financialText = '';
-  let statsJson = '{}';
-
-  // Fetch Yahoo Finance news if ticker known
-  if (ticker) {
-    try {
-      const url = `https://feeds.finance.yahoo.com/rss/2.0/headline?s=${ticker}&region=US&lang=en-US`;
-      const text = await proxyFetch(url, 8000);
-      const doc = new DOMParser().parseFromString(text, 'text/xml');
-      const items = Array.from(doc.querySelectorAll('item')).slice(0, 6);
-      const newsItems = items.map(i => ({
-        headline: (i.querySelector('title')?.textContent || '').trim(),
-        source: 'Yahoo Finance',
-        date: i.querySelector('pubDate')?.textContent ? new Date(i.querySelector('pubDate').textContent).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) : '',
-        url: (i.querySelector('link')?.textContent || '').trim(),
-        relevance: 'Latest headline',
-      })).filter(i => i.headline);
-      newsText = JSON.stringify(newsItems);
-
-      // Fetch quote summary
-      const quoteUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?range=5d&interval=1d`;
-      const qText = await proxyFetch(quoteUrl, 8000);
-      const qData = JSON.parse(qText);
-      const chart = qData.chart?.result?.[0];
-      if (chart) {
-        const meta = chart.meta || {};
-        const closes = (chart.indicators?.quote?.[0]?.close || []).filter(v => v != null);
-        const weekPct = closes.length >= 2 ? (((closes[closes.length-1] - closes[0]) / closes[0]) * 100).toFixed(1) : '—';
-        statsJson = JSON.stringify({
-          price: meta.regularMarketPrice ? '$' + meta.regularMarketPrice.toFixed(2) : '—',
-          weeklyChange: weekPct !== '—' ? (weekPct > 0 ? '+' : '') + weekPct + '%' : '—',
-          mktcap: meta.marketCap ? '$' + (meta.marketCap / 1e9).toFixed(1) + 'B' : '—',
-          revenue: '—',
-        });
-      }
-    } catch(e) { console.warn('Yahoo fetch failed', e); }
-  }
-
-  // Fetch trade press RSS for company mentions
-  try {
-    const rssUrl = 'https://restauranttechnologynews.com/feed/';
-    const text = await proxyFetch(rssUrl, 8000);
-    const doc = new DOMParser().parseFromString(text, 'text/xml');
-    const lowerName = compName.toLowerCase();
-    const items = Array.from(doc.querySelectorAll('item'))
-      .filter(i => (i.querySelector('title')?.textContent || '').toLowerCase().includes(lowerName))
-      .slice(0, 3)
-      .map(i => ({
-        headline: i.querySelector('title')?.textContent?.trim() || '',
-        source: 'Restaurant Technology News',
-        date: i.querySelector('pubDate')?.textContent ? new Date(i.querySelector('pubDate').textContent).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) : '',
-        url: i.querySelector('link')?.textContent?.trim() || '',
-        relevance: 'Industry coverage',
-      })).filter(i => i.headline);
-    if (items.length && newsText) {
-      const existing = JSON.parse(newsText);
-      newsText = JSON.stringify([...items, ...existing]);
-    } else if (items.length) {
-      newsText = JSON.stringify(items);
-    }
-  } catch {}
-
-  // Compose return value in the expected ||| delimited format
   const c = COMPETITORS.find(x => x.name === compName);
   const isPrivate = c && c.type === 'private';
 
-  const summary = `${compName} is a ${c ? c.category : 'restaurant technology'} competitor. ${newsText ? 'Recent news and financial data have been loaded from live sources below.' : 'Live data loading — check the news tab for latest updates.'}`;
+  // Fetch news for this company
+  const compData = await loadJSON('competitors.json');
+  let companyNews = [];
+  if (compData && compData.companies) {
+    // Try exact match and also Toast -> "Toast" key aliasing
+    companyNews = compData.companies[compName] || compData.companies[c?.name] || [];
+  }
 
+  const newsItems = companyNews.slice(0, 8).map(i => ({
+    headline: i.headline,
+    source: i.source || 'Industry',
+    date: i.date ? new Date(i.date).toLocaleDateString('en-US', {month:'short',day:'numeric',year:'numeric'}) : '',
+    url: i.url || '',
+    relevance: i.emoji === '📈' ? 'Financial' : i.emoji === '🚀' ? 'Product' : i.emoji === '🤝' ? 'Partnership' : i.emoji === '⚠️' ? 'Risk signal' : 'Industry news',
+  }));
+  const newsText = JSON.stringify(newsItems);
+
+  // Stock stats
+  let statsJson = '{}';
+  if (ticker) {
+    const stocks = await loadJSON('stocks.json');
+    if (stocks && stocks.ranges && stocks.ranges['1W']) {
+      const tickerData = stocks.ranges['1W'].find(d => d.ticker === ticker);
+      if (tickerData) {
+        statsJson = JSON.stringify({
+          price: tickerData.price ? '$' + tickerData.price.toFixed(2) : '—',
+          weeklyChange: tickerData.change_pct !== null ? (tickerData.change_pct >= 0 ? '+' : '') + tickerData.change_pct.toFixed(1) + '%' : '—',
+          mktcap: tickerData.market_cap_b ? '$' + tickerData.market_cap_b.toFixed(1) + 'B' : '—',
+          revenue: '—',
+        });
+      }
+    }
+  }
+
+  // Summary
+  const newsSummary = companyNews.length
+    ? `${companyNews.length} recent news items tracked. Most recent: "${companyNews[0].headline.slice(0, 120)}${companyNews[0].headline.length > 120 ? '…' : ''}"`
+    : 'No recent news tracked. Data refreshes every 30 minutes.';
+  const summary = `${compName} operates in the ${c ? c.category : 'restaurant technology'} space. ${newsSummary}`;
+
+  // Financial text
   const financial = ticker
-    ? `Live financial data loaded from Yahoo Finance for ${ticker}. Check the stats above for current price and weekly performance. Visit https://finance.yahoo.com/quote/${ticker} for full financials and SEC filings at https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=${encodeURIComponent(compName)}&type=10-K.`
-    : `${compName} is a private company. Funding and investor data available on Crunchbase (https://crunchbase.com) and PitchBook. Check LinkedIn for headcount and recent hiring signals.`;
+    ? `Live financial data loaded from Yahoo Finance for ${ticker}. Check the stats above for current price and weekly performance.\n\n• Yahoo Finance: https://finance.yahoo.com/quote/${ticker}\n• SEC EDGAR 10-K/10-Q filings: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=${encodeURIComponent(compName)}&type=10-K\n• Most recent news and earnings coverage is shown in the News tab.`
+    : `${compName} is a private company.\n\n• Crunchbase profile: https://www.crunchbase.com/organization/${(c?.name||'').toLowerCase().replace(/\s+/g,'-')}\n• LinkedIn (for headcount + hiring signals): search "${compName}" on LinkedIn\n• PitchBook and Tracxn have funding round details.\n• For the latest news coverage, see the News tab.`;
 
-  const strategy = `${compName} operates in the ${c ? c.category : 'restaurant tech'} space. Review their website at ${c ? 'https://' + c.website : '#'} for latest product and partnership announcements. Monitor their LinkedIn page and press releases for go-to-market signals and customer wins relevant to PAR's Brink POS, loyalty, and payments products.`;
+  // Strategy
+  const strategy = `${compName} operates in the ${c ? c.category : 'restaurant tech'} space.\n\nWebsite: ${c ? 'https://' + c.website : '#'}\n\nKey competitive considerations for PAR:\n• Monitor press releases and LinkedIn for go-to-market signals (hiring, customer wins, partnerships).\n• Track product launches relevant to PAR's Brink POS, loyalty, and payments products.\n• Watch for M&A signals — consolidation in loyalty/CRM and POS/payments remains active.\n• Review the News tab for the latest tracked headlines and their categorization (financial, product, partnership, risk).`;
 
   const privateStats = JSON.stringify({ fundingStage: 'See Crunchbase', totalRaised: '—', employees: '—', lastFunding: '—' });
 
-  return [summary, newsText || '[]', financial, strategy, isPrivate ? privateStats : statsJson].join('|||');
+  return [summary, newsText, financial, strategy, isPrivate ? privateStats : statsJson].join('|||');
 }
 
 function openSubscribe() {
