@@ -90,6 +90,183 @@ COMPETITOR_QUERIES = {
     'Spendgo': '%22Spendgo%22',
 }
 
+# ─── Per-competitor content sources (Phase 1 config map) ────────────────────
+#
+# Four possible slots per competitor:
+#   blog_rss       — marketing/company blog RSS or Atom feed
+#   press_rss      — investor-relations or newsroom RSS
+#   changelog_rss  — public release notes / API changelog feed
+#   site_domain    — domain for Google News site: queries (always fallback-available)
+#
+# URLs are BEST-EFFORT. The fetcher treats fetch failures (403/404/non-XML/empty
+# feed) as "skip silently" — no workflow failures. After the first daily run
+# we'll see which endpoints actually returned content and can prune the config.
+#
+# Note: Toast/DoorDash/Shift4/NCR/Global Payments/Fiserv/Uber/etc. do not publish
+# their marketing blogs or changelogs as public RSS. We rely on site: queries via
+# Google News for those — covered by the site_domain field below.
+COMPETITOR_CONTENT_SOURCES = {
+    # Public companies — most don't expose blog RSS; rely primarily on site: queries
+    'Toast': {
+        'blog_rss': None,
+        'press_rss': None,
+        'changelog_rss': None,
+        'site_domain': 'pos.toasttab.com',
+    },
+    'DoorDash': {
+        'blog_rss': 'https://doordash.engineering/feed/',
+        'press_rss': None,
+        'changelog_rss': None,
+        'site_domain': 'blog.doordash.com',
+    },
+    'NCR Voyix': {
+        'blog_rss': None,
+        'press_rss': None,
+        'changelog_rss': None,
+        'site_domain': 'ncrvoyix.com',
+    },
+    'Lightspeed': {
+        'blog_rss': 'https://www.lightspeedhq.com/blog/feed/',
+        'press_rss': None,
+        'changelog_rss': None,
+        'site_domain': 'lightspeedhq.com',
+    },
+    'Shift4': {
+        'blog_rss': None,
+        'press_rss': None,
+        'changelog_rss': None,
+        'site_domain': 'shift4.com',
+    },
+    'Square': {
+        'blog_rss': None,
+        'press_rss': None,
+        'changelog_rss': 'https://developer.squareup.com/changelog.rss',
+        'site_domain': 'developer.squareup.com',
+    },
+    'Global Payments': {
+        'blog_rss': None,
+        'press_rss': None,
+        'changelog_rss': None,
+        'site_domain': 'globalpayments.com',
+    },
+    'Fiserv': {
+        'blog_rss': None,
+        'press_rss': None,
+        'changelog_rss': None,
+        'site_domain': 'fiserv.com',
+    },
+    'Uber Eats': {
+        'blog_rss': 'https://www.uber.com/blog/feed/',
+        'press_rss': None,
+        'changelog_rss': None,
+        'site_domain': 'uber.com',
+    },
+
+    # Private companies — many are on WordPress which exposes /feed/
+    'Olo': {
+        'blog_rss': None,
+        'press_rss': None,
+        'changelog_rss': 'https://developers.olo.com/changelog/rss',
+        'site_domain': 'olo.com',
+    },
+    'Thanx': {
+        'blog_rss': 'https://www.thanx.com/blog/feed/',
+        'press_rss': None,
+        'changelog_rss': None,
+        'site_domain': 'thanx.com',
+    },
+    'Deliverect': {
+        'blog_rss': 'https://www.deliverect.com/en/blog/rss.xml',
+        'press_rss': None,
+        'changelog_rss': 'https://docs.deliverect.com/changelog/feed',
+        'site_domain': 'deliverect.com',
+    },
+    'TouchBistro': {
+        'blog_rss': 'https://www.touchbistro.com/blog/feed/',
+        'press_rss': None,
+        'changelog_rss': None,
+        'site_domain': 'touchbistro.com',
+    },
+    'SpotOn': {
+        'blog_rss': 'https://www.spoton.com/blog/feed/',
+        'press_rss': None,
+        'changelog_rss': None,
+        'site_domain': 'spoton.com',
+    },
+    'Bikky': {
+        'blog_rss': 'https://www.bikky.com/blog/rss.xml',
+        'press_rss': None,
+        'changelog_rss': None,
+        'site_domain': 'bikky.com',
+    },
+    'ItsaCheckmate': {
+        'blog_rss': 'https://itsacheckmate.com/feed/',
+        'press_rss': None,
+        'changelog_rss': None,
+        'site_domain': 'itsacheckmate.com',
+    },
+    'Otter POS': {
+        'blog_rss': 'https://www.tryotter.com/blog/rss.xml',
+        'press_rss': None,
+        'changelog_rss': None,
+        'site_domain': 'tryotter.com',
+    },
+    'Snackpass': {
+        'blog_rss': None,
+        'press_rss': None,
+        'changelog_rss': None,
+        'site_domain': 'snackpass.co',
+    },
+    'Peppr POS': {
+        'blog_rss': None,
+        'press_rss': None,
+        'changelog_rss': None,
+        'site_domain': 'peppr.com',
+    },
+    'Revi': {
+        'blog_rss': None,
+        'press_rss': None,
+        'changelog_rss': None,
+        'site_domain': 'getrevi.com',
+    },
+    'TalonOne': {
+        'blog_rss': 'https://www.talon.one/blog/feed',
+        'press_rss': None,
+        'changelog_rss': 'https://docs.talon.one/changelog/feed',
+        'site_domain': 'talon.one',
+    },
+    'Sparkfly': {
+        'blog_rss': None,
+        'press_rss': None,
+        'changelog_rss': None,
+        'site_domain': 'sparkfly.com',
+    },
+    'Tillster': {
+        'blog_rss': None,
+        'press_rss': None,
+        'changelog_rss': None,
+        'site_domain': 'tillster.com',
+    },
+    'Paytronix': {
+        'blog_rss': 'https://www.paytronix.com/blog/feed/',
+        'press_rss': None,
+        'changelog_rss': None,
+        'site_domain': 'paytronix.com',
+    },
+    'Hang': {
+        'blog_rss': None,
+        'press_rss': None,
+        'changelog_rss': None,
+        'site_domain': 'hang.com',
+    },
+    'Spendgo': {
+        'blog_rss': None,
+        'press_rss': None,
+        'changelog_rss': None,
+        'site_domain': 'spendgo.com',
+    },
+}
+
 COMP_KEYWORDS = {
     'PAR': ['par technology', 'par tech ', 'brink pos', 'nyse: par', 'par holdings'],
     'Toast': ['toast tab', 'toast inc', 'toasttab', 'nyse: tost', 'toast pos'],
