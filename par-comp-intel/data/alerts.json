@@ -1,0 +1,106 @@
+{
+  "updated": "2026-04-17T19:45:27.505299+00:00",
+  "total": 8,
+  "by_category": {
+    "analyst_downgrade": 3,
+    "stock_move": 5
+  },
+  "alerts": [
+    {
+      "category": "analyst_downgrade",
+      "severity": "high",
+      "company": "Shift4",
+      "headline": "Stephens Downgrades Shift4 Payments (NYSE:FOUR) to Equal Weight - MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeU1lVUZ6VG1YRkd3dENiYVZRZ3FKUlpnMzkwRU9mYVFjLVp5TVlmN1N2emE0REJpVzAxaV9qc2d5RGh0SGZhUHJHNmY0VV9HQ2Q4YW5UYWdsY0c2RjI0TnZFd1pLRFlpRlVlVG9ydkc0Qmw5TDFIVnNnbDJkNTM3Vk5QQVhmc1h6WThXTkMxMjhJM3otanl3UDhxQmF6UFAyeG9CV181STFpTnJPYWlzUGE1cGE?oc=5",
+      "source": "Google News",
+      "date": "Fri, 17 Apr 2026 13:33:36 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-04-17T19:45:27.505299+00:00"
+    },
+    {
+      "category": "analyst_downgrade",
+      "severity": "high",
+      "company": "Shift4",
+      "headline": "Seaport downgrades Shift4 Payments stock rating on fintech headwinds - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWV8wZ3NIOTYzWWg5a2N0bWFfemlWTmVZYldGTzhmZWd3RHhmRmVqZjB0dnBGTGpDdjFkZ0UtMHEwWjVia3QzaHZkZzE5SjZ1aG1NNDFEWnZUX2NfdUVwU1k2Y1gyT011NmNCTUNHUU13R0hieXlGRmtBUlp4Q1pqZFlULVk0cWNRd19vT1ZrQ182MHduX2RnTDNRR0hlbktDVTFVdUdiS002d3NyYzE5ZEVxQzBRb1U1WGNBZ09Wb1IyQjFjRzQ4?oc=5",
+      "source": "Google News",
+      "date": "Thu, 16 Apr 2026 12:48:34 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-04-17T19:45:27.505299+00:00"
+    },
+    {
+      "category": "analyst_downgrade",
+      "severity": "high",
+      "company": "NCR Voyix",
+      "headline": "RBC Capital Maintains NCR Voyix(VYX.US) With Buy Rating, Cuts Target Price to $10 - \u5bcc\u9014\u725b\u725b",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMC1WSFlibjlmVzdFa3hvVkM0NzBkTzM1VVhUc21iV2pGY2dHcDZRLW9tQTJLa3BuYTBRUHh4M3lMaU9KMzQwSF9wdXZNMURGM2NpMHVWTUJiN0Jubk5FRWsxMElBcHFVa0dUU0tfRDF6a21NTmwxZ2hNUy12Q01qOHBpcjkwU2VtN2NtSGdickNDZE15dFZsalVlSGJvSTFu?oc=5",
+      "source": "Google News",
+      "date": "Wed, 15 Apr 2026 02:32:00 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-04-17T19:45:27.505299+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "high",
+      "company": "DoorDash",
+      "headline": "DoorDash (DASH) stock up 15.8% over the past week",
+      "url": "https://finance.yahoo.com/quote/DASH",
+      "source": "Yahoo Finance",
+      "date": "2026-04-17T19:45:27.505299+00:00",
+      "par_relevance": 2,
+      "note": "+15.8% 1W",
+      "detected_at": "2026-04-17T19:45:27.505299+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "medium",
+      "company": "Toast",
+      "headline": "Toast (TOST) stock up 7.2% over the past week",
+      "url": "https://finance.yahoo.com/quote/TOST",
+      "source": "Yahoo Finance",
+      "date": "2026-04-17T19:45:27.505299+00:00",
+      "par_relevance": 3,
+      "note": "+7.2% 1W",
+      "detected_at": "2026-04-17T19:45:27.505299+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "medium",
+      "company": "Lightspeed",
+      "headline": "Lightspeed (LSPD) stock up 9.4% over the past week",
+      "url": "https://finance.yahoo.com/quote/LSPD",
+      "source": "Yahoo Finance",
+      "date": "2026-04-17T19:45:27.505299+00:00",
+      "par_relevance": 3,
+      "note": "+9.4% 1W",
+      "detected_at": "2026-04-17T19:45:27.505299+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "medium",
+      "company": "Shift4",
+      "headline": "Shift4 (FOUR) stock up 9.7% over the past week",
+      "url": "https://finance.yahoo.com/quote/FOUR",
+      "source": "Yahoo Finance",
+      "date": "2026-04-17T19:45:27.505299+00:00",
+      "par_relevance": 3,
+      "note": "+9.7% 1W",
+      "detected_at": "2026-04-17T19:45:27.505299+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "medium",
+      "company": "Fiserv",
+      "headline": "Fiserv (FISV) stock up 8.8% over the past week",
+      "url": "https://finance.yahoo.com/quote/FISV",
+      "source": "Yahoo Finance",
+      "date": "2026-04-17T19:45:27.505299+00:00",
+      "par_relevance": 3,
+      "note": "+8.8% 1W",
+      "detected_at": "2026-04-17T19:45:27.505299+00:00"
+    }
+  ]
+}
