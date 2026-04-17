@@ -245,7 +245,7 @@
       <div class="sidebar-label">Overview</div>
       <div class="sidebar-item active" data-view="overview" onclick="showView('overview', this)">
         <span class="comp-name">All Competitors</span>
-        <span class="comp-ticker">25</span>
+        <span class="comp-ticker">24</span>
       </div>
     </div>
     <div class="sidebar-section">
@@ -263,7 +263,7 @@
     <!-- Overview view -->
     <div class="view active" id="view-overview">
       <div class="overview-grid" id="overviewMetrics">
-        <div class="metric-card"><div class="metric-label">Competitors tracked</div><div class="metric-value">25</div><div class="metric-sub">9 public · 16 private</div></div>
+        <div class="metric-card"><div class="metric-label">Competitors tracked</div><div class="metric-value">24</div><div class="metric-sub">8 public · 16 private</div></div>
         <div class="metric-card"><div class="metric-label">News items today</div><div class="metric-value" id="newsCount">—</div><div class="metric-sub">Across all sources</div></div>
         <div class="metric-card"><div class="metric-label">Alerts</div><div class="metric-value" id="alertCount" style="color:var(--amber)">—</div><div class="metric-sub">Significant changes</div></div>
         <div class="metric-card"><div class="metric-label">Next digest</div><div class="metric-value" id="nextDigest" style="font-size:16px">—</div><div class="metric-sub" id="nextDigestType">—</div></div>
@@ -343,6 +343,13 @@
         <div id="emailPreviewContent">
           <span class="news-loading"><span class="spinner"></span> Generating digest preview…</span>
         </div>
+      </div>
+    </div>
+
+    <!-- PAR self-summary view -->
+    <div class="view" id="view-par">
+      <div id="parSummaryContent">
+        <span class="news-loading"><span class="spinner"></span> Loading PAR summary…</span>
       </div>
     </div>
   </div>
@@ -436,14 +443,40 @@ function buildSidebar() {
   const priv = document.getElementById('privateList');
   pub.innerHTML = '';
   priv.innerHTML = '';
-  COMPETITORS.forEach(c => {
+
+  // Split public competitors: all non-PAR first, then PAR last with a separator
+  const publicNonPAR = COMPETITORS.filter(c => c.type === 'public' && c.id !== 'par');
+  const privateCos = COMPETITORS.filter(c => c.type === 'private');
+  const par = COMPETITORS.find(c => c.id === 'par');
+
+  const makeItem = (c) => {
     const el = document.createElement('div');
     el.className = 'sidebar-item';
     el.dataset.id = c.id;
     el.innerHTML = `<span class="${c.type === 'public' ? 'public-dot' : 'private-dot'}"></span><span class="comp-name">${c.name}</span><span class="comp-ticker">${c.ticker || 'Private'}</span>`;
     el.onclick = () => showCompetitor(c.id, el);
-    (c.type === 'public' ? pub : priv).appendChild(el);
-  });
+    return el;
+  };
+
+  publicNonPAR.forEach(c => pub.appendChild(makeItem(c)));
+
+  // Divider + PAR (self) link at end of public list
+  if (par) {
+    const divider = document.createElement('div');
+    divider.style.cssText = 'border-top: 0.5px solid var(--border); margin: 6px 14px 0; padding-top: 6px;';
+    divider.innerHTML = '<div style="font-size:10px;font-weight:600;color:var(--accent);text-transform:uppercase;letter-spacing:0.8px;padding:0 2px 4px;">You are PAR</div>';
+    pub.appendChild(divider);
+
+    const parEl = document.createElement('div');
+    parEl.className = 'sidebar-item';
+    parEl.dataset.id = par.id;
+    parEl.style.cssText = 'background: var(--accent-bg); margin: 0 4px; border-radius: var(--radius-sm);';
+    parEl.innerHTML = `<span class="public-dot" style="background:var(--accent);"></span><span class="comp-name" style="color:var(--accent-text);font-weight:500;">${par.name}</span><span class="comp-ticker" style="color:var(--accent-text);opacity:0.7;">${par.ticker}</span>`;
+    parEl.onclick = () => showPARSummary(parEl);
+    pub.appendChild(parEl);
+  }
+
+  privateCos.forEach(c => priv.appendChild(makeItem(c)));
 }
 
 function filterSidebar(q) {
@@ -1263,6 +1296,224 @@ function addEmailPreviewToSidebar() {
 function showEmailPreview(el) {
   showView('email-preview', el);
   loadEmailPreview('monday');
+}
+
+// ─── PAR self-summary page ───────────────────────────────────────────────────
+
+async function showPARSummary(sidebarEl) {
+  showView('par', sidebarEl);
+  const container = document.getElementById('parSummaryContent');
+  container.innerHTML = '<span class="news-loading"><span class="spinner"></span> Loading PAR summary…</span>';
+
+  const [financials, stocks, compData, news] = await Promise.all([
+    loadJSON('financials.json'),
+    loadJSON('stocks.json'),
+    loadJSON('competitors.json'),
+    loadJSON('news.json'),
+  ]);
+
+  const parFin = financials?.tickers?.PAR;
+  const parStock1W = stocks?.ranges?.['1W']?.find(s => s.ticker === 'PAR');
+  const parStock1M = stocks?.ranges?.['1M']?.find(s => s.ticker === 'PAR');
+  const parStockYTD = stocks?.ranges?.['YTD']?.find(s => s.ticker === 'PAR');
+  const parNews = compData?.companies?.PAR || [];
+
+  // Build competitive benchmark table: PAR vs other public cos
+  const publicTickers = ['PAR', 'TOST', 'DASH', 'VYX', 'LSPD', 'FOUR', 'XYZ', 'GPN', 'FISV', 'UBER'];
+  const benchRows = publicTickers.map(t => {
+    const f = financials?.tickers?.[t];
+    const s = stocks?.ranges?.['1W']?.find(x => x.ticker === t);
+    if (!f) return null;
+    return {
+      ticker: t,
+      company: f.company,
+      mktcap: f.market_cap,
+      rev: f.ttm_revenue,
+      ebitda: f.ttm_ebitda,
+      yoy: f.revenue_growth_yoy,
+      ebitdaMargin: f.ebitda_margin,
+      grossMargin: f.gross_margin,
+      pe: f.trailing_pe,
+      weekChange: s?.change_pct,
+    };
+  }).filter(Boolean);
+
+  // Rank PAR across key metrics
+  const rank = (key, higherBetter = true) => {
+    const valid = benchRows.filter(r => r[key] != null);
+    valid.sort((a, b) => higherBetter ? b[key] - a[key] : a[key] - b[key]);
+    const parPos = valid.findIndex(r => r.ticker === 'PAR') + 1;
+    return parPos > 0 ? `${parPos} of ${valid.length}` : '—';
+  };
+
+  const parYoYRank = rank('yoy');
+  const parGrossRank = rank('grossMargin');
+
+  // Recent news: PAR specifically + any cross-mentions
+  const parRelatedNews = (news?.items || []).filter(i => i.company === 'PAR').slice(0, 6);
+  const newsToShow = parNews.slice(0, 8);
+
+  container.innerHTML = `
+    <div style="background:var(--accent-bg);border-radius:var(--radius);padding:20px 24px;margin-bottom:18px;border:0.5px solid var(--accent);">
+      <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:20px;flex-wrap:wrap;">
+        <div style="flex:1;min-width:300px;">
+          <div style="font-size:11px;font-weight:600;color:var(--accent);text-transform:uppercase;letter-spacing:0.8px;margin-bottom:4px;">Company Summary</div>
+          <h2 style="font-size:24px;font-weight:500;margin:0 0 4px;color:var(--text);">PAR Technology</h2>
+          <div style="font-size:13px;color:var(--text2);margin-bottom:10px;">Restaurant technology company. POS (Brink, Punchh), loyalty, payments, data.</div>
+          <div style="display:flex;gap:8px;flex-wrap:wrap;">
+            <span class="tag tag-public">NYSE: PAR</span>
+            <span class="tag tag-category">Restaurant Tech</span>
+            <a href="https://partech.com" target="_blank" style="font-size:11px;color:var(--accent);padding:3px 8px;border-radius:20px;border:0.5px solid var(--accent);">partech.com ↗</a>
+            <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000708821&type=10-K" target="_blank" style="font-size:11px;color:var(--accent);padding:3px 8px;border-radius:20px;border:0.5px solid var(--accent);">SEC filings ↗</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero metrics row -->
+    <div class="stats-row" style="margin-bottom:18px;">
+      <div class="stat-box">
+        <div class="stat-label">Stock price</div>
+        <div class="stat-value">${parFin?.price ? '$' + parFin.price.toFixed(2) : '—'}</div>
+        <div class="stat-change" style="color:${(parStock1W?.change_pct ?? 0) >= 0 ? 'var(--green)' : 'var(--red)'};">
+          ${parStock1W?.change_pct != null ? (parStock1W.change_pct >= 0 ? '+' : '') + parStock1W.change_pct.toFixed(1) + '%' : '—'} <span style="color:var(--text3);">1W</span>
+        </div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-label">Market cap</div>
+        <div class="stat-value">${parFin?.market_cap ? fmtCurrency(parFin.market_cap) : '—'}</div>
+        <div class="stat-change" style="color:${(parStockYTD?.change_pct ?? 0) >= 0 ? 'var(--green)' : 'var(--red)'};">
+          ${parStockYTD?.change_pct != null ? (parStockYTD.change_pct >= 0 ? '+' : '') + parStockYTD.change_pct.toFixed(1) + '%' : '—'} <span style="color:var(--text3);">YTD</span>
+        </div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-label">TTM Revenue</div>
+        <div class="stat-value">${parFin?.ttm_revenue ? fmtCurrency(parFin.ttm_revenue) : '—'}</div>
+        <div class="stat-change" style="color:${(parFin?.revenue_growth_yoy ?? 0) >= 0 ? 'var(--green)' : 'var(--red)'};">
+          ${parFin?.revenue_growth_yoy != null ? fmtPct(parFin.revenue_growth_yoy) : '—'} <span style="color:var(--text3);">YoY</span>
+        </div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-label">TTM EBITDA</div>
+        <div class="stat-value">${parFin?.ttm_ebitda != null ? fmtCurrency(parFin.ttm_ebitda) : '—'}</div>
+        <div class="stat-change" style="color:${(parFin?.ebitda_margin ?? 0) >= 0 ? 'var(--green)' : 'var(--red)'};">
+          ${parFin?.ebitda_margin != null ? fmtPct(parFin.ebitda_margin) : '—'} <span style="color:var(--text3);">margin</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Competitive position snapshot -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">PAR's position among public restaurant tech competitors</span>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin-bottom:14px;">
+        <div class="stat-box">
+          <div class="stat-label">Revenue growth rank (YoY)</div>
+          <div class="stat-value" style="font-size:18px;">#${parYoYRank}</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-label">Gross margin rank</div>
+          <div class="stat-value" style="font-size:18px;">#${parGrossRank}</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-label">Public competitors tracked</div>
+          <div class="stat-value" style="font-size:18px;">${benchRows.length - 1}</div>
+        </div>
+      </div>
+      <div style="overflow-x:auto;">
+        <table style="width:100%;border-collapse:collapse;border:0.5px solid var(--border);border-radius:var(--radius-sm);font-variant-numeric:tabular-nums;">
+          <thead>
+            <tr style="background:var(--bg2);">
+              <th style="text-align:left;padding:8px 10px;font-size:11px;color:var(--text3);font-weight:500;">Company</th>
+              <th style="text-align:right;padding:8px 10px;font-size:11px;color:var(--text3);font-weight:500;">Market cap</th>
+              <th style="text-align:right;padding:8px 10px;font-size:11px;color:var(--text3);font-weight:500;">TTM Revenue</th>
+              <th style="text-align:right;padding:8px 10px;font-size:11px;color:var(--text3);font-weight:500;">YoY growth</th>
+              <th style="text-align:right;padding:8px 10px;font-size:11px;color:var(--text3);font-weight:500;">TTM EBITDA</th>
+              <th style="text-align:right;padding:8px 10px;font-size:11px;color:var(--text3);font-weight:500;">EBITDA margin</th>
+              <th style="text-align:right;padding:8px 10px;font-size:11px;color:var(--text3);font-weight:500;">1W</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${benchRows.map(r => {
+              const isPAR = r.ticker === 'PAR';
+              const rowStyle = isPAR ? 'background:var(--accent-bg);font-weight:500;' : '';
+              const nameStyle = isPAR ? 'color:var(--accent-text);font-weight:500;' : 'color:var(--text);';
+              return `
+                <tr style="${rowStyle}">
+                  <td style="padding:7px 10px;font-size:12px;${nameStyle}">${r.company} ${isPAR ? '<span style="font-size:10px;background:var(--accent);color:white;padding:1px 6px;border-radius:8px;margin-left:4px;">YOU</span>' : ''}</td>
+                  <td style="text-align:right;padding:7px 10px;font-size:12px;color:var(--text);">${r.mktcap ? fmtCurrency(r.mktcap) : '—'}</td>
+                  <td style="text-align:right;padding:7px 10px;font-size:12px;color:var(--text);">${r.rev ? fmtCurrency(r.rev) : '—'}</td>
+                  <td style="text-align:right;padding:7px 10px;font-size:12px;color:${r.yoy >= 0 ? 'var(--green)' : 'var(--red)'};">${r.yoy != null ? fmtPct(r.yoy) : '—'}</td>
+                  <td style="text-align:right;padding:7px 10px;font-size:12px;color:var(--text);">${r.ebitda != null ? fmtCurrency(r.ebitda) : '—'}</td>
+                  <td style="text-align:right;padding:7px 10px;font-size:12px;color:${r.ebitdaMargin >= 0 ? 'var(--green)' : 'var(--red)'};">${r.ebitdaMargin != null ? fmtPct(r.ebitdaMargin) : '—'}</td>
+                  <td style="text-align:right;padding:7px 10px;font-size:12px;color:${(r.weekChange ?? 0) >= 0 ? 'var(--green)' : 'var(--red)'};">${r.weekChange != null ? (r.weekChange >= 0 ? '+' : '') + r.weekChange.toFixed(1) + '%' : '—'}</td>
+                </tr>`;
+            }).join('')}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- PAR Financial Overview -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">PAR financial overview</span>
+      </div>
+      <div id="par-financial-detail"></div>
+    </div>
+
+    <!-- PAR News -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">Latest PAR news &amp; developments</span>
+        <span class="last-updated">${newsToShow.length} items</span>
+      </div>
+      <div id="par-news-detail">
+        ${newsToShow.length ? newsToShow.map(item => `
+          <div class="news-item">
+            <div class="news-source">${item.source || 'Industry'} ${item.emoji ? ' · ' + item.emoji : ''}</div>
+            <div class="news-headline" onclick="window.open('${(item.url || '#').replace(/'/g,'%27')}','_blank')">${item.headline}</div>
+            <div class="news-meta">${formatDate(item.date)}${item.url ? ` · <a href="${item.url}" target="_blank" style="color:var(--accent);">Read ↗</a>` : ''}</div>
+          </div>
+        `).join('') : '<p style="color:var(--text3);font-size:13px;padding:12px 0;">No news items currently tracked. Background job refreshes every 30 minutes.</p>'}
+      </div>
+    </div>
+
+    <!-- Strategic framing -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">Strategic context</span>
+      </div>
+      <div style="font-size:13px;color:var(--text);line-height:1.7;">
+        <p style="margin-bottom:10px;">This dashboard tracks 24 restaurant technology competitors (8 public, 16 private) across PAR's core product areas: POS, online ordering, loyalty, payments, and delivery.</p>
+        <p style="margin-bottom:10px;"><strong>Where PAR competes most directly:</strong> Brink POS vs. Toast, NCR Voyix, Lightspeed, SpotOn, TouchBistro; Punchh/Data Central loyalty vs. Paytronix, Thanx, Sparkfly, Hang; and payments integrations vs. Shift4/Revel, Clover (Fiserv), Heartland (Global Payments), and Square for Restaurants.</p>
+        <p style="margin-bottom:0;"><strong>Where to monitor closely:</strong> enterprise POS consolidation (Toast's enterprise push, Olo's take-private), loyalty/CRM M&A activity, and delivery-aggregator platform plays (DoorDash, Uber Eats) moving upstream into POS.</p>
+      </div>
+    </div>
+  `;
+
+  // Render the detailed financial overview in the card
+  // (renderPublicFinancialOverview expects a #financial-{id} element to exist,
+  // so we inject a temp container, call it, then move the HTML over)
+  if (parFin) {
+    const temp = document.createElement('div');
+    temp.id = 'financial-par';
+    temp.style.display = 'none';
+    document.body.appendChild(temp);
+    renderPublicFinancialOverview({
+      id: 'par',
+      ticker: 'PAR',
+      name: 'PAR',
+      category: 'Restaurant Technology',
+      website: 'partech.com',
+      type: 'public',
+    }, financials);
+    document.getElementById('par-financial-detail').innerHTML = temp.innerHTML;
+    document.body.removeChild(temp);
+  } else {
+    document.getElementById('par-financial-detail').innerHTML = '<p style="color:var(--text3);font-size:13px;">Financial data not yet loaded.</p>';
+  }
 }
 
 // Init
