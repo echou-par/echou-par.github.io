@@ -391,9 +391,9 @@ const COMPETITORS = [
   { id: 'vyx', name: 'NCR Voyix', ticker: 'VYX', exchange: 'NYSE', type: 'public', category: 'POS / Technology', website: 'ncrvoyix.com', description: 'Restaurant and retail technology including POS, payments, and digital solutions.' },
   { id: 'lspd', name: 'Lightspeed Commerce', ticker: 'LSPD', exchange: 'NYSE', type: 'public', category: 'POS / Commerce', website: 'lightspeedhq.com', description: 'Cloud-based POS and commerce platform for restaurants and retail.' },
   { id: 'four', name: 'Shift4', ticker: 'FOUR', exchange: 'NYSE', type: 'public', category: 'Payments / POS', website: 'shift4.com', description: 'Integrated payments and commerce technology. Owns Revel POS.' },
-  { id: 'sq', name: 'Block (Square)', ticker: 'SQ', exchange: 'NYSE', type: 'public', category: 'POS / Payments', website: 'squareup.com', description: 'Financial technology with Square for Restaurants offering POS, online ordering, and payments.' },
+  { id: 'sq', name: 'Block (Square)', ticker: 'XYZ', exchange: 'NYSE', type: 'public', category: 'POS / Payments', website: 'squareup.com', description: 'Financial technology with Square for Restaurants offering POS, online ordering, and payments. Rebranded from SQ to XYZ in 2026.' },
   { id: 'gpn', name: 'Global Payments', ticker: 'GPN', exchange: 'NYSE', type: 'public', category: 'Payments / POS', website: 'globalpayments.com', description: 'Payment technology company with Heartland POS and Payments suite for restaurants.' },
-  { id: 'fi', name: 'Fiserv', ticker: 'FI', exchange: 'NYSE', type: 'public', category: 'Fintech / POS', website: 'fiserv.com', description: 'Financial technology and payment solutions. Owns Clover POS for restaurants.' },
+  { id: 'fi', name: 'Fiserv', ticker: 'FISV', exchange: 'NYSE', type: 'public', category: 'Fintech / POS', website: 'fiserv.com', description: 'Financial technology and payment solutions. Owns Clover POS for restaurants.' },
   { id: 'uber', name: 'Uber (Eats)', ticker: 'UBER', exchange: 'NYSE', type: 'public', category: 'Delivery / Marketplace', website: 'uber.com', description: 'Ride-sharing and food delivery. Focus area: Uber Eats restaurant delivery marketplace.' },
   { id: 'olo', name: 'Olo', ticker: 'OLO (private)', exchange: '', type: 'private', category: 'Online Ordering / SaaS', website: 'olo.com', description: 'Digital ordering and delivery platform for restaurant brands. Previously public (NYSE: OLO), went private.' },
   { id: 'thanx', name: 'Thanx', ticker: '', exchange: '', type: 'private', category: 'Loyalty / CRM', website: 'thanx.com', description: 'Restaurant loyalty and digital guest engagement platform.' },
@@ -998,7 +998,7 @@ function timeAgoShort(raw) {
 
 // ─── Stock chart ────────────────────────────────────────────────────────────
 
-const TICKERS = ['PAR','TOST','DASH','VYX','LSPD','FOUR','SQ','GPN','FI','UBER'];
+const TICKERS = ['PAR','TOST','DASH','VYX','LSPD','FOUR','XYZ','GPN','FISV','UBER'];
 let stockChartInstance = null;
 let stocksCache = null;
 let currentRange = '1W';

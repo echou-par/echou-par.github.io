@@ -27,12 +27,12 @@ HEADERS = {
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
 }
 
-TICKERS = ['PAR', 'TOST', 'DASH', 'VYX', 'LSPD', 'FOUR', 'SQ', 'GPN', 'FI', 'UBER']
+TICKERS = ['PAR', 'TOST', 'DASH', 'VYX', 'LSPD', 'FOUR', 'XYZ', 'GPN', 'FISV', 'UBER']
 
 COMPANY_MAP = {
     'PAR': 'PAR', 'TOST': 'Toast', 'DASH': 'DoorDash', 'VYX': 'NCR Voyix',
-    'LSPD': 'Lightspeed', 'FOUR': 'Shift4', 'SQ': 'Square', 'GPN': 'Global Payments',
-    'FI': 'Fiserv', 'UBER': 'Uber',
+    'LSPD': 'Lightspeed', 'FOUR': 'Shift4', 'XYZ': 'Block (Square)', 'GPN': 'Global Payments',
+    'FISV': 'Fiserv', 'UBER': 'Uber',
 }
 
 RANGE_PARAMS = {
