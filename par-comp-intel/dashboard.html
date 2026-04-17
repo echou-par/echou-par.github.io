@@ -419,6 +419,7 @@ const COMPETITORS = [
   { id: 'tillster', name: 'Tillster', ticker: '', exchange: '', type: 'private', category: 'Digital Ordering / Kiosk', website: 'tillster.com', description: 'Digital ordering, kiosk, and data analytics solutions for restaurant chains.' },
   { id: 'paytronix', name: 'Paytronix', ticker: '', exchange: '', type: 'private', category: 'Loyalty / CRM', website: 'paytronix.com', description: 'Loyalty, gift, and digital customer engagement platform for restaurants.' },
   { id: 'hang', name: 'Hang', ticker: '', exchange: '', type: 'private', category: 'Loyalty / Membership', website: 'hang.com', description: 'Next-gen restaurant loyalty and membership platform.' },
+  { id: 'spendgo', name: 'Spendgo', ticker: '', exchange: '', type: 'private', category: 'Loyalty / CRM', website: 'spendgo.com', description: 'SaaS loyalty and retention marketing platform for restaurants. Acquired by Olo in December 2025 to power Olo Loyalty.' },
 ];
 
 const STOCK_DATA = {
@@ -439,16 +440,78 @@ let aiSummaryCache = {};
 let currentCompetitor = null;
 let currentEmailTab = 'monday';
 
+// Parse currency-like strings ("$1.4B", "~$60M (est.)", "$2.5M per year") into numeric USD.
+// Requires either a $ prefix AND a unit, OR a unit suffix — otherwise raw numbers like
+// "2025" (a year) or "26" (employee count) would be mis-parsed.
+// Returns null if unparseable.
+function parseCurrencyToNumber(s) {
+  if (!s || typeof s !== 'string') return null;
+  const cleaned = s.replace(/[~(),\s]/g, '').toLowerCase();
+  // Require $ prefix OR an explicit unit suffix (b/m/k/t) for us to treat it as money
+  const m = cleaned.match(/\$\s*([\d.]+)\s*(b|m|k|t)?|([\d.]+)\s*(b|m|k|t)\b/);
+  if (!m) return null;
+  const numStr = m[1] || m[3];
+  const unit = m[2] || m[4];
+  const num = parseFloat(numStr);
+  if (isNaN(num)) return null;
+  // If neither $ nor unit, reject (shouldn't match above anyway)
+  if (!m[1] && !unit) return null;
+  const multiplier = unit === 't' ? 1e12 : unit === 'b' ? 1e9 : unit === 'm' ? 1e6 : unit === 'k' ? 1e3 : 1;
+  return num * multiplier;
+}
+
+// Cache for async-loaded data that sidebar sorting needs
+let _financialsCache = null;
+let _privateDataCache = null;
+
+async function preloadSortData() {
+  const [fin, priv] = await Promise.all([loadJSON('financials.json'), loadJSON('private_companies.json')]);
+  _financialsCache = fin;
+  _privateDataCache = priv;
+}
+
+function sortPublicByMarketCap(companies) {
+  if (!_financialsCache?.tickers) return companies;
+  const getMcap = (c) => {
+    const fin = _financialsCache.tickers[c.ticker];
+    return fin?.market_cap ?? -1;
+  };
+  return [...companies].sort((a, b) => getMcap(b) - getMcap(a));
+}
+
+function sortPrivateByValuation(companies) {
+  if (!_privateDataCache?.companies) return companies;
+  const getSortKey = (c) => {
+    const p = _privateDataCache.companies[c.name];
+    if (!p) return { tier: 2, val: 0, name: c.name };
+    const val = parseCurrencyToNumber(p.latest_valuation?.value);
+    if (val !== null) return { tier: 0, val, name: c.name };
+    const rev = parseCurrencyToNumber(p.latest_ttm_revenue?.value);
+    if (rev !== null) return { tier: 1, val: rev, name: c.name };
+    return { tier: 2, val: 0, name: c.name };
+  };
+  return [...companies].sort((a, b) => {
+    const ka = getSortKey(a);
+    const kb = getSortKey(b);
+    if (ka.tier !== kb.tier) return ka.tier - kb.tier;
+    if (ka.val !== kb.val) return kb.val - ka.val;
+    return ka.name.localeCompare(kb.name);
+  });
+}
+
 function buildSidebar() {
   const pub = document.getElementById('publicList');
   const priv = document.getElementById('privateList');
   pub.innerHTML = '';
   priv.innerHTML = '';
 
-  // Split public competitors: all non-PAR first, then PAR last with a separator
-  const publicNonPAR = COMPETITORS.filter(c => c.type === 'public' && c.id !== 'par');
-  const privateCos = COMPETITORS.filter(c => c.type === 'private');
+  // Split: other public (sorted by market cap), private (sorted by valuation), PAR at end
+  let publicNonPAR = COMPETITORS.filter(c => c.type === 'public' && c.id !== 'par');
+  let privateCos = COMPETITORS.filter(c => c.type === 'private');
   const par = COMPETITORS.find(c => c.id === 'par');
+
+  publicNonPAR = sortPublicByMarketCap(publicNonPAR);
+  privateCos = sortPrivateByValuation(privateCos);
 
   const makeItem = (c) => {
     const el = document.createElement('div');
@@ -1319,7 +1382,7 @@ async function showPARSummary(sidebarEl) {
   const parStockYTD = stocks?.ranges?.['YTD']?.find(s => s.ticker === 'PAR');
   const parNews = compData?.companies?.PAR || [];
 
-  // Build competitive benchmark table: PAR vs other public cos
+  // Build competitive benchmark table: PAR vs other public cos (sorted by market cap desc)
   const publicTickers = ['PAR', 'TOST', 'DASH', 'VYX', 'LSPD', 'FOUR', 'XYZ', 'GPN', 'FISV', 'UBER'];
   const benchRows = publicTickers.map(t => {
     const f = financials?.tickers?.[t];
@@ -1337,7 +1400,7 @@ async function showPARSummary(sidebarEl) {
       pe: f.trailing_pe,
       weekChange: s?.change_pct,
     };
-  }).filter(Boolean);
+  }).filter(Boolean).sort((a, b) => (b.mktcap ?? 0) - (a.mktcap ?? 0));
 
   // Rank PAR across key metrics
   const rank = (key, higherBetter = true) => {
@@ -1518,11 +1581,17 @@ async function showPARSummary(sidebarEl) {
 }
 
 // Init
-buildSidebar();
+buildSidebar();  // initial render (unsorted, since sort data not yet loaded)
 addEmailPreviewToSidebar();
 buildStockChart();
 setNextDigest();
 setTimeout(() => { loadOverviewAI(); loadHighlights(); loadGlobalNews(); }, 300);
+
+// Preload sort data and re-render sidebar with proper ordering once available
+preloadSortData().then(() => {
+  buildSidebar();  // re-render with sort (doesn't touch Tools section)
+});
+
 document.getElementById('lastUpdated').textContent = 'Last refreshed: ' + new Date().toLocaleTimeString();
 </script>
 </body>

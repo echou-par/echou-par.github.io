@@ -45,7 +45,7 @@ RANGE_PARAMS = {
 PRIVATE_COMPANIES = [
     'Olo', 'Thanx', 'Deliverect', 'TouchBistro', 'SpotOn', 'Bikky',
     'ItsaCheckmate', 'Otter POS', 'Snackpass', 'Peppr POS', 'Revi',
-    'TalonOne', 'Sparkfly', 'Tillster', 'Paytronix', 'Hang',
+    'TalonOne', 'Sparkfly', 'Tillster', 'Paytronix', 'Hang', 'Spendgo',
 ]
 
 RSS_FEEDS = [
@@ -87,6 +87,7 @@ COMPETITOR_QUERIES = {
     'Tillster': '%22Tillster%22',
     'Paytronix': '%22Paytronix%22',
     'Hang': '%22Hang+loyalty%22+OR+%22Hang+membership%22+restaurant',
+    'Spendgo': '%22Spendgo%22',
 }
 
 COMP_KEYWORDS = {
@@ -116,6 +117,7 @@ COMP_KEYWORDS = {
     'Peppr POS': ['peppr pos', 'peppr restaurant'],
     'Revi': ['getrevi', 'revi restaurant'],
     'Hang': ['hang.com loyalty', 'hang membership', 'hang loyalty'],
+    'Spendgo': ['spendgo'],
 }
 
 

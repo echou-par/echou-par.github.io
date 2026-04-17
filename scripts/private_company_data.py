@@ -159,6 +159,15 @@ PRIVATE_COMPANY_DATA = {
         'funding_status': {'value': 'Series A ($16M, April 2022)', 'date': '2022-04', 'source': 'TechCrunch'},
         'financial_highlights': 'Raised $16M Series A in April 2022 at $100M valuation, led by Paradigm. Total known funding ~$20M. Pivoted from NFT loyalty to broader membership infrastructure.',
     },
+    'Spendgo': {
+        'description': 'SaaS loyalty and retention marketing platform for restaurants. Acquired by Olo in December 2025.',
+        'website': 'spendgo.com',
+        'latest_valuation': {'value': 'Acquired by Olo (Dec 2025, terms undisclosed)', 'date': '2025-12', 'source': 'Olo press release / Restaurant Business reporting'},
+        'latest_ttm_revenue': {'value': '~$2.5M (est.)', 'date': '2024-12', 'source': 'Growjo estimate'},
+        'est_employees': {'value': '~25-50', 'date': '2025-12', 'source': 'LinkedIn / PitchBook'},
+        'funding_status': {'value': 'Acquired by Olo (Dec 2025)', 'date': '2025-12', 'source': 'Press release'},
+        'financial_highlights': 'Acquired by Olo in December 2025 as Olo\'s first acquisition under Thoma Bravo ownership. Terms undisclosed. Powers the new Olo Loyalty product. Previously raised total funding of ~$7.9M (per PitchBook) across one disclosed Series round led by Branded Strategic Hospitality. Clients include Round Table Pizza, Jamba Juice, Dickey\'s Barbeque.',
+    },
 }
 
 
