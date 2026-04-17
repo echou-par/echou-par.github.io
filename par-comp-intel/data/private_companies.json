@@ -1,0 +1,405 @@
+{
+  "updated": "2026-04-17T17:04:46.142708+00:00",
+  "companies": {
+    "Olo": {
+      "description": "Digital ordering and delivery platform for restaurant brands. Went private via Thoma Bravo take-private in July 2025.",
+      "website": "olo.com",
+      "latest_valuation": {
+        "value": "$2.0B",
+        "date": "2025-07",
+        "source": "Thoma Bravo acquisition (~$10.25/share, all-cash)"
+      },
+      "latest_ttm_revenue": {
+        "value": "$295M",
+        "date": "2024-12",
+        "source": "Final 10-K before take-private (FY2024)"
+      },
+      "est_employees": {
+        "value": "~700",
+        "date": "2025-07",
+        "source": "LinkedIn / last public S-1 data"
+      },
+      "funding_status": {
+        "value": "PE-owned (Thoma Bravo)",
+        "date": "2025-07",
+        "source": "Press release"
+      },
+      "financial_highlights": "At time of take-private: FY2024 revenue $295M (+28% YoY), gross margin ~58%, GAAP net loss narrowing. Transaction value ~$2.0B equity, representing ~6.8x TTM revenue."
+    },
+    "Thanx": {
+      "description": "Restaurant loyalty and digital guest engagement platform.",
+      "website": "thanx.com",
+      "latest_valuation": {
+        "value": "~$150M (est.)",
+        "date": "2022-09",
+        "source": "Crunchbase Series C extension estimate"
+      },
+      "latest_ttm_revenue": {
+        "value": "Not disclosed",
+        "date": "\u2014",
+        "source": "\u2014"
+      },
+      "est_employees": {
+        "value": "~100-150",
+        "date": "2025-09",
+        "source": "LinkedIn"
+      },
+      "funding_status": {
+        "value": "Series C (Sept 2022, $17M)",
+        "date": "2022-09",
+        "source": "PitchBook / company press release"
+      },
+      "financial_highlights": "Raised $17M Series C in Sept 2022 led by I2BF Global Ventures. Total known funding ~$33M across 5 rounds. Revenue not publicly disclosed."
+    },
+    "Deliverect": {
+      "description": "Delivery order management and integration platform for restaurants, headquartered in Belgium.",
+      "website": "deliverect.com",
+      "latest_valuation": {
+        "value": "$1.4B",
+        "date": "2022-09",
+        "source": "Series D funding announcement"
+      },
+      "latest_ttm_revenue": {
+        "value": "~$50M ARR (est.)",
+        "date": "2023-12",
+        "source": "TechCrunch reporting"
+      },
+      "est_employees": {
+        "value": "~500",
+        "date": "2025-09",
+        "source": "LinkedIn"
+      },
+      "funding_status": {
+        "value": "Series D ($150M, Sept 2022)",
+        "date": "2022-09",
+        "source": "Company press release"
+      },
+      "financial_highlights": "Series D of $150M in Sept 2022 at $1.4B valuation (unicorn status). Led by Coatue with participation from DST Global, OMERS Ventures. Total known funding ~$240M."
+    },
+    "TouchBistro": {
+      "description": "iPad POS and restaurant management platform.",
+      "website": "touchbistro.com",
+      "latest_valuation": {
+        "value": "~$500M (est.)",
+        "date": "2024-01",
+        "source": "PitchBook estimate"
+      },
+      "latest_ttm_revenue": {
+        "value": "~$100M ARR (est.)",
+        "date": "2023-12",
+        "source": "Industry reporting"
+      },
+      "est_employees": {
+        "value": "~500",
+        "date": "2025-09",
+        "source": "LinkedIn"
+      },
+      "funding_status": {
+        "value": "Series E (growth equity, 2024)",
+        "date": "2024-01",
+        "source": "Press release"
+      },
+      "financial_highlights": "Raised growth equity from Recognition Capital and existing investors. Total known funding ~$150M. Filed for IPO in 2021 (later withdrawn). Serves 29,000+ restaurants."
+    },
+    "SpotOn": {
+      "description": "Restaurant and small business technology including POS, payments, and marketing.",
+      "website": "spoton.com",
+      "latest_valuation": {
+        "value": "$3.15B",
+        "date": "2022-05",
+        "source": "Series F funding announcement"
+      },
+      "latest_ttm_revenue": {
+        "value": "Not disclosed",
+        "date": "\u2014",
+        "source": "\u2014"
+      },
+      "est_employees": {
+        "value": "~1,800",
+        "date": "2025-09",
+        "source": "LinkedIn"
+      },
+      "funding_status": {
+        "value": "Series F ($300M, May 2022)",
+        "date": "2022-05",
+        "source": "Company press release"
+      },
+      "financial_highlights": "Raised $300M Series F in May 2022 at $3.15B valuation, led by G Squared. Total known funding $940M+. Has made multiple acquisitions (Appetize, Emagine POS)."
+    },
+    "Bikky": {
+      "description": "Restaurant customer data platform and analytics for enterprise chains.",
+      "website": "bikky.com",
+      "latest_valuation": {
+        "value": "~$60M (est.)",
+        "date": "2023-06",
+        "source": "Series A estimate"
+      },
+      "latest_ttm_revenue": {
+        "value": "Not disclosed",
+        "date": "\u2014",
+        "source": "\u2014"
+      },
+      "est_employees": {
+        "value": "~30-50",
+        "date": "2025-09",
+        "source": "LinkedIn"
+      },
+      "funding_status": {
+        "value": "Series A ($7M, June 2023)",
+        "date": "2023-06",
+        "source": "TechCrunch"
+      },
+      "financial_highlights": "Raised $7M Series A in June 2023 led by Craft Ventures. Total known funding ~$10M. Serves enterprise restaurant brands with CDP and analytics."
+    },
+    "ItsaCheckmate": {
+      "description": "Restaurant online ordering aggregation and integration platform.",
+      "website": "itsacheckmate.com",
+      "latest_valuation": {
+        "value": "Not disclosed",
+        "date": "\u2014",
+        "source": "\u2014"
+      },
+      "latest_ttm_revenue": {
+        "value": "Not disclosed",
+        "date": "\u2014",
+        "source": "\u2014"
+      },
+      "est_employees": {
+        "value": "~200",
+        "date": "2025-09",
+        "source": "LinkedIn"
+      },
+      "funding_status": {
+        "value": "Bootstrapped / limited outside funding",
+        "date": "\u2014",
+        "source": "Public filings"
+      },
+      "financial_highlights": "Largely bootstrapped. Serves 20,000+ restaurant locations with delivery integrations. No major institutional rounds publicly disclosed."
+    },
+    "Otter POS": {
+      "description": "Restaurant management platform with POS and order aggregation, built by Otter (ex-CloudKitchens).",
+      "website": "tryotter.com",
+      "latest_valuation": {
+        "value": "$1.1B",
+        "date": "2024-02",
+        "source": "Bloomberg reporting on Otter parent valuation"
+      },
+      "latest_ttm_revenue": {
+        "value": "Not disclosed",
+        "date": "\u2014",
+        "source": "\u2014"
+      },
+      "est_employees": {
+        "value": "~400",
+        "date": "2025-09",
+        "source": "LinkedIn"
+      },
+      "funding_status": {
+        "value": "Series C ($50M, Feb 2024)",
+        "date": "2024-02",
+        "source": "Press release"
+      },
+      "financial_highlights": "Raised $50M Series C in Feb 2024 at $1.1B valuation. Total known funding $80M+. Spun out from CloudKitchens."
+    },
+    "Snackpass": {
+      "description": "Social commerce and mobile ordering platform for restaurants, popular on college campuses.",
+      "website": "snackpass.co",
+      "latest_valuation": {
+        "value": "$400M",
+        "date": "2021-11",
+        "source": "Series B funding announcement"
+      },
+      "latest_ttm_revenue": {
+        "value": "Not disclosed",
+        "date": "\u2014",
+        "source": "\u2014"
+      },
+      "est_employees": {
+        "value": "~100",
+        "date": "2025-09",
+        "source": "LinkedIn"
+      },
+      "funding_status": {
+        "value": "Series B ($70M, Nov 2021)",
+        "date": "2021-11",
+        "source": "Press release"
+      },
+      "financial_highlights": "Raised $70M Series B in Nov 2021 at $400M valuation, led by Craft Ventures. Total known funding ~$95M. Focused on college campus and QSR ordering."
+    },
+    "Peppr POS": {
+      "description": "Modern point-of-sale system designed for restaurants.",
+      "website": "peppr.com",
+      "latest_valuation": {
+        "value": "Not disclosed",
+        "date": "\u2014",
+        "source": "\u2014"
+      },
+      "latest_ttm_revenue": {
+        "value": "Not disclosed",
+        "date": "\u2014",
+        "source": "\u2014"
+      },
+      "est_employees": {
+        "value": "~30-50 (est.)",
+        "date": "2025-09",
+        "source": "LinkedIn estimate"
+      },
+      "funding_status": {
+        "value": "Early-stage / seed (private)",
+        "date": "\u2014",
+        "source": "Crunchbase"
+      },
+      "financial_highlights": "Early-stage private company. Limited public financial disclosure."
+    },
+    "Revi": {
+      "description": "Restaurant customer engagement and retention platform.",
+      "website": "getrevi.com",
+      "latest_valuation": {
+        "value": "Not disclosed",
+        "date": "\u2014",
+        "source": "\u2014"
+      },
+      "latest_ttm_revenue": {
+        "value": "Not disclosed",
+        "date": "\u2014",
+        "source": "\u2014"
+      },
+      "est_employees": {
+        "value": "~20-40 (est.)",
+        "date": "2025-09",
+        "source": "LinkedIn estimate"
+      },
+      "funding_status": {
+        "value": "Seed / early-stage",
+        "date": "\u2014",
+        "source": "Crunchbase"
+      },
+      "financial_highlights": "Early-stage. Limited public financial disclosure."
+    },
+    "TalonOne": {
+      "description": "Promotion and loyalty engine API for enterprise brands, headquartered in Berlin.",
+      "website": "talon.one",
+      "latest_valuation": {
+        "value": "Not disclosed",
+        "date": "\u2014",
+        "source": "\u2014"
+      },
+      "latest_ttm_revenue": {
+        "value": "Not disclosed",
+        "date": "\u2014",
+        "source": "\u2014"
+      },
+      "est_employees": {
+        "value": "~200",
+        "date": "2025-09",
+        "source": "LinkedIn"
+      },
+      "funding_status": {
+        "value": "Series B ($10M, 2021)",
+        "date": "2021-07",
+        "source": "TechCrunch"
+      },
+      "financial_highlights": "Series B of $10M in July 2021, led by Ecosystem Integrity Fund. Total known funding ~$20M. Serves enterprise retail and restaurant brands with a promotions API."
+    },
+    "Sparkfly": {
+      "description": "Real-time offer management and loyalty redemption platform for restaurants.",
+      "website": "sparkfly.com",
+      "latest_valuation": {
+        "value": "Not disclosed",
+        "date": "\u2014",
+        "source": "\u2014"
+      },
+      "latest_ttm_revenue": {
+        "value": "Not disclosed",
+        "date": "\u2014",
+        "source": "\u2014"
+      },
+      "est_employees": {
+        "value": "~50-100",
+        "date": "2025-09",
+        "source": "LinkedIn"
+      },
+      "funding_status": {
+        "value": "Private / growth stage",
+        "date": "\u2014",
+        "source": "Crunchbase"
+      },
+      "financial_highlights": "Bootstrapped / limited institutional funding disclosed. Serves major QSR and restaurant brands with promotional offer infrastructure."
+    },
+    "Tillster": {
+      "description": "Digital ordering, kiosk, and data analytics solutions for restaurant chains.",
+      "website": "tillster.com",
+      "latest_valuation": {
+        "value": "Not disclosed",
+        "date": "\u2014",
+        "source": "\u2014"
+      },
+      "latest_ttm_revenue": {
+        "value": "~$80M (est.)",
+        "date": "2024-12",
+        "source": "Industry estimate"
+      },
+      "est_employees": {
+        "value": "~400",
+        "date": "2025-09",
+        "source": "LinkedIn"
+      },
+      "funding_status": {
+        "value": "PE-owned (Volaris Group / Constellation Software)",
+        "date": "2018",
+        "source": "Acquisition announcement"
+      },
+      "financial_highlights": "Acquired by Volaris Group (Constellation Software) in 2018. Serves 50+ major restaurant brands including Taco Bell, KFC, Subway, Burger King."
+    },
+    "Paytronix": {
+      "description": "Loyalty, gift, and digital customer engagement platform for restaurants.",
+      "website": "paytronix.com",
+      "latest_valuation": {
+        "value": "Not disclosed",
+        "date": "\u2014",
+        "source": "\u2014"
+      },
+      "latest_ttm_revenue": {
+        "value": "~$100M (est.)",
+        "date": "2024-12",
+        "source": "Industry estimate"
+      },
+      "est_employees": {
+        "value": "~500",
+        "date": "2025-09",
+        "source": "LinkedIn"
+      },
+      "funding_status": {
+        "value": "PE-owned (Great Hill Partners)",
+        "date": "2017",
+        "source": "Acquisition announcement"
+      },
+      "financial_highlights": "Acquired by Great Hill Partners in 2017 for undisclosed amount. Serves 1,800+ restaurant brands with loyalty, gift cards, online ordering."
+    },
+    "Hang": {
+      "description": "Next-gen restaurant loyalty and membership platform.",
+      "website": "hang.com",
+      "latest_valuation": {
+        "value": "$100M",
+        "date": "2022-04",
+        "source": "Series A announcement"
+      },
+      "latest_ttm_revenue": {
+        "value": "Not disclosed",
+        "date": "\u2014",
+        "source": "\u2014"
+      },
+      "est_employees": {
+        "value": "~30-50",
+        "date": "2025-09",
+        "source": "LinkedIn"
+      },
+      "funding_status": {
+        "value": "Series A ($16M, April 2022)",
+        "date": "2022-04",
+        "source": "TechCrunch"
+      },
+      "financial_highlights": "Raised $16M Series A in April 2022 at $100M valuation, led by Paradigm. Total known funding ~$20M. Pivoted from NFT loyalty to broader membership infrastructure."
+    }
+  }
+}
