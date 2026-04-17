@@ -161,119 +161,168 @@ def is_duplicate(item_tokens, seen_token_sets, threshold=0.6):
 
 
 def fetch_yahoo_chart(ticker, range_key, retries=2):
-    r, interval = RANGE_PARAMS[range_key]
-    url = f'https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?range={r}&interval={interval}&events=history'
+    """Use yfinance to get price history — handles cookies/crumb properly on GitHub runners."""
+    import yfinance as yf
+    r, _interval = RANGE_PARAMS[range_key]
+    # Map range_key to yfinance period format
+    period_map = {'1W': '5d', '1M': '1mo', '3M': '3mo', 'YTD': 'ytd'}
+    interval_map = {'1W': '1d', '1M': '1d', '3M': '1wk', 'YTD': '1wk'}
+    period = period_map.get(range_key, '5d')
+    interval = interval_map.get(range_key, '1d')
     for attempt in range(retries + 1):
         try:
-            res = requests.get(url, headers=HEADERS, timeout=15)
-            if res.status_code == 429:
-                time.sleep(2 ** attempt)
-                continue
-            res.raise_for_status()
-            data = res.json()
-            chart = data.get('chart', {}).get('result', [None])[0]
-            if not chart:
+            t = yf.Ticker(ticker)
+            hist = t.history(period=period, interval=interval, auto_adjust=True)
+            if hist is None or hist.empty or len(hist) < 2:
                 return None
-            closes = [c for c in chart.get('indicators', {}).get('quote', [{}])[0].get('close', []) if c is not None]
+            closes = [float(v) for v in hist['Close'].dropna().tolist()]
             if len(closes) < 2:
                 return None
             pct = ((closes[-1] - closes[0]) / closes[0]) * 100
-            meta = chart.get('meta', {})
+            # Try to get current price from fast_info, fall back to last close
+            price = None
+            try:
+                price = float(t.fast_info.get('last_price') or closes[-1])
+            except Exception:
+                price = closes[-1]
             return {
                 'ticker': ticker,
                 'company': COMPANY_MAP.get(ticker, ticker),
                 'change_pct': round(pct, 2),
-                'price': round(meta.get('regularMarketPrice', 0), 2) if meta.get('regularMarketPrice') else None,
+                'price': round(price, 2) if price else None,
             }
         except Exception as e:
             if attempt == retries:
-                print(f'  Yahoo chart failed for {ticker} ({range_key}): {e}')
+                print(f'  yfinance chart failed for {ticker} ({range_key}): {e}')
             else:
                 time.sleep(1)
     return None
 
 
-def get_num(d, key):
-    if not isinstance(d, dict):
+def _safe_num(v):
+    """Coerce pandas/numpy scalar to python float."""
+    try:
+        if v is None:
+            return None
+        f = float(v)
+        if f != f:  # NaN check
+            return None
+        return f
+    except Exception:
         return None
-    v = d.get(key)
-    if isinstance(v, dict):
-        return v.get('raw')
-    return v
 
 
-def parse_statement(stmt):
-    if not stmt:
+def _df_col_to_dict(df, col):
+    """Given a financials DataFrame and a column (period), return dict of row→value."""
+    try:
+        if df is None or df.empty or col not in df.columns:
+            return {}
+        series = df[col]
+        # Convert index (row labels) + values to dict
+        return {str(idx): _safe_num(v) for idx, v in series.items()}
+    except Exception:
         return {}
-    ed = stmt.get('endDate', {})
-    end_date = ed.get('fmt') if isinstance(ed, dict) else ed
+
+
+def _map_statement(period_dict, end_date):
+    """Map yfinance statement row names to our canonical schema."""
     out = {'endDate': end_date}
-    for key in [
-        'totalRevenue', 'costOfRevenue', 'grossProfit', 'operatingIncome',
-        'ebit', 'researchDevelopment', 'sellingGeneralAdministrative',
-        'totalOperatingExpenses', 'netIncome', 'incomeBeforeTax',
-        'cash', 'shortTermInvestments', 'netReceivables', 'totalCurrentAssets',
-        'totalAssets', 'totalCurrentLiabilities', 'longTermDebt', 'totalLiab',
-        'totalStockholderEquity', 'goodWill', 'intangibleAssets',
-    ]:
-        val = get_num(stmt, key)
-        if val is not None:
-            out[key] = val
+    # yfinance uses these canonical labels (as of yfinance ~0.2.x / 2026)
+    mapping = {
+        'totalRevenue':                  ['Total Revenue', 'Revenue', 'Operating Revenue'],
+        'costOfRevenue':                 ['Cost Of Revenue', 'Cost of Revenue'],
+        'grossProfit':                   ['Gross Profit'],
+        'researchDevelopment':           ['Research And Development', 'Research & Development', 'Research Development'],
+        'sellingGeneralAdministrative':  ['Selling General And Administration', 'Selling General and Administration', 'Selling General Administrative'],
+        'totalOperatingExpenses':        ['Operating Expense', 'Total Operating Expenses'],
+        'operatingIncome':               ['Operating Income'],
+        'ebit':                          ['EBIT'],
+        'netIncome':                     ['Net Income', 'Net Income Common Stockholders'],
+        'incomeBeforeTax':               ['Pretax Income', 'Income Before Tax'],
+        # Balance sheet
+        'cash':                          ['Cash And Cash Equivalents', 'Cash'],
+        'shortTermInvestments':          ['Other Short Term Investments', 'Short Term Investments'],
+        'netReceivables':                ['Accounts Receivable', 'Receivables'],
+        'totalCurrentAssets':            ['Current Assets'],
+        'totalAssets':                   ['Total Assets'],
+        'totalCurrentLiabilities':       ['Current Liabilities'],
+        'longTermDebt':                  ['Long Term Debt'],
+        'totalLiab':                     ['Total Liabilities Net Minority Interest', 'Total Liab'],
+        'totalStockholderEquity':        ['Stockholders Equity', 'Common Stock Equity', 'Total Equity Gross Minority Interest'],
+        'goodWill':                      ['Goodwill'],
+        'intangibleAssets':              ['Other Intangible Assets', 'Intangible Assets'],
+    }
+    for our_key, candidates in mapping.items():
+        for candidate in candidates:
+            if candidate in period_dict and period_dict[candidate] is not None:
+                out[our_key] = period_dict[candidate]
+                break
     return out
 
 
 def fetch_yahoo_quote_summary(ticker, retries=2):
-    modules = ','.join([
-        'price', 'summaryDetail', 'financialData', 'defaultKeyStatistics',
-        'incomeStatementHistory', 'incomeStatementHistoryQuarterly',
-        'balanceSheetHistory', 'balanceSheetHistoryQuarterly',
-        'cashflowStatementHistory',
-    ])
-    url = f'https://query1.finance.yahoo.com/v10/finance/quoteSummary/{ticker}?modules={modules}'
+    """Use yfinance to get comprehensive financials (market cap, TTM, income stmt, balance sheet)."""
+    import yfinance as yf
     for attempt in range(retries + 1):
         try:
-            res = requests.get(url, headers=HEADERS, timeout=15)
-            if res.status_code == 429:
-                time.sleep(2 ** attempt)
-                continue
-            res.raise_for_status()
-            data = res.json()
-            result = data.get('quoteSummary', {}).get('result', [None])[0]
-            if not result:
-                return None
+            t = yf.Ticker(ticker)
+            info = t.info or {}
 
-            price_mod = result.get('price', {})
-            summary = result.get('summaryDetail', {})
-            fin = result.get('financialData', {})
-            stats = result.get('defaultKeyStatistics', {})
+            def parse_df(df):
+                """Take yfinance financials DataFrame and return list of period-dicts."""
+                if df is None or df.empty:
+                    return []
+                periods = []
+                # Columns are timestamps (dates); take first N
+                for col in df.columns:
+                    end_date = col.strftime('%Y-%m-%d') if hasattr(col, 'strftime') else str(col)
+                    period_dict = {str(idx): _safe_num(v) for idx, v in df[col].items()}
+                    periods.append(_map_statement(period_dict, end_date))
+                return periods
 
-            income_hist = result.get('incomeStatementHistory', {}).get('incomeStatementHistory', [])
-            income_hist_q = result.get('incomeStatementHistoryQuarterly', {}).get('incomeStatementHistory', [])
-            balance_hist = result.get('balanceSheetHistory', {}).get('balanceSheetStatements', [])
-            balance_hist_q = result.get('balanceSheetHistoryQuarterly', {}).get('balanceSheetStatements', [])
+            income_a = parse_df(t.income_stmt)[:3]
+            income_q = parse_df(t.quarterly_income_stmt)[:4]
+            balance_a = parse_df(t.balance_sheet)[:2]
+            balance_q = parse_df(t.quarterly_balance_sheet)[:2]
+
+            # Market cap from fast_info (most reliable) with fallback to info
+            try:
+                market_cap = _safe_num(t.fast_info.get('market_cap'))
+            except Exception:
+                market_cap = None
+            if not market_cap:
+                market_cap = _safe_num(info.get('marketCap'))
+
+            # Price similarly
+            try:
+                price = _safe_num(t.fast_info.get('last_price'))
+            except Exception:
+                price = None
+            if not price:
+                price = _safe_num(info.get('regularMarketPrice') or info.get('currentPrice'))
 
             return {
                 'ticker': ticker,
                 'company': COMPANY_MAP.get(ticker, ticker),
-                'price': get_num(price_mod, 'regularMarketPrice'),
-                'market_cap': get_num(price_mod, 'marketCap') or get_num(summary, 'marketCap'),
-                'ttm_revenue': get_num(fin, 'totalRevenue'),
-                'ttm_ebitda': get_num(fin, 'ebitda'),
-                'ttm_gross_profit': get_num(fin, 'grossProfits'),
-                'revenue_growth_yoy': get_num(fin, 'revenueGrowth'),
-                'ebitda_margin': get_num(fin, 'ebitdaMargins'),
-                'gross_margin': get_num(fin, 'grossMargins'),
-                'enterprise_value': get_num(stats, 'enterpriseValue'),
-                'trailing_pe': get_num(summary, 'trailingPE'),
-                'forward_pe': get_num(summary, 'forwardPE'),
-                'income_statement_annual': [parse_statement(s) for s in income_hist[:3]],
-                'income_statement_quarterly': [parse_statement(s) for s in income_hist_q[:4]],
-                'balance_sheet_annual': [parse_statement(s) for s in balance_hist[:2]],
-                'balance_sheet_quarterly': [parse_statement(s) for s in balance_hist_q[:2]],
+                'price': price,
+                'market_cap': market_cap,
+                'ttm_revenue': _safe_num(info.get('totalRevenue')),
+                'ttm_ebitda': _safe_num(info.get('ebitda')),
+                'ttm_gross_profit': _safe_num(info.get('grossProfits')),
+                'revenue_growth_yoy': _safe_num(info.get('revenueGrowth')),
+                'ebitda_margin': _safe_num(info.get('ebitdaMargins')),
+                'gross_margin': _safe_num(info.get('grossMargins')),
+                'enterprise_value': _safe_num(info.get('enterpriseValue')),
+                'trailing_pe': _safe_num(info.get('trailingPE')),
+                'forward_pe': _safe_num(info.get('forwardPE')),
+                'income_statement_annual': income_a,
+                'income_statement_quarterly': income_q,
+                'balance_sheet_annual': balance_a,
+                'balance_sheet_quarterly': balance_q,
             }
         except Exception as e:
             if attempt == retries:
-                print(f'  Yahoo quoteSummary failed for {ticker}: {e}')
+                print(f'  yfinance quoteSummary failed for {ticker}: {e}')
             else:
                 time.sleep(1.5)
     return None
