@@ -1,8 +1,8 @@
 {
-  "updated": "2026-04-18T10:28:01.941143+00:00",
-  "total": 9,
+  "updated": "2026-04-18T12:01:17.198258+00:00",
+  "total": 8,
   "by_category": {
-    "analyst_downgrade": 4,
+    "analyst_downgrade": 3,
     "stock_move": 5
   },
   "alerts": [
@@ -16,7 +16,7 @@
       "date": "Fri, 17 Apr 2026 13:33:36 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-04-18T10:28:01.941143+00:00"
+      "detected_at": "2026-04-18T12:01:17.198258+00:00"
     },
     {
       "category": "analyst_downgrade",
@@ -28,19 +28,7 @@
       "date": "Thu, 16 Apr 2026 12:48:34 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-04-18T10:28:01.941143+00:00"
-    },
-    {
-      "category": "analyst_downgrade",
-      "severity": "high",
-      "company": "Shift4",
-      "headline": "Wolfe Research downgrades Shift4 Payments (FOUR) - MSN",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNXzFncHR3R3lUTGR5Zkd6MTctMUE4c2tOdkN5Q01fTnRwVGpRMUV0Z1AzZWZlVlJ0aWR5SlhJaUJvUFFLUjZrTkZSYUJXNFV1bDZEeXdkbWYwbko1ZEYtbVdqX1BXU3ZzUlVGZ25JbmxDWFJHYTBER1RONFJDa0hLN0NRd1otYkh3Y1RYTHF6RDMxR3NqbTJxdXM1cTFEVWc?oc=5",
-      "source": "Google News",
-      "date": "Thu, 16 Apr 2026 03:36:27 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-04-18T10:28:01.941143+00:00"
+      "detected_at": "2026-04-18T12:01:17.198258+00:00"
     },
     {
       "category": "analyst_downgrade",
@@ -52,7 +40,7 @@
       "date": "Wed, 15 Apr 2026 02:32:00 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-04-18T10:28:01.941143+00:00"
+      "detected_at": "2026-04-18T12:01:17.198258+00:00"
     },
     {
       "category": "stock_move",
@@ -61,10 +49,10 @@
       "headline": "DoorDash (DASH) stock up 15.2% over the past week",
       "url": "https://finance.yahoo.com/quote/DASH",
       "source": "Yahoo Finance",
-      "date": "2026-04-18T10:28:01.941143+00:00",
+      "date": "2026-04-18T12:01:17.198258+00:00",
       "par_relevance": 2,
       "note": "+15.2% 1W",
-      "detected_at": "2026-04-18T10:28:01.941143+00:00"
+      "detected_at": "2026-04-18T12:01:17.198258+00:00"
     },
     {
       "category": "stock_move",
@@ -73,10 +61,10 @@
       "headline": "Toast (TOST) stock up 7.1% over the past week",
       "url": "https://finance.yahoo.com/quote/TOST",
       "source": "Yahoo Finance",
-      "date": "2026-04-18T10:28:01.941143+00:00",
+      "date": "2026-04-18T12:01:17.198258+00:00",
       "par_relevance": 3,
       "note": "+7.1% 1W",
-      "detected_at": "2026-04-18T10:28:01.941143+00:00"
+      "detected_at": "2026-04-18T12:01:17.198258+00:00"
     },
     {
       "category": "stock_move",
@@ -85,10 +73,10 @@
       "headline": "Lightspeed (LSPD) stock up 9.0% over the past week",
       "url": "https://finance.yahoo.com/quote/LSPD",
       "source": "Yahoo Finance",
-      "date": "2026-04-18T10:28:01.941143+00:00",
+      "date": "2026-04-18T12:01:17.198258+00:00",
       "par_relevance": 3,
       "note": "+9.0% 1W",
-      "detected_at": "2026-04-18T10:28:01.941143+00:00"
+      "detected_at": "2026-04-18T12:01:17.198258+00:00"
     },
     {
       "category": "stock_move",
@@ -97,10 +85,10 @@
       "headline": "Shift4 (FOUR) stock up 9.2% over the past week",
       "url": "https://finance.yahoo.com/quote/FOUR",
       "source": "Yahoo Finance",
-      "date": "2026-04-18T10:28:01.941143+00:00",
+      "date": "2026-04-18T12:01:17.198258+00:00",
       "par_relevance": 3,
       "note": "+9.2% 1W",
-      "detected_at": "2026-04-18T10:28:01.941143+00:00"
+      "detected_at": "2026-04-18T12:01:17.198258+00:00"
     },
     {
       "category": "stock_move",
@@ -109,10 +97,10 @@
       "headline": "Fiserv (FISV) stock up 8.8% over the past week",
       "url": "https://finance.yahoo.com/quote/FISV",
       "source": "Yahoo Finance",
-      "date": "2026-04-18T10:28:01.941143+00:00",
+      "date": "2026-04-18T12:01:17.198258+00:00",
       "par_relevance": 3,
       "note": "+8.8% 1W",
-      "detected_at": "2026-04-18T10:28:01.941143+00:00"
+      "detected_at": "2026-04-18T12:01:17.198258+00:00"
     }
   ]
 }
