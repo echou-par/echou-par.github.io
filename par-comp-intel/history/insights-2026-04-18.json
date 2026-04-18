@@ -2,7 +2,7 @@
   "date": "2026-04-18",
   "weekday": "Saturday",
   "first_seen": "2026-04-18T05:57:04.610349+00:00",
-  "last_updated": "2026-04-18T17:24:59.855318+00:00",
+  "last_updated": "2026-04-18T19:52:14.666221+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Fiserv, Global Payments appeared together in coverage \u2014 \"Will Fiserv\u2019s (FISV) Japan Clover Launch with SMCC Reshape Its Global Payments Platform Narrative - Yahoo Finance\"",
@@ -190,12 +190,56 @@
       ],
       "company": "Deliverect",
       "first_detected": "2026-04-18T12:01:17.198258+00:00"
+    },
+    {
+      "text": "Shift4 shows concentrated product launch activity \u2014 4 tracked product launch items this cycle. Latest: \"Shift4 Announces Fourth Dividend Date for Mandatory Convertible Preferred Stock - Shift4\"",
+      "sources": [
+        {
+          "title": "Shift4 Announces Fourth Dividend Date for Mandatory Convertible Preferred Stock - Shift4",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOcWc5LWtaQ3EyNUk0U1FzU0hocU9OMWo4a3o1YUx3YWsyVTZkUUFDM3pqNlFNX0RvUWlkcDN4Mk1xQ3UtaEk5OThXMHotMjNsYTlmX1FtVXJZYU5ON19ydEp0NkVDU3l6UGxiNWRBY0Jpbk9GMURqNlluanM1NUN1TVJHY19wYmNFU0R3b1Y1RDF4VnhZTmxIcUhYTzJJX2V4OWNGNXdjc1lNWWFiaDBvRm9kTDJlOTdBLUJyYmZCMWk2NThkYVU0Nks4TGFmNUtlbDZwcEJrcXFTWFBibTVZ?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Shift4 Announces Executive Promotions and Leadership Changes - Shift4",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaWJtSUpiS1Y4S0YwSWN5dG9nZTNyX05NT1V2eWkxT3Q4YlpRZWh3MUdMN1c5dG5ZMVFUbW1TQ2ZWOVg5SVBWTXhLanV3eTJjMDJmS0xFTjhYY1dkVTlFQzJsbkVlUE1jRVhvNlQ2N0xEb3NsZmcwTkVwV2VRQVU1clMwdXJ0Y2FNY2xIQUxOa3Zmc29YTFFJZWJ4MEJiMmFnQ19GUVg5T0VKSjhjS0VkVk5HWGlqVlRqMWowLUNFQmpHX3NxbEE?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Shift4 Completes Previously Announced Acquisition of Worldline's North American Subsidiaries - Shift4",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQWHBZU2VXMDZ0OXBYcTc3RndrdU1kUHB1Z0hpRzdqMElTc0diZTZ2MEhMVGlWd0l1NUtOYzI5ZXY0WW16dk1GV1FTY1VraHE3X0NSSW5qbkhnVzg3aHZ2Tm9EQXBQUFdtWW1XX29VRjZzeWdBWmJmbmg2bkZJbk42UmY3R1BQNV9ubndlMm5KUnp3UGhwV2NsT0xua1VrdV9DVXhwWk80LWJIWXNPZWo4SGxuVXFHOEt1UzVmTVc1TlFGbkxnVVNGZWREQm1sYkFSQllaSmZ2MGtsUHBBYy1wcS1YcjQ2bVNlYW80RHZLSQ?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Shift4",
+      "first_detected": "2026-04-18T19:52:14.666221+00:00"
+    },
+    {
+      "text": "Toast shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"KBC Group NV Decreases Stock Position in Toast, Inc. $TOST - MarketBeat\"",
+      "sources": [
+        {
+          "title": "KBC Group NV Decreases Stock Position in Toast, Inc. $TOST - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUjNHUVF3V0toYXJwUnBYc2w3NjFhZE50T0s0b3lhbklIcmNEdTlvbW14UEZ5QUh6UGZOR1Z4YjFpZGNNdk5MUkFiMDViYjE0NXp3SkVvVUY3TkZOWUUzTUpfZ05vVVR4aE9ycUpRdW1UTGJUaVp6M19UR1dUOUZSZ3A2ZGZheXEyNDYyQU0tSGxqbXVBQ2hXc3BycVZ0RlZTTEVYMGIwa1I2SmpuYnVXQlhwZFpPdmM?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Is Toast (TOST) Priced Right After Recent 9.8% Weekly Share Price Jump? - simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWE1MeXZTNk9aZWVpTnN3bWxfRkx3NVotdkhhNHRwcVVmZ2FUSWp2UE5FV1ZmaHEyT2YwT0RIUUJ3NmRaS0JjX0M1R3JxcTN0SVZFd0FYMHdaQnB3WG9xTnJrX0JyTUEybTE4VmJ3T0dOdEpFTjdDOTg2MGhnZEdzQjZubndjeEh6MUI3bTZ5NUp1V05Xekc5TnRCVVJ0RmZBWV93dmc5RklfajBUb3BjY1hGaG1DT0lNb3o5WWJqaUdaVkxheW91b2RRUXpvdEFDQ1HSAdcBQVVfeXFMT2ZHakdzMnl6SXU1MFhhMURscktZVXJHckRyckF1RktTV0tDYU5hVEM4YjNTQUM2LWtBZVA3MEpGcWlDQjJZTTVRXzcwTmhscUpnYUNYbjk5Z012WEwtQWxVbWhCUXFDcW9CV3lrdktuSE93bXRUVHZaaEFzbWRQNkEyRjNrZzhKSWRGTmt0N3pkeVp2ODk3X1RKd21YR2VsbDY2V3VnMDRSRkFycWxEWDZPd2NuMjZPcEs1OWNuU2N3blpUaUhWNGlHX21OWlBwWEZ6UzlOZEk?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Toast, Inc. (TOST) Is a Trending Stock: Facts to Know Before Betting on It - Yahoo Finance Australia",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQb0NFZnpZZUdJc29TLWJ3U0tSQkt4eHB2UnVCSDJTYW9UX2d4N09kX19ldTBnZ3NzSXptby1TUUJPRU5CakNtRzM1U0ctWjkxQjVaQi00YUtrOGJ0d0F3S0l5YlNvS0EzMG1LanNKeEJNSHhGakdBYVBqTS11a1BWUXltR0Q?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Toast",
+      "first_detected": "2026-04-18T19:52:14.666221+00:00"
     }
   ],
   "most_mentioned": [
     {
       "company": "DoorDash",
-      "count": 20
+      "count": 19
     },
     {
       "company": "TouchBistro",
@@ -222,7 +266,7 @@
       "count": 15
     },
     {
-      "company": "NCR Voyix",
+      "company": "PAR",
       "count": 15
     }
   ]
