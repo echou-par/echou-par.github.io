@@ -1929,8 +1929,10 @@ async function loadOverviewAI(targetDate = null) {
 }
 
 // Build the weekly product-updates section inside the AI summary. Reads from
-// product_insights_weekly.json which is populated by the daily 9 AM ET cron.
-// Each bullet is per-competitor: count + latest headline as clickable example.
+// product_insights_weekly.json which is populated by the daily 9:30 AM ET cron.
+// Renders up to 3 sub-bullets per company: the latest item + the 2 most
+// substantive (by headline+description length). Count pill links to that
+// company's Product Updates tab.
 // Only rendered on the 'today' view (targetDate null); historical snapshots
 // deliberately don't show this since they're cycle-specific.
 function buildWeeklyProductUpdatesHtml(weeklyData, targetDate) {
@@ -1968,26 +1970,82 @@ function buildWeeklyProductUpdatesHtml(weeklyData, targetDate) {
     ? new Date(weeklyData.week_start).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })
     : '';
 
-  const bulletsHtml = sorted.map(b => {
-    // Build clickable latest headline
-    const latest = b.latest_headline
-      ? (b.latest_url
-          ? ` — latest: <a href="${b.latest_url}" target="_blank" style="color:var(--accent);text-decoration:none;">${escapeHtml(b.latest_headline).slice(0, 120)}${b.latest_headline.length > 120 ? '…' : ''}</a>`
-          : ` — latest: ${escapeHtml(b.latest_headline).slice(0, 120)}`)
-      : '';
+  // Given a company bucket's items[], return up to 3 picks:
+  //   Position 0: latest (newest by date)
+  //   Positions 1-2: "most substantive" by length score (len(headline) + 2*len(description)),
+  //                   picked from the remaining items
+  function pickTopItems(items) {
+    if (!items || items.length === 0) return [];
+    const sortedByDate = [...items].sort((a, b) => {
+      const da = new Date(a.date || 0);
+      const db = new Date(b.date || 0);
+      return db - da;
+    });
+    const latest = sortedByDate[0];
+    const rest = sortedByDate.slice(1);
+    // Rank rest by length score — description weighted 2x since it's more substantive
+    const scored = rest.map(item => ({
+      item,
+      score: (item.headline || '').length + 2 * (item.description || '').length,
+    }));
+    scored.sort((a, b) => b.score - a.score);
+    const top2 = scored.slice(0, 2).map(s => s.item);
+    return [latest, ...top2];
+  }
 
-    // Link the competitor name to its detail page
+  const bulletsHtml = sorted.map(b => {
+    // Back-compat: v1 bucket with latest_headline but no items[] array
+    let items = Array.isArray(b.items) ? b.items : [];
+    if (items.length === 0 && b.latest_headline) {
+      items = [{
+        headline: b.latest_headline,
+        url: b.latest_url || '',
+        date: b.latest_date || '',
+        description: '',
+      }];
+    }
+
+    // Find competitor metadata for cross-links
     const comp = COMPETITORS.find(c => c.name === b.company || c.name.startsWith(b.company));
+
+    // Company link — opens competitor detail page (defaults to News tab)
     const companyLink = comp
       ? `<a href="#" onclick="navigateToCompetitor('${comp.id}');return false;" style="color:var(--text);font-weight:600;text-decoration:none;border-bottom:1px dotted var(--text3);">${escapeHtml(b.company)}</a>`
       : `<strong>${escapeHtml(b.company)}</strong>`;
 
+    // Count pill — clickable, navigates to that company's Product Updates tab
     const countLabel = `${b.count} update${b.count !== 1 ? 's' : ''}`;
-    const pill = `<span style="background:var(--accent-bg);color:var(--accent);padding:1px 6px;border-radius:10px;font-size:10px;font-weight:600;margin-left:6px;vertical-align:1px;">${countLabel}</span>`;
+    const pill = comp
+      ? `<a href="#" onclick="navigateToCompetitorTab('${comp.id}','products');return false;" style="background:var(--accent-bg);color:var(--accent);padding:1px 8px;border-radius:10px;font-size:10px;font-weight:600;margin-left:6px;vertical-align:1px;text-decoration:none;border:0.5px solid transparent;transition:border-color 0.15s;" title="Open ${escapeHtml(b.company)}'s Product Updates tab" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='transparent'">${countLabel} →</a>`
+      : `<span style="background:var(--accent-bg);color:var(--accent);padding:1px 6px;border-radius:10px;font-size:10px;font-weight:600;margin-left:6px;vertical-align:1px;">${countLabel}</span>`;
 
-    return `<div style="display:flex;gap:10px;margin-bottom:8px;align-items:flex-start;font-size:13px;line-height:1.5;">
-      <span style="color:var(--accent);font-weight:700;">•</span>
-      <div style="flex:1;">${companyLink}${pill}${latest}</div>
+    // Build sub-bullets: up to 3 picks
+    const picks = pickTopItems(items);
+    const subBulletsHtml = picks.length
+      ? picks.map((item, i) => {
+          const isLatest = i === 0;
+          const labelChip = isLatest
+            ? `<span style="background:var(--amber,#F8931C);color:#fff;padding:0 5px;border-radius:3px;font-size:9px;font-weight:600;margin-right:5px;text-transform:uppercase;letter-spacing:0.4px;">Latest</span>`
+            : '';
+          const desc = item.description
+            ? escapeHtml(item.description)
+            : escapeHtml(item.headline || '').slice(0, 180);
+          const sourceLink = item.url
+            ? ` <a href="${item.url}" target="_blank" style="color:var(--accent);text-decoration:none;font-size:10px;white-space:nowrap;">source ↗</a>`
+            : '';
+          return `<div style="display:flex;gap:8px;align-items:flex-start;margin-top:4px;padding-left:6px;font-size:12px;line-height:1.5;color:var(--text2);">
+            <span style="color:var(--text3);margin-top:1px;">◦</span>
+            <div style="flex:1;">${labelChip}${desc}${sourceLink}</div>
+          </div>`;
+        }).join('')
+      : '';
+
+    return `<div style="margin-bottom:10px;font-size:13px;line-height:1.5;">
+      <div style="display:flex;gap:10px;align-items:flex-start;">
+        <span style="color:var(--accent);font-weight:700;">•</span>
+        <div style="flex:1;">${companyLink}${pill}</div>
+      </div>
+      ${subBulletsHtml}
     </div>`;
   }).join('');
 
@@ -2034,6 +2092,27 @@ function navigateToCompetitor(compId) {
       showCompetitor(compId, sidebarEl);
     }
   }
+}
+
+// Navigate to a competitor AND switch to a specific tab (e.g. the "Product
+// Updates" tab from the weekly section count pill). Waits briefly for
+// showCompetitor() to render the tab DOM before clicking the target tab.
+function navigateToCompetitorTab(compId, tab) {
+  navigateToCompetitor(compId);
+  // switchCompTab() expects the clicked button element. The competitor detail
+  // is rendered synchronously inside showCompetitor(), so the tab DOM should
+  // exist immediately — but we defer one tick to be safe for async fetches.
+  setTimeout(() => {
+    // Find the tab button by its onclick attribute content
+    const buttons = document.querySelectorAll(`#view-competitor .tab`);
+    for (const btn of buttons) {
+      const onclickStr = btn.getAttribute('onclick') || '';
+      if (onclickStr.includes(`switchCompTab('${tab}'`)) {
+        btn.click();
+        return;
+      }
+    }
+  }, 50);
 }
 
 // ─── Email preview ────────────────────────────────────────────────────────────
