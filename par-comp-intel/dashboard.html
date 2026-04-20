@@ -1159,14 +1159,57 @@ function renderCompetitorNews(compId, items, c) {
 // configured RSS feeds haven't returned any content yet (or don't have any
 // configured source beyond the site: fallback).
 
-const PRODUCT_UPDATE_TYPES = ['product_release', 'changelog', 'press_release', 'site_news'];
+// ─── Product-update topic filter (JS mirror of Python is_product_update) ────
+// Single client-side source of truth for 'is this item a product update?'.
+// Must stay in sync with is_product_update() in scripts/fetch_data.py —
+// same content_type set, same blocklist regex, same emoji set.
+// Used by:
+//   - Strategic Analysis 'Product launches & releases' sub-section
+//   - renderCompetitorProductUpdates (per-competitor Product Updates tab)
+//   - loadProductUpdates (Overview 'Recent product updates' card)
+const PRODUCT_UPDATE_SOURCES = new Set(['product_release', 'changelog', 'press_release', 'site_news']);
+const PRODUCT_UPDATE_EMOJIS = new Set(['🚀', '🤝', '📰']);
+const PRODUCT_UPDATE_BLOCKLIST = new RegExp(
+  '\\b(' +
+  // Financial disclosures
+  'earnings|quarterly\\s+result|dividend|share\\s+(?:price|buyback|repurchase)|' +
+  'ex-dividend|annual\\s+report|proxy\\s+statement|10-[qk]|sec\\s+filing|' +
+  // Careers / people
+  'careers?|jobs?\\s+(?:at|in)|hiring|graduates?|internship|analyst\\s+(?:at|,)|' +
+  // Support / docs
+  'help\\s+(?:center|article)|faq|support\\s+(?:article|request)|' +
+  'login|sign\\s+in|forgot\\s+password|' +
+  // Community / forum noise
+  'forum|community\\s+question|thread|post\\s+#\\d|how\\s+do\\s+i\\b|' +
+  'questions?\\s+-\\s+|-\\s+#\\d+\\s+by\\s+|' +
+  // Analyst coverage
+  '(?:downgrade|upgrade|price\\s+target|buy\\s+rating|sell\\s+rating)s?\\s+(?:to|for|from)|' +
+  // Legal
+  'lawsuit|settles?\\s+(?:with|for)|litigation|class\\s+action' +
+  ')\\b' +
+  '|help\\.[a-z-]+\\.[a-z]+|docs?\\.[a-z-]+\\.[a-z]+/help|support\\.[a-z-]+\\.[a-z]+',
+  'i'
+);
+
+function isProductUpdate(item) {
+  const ct = item.content_type || '';
+  if (!PRODUCT_UPDATE_SOURCES.has(ct)) return false;
+  const headline = item.headline || '';
+  if (!headline || PRODUCT_UPDATE_BLOCKLIST.test(headline)) return false;
+  const emoji = item.emoji || '';
+  if (emoji && !PRODUCT_UPDATE_EMOJIS.has(emoji)) return false;
+  return true;
+}
 
 function renderCompetitorProductUpdates(compId, items, c) {
   const container = document.getElementById(`products-${compId}`);
   const countEl = document.getElementById(`products-count-${compId}`);
   if (!container) return;
 
-  const updates = (items || []).filter(i => PRODUCT_UPDATE_TYPES.includes(i.content_type));
+  // Use the unified predicate (matches is_product_update in Python).
+  // This rejects earnings/careers/forum/help items that share site_news
+  // content_type, aligning this tab with insights and the weekly section.
+  const updates = (items || []).filter(isProductUpdate);
 
   if (countEl) {
     countEl.textContent = updates.length ? `${updates.length} item${updates.length !== 1 ? 's' : ''}` : '';
@@ -1187,13 +1230,36 @@ function renderCompetitorProductUpdates(compId, items, c) {
     return db - da;
   });
 
-  container.innerHTML = sorted.slice(0, 20).map(item => `
+  // If the weekly accumulator has this company's bucket, index its item
+  // descriptions by URL so we can show them inline. Description capture
+  // happens during the daily fetch (see Python _derive_description), so
+  // the most recent week's items benefit from context; older items render
+  // headline-only.
+  const descByUrl = {};
+  if (_weeklyProductData && _weeklyProductData.by_competitor) {
+    const bucket = _weeklyProductData.by_competitor[c.name];
+    const weeklyItems = bucket && Array.isArray(bucket.items) ? bucket.items : [];
+    for (const wi of weeklyItems) {
+      if (wi.url && wi.description) {
+        descByUrl[wi.url] = wi.description;
+      }
+    }
+  }
+
+  container.innerHTML = sorted.slice(0, 20).map(item => {
+    const desc = descByUrl[item.url];
+    const descHtml = desc
+      ? `<div style="font-size:12px;color:var(--text2);line-height:1.5;margin-top:4px;">${escapeHtml(desc)}</div>`
+      : '';
+    return `
     <div class="news-item">
       <div class="news-source">${item.source || 'Industry'} ${item.emoji ? ' · ' + item.emoji : ''}${contentTypePillHtml(item)}</div>
       <div class="news-headline" onclick="window.open('${(item.url || '#').replace(/'/g,'%27')}','_blank')">${item.headline}</div>
+      ${descHtml}
       <div class="news-meta">${formatDate(item.date)}${item.url ? ` · <a href="${item.url}" target="_blank" style="color:var(--accent);">Read ↗</a>` : ''}</div>
     </div>
-  `).join('');
+  `;
+  }).join('');
 }
 
 // ─── Financial Overview tab ──────────────────────────────────────────────────
@@ -1377,9 +1443,13 @@ function renderPrivateFinancialOverview(c, privateData) {
 
 function renderStrategicAnalysis(c, news) {
   const container = document.getElementById(`strategy-${c.id}`);
-  // Categorize news by type
+  // Categorize news by type. The 'products' bucket uses the full isProductUpdate
+  // predicate (not just emoji) so the Product Launches & Releases sub-section
+  // agrees with insights-level counts ('X shows concentrated product launch activity')
+  // and the per-competitor Product Updates tab. Earnings/careers/forum pages
+  // that happen to get a 🚀 emoji (e.g. 'Announces Q4 Earnings') are correctly excluded.
   const partnerships = news.filter(n => n.emoji === '🤝');
-  const products = news.filter(n => n.emoji === '🚀');
+  const products = news.filter(isProductUpdate);
   const financial = news.filter(n => n.emoji === '📈');
   const risks = news.filter(n => n.emoji === '⚠️');
 
@@ -1576,7 +1646,15 @@ async function loadProductUpdates() {
   const countEl = document.getElementById('productUpdatesCount');
   if (!container) return;
 
-  const data = await loadJSON('competitors.json');
+  // Load competitors.json and weekly accumulator in parallel — the latter
+  // populates _weeklyProductData cache so per-competitor Product Updates tabs
+  // can pull descriptions without a second fetch.
+  const [data, weekly] = await Promise.all([
+    loadJSON('competitors.json'),
+    loadJSON('product_insights_weekly.json'),
+  ]);
+  if (weekly) _weeklyProductData = weekly;
+
   if (!data || !data.companies) {
     container.innerHTML = `<p style="color:var(--text3);font-size:13px;padding:12px 0;line-height:1.55;">
       No product updates yet. Refreshes once daily at 9:30 AM ET from competitor blogs, newsrooms, and direct company sources.
@@ -1585,12 +1663,13 @@ async function loadProductUpdates() {
     return;
   }
 
-  // Flatten all items across companies; filter to non-press_general
-  const PRODUCT_TYPES = new Set(['product_release', 'changelog', 'press_release', 'site_news']);
+  // Filter using the unified predicate (matches is_product_update in Python)
+  // so earnings/careers/forum/help pages get excluded even when their
+  // content_type would otherwise qualify.
   const items = [];
   for (const [company, list] of Object.entries(data.companies)) {
     for (const item of list) {
-      if (PRODUCT_TYPES.has(item.content_type)) {
+      if (isProductUpdate(item)) {
         items.push(item);
       }
     }
@@ -1821,6 +1900,7 @@ function filterNews(type, btn) {
 
 let _historyIndex = null;  // {updated, days: [{date, weekday, insight_count, last_updated}, …]}
 let _currentHistoryDate = null;  // null = 'today' (live insights.json); otherwise 'YYYY-MM-DD'
+let _weeklyProductData = null;   // cache of product_insights_weekly.json — used to enrich Product Updates tab with descriptions
 
 async function loadOverviewAI(targetDate = null) {
   const target = document.getElementById('overviewAI');
@@ -1848,7 +1928,10 @@ async function loadOverviewAI(targetDate = null) {
   // Weekly product-updates accumulator — loaded in parallel. Only shown on the
   // "today" view (not on historical snapshots — those are cycle-specific and
   // showing a current-week accumulator alongside them is confusing).
+  // Also cached on _weeklyProductData so per-competitor Product Updates tabs
+  // can pull item descriptions from the same file.
   const weeklyProductData = targetDate ? null : await loadJSON('product_insights_weekly.json');
+  if (!targetDate) _weeklyProductData = weeklyProductData;
 
   if (!data || !data.insights) {
     target.innerHTML = `<div style="color:var(--text3);font-size:13px;">Insights being refreshed — check back shortly.</div>`;
