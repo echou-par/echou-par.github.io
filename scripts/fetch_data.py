@@ -1307,6 +1307,167 @@ def write_history_snapshot(insights_data, now_iso):
         traceback.print_exc()
 
 
+# ─── Weekly product-update accumulator ──────────────────────────────────────
+#
+# Accumulates product-update items over the week (Monday 9:30 AM ET → next
+# Monday 9:30 AM ET), deduplicated by URL, aggregated per-competitor. Reset
+# anchor matches the Monday Market Open digest so the weekly view aligns with
+# the product cadence users already understand.
+#
+# Output file: par-comp-intel/data/product_insights_weekly.json
+# Structure:
+#   {
+#     "week_start": "2026-04-20T13:30:00+00:00",   # Monday 9:30 AM ET as UTC ISO
+#     "updated": "...",
+#     "items_count": 45,
+#     "by_competitor": {
+#       "Deliverect": {
+#         "count": 12,
+#         "latest_headline": "...",
+#         "latest_url": "...",
+#         "latest_date": "...",
+#         "content_types": {"product_release": 8, "site_news": 4},
+#       }, ...
+#     },
+#     "seen_urls": ["url1", "url2", ...]   # for dedup, FIFO-trimmed at cap
+#   }
+
+WEEKLY_FILE = 'product_insights_weekly.json'
+SEEN_URLS_CAP = 2000  # keep last N URLs for dedup; more than enough for a week
+
+
+def _current_week_start_et():
+    """Return the most recent Monday 9:30 AM ET as a timezone-aware UTC datetime.
+
+    If called on Monday before 9:30 AM ET, returns the PREVIOUS Monday 9:30 AM ET.
+    """
+    try:
+        import zoneinfo
+        et_tz = zoneinfo.ZoneInfo('America/New_York')
+    except Exception:
+        # Fallback for Python < 3.9 or missing tzdata — approximate with UTC-4 (EDT)
+        et_tz = timezone(timedelta(hours=-4))
+
+    now_et = datetime.now(et_tz)
+    # What day-of-week is today? Monday=0 ... Sunday=6
+    dow = now_et.weekday()
+
+    # Target: this week's Monday at 9:30
+    monday_930 = now_et.replace(hour=9, minute=30, second=0, microsecond=0) - timedelta(days=dow)
+
+    # If we're still before Monday 9:30 AM ET this week, the active week started
+    # LAST Monday at 9:30 AM ET
+    if now_et < monday_930:
+        monday_930 = monday_930 - timedelta(days=7)
+
+    # Return as UTC for consistent serialization
+    return monday_930.astimezone(timezone.utc)
+
+
+def load_weekly_product_insights():
+    """Load the weekly accumulator file, or return a fresh empty structure."""
+    path = os.path.join(OUT_DIR, WEEKLY_FILE)
+    if os.path.exists(path):
+        try:
+            with open(path, 'r') as f:
+                return json.load(f)
+        except Exception as e:
+            print(f'  Weekly accumulator load failed: {e} — starting fresh')
+    return None
+
+
+def update_weekly_product_insights(product_items, now_iso):
+    """Merge newly-fetched product_items into the weekly accumulator.
+
+    - If the current week_start is newer than the stored one, RESET the file.
+    - Otherwise, dedup by URL and increment per-competitor counters.
+    - Updates `latest_*` fields when a newer-dated item for that competitor arrives.
+    """
+    existing = load_weekly_product_insights()
+    current_week_start = _current_week_start_et().isoformat()
+
+    # Determine if we need to reset
+    should_reset = False
+    if existing is None:
+        print('  Weekly accumulator: no prior file → initializing')
+        should_reset = True
+    else:
+        prior_week_start = existing.get('week_start', '')
+        if prior_week_start != current_week_start:
+            print(f'  Weekly accumulator: week changed ({prior_week_start[:10]} → {current_week_start[:10]}) — resetting')
+            should_reset = True
+        else:
+            print(f'  Weekly accumulator: continuing week that started {current_week_start[:10]}')
+
+    if should_reset:
+        state = {
+            'week_start': current_week_start,
+            'updated': now_iso,
+            'items_count': 0,
+            'by_competitor': {},
+            'seen_urls': [],
+        }
+    else:
+        state = existing
+
+    # Product items we care about — exclude press_general (those already in highlights)
+    TRACKED_CT = {'product_release', 'changelog', 'press_release', 'site_news'}
+
+    seen_set = set(state.get('seen_urls', []))
+    new_added = 0
+
+    for item in product_items:
+        ct = item.get('content_type', 'press_general')
+        if ct not in TRACKED_CT:
+            continue
+        url = item.get('url', '')
+        if not url or url in seen_set:
+            continue
+        company = item.get('company', '').strip()
+        if not company or company == 'Industry':
+            continue
+
+        seen_set.add(url)
+        new_added += 1
+
+        # Update per-competitor bucket
+        bucket = state['by_competitor'].setdefault(company, {
+            'count': 0,
+            'latest_headline': '',
+            'latest_url': '',
+            'latest_date': '',
+            'content_types': {},
+        })
+        bucket['count'] += 1
+        bucket['content_types'][ct] = bucket['content_types'].get(ct, 0) + 1
+
+        # Update "latest" if this item is newer than what we had
+        item_dt = parse_dt(item.get('date', ''))
+        prev_dt = parse_dt(bucket.get('latest_date', ''))
+        if item_dt > prev_dt:
+            bucket['latest_headline'] = item.get('headline', '')
+            bucket['latest_url'] = url
+            bucket['latest_date'] = item.get('date', '')
+
+    # FIFO-trim seen_urls to cap memory
+    seen_list = list(seen_set)
+    if len(seen_list) > SEEN_URLS_CAP:
+        seen_list = seen_list[-SEEN_URLS_CAP:]
+
+    state['updated'] = now_iso
+    state['items_count'] = sum(b['count'] for b in state['by_competitor'].values())
+    state['seen_urls'] = seen_list
+
+    # Write back
+    path = os.path.join(OUT_DIR, WEEKLY_FILE)
+    with open(path, 'w') as f:
+        json.dump(state, f, indent=2)
+
+    n_comps = len(state['by_competitor'])
+    print(f'  Weekly accumulator: +{new_added} new items, total={state["items_count"]} across {n_comps} competitors')
+    return state
+
+
 def main():
     now_iso = datetime.now(timezone.utc).isoformat()
 
@@ -1379,6 +1540,10 @@ def main():
     if with_product_updates:
         product_items = fetch_product_updates()
         all_news.extend(product_items)
+        # Also accumulate into the weekly product-insights file (Mon 9:30 ET → next Mon 9:30 ET).
+        # This is separate from the per-cycle insights.json and doesn't reset every run — it
+        # grows until the week flips. See _current_week_start_et() and update_weekly_product_insights().
+        update_weekly_product_insights(product_items, now_iso)
 
     for item in all_news:
         if not item.get('company'):
