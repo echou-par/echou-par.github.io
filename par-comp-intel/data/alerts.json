@@ -1,8 +1,8 @@
 {
-  "updated": "2026-04-20T16:21:48.972557+00:00",
-  "total": 7,
+  "updated": "2026-04-20T16:45:25.549135+00:00",
+  "total": 8,
   "by_category": {
-    "analyst_downgrade": 2,
+    "analyst_downgrade": 3,
     "stock_move": 5
   },
   "alerts": [
@@ -16,7 +16,19 @@
       "date": "Mon, 20 Apr 2026 14:22:55 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-04-20T16:21:48.972557+00:00"
+      "detected_at": "2026-04-20T16:45:25.549135+00:00"
+    },
+    {
+      "category": "analyst_downgrade",
+      "severity": "high",
+      "company": "Shift4",
+      "headline": "Stephens Downgrades Shift4 Payments (NYSE:FOUR) to Equal Weight - MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeU1lVUZ6VG1YRkd3dENiYVZRZ3FKUlpnMzkwRU9mYVFjLVp5TVlmN1N2emE0REJpVzAxaV9qc2d5RGh0SGZhUHJHNmY0VV9HQ2Q4YW5UYWdsY0c2RjI0TnZFd1pLRFlpRlVlVG9ydkc0Qmw5TDFIVnNnbDJkNTM3Vk5QQVhmc1h6WThXTkMxMjhJM3otanl3UDhxQmF6UFAyeG9CV181STFpTnJPYWlzUGE1cGE?oc=5",
+      "source": "Google News",
+      "date": "Fri, 17 Apr 2026 13:33:36 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-04-20T16:45:25.549135+00:00"
     },
     {
       "category": "analyst_downgrade",
@@ -28,31 +40,31 @@
       "date": "Wed, 15 Apr 2026 02:32:00 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-04-20T16:21:48.972557+00:00"
+      "detected_at": "2026-04-20T16:45:25.549135+00:00"
     },
     {
       "category": "stock_move",
       "severity": "high",
       "company": "DoorDash",
-      "headline": "DoorDash (DASH) stock up 14.9% over the past week",
+      "headline": "DoorDash (DASH) stock up 15.2% over the past week",
       "url": "https://finance.yahoo.com/quote/DASH",
       "source": "Yahoo Finance",
-      "date": "2026-04-20T16:21:48.972557+00:00",
+      "date": "2026-04-20T16:45:25.549135+00:00",
       "par_relevance": 2,
-      "note": "+14.9% 1W",
-      "detected_at": "2026-04-20T16:21:48.972557+00:00"
+      "note": "+15.2% 1W",
+      "detected_at": "2026-04-20T16:45:25.549135+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "PAR",
-      "headline": "PAR (PAR) stock up 7.1% over the past week",
+      "headline": "PAR (PAR) stock up 7.5% over the past week",
       "url": "https://finance.yahoo.com/quote/PAR",
       "source": "Yahoo Finance",
-      "date": "2026-04-20T16:21:48.972557+00:00",
+      "date": "2026-04-20T16:45:25.549135+00:00",
       "par_relevance": 3,
-      "note": "+7.1% 1W",
-      "detected_at": "2026-04-20T16:21:48.972557+00:00"
+      "note": "+7.5% 1W",
+      "detected_at": "2026-04-20T16:45:25.549135+00:00"
     },
     {
       "category": "stock_move",
@@ -61,10 +73,10 @@
       "headline": "Toast (TOST) stock up 7.4% over the past week",
       "url": "https://finance.yahoo.com/quote/TOST",
       "source": "Yahoo Finance",
-      "date": "2026-04-20T16:21:48.972557+00:00",
+      "date": "2026-04-20T16:45:25.549135+00:00",
       "par_relevance": 3,
       "note": "+7.4% 1W",
-      "detected_at": "2026-04-20T16:21:48.972557+00:00"
+      "detected_at": "2026-04-20T16:45:25.549135+00:00"
     },
     {
       "category": "stock_move",
@@ -73,22 +85,22 @@
       "headline": "Lightspeed (LSPD) stock up 8.7% over the past week",
       "url": "https://finance.yahoo.com/quote/LSPD",
       "source": "Yahoo Finance",
-      "date": "2026-04-20T16:21:48.972557+00:00",
+      "date": "2026-04-20T16:45:25.549135+00:00",
       "par_relevance": 3,
       "note": "+8.7% 1W",
-      "detected_at": "2026-04-20T16:21:48.972557+00:00"
+      "detected_at": "2026-04-20T16:45:25.549135+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "Fiserv",
-      "headline": "Fiserv (FISV) stock up 9.7% over the past week",
+      "headline": "Fiserv (FISV) stock up 9.8% over the past week",
       "url": "https://finance.yahoo.com/quote/FISV",
       "source": "Yahoo Finance",
-      "date": "2026-04-20T16:21:48.972557+00:00",
+      "date": "2026-04-20T16:45:25.549135+00:00",
       "par_relevance": 3,
-      "note": "+9.7% 1W",
-      "detected_at": "2026-04-20T16:21:48.972557+00:00"
+      "note": "+9.8% 1W",
+      "detected_at": "2026-04-20T16:45:25.549135+00:00"
     }
   ]
 }
