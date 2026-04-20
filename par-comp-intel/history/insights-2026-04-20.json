@@ -2,7 +2,7 @@
   "date": "2026-04-20",
   "weekday": "Monday",
   "first_seen": "2026-04-20T07:30:55.058791+00:00",
-  "last_updated": "2026-04-20T16:49:32.613645+00:00",
+  "last_updated": "2026-04-20T17:39:16.063117+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Square, Toast appeared together in coverage \u2014 \"Square vs Clover vs Toast POS: 2026 Guide - tech.co\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-04-20T07:30:55.058791+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 11 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -218,40 +218,62 @@
       ],
       "company": "Deliverect",
       "first_detected": "2026-04-20T16:45:25.549135+00:00"
+    },
+    {
+      "text": "Lightspeed shows concentrated product launch activity \u2014 4 tracked product launch items this cycle. Latest: \"Lightspeed Commerce Launches AI-Powered Automation To Help Retailers Eliminate Manual Inventory Entry - PR Newswire\"",
+      "sources": [
+        {
+          "title": "Lightspeed Commerce Launches AI-Powered Automation To Help Retailers Eliminate Manual Inventory Entry - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQSEp6NzZLcnF2M1dwd3Z6dVZENmFWYkJER2xPV1cwUHZWekUtdkNtMGE4RTJTVGJWWkF3ZlR4VmJqeDk0dWMxSWwzVGJVOWtHUGk5WU9SY19UY0ZXS3k4WVVQenBIa3VSb0ZtTHVGYWdHQ2h5Z3JtQWwxOWFTNF91MVVjRTZ6STEtMXBqM3F0cmFPNVUtZ2Ntc21RbDVHVTQ4TURxLVlOSjByVFdjeW1La040R1ZjVlZOMDIzbjAyRFdSaGhnaGxPNXQydEFzTXpkRlM1ZGFnOGVYZzlUdzlESWs1ZndpMkJacExpYlJR?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Lightspeed Commerce Unveils Q3 Product Innovations Designed to Help Merchants Run Smarter and Serve Better - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPcG9aQmh2Q0h6VUJXRG5LakV5YWFkV0xvd3IxSHRZbFBtaUJielo4UUhSQTN3UVUtR0YtQmlyTzBJSEVuZFc3Y1ZYeks0dFpMUFBZVzBoR0paZENRZF81T3pYc3FLb2tVMkxsaFp5NVc2ZTgzVy0zRFJVc3B1NVJ2Y3ZRTDFpbVlNOC04NGZuY1JyLVR4eG1FaExCZHdsMVE5VU9FaWk3LWNQelljR0RBT2w4eGRhU3MxUlUySGNnZTN5WE9GMjVVVlc5elQwNDJDbWZIYTNNMjl6QW04Z25fZjBzQUFrcUxQV0cyYVEzZjczNnAz?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Lightspeed Commerce Launches a New Multi-Brand Shopping and Ordering Experience in the Marketplace - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNMzZ5c01zY2ltd1dJb2FDZnJIT2xrcHZDYzljSWZ2MkZzb01naERkMHE3QzM5bEpXSGJkWTF0TFJxUVJRci1PQTR0N01SZXhkWGhpMFNZRk9hYXlLZzdVblNKSmpXS3ZjaFdLVXhzU0xBUFYxdEJ1QllPWEp4UzdDbnNlRXdKZ1IzeDVZallQS0RDX3ZfaHBTc2pLeHp4SWhBVjZwV25QekxDaWIxZjdmdTY0UmltMm5ld1FsTm12ZzhORl8yX1RWajNCcHNKdFFCOU9LdVpnSC1Vb21SLWpDVmYtdzk5X1MwYUE?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Lightspeed",
+      "first_detected": "2026-04-20T17:39:16.063117+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
-      "count": 19
-    },
-    {
-      "company": "TouchBistro",
-      "count": 17
+      "company": "Deliverect",
+      "count": 49
     },
     {
       "company": "SpotOn",
-      "count": 16
-    },
-    {
-      "company": "NCR Voyix",
-      "count": 16
-    },
-    {
-      "company": "Sparkfly",
-      "count": 16
-    },
-    {
-      "company": "Tillster",
-      "count": 15
+      "count": 39
     },
     {
       "company": "Lightspeed",
-      "count": 15
+      "count": 35
     },
     {
-      "company": "Paytronix",
-      "count": 15
+      "company": "DoorDash",
+      "count": 29
+    },
+    {
+      "company": "TouchBistro",
+      "count": 27
+    },
+    {
+      "company": "NCR Voyix",
+      "count": 26
+    },
+    {
+      "company": "Fiserv",
+      "count": 26
+    },
+    {
+      "company": "Sparkfly",
+      "count": 26
     }
   ]
 }
