@@ -1,23 +1,11 @@
 {
-  "updated": "2026-04-20T17:39:16.063117+00:00",
-  "total": 8,
+  "updated": "2026-04-20T17:45:20.355779+00:00",
+  "total": 7,
   "by_category": {
-    "analyst_downgrade": 3,
+    "analyst_downgrade": 2,
     "stock_move": 5
   },
   "alerts": [
-    {
-      "category": "analyst_downgrade",
-      "severity": "high",
-      "company": "Lightspeed",
-      "headline": "Barclays Maintains Lightspeed POS(LSPD.US) With Hold Rating, Cuts Target Price to $11 - Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYjR3VjVMZ2tpenlUUDRuNnBlaFhWTDA2VmhQengtYjBNNzJyY0JKdU9jVW5ZTGFIanBTcm9nWlhkQ1BYeXp2eGVXOHMyNTRwQ0lFX0lDM0RWWS13MHJ4ZGpyZjl5OTZzM1lNck5UR1I4cGdzaDhTODA4bUZ3a3NQcEtodVpTLV9aOFFuRjhXSUNmbEVtVk1zT3VBQS1wN2lkS2JReUFEaUg4RnBiaGhuRg?oc=5",
-      "source": "Google News",
-      "date": "Mon, 20 Apr 2026 14:22:55 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-04-20T17:39:16.063117+00:00"
-    },
     {
       "category": "analyst_downgrade",
       "severity": "high",
@@ -28,7 +16,7 @@
       "date": "Fri, 17 Apr 2026 13:33:36 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-04-20T17:39:16.063117+00:00"
+      "detected_at": "2026-04-20T17:45:20.355779+00:00"
     },
     {
       "category": "analyst_downgrade",
@@ -40,67 +28,67 @@
       "date": "Wed, 15 Apr 2026 02:32:00 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-04-20T17:39:16.063117+00:00"
+      "detected_at": "2026-04-20T17:45:20.355779+00:00"
     },
     {
       "category": "stock_move",
       "severity": "high",
       "company": "DoorDash",
-      "headline": "DoorDash (DASH) stock up 15.7% over the past week",
+      "headline": "DoorDash (DASH) stock up 15.8% over the past week",
       "url": "https://finance.yahoo.com/quote/DASH",
       "source": "Yahoo Finance",
-      "date": "2026-04-20T17:39:16.063117+00:00",
+      "date": "2026-04-20T17:45:20.355779+00:00",
       "par_relevance": 2,
-      "note": "+15.7% 1W",
-      "detected_at": "2026-04-20T17:39:16.063117+00:00"
+      "note": "+15.8% 1W",
+      "detected_at": "2026-04-20T17:45:20.355779+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "PAR",
-      "headline": "PAR (PAR) stock up 8.2% over the past week",
+      "headline": "PAR (PAR) stock up 7.9% over the past week",
       "url": "https://finance.yahoo.com/quote/PAR",
       "source": "Yahoo Finance",
-      "date": "2026-04-20T17:39:16.063117+00:00",
+      "date": "2026-04-20T17:45:20.355779+00:00",
       "par_relevance": 3,
-      "note": "+8.2% 1W",
-      "detected_at": "2026-04-20T17:39:16.063117+00:00"
+      "note": "+7.9% 1W",
+      "detected_at": "2026-04-20T17:45:20.355779+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "Toast",
-      "headline": "Toast (TOST) stock up 7.4% over the past week",
+      "headline": "Toast (TOST) stock up 7.3% over the past week",
       "url": "https://finance.yahoo.com/quote/TOST",
       "source": "Yahoo Finance",
-      "date": "2026-04-20T17:39:16.063117+00:00",
+      "date": "2026-04-20T17:45:20.355779+00:00",
       "par_relevance": 3,
-      "note": "+7.4% 1W",
-      "detected_at": "2026-04-20T17:39:16.063117+00:00"
+      "note": "+7.3% 1W",
+      "detected_at": "2026-04-20T17:45:20.355779+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "Lightspeed",
-      "headline": "Lightspeed (LSPD) stock up 8.6% over the past week",
+      "headline": "Lightspeed (LSPD) stock up 8.5% over the past week",
       "url": "https://finance.yahoo.com/quote/LSPD",
       "source": "Yahoo Finance",
-      "date": "2026-04-20T17:39:16.063117+00:00",
+      "date": "2026-04-20T17:45:20.355779+00:00",
       "par_relevance": 3,
-      "note": "+8.6% 1W",
-      "detected_at": "2026-04-20T17:39:16.063117+00:00"
+      "note": "+8.5% 1W",
+      "detected_at": "2026-04-20T17:45:20.355779+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "Fiserv",
-      "headline": "Fiserv (FISV) stock up 9.5% over the past week",
+      "headline": "Fiserv (FISV) stock up 9.4% over the past week",
       "url": "https://finance.yahoo.com/quote/FISV",
       "source": "Yahoo Finance",
-      "date": "2026-04-20T17:39:16.063117+00:00",
+      "date": "2026-04-20T17:45:20.355779+00:00",
       "par_relevance": 3,
-      "note": "+9.5% 1W",
-      "detected_at": "2026-04-20T17:39:16.063117+00:00"
+      "note": "+9.4% 1W",
+      "detected_at": "2026-04-20T17:45:20.355779+00:00"
     }
   ]
 }
