@@ -1,11 +1,23 @@
 {
-  "updated": "2026-04-20T20:40:18.004998+00:00",
-  "total": 6,
+  "updated": "2026-04-20T20:44:06.520651+00:00",
+  "total": 8,
   "by_category": {
-    "analyst_downgrade": 1,
+    "analyst_downgrade": 3,
     "stock_move": 5
   },
   "alerts": [
+    {
+      "category": "analyst_downgrade",
+      "severity": "high",
+      "company": "Lightspeed",
+      "headline": "Barclays Maintains Lightspeed POS(LSPD.US) With Hold Rating, Cuts Target Price to $11 - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYjR3VjVMZ2tpenlUUDRuNnBlaFhWTDA2VmhQengtYjBNNzJyY0JKdU9jVW5ZTGFIanBTcm9nWlhkQ1BYeXp2eGVXOHMyNTRwQ0lFX0lDM0RWWS13MHJ4ZGpyZjl5OTZzM1lNck5UR1I4cGdzaDhTODA4bUZ3a3NQcEtodVpTLV9aOFFuRjhXSUNmbEVtVk1zT3VBQS1wN2lkS2JReUFEaUg4RnBiaGhuRg?oc=5",
+      "source": "Google News",
+      "date": "Mon, 20 Apr 2026 14:22:55 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-04-20T20:44:06.520651+00:00"
+    },
     {
       "category": "analyst_downgrade",
       "severity": "high",
@@ -16,7 +28,19 @@
       "date": "Fri, 17 Apr 2026 13:33:36 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-04-20T20:40:18.004998+00:00"
+      "detected_at": "2026-04-20T20:44:06.520651+00:00"
+    },
+    {
+      "category": "analyst_downgrade",
+      "severity": "high",
+      "company": "Shift4",
+      "headline": "Raymond James Downgrades Shift4 Payments (FOUR) to Outperform - MSN",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNejFFUTNyMzVZYXZCVWxuR0o2a1lueVN1NkdJcERydHlfejhmMlJiRngzY2NWbXg4VlY2Zk9MYm92U29SMzljd0tZWUN5V01nWEZUU0N3RHNlbG9MTlBnVzFBUGZtd1FDWVdnZTdmNndfbEVmdFQxcGp4VkZZZnhlY0lTZWRpZWppaTdMQnNJRVpkaHFKMHBQNm1yTTEtdDRCRkhMTXF2Yzg4NEF3S01sRmJuM29vM29sNnRzd05PLTZ1NzZRLWVzRnpHdVMxUUl4V253dEF3?oc=5",
+      "source": "Google News",
+      "date": "Fri, 17 Apr 2026 06:12:53 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-04-20T20:44:06.520651+00:00"
     },
     {
       "category": "stock_move",
@@ -25,10 +49,10 @@
       "headline": "DoorDash (DASH) stock up 16.1% over the past week",
       "url": "https://finance.yahoo.com/quote/DASH",
       "source": "Yahoo Finance",
-      "date": "2026-04-20T20:40:18.004998+00:00",
+      "date": "2026-04-20T20:44:06.520651+00:00",
       "par_relevance": 2,
       "note": "+16.1% 1W",
-      "detected_at": "2026-04-20T20:40:18.004998+00:00"
+      "detected_at": "2026-04-20T20:44:06.520651+00:00"
     },
     {
       "category": "stock_move",
@@ -37,10 +61,10 @@
       "headline": "PAR (PAR) stock up 9.3% over the past week",
       "url": "https://finance.yahoo.com/quote/PAR",
       "source": "Yahoo Finance",
-      "date": "2026-04-20T20:40:18.004998+00:00",
+      "date": "2026-04-20T20:44:06.520651+00:00",
       "par_relevance": 3,
       "note": "+9.3% 1W",
-      "detected_at": "2026-04-20T20:40:18.004998+00:00"
+      "detected_at": "2026-04-20T20:44:06.520651+00:00"
     },
     {
       "category": "stock_move",
@@ -49,10 +73,10 @@
       "headline": "Toast (TOST) stock up 7.7% over the past week",
       "url": "https://finance.yahoo.com/quote/TOST",
       "source": "Yahoo Finance",
-      "date": "2026-04-20T20:40:18.004998+00:00",
+      "date": "2026-04-20T20:44:06.520651+00:00",
       "par_relevance": 3,
       "note": "+7.7% 1W",
-      "detected_at": "2026-04-20T20:40:18.004998+00:00"
+      "detected_at": "2026-04-20T20:44:06.520651+00:00"
     },
     {
       "category": "stock_move",
@@ -61,10 +85,10 @@
       "headline": "Lightspeed (LSPD) stock up 8.9% over the past week",
       "url": "https://finance.yahoo.com/quote/LSPD",
       "source": "Yahoo Finance",
-      "date": "2026-04-20T20:40:18.004998+00:00",
+      "date": "2026-04-20T20:44:06.520651+00:00",
       "par_relevance": 3,
       "note": "+8.9% 1W",
-      "detected_at": "2026-04-20T20:40:18.004998+00:00"
+      "detected_at": "2026-04-20T20:44:06.520651+00:00"
     },
     {
       "category": "stock_move",
@@ -73,10 +97,10 @@
       "headline": "Fiserv (FISV) stock up 8.7% over the past week",
       "url": "https://finance.yahoo.com/quote/FISV",
       "source": "Yahoo Finance",
-      "date": "2026-04-20T20:40:18.004998+00:00",
+      "date": "2026-04-20T20:44:06.520651+00:00",
       "par_relevance": 3,
       "note": "+8.7% 1W",
-      "detected_at": "2026-04-20T20:40:18.004998+00:00"
+      "detected_at": "2026-04-20T20:44:06.520651+00:00"
     }
   ]
 }
