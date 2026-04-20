@@ -2,7 +2,7 @@
   "date": "2026-04-20",
   "weekday": "Monday",
   "first_seen": "2026-04-20T07:30:55.058791+00:00",
-  "last_updated": "2026-04-20T11:58:43.121796+00:00",
+  "last_updated": "2026-04-20T16:21:48.972557+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Square, Toast appeared together in coverage \u2014 \"Square vs Clover vs Toast POS: 2026 Guide - tech.co\"",
@@ -71,7 +71,7 @@
       "first_detected": "2026-04-20T07:30:55.058791+00:00"
     },
     {
-      "text": "Shift4 shows concentrated product launch activity \u2014 4 tracked product launch items this cycle. Latest: \"Shift4 Announces Fourth Dividend Date for Mandatory Convertible Preferred Stock - Shift4\"",
+      "text": "Shift4 shows concentrated product launch activity \u2014 5 tracked product launch items this cycle. Latest: \"Shift4 Announces Fourth Dividend Date for Mandatory Convertible Preferred Stock - Shift4\"",
       "sources": [
         {
           "title": "Shift4 Announces Fourth Dividend Date for Mandatory Convertible Preferred Stock - Shift4",
@@ -115,8 +115,13 @@
       "first_detected": "2026-04-20T07:30:55.058791+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Lecap Asset Management Ltd. Increases Stock Position in Toast, Inc. $TOST - MarketBeat\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 12 tracked financial/market items this cycle. Latest: \"Toast Inc-Class A (NYSE:TOST) Fits Louis Navellier's Growth Stock Criteria - ChartMill\"",
       "sources": [
+        {
+          "title": "Toast Inc-Class A (NYSE:TOST) Fits Louis Navellier's Growth Stock Criteria - ChartMill",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWGUtSnFtMXJnazBhcDVFWkJuOGF3WG9WaVhEQWlMMUlLbHpXZnhWc3h4WVdxU0JHVzdobmJ0OVdGNGpJOF8zQV9wRXBULXpublRqVnJ6c09SdjgzSnRfTkYtLVd5cmVyVXN2bTB6VGp2QVlTcU9OTTVFWjZvVzc3NWhQek9TV2I0WlhtNVVob1Z3cG5QTjJVNlZES2h5NVZaMjk1WTBaUFVxdEZEODROOEZGWjU0YWUtSk42X0Ztaw?oc=5",
+          "source": "Google News"
+        },
         {
           "title": "Lecap Asset Management Ltd. Increases Stock Position in Toast, Inc. $TOST - MarketBeat",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQN3ZvU1hoSW9hd2dDb29PUEJISVZ3UkdfVkVLWGdYTTAtYlNraERNUDJoQnRreVgzTjkydUtFWFRGNXRMRGM1azdmMV9WbHB6Z2FmWmtSakdib1ZjRER3YndKZ0N5U3d4ZWkyT2tkb0NPRGhJUU5PT3RQR1hPcFVhSGpjYUpMcXg4TVREMDlzaTlWM25hT0VyMzVYcGZEN3B5UmlJNnBad01aRjhWWkxnaGpGeFZNcHdkSEhRTk9EZ3BDcl9kU3Yxb0ZR?oc=5",
@@ -125,11 +130,6 @@
         {
           "title": "Bosman Wealth Management LLC Sells 43,749 Shares of Toast, Inc. $TOST - MarketBeat",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVlBwbHk2NjZDSFJOWllqdGlnejNxWjNQOE9oSHVQQ3dydXFZMW1ZRHBOU25VVkY3UVVyTXZKRmtMNThqX0M3c0h1Tnd2aHIxak9HdzMzN3hWU1M4M1NuTXk1RXE5YzNQbkhxRUloajJyS3cxdjk0VV9fbDlkWWcxc1UwRThYVUd6MHBEZEhlRlRvSklSQm5mVWxfblpCS05Ld3BYaGFKcEVRQnI4cDFITnNlSXpWXzA0R3BpcEhuejZ0bDNR?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "KBC Group NV Decreases Stock Position in Toast, Inc. $TOST - MarketBeat",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUjNHUVF3V0toYXJwUnBYc2w3NjFhZE50T0s0b3lhbklIcmNEdTlvbW14UEZ5QUh6UGZOR1Z4YjFpZGNNdk5MUkFiMDViYjE0NXp3SkVvVUY3TkZOWUUzTUpfZ05vVVR4aE9ycUpRdW1UTGJUaVp6M19UR1dUOUZSZ3A2ZGZheXEyNDYyQU0tSGxqbXVBQ2hXc3BycVZ0RlZTTEVYMGIwa1I2SmpuYnVXQlhwZFpPdmM?oc=5",
           "source": "Google News"
         }
       ],
@@ -179,19 +179,34 @@
       ],
       "company": "Shift4",
       "first_detected": "2026-04-20T11:58:43.121796+00:00"
+    },
+    {
+      "text": "Cross-competitor event: Square, TouchBistro appeared together in coverage \u2014 \"TouchBistro vs Square: Pricing, Costs & User Experience Rated - tech.co\"",
+      "sources": [
+        {
+          "title": "TouchBistro vs Square: Pricing, Costs & User Experience Rated - tech.co",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE54Q09MaDNONDNhWml0bXJicW9LMzhWdHVFOFBuRUgwdlJCVmc1cDBsNkhhQVdmT0xydlp1anRJLTZ4c3RFVFp4R3Q3WkpqZlU0MFZyV3dlX0hZTHZT?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "first_detected": "2026-04-20T16:21:48.972557+00:00"
     }
   ],
   "most_mentioned": [
     {
       "company": "DoorDash",
-      "count": 19
+      "count": 20
     },
     {
-      "company": "Lightspeed",
+      "company": "TouchBistro",
+      "count": 17
+    },
+    {
+      "company": "SpotOn",
       "count": 16
     },
     {
-      "company": "Fiserv",
+      "company": "NCR Voyix",
       "count": 16
     },
     {
@@ -203,15 +218,11 @@
       "count": 15
     },
     {
-      "company": "Toast",
+      "company": "Lightspeed",
       "count": 15
     },
     {
-      "company": "Global Payments",
-      "count": 15
-    },
-    {
-      "company": "Shift4",
+      "company": "Paytronix",
       "count": 15
     }
   ]
