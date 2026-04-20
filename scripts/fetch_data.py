@@ -325,6 +325,68 @@ def pick_emoji(headline):
     return '📰'
 
 
+# ─── Product-update topic filter (single source of truth) ─────────────────
+#
+# Composed filter: (source is product-like) AND (not blocklisted) AND
+# (emoji is product-friendly). Used by the weekly accumulator, the Strategic
+# Analysis 'Product Launches & Releases' sub-section, the per-competitor
+# Product Updates tab, and generate_insights() thematic-density counting —
+# so all four views agree on what counts as a product update.
+PRODUCT_UPDATE_SOURCES = {'product_release', 'changelog', 'press_release', 'site_news'}
+PRODUCT_UPDATE_EMOJIS = {'🚀', '🤝', '📰'}  # launch, partnership, or general announcement
+# Topic blocklist — these phrases signal financial / careers / support / legal
+# content even when the item comes from a company's own domain via site_news.
+# Examples it would have caught in run #52:
+#   'NCR Voyix to Release Fourth Quarter ... Earnings Results'    → earnings
+#   'Students & Graduates jobs | ... at Fiserv'                    → jobs/careers
+#   'What is the channel field for order ... Questions - Square'   → forum/question
+#   'Shift4 Announces Fourth Dividend Date'                        → dividend
+PRODUCT_UPDATE_BLOCKLIST = re.compile(
+    r'\b('
+    # Financial disclosures
+    r'earnings|quarterly\s+result|dividend|share\s+(?:price|buyback|repurchase)|'
+    r'ex-dividend|annual\s+report|proxy\s+statement|10-[qk]|sec\s+filing|'
+    # Careers / people
+    r'careers?|jobs?\s+(?:at|in)|hiring|graduates?|internship|analyst\s+(?:at|,)|'
+    # Support / docs — catch both phrasings and URL patterns
+    r'help\s+(?:center|article)|faq|support\s+(?:article|request)|'
+    r'login|sign\s+in|forgot\s+password|'
+    # Community / forum noise — also catch bare "Questions" in title (Square forum style)
+    r'forum|community\s+question|thread|post\s+#\d|how\s+do\s+i\b|'
+    r'questions?\s+-\s+|-\s+#\d+\s+by\s+|'
+    # Analyst coverage (not the company's news)
+    r'(?:downgrade|upgrade|price\s+target|buy\s+rating|sell\s+rating)s?\s+(?:to|for|from)|'
+    # Legal
+    r'lawsuit|settles?\s+(?:with|for)|litigation|class\s+action'
+    r')\b'
+    # URL-based signals — match outside \b
+    r'|help\.[a-z-]+\.[a-z]+|docs?\.[a-z-]+\.[a-z]+/help|support\.[a-z-]+\.[a-z]+',
+    re.IGNORECASE
+)
+
+
+def is_product_update(item):
+    """Single source of truth — does this news item count as a product update?
+
+    Requires ALL of:
+      1. content_type is a product-like source (not press_general)
+      2. headline doesn't match the noise blocklist (earnings/careers/support/legal)
+      3. emoji is product-friendly (🚀 launch, 🤝 partnership, 📰 generic news)
+
+    Rejects: 📈 financial/market, 👥 people, 🏦 legal, ⚠️ risk.
+    """
+    ct = item.get('content_type', '')
+    if ct not in PRODUCT_UPDATE_SOURCES:
+        return False
+    headline = item.get('headline', '')
+    if not headline or PRODUCT_UPDATE_BLOCKLIST.search(headline):
+        return False
+    emoji = item.get('emoji', '')
+    if emoji and emoji not in PRODUCT_UPDATE_EMOJIS:
+        return False
+    return True
+
+
 def normalize_for_dedup(text):
     text = re.sub(r'\s*[-|]\s*(MSN|Reuters|Bloomberg|CNBC|Yahoo|Seeking Alpha|The Motley Fool|Barrons?|Business Wire|PR Newswire|GlobeNewswire).*$', '', text, flags=re.IGNORECASE)
     words = re.findall(r'[a-z0-9$]+', text.lower())
@@ -671,6 +733,9 @@ def fetch_content_source(company, url, content_type, source_label):
             url_item = entry.get('link', '')
             if not url_item:
                 continue
+            # Capture RSS summary/description if present — used later as the
+            # preferred source of item-level descriptions for product updates.
+            summary_raw = entry.get('summary', '') or entry.get('description', '')
             items.append({
                 'headline': headline,
                 'url': url_item,
@@ -679,6 +744,7 @@ def fetch_content_source(company, url, content_type, source_label):
                 'company': company,
                 'type': 'private' if company in PRIVATE_COMPANIES else 'public',
                 'content_type': content_type,
+                'summary_raw': summary_raw,
             })
         return items
     except Exception as e:
@@ -1024,13 +1090,23 @@ def generate_insights(deduped_news, per_company, financials, stocks):
     for emoji, label, threshold in emoji_labels_priority:
         candidates = []
         for company, items in per_company.items():
-            count = sum(1 for i in items if i.get('emoji') == emoji)
+            # For 'product launch', use the unified is_product_update() predicate
+            # so the insights-level count matches what surfaces in the Product
+            # Updates tab and the weekly section. This is stricter than just
+            # checking emoji — it also rejects earnings/careers/forum pages.
+            if emoji == '🚀':
+                matching = [i for i in items if is_product_update(i)]
+            else:
+                matching = [i for i in items if i.get('emoji') == emoji]
+            count = len(matching)
             if count >= threshold and company not in used_companies:
-                candidates.append((company, count, items))
+                candidates.append((company, count, matching))
         # Sort by count desc, take top 1-2 per emoji type
         candidates.sort(key=lambda x: x[1], reverse=True)
-        for company, count, items in candidates[:2]:
-            relevant_items = [i for i in items if i.get('emoji') == emoji][:3]
+        for company, count, matching in candidates[:2]:
+            # Sort matching items newest first for the "Latest" display
+            matching_sorted = sorted(matching, key=lambda i: parse_dt(i.get('date', '')), reverse=True)
+            relevant_items = matching_sorted[:3]
             insights.append({
                 'text': f"{company} shows concentrated {label} activity — {count} tracked {label} item{'s' if count != 1 else ''} this cycle. Latest: \"{relevant_items[0]['headline'][:140]}\"",
                 'sources': [
@@ -1334,6 +1410,119 @@ def write_history_snapshot(insights_data, now_iso):
 
 WEEKLY_FILE = 'product_insights_weekly.json'
 SEEN_URLS_CAP = 2000  # keep last N URLs for dedup; more than enough for a week
+ITEMS_PER_COMP_CAP = 20  # max stored items per company per week
+DESCRIPTION_MAX_CHARS = 200
+DESCRIPTION_URL_FETCH_CAP = 30  # max URL fetches per run for description extraction
+
+
+def _clean_html_to_text(html):
+    """Strip HTML tags, decode entities, collapse whitespace. Minimal, no bs4 dep."""
+    if not html:
+        return ''
+    # Remove script/style blocks entirely
+    html = re.sub(r'<(script|style)[^>]*>.*?</\1>', '', html, flags=re.IGNORECASE | re.DOTALL)
+    # Strip tags
+    text = re.sub(r'<[^>]+>', ' ', html)
+    # Decode common entities
+    text = (text
+            .replace('&nbsp;', ' ')
+            .replace('&amp;', '&')
+            .replace('&lt;', '<')
+            .replace('&gt;', '>')
+            .replace('&quot;', '"')
+            .replace('&#39;', "'")
+            .replace('&apos;', "'"))
+    # Remove remaining numeric/named entities
+    text = re.sub(r'&[#a-zA-Z0-9]+;', ' ', text)
+    # Collapse whitespace
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text
+
+
+def _truncate_description(text, max_chars=DESCRIPTION_MAX_CHARS):
+    if not text:
+        return ''
+    text = text.strip()
+    if len(text) <= max_chars:
+        return text
+    # Truncate at a sentence or word boundary
+    cut = text[:max_chars]
+    # Prefer sentence end
+    for sep in ['. ', '! ', '? ']:
+        idx = cut.rfind(sep)
+        if idx > max_chars * 0.6:
+            return cut[:idx + 1].strip()
+    # Else word boundary
+    idx = cut.rfind(' ')
+    if idx > 0:
+        return cut[:idx].strip() + '…'
+    return cut + '…'
+
+
+def _extract_description_from_url(url, timeout=2.0):
+    """Best-effort fetch of a short description from an article URL.
+    Returns '' on any failure — never raises."""
+    try:
+        res = requests.get(
+            url,
+            headers={'User-Agent': 'Mozilla/5.0 PAR-Intel-Bot/1.0'},
+            timeout=timeout,
+            allow_redirects=True,
+        )
+        if res.status_code != 200 or not res.text:
+            return ''
+        html = res.text
+        # Try og:description or meta description first — clean, purpose-built
+        for pattern in [
+            r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\']([^"\']+)["\']',
+            r'<meta[^>]+name=["\']description["\'][^>]+content=["\']([^"\']+)["\']',
+            r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:description["\']',
+            r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+name=["\']description["\']',
+        ]:
+            m = re.search(pattern, html, re.IGNORECASE)
+            if m:
+                desc = _clean_html_to_text(m.group(1))
+                if desc and len(desc) > 30:
+                    return desc
+        # Fallback: first <p> in article/body
+        m = re.search(r'<p[^>]*>(.*?)</p>', html, re.IGNORECASE | re.DOTALL)
+        if m:
+            desc = _clean_html_to_text(m.group(1))
+            if desc and len(desc) > 30:
+                return desc
+    except Exception:
+        return ''
+    return ''
+
+
+def _derive_description(item, url_fetch_budget):
+    """Pick the best description source for an item.
+    Uses `summary_raw` (RSS summary) if meaningfully different from headline.
+    Else tries URL fetch (up to `url_fetch_budget[0]` remaining).
+    Returns cleaned, truncated string (may be empty).
+    Decrements url_fetch_budget[0] if a fetch was attempted."""
+    headline = item.get('headline', '')
+    summary_raw = item.get('summary_raw', '')
+
+    # Try RSS summary first
+    if summary_raw:
+        cleaned = _clean_html_to_text(summary_raw)
+        # Only use if it adds meaningful info beyond the headline
+        if cleaned and len(cleaned) > 30:
+            # Skip if it's basically identical to the headline
+            hl_norm = re.sub(r'\W+', '', headline.lower())
+            cl_norm = re.sub(r'\W+', '', cleaned.lower())
+            if hl_norm and not cl_norm.startswith(hl_norm):
+                return _truncate_description(cleaned)
+
+    # Fallback: fetch the article URL if we have budget left
+    url = item.get('url', '')
+    if url and url_fetch_budget[0] > 0:
+        url_fetch_budget[0] -= 1
+        desc = _extract_description_from_url(url)
+        if desc:
+            return _truncate_description(desc)
+    return ''
 
 
 def _current_week_start_et():
@@ -1379,25 +1568,41 @@ def load_weekly_product_insights():
 def update_weekly_product_insights(product_items, now_iso):
     """Merge newly-fetched product_items into the weekly accumulator.
 
-    - If the current week_start is newer than the stored one, RESET the file.
-    - Otherwise, dedup by URL and increment per-competitor counters.
-    - Updates `latest_*` fields when a newer-dated item for that competitor arrives.
+    Items are filtered through is_product_update() — only real product-related
+    items accumulate. Each qualifying item is stored with a short description
+    (from RSS summary or URL fetch). Cap ITEMS_PER_COMP_CAP items per company.
+
+    Schema (v2):
+      {
+        'week_start': ISO UTC,
+        'updated': ISO UTC,
+        'items_count': int,
+        'by_competitor': {
+          'Name': {
+            'count': int,
+            'content_types': {ct: count},
+            'items': [
+              {'headline', 'url', 'date', 'emoji', 'content_type',
+               'source', 'description'}
+            ]
+          }
+        },
+        'seen_urls': [url, ...]   # FIFO cap at SEEN_URLS_CAP
+      }
     """
     existing = load_weekly_product_insights()
     current_week_start = _current_week_start_et().isoformat()
 
-    # Determine if we need to reset
     should_reset = False
     if existing is None:
         print('  Weekly accumulator: no prior file → initializing')
         should_reset = True
+    elif existing.get('week_start', '') != current_week_start:
+        prior = existing.get('week_start', '')
+        print(f'  Weekly accumulator: week changed ({prior[:10]} → {current_week_start[:10]}) — resetting')
+        should_reset = True
     else:
-        prior_week_start = existing.get('week_start', '')
-        if prior_week_start != current_week_start:
-            print(f'  Weekly accumulator: week changed ({prior_week_start[:10]} → {current_week_start[:10]}) — resetting')
-            should_reset = True
-        else:
-            print(f'  Weekly accumulator: continuing week that started {current_week_start[:10]}')
+        print(f'  Weekly accumulator: continuing week that started {current_week_start[:10]}')
 
     if should_reset:
         state = {
@@ -1409,17 +1614,23 @@ def update_weekly_product_insights(product_items, now_iso):
         }
     else:
         state = existing
-
-    # Product items we care about — exclude press_general (those already in highlights)
-    TRACKED_CT = {'product_release', 'changelog', 'press_release', 'site_news'}
+        # Back-compat: ensure legacy buckets with old schema have an items list
+        for bucket in state.get('by_competitor', {}).values():
+            bucket.setdefault('items', [])
 
     seen_set = set(state.get('seen_urls', []))
     new_added = 0
+    filtered_out = 0
+    # Budget tracker wrapped in list so _derive_description can mutate in place
+    url_fetch_budget = [DESCRIPTION_URL_FETCH_CAP]
 
     for item in product_items:
-        ct = item.get('content_type', 'press_general')
-        if ct not in TRACKED_CT:
+        # Apply the unified predicate — this is where NCR earnings pages,
+        # Fiserv careers pages, Square forum posts, etc. get dropped.
+        if not is_product_update(item):
+            filtered_out += 1
             continue
+
         url = item.get('url', '')
         if not url or url in seen_set:
             continue
@@ -1430,24 +1641,32 @@ def update_weekly_product_insights(product_items, now_iso):
         seen_set.add(url)
         new_added += 1
 
-        # Update per-competitor bucket
         bucket = state['by_competitor'].setdefault(company, {
             'count': 0,
-            'latest_headline': '',
-            'latest_url': '',
-            'latest_date': '',
             'content_types': {},
+            'items': [],
         })
+        ct = item.get('content_type', '')
         bucket['count'] += 1
         bucket['content_types'][ct] = bucket['content_types'].get(ct, 0) + 1
 
-        # Update "latest" if this item is newer than what we had
-        item_dt = parse_dt(item.get('date', ''))
-        prev_dt = parse_dt(bucket.get('latest_date', ''))
-        if item_dt > prev_dt:
-            bucket['latest_headline'] = item.get('headline', '')
-            bucket['latest_url'] = url
-            bucket['latest_date'] = item.get('date', '')
+        # Capture full item data including a derived description
+        description = _derive_description(item, url_fetch_budget)
+        bucket['items'].append({
+            'headline': item.get('headline', ''),
+            'url': url,
+            'date': item.get('date', ''),
+            'emoji': item.get('emoji', ''),
+            'content_type': ct,
+            'source': item.get('source', ''),
+            'description': description,
+        })
+
+    # Cap items per company (keep newest by date)
+    for bucket in state['by_competitor'].values():
+        if len(bucket['items']) > ITEMS_PER_COMP_CAP:
+            bucket['items'].sort(key=lambda i: parse_dt(i.get('date', '')), reverse=True)
+            bucket['items'] = bucket['items'][:ITEMS_PER_COMP_CAP]
 
     # FIFO-trim seen_urls to cap memory
     seen_list = list(seen_set)
@@ -1458,13 +1677,14 @@ def update_weekly_product_insights(product_items, now_iso):
     state['items_count'] = sum(b['count'] for b in state['by_competitor'].values())
     state['seen_urls'] = seen_list
 
-    # Write back
     path = os.path.join(OUT_DIR, WEEKLY_FILE)
     with open(path, 'w') as f:
         json.dump(state, f, indent=2)
 
     n_comps = len(state['by_competitor'])
-    print(f'  Weekly accumulator: +{new_added} new items, total={state["items_count"]} across {n_comps} competitors')
+    fetch_used = DESCRIPTION_URL_FETCH_CAP - url_fetch_budget[0]
+    print(f'  Weekly accumulator: +{new_added} added, {filtered_out} filtered (non-product) | '
+          f'{fetch_used} URL fetches | total={state["items_count"]} across {n_comps} competitors')
     return state
 
 
@@ -1539,10 +1759,20 @@ def main():
     # items (set below).
     if with_product_updates:
         product_items = fetch_product_updates()
+        # Pre-tag product_items with emoji + company BEFORE calling the weekly
+        # accumulator, since is_product_update() depends on emoji being set.
+        # These items already have `company` from fetch_product_updates (per-
+        # competitor fetching), but we double-check and populate emoji here.
+        for item in product_items:
+            if not item.get('company'):
+                detected = detect_company(item.get('headline', ''))
+                item['company'] = detected or 'Industry'
+            if not item.get('emoji'):
+                item['emoji'] = pick_emoji(item.get('headline', ''))
         all_news.extend(product_items)
-        # Also accumulate into the weekly product-insights file (Mon 9:30 ET → next Mon 9:30 ET).
-        # This is separate from the per-cycle insights.json and doesn't reset every run — it
-        # grows until the week flips. See _current_week_start_et() and update_weekly_product_insights().
+        # Accumulate into the weekly product-insights file (Mon 9:30 ET → next Mon 9:30 ET).
+        # Applies is_product_update() filter so earnings pages, careers listings,
+        # forum posts, and other site_news noise don't pollute the weekly view.
         update_weekly_product_insights(product_items, now_iso)
 
     for item in all_news:
