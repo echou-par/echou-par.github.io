@@ -43,19 +43,35 @@ jobs:
 
       - name: Determine flags
         id: flags
+        shell: bash
         run: |
           # Product-updates flag is set when:
           #   1. One of the daily product-updates crons fired (9 AM ET)
           #   2. Manual workflow_dispatch with with_product_updates=true
+          echo "Event name: ${{ github.event_name }}"
+          echo "Event schedule: ${{ github.event.schedule }}"
+          echo "Dispatch input with_product_updates: ${{ github.event.inputs.with_product_updates }}"
+
           EXTRA_FLAGS=""
-          if [ "${{ github.event.schedule }}" = "0 13 * * *" ] || [ "${{ github.event.schedule }}" = "0 14 * * *" ]; then
-            echo "Daily product-updates schedule detected — enabling --with-product-updates"
-            EXTRA_FLAGS="--with-product-updates"
-          fi
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.with_product_updates }}" = "true" ]; then
+          SCHED="${{ github.event.schedule }}"
+          EVENT="${{ github.event_name }}"
+          DISPATCH_INPUT="${{ github.event.inputs.with_product_updates }}"
+
+          # Use case statement with pattern matching for robustness against
+          # whitespace variations in the schedule string
+          case "$SCHED" in
+            "0 13 * * *"|"0 14 * * *")
+              echo "Daily product-updates schedule matched — enabling --with-product-updates"
+              EXTRA_FLAGS="--with-product-updates"
+              ;;
+          esac
+
+          if [ "$EVENT" = "workflow_dispatch" ] && [ "$DISPATCH_INPUT" = "true" ]; then
             echo "Manual dispatch with product-updates — enabling --with-product-updates"
             EXTRA_FLAGS="--with-product-updates"
           fi
+
+          echo "Resolved EXTRA_FLAGS: '$EXTRA_FLAGS'"
           echo "flags=$EXTRA_FLAGS" >> "$GITHUB_OUTPUT"
 
       - name: Fetch data

@@ -1428,6 +1428,14 @@ def main():
         deduped.append(item)
     print(f'  {len(relevant)} relevant → {len(deduped)} after dedup')
 
+    # Log content_type breakdown — helps diagnose whether product-updates pass
+    # is producing items that survive dedup.
+    ct_counts = {}
+    for item in deduped:
+        ct = item.get('content_type', 'none')
+        ct_counts[ct] = ct_counts.get(ct, 0) + 1
+    print(f'  By content_type: {ct_counts}')
+
     # Re-sort deduped back to chronological for final output (priority sort was
     # just for dedup collision resolution)
     deduped.sort(key=lambda i: parse_dt(i.get('date', '')), reverse=True)
