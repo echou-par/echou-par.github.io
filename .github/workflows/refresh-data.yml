@@ -4,13 +4,13 @@ on:
   schedule:
     # Every 30 minutes (live refresh for dashboard)
     - cron: '*/30 * * * *'
-    # Daily canonical snapshot at 9:30 AM ET — cover both EST (14:30 UTC) and EDT (13:30 UTC)
+    # Daily canonical snapshot + product-updates fetch at 9:30 AM ET.
+    # Cover both EDT (13:30 UTC) and EST (14:30 UTC). This slot also
+    # matches the week-rollover anchor for the weekly product-updates
+    # accumulator — so the first fetch of a new week happens after the
+    # boundary, not before it (avoids items landing in the prior week).
     - cron: '30 13 * * *'
     - cron: '30 14 * * *'
-    # Daily product-updates fetch at 9:00 AM ET — separate cron so we can flag
-    # it. Covers EST (14:00 UTC) and EDT (13:00 UTC).
-    - cron: '0 13 * * *'
-    - cron: '0 14 * * *'
   workflow_dispatch:  # allow manual trigger from GitHub UI
     inputs:
       with_product_updates:
@@ -46,7 +46,7 @@ jobs:
         shell: bash
         run: |
           # Product-updates flag is set when:
-          #   1. One of the daily product-updates crons fired (9 AM ET)
+          #   1. One of the daily 9:30 AM ET crons fired
           #   2. Manual workflow_dispatch with with_product_updates=true
           echo "Event name: ${{ github.event_name }}"
           echo "Event schedule: ${{ github.event.schedule }}"
@@ -58,10 +58,14 @@ jobs:
           DISPATCH_INPUT="${{ github.event.inputs.with_product_updates }}"
 
           # Use case statement with pattern matching for robustness against
-          # whitespace variations in the schedule string
+          # whitespace variations in the schedule string. The daily 9:30 AM ET
+          # slot doubles as the product-updates trigger — runs in both EDT
+          # (13:30 UTC) and EST (14:30 UTC) to cover the DST transition. This
+          # timing matches the weekly accumulator's Monday 9:30 AM ET anchor
+          # so items land in the correct week.
           case "$SCHED" in
-            "0 13 * * *"|"0 14 * * *")
-              echo "Daily product-updates schedule matched — enabling --with-product-updates"
+            "30 13 * * *"|"30 14 * * *")
+              echo "Daily 9:30 AM ET schedule matched — enabling --with-product-updates"
               EXTRA_FLAGS="--with-product-updates"
               ;;
           esac
