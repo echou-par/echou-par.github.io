@@ -1853,6 +1853,11 @@ async function loadOverviewAI(targetDate = null) {
     sourceLabel = 'today';
   }
 
+  // Weekly product-updates accumulator — loaded in parallel. Only shown on the
+  // "today" view (not on historical snapshots — those are cycle-specific and
+  // showing a current-week accumulator alongside them is confusing).
+  const weeklyProductData = targetDate ? null : await loadJSON('product_insights_weekly.json');
+
   if (!data || !data.insights) {
     target.innerHTML = `<div style="color:var(--text3);font-size:13px;">Insights being refreshed — check back shortly.</div>`;
     return;
@@ -1916,15 +1921,89 @@ async function loadOverviewAI(targetDate = null) {
     ? `<div style="margin-top:10px;font-size:11px;color:var(--text3);">Citation numbers in superscript link to source articles. Daily summaries retained for 30 days.</div>`
     : '';
 
+  // Weekly product-updates section — only shown on "today" view
+  const weeklyProductHtml = buildWeeklyProductUpdatesHtml(weeklyProductData, targetDate);
+
   target.innerHTML = `
     <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;flex-wrap:wrap;gap:8px;">
       <div style="font-size:11px;color:var(--text3);text-transform:uppercase;letter-spacing:0.5px;font-weight:600;">${headerLabel}</div>
       ${pickerHtml}
     </div>
     ${insightHtml}
+    ${weeklyProductHtml}
     ${mostMentionedHtml}
     ${citationNote}
   `;
+}
+
+// Build the weekly product-updates section inside the AI summary. Reads from
+// product_insights_weekly.json which is populated by the daily 9 AM ET cron.
+// Each bullet is per-competitor: count + latest headline as clickable example.
+// Only rendered on the 'today' view (targetDate null); historical snapshots
+// deliberately don't show this since they're cycle-specific.
+function buildWeeklyProductUpdatesHtml(weeklyData, targetDate) {
+  if (targetDate) return '';  // historical view doesn't show weekly accumulator
+
+  // Section wrapper — always show, but with different copy based on state
+  const sectionOpen = `
+    <div style="margin-top:14px;padding-top:12px;border-top:0.5px solid var(--border);">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;flex-wrap:wrap;">
+        <div style="font-size:11px;font-weight:600;color:var(--accent);text-transform:uppercase;letter-spacing:0.6px;">
+          🚀 Product updates this week
+        </div>
+        <div style="font-size:10px;color:var(--text3);">
+          Accumulates Mon 9:30 AM ET → next Mon 9:30 AM ET
+        </div>
+      </div>`;
+  const sectionClose = `</div>`;
+
+  if (!weeklyData || !weeklyData.by_competitor || Object.keys(weeklyData.by_competitor).length === 0) {
+    return sectionOpen + `
+      <div style="font-size:12px;color:var(--text3);line-height:1.5;padding:4px 0;">
+        No product updates accumulated yet this week. The daily fetcher runs at 9 AM ET.
+      </div>
+    ` + sectionClose;
+  }
+
+  // Sort competitors by count desc, cap at 15 per user spec
+  const sorted = Object.entries(weeklyData.by_competitor)
+    .map(([company, bucket]) => ({ company, ...bucket }))
+    .sort((a, b) => (b.count || 0) - (a.count || 0))
+    .slice(0, 15);
+
+  // Week start label for transparency
+  const weekStartStr = weeklyData.week_start
+    ? new Date(weeklyData.week_start).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })
+    : '';
+
+  const bulletsHtml = sorted.map(b => {
+    // Build clickable latest headline
+    const latest = b.latest_headline
+      ? (b.latest_url
+          ? ` — latest: <a href="${b.latest_url}" target="_blank" style="color:var(--accent);text-decoration:none;">${escapeHtml(b.latest_headline).slice(0, 120)}${b.latest_headline.length > 120 ? '…' : ''}</a>`
+          : ` — latest: ${escapeHtml(b.latest_headline).slice(0, 120)}`)
+      : '';
+
+    // Link the competitor name to its detail page
+    const comp = COMPETITORS.find(c => c.name === b.company || c.name.startsWith(b.company));
+    const companyLink = comp
+      ? `<a href="#" onclick="navigateToCompetitor('${comp.id}');return false;" style="color:var(--text);font-weight:600;text-decoration:none;border-bottom:1px dotted var(--text3);">${escapeHtml(b.company)}</a>`
+      : `<strong>${escapeHtml(b.company)}</strong>`;
+
+    const countLabel = `${b.count} update${b.count !== 1 ? 's' : ''}`;
+    const pill = `<span style="background:var(--accent-bg);color:var(--accent);padding:1px 6px;border-radius:10px;font-size:10px;font-weight:600;margin-left:6px;vertical-align:1px;">${countLabel}</span>`;
+
+    return `<div style="display:flex;gap:10px;margin-bottom:8px;align-items:flex-start;font-size:13px;line-height:1.5;">
+      <span style="color:var(--accent);font-weight:700;">•</span>
+      <div style="flex:1;">${companyLink}${pill}${latest}</div>
+    </div>`;
+  }).join('');
+
+  const footerMeta = weekStartStr
+    ? `<div style="font-size:10px;color:var(--text3);margin-top:6px;">Week starting ${weekStartStr} · ${weeklyData.items_count} total items across ${Object.keys(weeklyData.by_competitor).length} competitors</div>`
+    : '';
+
+  return sectionOpen + bulletsHtml + footerMeta + sectionClose;
 }
 
 function buildDatePickerHtml(index, currentDate) {
