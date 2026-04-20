@@ -1168,7 +1168,9 @@ function renderCompetitorNews(compId, items, c) {
 //   - renderCompetitorProductUpdates (per-competitor Product Updates tab)
 //   - loadProductUpdates (Overview 'Recent product updates' card)
 const PRODUCT_UPDATE_SOURCES = new Set(['product_release', 'changelog', 'press_release', 'site_news']);
-const PRODUCT_UPDATE_EMOJIS = new Set(['🚀', '🤝', '📰']);
+// Only truly product-related emojis. 📰 (generic) and 📢 (campaign) are NOT
+// product updates — must stay in sync with PRODUCT_UPDATE_EMOJIS in fetch_data.py.
+const PRODUCT_UPDATE_EMOJIS = new Set(['🚀', '🤝']);
 const PRODUCT_UPDATE_BLOCKLIST = new RegExp(
   '\\b(' +
   // Financial disclosures
@@ -1199,6 +1201,45 @@ function isProductUpdate(item) {
   const emoji = item.emoji || '';
   if (emoji && !PRODUCT_UPDATE_EMOJIS.has(emoji)) return false;
   return true;
+}
+
+// JS mirror of pick_emoji() in scripts/fetch_data.py. Kept in sync by hand.
+// Used ONLY for v1-schema fallback (items that lack an 'emoji' field — usually
+// synthesized from latest_headline on a pre-schema-v2 weekly file). Once every
+// stored item has a fetch-side emoji, this is a no-op safeguard.
+function pickEmoji(headline) {
+  if (!headline) return '📰';
+  const h = headline.toLowerCase();
+  const starts = (w) => new RegExp('\\b' + w.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&')).test(h);
+
+  if (['partner', 'integrat', 'teams up', 'joins force'].some(k => h.includes(k)) || starts('deal')) return '🤝';
+
+  const CAMPAIGN = [
+    /\bcampaign\b/, /\blist\s+of\b/, /\bfavorite\s+\w+/,
+    /\bannual\s+(?:list|awards|report|survey)\b/, /\banniversary\b/,
+    /\bcontest\b/, /\bgiveaway\b/, /\bsweepstake/,
+    /\bcustomer\s+spotlight/, /\bcelebrates\b/, /\bcelebrating\b/,
+    /\bseason\s+of\b/, /\bholiday\s+(?:specials?|promotion)/,
+    /\b(?:spotlights?|rankings?|leaderboard)\b/,
+    /\b(?:best|top)\s+\d+\b/, /\b\d+\s+(?:best|top|greatest)\b/,
+  ];
+  if (CAMPAIGN.some(r => r.test(h))) return '📢';
+
+  const RELEASE_VERBS = 'launch(?:es|ed|ing)?|introduc(?:es|ed|ing)|unveil(?:s|ed|ing)?|debut(?:s|ed|ing)?|rolls?\\s+out|releases?|ships?|announces?';
+  const PRODUCT_NOUNS = 'feature|platform|tool|app(?:lication)?|integration|api|sdk|version|release|beta|module|plugin|dashboard|hardware|system|software|product|capability|capabilities|service|solution|offering|portal|widget|extension|kit';
+  const LAUNCH_PATTERNS = [
+    new RegExp(`\\b(?:${RELEASE_VERBS})\\b[\\w\\s]{0,40}\\b(?:new\\s+)?(?:${PRODUCT_NOUNS})\\b`, 'i'),
+    new RegExp(`\\b(?:new\\s+)?(?:${PRODUCT_NOUNS})\\b[\\w\\s]{0,30}\\b(?:${RELEASE_VERBS})\\b`, 'i'),
+    /\bnew\s+product\b/i, /\brelease\s+of\s+(?:the\s+)?\w+/i,
+    /\bgeneral\s+availability\b/i, /\bGA\s+release\b/,
+    /\bversion\s+\d/i, /\bv\d+(?:\.\d+)+/,
+  ];
+  const PROPER_NOUN_LAUNCH = /\b(?:Launches|Launched|Introduces|Introduced|Unveils|Unveiled|Debuts|Debuted|Releases|Released|Rolls\s+out)\s+(?!a\b|an\b|the\b|its\b|new\b|first\b)([A-Z][A-Za-z0-9]{4,}(?:[A-Z][A-Za-z0-9]+)?)/;
+  if (LAUNCH_PATTERNS.some(r => r.test(h)) || PROPER_NOUN_LAUNCH.test(headline)) return '🚀';
+
+  if (['lawsuit','investigation','decline','concern','risk','breach','downgrade','layoff'].some(starts)) return '⚠️';
+  if (['revenue','earning','quarter','stock','share','stake','profit','loss','beat','miss','guidance','ipo','funding','raises','valuation','round','upgrade'].some(starts)) return '📈';
+  return '📰';
 }
 
 function renderCompetitorProductUpdates(compId, items, c) {
@@ -2077,15 +2118,31 @@ function buildWeeklyProductUpdatesHtml(weeklyData, targetDate) {
   }
 
   const bulletsHtml = sorted.map(b => {
-    // Back-compat: v1 bucket with latest_headline but no items[] array
+    // Schema-v2 items[] if present; otherwise synthesize from v1 latest_* fields.
     let items = Array.isArray(b.items) ? b.items : [];
-    if (items.length === 0 && b.latest_headline) {
-      items = [{
+    const isV1Fallback = items.length === 0 && b.latest_headline;
+    if (isV1Fallback) {
+      // Synthesize a single item. The v1 file had no emoji or content_type
+      // stored, so we derive them client-side to run through isProductUpdate.
+      const syntheticEmoji = pickEmoji(b.latest_headline);
+      const syntheticItem = {
         headline: b.latest_headline,
         url: b.latest_url || '',
         date: b.latest_date || '',
         description: '',
-      }];
+        emoji: syntheticEmoji,
+        // Assume site_news for v1 items — gives the predicate a valid source
+        // to work with. If the headline is real product news, it passes.
+        content_type: 'site_news',
+      };
+      // Per spec: if v1 synthesized latest fails the predicate, HIDE this
+      // company entirely from the weekly section rather than showing noise.
+      // Count and bucket still exist on disk — they'll disappear on the next
+      // post-schema-v2 fetch when real items[] is populated.
+      if (!isProductUpdate(syntheticItem)) {
+        return '';  // drop this company row
+      }
+      items = [syntheticItem];
     }
 
     // Find competitor metadata for cross-links
@@ -2130,7 +2187,20 @@ function buildWeeklyProductUpdatesHtml(weeklyData, targetDate) {
       </div>
       ${subBulletsHtml}
     </div>`;
-  }).join('');
+  }).filter(s => s).join('');  // drop empty strings from v1 filtering
+
+  // If filtering left nothing (all v1-fallback buckets failed the predicate),
+  // show the standard empty-state copy instead of an empty section.
+  if (!bulletsHtml.trim()) {
+    return sectionOpen + `
+      <div style="font-size:12px;color:var(--text3);line-height:1.5;padding:4px 0;">
+        No qualifying product updates yet this week. Refreshes once daily at 9:30 AM ET.
+        <span style="display:block;font-size:11px;color:var(--text3);margin-top:4px;opacity:0.8;">
+          (Current week's fetch still has general news cached — the stricter product filter will repopulate on the next daily run.)
+        </span>
+      </div>
+    ` + sectionClose;
+  }
 
   const footerMeta = weekStartStr
     ? `<div style="font-size:10px;color:var(--text3);margin-top:6px;">Week starting ${weekStartStr} · ${weeklyData.items_count} total items across ${Object.keys(weeklyData.by_competitor).length} competitors</div>`
