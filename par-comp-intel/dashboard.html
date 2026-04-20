@@ -386,6 +386,20 @@
         </div>
       </div>
 
+      <!-- Product Updates feed -->
+      <div class="card" id="productUpdatesCard">
+        <div class="card-header">
+          <span class="card-title">
+            Recent product updates
+            <span style="font-weight:400;font-size:11px;color:var(--text3);margin-left:6px;">from competitor blogs, newsrooms & direct sources</span>
+          </span>
+          <span class="last-updated" id="productUpdatesCount">—</span>
+        </div>
+        <div id="productUpdatesContent">
+          <span class="news-loading"><span class="spinner"></span> Loading…</span>
+        </div>
+      </div>
+
       <!-- Market overview card for public cos -->
       <div class="card">
         <div class="card-header">
@@ -1554,6 +1568,65 @@ async function loadHighlights() {
   container.innerHTML = data.items.map(i => `
     <div class="highlight-row">
       <span class="highlight-icon">${i.emoji || '📰'}</span>
+      <span class="highlight-text"><strong>${i.company}</strong> — ${i.headline}${contentTypePillHtml(i)}${i.url ? ` <a href="${i.url}" target="_blank" style="color:var(--accent);font-size:11px;margin-left:4px;">Read ↗</a>` : ''}</span>
+      <span class="highlight-time">${timeAgoShort(i.date)}</span>
+    </div>
+  `).join('');
+}
+
+// ─── Product updates feed ───────────────────────────────────────────────────
+// Separate from highlights — surfaces the 10 most recent items where
+// content_type is NOT press_general, sourced from competitors.json (which
+// holds the per-competitor news buckets including all content_types).
+// Additive: doesn't replace highlights, appears below.
+
+async function loadProductUpdates() {
+  const container = document.getElementById('productUpdatesContent');
+  const countEl = document.getElementById('productUpdatesCount');
+  if (!container) return;
+
+  const data = await loadJSON('competitors.json');
+  if (!data || !data.companies) {
+    container.innerHTML = '<p style="color:var(--text3);font-size:13px;padding:12px 0;">Product updates feed not yet available. Refreshes daily at 9 AM ET.</p>';
+    if (countEl) countEl.textContent = '';
+    return;
+  }
+
+  // Flatten all items across companies; filter to non-press_general
+  const PRODUCT_TYPES = new Set(['product_release', 'changelog', 'press_release', 'site_news']);
+  const items = [];
+  for (const [company, list] of Object.entries(data.companies)) {
+    for (const item of list) {
+      if (PRODUCT_TYPES.has(item.content_type)) {
+        items.push(item);
+      }
+    }
+  }
+
+  if (!items.length) {
+    container.innerHTML = `<p style="color:var(--text3);font-size:13px;padding:12px 0;line-height:1.55;">
+      No direct product updates from competitor sources this cycle.<br>
+      <span style="font-size:11px;">This feed refreshes once daily at 9 AM ET. Sources: competitor blogs, newsrooms, changelogs, and Google News site-restricted queries.</span>
+    </p>`;
+    if (countEl) countEl.textContent = '';
+    return;
+  }
+
+  // Sort newest first
+  items.sort((a, b) => {
+    const da = new Date(a.date || 0);
+    const db = new Date(b.date || 0);
+    return db - da;
+  });
+
+  const topN = items.slice(0, 10);
+  if (countEl) {
+    countEl.textContent = `${items.length} across ${new Set(items.map(i => i.company)).size} competitors`;
+  }
+
+  container.innerHTML = topN.map(i => `
+    <div class="highlight-row">
+      <span class="highlight-icon">${i.emoji || '🚀'}</span>
       <span class="highlight-text"><strong>${i.company}</strong> — ${i.headline}${contentTypePillHtml(i)}${i.url ? ` <a href="${i.url}" target="_blank" style="color:var(--accent);font-size:11px;margin-left:4px;">Read ↗</a>` : ''}</span>
       <span class="highlight-time">${timeAgoShort(i.date)}</span>
     </div>
@@ -2897,7 +2970,7 @@ buildStockChart();
 setNextDigest();
 // Keep countdown current
 setInterval(setNextDigest, 60000);
-setTimeout(() => { loadOverviewAI(); loadHighlights(); loadGlobalNews(); loadAlerts(); }, 300);
+setTimeout(() => { loadOverviewAI(); loadHighlights(); loadProductUpdates(); loadGlobalNews(); loadAlerts(); }, 300);
 
 // Esc closes alerts panel
 document.addEventListener('keydown', (e) => {
