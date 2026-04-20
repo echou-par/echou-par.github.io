@@ -114,7 +114,7 @@ COMPETITOR_CONTENT_SOURCES = {
         'site_domain': 'pos.toasttab.com',
     },
     'DoorDash': {
-        'blog_rss': 'https://doordash.engineering/feed/',
+        'blog_rss': None,
         'press_rss': None,
         'changelog_rss': None,
         'site_domain': 'blog.doordash.com',
@@ -140,7 +140,7 @@ COMPETITOR_CONTENT_SOURCES = {
     'Square': {
         'blog_rss': None,
         'press_rss': None,
-        'changelog_rss': 'https://developer.squareup.com/changelog.rss',
+        'changelog_rss': None,
         'site_domain': 'developer.squareup.com',
     },
     'Global Payments': {
@@ -156,7 +156,7 @@ COMPETITOR_CONTENT_SOURCES = {
         'site_domain': 'fiserv.com',
     },
     'Uber Eats': {
-        'blog_rss': 'https://www.uber.com/blog/feed/',
+        'blog_rss': None,
         'press_rss': None,
         'changelog_rss': None,
         'site_domain': 'uber.com',
@@ -166,11 +166,11 @@ COMPETITOR_CONTENT_SOURCES = {
     'Olo': {
         'blog_rss': None,
         'press_rss': None,
-        'changelog_rss': 'https://developers.olo.com/changelog/rss',
+        'changelog_rss': None,
         'site_domain': 'olo.com',
     },
     'Thanx': {
-        'blog_rss': 'https://www.thanx.com/blog/feed/',
+        'blog_rss': None,
         'press_rss': None,
         'changelog_rss': None,
         'site_domain': 'thanx.com',
@@ -178,11 +178,11 @@ COMPETITOR_CONTENT_SOURCES = {
     'Deliverect': {
         'blog_rss': 'https://www.deliverect.com/en/blog/rss.xml',
         'press_rss': None,
-        'changelog_rss': 'https://docs.deliverect.com/changelog/feed',
+        'changelog_rss': None,
         'site_domain': 'deliverect.com',
     },
     'TouchBistro': {
-        'blog_rss': 'https://www.touchbistro.com/blog/feed/',
+        'blog_rss': None,
         'press_rss': None,
         'changelog_rss': None,
         'site_domain': 'touchbistro.com',
@@ -194,19 +194,19 @@ COMPETITOR_CONTENT_SOURCES = {
         'site_domain': 'spoton.com',
     },
     'Bikky': {
-        'blog_rss': 'https://www.bikky.com/blog/rss.xml',
+        'blog_rss': None,
         'press_rss': None,
         'changelog_rss': None,
         'site_domain': 'bikky.com',
     },
     'ItsaCheckmate': {
-        'blog_rss': 'https://itsacheckmate.com/feed/',
+        'blog_rss': None,
         'press_rss': None,
         'changelog_rss': None,
         'site_domain': 'itsacheckmate.com',
     },
     'Otter POS': {
-        'blog_rss': 'https://www.tryotter.com/blog/rss.xml',
+        'blog_rss': None,
         'press_rss': None,
         'changelog_rss': None,
         'site_domain': 'tryotter.com',
@@ -230,9 +230,9 @@ COMPETITOR_CONTENT_SOURCES = {
         'site_domain': 'getrevi.com',
     },
     'TalonOne': {
-        'blog_rss': 'https://www.talon.one/blog/feed',
+        'blog_rss': None,
         'press_rss': None,
-        'changelog_rss': 'https://docs.talon.one/changelog/feed',
+        'changelog_rss': None,
         'site_domain': 'talon.one',
     },
     'Sparkfly': {
@@ -248,7 +248,7 @@ COMPETITOR_CONTENT_SOURCES = {
         'site_domain': 'tillster.com',
     },
     'Paytronix': {
-        'blog_rss': 'https://www.paytronix.com/blog/feed/',
+        'blog_rss': None,
         'press_rss': None,
         'changelog_rss': None,
         'site_domain': 'paytronix.com',
