@@ -313,10 +313,63 @@ def pick_emoji(headline):
     def starts_word(word):
         return re.search(r'\b' + re.escape(word), h) is not None
 
+    # Partnerships first — "X partners with Y" trumps campaign/launch signals
     if any(k in h for k in ['partner', 'integrat', 'teams up', 'joins force']) or starts_word('deal'):
         return '🤝'
-    if any(k in h for k in ['launch', 'introduc', 'unveils', 'debuts', 'new product']) or starts_word('announce'):
+
+    # 📢 Campaign / marketing / editorial — check BEFORE 🚀 because many campaigns
+    # use product-launch verbs ("unveils", "announces", "launches"). E.g.
+    # "DoorDash Unveils Second Annual List of America's Favorite Delivery Spots" is
+    # marketing content, not a product launch. We route it to 📢 so generate_insights
+    # can surface it as "campaign activity" rather than "product launch activity".
+    CAMPAIGN_PATTERNS = [
+        r'\bcampaign\b',
+        r'\blist\s+of\b',
+        r'\bfavorite\s+\w+',
+        r'\bannual\s+(?:list|awards|report|survey)\b',
+        r'\banniversary\b',
+        r'\bcontest\b', r'\bgiveaway\b', r'\bsweepstake',
+        r'\bcustomer\s+spotlight',
+        r'\bcelebrates\b', r'\bcelebrating\b',
+        r'\bseason\s+of\b', r'\bholiday\s+(?:specials?|promotion)',
+        r'\b(?:spotlights?|rankings?|leaderboard)\b',
+        r'\b(?:best|top)\s+\d+\b',   # "Top 10 Popular Restaurants"
+        r'\b\d+\s+(?:best|top|greatest)\b',  # "The 12 Best Store-Bought Soups"
+    ]
+    if any(re.search(p, h) for p in CAMPAIGN_PATTERNS):
+        return '📢'
+
+    # 🚀 Product launch — STRICTER than before. Must combine a release-verb with
+    # a product-type noun OR a proper-noun product name (e.g. "launches DayCheck").
+    # This prevents "Toast Launches Built For Busy Campaign" from being tagged as
+    # a product launch (campaign check runs first anyway), while still catching
+    # product-launch headlines that name the product directly.
+    RELEASE_VERBS = r'launch(?:es|ed|ing)?|introduc(?:es|ed|ing)|unveil(?:s|ed|ing)?|debut(?:s|ed|ing)?|rolls?\s+out|releases?|ships?|announces?'
+    PRODUCT_NOUNS = r'feature|platform|tool|app(?:lication)?|integration|api|sdk|version|release|beta|module|plugin|dashboard|hardware|system|software|product|capability|capabilities|service|solution|offering|portal|widget|extension|kit'
+    PRODUCT_LAUNCH_PATTERNS = [
+        # Verb close to a product noun: "launches a new feature", "unveils new tool"
+        rf'\b(?:{RELEASE_VERBS})\b[\w\s]{{0,40}}\b(?:new\s+)?(?:{PRODUCT_NOUNS})\b',
+        rf'\b(?:new\s+)?(?:{PRODUCT_NOUNS})\b[\w\s]{{0,30}}\b(?:{RELEASE_VERBS})\b',
+        # Explicit release phrases
+        r'\bnew\s+product\b',
+        r'\brelease\s+of\s+(?:the\s+)?\w+',
+        r'\bgeneral\s+availability\b', r'\bGA\s+release\b',
+        r'\bversion\s+\d', r'\bv\d+(?:\.\d+)+',
+    ]
+    # Case-sensitive fallback: detect a capitalized proper-noun product name
+    # directly after a release verb. The pick_emoji function lowercases h at the
+    # start, so we inspect the ORIGINAL headline for capitalization signals.
+    # Example: "SpotOn Launches DayCheck, Helping Restaurants..." → 🚀
+    # Avoid false positives by requiring the proper noun to be at least 5
+    # chars and NOT a common first word like "The/A/An" or a pure place name.
+    PROPER_NOUN_LAUNCH = re.compile(
+        r'\b(?:Launches|Launched|Introduces|Introduced|Unveils|Unveiled|Debuts|Debuted|Releases|Released|Rolls\s+out)\s+'
+        r'(?!a\b|an\b|the\b|its\b|new\b|first\b)'   # skip generic determiners
+        r'([A-Z][A-Za-z0-9]{4,}(?:[A-Z][A-Za-z0-9]+)?)',  # CamelCase or PascalCase product names (at least 5 chars)
+    )
+    if any(re.search(p, h) for p in PRODUCT_LAUNCH_PATTERNS) or PROPER_NOUN_LAUNCH.search(headline):
         return '🚀'
+
     # Check risk BEFORE financial so "Seaport downgrades X stock" → ⚠️ not 📈
     if any(starts_word(k) for k in ['lawsuit', 'investigation', 'decline', 'concern', 'risk', 'breach', 'downgrade', 'layoff']):
         return '⚠️'
@@ -333,7 +386,10 @@ def pick_emoji(headline):
 # Product Updates tab, and generate_insights() thematic-density counting —
 # so all four views agree on what counts as a product update.
 PRODUCT_UPDATE_SOURCES = {'product_release', 'changelog', 'press_release', 'site_news'}
-PRODUCT_UPDATE_EMOJIS = {'🚀', '🤝', '📰'}  # launch, partnership, or general announcement
+# Only truly product-related emojis. 📰 (generic) and 📢 (campaign) are NOT
+# product updates — campaigns get their own 'concentrated campaign activity'
+# insight in generate_insights().
+PRODUCT_UPDATE_EMOJIS = {'🚀', '🤝'}
 # Topic blocklist — these phrases signal financial / careers / support / legal
 # content even when the item comes from a company's own domain via site_news.
 # Examples it would have caught in run #52:
@@ -1078,11 +1134,13 @@ def generate_insights(deduped_news, per_company, financials, stocks):
         })
 
     # ── Signal 2: High-signal thematic density ──────────────────────────────────
-    # Prefer specific action-type items (🤝 partnerships, 🚀 products, ⚠️ risks) since
-    # financial/market items (📈) are noisy and common. Only surface 📈 with >=5 items.
+    # Prefer specific action-type items (🤝 partnerships, 🚀 products, 📢 campaigns,
+    # ⚠️ risks) since financial/market items (📈) are noisy and common.
+    # Only surface 📈 with >=5 items.
     emoji_labels_priority = [
         ('🤝', 'partnership', 3),
         ('🚀', 'product launch', 3),
+        ('📢', 'campaign', 3),
         ('⚠️', 'risk', 2),
         ('📈', 'financial/market', 5),  # higher bar
     ]
