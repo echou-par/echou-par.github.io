@@ -1,9 +1,8 @@
 {
-  "updated": "2026-04-21T17:46:54.687391+00:00",
-  "total": 4,
+  "updated": "2026-04-21T19:55:52.433813+00:00",
+  "total": 2,
   "by_category": {
-    "analyst_downgrade": 3,
-    "stock_move": 1
+    "analyst_downgrade": 2
   },
   "alerts": [
     {
@@ -16,19 +15,7 @@
       "date": "Fri, 17 Apr 2026 13:33:36 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-04-21T17:46:54.687391+00:00"
-    },
-    {
-      "category": "analyst_downgrade",
-      "severity": "high",
-      "company": "Shift4",
-      "headline": "Seaport downgrades Shift4 Payments stock rating on fintech headwinds - Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWV8wZ3NIOTYzWWg5a2N0bWFfemlWTmVZYldGTzhmZWd3RHhmRmVqZjB0dnBGTGpDdjFkZ0UtMHEwWjVia3QzaHZkZzE5SjZ1aG1NNDFEWnZUX2NfdUVwU1k2Y1gyT011NmNCTUNHUU13R0hieXlGRmtBUlp4Q1pqZFlULVk0cWNRd19vT1ZrQ182MHduX2RnTDNRR0hlbktDVTFVdUdiS002d3NyYzE5ZEVxQzBRb1U1WGNBZ09Wb1IyQjFjRzQ4?oc=5",
-      "source": "Google News",
-      "date": "Thu, 16 Apr 2026 12:48:34 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-04-21T17:46:54.687391+00:00"
+      "detected_at": "2026-04-21T19:55:52.433813+00:00"
     },
     {
       "category": "analyst_downgrade",
@@ -40,19 +27,7 @@
       "date": "Wed, 15 Apr 2026 02:32:00 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-04-21T17:46:54.687391+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "medium",
-      "company": "PAR",
-      "headline": "PAR (PAR) stock up 7.6% over the past week",
-      "url": "https://finance.yahoo.com/quote/PAR",
-      "source": "Yahoo Finance",
-      "date": "2026-04-21T17:46:54.687391+00:00",
-      "par_relevance": 3,
-      "note": "+7.6% 1W",
-      "detected_at": "2026-04-21T17:46:54.687391+00:00"
+      "detected_at": "2026-04-21T19:55:52.433813+00:00"
     }
   ]
 }

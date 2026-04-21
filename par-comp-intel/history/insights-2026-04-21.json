@@ -2,7 +2,7 @@
   "date": "2026-04-21",
   "weekday": "Tuesday",
   "first_seen": "2026-04-21T06:21:47.784917+00:00",
-  "last_updated": "2026-04-21T17:46:54.687391+00:00",
+  "last_updated": "2026-04-21T19:55:52.433813+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Deliverect, Paytronix appeared together in coverage \u2014 \"Paytronix and Deliverect Partner to Enable Seamless Operations Across Online Orders for Restaurants - GlobeNewswire\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-04-21T06:21:47.784917+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 11 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -49,13 +49,8 @@
       "first_detected": "2026-04-21T06:21:47.784917+00:00"
     },
     {
-      "text": "SpotOn shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"SpotOn Highlights Q1 2026 Momentum with New Customers, Product Enhancements, and Strategic Partnerships\"",
+      "text": "SpotOn shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Popmenu Integrates With SpotOn to Streamline Restaurant Operations and Drive Revenue Growth - Restaurant Technology News\"",
       "sources": [
-        {
-          "title": "SpotOn Highlights Q1 2026 Momentum with New Customers, Product Enhancements, and Strategic Partnerships",
-          "url": "https://www.spoton.com/blog/q1-2026-highlights/",
-          "source": "SpotOn blog"
-        },
         {
           "title": "Popmenu Integrates With SpotOn to Streamline Restaurant Operations and Drive Revenue Growth - Restaurant Technology News",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWUVLM1hIdFRHWERsVUp6RlZVcUlhOUVZcDNZdUJIanBfSlFzeWhad3Q0Rjk0TWNLZUYzZDYtb1lwVl9TTGtmYWhzVlhZZzAwVFFST3piQlhyMjl6UGVoQWFmMlVPY2pNa19OTk8zZ3NETEhuXzRDNklYMVpSa3A1RUl6RnVzQ1o1UWRLdHZjRGlnQXRza2FNdTlrREREd1R6SmNhYWhlc3hfeVBYV09wVG5QMTBGQnRoSW9xYjV4NnBlU29CbGswUENLN2s0THFNV2tV?oc=5",
@@ -64,6 +59,11 @@
         {
           "title": "Popmenu Partners with SpotOn to Help Restaurants Scale Growth - Eastern Progress",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPTU1NNG40aTFKZkxzN0JBcDVwcUI5d1hvOFpVb1RfV0hTQ3NSVDVFSEhSS1pZeUMxTlVLVU51X3N4cXJvY21scXV2Um5MWlE1RWdMdW9XazhLQ0FkNlBFSkd5TU9mcUpwTGRQZHdiakl1V3p5d1ZBVWtTaVM2Q0NBSVlFNHFwdncxS2g0XzdFZU5mQ251N2E4bW1LZmZQRi05NlBZRmp5VEp0ellMOXhrclVBZ3ZZLTdaX0pZZHVmUy1PVTRYeklaUVNfLTVHN1JNQTYyVmxWQ3pLRnc?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Loman AI and SpotOn partner to automate restaurant phone calls - Verdict Food Service",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBWeWFibG9WbUxnQUM0NTBJVHRHNnAxNU1wOThwZlotWElMZm4tRjlGbUIwR0dMSjRzajVDdl85d0ZMay03aTQydk1Va3RGSWtQRDhSbk5pLXFmMHpXcUY4UFZqby02dU1ZMkVObFNhQ0t5UQ?oc=5",
           "source": "Google News"
         }
       ],
@@ -110,7 +110,7 @@
       "first_detected": "2026-04-21T06:21:47.784917+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Toast Inc-Class A (NYSE:TOST) Fits Louis Navellier's Growth Stock Criteria - ChartMill\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Toast Inc-Class A (NYSE:TOST) Fits Louis Navellier's Growth Stock Criteria - ChartMill\"",
       "sources": [
         {
           "title": "Toast Inc-Class A (NYSE:TOST) Fits Louis Navellier's Growth Stock Criteria - ChartMill",
@@ -196,40 +196,85 @@
       ],
       "company": "DoorDash",
       "first_detected": "2026-04-21T16:43:13.742621+00:00"
+    },
+    {
+      "text": "Cross-competitor event: Square, Toast appeared together in coverage \u2014 \"Square vs Clover vs Toast POS: 2026 Guide - tech.co\"",
+      "sources": [
+        {
+          "title": "Square vs Clover vs Toast POS: 2026 Guide - tech.co",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9uSkdnLUhOZm8yVEM4aHVtS1AwMTdTWjIzT1BaSllOWEhuMFNKVW84OUN4U3NrcXpoenliSmJMOWxYbjdGLS1aTUVYSV9PZW5PdGJ3cE00OVVvRDNoUTVoQkRn?oc=5",
+          "source": "Google News - POS Industry"
+        }
+      ],
+      "first_detected": "2026-04-21T19:55:52.433813+00:00"
+    },
+    {
+      "text": "Shift4 shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"Shift4 Payments, Inc. 2025 Q4 - Results - Earnings Call Presentation (NYSE:FOUR) 2026-04-21 - Seeking Alpha\"",
+      "sources": [
+        {
+          "title": "Shift4 Payments, Inc. 2025 Q4 - Results - Earnings Call Presentation (NYSE:FOUR) 2026-04-21 - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUmZUNmtHN2NzYk51T3pjS2tjTkhmQ2Y3T18yN1B6TlBiZnE5NExQQ3h3WVNSN092X25RQnNMcERCQlNwWDlhaW5aYmVKVWhyRTdjdTNpNlh5MS16Z1pDT0hSRnBCNG9NWnFGNFZKa2RDZmZ1ZkJSVWczSFZRaG5Kdm4yX3E4QjV4bWVQcnhJREdpU1BOb2doODhJOVJfbThpaE1TOHR3?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Shift4 Payments (NYSE: FOUR) proxy seeks charter simplification, ESPP approval - Stock Titan",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPc1N3MGdCbDZGaDhjU0RvWnhhNHpCamExV1ZPeEpJTXk2dTZoR2NEYUZPaGpKWFBYVVF1dDc1bThYTVpNdjJZU0JoR3ZzUWFnRmRWT3pXdEVsMk5tU3FFalYxRXN6UnRzMm5EVEtSTFhjNmF2YzFZVkIwbFk4ZEVXd2ZlZTlmLTVoSXRNdEZuelhDWVFvUWUtOU4tbGdZYWlJQm5zVi1tSERsb0ZtM3dLX1plTjlXTzU2?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Q4 Earnings Highs And Lows: Shift4 (NYSE:FOUR) Vs The Rest Of The Payment Processing Stocks - StockStory",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQLVNnM252VUVOM1M0WHRRQkNDcTJIUkF2NmJBR1JMMXpDMWZDZVFTYThvX1JKRUw0MVBUNmZkUGJWVTlOcDJ4cnhqOV90emkyTk4ybkpwTGkwZmRqM1lsUkRCMXdBSHlCdHMtamQyYXoxeTZ5RmtvYUM5YWstUmhpTzlBcW1JbEtnMHhlMVlWT0JaWmR6bzhYcDRDb0NtZ3ZuMUR0RFRST25GdGs1OFBueXJERHVxZ3lENWlJckxfRUZ6bnVXTFp0Nk90M0hIYllYMVRrUTd4c2tYMThG?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Shift4",
+      "first_detected": "2026-04-21T19:55:52.433813+00:00"
+    },
+    {
+      "text": "Block (Square) (XYZ) stock gained 5.7% over the past week \u2014 material weekly move relative to broader cohort.",
+      "sources": [
+        {
+          "title": "XYZ on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/XYZ",
+          "source": "Yahoo Finance"
+        }
+      ],
+      "company": "Block (Square)",
+      "first_detected": "2026-04-21T19:55:52.433813+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "Deliverect",
-      "count": 49
+      "company": "SpotOn",
+      "count": 16
     },
     {
-      "company": "SpotOn",
-      "count": 39
+      "company": "Fiserv",
+      "count": 15
     },
     {
       "company": "Lightspeed",
-      "count": 35
+      "count": 15
+    },
+    {
+      "company": "Shift4",
+      "count": 15
+    },
+    {
+      "company": "Tillster",
+      "count": 15
+    },
+    {
+      "company": "Toast",
+      "count": 15
+    },
+    {
+      "company": "Uber Eats",
+      "count": 15
     },
     {
       "company": "DoorDash",
-      "count": 30
-    },
-    {
-      "company": "TouchBistro",
-      "count": 27
-    },
-    {
-      "company": "Paytronix",
-      "count": 26
-    },
-    {
-      "company": "Sparkfly",
-      "count": 26
-    },
-    {
-      "company": "NCR Voyix",
-      "count": 25
+      "count": 15
     }
   ]
 }
