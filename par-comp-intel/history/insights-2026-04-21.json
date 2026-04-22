@@ -2,7 +2,7 @@
   "date": "2026-04-21",
   "weekday": "Tuesday",
   "first_seen": "2026-04-21T06:21:47.784917+00:00",
-  "last_updated": "2026-04-21T22:25:59.359953+00:00",
+  "last_updated": "2026-04-22T00:04:56.200042+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Deliverect, Paytronix appeared together in coverage \u2014 \"Paytronix and Deliverect Partner to Enable Seamless Operations Across Online Orders for Restaurants - GlobeNewswire\"",
@@ -132,7 +132,7 @@
       "first_detected": "2026-04-21T06:21:47.784917+00:00"
     },
     {
-      "text": "Square shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"Block, Inc. (NYSE:SQ) Q4 2025 Earnings Call Transcript - Insider Monkey\"",
+      "text": "Square shows concentrated financial/market activity \u2014 7 tracked financial/market items this cycle. Latest: \"Block, Inc. (NYSE:SQ) Q4 2025 Earnings Call Transcript - Insider Monkey\"",
       "sources": [
         {
           "title": "Block, Inc. (NYSE:SQ) Q4 2025 Earnings Call Transcript - Insider Monkey",
@@ -246,10 +246,18 @@
   "most_mentioned": [
     {
       "company": "DoorDash",
-      "count": 19
+      "count": 20
+    },
+    {
+      "company": "TouchBistro",
+      "count": 17
     },
     {
       "company": "Fiserv",
+      "count": 16
+    },
+    {
+      "company": "Paytronix",
       "count": 16
     },
     {
@@ -261,19 +269,11 @@
       "count": 16
     },
     {
-      "company": "TouchBistro",
-      "count": 16
-    },
-    {
       "company": "Shift4",
       "count": 15
     },
     {
-      "company": "NCR Voyix",
-      "count": 15
-    },
-    {
-      "company": "Uber Eats",
+      "company": "PAR",
       "count": 15
     }
   ]
