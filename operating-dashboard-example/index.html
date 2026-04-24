@@ -135,6 +135,47 @@ body{background:var(--bg);min-height:100vh;margin:0;padding:0}
 </style>
 </head>
 <body>
+<!-- PASSWORD GATE -->
+<style>
+#pw-gate{position:fixed;inset:0;z-index:99999;background:#1e2135;display:flex;align-items:center;justify-content:center;font-family:'Manrope',Arial,sans-serif}
+#pw-box{background:#2F3452;border-radius:16px;padding:40px 36px;width:340px;max-width:90vw;box-shadow:0 8px 40px rgba(0,0,0,.4);text-align:center}
+#pw-box h2{color:#fff;font-size:18px;font-weight:800;margin-bottom:6px;letter-spacing:.04em}
+#pw-box p{color:#8C9FFF;font-size:12px;margin-bottom:24px}
+#pw-input{width:100%;padding:11px 14px;border-radius:8px;border:2px solid #3d4270;background:#1e2135;color:#fff;font-size:14px;font-family:'Manrope',Arial,sans-serif;outline:none;text-align:center;letter-spacing:.05em}
+#pw-input:focus{border-color:#8C9FFF}
+#pw-btn{margin-top:14px;width:100%;padding:11px;border-radius:8px;border:none;background:linear-gradient(135deg,#6864D1,#8C9FFF);color:#fff;font-size:14px;font-weight:800;cursor:pointer;font-family:'Manrope',Arial,sans-serif;letter-spacing:.04em;transition:opacity .15s}
+#pw-btn:hover{opacity:.88}
+#pw-err{color:#FF2751;font-size:12px;margin-top:10px;min-height:16px}
+</style>
+<div id="pw-gate">
+  <div id="pw-box">
+    <h2>PAR Weekly Brief</h2>
+    <p>Enter password to continue</p>
+    <input id="pw-input" type="password" placeholder="Password" autocomplete="off" />
+    <button id="pw-btn">Enter</button>
+    <div id="pw-err"></div>
+  </div>
+</div>
+<script>
+(function(){
+  const PASS = 'echou2026resumereadme';
+  const KEY = 'par_auth';
+  function unlock(){document.getElementById('pw-gate').style.display='none';}
+  if(sessionStorage.getItem(KEY)==='1'){unlock();return;}
+  function attempt(){
+    if(document.getElementById('pw-input').value===PASS){
+      sessionStorage.setItem(KEY,'1');unlock();
+    } else {
+      document.getElementById('pw-err').textContent='Incorrect password. Try again.';
+      document.getElementById('pw-input').value='';
+      document.getElementById('pw-input').focus();
+    }
+  }
+  document.getElementById('pw-btn').addEventListener('click',attempt);
+  document.getElementById('pw-input').addEventListener('keydown',function(e){if(e.key==='Enter')attempt();});
+})();
+</script>
+<!-- END PASSWORD GATE -->
 <div class="shell">
 
 <div class="hdr">
