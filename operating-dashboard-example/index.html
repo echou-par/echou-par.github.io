@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PAR Weekly Brief</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600;800&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+body,div,span,p,li,td,th,button,select,label,input{font-family:'Manrope',Arial,sans-serif}
+:root{
+  --p0:#212438;--p1:#2F3452;--p2:#8C9FFF;--p3:#6864D1;--p4:#FF5719;--p5:#F8931C;
+  --p2t:#F3F5FF;--p4t:#FFF1EC;--p5t:#FEF5E8;--ok:#34C679;--err:#FF2751;
+  --bg:#F0F2FA;--card:#fff;--border:#DDE0F0;
+}
+body{background:var(--bg);min-height:100vh;margin:0;padding:0}
+.shell{width:100%;padding:0 0 40px}
+.hdr{background:var(--p1);padding:14px 24px 10px;border-radius:0}
+.hdr-top{display:flex;align-items:center;justify-content:space-between}
+.par{font-weight:800;font-size:20px;letter-spacing:.08em;color:#fff}
+.meta-pill{font-size:11px;color:var(--p2);background:rgba(255,255,255,.08);padding:3px 10px;border-radius:20px;letter-spacing:.04em}
+.hdr-sub{font-size:11px;color:var(--p2);margin-top:4px}
+.strip{height:3px;background:linear-gradient(to right,var(--p2),var(--p3),var(--p4),var(--p5))}
+.tabs{display:flex;background:var(--p1);padding:10px 24px;gap:6px;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{display:flex;align-items:center;gap:7px;padding:7px 13px 7px 8px;font-size:11px;font-weight:700;cursor:pointer;border:none;border-radius:8px;background:rgba(255,255,255,.08);color:rgba(255,255,255,.55);white-space:nowrap;letter-spacing:.03em;transition:background .15s,color .15s;flex-shrink:0}
+.tab:hover:not(.on){background:rgba(255,255,255,.14);color:rgba(255,255,255,.85)}
+.tab.on{background:#fff;color:var(--p1);font-weight:800;box-shadow:0 2px 8px rgba(0,0,0,.18)}
+.tab-av{width:22px;height:22px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800;color:#fff;flex-shrink:0;letter-spacing:0}
+.av-overview{background:var(--p3)}.av-dave{background:#1a6fa8}.av-ellie{background:#0a8a4a}
+.av-frost{background:#c43a00}.av-josh{background:#7b3fcf}.av-berk{background:#1a6fa8}
+.av-other{background:#888}.av-dau{background:var(--p4)}
+.pane{display:none;padding:20px 24px;background:var(--bg)}
+.pane.on{display:block}
+.sec{font-size:10px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--p3);border-left:3px solid var(--p3);padding-left:8px;margin-bottom:10px;margin-top:18px}
+.sec:first-child{margin-top:0}
+.card{background:var(--card);border:.5px solid var(--border);border-radius:10px;margin-bottom:12px;overflow:hidden}
+.agenda-compact{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:16px}
+.ag-block{background:var(--card);border:.5px solid var(--border);border-radius:9px;overflow:hidden}
+.ag-head{background:var(--p1);padding:8px 10px}
+.ag-time{font-size:9px;font-weight:800;letter-spacing:.08em;color:var(--p2);margin-bottom:2px}
+.ag-title{font-size:12px;font-weight:800;color:#fff;line-height:1.2}
+.ag-body{padding:8px 10px}
+.ag-item{font-size:10px;color:#555;line-height:1.45;padding:3px 0;border-bottom:.5px solid #f5f5fc}
+.ag-item:last-child{border-bottom:none}
+.ag-item strong{color:var(--p1);font-weight:800}
+.promise-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px}
+.promise-box{background:var(--p1);border-radius:9px;padding:12px 14px}
+.promise-lbl{font-size:9px;font-weight:800;letter-spacing:.1em;color:var(--p2);margin-bottom:5px}
+.promise-txt{font-size:12px;color:#fff;line-height:1.6}
+.mood-box{background:linear-gradient(135deg,#4a3fa0,var(--p3));border-radius:9px;padding:12px 14px}
+.mood-lbl{font-size:9px;font-weight:800;letter-spacing:.1em;color:rgba(255,255,255,.6);margin-bottom:5px}
+.mood-txt{font-size:12px;color:#fff;line-height:1.6;font-style:italic}
+.theme-card{background:var(--card);border:.5px solid var(--border);border-radius:10px;margin-bottom:10px;overflow:hidden}
+.theme-hdr{display:flex;align-items:center;gap:10px;padding:10px 13px;cursor:pointer}
+.theme-badge-row{display:flex;gap:5px;align-items:center;margin-bottom:3px}
+.t-req{font-size:9px;font-weight:800;color:var(--p4);letter-spacing:.08em}
+.t-dot{font-size:9px;color:#ccc}
+.t-type{font-size:9px;font-weight:800;color:var(--p3);letter-spacing:.08em}
+.theme-title{font-size:13px;font-weight:800;color:var(--p1);flex:1;line-height:1.3}
+.score-pill{font-size:11px;font-weight:800;padding:2px 10px;border-radius:20px;background:#eef0ff;color:var(--p3);white-space:nowrap}
+.chevron{font-size:14px;color:#bbb;transition:transform .2s;flex-shrink:0}
+.chevron.open{transform:rotate(180deg)}
+.theme-body{padding:10px 13px;display:none;border-top:.5px solid #eef}
+.theme-body.open{display:block}
+.sub2grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.sub2-card{border-radius:7px;padding:9px 11px}
+.sub2-lbl{font-size:9px;font-weight:800;letter-spacing:.08em;margin-bottom:4px}
+.sub2-txt{font-size:11px;line-height:1.55}
+.surprise-card{background:var(--p4t)}.surprise-card .sub2-lbl{color:var(--p4)}.surprise-card .sub2-txt{color:#7a2a00}
+.salient-card{background:var(--p2t)}.salient-card .sub2-lbl{color:var(--p3)}.salient-card .sub2-txt{color:var(--p1)}
+.story-block{background:#f8f8fc;border-radius:7px;padding:9px 11px;margin-bottom:8px}
+.story-lbl{font-size:9px;font-weight:800;letter-spacing:.08em;color:var(--p3);margin-bottom:4px}
+.story-txt{font-size:11px;color:var(--p1);line-height:1.6}
+.help-box{background:var(--p1);border-radius:7px;padding:9px 11px}
+.help-lbl{font-size:9px;font-weight:800;letter-spacing:.08em;color:var(--p2);margin-bottom:6px}
+.help-list{list-style:none;display:flex;flex-direction:column;gap:5px}
+.help-list li{font-size:11px;color:#fff;line-height:1.5;padding-left:12px;position:relative}
+.help-list li:before{content:"•";position:absolute;left:0;color:var(--p2)}
+.cust-tags{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:8px}
+.ctag{font-size:10px;font-weight:800;padding:2px 8px;border-radius:20px;background:#eef0ff;color:var(--p3);border:1px solid #c8caee}
+.close-list{display:flex;flex-direction:column;gap:7px}
+.close-item{background:var(--card);border:.5px solid var(--border);border-radius:8px;padding:8px 12px;display:flex;gap:8px;align-items:flex-start}
+.cbadge{font-size:9px;font-weight:800;padding:2px 7px;border-radius:20px;white-space:nowrap;flex-shrink:0;margin-top:1px}
+.cb-d{background:var(--p4t);color:var(--p4)}.cb-a{background:#eef0ff;color:var(--p3)}.cb-u{background:var(--p5t);color:var(--p5)}
+.c-txt{font-size:12px;color:var(--p1);line-height:1.5}
+.c-own{font-size:11px;color:var(--p3);font-weight:800;margin-top:2px}
+.leader-header{background:var(--p1);border-radius:10px;padding:14px 16px;margin-bottom:12px;display:flex;align-items:center;gap:14px}
+.leader-avatar{width:42px;height:42px;border-radius:50%;background:var(--p3);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:16px;color:#fff;flex-shrink:0}
+.leader-name{font-size:16px;font-weight:800;color:#fff}
+.leader-fn{font-size:11px;color:var(--p2);margin-top:2px}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.kpi-hl-row{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
+.kpi-hl{border-radius:9px;padding:11px 13px}
+.kpi-hl-green{background:#e8faf2;border:.5px solid #b6e9d0}
+.kpi-hl-red{background:var(--p4t);border:.5px solid #ffc8b0}
+.kpi-hl-lbl{font-size:9px;font-weight:800;letter-spacing:.08em;margin-bottom:4px}
+.kpi-hl-green .kpi-hl-lbl{color:#0a6636}.kpi-hl-red .kpi-hl-lbl{color:var(--p4)}
+.kpi-hl-metric{font-size:12px;font-weight:800;color:var(--p1)}
+.kpi-hl-val{font-size:11px;color:#555;margin-top:2px}
+.mini-pulse{width:100%;border-collapse:collapse;font-size:11px}
+.mini-pulse th{font-size:10px;font-weight:800;color:var(--p1);text-align:left;padding:5px 8px;border-bottom:1.5px solid var(--border);background:var(--p2t)}
+.mini-pulse td{padding:6px 8px;border-bottom:.5px solid #f0f0f8;color:var(--p1);vertical-align:middle;line-height:1.35}
+.mini-pulse tr:last-child td{border-bottom:none}
+.mini-kpi{width:100%;border-collapse:collapse;font-size:11px}
+.mini-kpi th{font-size:10px;font-weight:800;color:#fff;text-align:left;padding:6px 10px;background:var(--p1)}
+.mini-kpi td{padding:6px 10px;border-bottom:.5px solid #f0f0f8;color:var(--p1);vertical-align:middle}
+.mini-kpi tr:last-child td{border-bottom:none}
+.status-badge{font-size:9px;font-weight:800;padding:2px 6px;border-radius:10px;white-space:nowrap}
+.s-on{background:#e8faf2;color:#0a6636}.s-off{background:#ffecec;color:#9b1c1c}.s-res{background:#eef0ff;color:var(--p3)}
+.risk-badge{font-size:9px;font-weight:800;padding:2px 6px;border-radius:10px;white-space:nowrap}
+.r-h{background:var(--p4t);color:#7a2a00}.r-m{background:var(--p5t);color:#7a4000}.r-l{background:#f0f0f0;color:#555}
+.trend-up{color:var(--ok);font-weight:800}.trend-down{color:var(--err);font-weight:800}.trend-flat{color:#888;font-weight:800}
+.dau-filters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px;align-items:center}
+.dchip{font-size:11px;font-weight:800;padding:3px 10px;border-radius:20px;cursor:pointer;border:1.5px solid transparent;transition:opacity .15s}
+.dchip.dc-u{background:var(--p4t);color:var(--p4);border-color:var(--p4)}
+.dchip.dc-d{background:#eef0ff;color:var(--p3);border-color:var(--p3)}
+.dchip.dc-a{background:var(--p5t);color:var(--p5);border-color:var(--p5)}
+.dchip.dim{opacity:.3}
+.dau-card-full{background:var(--card);border:.5px solid var(--border);border-radius:8px;padding:10px 13px;margin-bottom:8px}
+.dau-card-full.star{border-left:4px solid var(--p3)}
+.dau-top-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:3px}
+.dau-ttl{font-size:13px;font-weight:800;color:var(--p1);flex:1}
+.dau-ldr{font-size:11px;color:var(--p3);margin-bottom:3px}
+.dau-rec{font-size:12px;color:#555;line-height:1.5}
+.score-pill-sm{font-size:10px;font-weight:800;padding:2px 8px;border-radius:20px;background:#eef0ff;color:var(--p3);white-space:nowrap}
+.cgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.ccard{background:var(--card);border:.5px solid var(--border);border-radius:8px;padding:10px 13px}
+.cname{font-size:13px;font-weight:800;color:var(--p1);margin-bottom:6px}
+.citem{font-size:11px;color:var(--p1);padding:4px 0;border-bottom:.5px solid #f0f0f8;line-height:1.4}
+.citem:last-child{border-bottom:none}
+.ctbadge{font-size:9px;font-weight:800;padding:1px 5px;border-radius:10px;display:inline-block;margin-right:3px}
+.ctH{background:var(--p4t);color:#7a2a00}.ctM{background:var(--p5t);color:#7a4000}.ctL{background:#f0f0f0;color:#555}
+.empty{font-size:12px;color:#aaa;font-style:italic;padding:12px 0}
+</style>
+</head>
+<body>
+<div class="shell">
+
+<div class="hdr">
+  <div class="hdr-top">
+    <span class="par">PAR®</span>
+    <span class="meta-pill" id="meta-pill">Week of April 20, 2026 · 4 of 6 submitted</span>
+  </div>
+  <div class="hdr-sub">Restaurant Leadership Weekly Brief</div>
+</div>
+<div class="strip"></div>
+
+<div class="tabs" id="main-tabs">
+  <button class="tab on"  onclick="showTab('agenda',this)"><span class="tab-av av-overview">⌐</span>Overview</button>
+  <button class="tab"     onclick="showTab('dave',this)"><span class="tab-av av-dave">D</span>Dave · Ops</button>
+  <button class="tab"     onclick="showTab('ellie',this)"><span class="tab-av av-ellie">E</span>Ellie · CX</button>
+  <button class="tab"     onclick="showTab('frost',this)"><span class="tab-av av-frost">F</span>Frost · Sales</button>
+  <button class="tab"     onclick="showTab('josh',this)"><span class="tab-av av-josh">J</span>Josh · Product</button>
+  <button class="tab"     onclick="showTab('berk',this)"><span class="tab-av av-berk">B</span>Berk · Eng</button>
+  <button class="tab"     onclick="showTab('other',this)"><span class="tab-av av-other">+</span>Other Leaders</button>
+  <button class="tab"     onclick="showTab('dau',this)"><span class="tab-av av-dau">★</span>D/A/U Candidates</button>
+</div>
+
+<!-- ── OVERVIEW TAB ── -->
+<div id="pane-agenda" class="pane on">
+  <div class="agenda-compact">
+    <div class="ag-block">
+      <div class="ag-head"><div class="ag-time">0:00 — 0:10 · 10 MIN</div><div class="ag-title">Round Robin</div></div>
+      <div class="ag-body">
+        <div class="ag-item"><strong>Celebrate</strong> One win from the week</div>
+        <div class="ag-item"><strong>Update</strong> One thing not in the pre-read</div>
+        <div class="ag-item"><strong>Flag</strong> One risk or blocker</div>
+      </div>
+    </div>
+    <div class="ag-block">
+      <div class="ag-head"><div class="ag-time">0:10 — 0:20 · 10 MIN</div><div class="ag-title">Pulse Check</div></div>
+      <div class="ag-body" id="ag-pulse-body"><div class="empty">Loading…</div></div>
+    </div>
+    <div class="ag-block">
+      <div class="ag-head"><div class="ag-time">0:20 — 0:55 · 35 MIN</div><div class="ag-title">Strategic Discussion</div></div>
+      <div class="ag-body" id="ag-dau-body"><div class="empty">Loading…</div></div>
+    </div>
+    <div class="ag-block">
+      <div class="ag-head"><div class="ag-time">0:55 — 1:00 · 5 MIN</div><div class="ag-title">Wrap-Up</div></div>
+      <div class="ag-body">
+        <div class="ag-item"><strong>Decisions Made</strong> Confirm what was decided</div>
+        <div class="ag-item"><strong>Owners Assigned</strong> Every decision has a name</div>
+        <div class="ag-item"><strong>Deadlines Set</strong> Every owner has a date</div>
+      </div>
+    </div>
+  </div>
+  <div class="promise-row">
+    <div class="mood-box">
+      <div class="mood-lbl">MOOD OF THE WEEK</div>
+      <div class="mood-txt" id="mood-txt">Strong operational execution in core areas (POS, hardware, OC pay), but new business pipeline faltering—misses on strategic growth vectors require immediate customer win focus and GTM clarity.</div>
+    </div>
+    <div class="promise-box">
+      <div class="promise-lbl">EMPOWERMENT PROMISE</div>
+      <div class="promise-txt" id="promise-txt">By end of session: leadership will have confirmed the FSTEC September narrative, aligned on G360/Bridg GTM strategy (land-and-expand), and locked multi-product deployment ownership model for recent wins (Sarku, Tijuana Flats, &Pizza, Pizza Factory).</div>
+    </div>
+  </div>
+  <div class="sec">Weekly Help Themes</div>
+  <div id="themes-container"></div>
+  <div class="sec">Contributions Close — Decisions Required This Week</div>
+  <div class="close-list" id="close-list"></div>
+</div>
+
+<!-- ── DAVE — OPERATIONS ── -->
+<div id="pane-dave" class="pane">
+  <div class="leader-header">
+    <div class="leader-avatar" style="background:#1a6fa8">D</div>
+    <div><div class="leader-name">Dave</div><div class="leader-fn">Operations</div></div>
+  </div>
+  <div id="dave-kpi-hl" class="kpi-hl-row"></div>
+
+  <!-- KPI Charts row -->
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px">
+
+    <!-- PAR Ops Rollout MTD (Data Central units by database) -->
+    <div class="card" style="padding:14px 16px">
+      <div class="sec" style="margin-top:0">PAR Ops Rollout — MTD April (92 units)</div>
+      <div id="chart-par-ops"></div>
+    </div>
+
+    <!-- POS Rollout Week Apr 13–17 by brand -->
+    <div class="card" style="padding:14px 16px">
+      <div class="sec" style="margin-top:0">POS Rollout — Week Apr 13–17 (116 units)</div>
+      <div id="chart-pos-rollout"></div>
+    </div>
+
+  </div>
+
+  <!-- KPI table for remaining Ops metrics + Pulse side by side -->
+  <div class="two-col">
+    <div>
+      <div class="sec">KPIs</div>
+      <div class="card"><table class="mini-kpi" id="dave-kpi"></table></div>
+    </div>
+    <div>
+      <div class="sec">Pulse Items</div>
+      <div class="card"><table class="mini-pulse"><thead><tr><th>Item</th><th>Status</th><th>Risk</th><th>Owner</th></tr></thead><tbody id="dave-pulse"></tbody></table></div>
+    </div>
+  </div>
+  <div class="sec">D/A/U Items from Dave</div>
+  <div id="dave-dau"></div>
+</div>
+
+<!-- ── ELLIE — CUSTOMER EXPERIENCE ── -->
+<div id="pane-ellie" class="pane">
+  <div class="leader-header">
+    <div class="leader-avatar" style="background:#0a8a4a">E</div>
+    <div><div class="leader-name">Ellie</div><div class="leader-fn">Customer Experience</div></div>
+  </div>
+
+  <!-- Churn Forecast Header -->
+  <div class="sec" style="margin-top:0">Punchh Churn Forecast — 2026</div>
+
+  <!-- Stacked bar chart + ARR Snapshot side by side -->
+  <div style="display:grid;grid-template-columns:1fr 260px;gap:10px;margin-bottom:12px;align-items:start">
+
+    <!-- Stacked bar chart -->
+    <div class="card" style="padding:16px">
+      <div style="font-size:11px;font-weight:800;color:var(--p1);margin-bottom:12px">Cumulative ARR by Month — Punchh Product Only</div>
+      <div style="display:flex;align-items:flex-end;gap:4px;height:140px;padding-bottom:20px;position:relative">
+        <!-- bars rendered by JS -->
+        <div id="ellie-churn-bars" style="display:flex;align-items:flex-end;gap:4px;height:140px;width:100%"></div>
+      </div>
+      <!-- legend -->
+      <div style="display:flex;gap:14px;margin-top:6px;flex-wrap:wrap">
+        <span style="font-size:10px;color:#555;display:flex;align-items:center;gap:4px"><span style="width:10px;height:10px;border-radius:2px;background:#cc2200;display:inline-block"></span>Churned (Actual)</span>
+        <span style="font-size:10px;color:#555;display:flex;align-items:center;gap:4px"><span style="width:10px;height:10px;border-radius:2px;background:#F8931C;display:inline-block"></span>Prov. Notice / Will Churn</span>
+        <span style="font-size:10px;color:#555;display:flex;align-items:center;gap:4px"><span style="width:10px;height:10px;border-radius:2px;background:#f5c518;display:inline-block"></span>At-Risk (Unlikely)</span>
+      </div>
+    </div>
+
+    <!-- ARR Snapshot -->
+    <div style="display:flex;flex-direction:column;gap:8px">
+      <div class="card" style="padding:12px 14px">
+        <div style="font-size:9px;font-weight:800;color:#888;letter-spacing:.08em;margin-bottom:4px">ARR SNAPSHOT</div>
+        <div style="border-bottom:.5px solid #eee;padding-bottom:8px;margin-bottom:8px">
+          <div style="font-size:10px;color:#555;margin-bottom:2px">Churned YTD</div>
+          <div style="font-size:22px;font-weight:800;color:#cc2200">$5.65M</div>
+        </div>
+        <div style="border-bottom:.5px solid #eee;padding-bottom:8px;margin-bottom:8px">
+          <div style="font-size:10px;color:#555;margin-bottom:2px">Prov. Notice / Will Churn</div>
+          <div style="font-size:20px;font-weight:800;color:#F8931C">$2.78M</div>
+        </div>
+        <div style="border-bottom:.5px solid #eee;padding-bottom:8px;margin-bottom:8px">
+          <div style="font-size:10px;color:#555;margin-bottom:2px">At-Risk (Unlikely)</div>
+          <div style="font-size:20px;font-weight:800;color:#f5c518">$2.63M</div>
+        </div>
+        <div>
+          <div style="font-size:10px;color:#555;margin-bottom:2px">Total Exposure</div>
+          <div style="font-size:22px;font-weight:800;color:var(--p1)">$11.06M</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3 panels: Churn Forecast | At-Risk by Quarter | Total Exposure -->
+  <div style="display:grid;grid-template-columns:1fr 1.6fr 1fr;gap:10px;margin-bottom:14px">
+
+    <!-- Panel 01: Churn Forecast -->
+    <div class="card" style="overflow:hidden">
+      <div style="background:#cc2200;padding:7px 12px;font-size:10px;font-weight:800;color:#fff;letter-spacing:.06em">01 &nbsp;CHURN FORECAST</div>
+      <div style="padding:12px">
+        <div style="font-size:10px;color:#888;margin-bottom:8px">AOP Churn Target</div>
+        <div style="font-size:18px;font-weight:800;color:var(--p1);margin-bottom:12px;text-align:right">$8.70M</div>
+        <div style="font-size:10px;font-weight:800;color:var(--p1);margin-bottom:6px">Churn Actuals &amp; Forecast Build</div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px">
+          <span style="font-size:10px;color:#555;display:flex;align-items:center;gap:5px"><span style="width:8px;height:8px;border-radius:50%;background:#cc2200;display:inline-block"></span>Churned Actual (Jan–Mar)</span>
+          <span style="font-size:11px;font-weight:800;color:var(--p1)">$5.65M</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
+          <span style="font-size:10px;color:#555;display:flex;align-items:center;gap:5px"><span style="width:8px;height:8px;border-radius:50%;background:#F8931C;display:inline-block"></span>Churn Notice Provided</span>
+          <span style="font-size:11px;font-weight:800;color:var(--p1)">$2.78M</span>
+        </div>
+        <div style="background:#fff0ee;border:1px solid #ffbcb0;border-radius:6px;padding:7px 10px;display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+          <span style="font-size:10px;font-weight:800;color:#cc2200">Churn Forecast Total</span>
+          <span style="font-size:13px;font-weight:800;color:#cc2200">$8.43M</span>
+        </div>
+        <div style="display:flex;justify-content:space-between">
+          <span style="font-size:10px;color:#555">AOP vs. Forecast Variance</span>
+          <span style="font-size:11px;font-weight:800;color:#0a6636">+$0.27M under AOP</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Panel 02: At-Risk by Quarter -->
+    <div class="card" style="overflow:hidden">
+      <div style="background:#b36000;padding:7px 12px;display:flex;justify-content:space-between;align-items:center">
+        <span style="font-size:10px;font-weight:800;color:#fff;letter-spacing:.06em">02 &nbsp;AT-RISK / UNLIKELY FORECAST</span>
+        <span style="font-size:13px;font-weight:800;color:#fff">$2.63M</span>
+      </div>
+      <div style="padding:10px 12px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px">
+        <!-- Q2 -->
+        <div>
+          <div style="background:#eef0ff;border-radius:4px;padding:4px 7px;font-size:9px;font-weight:800;color:var(--p3);margin-bottom:5px">Q2 Apr–Jun &nbsp;<span style="float:right">$944,660</span></div>
+          <div style="font-size:10px;color:var(--p1);line-height:1.7">
+            <div style="display:flex;justify-content:space-between"><span>Jason's Deli</span><span style="font-weight:700">$526,332</span></div>
+            <div style="display:flex;justify-content:space-between"><span>Bob Evans Rest.</span><span style="font-weight:700">$282,180</span></div>
+            <div style="display:flex;justify-content:space-between"><span>Big Burrito Rest.</span><span style="font-weight:700">$73,448</span></div>
+            <div style="display:flex;justify-content:space-between"><span>Mixt</span><span style="font-weight:700">$62,700</span></div>
+          </div>
+        </div>
+        <!-- Q3 -->
+        <div>
+          <div style="background:#e8faf2;border-radius:4px;padding:4px 7px;font-size:9px;font-weight:800;color:#0a6636;margin-bottom:5px">Q3 Jul–Sep &nbsp;<span style="float:right">$415,641</span></div>
+          <div style="font-size:10px;color:var(--p1);line-height:1.7">
+            <div style="display:flex;justify-content:space-between"><span>Le Pain Quotidien</span><span style="font-weight:700">$122,736</span></div>
+            <div style="display:flex;justify-content:space-between"><span>Erbert &amp; Gerbert's</span><span style="font-weight:700">$103,319</span></div>
+            <div style="display:flex;justify-content:space-between"><span>MAD Greens</span><span style="font-weight:700">$80,985</span></div>
+            <div style="display:flex;justify-content:space-between"><span>Flying Pie Pizzaria</span><span style="font-weight:700">$48,000</span></div>
+            <div style="display:flex;justify-content:space-between"><span>Snappy Salads</span><span style="font-weight:700">$33,600</span></div>
+            <div style="display:flex;justify-content:space-between"><span>The Little Beet</span><span style="font-weight:700">$27,001</span></div>
+          </div>
+        </div>
+        <!-- Q4 -->
+        <div>
+          <div style="background:#fff0ee;border-radius:4px;padding:4px 7px;font-size:9px;font-weight:800;color:#cc2200;margin-bottom:5px">Q4 Oct–Dec &nbsp;<span style="float:right">$1,270,219</span></div>
+          <div style="font-size:10px;color:var(--p1);line-height:1.7">
+            <div style="display:flex;justify-content:space-between"><span>Village Inn</span><span style="font-weight:700">$242,491</span></div>
+            <div style="display:flex;justify-content:space-between"><span>Famous Dave's</span><span style="font-weight:700">$234,246</span></div>
+            <div style="display:flex;justify-content:space-between"><span>Better Buzz Coffee</span><span style="font-weight:700">$147,000</span></div>
+            <div style="display:flex;justify-content:space-between"><span>TGI Fridays UK</span><span style="font-weight:700">$138,780</span></div>
+            <div style="display:flex;justify-content:space-between"><span>Surcheros Franch.</span><span style="font-weight:700">$120,000</span></div>
+            <div style="display:flex;justify-content:space-between"><span>Quiznos Sub</span><span style="font-weight:700">$116,839</span></div>
+            <div style="display:flex;justify-content:space-between"><span>CoreLife Eatery</span><span style="font-weight:700">$90,960</span></div>
+            <div style="display:flex;justify-content:space-between"><span>Puttshack USA</span><span style="font-weight:700">$67,778</span></div>
+            <div style="display:flex;justify-content:space-between"><span>Deek's Pizza</span><span style="font-weight:700">$57,165</span></div>
+            <div style="display:flex;justify-content:space-between"><span>Jaggers Holdings</span><span style="font-weight:700">$30,240</span></div>
+            <div style="display:flex;justify-content:space-between"><span>The Hickory Tavern</span><span style="font-weight:700">$24,720</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Panel 03: Total Exposure -->
+    <div class="card" style="overflow:hidden">
+      <div style="background:var(--p1);padding:7px 12px;font-size:10px;font-weight:800;color:#fff;letter-spacing:.06em">03 &nbsp;TOTAL EXPOSURE</div>
+      <div style="padding:12px">
+        <div style="display:flex;justify-content:space-between;margin-bottom:10px">
+          <span style="font-size:10px;color:#555">Total Exposure</span>
+          <span style="font-size:16px;font-weight:800;color:var(--p1)">$11.06M</span>
+        </div>
+        <div style="font-size:10px;font-weight:800;color:var(--p1);margin-bottom:6px">Breakdown</div>
+        <div style="display:flex;align-items:center;gap:6px;margin-bottom:4px"><span style="width:8px;height:8px;background:#cc2200;border-radius:2px;flex-shrink:0"></span><span style="font-size:10px;color:#555;flex:1">Churned (Jan–Mar)</span><span style="font-size:10px;font-weight:800">$5.65M</span></div>
+        <div style="display:flex;align-items:center;gap:6px;margin-bottom:4px"><span style="width:8px;height:8px;background:#F8931C;border-radius:2px;flex-shrink:0"></span><span style="font-size:10px;color:#555;flex:1">Churn Notice Provided</span><span style="font-size:10px;font-weight:800">$2.78M</span></div>
+        <div style="display:flex;align-items:center;gap:6px;margin-bottom:10px"><span style="width:8px;height:8px;background:#f5c518;border-radius:2px;flex-shrink:0"></span><span style="font-size:10px;color:#555;flex:1">Unlikely / At-Risk</span><span style="font-size:10px;font-weight:800">$2.63M</span></div>
+        <div style="background:var(--p1);border-radius:5px;padding:6px 8px;display:flex;justify-content:space-between;margin-bottom:10px">
+          <span style="font-size:10px;font-weight:800;color:#fff">Total Exposure</span>
+          <span style="font-size:11px;font-weight:800;color:var(--p2)">$11.06M</span>
+        </div>
+        <div style="font-size:10px;font-weight:800;color:var(--p1);margin-bottom:5px">AOP vs. Total Exposure</div>
+        <div style="display:flex;justify-content:space-between;margin-bottom:3px"><span style="font-size:10px;color:#555">AOP Churn Target</span><span style="font-size:10px;font-weight:800">$8.70M</span></div>
+        <div style="display:flex;justify-content:space-between;margin-bottom:3px"><span style="font-size:10px;color:#555">Churn Forecast Total</span><span style="font-size:10px;font-weight:800">$8.43M</span></div>
+        <div style="display:flex;justify-content:space-between;margin-bottom:8px"><span style="font-size:10px;color:#555">AOP vs. Forecast Variance</span><span style="font-size:10px;font-weight:800;color:#0a6636">+$0.27M</span></div>
+        <div style="background:#fff0ee;border:1px solid #ffbcb0;border-radius:5px;padding:6px 8px">
+          <div style="font-size:9px;color:#cc2200;margin-bottom:1px">Total Potential Variance</div>
+          <div style="font-size:9px;color:#888;margin-bottom:3px">if all at-risk churns</div>
+          <div style="font-size:15px;font-weight:800;color:#cc2200">–$2.36M</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ARR Churn 2+10 vs. AOP Table -->
+  <div class="sec">ARR Churn 2+10 vs. AOP</div>
+  <div class="card" style="overflow:hidden">
+    <table style="width:100%;border-collapse:collapse;font-size:11px">
+      <thead>
+        <tr style="background:var(--p1)">
+          <th style="text-align:left;padding:7px 10px;color:#fff;font-weight:800;font-size:10px">Product</th>
+          <th style="text-align:right;padding:7px 10px;color:var(--p2);font-weight:800;font-size:10px">Q1 Actual/Fcst</th>
+          <th style="text-align:right;padding:7px 10px;color:var(--p2);font-weight:800;font-size:10px">Q2 Forecast</th>
+          <th style="text-align:right;padding:7px 10px;color:var(--p2);font-weight:800;font-size:10px">Q3 Forecast</th>
+          <th style="text-align:right;padding:7px 10px;color:var(--p2);font-weight:800;font-size:10px">Q4 Forecast</th>
+          <th style="text-align:right;padding:7px 10px;color:#fff;font-weight:800;font-size:10px;border-left:1px solid rgba(255,255,255,.15)">FY26 Act/Fcst</th>
+          <th style="text-align:right;padding:7px 10px;color:var(--p2);font-weight:800;font-size:10px">AOP</th>
+          <th style="text-align:right;padding:7px 10px;color:var(--p2);font-weight:800;font-size:10px">Variance</th>
+        </tr>
+      </thead>
+      <tbody id="ellie-churn-table"></tbody>
+    </table>
+  </div>
+
+  <!-- Pulse -->
+  <div class="two-col" style="margin-top:4px">
+    <div>
+      <div class="sec">Pulse Items</div>
+      <div class="card"><table class="mini-pulse"><thead><tr><th>Item</th><th>Status</th><th>Risk</th><th>Owner</th></tr></thead><tbody id="ellie-pulse"></tbody></table></div>
+    </div>
+    <div>
+      <div class="sec">D/A/U Items from Ellie</div>
+      <div id="ellie-dau"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ── FROST — SALES ── -->
+<div id="pane-frost" class="pane">
+  <div class="leader-header">
+    <div class="leader-avatar" style="background:#c43a00">F</div>
+    <div><div class="leader-name">Frost</div><div class="leader-fn">Sales</div></div>
+  </div>
+  <div id="frost-kpi-hl" class="kpi-hl-row"></div>
+  <div class="two-col">
+    <div>
+      <div class="sec">KPIs</div>
+      <div class="card"><table class="mini-kpi" id="frost-kpi"></table></div>
+    </div>
+    <div>
+      <div class="sec">Pulse Items</div>
+      <div class="card"><table class="mini-pulse"><thead><tr><th>Item</th><th>Status</th><th>Risk</th><th>Owner</th></tr></thead><tbody id="frost-pulse"></tbody></table></div>
+    </div>
+  </div>
+  <div class="sec">D/A/U Items from Frost</div>
+  <div id="frost-dau"></div>
+</div>
+
+<!-- ── JOSH — PRODUCT ── -->
+<div id="pane-josh" class="pane">
+  <div class="leader-header">
+    <div class="leader-avatar" style="background:#7b3fcf">J</div>
+    <div><div class="leader-name">Josh</div><div class="leader-fn">Product &amp; Strategy &nbsp;·&nbsp; <span style="font-size:10px;color:var(--p2)">+ Eugene (Strategy)</span></div></div>
+  </div>
+  <div id="josh-kpi-hl" class="kpi-hl-row"></div>
+  <div class="two-col">
+    <div>
+      <div class="sec">KPIs</div>
+      <div class="card"><table class="mini-kpi" id="josh-kpi"></table></div>
+    </div>
+    <div>
+      <div class="sec">Pulse Items</div>
+      <div class="card"><table class="mini-pulse"><thead><tr><th>Item</th><th>Status</th><th>Risk</th><th>Owner</th></tr></thead><tbody id="josh-pulse"></tbody></table></div>
+    </div>
+  </div>
+  <div class="sec">D/A/U Items from Josh / Eugene</div>
+  <div id="josh-dau"></div>
+</div>
+
+<!-- ── BERK — ENGINEERING ── -->
+<div id="pane-berk" class="pane">
+  <div class="leader-header">
+    <div class="leader-avatar" style="background:#1a6fa8">B</div>
+    <div><div class="leader-name">Berk</div><div class="leader-fn">Engineering</div></div>
+  </div>
+
+  <!-- Platform Incident Summary -->
+  <div class="sec" style="margin-top:0">Platform Incident Summary — Week of Apr 13–Apr 20, 2026</div>
+
+  <!-- 5 stat tiles -->
+  <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-bottom:12px">
+    <div style="background:#d4f5e9;border:2px solid #2ecc8a;border-radius:8px;padding:14px 10px;text-align:center">
+      <div style="font-size:36px;font-weight:800;color:#0a8a4a;line-height:1">0</div>
+      <div style="font-size:11px;font-weight:800;color:#0a6636;margin-top:6px">Total Incidents</div>
+      <div style="font-size:9px;color:#0a8a4a;margin-top:3px">Apr 13 – Apr 20, 2026</div>
+    </div>
+    <div style="background:#d4f5e9;border:2px solid #2ecc8a;border-radius:8px;padding:14px 10px;text-align:center">
+      <div style="font-size:36px;font-weight:800;color:#0a8a4a;line-height:1">0</div>
+      <div style="font-size:11px;font-weight:800;color:#0a6636;margin-top:6px">P1 Outages</div>
+      <div style="font-size:9px;color:#0a8a4a;margin-top:3px">No P1 this week</div>
+    </div>
+    <div style="background:#d4f5e9;border:2px solid #2ecc8a;border-radius:8px;padding:14px 10px;text-align:center">
+      <div style="font-size:36px;font-weight:800;color:#0a8a4a;line-height:1">0</div>
+      <div style="font-size:11px;font-weight:800;color:#0a6636;margin-top:6px">P2 High Severity</div>
+      <div style="font-size:9px;color:#0a8a4a;margin-top:3px">No P2 this week</div>
+    </div>
+    <div style="background:#d4f5e9;border:2px solid #2ecc8a;border-radius:8px;padding:14px 10px;text-align:center">
+      <div style="font-size:36px;font-weight:800;color:#0a8a4a;line-height:1">0</div>
+      <div style="font-size:11px;font-weight:800;color:#0a6636;margin-top:6px">P3 / P4</div>
+      <div style="font-size:9px;color:#0a8a4a;margin-top:3px">No P3 or P4 this week</div>
+    </div>
+    <div style="background:#e8f0ff;border:2px solid #3a6fd8;border-radius:8px;padding:14px 10px;text-align:center">
+      <div style="font-size:36px;font-weight:800;color:#1a4fa8;line-height:1">✓</div>
+      <div style="font-size:11px;font-weight:800;color:#1a4fa8;margin-top:6px">Data Loss</div>
+      <div style="font-size:9px;color:#1a4fa8;margin-top:3px">None recorded</div>
+    </div>
+  </div>
+
+  <!-- Incident Status bar -->
+  <div style="background:var(--p1);border-radius:8px 8px 0 0;padding:8px 14px;display:flex;justify-content:space-between;align-items:center">
+    <span style="font-size:10px;font-weight:800;color:#fff;letter-spacing:.1em">INCIDENT STATUS</span>
+    <span style="font-size:10px;color:var(--p2)">Week of Apr 13 – Apr 20, 2026</span>
+  </div>
+
+  <!-- 3 status cards -->
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:0;margin-bottom:14px;border:.5px solid var(--border);border-top:none;border-radius:0 0 8px 8px;overflow:hidden">
+    <!-- No P1/P2 -->
+    <div style="background:#fff;padding:16px;border-right:.5px solid var(--border)">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
+        <div style="width:22px;height:22px;background:#2ecc8a;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:13px;color:#fff;flex-shrink:0">✓</div>
+        <span style="font-size:13px;font-weight:800;color:var(--p1)">No P1 or P2 Incidents</span>
+      </div>
+      <div style="font-size:10px;color:#aaa;margin-bottom:10px">Apr 13 – Apr 20, 2026</div>
+      <div style="border-top:.5px solid #eee;padding-top:10px;font-size:11px;color:#555;line-height:1.6">No high or critical severity incidents were recorded this week. All platform services — APIs, data pipelines, POS integrations, and loyalty flows — operated within normal thresholds throughout the entire period.</div>
+      <div style="margin-top:12px;background:#d4f5e9;border-radius:5px;padding:6px 10px;display:flex;align-items:center;gap:6px">
+        <span style="color:#2ecc8a;font-size:12px">✓</span>
+        <span style="font-size:10px;font-weight:800;color:#0a6636">Platform fully stable — no customer-facing impact this week</span>
+      </div>
+    </div>
+    <!-- No P3/P4 -->
+    <div style="background:#fff;padding:16px;border-right:.5px solid var(--border)">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
+        <div style="width:22px;height:22px;background:#2ecc8a;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:13px;color:#fff;flex-shrink:0">✓</div>
+        <span style="font-size:13px;font-weight:800;color:var(--p1)">No P3 or P4 Incidents</span>
+      </div>
+      <div style="font-size:10px;color:#aaa;margin-bottom:10px">Apr 13 – Apr 20, 2026</div>
+      <div style="border-top:.5px solid #eee;padding-top:10px;font-size:11px;color:#555;line-height:1.6">No low or medium severity incidents were logged this week. Background jobs, data pipelines, DB replication, and API services all ran without disruption, degradation, or operational delays.</div>
+      <div style="margin-top:12px;background:#d4f5e9;border-radius:5px;padding:6px 10px;display:flex;align-items:center;gap:6px">
+        <span style="color:#2ecc8a;font-size:12px">✓</span>
+        <span style="font-size:10px;font-weight:800;color:#0a6636">No operational issues detected — clean week confirmed</span>
+      </div>
+    </div>
+    <!-- Context baseline -->
+    <div style="background:#f5f7ff;padding:16px;border:2px solid #3a6fd8;border-top:none">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
+        <div style="width:22px;height:22px;background:#e8f0ff;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:13px;flex-shrink:0">📊</div>
+        <span style="font-size:13px;font-weight:800;color:var(--p1)">Context — Jan–Apr 2026 Baseline</span>
+      </div>
+      <div style="font-size:10px;color:#aaa;margin-bottom:10px">19 incidents over prior 4-month period for reference</div>
+      <div style="border-top:.5px solid #dde;padding-top:10px;font-size:11px;color:#555;line-height:1.6">Prior period recorded 19 incidents (1 P1, 6 P2, 12 P3/P4). This week's clean run reflects improved platform stability. Governance and monitoring improvements identified in Q1 RCAs are actively in progress.</div>
+      <div style="margin-top:12px;background:#e8f0ff;border-radius:5px;padding:6px 10px;display:flex;align-items:center;gap:6px">
+        <span style="font-size:12px">📊</span>
+        <span style="font-size:10px;font-weight:800;color:#1a4fa8">19 total incidents Jan–Apr 2026 &nbsp;vs.&nbsp; 0 this week</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pulse + D/A/U -->
+  <div class="two-col">
+    <div>
+      <div class="sec">Pulse Items</div>
+      <div class="card"><table class="mini-pulse"><thead><tr><th>Item</th><th>Status</th><th>Risk</th><th>Owner</th></tr></thead><tbody id="berk-pulse"></tbody></table></div>
+    </div>
+    <div>
+      <div class="sec">D/A/U Items from Berk</div>
+      <div id="berk-dau"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ── OTHER LEADERS ── -->
+<div id="pane-other" class="pane">
+  <div class="sec" style="margin-top:0">Other Leader KPIs</div>
+  <div class="card"><table class="mini-kpi" id="other-kpi"><thead><tr><th>Metric</th><th>Function</th><th>Value</th><th>Trend</th><th>Goal</th></tr></thead><tbody id="other-kpi-body"></tbody></table></div>
+  <div class="sec">Other Leader Pulse Items</div>
+  <div class="card"><table class="mini-pulse"><thead><tr><th>Item</th><th>Function</th><th>Status</th><th>Risk</th><th>Owner</th></tr></thead><tbody id="other-pulse"></tbody></table></div>
+  <div class="sec">D/A/U Items from Other Leaders</div>
+  <div id="other-dau"></div>
+  <div class="sec">Customer Issues — All Functions</div>
+  <div class="cgrid" id="cust-grid"></div>
+</div>
+
+<!-- ── D/A/U ALL CANDIDATES ── -->
+<div id="pane-dau" class="pane">
+  <!-- Score summary strip -->
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px">
+    <div style="background:var(--p4t);border:.5px solid #ffc8b0;border-radius:8px;padding:10px 13px;display:flex;align-items:center;gap:10px">
+      <div style="font-size:24px;font-weight:800;color:var(--p4)" id="count-unblock">0</div>
+      <div><div style="font-size:9px;font-weight:800;color:var(--p4);letter-spacing:.08em">UNBLOCK</div><div style="font-size:10px;color:#7a2a00">Items needing a blocker removed</div></div>
+    </div>
+    <div style="background:#eef0ff;border:.5px solid #c8caee;border-radius:8px;padding:10px 13px;display:flex;align-items:center;gap:10px">
+      <div style="font-size:24px;font-weight:800;color:var(--p3)" id="count-decide">0</div>
+      <div><div style="font-size:9px;font-weight:800;color:var(--p3);letter-spacing:.08em">DECIDE</div><div style="font-size:10px;color:var(--p1)">Items requiring a decision</div></div>
+    </div>
+    <div style="background:var(--p5t);border:.5px solid #ffd8a0;border-radius:8px;padding:10px 13px;display:flex;align-items:center;gap:10px">
+      <div style="font-size:24px;font-weight:800;color:var(--p5)" id="count-align">0</div>
+      <div><div style="font-size:9px;font-weight:800;color:var(--p5);letter-spacing:.08em">ALIGN</div><div style="font-size:10px;color:#7a4000">Items needing cross-team alignment</div></div>
+    </div>
+  </div>
+  <div class="dau-filters">
+    <span class="dchip dc-u" id="chip-Unblock" onclick="toggleChip('Unblock')">Unblock</span>
+    <span class="dchip dc-d" id="chip-Decide" onclick="toggleChip('Decide')">Decide</span>
+    <span class="dchip dc-a" id="chip-Align" onclick="toggleChip('Align')">Align</span>
+  </div>
+  <div id="dau-list-full"></div>
+  <div style="margin-top:8px;font-size:11px;color:#aaa">★ = Recommended top 3 &nbsp;·&nbsp; ↩ = Carry forward</div>
+</div>
+
+</div><!-- /shell -->
+
+<script>
+// ══ REPLACE ALL VALUES BELOW WITH REAL DATA ══
+
+const WEEK_DATE = "April 20, 2026";
+const SUBMISSION_COUNT = "4 of 6";
+const MOOD = "Strong operational execution in core areas (POS, hardware, OC pay), but new business pipeline faltering—misses on strategic growth vectors require immediate customer win focus and GTM clarity.";
+const PROMISE = "By end of session: leadership will have confirmed the FSTEC September narrative, aligned on G360/Bridg GTM strategy (land-and-expand), and locked multi-product deployment ownership model for recent wins (Sarku, Tijuana Flats, &Pizza, Pizza Factory).";
+
+const THEMES = [
+  {
+    "required": true,
+    "type": "Align",
+    "score": 5,
+    "title": "FSTEC September Launch Story — Narrative Needed Now",
+    "surprise": "Marketing has $260K committed but zero confirmed product narrative. Without leadership clarity this week, assets (press release, talk tracks, event story) cannot be built proactively.",
+    "salient": "Leadership must confirm what product PAR is launching at FSTEC so marketing can build the story now, not reactively in August.",
+    "story": "FSTEC is PAR's flagship fall industry event with $260K already committed. Marketing needs to begin building press releases, talk tracks, and event narratives immediately to drive awareness and buyer intent. Currently there is no confirmed launch story or product point of view for the event. This is not a marketing execution problem—it's a product/leadership alignment gap. If leadership doesn't confirm the narrative this week, marketing will be racing to build assets in July and August when the story should already be owned and socialized.",
+    "customers": [],
+    "help": [
+      "Confirm product launch narrative for FSTEC September. (Decision Owner: Product + Marketing)",
+      "Align on press release angle and key talking points. (Owner: Marketing)",
+      "Lock event story and tie to broader PAR positioning for 2026. (Owner: Marketing + Product co-own)"
+    ]
+  },
+  {
+    "required": false,
+    "type": "Decide",
+    "score": 6,
+    "title": "G360 / Bridg Restaurant GTM Sales Approach",
+    "surprise": "PAR lost Red Robin partly because G360's roadmap lacked DSP/paid media integration. The proposed strategy is not to build DSP into G360, but to position G360 as free owned-channel foundation and Bridg as paid add-on.",
+    "salient": "Land-and-expand: G360 free to all Punchh customers in Year 0, Bridg as paid upsell for enterprise brands investing in paid media activation (Meta, Google, TradeDesk, LiveRamp).",
+    "story": "With 5,800+ identified CDP prospects and $40-65M SAM across G360 and Bridg, sales and product need to align on how to sell these two products into restaurants without cannibalizing each other. Current misalignment: some teams see G360 and Bridg as competing products (both CDPs). The proposed strategy repositions them as complementary. G360 becomes the free Trojan Horse for all 300 Punchh customers—owned-channel, 1P data brain, no setup friction. Bridg becomes the premium add-on for enterprise brands with advanced paid media activation needs (Meta, Google, TradeDesk, LiveRamp, LiveRamp). Immediate upsell targets: Smoothie King (1,550 locs, already won), Church's (751, active RFP), and Five Guys (1,526).",
+    "customers": ["Smoothie King", "Church's Chicken", "Five Guys"],
+    "help": [
+      "Adopt land-and-expand GTM: G360 free to Punchh, Bridg as paid add-on. (Decision Owner: Joseph Yetter)",
+      "Position G360 and Bridg as complementary, not competing. (Owner: Sales + Product)",
+      "Prioritize Smoothie King, Church's, and Five Guys for Bridg upsell in Q2. (Owner: Sales)"
+    ]
+  },
+  {
+    "required": false,
+    "type": "Align",
+    "score": 4,
+    "title": "Multi-Product Win Deployment Ownership — Process Clarification Needed",
+    "surprise": "Recent multi-product wins (Sarku, Tijuana Flats, &Pizza, Pizza Factory) have no clear ownership model. Sales, engineering, deployment, and PS are duplicating work and stepping on each other.",
+    "salient": "Deployment ownership should be determined deal-by-deal based on relationship depth and deployment complexity—not one-size-fits-all.",
+    "story": "Multi-product wins are increasing (Sarku, Tijuana Flats, &Pizza, Pizza Factory). Each involves POS, Punchh, or payments in combination, with complex onboarding across sales, engineering, deployment, and professional services. Currently there is no clear ownership model. Some accounts go to POS-led teams, others to Punchh. This creates coordination friction, duplicate effort, and unclear handoff points. The recommendation: ownership should be determined per account based on relationship depth and deployment complexity. For accounts like Pizza Factory (Punchh renewal adding PAR products), the lead comes from Punchh. For accounts like Sarku, given heavy POS complexity, a POS-led deployment owner is more appropriate. Not a mandate, but a framework.",
+    "customers": ["Sarku Japan", "Tijuana Flats", "&Pizza", "Pizza Factory"],
+    "help": [
+      "Clarify deployment ownership model for multi-product wins (deal-by-deal basis). (Decision Owner: Dave + Ellie)",
+      "For Sarku and Pizza Factory this week, lock the lead owner and kickoff plan. (Owner: Sales + Deployment)",
+      "Document the framework so future multi-product deals follow the same process. (Owner: Dave / Ellie)"
+    ]
+  }
+];
+
+const CLOSE = [
+  { "type": "Align", "txt": "Confirm FSTEC September product launch narrative (press release, talk tracks, event story).", "own": "Decision Owner: Product + Marketing — due: Friday, April 26" },
+  { "type": "Decide", "txt": "Adopt G360/Bridg land-and-expand GTM: G360 free to Punchh, Bridg as paid add-on for enterprise brands in paid media.", "own": "Decision Owner: Joseph Yetter — due: Friday, April 26" },
+  { "type": "Align", "txt": "Lock multi-product deployment ownership for Sarku and Pizza Factory (deal-by-deal framework).", "own": "Owners: Dave + Ellie — due: Friday, April 26" }
+];
+
+const PULSE = [
+  ["Q1 2026 Results: Behind on new CARR across EC New Biz (42%) and Corporate segments (Enterprise 56%, Mid-Market 34%, KAM 34%).", "Sales", "Off Track", "High", "John Frost", 3],
+  ["Fiiz Drinks (~$800K CARR) remains at risk of full loss; Qu completed final POS evaluation. Timeline pushed to Q3.", "Sales", "Off Track", "High", "Anthony Funicelli", 3],
+  ["G360 - PAR POS Data in Data Lake — Smoothie King requires 2 years historical POS data; only ~1 year exists. Banzai engineering has CLI but work not prioritized against PJI.", "Product", "Off Track", "High", "Eugene Chou", 3],
+  ["G360 / Bridg Restaurant GTM — lost Red Robin partly due to DSP/paid media gap. Need GTM clarity (G360 vs. Bridg positioning).", "Product", "On Track", "High", "Eugene Chou", 3],
+  ["MCD Edge Remediation — transitioning to push model to scale toward 120–150 installs/week (353 completed in March).", "Operations", "On Track", "Medium", "Nick Owens", 2],
+  ["Scooters P2P — finalizing and driving forward.", "Operations", "On Track", "Medium", "Bridget Fielding", 2],
+  ["Quota & Commission Planning blocked on org structure finalization under new span-of-control model.", "Sales", "On Track", "Medium", "Frost / Barron", 2],
+  ["SFDC Opportunity Types & Forecast Category cleanup — team cannot manage forecast categories in Salesforce, reverting to Excel for MSA forecasting.", "Sales", "Off Track", "Medium", "Molina / Maddalena", 2],
+  ["RLC 2026 — live this week; full post-mortem planned once event concludes.", "Other", "On Track", "Medium", "Diane & Brittany", 2],
+  ["Loyalty Pay Pricing — meetings completed; go-forward GTM pricing and SKU structure confirmed.", "Sales", "Resolved", "Low", "Allison Carpenter", 1],
+  ["Sarku Japan (~$1.5M CARR) closed and in implementation; revenue split alignment between Baker, Barron, and Dee being finalized.", "Sales", "On Track", "Low", "Craig Baker", 1],
+  ["AM/CS role clarity — Frost and Russitano aligned; plan in motion to cascade to broader teams.", "Sales", "On Track", "Low", "Frost / Russitano", 1],
+  ["Arby's Coach AI POC — planning call completed today; POC scoping underway.", "Sales", "On Track", "Low", "Jason Barron", 1],
+  ["Checker's & Rally's pricing discussion held Apr 15 with Baker and Yetter.", "Sales", "On Track", "Low", "Craig Baker", 1],
+  ["Burgerville Ordering deal closed — $177K ARR.", "Sales", "On Track", "Low", "John Frost", 1],
+  ["TSC renewal closed — 3-year term, $60K ARR uplift.", "Sales", "On Track", "Low", "John Frost", 1],
+  ["Insomnia Cookies renewal closed — 3-year term, $55K ARR uplift.", "Sales", "On Track", "Low", "John Frost", 1],
+  ["Red Robin CDP In-Person Demo.", "Product", "On Track", "Low", "Haley McCarley", 1],
+  ["OlaClick Partnership.", "Product", "On Track", "Low", "Eugene Chou", 1],
+  ["G360 3P IDR POC.", "Product", "On Track", "Low", "Eugene Chou", 1],
+  ["BU / Product Line P&L Analysis.", "Product", "On Track", "Low", "Eugene Chou", 1],
+  ["New Product Project CapEx Allocation.", "Product", "On Track", "Low", "Joseph Yetter", 1],
+  ["QSR Index campaign — full-funnel launch April 21 (content, ABM, paid media, PR).", "Other", "On Track", "Low", "Will & Jacob", 1],
+  ["PAR Intelligence naming architecture confirmed (Ava / Ops Agent / skills layer).", "Other", "On Track", "Low", "Diane & Brittany", 1],
+  ["PAR Intelligence internal sales enablement — briefing Frost & JB Monday; FAQ complete.", "Other", "On Track", "Low", "Ann", 1],
+  ["PAR Vision webinar — cross-product (Loyalty, Ordering, Payments), active through May 9.", "Other", "On Track", "Low", "Cullen", 1],
+  ["PokeWorks case study (Ops) — published and live.", "Other", "On Track", "Low", "Anthony", 1],
+  ["AI Adoption Showcase newsletter — 7–8 internal examples collected, in production for COO.", "Other", "On Track", "Low", "Diane", 1],
+  ["PAR Restaurant Morning Brew — internal weekly enablement newsletter launching soon.", "Other", "On Track", "Low", "Lindsay", 1],
+  ["Email signature refresh (One Restaurant Team) — in progress.", "Other", "On Track", "Low", "Luciana & Brittany", 1],
+  ["C-Suite Dinner Series — planning; Salesforce data pull starting next week.", "Other", "On Track", "Low", "Diane + Luke", 1],
+  ["Executive Forum VP+ Roadshow (Atlanta, SoCal, Austin) — cities confirmed, in design.", "Other", "On Track", "Low", "Brittany", 1],
+  ["VoC Events — Columbus (May) & Austin (Sep), $34K committed.", "Other", "On Track", "Low", "Marketing", 1],
+  ["F1 Miami (May) & US Open (Aug) executive hospitality — committed, $120K total.", "Other", "On Track", "Low", "Cullen & Will", 1],
+  ["Communications audit underway — Anthony reviewing how PAR communicates with customers.", "Other", "On Track", "Low", "Anthony", 1],
+  ["Competitive intel / win-loss analysis — PMMs spinning up.", "Other", "On Track", "Low", "PMM Team", 1],
+  ["PAR Restaurant brand launch — July target window.", "Other", "On Track", "Low", "Brittany", 1],
+  ["Growth Marketing restructure — Will moving to strategy/reporting.", "Other", "On Track", "Low", "Will / Diane", 1],
+  ["SharePoint rebuild — consolidating all marketing materials from Confluence into SharePoint.", "Other", "On Track", "Low", "Lindsay & Anthony", 1],
+  ["Marketing request form launched — all teams can now submit marketing requests.", "Other", "On Track", "Low", "Diane", 1]
+];
+
+const DAU = [
+  {
+    "title": "FSTEC September Launch Story — Narrative Needed Now",
+    "leader": "Diane (Marketing)",
+    "type": "Align",
+    "risk": "High",
+    "score": 5,
+    "star": true,
+    "rec": "$260K committed; leadership must confirm product narrative so marketing can build assets proactively (press, talk tracks, event story)."
+  },
+  {
+    "title": "G360 / Bridg Restaurant GTM Sales Approach",
+    "leader": "Eugene (Product)",
+    "type": "Decide",
+    "risk": "High",
+    "score": 6,
+    "star": true,
+    "rec": "Land-and-expand: G360 free to Punchh customers in Year 0, Bridg as paid add-on for enterprise brands investing in paid media activation (Meta, Google, TradeDesk)."
+  },
+  {
+    "title": "Multi-Product Win Deployment Ownership — Process Clarification",
+    "leader": "Dave (Operations)",
+    "type": "Align",
+    "risk": "Medium",
+    "score": 4,
+    "star": true,
+    "rec": "Recent multi-product wins (Sarku, Tijuana Flats, &Pizza, Pizza Factory) need unified PM model and deployment ownership alignment before onboarding begins."
+  },
+  {
+    "title": "G360 - PAR POS Data in Data Lake — Smoothie King Blocker",
+    "leader": "Eugene (Product)",
+    "type": "Unblock",
+    "risk": "High",
+    "score": 7,
+    "star": false,
+    "rec": "Smoothie King (first G360 customer) requires 2 years historical POS data in HDM/Databricks. Banzai has CLI but work not prioritized. Need committed delivery date from Banzai/POS this week for Q2 completion."
+  },
+  {
+    "title": "PAR Restaurant Market Positioning — Competitive Narrative Review",
+    "leader": "Diane (Marketing)",
+    "type": "Align",
+    "risk": "Medium",
+    "score": 4,
+    "star": false,
+    "rec": "Current positioning around Unified Commerce feels dated as Q sharpens AI story and Olo leans into 2P data. Assess whether PAR's product point of view remains competitive."
+  }
+];
+
+const CUSTOMERS = [
+  {
+    "name": "Fiiz Drinks (~$800K CARR)",
+    "items": [
+      { "r": "High", "t": "At risk of full loss; Qu completed final POS evaluation, timeline pushed to Q3" }
+    ]
+  },
+  {
+    "name": "Smoothie King (G360)",
+    "items": [
+      { "r": "High", "t": "First G360 customer, requires 2 years historical PAR POS data in data lake for CDP analytics" }
+    ]
+  },
+  {
+    "name": "Red Robin (CDP RFP)",
+    "items": [
+      { "r": "Medium", "t": "Lost RFP partly due to G360 roadmap gap on DSP/paid media integration" }
+    ]
+  },
+  {
+    "name": "Church's Chicken",
+    "items": [
+      { "r": "Medium", "t": "Active Bridg RFP — positioned as Bridg upsell target for Q2" }
+    ]
+  },
+  {
+    "name": "Five Guys",
+    "items": [
+      { "r": "Medium", "t": "1,526 locations — prioritized for G360/Bridg land-and-expand in Q2" }
+    ]
+  }
+];
+
+const KPIS = [
+  ["SaaS YTD Attainment", "Sales", "72%", "Flat", "100%"],
+  ["Hardware YTD Attainment", "Sales", "158%", "Up", "100%"],
+  ["OC Pay YTD Attainment", "Sales", "281%", "Up", "100%"],
+  ["EC Pay YTD Attainment", "Sales", "0%", "Down", "100%"],
+  ["Punchh FY Projected Attainment", "Sales", "58%", "Down", "100%"],
+  ["POS YTD Attainment", "Sales", "112%", "Up", "100%"],
+  ["BoH YTD Attainment", "Sales", "53%", "Down", "100%"],
+  ["I+D YTD Attainment", "Sales", "52%", "Down", "100%"],
+  ["Ordering YTD Attainment", "Sales", "54%", "Down", "100%"],
+  ["Punchh Wallet YTD Attainment", "Sales", "68%", "Down", "100%"],
+  ["HW All YTD Attainment", "Sales", "158%", "Up", "100%"],
+  ["HW — McD, DT, Channel & ISV YTD Attainment", "Sales", "211%", "Up", "100%"],
+  ["BK Locations Deployed (Weekly)", "Operations", "118 live / 1,438 total", "Up", "2,200 by H1"],
+  ["PJI Alpha 2 (POS)", "Operations", "Scheduled week of 5/11 — On track", "Flat", "—"],
+  ["PJI BOH Live", "Operations", "At store 1, trending well", "Up", "—"],
+
+
+
+  ["Marketing Pipeline Created (YTD)", "Other", "$6.86M", "Flat", "$28M for 2026"],
+  ["Operator Cloud Pipeline", "Other", "$3.67M", "Flat", "—"],
+  ["Guest Engagement Pipeline", "Other", "$3.70M", "Flat", "—"]
+];
+
+// Fixed mapping — do not change
+const LEADER_TAB_MAP = {
+  "Operations":"dave",
+  "Customer Experience":"ellie",
+  "Sales":"frost",
+  "Product":"josh",
+  "Engineering":"berk"
+};
+
+// ══ RENDER FUNCTIONS ══
+
+function showTab(id,el){
+  document.querySelectorAll('.pane').forEach(p=>p.classList.remove('on'));
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('on'));
+  document.getElementById('pane-'+id).classList.add('on');
+  el.classList.add('on');
+}
+
+function buildThemes(){
+  const c=document.getElementById('themes-container');
+  THEMES.forEach((th,i)=>{
+    const d=document.createElement('div');d.className='theme-card';
+    const custHtml=th.customers.length?`<div class="cust-tags">${th.customers.map(cu=>`<span class="ctag">${cu}</span>`).join('')}</div>`:'';
+    const reqHtml=th.required?`<span class="t-req">REQUIRED</span><span class="t-dot">·</span>`:'';
+    d.innerHTML=`<div class="theme-hdr" onclick="toggleTheme(${i})"><div style="flex:1"><div class="theme-badge-row">${reqHtml}<span class="t-type">${th.type.toUpperCase()}</span></div><div class="theme-title">${th.title}</div></div><span class="score-pill">Score ${th.score}</span><span class="chevron" id="chev-${i}">▾</span></div><div class="theme-body" id="tbody-${i}"><div class="sub2grid"><div class="sub2-card surprise-card"><div class="sub2-lbl">SURPRISE</div><div class="sub2-txt">${th.surprise}</div></div><div class="sub2-card salient-card"><div class="sub2-lbl">SALIENT IDEA</div><div class="sub2-txt">${th.salient}</div></div></div><div class="story-block"><div class="story-lbl">SHORT STORY</div><div class="story-txt">${th.story}</div></div>${custHtml}<div class="help-box"><div class="help-lbl">HELP REQUIRED FROM LEADERSHIP</div><ul class="help-list">${th.help.map(h=>`<li>${h}</li>`).join('')}</ul></div></div>`;
+    c.appendChild(d);
+  });
+  toggleTheme(0);
+}
+function toggleTheme(i){
+  const b=document.getElementById('tbody-'+i),ch=document.getElementById('chev-'+i);
+  const open=b.classList.contains('open');
+  b.classList.toggle('open',!open);ch.classList.toggle('open',!open);
+}
+
+function buildClose(){
+  document.getElementById('close-list').innerHTML=CLOSE.map(x=>{
+    const cls=x.type==='Decide'?'cb-d':x.type==='Unblock'?'cb-u':'cb-a';
+    return `<div class="close-item"><span class="cbadge ${cls}">${x.type.toUpperCase()}</span><div><div class="c-txt">${x.txt}</div><div class="c-own">${x.own}</div></div></div>`;
+  }).join('');
+}
+
+function buildAgendaPulse(){
+  const urgent=PULSE.filter(r=>r[2]==='Off Track'||r[3]==='High').slice(0,4);
+  const sCls={'On Track':'s-on','Off Track':'s-off','Resolved':'s-res'};
+  document.getElementById('ag-pulse-body').innerHTML=urgent.length
+    ?urgent.map(r=>`<div class="ag-item"><span class="status-badge ${sCls[r[2]]}" style="font-size:8px;padding:1px 5px;margin-right:4px">${r[2]}</span><strong>${r[0].length>40?r[0].slice(0,38)+'…':r[0]}</strong></div>`).join('')
+    :'<div class="ag-item" style="color:#aaa">All green — no urgent items.</div>';
+}
+
+function buildAgendaDau(){
+  const top3=DAU.filter(d=>d.star);
+  document.getElementById('ag-dau-body').innerHTML=top3.map((d,i)=>`<div class="ag-item"><strong>${i+1}. ${d.title.length>40?d.title.slice(0,38)+'…':d.title}</strong></div>`).join('');
+}
+
+function buildLeaderKpi(tabKey,containerId){
+  const el=document.getElementById(containerId);
+  if(!el) return;
+  const rows=KPIS.filter(r=>LEADER_TAB_MAP[r[1]]===tabKey);
+  const tc={Up:'trend-up',Down:'trend-down',Flat:'trend-flat'};
+  const ti={Up:'↑',Down:'↓',Flat:'→'};
+  document.getElementById(containerId).innerHTML=`<thead><tr><th>Metric</th><th>Value</th><th>Trend</th><th>Goal</th></tr></thead><tbody>${rows.map(r=>`<tr><td>${r[0]}</td><td style="font-weight:800">${r[2]}</td><td><span class="${tc[r[3]]||'trend-flat'}">${ti[r[3]]||'→'} ${r[3]}</span></td><td style="color:#888">${r[4]||'—'}</td></tr>`).join('')||'<tr><td colspan="4" style="color:#aaa;padding:10px">No KPIs submitted.</td></tr>'}</tbody>`;
+}
+
+function buildLeaderKpiHl(tabKey,containerId){
+  const el=document.getElementById(containerId);
+  if(!el) return;
+  const rows=KPIS.filter(r=>LEADER_TAB_MAP[r[1]]===tabKey);
+  const green=rows.find(r=>r[3]==='Up');
+  const red=rows.find(r=>r[3]==='Down');
+  document.getElementById(containerId).innerHTML=`
+    ${green?`<div class="kpi-hl kpi-hl-green"><div class="kpi-hl-lbl">↑ LEADING</div><div class="kpi-hl-metric">${green[0]}</div><div class="kpi-hl-val">${green[2]}${green[4]&&green[4]!=='—'?' / goal '+green[4]:''}</div></div>`:'<div></div>'}
+    ${red?`<div class="kpi-hl kpi-hl-red"><div class="kpi-hl-lbl">↓ LAGGING</div><div class="kpi-hl-metric">${red[0]}</div><div class="kpi-hl-val">${red[2]}${red[4]&&red[4]!=='—'?' / goal '+red[4]:''}</div></div>`:'<div></div>'}`;
+}
+
+function buildLeaderPulse(tabKey,tbodyId){
+  const rows=PULSE.filter(r=>LEADER_TAB_MAP[r[1]]===tabKey);
+  const sCls={'On Track':'s-on','Off Track':'s-off','Resolved':'s-res'};
+  const rCls={High:'r-h',Medium:'r-m',Low:'r-l'};
+  document.getElementById(tbodyId).innerHTML=rows.map(r=>`<tr><td>${r[0]}</td><td><span class="status-badge ${sCls[r[2]]}">${r[2]}</span></td><td><span class="risk-badge ${rCls[r[3]]}">${r[3]}</span></td><td style="color:var(--p3);font-size:10px">${r[4]}</td></tr>`).join('')||'<tr><td colspan="4" style="color:#aaa;padding:10px">No pulse items.</td></tr>';
+}
+
+function buildLeaderDau(tabKey,containerId){
+  const keyMap={dave:'Dave',ellie:'Ellie',frost:'Frost',josh:'Eugene',berk:'Berk'};
+  const key=keyMap[tabKey];
+  const items=DAU.filter(d=>d.leader.includes(key));
+  const tc={Decide:'cb-d',Unblock:'cb-u',Align:'cb-a'};
+  const rc={High:'r-h',Medium:'r-m',Low:'r-l',Critical:'r-h'};
+  document.getElementById(containerId).innerHTML=items.length
+    ?items.map(d=>`<div class="dau-card-full${d.star?' star':''}"><div class="dau-top-row"><span class="dau-ttl">${d.star?'★ ':'↩ '}${d.title}</span><span class="cbadge ${tc[d.type]}">${d.type.toUpperCase()}</span><span class="risk-badge ${rc[d.risk]}">${d.risk}</span><span class="score-pill-sm">Score ${d.score}</span></div><div class="dau-ldr">${d.leader}</div><div class="dau-rec">${d.rec}</div></div>`).join('')
+    :'<div class="empty">No D/A/U items from this leader this week.</div>';
+}
+
+function buildOtherKpi(){
+  const knownFns=new Set(Object.keys(LEADER_TAB_MAP));
+  const rows=KPIS.filter(r=>!knownFns.has(r[1]));
+  const tc={Up:'trend-up',Down:'trend-down',Flat:'trend-flat'};
+  const ti={Up:'↑',Down:'↓',Flat:'→'};
+  document.getElementById('other-kpi-body').innerHTML=rows.length
+    ?rows.map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td><td style="font-weight:800">${r[2]}</td><td><span class="${tc[r[3]]||'trend-flat'}">${ti[r[3]]||'→'} ${r[3]}</span></td><td style="color:#888">${r[4]||'—'}</td></tr>`).join('')
+    :'<tr><td colspan="5" style="color:#aaa;padding:10px">No additional KPIs.</td></tr>';
+}
+
+function buildOtherPulse(){
+  const knownFns=new Set(Object.keys(LEADER_TAB_MAP));
+  const rows=PULSE.filter(r=>!knownFns.has(r[1]));
+  const sCls={'On Track':'s-on','Off Track':'s-off','Resolved':'s-res'};
+  const rCls={High:'r-h',Medium:'r-m',Low:'r-l'};
+  document.getElementById('other-pulse').innerHTML=rows.length
+    ?rows.map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td><td><span class="status-badge ${sCls[r[2]]}">${r[2]}</span></td><td><span class="risk-badge ${rCls[r[3]]}">${r[3]}</span></td><td style="color:var(--p3);font-size:10px">${r[4]}</td></tr>`).join('')
+    :'<tr><td colspan="5" style="color:#aaa;padding:10px">No additional pulse items.</td></tr>';
+}
+
+function buildCustomers(){
+  document.getElementById('cust-grid').innerHTML=CUSTOMERS.length
+    ?CUSTOMERS.map(cu=>`<div class="ccard"><div class="cname">${cu.name}</div>${cu.items.map(it=>`<div class="citem"><span class="ctbadge ${it.r==='High'?'ctH':it.r==='Medium'?'ctM':'ctL'}">${it.r}</span>${it.t}</div>`).join('')}</div>`).join('')
+    :'<div class="empty">No customer issues flagged this week.</div>';
+}
+
+function buildOtherDau(){
+  const knownLeaders = ['Dave','Ellie','Frost','Josh','Eugene','Berk'];
+  const items = DAU.filter(d => !knownLeaders.some(k => d.leader.includes(k)));
+  const tc={Decide:'cb-d',Unblock:'cb-u',Align:'cb-a'};
+  const rc={High:'r-h',Medium:'r-m',Low:'r-l',Critical:'r-h'};
+  const el = document.getElementById('other-dau');
+  if(!el) return;
+  el.innerHTML = items.length
+    ? items.map(d=>`<div class="dau-card-full${d.star?' star':''}"><div class="dau-top-row"><span class="dau-ttl">${d.star?'★ ':'↩ '}${d.title}</span><span class="cbadge ${tc[d.type]}">${d.type.toUpperCase()}</span><span class="risk-badge ${rc[d.risk]}">${d.risk}</span><span class="score-pill-sm">Score ${d.score}</span></div><div class="dau-ldr">${d.leader}</div><div class="dau-rec">${d.rec}</div></div>`).join('')
+    : '<div class="empty">No D/A/U items from other leaders this week.</div>';
+}
+
+const activeChips=new Set(['Unblock','Decide','Align']);
+function toggleChip(t){
+  if(activeChips.has(t)){if(activeChips.size>1)activeChips.delete(t)}else activeChips.add(t);
+  document.querySelectorAll('.dchip').forEach(c=>c.classList.toggle('dim',!activeChips.has(c.id.replace('chip-',''))));
+  renderDauFull();
+}
+function renderDauFull(){
+  const tc={Decide:'cb-d',Unblock:'cb-u',Align:'cb-a'};
+  const rc={High:'r-h',Medium:'r-m',Low:'r-l',Critical:'r-h'};
+  // Update count badges
+  ['Unblock','Decide','Align'].forEach(t=>{
+    const el = document.getElementById('count-'+t.toLowerCase());
+    if(el) el.textContent = DAU.filter(d=>d.type===t).length;
+  });
+  document.getElementById('dau-list-full').innerHTML=DAU.filter(d=>activeChips.has(d.type)).map(d=>`
+    <div class="dau-card-full${d.star?' star':''}">
+      <div class="dau-top-row">
+        <span class="dau-ttl">${d.star?'★ ':'↩ '}${d.title}</span>
+        <span class="cbadge ${tc[d.type]}">${d.type.toUpperCase()}</span>
+        <span class="risk-badge ${rc[d.risk]}">${d.risk}</span>
+        <span class="score-pill-sm">Score ${d.score}</span>
+      </div>
+      <div class="dau-ldr">${d.leader}</div>
+      <div class="dau-rec">${d.rec}</div>
+    </div>`).join('');
+}
+
+// ── Dave bar charts
+function buildBarChart(containerId, data, color){
+  const max = Math.max(...data.map(d=>d.v));
+  const html = data.map(d=>{
+    const pct = Math.round((d.v/max)*100);
+    return `<div style="display:flex;align-items:center;gap:8px;margin-bottom:5px">
+      <div style="width:120px;font-size:10px;color:var(--p1);font-weight:600;text-align:right;flex-shrink:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${d.label}</div>
+      <div style="flex:1;background:#f0f2fa;border-radius:4px;overflow:hidden;height:16px">
+        <div style="width:${pct}%;background:${color};height:100%;border-radius:4px;transition:width .4s"></div>
+      </div>
+      <div style="font-size:10px;font-weight:800;color:var(--p1);width:28px;text-align:right;flex-shrink:0">${d.v}</div>
+    </div>`;
+  }).join('');
+  document.getElementById(containerId).innerHTML = html;
+}
+
+const PAR_OPS_DATA = [
+  {label:'DC_Popeyes',v:31},{label:'DC_BurgerKing',v:22},{label:'DC_Hooters',v:14},
+  {label:'DC_DairyQueen',v:8},{label:'DC_HBF',v:4},{label:'DC_Loves',v:3},
+  {label:'DC_FirstWatch',v:2},{label:'DC_Qargo',v:2},{label:'DC_Moxies',v:2},
+  {label:'DC_AW',v:2},{label:'DC_Harrys',v:1},{label:'DC_Wedgewood',v:1}
+];
+
+const POS_ROLLOUT_DATA = [
+  {label:'Burger King',v:104},{label:'Hooters (HMC)',v:4},
+  {label:'Cava Grill',v:2},{label:"Culver's",v:2},
+  {label:"Jack's",v:2},{label:'Tropical Smoothie',v:2}
+];
+
+// ── Ellie stacked bar chart
+function buildEllieChurnChart(){
+  const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const churned = [204041,5175553,5647339,5647339,5647339,5647339,5647339,5647339,5647339,5647339,5647339,5647339];
+  const notice  = [0,578879,0,329858,466006,2575833,2687853,2687853,2687853,2687853,2687853,2784173];
+  const atrisk  = [0,215618,0,322130,418328,944660,992660,1256982,1360301,1643801,1822166,2630520];
+  const max = Math.max(...churned.map((c,i)=>c+notice[i]+atrisk[i]));
+  const container = document.getElementById('ellie-churn-bars');
+  if(!container) return;
+  container.style.cssText='display:flex;align-items:flex-end;gap:3px;height:140px;width:100%';
+  months.forEach((m,i)=>{
+    const total = churned[i]+notice[i]+atrisk[i];
+    const totalH = Math.round((total/max)*120);
+    const cH = Math.round((churned[i]/total)*totalH)||0;
+    const nH = Math.round((notice[i]/total)*totalH)||0;
+    const aH = totalH - cH - nH;
+    const col = document.createElement('div');
+    col.style.cssText='flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;position:relative';
+    col.innerHTML=`
+      <div style="width:100%;display:flex;flex-direction:column;align-items:center">
+        <div style="width:100%;height:${aH}px;background:#f5c518;border-radius:2px 2px 0 0"></div>
+        <div style="width:100%;height:${nH}px;background:#F8931C"></div>
+        <div style="width:100%;height:${cH}px;background:#cc2200;border-radius:${aH+nH===0?'2px 2px':' 0 0'} 0 0"></div>
+      </div>
+      <div style="font-size:8px;color:#888;margin-top:3px;white-space:nowrap">${m}</div>`;
+    container.appendChild(col);
+  });
+}
+
+// ── Ellie ARR Churn 2+10 vs AOP table
+function buildEllieChurnTable(){
+  const rows = [
+    {label:'DATA CENTRAL', q1:-1604921, q2:-557453, q3:-228000, q4:-228000, fy:-2618374, aop:-3000000, var:-381626, varPos:true},
+    {label:'POS',          q1:-1534091, q2:-945674, q3:-1287793,q4:-1037793,fy:-4805352,aop:-4850000,var:-44648,  varPos:false},
+    {label:'DELAGET',      q1:-525747,  q2:-742963, q3:-717807, q4:-696668, fy:-2683186,aop:-2700000,var:-16814,  varPos:true},
+    {label:'PUNCHH',       q1:-5756607, q2:-1177105,q3:-773924, q4:-793189, fy:-8500825,aop:-8700000,var:-199175, varPos:false},
+    {label:'ORDERING',     q1:-24500,   q2:0,       q3:0,       q4:0,       fy:-24500,  aop:0,       var:24500,   varPos:true},
+    {label:'PAYMENTS',     q1:-404316,  q2:-300000, q3:-300000, q4:-300000, fy:-1304316,aop:-1100000,var:204316,  varPos:true},
+  ];
+  const fmt = v => v===0?'—':'('+Math.abs(v).toLocaleString()+')';
+  const fmtVar = (v,pos) => {
+    // Positive variance (favorable/under AOP) = green, no parens per source
+    // Negative variance (unfavorable/over AOP) = red, with parens
+    if(pos) return `<span style="color:#0a6636;font-weight:800">${Math.abs(v).toLocaleString()}</span>`;
+    return `<span style="color:#cc2200;font-weight:800">(${Math.abs(v).toLocaleString()})</span>`;
+  };
+  const totals = {q1:0,q2:0,q3:0,q4:0,fy:0,aop:0,var:0};
+  rows.forEach(r=>{totals.q1+=r.q1;totals.q2+=r.q2;totals.q3+=r.q3;totals.q4+=r.q4;totals.fy+=r.fy;totals.aop+=r.aop;totals.var+=r.var;});
+  totals.aop = -19500000; // override to match source — AOP total per image
+  const tbody = document.getElementById('ellie-churn-table');
+  if(!tbody) return;
+  tbody.innerHTML = rows.map((r,i)=>`
+    <tr style="background:${i%2===0?'#fafbff':'#fff'}">
+      <td style="padding:6px 10px;font-weight:800;color:var(--p1)">${r.label}</td>
+      <td style="padding:6px 10px;text-align:right;color:#555">${fmt(r.q1)}</td>
+      <td style="padding:6px 10px;text-align:right;color:#555">${fmt(r.q2)}</td>
+      <td style="padding:6px 10px;text-align:right;color:#555">${fmt(r.q3)}</td>
+      <td style="padding:6px 10px;text-align:right;color:#555">${fmt(r.q4)}</td>
+      <td style="padding:6px 10px;text-align:right;font-weight:800;color:var(--p1);border-left:1px solid #eee">${fmt(r.fy)}</td>
+      <td style="padding:6px 10px;text-align:right;color:#555">${fmt(r.aop)}</td>
+      <td style="padding:6px 10px;text-align:right">${fmtVar(r.var,r.varPos)}</td>
+    </tr>`).join('') +
+  `<tr style="background:var(--p1)">
+    <td style="padding:7px 10px;font-weight:800;color:#fff">TOTAL</td>
+    <td style="padding:7px 10px;text-align:right;color:var(--p2);font-weight:800">${fmt(totals.q1)}</td>
+    <td style="padding:7px 10px;text-align:right;color:var(--p2);font-weight:800">${fmt(totals.q2)}</td>
+    <td style="padding:7px 10px;text-align:right;color:var(--p2);font-weight:800">${fmt(totals.q3)}</td>
+    <td style="padding:7px 10px;text-align:right;color:var(--p2);font-weight:800">${fmt(totals.q4)}</td>
+    <td style="padding:7px 10px;text-align:right;color:#fff;font-weight:800;border-left:1px solid rgba(255,255,255,.15)">${fmt(totals.fy)}</td>
+    <td style="padding:7px 10px;text-align:right;color:var(--p2);font-weight:800">${fmt(totals.aop)}</td>
+    <td style="padding:7px 10px;text-align:right;color:#cc2200;font-weight:800">436,552</td>
+  </tr>`;
+}
+
+// ── Init
+document.getElementById('meta-pill').textContent=`Week of ${WEEK_DATE} · ${SUBMISSION_COUNT} submitted`;
+document.getElementById('mood-txt').textContent=MOOD;
+document.getElementById('promise-txt').textContent=PROMISE;
+buildThemes();buildClose();buildAgendaPulse();buildAgendaDau();
+buildBarChart('chart-par-ops', PAR_OPS_DATA, '#1a6fa8');
+buildBarChart('chart-pos-rollout', POS_ROLLOUT_DATA, '#F8931C');
+buildEllieChurnChart();
+buildEllieChurnTable();
+// Dave has custom charts but still has standard KPI table for remaining metrics
+buildLeaderKpi('dave','dave-kpi');
+buildLeaderKpiHl('dave','dave-kpi-hl');
+buildLeaderPulse('dave','dave-pulse');
+buildLeaderDau('dave','dave-dau');
+// Ellie has fully custom pane — only pulse needed (no standard KPI table/highlight)
+buildLeaderPulse('ellie','ellie-pulse');
+buildLeaderDau('ellie','ellie-dau');
+// Frost, Josh — standard tables
+['frost','josh'].forEach(tab=>{
+  buildLeaderKpi(tab,tab+'-kpi');
+  buildLeaderKpiHl(tab,tab+'-kpi-hl');
+  buildLeaderPulse(tab,tab+'-pulse');
+  buildLeaderDau(tab,tab+'-dau');
+});
+// Berk has custom incident pane — only pulse + dau
+buildLeaderPulse('berk','berk-pulse');
+buildLeaderDau('berk','berk-dau');
+buildOtherKpi();buildOtherPulse();buildOtherDau();buildCustomers();renderDauFull();
+</script>
+</body>
+</html>
