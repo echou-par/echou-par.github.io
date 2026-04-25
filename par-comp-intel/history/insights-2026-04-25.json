@@ -2,7 +2,7 @@
   "date": "2026-04-25",
   "weekday": "Saturday",
   "first_seen": "2026-04-25T06:00:34.204495+00:00",
-  "last_updated": "2026-04-25T19:53:44.162088+00:00",
+  "last_updated": "2026-04-25T21:55:50.443189+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Deliverect, Thanx appeared together in coverage \u2014 \"Thanx and Deliverect Partner to Deliver First-Party Ordering and Loyalty for Restaurants - The National Law Review\"",
@@ -71,7 +71,7 @@
       "first_detected": "2026-04-25T06:00:34.204495+00:00"
     },
     {
-      "text": "Shift4 shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"M&T Bank Corp Boosts Stock Position in Shift4 Payments, Inc. $FOUR - MarketBeat\"",
+      "text": "Shift4 shows concentrated financial/market activity \u2014 12 tracked financial/market items this cycle. Latest: \"M&T Bank Corp Boosts Stock Position in Shift4 Payments, Inc. $FOUR - MarketBeat\"",
       "sources": [
         {
           "title": "M&T Bank Corp Boosts Stock Position in Shift4 Payments, Inc. $FOUR - MarketBeat",
@@ -84,8 +84,8 @@
           "source": "Google News"
         },
         {
-          "title": "Shift4 Announces Date of First Quarter Earnings Results and Upcoming Investor Conference Participation - Shift4",
-          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNYWY5VlI2dXhCb3pBREctTEdXbUZjSHRrQTg2aWhGSTh1ckZkOVAyRjJkZnhUNjJtY2tqNTl3V3RVU0ZFTDhiaWtsQjVqOW1jSWdjaDFoSER1OVNQOURpLWtuQ3JwUUIyLVAzcjlKVnh6dXpRWE10dEMySVZBeUN5LXk0MXdTalpCemthLXpRaFJ0QmwzQVdkb0lMaWNyQkVmOU9aR09ONk5HMzhHQ0wzUDFzdE12Zm5ucHlTaHBCVXNwb205YmtVckxEai1CYnNQdlVvekJ3eUtVZGhlSUtHNFNIN3QxeWpjRWdGcE5SWS0yVDMtY3JSUzVPYmRKUQ?oc=5",
+          "title": "Shift4 Payments Inc (FOUR) Stock Price, Trades & News - GuruFocus",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9LUTNkejNZSU1GT0tmQy1vY2JwWDNFWU9mZWxGV2k5c00yWEJXYjdOZTM5MDNkOF8zYzFvUnRVQWtQWGNYUUxSZk1VbnhkWUZrWHRFbU4wOA?oc=5",
           "source": "Google News"
         }
       ],
@@ -212,18 +212,14 @@
   "most_mentioned": [
     {
       "company": "DoorDash",
-      "count": 20
+      "count": 19
     },
     {
-      "company": "Paytronix",
-      "count": 16
+      "company": "TouchBistro",
+      "count": 17
     },
     {
       "company": "SpotOn",
-      "count": 16
-    },
-    {
-      "company": "Fiserv",
       "count": 16
     },
     {
@@ -235,11 +231,15 @@
       "count": 16
     },
     {
-      "company": "TouchBistro",
-      "count": 16
+      "company": "Toast",
+      "count": 15
     },
     {
-      "company": "Toast",
+      "company": "Uber Eats",
+      "count": 15
+    },
+    {
+      "company": "Shift4",
       "count": 15
     }
   ]
