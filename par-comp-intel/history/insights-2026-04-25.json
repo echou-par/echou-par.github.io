@@ -2,7 +2,7 @@
   "date": "2026-04-25",
   "weekday": "Saturday",
   "first_seen": "2026-04-25T06:00:34.204495+00:00",
-  "last_updated": "2026-04-25T15:28:31.702578+00:00",
+  "last_updated": "2026-04-25T16:08:51.820555+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Deliverect, Thanx appeared together in coverage \u2014 \"Thanx and Deliverect Partner to Deliver First-Party Ordering and Loyalty for Restaurants - The National Law Review\"",
@@ -49,7 +49,7 @@
       "first_detected": "2026-04-25T06:00:34.204495+00:00"
     },
     {
-      "text": "SpotOn shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"SpotOn Highlights Q1 2026 Momentum with New Customers, Product Enhancements, and Strategic Partnerships\"",
+      "text": "SpotOn shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"SpotOn Highlights Q1 2026 Momentum with New Customers, Product Enhancements, and Strategic Partnerships\"",
       "sources": [
         {
           "title": "SpotOn Highlights Q1 2026 Momentum with New Customers, Product Enhancements, and Strategic Partnerships",
@@ -71,7 +71,7 @@
       "first_detected": "2026-04-25T06:00:34.204495+00:00"
     },
     {
-      "text": "Shift4 shows concentrated financial/market activity \u2014 12 tracked financial/market items this cycle. Latest: \"M&T Bank Corp Boosts Stock Position in Shift4 Payments, Inc. $FOUR - MarketBeat\"",
+      "text": "Shift4 shows concentrated financial/market activity \u2014 13 tracked financial/market items this cycle. Latest: \"M&T Bank Corp Boosts Stock Position in Shift4 Payments, Inc. $FOUR - MarketBeat\"",
       "sources": [
         {
           "title": "M&T Bank Corp Boosts Stock Position in Shift4 Payments, Inc. $FOUR - MarketBeat",
@@ -84,9 +84,9 @@
           "source": "Google News"
         },
         {
-          "title": "Q1 2026 Earnings - Shift4",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPR0dpNVBuM0N0NVRNX2VZaE42WVdLblY2VUhIamZBaHdXMlFxVFdLSEdYZm1RS291QWNPc1Y2X3BwQ2ZqMlZjN1VYZ3J3MGs4QWRReWc0R0g2Nlk3UzRObnFuUjNkWXNuVmZocWMxLURWWHBtU1pWeTlIeW9raGZrbEhWVUdUTTZuUU1jVUZB?oc=5",
-          "source": "Google News (shift4.com)"
+          "title": "Shift4 Payments Inc (FOUR) Stock Price, Trades & News - GuruFocus",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9LUTNkejNZSU1GT0tmQy1vY2JwWDNFWU9mZWxGV2k5c00yWEJXYjdOZTM5MDNkOF8zYzFvUnRVQWtQWGNYUUxSZk1VbnhkWUZrWHRFbU4wOA?oc=5",
+          "source": "Google News"
         }
       ],
       "company": "Shift4",
@@ -212,7 +212,7 @@
   "most_mentioned": [
     {
       "company": "Deliverect",
-      "count": 49
+      "count": 48
     },
     {
       "company": "SpotOn",
@@ -227,10 +227,6 @@
       "count": 29
     },
     {
-      "company": "Fiserv",
-      "count": 26
-    },
-    {
       "company": "Paytronix",
       "count": 26
     },
@@ -241,6 +237,10 @@
     {
       "company": "TouchBistro",
       "count": 26
+    },
+    {
+      "company": "TalonOne",
+      "count": 25
     }
   ]
 }
