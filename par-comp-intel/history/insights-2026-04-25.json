@@ -2,7 +2,7 @@
   "date": "2026-04-25",
   "weekday": "Saturday",
   "first_seen": "2026-04-25T06:00:34.204495+00:00",
-  "last_updated": "2026-04-25T21:55:50.443189+00:00",
+  "last_updated": "2026-04-25T23:59:16.351138+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Deliverect, Thanx appeared together in coverage \u2014 \"Thanx and Deliverect Partner to Deliver First-Party Ordering and Loyalty for Restaurants - The National Law Review\"",
@@ -118,14 +118,9 @@
       "text": "Shift4 (FOUR) stock declined 8.2% over the past week \u2014 material weekly move relative to broader cohort.",
       "sources": [
         {
-          "title": "M&T Bank Corp Boosts Stock Position in Shift4 Payments, Inc. $FOUR - MarketBeat",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPM0NKeU9pemp4dktGbElCckh4Um11YXRLRmgwbmFKVGd2bGlwdEI2dmQzckxsU3Brb2xMYmZ4SnRrLXV1dHZnUWxwaXZBa2xDNEFzTEVPbDJMZ0NVbEZTbm5KeFU1M205ZkhPQmVFWDB5dWJ6QUZQN2Y4T1NrOVliOVQ3Q3NhRUE5TWoxX2Y0eUpWbWlodnNOZUZDcEJkakoyaXN2NTkxaTMzV1lsQTVvajcwZmVDdXNFWWIyaWp3WG4?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Shift4 Payments, Inc. (NYSE:FOUR) Given Average Recommendation of \"Hold\" by Brokerages - MarketBeat",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWVkzeUVydVM2cmZkY25iUXFMRk5pY1BVVVVCSm9Sdm1PY01KSW9Ob3dUSXBYSHdOZmdxN3FqWDNnSnROZEt1MlUyeG94clV2YkhHRHpOM1kxQjlmdExZWkYzVjRCRi1YQnJUNkhzTUNpVF92VmZPWVlENjRKd2Z1RVE5UWpfRlpDdjNmVE9BOFVCQkE4WXpnY0s2bGpCX0JxMUYxdGpXVWttOC1tTlJ0V3ZKM3VDdjlZVHJuMExlVE5BSzFlNGttTENGUWdXQQ?oc=5",
-          "source": "Google News"
+          "title": "FOUR on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/FOUR",
+          "source": "Yahoo Finance"
         }
       ],
       "company": "Shift4",
@@ -154,12 +149,12 @@
       "first_detected": "2026-04-25T09:37:43.408362+00:00"
     },
     {
-      "text": "Cross-competitor event: Square, Uber Eats appeared together in coverage \u2014 \"Square and Uber Eats Expand Global Partnership to Streamline Restaurant Operations and Payments - Restaurant Technology News\"",
+      "text": "Cross-competitor event: Square, Uber Eats appeared together in coverage \u2014 \"Square and Uber Eats Expand Global Partnership to Streamline Restaurant Operations and Payments\"",
       "sources": [
         {
-          "title": "Square and Uber Eats Expand Global Partnership to Streamline Restaurant Operations and Payments - Restaurant Technology News",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPeGpzdXkyaTVfT1VMY01Dc20zXzQxTUpzbVFjanFjb05rekpoeXlFQnhQVzE5c0lvYWNjRmNvQ1B0VVYxYVlGMXI2VllBWHJSTjU4d1pOY3NLMGF3d29wY2RwNEk2WV9YSG5XZ3Zjc2pQbkRoOXd5Q29odEZvcXFIX2RWRi1FYUNlaGZMZ2FUNnlPR0VrSk9lQk1mVDJ2b2pzaVJjQXcwZTBUSlpURkZOS0phMTVaTy1ZYkZ0UTlFMXRoaF9YRG03S0RtWWg2a3BHd1JWOWFCSmM?oc=5",
-          "source": "Google News"
+          "title": "Square and Uber Eats Expand Global Partnership to Streamline Restaurant Operations and Payments",
+          "url": "https://restauranttechnologynews.com/2026/04/square-and-uber-eats-expand-global-partnership-to-streamline-restaurant-operations-and-payments/",
+          "source": "Restaurant Technology News"
         }
       ],
       "first_detected": "2026-04-25T14:32:14.604130+00:00"
@@ -207,40 +202,40 @@
       ],
       "company": "DoorDash",
       "first_detected": "2026-04-25T15:28:31.702578+00:00"
+    },
+    {
+      "text": "Global Payments (GPN) stock declined 7.0% over the past week \u2014 material weekly move relative to broader cohort.",
+      "sources": [
+        {
+          "title": "GPN on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/GPN",
+          "source": "Yahoo Finance"
+        }
+      ],
+      "company": "Global Payments",
+      "first_detected": "2026-04-25T23:59:16.351138+00:00"
+    },
+    {
+      "text": "DoorDash (DASH) leading revenue growth at +37.7% YoY \u2014 fastest grower among tracked public competitors.",
+      "sources": [
+        {
+          "title": "DoorDash financials on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/DASH/financials",
+          "source": "Yahoo Finance"
+        }
+      ],
+      "company": "DoorDash",
+      "first_detected": "2026-04-25T23:59:16.351138+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
-      "count": 19
-    },
-    {
-      "company": "TouchBistro",
-      "count": 17
+      "company": "Uber Eats",
+      "count": 1
     },
     {
       "company": "SpotOn",
-      "count": 16
-    },
-    {
-      "company": "Olo",
-      "count": 16
-    },
-    {
-      "company": "Sparkfly",
-      "count": 16
-    },
-    {
-      "company": "Toast",
-      "count": 15
-    },
-    {
-      "company": "Uber Eats",
-      "count": 15
-    },
-    {
-      "company": "Shift4",
-      "count": 15
+      "count": 1
     }
   ]
 }
