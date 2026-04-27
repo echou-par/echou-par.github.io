@@ -1,0 +1,102 @@
+{
+  "$schema_doc": "JSON content schema for build_teardown.js. Every field is optional — sections without content are simply omitted from the document. **bold** markdown is supported inline within string values.",
+
+  "competitor_name": "Required. Renders as the title-page header. e.g. 'SpotOn', 'Toast', 'Square'.",
+
+  "prepared_date": "Required. Free-form date string for the title page footer. e.g. 'April 2026'.",
+
+  "executive_summary": [
+    "Array of paragraph strings, OR a single string. Each becomes its own paragraph.",
+    "Use **bold** to emphasize key facts (dollar amounts, percentages, named entities, strategic conclusions).",
+    "Last paragraph should typically lead with **Why this matters for PAR:** to make the relevance explicit."
+  ],
+
+  "company_snapshot": {
+    "$schema_doc": "Object of label → value. Renders as a 2-column fact table. Order is preserved.",
+    "Founded": "Year + founders + city",
+    "HQ": "City + headcount",
+    "Status": "Public/private + IPO posture",
+    "Total Raised": "If private — total disclosed",
+    "Last Round": "Round amount + date + lead investor",
+    "Valuation": "Latest known + trajectory",
+    "Key Investors": "Comma-separated list",
+    "Customer Base": "Number of locations / customers (with source caveats)",
+    "Annualized Revenue": "Estimate or disclosed",
+    "CEO": "Name and tenure",
+    "Board / Recent Hires": "Strategic hires that signal direction"
+  },
+
+  "strategy": {
+    "thesis": "1–2 paragraphs articulating the company's core strategic bet. What do they believe about the market that competitors don't?",
+    "pillars": [
+      {
+        "title": "Pillar name (short)",
+        "body": "1-paragraph explanation of the pillar. Why does it matter? How does it differ from competitors? What does it cost?"
+      }
+    ],
+    "inflection_points": [
+      "Bullet list. Each entry should start with **Year + Month — Event title** then explain implication. Keep to 5–7 high-signal items only."
+    ]
+  },
+
+  "icp": {
+    "intro": "Short framing paragraph explaining how segments are organized and which are most threatening to PAR.",
+    "segments": [
+      {
+        "title": "Section heading. e.g. 'Primary ICP — The Sweet Spot' or 'Secondary ICP — Local Multi-Unit'",
+        "attributes": {
+          "Vertical": "...",
+          "Size": "...",
+          "Geography": "...",
+          "Buyer Persona": "...",
+          "Pain Points": "...",
+          "Trigger Events": "..."
+        },
+        "note": "Optional follow-up paragraph after the table — typically used for the 'aspirational ICP where they meet PAR' commentary."
+      }
+    ],
+    "anti_icp": [
+      "Bullets describing segments the competitor explicitly does NOT target. Important for PAR sales — these are safe zones."
+    ]
+  },
+
+  "product_diff": {
+    "overview": "1 paragraph framing how the competitor's product strategy compares to peers (Toast, Square, NCR Voyix, etc.).",
+    "products": [
+      "Bullet list of named product modules. Format: **Product Name** — short description."
+    ],
+    "strengths": [
+      "Bullets covering what they do better than typical competitors. Each should begin with a **bold capability name**: ..."
+    ],
+    "weaknesses": [
+      "Bullets covering structural product weaknesses, framed as PAR opportunities. Same **bold capability name**: ... pattern."
+    ],
+    "pricing": "1 paragraph on pricing posture, contract terms, payments-attach model, ETF / negotiation patterns."
+  },
+
+  "swot": {
+    "intro": "Optional italic framing line — e.g. 'PAR-relevant SWOT — emphasis on signals that should affect PAR's competitive posture.'",
+    "strengths": ["6 bullet items, each one short clause"],
+    "weaknesses": ["6 bullet items"],
+    "opportunities": ["6 bullet items"],
+    "threats": ["6 bullet items"]
+  },
+
+  "news_intro": "1 paragraph framing — when to use the dashboard's News & Developments tab vs. this curated narrative.",
+  "news": [
+    {
+      "date": "Short date — e.g. 'Mar 2024'",
+      "headline": "1-line news headline (you, the analyst, write this — it's a paraphrase, not a verbatim copy)",
+      "source": "Publication name + paraphrased article title — e.g. 'TechCrunch — SpotOn growth round at $3.15B'",
+      "url": "Link to the source article",
+      "takeaway": "1–3 sentences: what this means for PAR specifically. This is the value-add over the auto-fetched feed."
+    }
+  ],
+
+  "par_playbook": {
+    "engage": ["Bullets — segments / battlefields where PAR has structural advantage. **Bold the segment name**: explanation."],
+    "avoid": ["Bullets — segments where PAR should not engage directly with this competitor."],
+    "signals": ["Bullets — what to watch for in the Competitive Intelligence Monitor that would change the threat calculus."],
+    "actions": ["Bullets — 3–5 concrete things PAR teams should do as a result of this teardown."]
+  }
+}

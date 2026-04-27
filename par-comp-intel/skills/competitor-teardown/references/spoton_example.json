@@ -1,0 +1,250 @@
+{
+  "competitor_name": "SpotOn",
+  "prepared_date": "April 2026",
+
+  "executive_summary": [
+    "SpotOn is a private, San Francisco-headquartered restaurant technology company offering an integrated POS, payments, marketing, loyalty, and online ordering platform aimed primarily at full-service restaurants (FSRs), bars, and small-to-mid-market hospitality groups. The company has raised over **$928M in disclosed funding** across 11 rounds — most recently a $66M growth round in March 2024 led by Dragoneer — and was last valued at **$3.15B (down from a $3.6B peak in 2022)**, reflecting the broader correction in restaurant tech valuations.",
+    "Strategically, SpotOn occupies a hybrid niche: more vertically purpose-built and consultative than **Toast** at the SMB level, but more service-heavy and FSR-focused than **Square**. Their core differentiation is the **\"local, white-glove\" go-to-market** — every account gets a dedicated rep — paired with strong dine-in tooling (handhelds, KDS, reservations via the SpotOn Reserve acquisition) and an aggressive payments-attached model. They have notably retreated from enterprise/multi-unit verticals (sports & entertainment was divested in 2024), refocusing on independents and small chains.",
+    "**Why this matters for PAR:** SpotOn does not directly compete with PAR's enterprise/Tier-1 chain footprint (Brink, Punchh) — but the company's relentless focus on FSR, deep payments-attach, and well-capitalized field sales motion makes them a serious threat to PAR's mid-market and franchisee-tier ambitions. SpotOn's recent product investments in AI-powered ordering, labor management, and a unified back-office are converging toward the same workload PAR is positioning Stuzo and Data Central to address."
+  ],
+
+  "company_snapshot": {
+    "Founded": "2017 by Matt Hyman, Doron Friedman, and Zach Hyman (San Francisco, CA)",
+    "HQ": "San Francisco, CA · 1,800+ employees (per LinkedIn, April 2026)",
+    "Status": "Private; pre-IPO. CFO Sandeep Bhanote hired November 2024 — widely read as IPO-track preparation.",
+    "Total Raised": "~$928M across 11 disclosed rounds",
+    "Last Round": "$66M growth round, March 2024 (Dragoneer Investment Group lead)",
+    "Valuation": "$3.15B (March 2024) — down from $3.6B peak (May 2022 Series F)",
+    "Key Investors": "Andreessen Horowitz, DST Global, Dragoneer, 01 Advisors, Mubadala, Coatue, Franklin Templeton",
+    "Customer Base": "Reported 30,000+ SMB restaurant and small-business locations (company claim, 2025)",
+    "Annualized Revenue": "Estimated $400–500M (analyst triangulation; not publicly disclosed)",
+    "CEO": "Matt Hyman (co-founder, ongoing)",
+    "Board / Recent Hires": "Sandeep Bhanote (CFO, ex-DocuSign), Bryan Solar (CPO/CTO, ex-Square restaurants)"
+  },
+
+  "strategy": {
+    "thesis": "SpotOn's central bet is that **independent and small-chain full-service restaurants** are systematically underserved by both legacy POS vendors (NCR Voyix, Oracle MICROS) and the volume-driven SMB platforms (Toast, Square). They believe these operators want **integrated software** with **local human support** — and will pay a payments-attached premium to get it.",
+
+    "pillars": [
+      {
+        "title": "Vertical depth in full-service hospitality",
+        "body": "Unlike Toast (broad-mass restaurant), SpotOn double-clicks on full-service: handhelds, table management, reservations (SpotOn Reserve, formerly Appointment-Plus + Dolce), tip pooling, KDS routing, and modifier-heavy menu engineering. The 2023 Hospitality Industry Report and 2025 \"Restaurant Tech for Hospitality\" study they publish are explicit positioning artifacts."
+      },
+      {
+        "title": "Payments-attached economics",
+        "body": "SpotOn does not lead with hardware ARR — they lead with payment processing volume. Software bundles are priced to drive merchant payments adoption, similar to Toast and Square. Per industry estimates, payments revenue is now 60–70% of total revenue. This is the single most important number to watch when assessing SpotOn's defensibility."
+      },
+      {
+        "title": "Field sales + local rep model",
+        "body": "SpotOn's most distinctive go-to-market lever: every customer gets a named local representative, not just an inside-sales rep. They've built out 100+ field offices. This drives higher acquisition costs but — they argue — meaningfully lower churn at the SMB FSR level. It is also expensive to scale, which is why the recent layoffs and divestitures matter."
+      }
+    ],
+
+    "inflection_points": [
+      "**2023 — Layoffs of ~12% of staff** (July 2023, ~115 roles): first material expense reset post-Series F. Signaled growth-at-all-costs era was over.",
+      "**Aug 2024 — Divestiture of Sports & Entertainment unit** to NeoLeap (a private equity vehicle): SpotOn exited venues/stadiums to refocus exclusively on restaurants. This was the single largest strategic narrowing in the company's history.",
+      "**Nov 2024 — CFO hire (Sandeep Bhanote, ex-DocuSign IPO team)**: almost universally read as IPO-track signal. Watch for an S-1 filing window in 2026–27.",
+      "**2025 — AI product wave**: SpotOn AI Assist (front-of-house AI agent), AI-powered marketing campaigns, and predictive labor scheduling launched. Aimed at matching Toast Sous Chef and Square's AI features."
+    ]
+  },
+
+  "icp": {
+    "intro": "Based on SpotOn's customer case studies, sales collateral, and field-rep targeting patterns, the ICP segments are tightly defined. PAR teams should view SpotOn as **most threatening** in segments 1 and 2 below; segments 3 and 4 are aspirational/expansion targets where SpotOn is still building credibility.",
+
+    "segments": [
+      {
+        "title": "Primary ICP — The Sweet Spot",
+        "attributes": {
+          "Vertical": "Full-service restaurants (FSR), bars, breweries, casual dining",
+          "Size": "1–10 locations · $1M–$10M annual revenue per location",
+          "Geography": "U.S. only; concentrated in CA, TX, FL, NY, AZ, Midwest secondary metros",
+          "Buyer Persona": "Owner-operator / GM (not CIO/CFO). Decision cycle: 2–6 weeks.",
+          "Pain Points": "Disjointed POS + reservation + loyalty stack; high payments fees; staff turnover; no analytics",
+          "Trigger Events": "POS contract renewal, opening 2nd–4th location, payment processor renegotiation, post-COVID rebuild"
+        }
+      },
+      {
+        "title": "Secondary ICP — Local Multi-Unit",
+        "attributes": {
+          "Vertical": "Regional restaurant groups, hotel F&B, country clubs, golf clubs",
+          "Size": "10–50 locations · regional brand",
+          "Geography": "Same as primary; growing into Southeast and Mountain West",
+          "Buyer Persona": "Director of Operations or VP Tech. Longer cycle (3–6 months); RFP common.",
+          "Differentiation Ask": "Reporting roll-up, multi-location menu management, centralized loyalty/marketing"
+        }
+      },
+      {
+        "title": "Aspirational ICP — Mid-Market Chain (where they meet PAR)",
+        "attributes": {
+          "Vertical": "Regional restaurant chains pushing past the local-multi-unit phase",
+          "Size": "50–200 locations",
+          "Geography": "Same as primary",
+          "Buyer Persona": "VP Tech / CIO. Formal RFP; 6–12 month cycle.",
+          "PAR Overlap": "This is where PAR Brink and Toast Enterprise compete. SpotOn lacks reference accounts here."
+        },
+        "note": "SpotOn is increasingly pitching **50–200 location regional chains**, which is where PAR Brink and Toast Enterprise overlap. SpotOn's win-rate here is unproven — they lack the multi-tenant deployment tooling, EDI/loyalty data integration, and franchise-friendly architecture PAR has built over a decade. But they are pricing aggressively to take pilot deals. **This is the segment to actively defend.**"
+      }
+    ],
+
+    "anti_icp": [
+      "Tier-1 enterprise QSR (McDonald's, Burger King, Chick-fil-A, Wendy's) — exited via S&E divestiture; no enterprise reference accounts.",
+      "Convenience & fuel retail — no relevant SKU; Stuzo / PAR's c-store push is not a SpotOn battlefield.",
+      "International (outside U.S.) — no go-to-market presence in EMEA, LATAM, APAC.",
+      "Pure delivery / ghost-kitchen operators — limited integration depth vs. Olo, Deliverect, Otter."
+    ]
+  },
+
+  "product_diff": {
+    "overview": "SpotOn's product strategy is to bundle a vertically-tuned restaurant operating system. The platform is more cohesive than Toast's (which has grown by acquisition into 30+ SKUs), and more restaurant-specific than Square's. Key modules:",
+
+    "products": [
+      "**SpotOn Restaurant** — core POS (terminal + handheld); dine-in optimized.",
+      "**SpotOn Reserve** — reservations & waitlist (acquired Dolce, 2021).",
+      "**SpotOn Marketing** — email, SMS, social posting, campaign automation.",
+      "**SpotOn Loyalty** — points-based loyalty + digital gift cards.",
+      "**SpotOn Order** — commission-free online ordering and QR-table ordering.",
+      "**SpotOn Teamwork** — labor scheduling, tip pooling, payroll integration.",
+      "**SpotOn Capital** — merchant cash advances against future payments volume.",
+      "**SpotOn AI Assist (2025)** — front-of-house conversational AI, menu Q&A, allergen info."
+    ],
+
+    "strengths": [
+      "**Local field rep model:** named human point of contact for every customer; differentiated against Toast (regional CSMs) and Square (zero touch). Drives meaningfully lower churn at the SMB FSR tier.",
+      "**Reservation + POS unification:** the SpotOn Reserve integration is genuinely seamless and is hard to replicate without acquisition (which is why competitors partner with OpenTable/Resy).",
+      "**Hospitality UX polish:** handheld and table-management workflows are demonstrably tighter than Toast for FSR. Multiple G2/Capterra comparison reviews call this out.",
+      "**Multi-product attach in single contract:** loyalty + marketing + payments + POS are sold as one bundle, simplifying SMB procurement."
+    ],
+
+    "weaknesses": [
+      "**Multi-tenant / franchise architecture:** SpotOn's data model and back-office are designed for owner-operator, not franchisor/franchisee. PAR Brink's franchise-aware architecture remains a wide moat at 50+ unit chains.",
+      "**Enterprise integrations:** limited ERP, supply chain, and corporate HRIS integration depth. No comparable to PAR's Data Central back-office.",
+      "**International capability:** U.S.-only. Multi-currency, multi-language, and global tax engines are absent.",
+      "**Drive-thru / QSR-specific tooling:** no native order-confirmation board, no drive-thru AI voice, no fryer/timer integrations. PAR's drive-thru voice partnerships and QSR specialization win here.",
+      "**Open developer platform:** more closed than Toast or Square; fewer third-party integrations available via marketplace. Limits enterprise extensibility."
+    ],
+
+    "pricing": "SpotOn lists POS hardware bundles starting at **$0 down** with software at **$135–$195/month per terminal** plus payment processing at **interchange + 0.30% + $0.10** (typical for negotiated SMB accounts; published rates are higher). They are visibly more aggressive than Toast on payments rate negotiation, and slightly less aggressive on software discounting. Multi-year contracts with early-termination fees are standard — a customer-experience friction point that surfaces in Reddit/G2 reviews."
+  },
+
+  "swot": {
+    "intro": "PAR-relevant SWOT framing — emphasis on signals that should affect PAR's competitive posture in mid-market FSR and adjacent segments.",
+    "strengths": [
+      "$928M raised; well-capitalized for ongoing R&D and field expansion.",
+      "Differentiated local-rep go-to-market with measurable churn impact.",
+      "Strong full-service hospitality product depth — reservations, handhelds, KDS.",
+      "Integrated payments-attached model drives high LTV per merchant.",
+      "Recent AI launches keep them in the conversation vs. Toast Sous Chef.",
+      "Brand recognition in independent FSR community."
+    ],
+    "weaknesses": [
+      "Valuation cut from $3.6B to $3.15B; pre-IPO scrutiny intensifying.",
+      "Field sales is high-cost; profitability path remains unproven.",
+      "Limited enterprise / Tier-1 chain reference accounts (S&E divested).",
+      "U.S.-only — no international expansion lever for growth narrative.",
+      "Closed developer ecosystem; fewer third-party apps than Toast.",
+      "Customer reviews highlight aggressive contracts and ETF friction."
+    ],
+    "opportunities": [
+      "IPO window in 2026–27 could refuel growth capital.",
+      "AI agent layer over restaurant ops is a greenfield with low incumbent moat.",
+      "Mid-market chain expansion (50–200 units) — if they build franchise tooling.",
+      "Adjacent verticals: hotel F&B, country clubs, breweries.",
+      "Embedded fintech: SpotOn Capital (lending) is high-margin upsell.",
+      "Acquisition target for a payments giant (Block, Stripe, Fiserv) seeking restaurant vertical."
+    ],
+    "threats": [
+      "Toast continues to compress SMB FSR pricing; SpotOn's premium narrative gets harder.",
+      "Square Restaurants is improving rapidly with deep distribution.",
+      "PAR Brink + Punchh + Stuzo + Data Central is a stronger enterprise stack at the segment seam.",
+      "Olo's restaurant data platform (Olo Engage) overlaps loyalty/marketing positioning.",
+      "Macro: SMB restaurant closures during a downturn directly hit SpotOn revenue.",
+      "Payments rate compression as Stripe/Adyen push into restaurant."
+    ]
+  },
+
+  "news_intro": "The following items are the most consequential SpotOn developments tracked over the last 12–18 months. Each is paired with a PAR-specific takeaway. The Competitive Intelligence Monitor's **News & Developments** tab continues to refresh these in real time; this section is a curated narrative layer on top.",
+
+  "news": [
+    {
+      "date": "Mar 2024",
+      "headline": "SpotOn raises $66M growth round at $3.15B valuation (Dragoneer lead)",
+      "source": "TechCrunch — SpotOn's $3.15B raise marks a 12% valuation cut",
+      "url": "https://techcrunch.com/2024/03/14/spoton-66m-funding/",
+      "takeaway": "Down round signals capital tightening even for late-stage restaurant tech. Confirms SpotOn is preparing IPO runway. PAR sales should expect more aggressive discounting in head-to-head deals."
+    },
+    {
+      "date": "Aug 2024",
+      "headline": "SpotOn divests Sports & Entertainment business to NeoLeap-backed entity",
+      "source": "Restaurant Dive — SpotOn refocuses on core restaurants, exits venues",
+      "url": "https://www.restaurantdive.com/news/spoton-divests-sports-entertainment/",
+      "takeaway": "Major strategic narrowing. Removes SpotOn from the stadium/venue category. The bigger story: SpotOn is conceding the enterprise hospitality segment, which is exactly where PAR wins."
+    },
+    {
+      "date": "Nov 2024",
+      "headline": "SpotOn hires Sandeep Bhanote (ex-DocuSign) as CFO",
+      "source": "Restaurant Business Online — SpotOn brings on IPO-experienced CFO",
+      "url": "https://www.restaurantbusinessonline.com/technology/spoton-cfo-hire",
+      "takeaway": "Bhanote led DocuSign through public-company maturity. Hire is widely read as IPO-track. Implication: expect 2026–27 S-1 filing; SpotOn will need clean GAAP financials and likely deprecate non-strategic SKUs in the next 6–12 months. Window for PAR to consolidate before a refunded competitor emerges."
+    },
+    {
+      "date": "Mar 2025",
+      "headline": "SpotOn launches AI Assist — front-of-house conversational AI",
+      "source": "Hospitality Tech — SpotOn AI Assist takes on Toast Sous Chef",
+      "url": "https://hospitalitytech.com/spoton-ai-assist-launch",
+      "takeaway": "Late entry into the AI agent race. Capabilities trail Toast Sous Chef (released 2024) and Olo's Engage AI. PAR should accelerate AI roadmap messaging — particularly around how PAR's data platform feeds richer signal than SpotOn's narrower POS dataset."
+    },
+    {
+      "date": "Jul 2025",
+      "headline": "SpotOn announces 50-state availability of integrated payroll via Gusto partnership",
+      "source": "Restaurant Technology News — SpotOn-Gusto payroll rollout closes labor gap",
+      "url": "https://restauranttechnologynews.com/spoton-gusto-payroll/",
+      "takeaway": "Closes a meaningful gap vs. Toast (which has native Toast Payroll). SpotOn now has parity on the labor-management side of the bundle. PAR's response: emphasize Data Central's deeper labor analytics + integrations with enterprise HRIS rather than competing on point-solution payroll."
+    },
+    {
+      "date": "Sep 2025",
+      "headline": "SpotOn surveys reveal 40% of independent restaurants are evaluating POS switches in 2026",
+      "source": "Nation's Restaurant News — SpotOn report: POS churn cycle accelerating",
+      "url": "https://www.nrn.com/technology/spoton-pos-churn-2026",
+      "takeaway": "Self-published research, but useful directional data. Implication: 2026 is likely a record migration year. PAR should ensure SMB displacement plays (especially around Brink Lite or partner-distributed Brink) are well-staffed and discoverable in the same search journeys SpotOn captures."
+    },
+    {
+      "date": "Jan 2026",
+      "headline": "SpotOn quietly raises POS subscription pricing 12–18% on renewing customers",
+      "source": "Reddit r/restaurantowners + Capterra reviews (April 2026 trend)",
+      "url": "https://www.capterra.com/p/spoton/reviews",
+      "takeaway": "Not a press release — surfaced via customer review aggregation. Suggests SpotOn is leaning into existing-base monetization to improve unit economics ahead of an IPO. Real opportunity: PAR partners (POS resellers and payment ISOs) should target SpotOn renewal-pricing-shock customers in Q2–Q3 2026."
+    },
+    {
+      "date": "Apr 2026",
+      "headline": "SpotOn featured in Andreessen Horowitz \"Restaurants of the Future\" report alongside Toast and Square",
+      "source": "a16z portfolio update — The vertical software thesis in restaurants",
+      "url": "https://a16z.com/restaurants-of-the-future-2026/",
+      "takeaway": "Reaffirms a16z commitment to SpotOn as portfolio anchor in the segment. a16z's broader endorsement signals continued patient capital, but also reveals their thesis (vertical SaaS + payments + AI) which PAR's own narrative should differentiate against — emphasizing enterprise-grade architecture and data breadth as the next frontier."
+    }
+  ],
+
+  "par_playbook": {
+    "engage": [
+      "**Mid-market regional chains (50–200 units):** This is the segment seam. Lead with multi-tenant architecture, franchise tooling, and integration depth (Punchh, Stuzo, Data Central). SpotOn lacks reference accounts here.",
+      "**Drive-thru and high-throughput QSR:** SpotOn has no relevant SKU. Lead with PAR's drive-thru AI partnerships and order-confirmation expertise.",
+      "**Loyalty-led RFPs:** Punchh's depth in offers, segments, and POS-coupled loyalty is structurally ahead of SpotOn Loyalty's points-only model.",
+      "**Enterprise data / BI:** SpotOn has no Data Central equivalent. When the buyer asks about cross-location analytics or external system integration, this is a clean PAR advantage."
+    ],
+    "avoid": [
+      "**Sub-5-unit independent FSR:** SpotOn's local-rep model + payments-attached pricing makes them very hard to displace below this size. PAR's economics don't favor this segment.",
+      "**Restaurant-only \"all-in-one\" pitches at SMB:** Toast wins more often here than PAR; competing directly on Toast/SpotOn's terms erodes PAR margin without strategic upside."
+    ],
+    "signals": [
+      "Hiring patterns on LinkedIn: enterprise sales hires would signal SpotOn's intent to push upmarket — direct PAR threat.",
+      "S-1 filing window: any IPO filing dramatically changes negotiating leverage and pricing posture.",
+      "New AI / agent product launches: catch within 24h via the Product Updates tab.",
+      "Pricing changes (especially payment processing rates): surfaced via Capterra/G2 review trends and partner channel chatter.",
+      "M&A rumors: SpotOn as either buyer (consolidating loyalty/marketing) or seller (rumored Block/Fiserv interest) is a watershed event."
+    ],
+    "actions": [
+      "**Action 1:** Build a SpotOn-displacement playbook for the partner channel — focus on the renewal-pricing-shock cohort identified in the January 2026 trend.",
+      "**Action 2:** Add a \"Why PAR vs. SpotOn\" battlecard to the sales enablement library, anchored on franchise architecture, drive-thru, and Punchh loyalty depth.",
+      "**Action 3:** Subscribe Sales Leadership and PMO to the SpotOn alert filter in the Competitive Intelligence Monitor — ensure 24-hour visibility on any AI/loyalty/IPO-related disclosure."
+    ]
+  }
+}
