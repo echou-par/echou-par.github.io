@@ -927,10 +927,16 @@ function renderCompetitorSkeleton(c) {
       </div>
     </div>`}
 
+    <!-- Teardown-only: extra company-snapshot cards (rendered if teardown JSON exists for this competitor) -->
+    <div id="teardown-snapshot-${c.id}" style="display:none;"></div>
+
     <div class="ai-box">
       <div class="ai-box-header"><span class="ai-icon">✦</span> AI Competitive Intelligence</div>
       <div class="ai-text" id="ai-summary-${c.id}"><span class="news-loading"><span class="spinner"></span> Researching ${c.name}…</span></div>
     </div>
+
+    <!-- Teardown-only: SWOT block sits below AI Competitive Intelligence, above the tab bar -->
+    <div id="teardown-swot-${c.id}" style="display:none;"></div>
 
     <div class="tabs" style="margin-bottom:16px;">
       <button class="tab active" onclick="switchCompTab('news', this, '${c.id}')">News & Developments</button>
@@ -979,13 +985,322 @@ function switchCompTab(tab, btn, id) {
   document.getElementById(`comptab-${tab}-${id}`).style.display = '';
 }
 
+// ─── Teardown content (curated narrative) ─────────────────────────────────────
+//
+// Teardowns are produced by the competitor-teardown skill (see
+// par-comp-intel/skills/competitor-teardown/SKILL.md). The skill writes
+// a content JSON to par-comp-intel/teardowns/<slug>.json and a .docx to
+// par-comp-intel/teardowns/<slug>_Teardown.docx for download.
+//
+// The dashboard reads the JSON at competitor-page-load time and overlays
+// the curated narrative onto five integration points per the user's spec:
+//   1. Executive Summary → REPLACES the auto-generated AI Competitive Intelligence text
+//   2. Company Snapshot → ADDITIONAL key-stat cards alongside the existing top-of-page cards
+//   3. Strategy / ICP / News / PAR Playbook → Strategic Analysis tab as 'Analyst deep-dive'
+//      APPENDED below the auto-generated 'Recent activity by signal type' content
+//   4. SWOT → renders ABOVE the tab bar, BELOW the AI Competitive Intelligence box
+//   5. Product & Service Differentiation → PREPENDED to the Product Updates tab
+//
+// All five renders are GRACEFUL: if no teardown exists for a competitor, the
+// dashboard renders exactly as it did before. Sections that are missing from
+// a teardown JSON are quietly omitted.
+
+const _teardownCache = {};  // slug → { hit: bool, data: {...}|null }
+
+async function loadTeardown(slug) {
+  if (_teardownCache[slug]) return _teardownCache[slug].data;
+  try {
+    const res = await fetch(`./teardowns/${encodeURIComponent(slug)}.json`, { cache: 'no-cache' });
+    if (!res.ok) {
+      _teardownCache[slug] = { hit: false, data: null };
+      return null;
+    }
+    const data = await res.json();
+    _teardownCache[slug] = { hit: true, data };
+    return data;
+  } catch (e) {
+    _teardownCache[slug] = { hit: false, data: null };
+    return null;
+  }
+}
+
+// Inline-bold parser. The teardown content uses **bold** in body strings.
+// Convert to <strong> while HTML-escaping everything else so we can't
+// inject arbitrary HTML from the JSON content. Used inside structured
+// containers we build ourselves — never on raw user input.
+function mdInline(text) {
+  if (text == null) return '';
+  // Escape HTML-significant chars first
+  let s = String(text)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+  // Convert escaped **bold** to <strong>
+  // (Pattern: ** followed by non-** content followed by **, non-greedy)
+  s = s.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+  return s;
+}
+
+// Convenience: takes either a string or an array of strings, returns
+// an array of <p> elements with mdInline applied to each.
+function mdParagraphs(textOrArray, classAttr = '') {
+  if (textOrArray == null) return '';
+  const arr = Array.isArray(textOrArray) ? textOrArray : [textOrArray];
+  return arr.map(p => `<p${classAttr ? ' class="' + classAttr + '"' : ''} style="margin:0 0 10px;">${mdInline(p)}</p>`).join('');
+}
+
+// Builds a teardown-style additional snapshot row of stat cards.
+// Returns HTML for ADDITIONAL stat-boxes that sit alongside the existing
+// fetcher-driven hero stats. Order is preserved from the JSON.
+function renderTeardownSnapshot(snapshot) {
+  if (!snapshot || typeof snapshot !== 'object') return '';
+  const entries = Object.entries(snapshot);
+  if (!entries.length) return '';
+  return `
+    <div style="margin-top:8px;margin-bottom:18px;">
+      <div style="font-size:11px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:0.6px;margin-bottom:8px;">
+        Company snapshot · curated
+      </div>
+      <div class="stats-row" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));">
+        ${entries.map(([label, value]) => `
+          <div class="stat-box">
+            <div class="stat-label">${mdInline(label)}</div>
+            <div class="stat-value" style="font-size:14px;line-height:1.3;font-weight:500;">${mdInline(value)}</div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+// Builds the SWOT 2x2 grid that sits above the tabs.
+function renderTeardownSWOT(swot, c) {
+  if (!swot || typeof swot !== 'object') return '';
+  const has = (arr) => Array.isArray(arr) && arr.length > 0;
+  if (!has(swot.strengths) && !has(swot.weaknesses) && !has(swot.opportunities) && !has(swot.threats)) {
+    return '';
+  }
+  const quad = (title, items, bg, fg) => `
+    <div style="background:${bg};border-radius:var(--radius-sm);padding:14px;">
+      <div style="font-size:11px;font-weight:700;color:${fg};text-transform:uppercase;letter-spacing:0.6px;margin-bottom:8px;">${title}</div>
+      ${has(items) ? `<ul style="margin:0;padding-left:18px;font-size:12.5px;line-height:1.5;color:var(--text2);">
+        ${items.map(s => `<li style="margin-bottom:5px;">${mdInline(s)}</li>`).join('')}
+      </ul>` : '<div style="font-size:12px;color:var(--text3);font-style:italic;">—</div>'}
+    </div>
+  `;
+  const introHtml = swot.intro
+    ? `<div style="font-size:12px;color:var(--text3);font-style:italic;margin-bottom:10px;">${mdInline(swot.intro)}</div>`
+    : '';
+  return `
+    <div class="card" style="margin-bottom:16px;">
+      <div class="card-header">
+        <span class="card-title">SWOT — ${c.name}</span>
+        <span style="font-size:11px;color:var(--text3);">curated by analyst</span>
+      </div>
+      ${introHtml}
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
+        ${quad('Strengths', swot.strengths, 'rgba(52,198,121,0.07)', '#1e8a52')}
+        ${quad('Weaknesses', swot.weaknesses, 'rgba(255,39,81,0.06)', '#c4264d')}
+        ${quad('Opportunities', swot.opportunities, 'rgba(104,100,209,0.07)', 'var(--accent-text)')}
+        ${quad('Threats', swot.threats, 'rgba(248,147,28,0.08)', '#a85d10')}
+      </div>
+    </div>
+  `;
+}
+
+// Builds the Product & Service Differentiation block that prepends to the
+// Product Updates tab. Sections (overview/products/strengths/weaknesses/pricing)
+// are individually optional.
+function renderTeardownProductDiff(pd, c) {
+  if (!pd || typeof pd !== 'object') return '';
+  const sections = [];
+  if (pd.overview) {
+    sections.push(`<div style="font-size:13px;line-height:1.6;color:var(--text2);margin-bottom:14px;">${mdInline(pd.overview)}</div>`);
+  }
+  if (Array.isArray(pd.products) && pd.products.length) {
+    sections.push(`
+      <div style="margin-bottom:14px;">
+        <div style="font-size:11px;font-weight:600;color:var(--accent-text);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:6px;">Product portfolio</div>
+        <ul style="margin:0;padding-left:20px;font-size:13px;line-height:1.6;color:var(--text2);">
+          ${pd.products.map(p => `<li style="margin-bottom:5px;">${mdInline(p)}</li>`).join('')}
+        </ul>
+      </div>
+    `);
+  }
+  if (Array.isArray(pd.strengths) && pd.strengths.length) {
+    sections.push(`
+      <div style="margin-bottom:14px;">
+        <div style="font-size:11px;font-weight:600;color:#1e8a52;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:6px;">Product strengths</div>
+        <ul style="margin:0;padding-left:20px;font-size:13px;line-height:1.6;color:var(--text2);">
+          ${pd.strengths.map(s => `<li style="margin-bottom:5px;">${mdInline(s)}</li>`).join('')}
+        </ul>
+      </div>
+    `);
+  }
+  if (Array.isArray(pd.weaknesses) && pd.weaknesses.length) {
+    sections.push(`
+      <div style="margin-bottom:14px;">
+        <div style="font-size:11px;font-weight:600;color:#c4264d;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:6px;">Product weaknesses (PAR opportunities)</div>
+        <ul style="margin:0;padding-left:20px;font-size:13px;line-height:1.6;color:var(--text2);">
+          ${pd.weaknesses.map(w => `<li style="margin-bottom:5px;">${mdInline(w)}</li>`).join('')}
+        </ul>
+      </div>
+    `);
+  }
+  if (pd.pricing) {
+    sections.push(`
+      <div>
+        <div style="font-size:11px;font-weight:600;color:var(--accent-text);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:6px;">Pricing posture</div>
+        <div style="font-size:13px;line-height:1.6;color:var(--text2);">${mdInline(pd.pricing)}</div>
+      </div>
+    `);
+  }
+  if (!sections.length) return '';
+  return `
+    <div class="card" style="margin-bottom:16px;">
+      <div class="card-header">
+        <span class="card-title">Product &amp; service differentiation — ${c.name}</span>
+        <span style="font-size:11px;color:var(--text3);">curated by analyst</span>
+      </div>
+      ${sections.join('')}
+    </div>
+  `;
+}
+
+// Builds the 'Analyst deep-dive' that gets appended to the Strategic Analysis
+// tab below the auto-generated 'Recent activity by signal type' content.
+// Covers Strategy (thesis/pillars/inflection_points), ICP (segments/anti-ICP),
+// News (curated items with PAR-specific takeaways), and PAR Playbook
+// (engage/avoid/signals/actions). Each subsection is independently optional.
+function renderTeardownStrategicSections(t, c) {
+  const slug = c.id;
+  const docxUrl = `./teardowns/${encodeURIComponent(slug)}_Teardown.docx`;
+  const downloadLink = `<a href="${docxUrl}" download style="display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--accent);text-decoration:none;border:0.5px solid var(--accent);padding:4px 10px;border-radius:14px;transition:background 0.15s;" onmouseover="this.style.background='var(--accent-bg)'" onmouseout="this.style.background='transparent'">⬇ Download full teardown (.docx)</a>`;
+
+  const parts = [];
+
+  // Strategy
+  if (t.strategy && (t.strategy.thesis || (t.strategy.pillars && t.strategy.pillars.length) || (t.strategy.inflection_points && t.strategy.inflection_points.length))) {
+    let body = '';
+    if (t.strategy.thesis) {
+      body += `<div style="font-size:13px;line-height:1.6;color:var(--text2);margin-bottom:14px;">${mdInline(t.strategy.thesis)}</div>`;
+    }
+    if (Array.isArray(t.strategy.pillars) && t.strategy.pillars.length) {
+      body += `<div style="margin-bottom:14px;">
+        <div style="font-size:11px;font-weight:600;color:var(--accent-text);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:8px;">Strategic pillars</div>
+        ${t.strategy.pillars.map(p => `
+          <div style="margin-bottom:10px;">
+            <div style="font-size:13px;font-weight:600;color:var(--text);margin-bottom:3px;">${mdInline(p.title || '')}</div>
+            <div style="font-size:13px;line-height:1.6;color:var(--text2);">${mdInline(p.body || '')}</div>
+          </div>
+        `).join('')}
+      </div>`;
+    }
+    if (Array.isArray(t.strategy.inflection_points) && t.strategy.inflection_points.length) {
+      body += `<div>
+        <div style="font-size:11px;font-weight:600;color:var(--accent-text);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:8px;">Inflection points</div>
+        <ul style="margin:0;padding-left:20px;font-size:13px;line-height:1.6;color:var(--text2);">
+          ${t.strategy.inflection_points.map(ip => `<li style="margin-bottom:6px;">${mdInline(ip)}</li>`).join('')}
+        </ul>
+      </div>`;
+    }
+    parts.push(`<div style="margin-bottom:18px;"><div style="font-size:13px;font-weight:700;color:var(--text);margin-bottom:10px;">Strategy &amp; positioning</div>${body}</div>`);
+  }
+
+  // ICP
+  if (t.icp && (t.icp.intro || (t.icp.segments && t.icp.segments.length) || (t.icp.anti_icp && t.icp.anti_icp.length))) {
+    let body = '';
+    if (t.icp.intro) {
+      body += `<div style="font-size:13px;line-height:1.6;color:var(--text2);margin-bottom:12px;">${mdInline(t.icp.intro)}</div>`;
+    }
+    if (Array.isArray(t.icp.segments) && t.icp.segments.length) {
+      body += t.icp.segments.map(seg => {
+        const attrs = seg.attributes && typeof seg.attributes === 'object' ? Object.entries(seg.attributes) : [];
+        return `<div style="margin-bottom:12px;background:var(--bg2);border-radius:var(--radius-sm);padding:12px;">
+          <div style="font-size:13px;font-weight:600;color:var(--text);margin-bottom:6px;">${mdInline(seg.title || '')}</div>
+          ${attrs.length ? `<table style="width:100%;border-collapse:collapse;font-size:12.5px;">
+            ${attrs.map(([k, v]) => `<tr>
+              <td style="padding:3px 8px 3px 0;color:var(--text3);font-weight:500;width:35%;vertical-align:top;">${mdInline(k)}</td>
+              <td style="padding:3px 0;color:var(--text2);line-height:1.5;">${mdInline(v)}</td>
+            </tr>`).join('')}
+          </table>` : ''}
+          ${seg.note ? `<div style="font-size:12.5px;line-height:1.6;color:var(--text2);margin-top:8px;font-style:italic;">${mdInline(seg.note)}</div>` : ''}
+        </div>`;
+      }).join('');
+    }
+    if (Array.isArray(t.icp.anti_icp) && t.icp.anti_icp.length) {
+      body += `<div style="margin-top:8px;">
+        <div style="font-size:11px;font-weight:600;color:#c4264d;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:6px;">Anti-ICP (where they don't compete)</div>
+        <ul style="margin:0;padding-left:20px;font-size:13px;line-height:1.6;color:var(--text2);">
+          ${t.icp.anti_icp.map(a => `<li style="margin-bottom:5px;">${mdInline(a)}</li>`).join('')}
+        </ul>
+      </div>`;
+    }
+    parts.push(`<div style="margin-bottom:18px;"><div style="font-size:13px;font-weight:700;color:var(--text);margin-bottom:10px;">Ideal customer profile</div>${body}</div>`);
+  }
+
+  // News
+  if (Array.isArray(t.news) && t.news.length) {
+    let body = '';
+    if (t.news_intro) {
+      body += `<div style="font-size:13px;line-height:1.6;color:var(--text2);margin-bottom:12px;font-style:italic;">${mdInline(t.news_intro)}</div>`;
+    }
+    body += t.news.map(n => `<div style="margin-bottom:12px;padding-bottom:10px;border-bottom:0.5px solid var(--border);">
+      <div style="font-size:11px;color:var(--text3);margin-bottom:3px;">${mdInline(n.date || '')} · ${mdInline(n.source || '')}</div>
+      <div style="font-size:13.5px;font-weight:500;color:var(--text);margin-bottom:5px;">${n.url ? `<a href="${n.url}" target="_blank" style="color:var(--text);text-decoration:none;border-bottom:1px dotted var(--accent);">${mdInline(n.headline || '')}</a>` : mdInline(n.headline || '')}</div>
+      ${n.takeaway ? `<div style="font-size:12.5px;line-height:1.6;color:var(--text2);"><span style="color:var(--accent-text);font-weight:600;">PAR takeaway:</span> ${mdInline(n.takeaway)}</div>` : ''}
+    </div>`).join('');
+    parts.push(`<div style="margin-bottom:18px;"><div style="font-size:13px;font-weight:700;color:var(--text);margin-bottom:10px;">Key news &amp; strategic implications</div>${body}</div>`);
+  }
+
+  // PAR Playbook
+  if (t.par_playbook && (t.par_playbook.engage || t.par_playbook.avoid || t.par_playbook.signals || t.par_playbook.actions)) {
+    const block = (title, items, color) => Array.isArray(items) && items.length ? `<div style="margin-bottom:12px;">
+      <div style="font-size:11px;font-weight:600;color:${color};text-transform:uppercase;letter-spacing:0.5px;margin-bottom:6px;">${title}</div>
+      <ul style="margin:0;padding-left:20px;font-size:13px;line-height:1.6;color:var(--text2);">
+        ${items.map(i => `<li style="margin-bottom:5px;">${mdInline(i)}</li>`).join('')}
+      </ul>
+    </div>` : '';
+    let body = '';
+    body += block('Engage', t.par_playbook.engage, '#1e8a52');
+    body += block('Avoid direct contention', t.par_playbook.avoid, '#c4264d');
+    body += block('Signals to watch', t.par_playbook.signals, 'var(--accent-text)');
+    body += block('PAR actions', t.par_playbook.actions, 'var(--accent-text)');
+    if (body) {
+      parts.push(`<div style="margin-bottom:8px;"><div style="font-size:13px;font-weight:700;color:var(--text);margin-bottom:10px;">PAR competitive playbook</div>${body}</div>`);
+    }
+  }
+
+  if (!parts.length) return '';
+
+  // Wrap everything with the deep-dive header and download link.
+  const preparedDate = t.prepared_date ? `Prepared ${mdInline(t.prepared_date)}` : '';
+  return `
+    <div style="margin-top:24px;padding-top:20px;border-top:1.5px solid var(--border);">
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:14px;">
+        <div>
+          <div style="font-size:14px;font-weight:700;color:var(--text);">Analyst deep-dive</div>
+          <div style="font-size:11px;color:var(--text3);margin-top:2px;">${preparedDate ? preparedDate + ' · ' : ''}Curated narrative complementing live signals above</div>
+        </div>
+        ${downloadLink}
+      </div>
+      ${parts.join('')}
+    </div>
+  `;
+}
+
+
 async function loadCompetitorData(c) {
-  // Fetch all required data files in parallel
-  const [compData, financials, privateData, stocks] = await Promise.all([
+  // Fetch all required data files in parallel — including the optional teardown
+  // (par-comp-intel/teardowns/<slug>.json). Returns null gracefully on 404.
+  const [compData, financials, privateData, stocks, teardown] = await Promise.all([
     loadJSON('competitors.json'),
     loadJSON('financials.json'),
     loadJSON('private_companies.json'),
     loadJSON('stocks.json'),
+    loadTeardown(c.id),
   ]);
 
   // Determine company key — companies.json uses the 'name' from COMPETITORS
@@ -998,7 +1313,7 @@ async function loadCompetitorData(c) {
     companyNews = compData.companies[compKey] || compData.companies[altKey] || [];
   }
   renderCompetitorNews(c.id, companyNews, c);
-  renderCompetitorProductUpdates(c.id, companyNews, c);
+  renderCompetitorProductUpdates(c.id, companyNews, c, teardown);
 
   // ─── Stats (hero metrics) ────────────────────────────────────────────────
   if (c.type === 'public') {
@@ -1007,13 +1322,45 @@ async function loadCompetitorData(c) {
     fillPrivateStats(c, privateData);
   }
 
-  // ─── AI summary ──────────────────────────────────────────────────────────
+  // ─── Teardown: extra Company Snapshot cards (integration point #2) ──────
+  // Renders alongside the existing fetcher-driven hero stat cards. Hidden
+  // when no teardown exists for this competitor.
+  const snapshotEl = document.getElementById(`teardown-snapshot-${c.id}`);
+  if (snapshotEl) {
+    if (teardown && teardown.company_snapshot) {
+      snapshotEl.innerHTML = renderTeardownSnapshot(teardown.company_snapshot);
+      snapshotEl.style.display = '';
+    } else {
+      snapshotEl.style.display = 'none';
+    }
+  }
+
+  // ─── AI summary (integration point #1) ──────────────────────────────────
+  // When a teardown exists, REPLACE the auto-generated single line with the
+  // teardown's full executive_summary (multiple paragraphs, with bolded facts).
+  // When no teardown exists, fall back to the auto-generated description as
+  // before — no behavior change for un-teardowned competitors.
   const summaryEl = document.getElementById(`ai-summary-${c.id}`);
   if (summaryEl) {
-    const newsSummary = companyNews.length
-      ? `${companyNews.length} news item${companyNews.length > 1 ? 's' : ''} tracked. Latest: "${companyNews[0].headline.slice(0, 140)}${companyNews[0].headline.length > 140 ? '…' : ''}"`
-      : 'No recent news tracked in the current window. See the News tab for historical coverage, or wait for the next 30-min refresh.';
-    summaryEl.textContent = `${c.name} operates in the ${c.category} space. ${newsSummary}`;
+    if (teardown && teardown.executive_summary) {
+      summaryEl.innerHTML = mdParagraphs(teardown.executive_summary);
+    } else {
+      const newsSummary = companyNews.length
+        ? `${companyNews.length} news item${companyNews.length > 1 ? 's' : ''} tracked. Latest: "${companyNews[0].headline.slice(0, 140)}${companyNews[0].headline.length > 140 ? '…' : ''}"`
+        : 'No recent news tracked in the current window. See the News tab for historical coverage, or wait for the next 30-min refresh.';
+      summaryEl.textContent = `${c.name} operates in the ${c.category} space. ${newsSummary}`;
+    }
+  }
+
+  // ─── Teardown: SWOT card above tabs (integration point #4) ──────────────
+  const swotEl = document.getElementById(`teardown-swot-${c.id}`);
+  if (swotEl) {
+    if (teardown && teardown.swot) {
+      swotEl.innerHTML = renderTeardownSWOT(teardown.swot, c);
+      swotEl.style.display = '';
+    } else {
+      swotEl.style.display = 'none';
+    }
   }
 
   // ─── Financial Overview tab ──────────────────────────────────────────────
@@ -1023,8 +1370,8 @@ async function loadCompetitorData(c) {
     renderPrivateFinancialOverview(c, privateData);
   }
 
-  // ─── Strategic Analysis tab ──────────────────────────────────────────────
-  renderStrategicAnalysis(c, companyNews);
+  // ─── Strategic Analysis tab (with appended deep-dive #3) ─────────────────
+  renderStrategicAnalysis(c, companyNews, teardown);
 }
 
 // ─── Hero metric fillers ──────────────────────────────────────────────────────
@@ -1242,10 +1589,16 @@ function pickEmoji(headline) {
   return '📰';
 }
 
-function renderCompetitorProductUpdates(compId, items, c) {
+function renderCompetitorProductUpdates(compId, items, c, teardown) {
   const container = document.getElementById(`products-${compId}`);
   const countEl = document.getElementById(`products-count-${compId}`);
   if (!container) return;
+
+  // Build the curated product/service differentiation block (integration #5).
+  // Renders ABOVE the live product-update feed when a teardown.product_diff exists.
+  // Empty string when teardown is null or product_diff missing — the live feed
+  // then renders unchanged.
+  const productDiffHtml = teardown ? renderTeardownProductDiff(teardown.product_diff, c) : '';
 
   // Use the unified predicate (matches is_product_update in Python).
   // This rejects earnings/careers/forum/help items that share site_news
@@ -1257,8 +1610,8 @@ function renderCompetitorProductUpdates(compId, items, c) {
   }
 
   if (!updates.length) {
-    container.innerHTML = `<div style="padding:18px 12px;background:var(--bg2);border-radius:var(--radius-sm);font-size:13px;color:var(--text2);line-height:1.55;">
-      <div style="font-weight:500;color:var(--text);margin-bottom:6px;">No product updates yet for ${c.name}</div>
+    container.innerHTML = productDiffHtml + `<div style="padding:18px 12px;background:var(--bg2);border-radius:var(--radius-sm);font-size:13px;color:var(--text2);line-height:1.55;">
+      <div style="font-weight:500;color:var(--text);margin-bottom:6px;">No live product updates yet for ${c.name}</div>
       Refreshes once daily at 9:30 AM ET from competitor blogs, newsrooms, and direct company sources. Check back tomorrow, or visit <a href="https://${c.website}" target="_blank" style="color:var(--accent);">${c.website}</a> directly.
     </div>`;
     return;
@@ -1287,7 +1640,7 @@ function renderCompetitorProductUpdates(compId, items, c) {
     }
   }
 
-  container.innerHTML = sorted.slice(0, 20).map(item => {
+  const liveFeedHtml = sorted.slice(0, 20).map(item => {
     const desc = descByUrl[item.url];
     const descHtml = desc
       ? `<div style="font-size:12px;color:var(--text2);line-height:1.5;margin-top:4px;">${escapeHtml(desc)}</div>`
@@ -1301,6 +1654,14 @@ function renderCompetitorProductUpdates(compId, items, c) {
     </div>
   `;
   }).join('');
+
+  // When a teardown's product_diff is present, label the live feed below it
+  // so the two are distinguishable.
+  const liveLabelHtml = productDiffHtml
+    ? `<div style="font-size:11px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:0.6px;margin:8px 0 8px 4px;">Live product updates</div>`
+    : '';
+
+  container.innerHTML = productDiffHtml + liveLabelHtml + liveFeedHtml;
 }
 
 // ─── Financial Overview tab ──────────────────────────────────────────────────
@@ -1482,7 +1843,7 @@ function renderPrivateFinancialOverview(c, privateData) {
 
 // ─── Strategic Analysis tab ───────────────────────────────────────────────────
 
-function renderStrategicAnalysis(c, news) {
+function renderStrategicAnalysis(c, news, teardown) {
   const container = document.getElementById(`strategy-${c.id}`);
   // Categorize news by type. The 'products' bucket uses the full isProductUpdate
   // predicate (not just emoji) so the Product Launches & Releases sub-section
@@ -1499,6 +1860,10 @@ function renderStrategicAnalysis(c, news) {
       <div style="font-size:12px;font-weight:600;color:var(${colorVar});margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px;">${title}</div>
       ${items.slice(0, 4).map(i => `<div style="font-size:13px;padding:4px 0;">• ${i.headline}</div>`).join('')}
     </div>` : '';
+
+  // Build the curated Analyst deep-dive that appends below the auto signals.
+  // Empty string when no teardown — the existing auto-rendered tab is unchanged.
+  const deepDiveHtml = teardown ? renderTeardownStrategicSections(teardown, c) : '';
 
   container.innerHTML = `
     <div style="font-size:13px;line-height:1.7;color:var(--text);margin-bottom:16px;">
@@ -1520,6 +1885,8 @@ function renderStrategicAnalysis(c, news) {
         <li>What integration or partnership moves could signal platform consolidation risk?</li>
       </ul>
     </div>
+
+    ${deepDiveHtml}
   `;
 }
 
