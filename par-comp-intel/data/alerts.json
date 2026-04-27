@@ -1,36 +1,10 @@
 {
-  "updated": "2026-04-27T21:10:38.376121+00:00",
-  "total": 3,
+  "updated": "2026-04-27T22:27:44.231611+00:00",
+  "total": 1,
   "by_category": {
-    "analyst_downgrade": 1,
-    "cross_competitor": 1,
     "stock_move": 1
   },
   "alerts": [
-    {
-      "category": "analyst_downgrade",
-      "severity": "high",
-      "company": "Shift4",
-      "headline": "Raymond James downgrades Fiserv, Global Payments, Shift4 Payments - MSN",
-      "url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxNaW9vT2FNbElHNDBRS1EyMWRFRE1sMjZoZEVpRmVFc1BmZXQzYlhvcU1LQkNFMDhXT1FvdzQtdGhyMXNHNE9fSmxRdFkyV3VlbTZnMHh6ZmVtWVZ5MVdMc0ViZDQzbkVTVzNRU1FTREt5cnBZUlhfVEZJVWVFNlp4VzdDX3dFbTJ3MTZWYjVYcTAwR3Z5QlQtUkpsQ2s2VHJWQng5YWxBRlU0ZVVSdFp2cXlXcnU0RTlyZ01qd29pbFUxWHpsWncxU0o5dUhQQkRmRlFpSDlmZmV6U3JIb25OeHEtWGhHWTZRUW04dTkzTzhMNnlVRUVZaFhDS1dPSE9RSjJnQmVFWnk3X1REOTNzdjN0b2pRM1J3bmxwMnY5d3JqSF9zdzQtTW1RSDVsQTB4ejNiR0trcnNyR0FOeHpJaXVvRlgwVjlScWUxLTJwM3FyLTc3UUVfNjh3WWphY1YzTWpWeU5QSWdsS0FEa0lzbmpvbFRROFR1?oc=5",
-      "source": "Google News",
-      "date": "Mon, 27 Apr 2026 00:11:53 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-04-27T21:10:38.376121+00:00"
-    },
-    {
-      "category": "cross_competitor",
-      "severity": "medium",
-      "company": "Fiserv, Global Payments, Shift4",
-      "headline": "Raymond James downgrades Fiserv, Global Payments, Shift4 Payments - MSN",
-      "url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxNaW9vT2FNbElHNDBRS1EyMWRFRE1sMjZoZEVpRmVFc1BmZXQzYlhvcU1LQkNFMDhXT1FvdzQtdGhyMXNHNE9fSmxRdFkyV3VlbTZnMHh6ZmVtWVZ5MVdMc0ViZDQzbkVTVzNRU1FTREt5cnBZUlhfVEZJVWVFNlp4VzdDX3dFbTJ3MTZWYjVYcTAwR3Z5QlQtUkpsQ2s2VHJWQng5YWxBRlU0ZVVSdFp2cXlXcnU0RTlyZ01qd29pbFUxWHpsWncxU0o5dUhQQkRmRlFpSDlmZmV6U3JIb25OeHEtWGhHWTZRUW04dTkzTzhMNnlVRUVZaFhDS1dPSE9RSjJnQmVFWnk3X1REOTNzdjN0b2pRM1J3bmxwMnY5d3JqSF9zdzQtTW1RSDVsQTB4ejNiR0trcnNyR0FOeHpJaXVvRlgwVjlScWUxLTJwM3FyLTc3UUVfNjh3WWphY1YzTWpWeU5QSWdsS0FEa0lzbmpvbFRROFR1?oc=5",
-      "source": "Google News",
-      "date": "Mon, 27 Apr 2026 00:11:53 GMT",
-      "par_relevance": 3,
-      "note": "3 tracked competitors co-mentioned",
-      "detected_at": "2026-04-27T21:10:38.376121+00:00"
-    },
     {
       "category": "stock_move",
       "severity": "medium",
@@ -38,10 +12,10 @@
       "headline": "Shift4 (FOUR) stock down 7.4% over the past week",
       "url": "https://finance.yahoo.com/quote/FOUR",
       "source": "Yahoo Finance",
-      "date": "2026-04-27T21:10:38.376121+00:00",
+      "date": "2026-04-27T22:27:44.231611+00:00",
       "par_relevance": 3,
       "note": "-7.4% 1W",
-      "detected_at": "2026-04-27T21:10:38.376121+00:00"
+      "detected_at": "2026-04-27T22:27:44.231611+00:00"
     }
   ]
 }
