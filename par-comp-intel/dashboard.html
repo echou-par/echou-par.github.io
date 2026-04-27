@@ -906,22 +906,22 @@ function renderCompetitorSkeleton(c) {
     </div>` : `
     <div class="stats-row">
       <div class="stat-box">
-        <div class="stat-label">Latest valuation</div>
+        <div class="stat-label" id="stat-val-label-${c.id}">Latest valuation</div>
         <div class="stat-value" id="stat-val-${c.id}"><span class="spinner" style="width:14px;height:14px;display:inline-block;"></span></div>
         <div class="stat-change" id="stat-val-date-${c.id}">—</div>
       </div>
       <div class="stat-box">
-        <div class="stat-label">Latest TTM revenue</div>
-        <div class="stat-value" id="stat-rev-${c.id}">—</div>
+        <div class="stat-label" id="stat-rev-label-${c.id}">Latest TTM revenue</div>
+        <div class="stat-value" id="stat-rev-${c.id}" style="font-size:18px;line-height:1.3;">—</div>
         <div class="stat-change" id="stat-rev-date-${c.id}">—</div>
       </div>
       <div class="stat-box">
-        <div class="stat-label">Est. employees</div>
+        <div class="stat-label" id="stat-emp-label-${c.id}">Est. employees</div>
         <div class="stat-value" id="stat-emp-${c.id}">—</div>
         <div class="stat-change" id="stat-emp-date-${c.id}">—</div>
       </div>
       <div class="stat-box">
-        <div class="stat-label">Funding status</div>
+        <div class="stat-label" id="stat-funding-label-${c.id}">Funding status</div>
         <div class="stat-value" id="stat-funding-${c.id}" style="font-size:14px;line-height:1.3;">—</div>
         <div class="stat-change" id="stat-funding-date-${c.id}">—</div>
       </div>
@@ -1054,22 +1054,134 @@ function mdParagraphs(textOrArray, classAttr = '') {
 // Builds a teardown-style additional snapshot row of stat cards.
 // Returns HTML for ADDITIONAL stat-boxes that sit alongside the existing
 // fetcher-driven hero stats. Order is preserved from the JSON.
+// Splits a snapshot value into a primary value + a subtext caveat. Looks for
+// patterns the SpotOn JSON uses naturally:
+//   "$66M growth round, March 2024 (Dragoneer Investment Group lead)"
+//     → primary: "$66M growth round, March 2024"
+//     → subtext: "Dragoneer Investment Group lead"
+//   "Estimated $400–500M (analyst triangulation; not publicly disclosed)"
+//     → primary: "Estimated $400–500M"
+//     → subtext: "analyst triangulation; not publicly disclosed"
+//   "Reported 30,000+ SMB restaurants ... (company claim, 2025)"
+//     → primary: "Reported 30,000+ SMB restaurants ..."
+//     → subtext: "company claim, 2025"
+// The split only happens when the value has EXACTLY ONE parenthetical group
+// at the end. Values like "Sandeep Bhanote (CFO, ex-DocuSign), Bryan Solar
+// (CPO/CTO, ex-Square)" have multiple parens and stay as primary-only — the
+// parens there are part of compound names, not a trailing caveat.
+function valueSubtextSplit(value) {
+  if (value == null) return { primary: '', subtext: '' };
+  const raw = String(value).trim();
+  // Match a trailing parenthetical at the very end
+  const match = raw.match(/^(.+?)[\s,]*\(([^()]+)\)\s*$/);
+  if (match && match[1].length >= 8) {
+    const before = match[1];
+    // Reject if there are any earlier parens in the primary part — that means
+    // this is a multi-parenthetical compound (e.g. "Person A (role), Person B
+    // (role)") where the trailing paren is part of the second name, not a
+    // caveat.
+    if (/[\(\)]/.test(before)) {
+      return { primary: mdInline(raw), subtext: '' };
+    }
+    return {
+      primary: mdInline(before.trim().replace(/[,;:]\s*$/, '')),
+      subtext: mdInline(match[2].trim()),
+    };
+  }
+  return { primary: mdInline(raw), subtext: '' };
+}
+
+// Group definitions for the curated company-snapshot rendering. Labels are
+// matched case-insensitively against these keyword sets. Unknown labels fall
+// through to "Other".
+const SNAPSHOT_GROUPS = [
+  {
+    title: 'Funding & investors',
+    keywords: ['raised', 'round', 'valuation', 'investor', 'funding'],
+  },
+  {
+    title: 'Company & people',
+    keywords: ['founded', 'hq', 'headquarter', 'status', 'ceo', 'board', 'hire', 'employee', 'leadership'],
+  },
+];
+
+function _matchSnapshotGroup(label) {
+  const l = label.toLowerCase();
+  for (let i = 0; i < SNAPSHOT_GROUPS.length; i++) {
+    if (SNAPSHOT_GROUPS[i].keywords.some(k => l.includes(k))) return i;
+  }
+  return -1;
+}
+
+// Labels surfaced in the top-row hero stats (so they don't double-render in
+// the curated grouped cards below).
+const SNAPSHOT_HERO_LABELS = new Set([
+  'annualized revenue',  // → top-row TTM revenue slot
+  'customer base',       // → top-row Funding-status slot
+  'latest valuation',
+  'valuation',           // when it's the same as Latest valuation
+]);
+
 function renderTeardownSnapshot(snapshot) {
   if (!snapshot || typeof snapshot !== 'object') return '';
   const entries = Object.entries(snapshot);
   if (!entries.length) return '';
+
+  // Bucket each entry into one of the groups, into "Other", or skip if it's
+  // already shown in the top-row hero stats.
+  const buckets = SNAPSHOT_GROUPS.map(g => ({ title: g.title, rows: [] }));
+  const other = [];
+  for (const [label, value] of entries) {
+    if (SNAPSHOT_HERO_LABELS.has(label.toLowerCase())) continue;  // hero-row dup, skip
+    const idx = _matchSnapshotGroup(label);
+    const target = idx >= 0 ? buckets[idx].rows : other;
+    target.push({ label, value });
+  }
+
+  // Render a single grouped card with rows of: <label> + <bold value> + <dim subtext>
+  const renderCard = (title, rows) => {
+    if (!rows.length) return '';
+    return `
+      <div class="card" style="margin:0;padding:14px 16px;">
+        <div style="font-size:11px;font-weight:700;color:var(--text3);text-transform:uppercase;letter-spacing:0.6px;margin-bottom:10px;">
+          ${mdInline(title)}
+        </div>
+        ${rows.map(({ label, value }) => {
+          const { primary, subtext } = valueSubtextSplit(value);
+          return `
+            <div style="display:grid;grid-template-columns:120px 1fr;gap:10px;padding:8px 0;border-top:0.5px solid var(--border);" class="snapshot-row">
+              <div style="font-size:11px;color:var(--text3);font-weight:500;text-transform:uppercase;letter-spacing:0.4px;padding-top:2px;">${mdInline(label)}</div>
+              <div>
+                <div style="font-size:13px;color:var(--text);font-weight:500;line-height:1.45;">${primary}</div>
+                ${subtext ? `<div style="font-size:11px;color:var(--text3);margin-top:2px;line-height:1.4;">${subtext}</div>` : ''}
+              </div>
+            </div>
+          `;
+        }).join('')}
+        <style>.snapshot-row:nth-child(2){border-top:none !important;}</style>
+      </div>
+    `;
+  };
+
+  // Build the cards. Drop empty buckets entirely.
+  const cards = buckets.map(b => renderCard(b.title, b.rows)).filter(s => s);
+
+  // Other-bucket appendix only appears if there's truly something we couldn't
+  // categorize. Common case: nothing.
+  const otherCard = other.length ? renderCard('Additional context', other) : '';
+
+  if (!cards.length && !otherCard) return '';
+
+  // Outer label + 2-column grid for the cards. On narrow viewports the grid
+  // collapses to a single column.
   return `
     <div style="margin-top:8px;margin-bottom:18px;">
       <div style="font-size:11px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:0.6px;margin-bottom:8px;">
         Company snapshot · curated
       </div>
-      <div class="stats-row" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));">
-        ${entries.map(([label, value]) => `
-          <div class="stat-box">
-            <div class="stat-label">${mdInline(label)}</div>
-            <div class="stat-value" style="font-size:14px;line-height:1.3;font-weight:500;">${mdInline(value)}</div>
-          </div>
-        `).join('')}
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:12px;">
+        ${cards.join('')}
+        ${otherCard}
       </div>
     </div>
   `;
@@ -1319,7 +1431,7 @@ async function loadCompetitorData(c) {
   if (c.type === 'public') {
     fillPublicStats(c, financials, stocks);
   } else {
-    fillPrivateStats(c, privateData);
+    fillPrivateStats(c, privateData, teardown);
   }
 
   // ─── Teardown: extra Company Snapshot cards (integration point #2) ──────
@@ -1453,30 +1565,68 @@ function fillPublicStats(c, financials, stocks) {
   }
 }
 
-function fillPrivateStats(c, privateData) {
+function fillPrivateStats(c, privateData, teardown) {
   const p = privateData?.companies?.[c.name];
   const els = {
+    valLabel: document.getElementById(`stat-val-label-${c.id}`),
     val: document.getElementById(`stat-val-${c.id}`),
     valDate: document.getElementById(`stat-val-date-${c.id}`),
+    revLabel: document.getElementById(`stat-rev-label-${c.id}`),
     rev: document.getElementById(`stat-rev-${c.id}`),
     revDate: document.getElementById(`stat-rev-date-${c.id}`),
+    empLabel: document.getElementById(`stat-emp-label-${c.id}`),
     emp: document.getElementById(`stat-emp-${c.id}`),
     empDate: document.getElementById(`stat-emp-date-${c.id}`),
+    fundingLabel: document.getElementById(`stat-funding-label-${c.id}`),
     funding: document.getElementById(`stat-funding-${c.id}`),
     fundingDate: document.getElementById(`stat-funding-date-${c.id}`),
   };
   if (!p) {
     Object.values(els).forEach(el => { if (el) el.textContent = '—'; });
-    return;
+  } else {
+    if (els.val) els.val.textContent = p.latest_valuation?.value || '—';
+    if (els.valDate) els.valDate.textContent = p.latest_valuation?.date ? `as of ${p.latest_valuation.date}` : '—';
+    if (els.rev) els.rev.textContent = p.latest_ttm_revenue?.value || '—';
+    if (els.revDate) els.revDate.textContent = p.latest_ttm_revenue?.date && p.latest_ttm_revenue.date !== '—' ? `as of ${p.latest_ttm_revenue.date}` : '—';
+    if (els.emp) els.emp.textContent = p.est_employees?.value || '—';
+    if (els.empDate) els.empDate.textContent = p.est_employees?.date ? `${p.est_employees.date} (${p.est_employees.source || 'est.'})` : '—';
+    if (els.funding) els.funding.textContent = p.funding_status?.value || '—';
+    if (els.fundingDate) els.fundingDate.textContent = p.funding_status?.date && p.funding_status.date !== '—' ? `as of ${p.funding_status.date}` : '—';
   }
-  if (els.val) els.val.textContent = p.latest_valuation?.value || '—';
-  if (els.valDate) els.valDate.textContent = p.latest_valuation?.date ? `as of ${p.latest_valuation.date}` : '—';
-  if (els.rev) els.rev.textContent = p.latest_ttm_revenue?.value || '—';
-  if (els.revDate) els.revDate.textContent = p.latest_ttm_revenue?.date && p.latest_ttm_revenue.date !== '—' ? `as of ${p.latest_ttm_revenue.date}` : '—';
-  if (els.emp) els.emp.textContent = p.est_employees?.value || '—';
-  if (els.empDate) els.empDate.textContent = p.est_employees?.date ? `${p.est_employees.date} (${p.est_employees.source || 'est.'})` : '—';
-  if (els.funding) els.funding.textContent = p.funding_status?.value || '—';
-  if (els.fundingDate) els.fundingDate.textContent = p.funding_status?.date && p.funding_status.date !== '—' ? `as of ${p.funding_status.date}` : '—';
+
+  // ─── Teardown overrides ──────────────────────────────────────────────────
+  // When a teardown provides Annualized Revenue, use it in slot 2 (TTM rev →
+  // Annualized rev). When it provides Customer Base, use it in slot 4 (Funding
+  // status → Customer base). Falls through to private_companies.json values
+  // if a teardown doesn't have those fields.
+  if (teardown && teardown.company_snapshot) {
+    const snap = teardown.company_snapshot;
+    // Find values regardless of label case-sensitivity
+    const findKey = (matcher) => {
+      for (const k of Object.keys(snap)) {
+        if (matcher.test(k)) return k;
+      }
+      return null;
+    };
+
+    // Slot 2: Annualized Revenue
+    const annualKey = findKey(/^annualized\s*revenue/i);
+    if (annualKey && els.revLabel && els.rev) {
+      const { primary, subtext } = valueSubtextSplit(snap[annualKey]);
+      els.revLabel.textContent = 'Annualized revenue';
+      els.rev.innerHTML = primary;  // mdInline already applied
+      if (els.revDate) els.revDate.innerHTML = subtext || '—';
+    }
+
+    // Slot 4: Customer Base
+    const customerKey = findKey(/^customer\s*base/i);
+    if (customerKey && els.fundingLabel && els.funding) {
+      const { primary, subtext } = valueSubtextSplit(snap[customerKey]);
+      els.fundingLabel.textContent = 'Customer base';
+      els.funding.innerHTML = primary;
+      if (els.fundingDate) els.fundingDate.innerHTML = subtext || '—';
+    }
+  }
 }
 
 // ─── News tab ─────────────────────────────────────────────────────────────────
