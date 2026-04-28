@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-28T15:42:33.455940+00:00",
+  "updated": "2026-04-28T15:58:27.022437+00:00",
   "total": 3,
   "by_category": {
     "analyst_downgrade": 1,
@@ -16,19 +16,7 @@
       "date": "Thu, 23 Apr 2026 20:43:20 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-04-28T15:42:33.455940+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "high",
-      "company": "Shift4",
-      "headline": "Shift4 (FOUR) stock down 12.2% over the past week",
-      "url": "https://finance.yahoo.com/quote/FOUR",
-      "source": "Yahoo Finance",
-      "date": "2026-04-28T15:42:33.455940+00:00",
-      "par_relevance": 3,
-      "note": "-12.2% 1W",
-      "detected_at": "2026-04-28T15:42:33.455940+00:00"
+      "detected_at": "2026-04-28T15:58:27.022437+00:00"
     },
     {
       "category": "stock_move",
@@ -37,10 +25,22 @@
       "headline": "Lightspeed (LSPD) stock down 8.4% over the past week",
       "url": "https://finance.yahoo.com/quote/LSPD",
       "source": "Yahoo Finance",
-      "date": "2026-04-28T15:42:33.455940+00:00",
+      "date": "2026-04-28T15:58:27.022437+00:00",
       "par_relevance": 3,
       "note": "-8.4% 1W",
-      "detected_at": "2026-04-28T15:42:33.455940+00:00"
+      "detected_at": "2026-04-28T15:58:27.022437+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "medium",
+      "company": "Shift4",
+      "headline": "Shift4 (FOUR) stock down 11.8% over the past week",
+      "url": "https://finance.yahoo.com/quote/FOUR",
+      "source": "Yahoo Finance",
+      "date": "2026-04-28T15:58:27.022437+00:00",
+      "par_relevance": 3,
+      "note": "-11.8% 1W",
+      "detected_at": "2026-04-28T15:58:27.022437+00:00"
     }
   ]
 }
