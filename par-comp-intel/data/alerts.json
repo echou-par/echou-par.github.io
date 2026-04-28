@@ -1,10 +1,23 @@
 {
-  "updated": "2026-04-28T11:23:20.536583+00:00",
-  "total": 1,
+  "updated": "2026-04-28T13:16:32.529200+00:00",
+  "total": 2,
   "by_category": {
+    "analyst_downgrade": 1,
     "stock_move": 1
   },
   "alerts": [
+    {
+      "category": "analyst_downgrade",
+      "severity": "high",
+      "company": "Lightspeed",
+      "headline": "Stifel Maintains Lightspeed POS(LSPD.US) With Hold Rating, Cuts Target Price to $12 - \u5bcc\u9014\u725b\u725b",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOUQzRkRaYUI2NWhxOGxHSmIxby1uQU5tMS1SODFHVWlob3hpNG9QOGhuVGo3TTV4a2l5cXI2c0JQOEpmVlVlbmN0ZFd5T09CUWltNlVRaDFBVkgwOTRpX1FudGJDOWJrcVJJRmRQemF4b1hybXpIYl9Eeno0NlFBcGJoUUpXSzZVa3Y3Y1ZXZ1YyWXVzLTQ4Q0NrdWcxNktUc2RwY0RLSGliNXp6?oc=5",
+      "source": "Google News",
+      "date": "Thu, 23 Apr 2026 20:43:20 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-04-28T13:16:32.529200+00:00"
+    },
     {
       "category": "stock_move",
       "severity": "medium",
@@ -12,10 +25,10 @@
       "headline": "Shift4 (FOUR) stock down 7.4% over the past week",
       "url": "https://finance.yahoo.com/quote/FOUR",
       "source": "Yahoo Finance",
-      "date": "2026-04-28T11:23:20.536583+00:00",
+      "date": "2026-04-28T13:16:32.529200+00:00",
       "par_relevance": 3,
       "note": "-7.4% 1W",
-      "detected_at": "2026-04-28T11:23:20.536583+00:00"
+      "detected_at": "2026-04-28T13:16:32.529200+00:00"
     }
   ]
 }
