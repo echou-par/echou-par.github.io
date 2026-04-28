@@ -2,7 +2,7 @@
   "date": "2026-04-28",
   "weekday": "Tuesday",
   "first_seen": "2026-04-28T06:36:00.220717+00:00",
-  "last_updated": "2026-04-28T13:16:32.529200+00:00",
+  "last_updated": "2026-04-28T15:42:33.455940+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Square, Uber Eats appeared together in coverage \u2014 \"Square and Uber Eats Expand Global Partnership to Streamline Restaurant Operations and Payments - Restaurant Technology News\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-04-28T06:36:00.220717+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 11 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -49,8 +49,13 @@
       "first_detected": "2026-04-28T06:36:00.220717+00:00"
     },
     {
-      "text": "SpotOn shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Popmenu Integrates With SpotOn to Streamline Restaurant Operations and Drive Revenue Growth\"",
+      "text": "SpotOn shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"SpotOn Highlights Q1 2026 Momentum with New Customers, Product Enhancements, and Strategic Partnerships\"",
       "sources": [
+        {
+          "title": "SpotOn Highlights Q1 2026 Momentum with New Customers, Product Enhancements, and Strategic Partnerships",
+          "url": "https://www.spoton.com/blog/q1-2026-highlights/",
+          "source": "SpotOn blog"
+        },
         {
           "title": "Popmenu Integrates With SpotOn to Streamline Restaurant Operations and Drive Revenue Growth",
           "url": "https://restauranttechnologynews.com/2026/04/popmenu-integrates-with-spoton-to-streamline-restaurant-operations-and-drive-revenue-growth/",
@@ -59,11 +64,6 @@
         {
           "title": "Loman AI and SpotOn partner to automate restaurant phone calls - Verdict Food Service",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBWeWFibG9WbUxnQUM0NTBJVHRHNnAxNU1wOThwZlotWElMZm4tRjlGbUIwR0dMSjRzajVDdl85d0ZMay03aTQydk1Va3RGSWtQRDhSbk5pLXFmMHpXcUY4UFZqby02dU1ZMkVObFNhQ0t5UQ?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Loman AI and SpotOn Announce Partnership Bringing Voice AI to SpotOn POS Restaurants - Business Wire",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdFpNc09XS2kwdE1NTGNkWG9sTk01THlXcG85clJBOXYxazdEX0JWVFJlaW1tZkVIV2otbFlYNEFUM1FoWlk2TjhoZHVMM0wwWlpxNUpxOTVmdDAwdUVUbVMxUWx2WWxROUdoRmxqRXlvWl9EREstRzFpRUxqc2dGZTRjSUh1clh3dS16UXdsel9lUFlaaTh1QmtQU1VyMUQtU3N3cnRreHFsZk1yVFNLRGdSMFF1ZldWMXh6V1E0THRfaHZiQ05xYlZKTkZoQXlVNnVZczJidVE?oc=5",
           "source": "Google News"
         }
       ],
@@ -164,40 +164,95 @@
       ],
       "company": "PAR",
       "first_detected": "2026-04-28T13:16:32.529200+00:00"
+    },
+    {
+      "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"$188K in Delivery Fees Forced This Restaurant Owner to Ditch DoorDash and Uber Eats: 'That's Losses on Us' - entrepreneur.com\"",
+      "sources": [
+        {
+          "title": "$188K in Delivery Fees Forced This Restaurant Owner to Ditch DoorDash and Uber Eats: 'That's Losses on Us' - entrepreneur.com",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSDBkYzhickw5eWptbDlkTXc1TDlHRFBjTkdBV25fSERUOVF2OXY5V0hHMXhQdEwxQXh1UDlaTjVNX2hIQW94bW5FNGVOSVdtYjlrSnl1RjlNNmZFQkNVelpOY0ZvczFBQmFKejlsRXdJY0RDNmh6eEVIdi1wQXJUd0ZNOEJfNzQ4WWtlVy1NVW4zUmo5Y28xdzBqQUpBLUNQVXcyUU16cTRRSGtQTUJLVkQ2V3VRd0hnWXBTQU1rYjBoSDlMZExobkMwa1pleGdvSVdLaFB3SXpQa0Fv?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "first_detected": "2026-04-28T15:42:33.455940+00:00"
+    },
+    {
+      "text": "Deliverect shows concentrated product launch activity \u2014 3 tracked product launch items this cycle. Latest: \"Become a referral or reseller partner - Deliverect\"",
+      "sources": [
+        {
+          "title": "Become a referral or reseller partner - Deliverect",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBoTklCZTlZcGFiajVGRnNwOXR1Z1h2N3hNcXRWU1BBaGtnXzc2TE1wczZZZEQwSFZFX0VfOC1vNFp2SXFSdVZ3eFRpdnFldw?oc=5",
+          "source": "Google News (deliverect.com)"
+        },
+        {
+          "title": "DoorDash: Integration Overview - Deliverect",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxON242ZnoxdFNnMll6OERMakRkSFhMUEdBS01Hc0NxVDBXVWJJVHBYZnQ1MmR4WUV1X1N3Z0R4Y1MxMGR3UFRldVZuMFF2VUFwcXgzelFDd1E0cE00eWx0d2JXYU9vX0lJREJ5SlIySkxEOF9IbVlldklSYTBPMk52NVRVNA?oc=5",
+          "source": "Google News (deliverect.com)"
+        },
+        {
+          "title": "How Integrated Online Ordering Software Can Improve Your Last-Mile Logistics",
+          "url": "https://www.deliverect.com/en/blog/fulfilment/how-integrated-online-ordering-software-can-improve-your-last-mile-logistics",
+          "source": "Deliverect blog"
+        }
+      ],
+      "company": "Deliverect",
+      "first_detected": "2026-04-28T15:42:33.455940+00:00"
+    },
+    {
+      "text": "DoorDash shows concentrated campaign activity \u2014 3 tracked campaign items this cycle. Latest: \"DoorDash Unveils Second Annual List of America\u2019s Favorite Delivery Spots Across Cuisines - DoorDash\"",
+      "sources": [
+        {
+          "title": "DoorDash Unveils Second Annual List of America\u2019s Favorite Delivery Spots Across Cuisines - DoorDash",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMGlmMkpfMWhCbnBPLXZ1LTRuZmxoT0pVMlNvRnoxQzh5dWQ2OVNpcjZSRVFSOWZ0dUg1WmNBUXQtQkd2WkxPbzI0dGdaZkJrWU5GR2x5QS1HTU9TYmM1Vndab2QxSzNGYW9ONy1KcFFHNzJELUQ5M2dSYjFBUmdyM28tNG80LVh0YmNsWHYwcko?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "The 12 Best Store-Bought Soups, Out of 25 - DoorDash Blog",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE92VnBRb18ydTdLc1Y1NlhLNVFoOVAySm50WUFhalp0NlNzMlRtSkZHbGxzY3daejNycUJ4VlRuQmR0TjgxTG8tekljMmdqcEVMZVU2QUplLVpqQ2NvZmNnYm5ENmtoa2h3cFNNeA?oc=5",
+          "source": "Google News (blog.doordash.com)"
+        },
+        {
+          "title": "The 8 Best Plastic Food Storage Containers for Every Use - DoorDash Blog",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82NENKSFJSNzB2WFFVc1AtbUg4aF9TN2NhVmZuY19SQXUxRnhyV1gxeGFmQTlpbzAwU0JtVkpTRTlUVmVpT0ZzbzV4UFRvUWtKVXdBXzU1VFQyNzkxazZWeTVMWGVHNGlZdnZBWWJmMXNlcHI4RmRSckpXQ0hrZw?oc=5",
+          "source": "Google News (blog.doordash.com)"
+        }
+      ],
+      "company": "DoorDash",
+      "first_detected": "2026-04-28T15:42:33.455940+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
-      "count": 19
+      "company": "Deliverect",
+      "count": 49
     },
     {
       "company": "SpotOn",
-      "count": 16
-    },
-    {
-      "company": "Paytronix",
-      "count": 16
-    },
-    {
-      "company": "Sparkfly",
-      "count": 16
-    },
-    {
-      "company": "TouchBistro",
-      "count": 16
-    },
-    {
-      "company": "PAR",
-      "count": 15
+      "count": 39
     },
     {
       "company": "Lightspeed",
-      "count": 15
+      "count": 35
     },
     {
-      "company": "Tillster",
-      "count": 15
+      "company": "DoorDash",
+      "count": 28
+    },
+    {
+      "company": "Paytronix",
+      "count": 26
+    },
+    {
+      "company": "Sparkfly",
+      "count": 26
+    },
+    {
+      "company": "TouchBistro",
+      "count": 26
+    },
+    {
+      "company": "Fiserv",
+      "count": 25
     }
   ]
 }
