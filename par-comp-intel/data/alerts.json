@@ -1,33 +1,21 @@
 {
-  "updated": "2026-04-29T13:09:30.658874+00:00",
-  "total": 2,
+  "updated": "2026-04-29T15:30:52.734399+00:00",
+  "total": 1,
   "by_category": {
-    "stock_move": 2
+    "analyst_downgrade": 1
   },
   "alerts": [
     {
-      "category": "stock_move",
-      "severity": "medium",
+      "category": "analyst_downgrade",
+      "severity": "high",
       "company": "Lightspeed",
-      "headline": "Lightspeed (LSPD) stock down 9.0% over the past week",
-      "url": "https://finance.yahoo.com/quote/LSPD",
-      "source": "Yahoo Finance",
-      "date": "2026-04-29T13:09:30.658874+00:00",
+      "headline": "Stifel Maintains Lightspeed POS(LSPD.US) With Hold Rating, Cuts Target Price to $12 - \u5bcc\u9014\u725b\u725b",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOUQzRkRaYUI2NWhxOGxHSmIxby1uQU5tMS1SODFHVWlob3hpNG9QOGhuVGo3TTV4a2l5cXI2c0JQOEpmVlVlbmN0ZFd5T09CUWltNlVRaDFBVkgwOTRpX1FudGJDOWJrcVJJRmRQemF4b1hybXpIYl9Eeno0NlFBcGJoUUpXSzZVa3Y3Y1ZXZ1YyWXVzLTQ4Q0NrdWcxNktUc2RwY0RLSGliNXp6?oc=5",
+      "source": "Google News",
+      "date": "Thu, 23 Apr 2026 20:43:20 GMT",
       "par_relevance": 3,
-      "note": "-9.0% 1W",
-      "detected_at": "2026-04-29T13:09:30.658874+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "medium",
-      "company": "Shift4",
-      "headline": "Shift4 (FOUR) stock down 9.7% over the past week",
-      "url": "https://finance.yahoo.com/quote/FOUR",
-      "source": "Yahoo Finance",
-      "date": "2026-04-29T13:09:30.658874+00:00",
-      "par_relevance": 3,
-      "note": "-9.7% 1W",
-      "detected_at": "2026-04-29T13:09:30.658874+00:00"
+      "note": null,
+      "detected_at": "2026-04-29T15:30:52.734399+00:00"
     }
   ]
 }

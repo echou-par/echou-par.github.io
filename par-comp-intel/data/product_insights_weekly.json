@@ -1,7 +1,7 @@
 {
   "week_start": "2026-04-27T13:30:00+00:00",
-  "updated": "2026-04-28T16:23:12.984082+00:00",
-  "items_count": 22,
+  "updated": "2026-04-29T15:30:52.734399+00:00",
+  "items_count": 24,
   "by_competitor": {
     "Toast": {
       "count": 2,
@@ -30,9 +30,9 @@
       ]
     },
     "Shift4": {
-      "count": 2,
+      "count": 3,
       "content_types": {
-        "site_news": 2
+        "site_news": 3
       },
       "items": [
         {
@@ -48,6 +48,15 @@
           "headline": "Inter Miami CF and Shift4 Announce Partnership to Enhance Fan Experience at Nu Stadium - Shift4",
           "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOTjZxY3Nzd2g5dGhWX0kzMHlhMUpUSHg3RUVkVE9PcHBXSHYtamwyM3llcGo3NURHNWc5OE42TjJaN1VHeHg2Y1FyYkphVWpZSVdMS1NRREFRNVE5OC1BVWFkUUd6NkFYbDNqN1hZSDFkMWU4b1NnRmE3MkdxUWlXWkpOeW5abTQ2NG1FQnJHNFY5T3BvY296dEtkZjBhbmJnNjFMTTFfVjdXZFRGc285ZFhZak1uMWpRN3djNGRDNmp0cWluZWhvZXFKazFQc3E5TjB0Smc1SVZGakI5TWF0LXFIY0l1V3pG?oc=5",
           "date": "Mon, 27 Apr 2026 13:01:54 GMT",
+          "emoji": "\ud83e\udd1d",
+          "content_type": "site_news",
+          "source": "Google News (shift4.com)",
+          "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        },
+        {
+          "headline": "Shift4 & Payter Partner to Revolutionize Payments in Unattended POS & Drive Electric Vehicle Charging Network - Shift4",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQk4yTVNLX2FETGVfbUNnbmdPVUtkY2Z6RGdqbXB2NVBmNWpBWDE2Z1dNLXJLUEVyLWhQZXFFVG1ZYUlNMXZva2RiQy0wLWZ4RmpLelNMOS1oWmZWYlNXRHRnYmRTblVZRlRSbXpKRExyQnFqUUdJS2RjTzdjVGxUMm43M2hPVFh4OTlyVzNWT3k4U25VeHl0Q0dfRkNyVERRMS1MZ3hzVDdzMGpzN1F3a3RJMmlndWxWT3c3UFp2RV9KREtUMTQtbXdFLVhrbm82akpDeEU4NEs?oc=5",
+          "date": "Mon, 25 Nov 2024 20:44:48 GMT",
           "emoji": "\ud83e\udd1d",
           "content_type": "site_news",
           "source": "Google News (shift4.com)",
@@ -322,30 +331,49 @@
           "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
         }
       ]
+    },
+    "Global Payments": {
+      "count": 1,
+      "content_types": {
+        "site_news": 1
+      },
+      "items": [
+        {
+          "headline": "Start integrating a payments solution - developer.globalpayments.com",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1mUWs5eGU0c2ZQYW9QTG5VRG1XMkljUVdCTTRYQThuZ2FhWk9FOHc1Z0tYMmpabldzc2ZPc2VaWVJ3MWR0dk1ZZHloUDdGdw?oc=5",
+          "date": "Wed, 08 Oct 2025 22:26:20 GMT",
+          "emoji": "\ud83e\udd1d",
+          "content_type": "site_news",
+          "source": "Google News (globalpayments.com)",
+          "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        }
+      ]
     }
   },
   "seen_urls": [
-    "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YcWRsQUJrb3FucUlRbzRvUnkycDNRZ2ZqWVVyWTVkSFVWZVZyTEZpZFBjRDQtSVZZZzg2LTM0anFKODZJdUxabTBNQWVGUnNINEJRakhudkhkRHBCUWpXdXFVTzNkbmc?oc=5",
-    "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WSUNaQ3lGSmxNQ2NLa1ZTYzkwNkJ2dlRobGEzVzNmRFZHVV9udVQwanptWGg4UDBzY3k2NGpNSms3WXNPT3k5Z1E1RFZzR3JEemRtbWRR?oc=5",
-    "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tX2NDVnlDTmY0ZjB3cjF4LTNkSkJQVjlfREFnRnU5ZWdCc0lUWVp4Q3hmNGEyNVBCaFk4SlEzT1JrNl93RWVETlFKSG5iMXVaODhQRg?oc=5",
-    "https://news.google.com/rss/articles/CBMigwFBVV95cUxON242ZnoxdFNnMll6OERMakRkSFhMUEdBS01Hc0NxVDBXVWJJVHBYZnQ1MmR4WUV1X1N3Z0R4Y1MxMGR3UFRldVZuMFF2VUFwcXgzelFDd1E0cE00eWx0d2JXYU9vX0lJREJ5SlIySkxEOF9IbVlldklSYTBPMk52NVRVNA?oc=5",
-    "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUmFLZkxUd2xtbFpoZ29kdHl3RTFmMVhlaWMwTGxHaU9jSVF1WlNyN0JPdkpYell1SWFkaWtiQXFvVExvVldQVl9hZGRiNkVOV0hoYVRST1hjRS1YVTNNOXk1MEhtMU5ONXQxdjR0VjVUMGlkLXBCeDBkWHFGanhOMkQ1MFdONGZQYTZ2YTlESQ?oc=5",
-    "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBET0RsRmlkNHBQYUNnVWpFbUNMT2V4UGptN3I0OXpXSjk0V2FnVGIwMGJCV1RjYXFUdlpkaGd1M0Ytai12Qk9GNWo5MEMtR19fTTZR?oc=5",
-    "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9vN0Ywc2xleUVYb1pMVHk0VXl6SU5HN1RmSmd1YllMOG1Md2o2NFhMYmdxbzFMM2NnOWkzUHZEckhudWlleGZzZnpBa1pId2FZNzBkX0pB?oc=5",
+    "https://news.google.com/rss/articles/CBMiREFVX3lxTE1VQXlFN3lfMlgwWVNkX01iRzhUeE9VUnNkX21BZ29DRmwwTFV5Q3d2RmJ6RlBWemdvd1pMMWVJWi1JY0FF?oc=5",
+    "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdVFubXZkbXNMSGx6eFpWY011cTFlUW9oWU8xUXpiSUZtamtZZGVZaGFRQ2Izdkp0ck5aZ3NidEZnN2F4ck5jTlNGeGliUlBMbVhlLVp2NEFvMGpsbkFTM2dya2NyNHA5aWpBMnNqRTl2SDB0X1dQTzVKVks0OEhXWERMSDg1M3V3bU1CNEZB?oc=5",
     "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Vak82eFhkWFRfLVpjRnBSajRYdGNBdHlDbHBxWG9LX3lRQ3R6X1dJUTYyWTEzd1VkVkEwQXF2VUVHOHNYQ0hKajdnRWFremNpQ01RMnZqbUg?oc=5",
+    "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOTjZxY3Nzd2g5dGhWX0kzMHlhMUpUSHg3RUVkVE9PcHBXSHYtamwyM3llcGo3NURHNWc5OE42TjJaN1VHeHg2Y1FyYkphVWpZSVdMS1NRREFRNVE5OC1BVWFkUUd6NkFYbDNqN1hZSDFkMWU4b1NnRmE3MkdxUWlXWkpOeW5abTQ2NG1FQnJHNFY5T3BvY296dEtkZjBhbmJnNjFMTTFfVjdXZFRGc285ZFhZak1uMWpRN3djNGRDNmp0cWluZWhvZXFKazFQc3E5TjB0Smc1SVZGakI5TWF0LXFIY0l1V3pG?oc=5",
+    "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBKeDl0UXItbktQOUlDWF8xc1dDQk1VdHRLNHFzQTdkMEtSU0RIRERwbC1BLVQwT3ItQmQyVWRDM2xJVkZITGxmRzd1anFOWWZGY3NuTGsxWmZnVG83em1TWXhiNzRkX00?oc=5",
+    "https://news.google.com/rss/articles/CBMiTkFVX3lxTE41YnZxTUZHbGo0dVMxckEyX0ZxR0RVbE15TXdfWHhNbXlzSHlSdExzanYyVm5qdVlLXy1DZWJUVl94cWVrOGlUUFUxMTRndw?oc=5",
+    "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01WkRYTDBTYncwVVl5NGlFczBLMjNHZjZuYjBvMUphb3ZMUkhLWlAwMzdCTXlHekdsLTVRcTJRdUIzRmNNUFdIcm1qVDVEd05HVTlaM2N5WWlfVUU?oc=5",
+    "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zSmhaOFg2N2xhNVJDSGxIZTFBU2hKNXRHTjR2bUhBYXl3dkFKMDF3ZHJwaVdIX1B6NmI0aFJhV25VOHdxNzh4dW1XMEVMUHNYcGtkQnRmcjZvUQ?oc=5",
+    "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1mUWs5eGU0c2ZQYW9QTG5VRG1XMkljUVdCTTRYQThuZ2FhWk9FOHc1Z0tYMmpabldzc2ZPc2VaWVJ3MWR0dk1ZZHloUDdGdw?oc=5",
+    "https://www.spoton.com/blog/q1-2026-highlights/",
+    "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQk4yTVNLX2FETGVfbUNnbmdPVUtkY2Z6RGdqbXB2NVBmNWpBWDE2Z1dNLXJLUEVyLWhQZXFFVG1ZYUlNMXZva2RiQy0wLWZ4RmpLelNMOS1oWmZWYlNXRHRnYmRTblVZRlRSbXpKRExyQnFqUUdJS2RjTzdjVGxUMm43M2hPVFh4OTlyVzNWT3k4U25VeHl0Q0dfRkNyVERRMS1MZ3hzVDdzMGpzN1F3a3RJMmlndWxWT3c3UFp2RV9KREtUMTQtbXdFLVhrbm82akpDeEU4NEs?oc=5",
+    "https://news.google.com/rss/articles/CBMigwFBVV95cUxON242ZnoxdFNnMll6OERMakRkSFhMUEdBS01Hc0NxVDBXVWJJVHBYZnQ1MmR4WUV1X1N3Z0R4Y1MxMGR3UFRldVZuMFF2VUFwcXgzelFDd1E0cE00eWx0d2JXYU9vX0lJREJ5SlIySkxEOF9IbVlldklSYTBPMk52NVRVNA?oc=5",
+    "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WSUNaQ3lGSmxNQ2NLa1ZTYzkwNkJ2dlRobGEzVzNmRFZHVV9udVQwanptWGg4UDBzY3k2NGpNSms3WXNPT3k5Z1E1RFZzR3JEemRtbWRR?oc=5",
     "https://news.google.com/rss/articles/CBMiO0FVX3lxTE4zSmswR0FJOW40RzNPZ042d05kRGs4MG4xNU5WemozSERIYmE1R1IyQVk3bnJ3R0FwVUUw?oc=5",
     "https://www.deliverect.com/en/blog/fulfilment/how-integrated-online-ordering-software-can-improve-your-last-mile-logistics",
-    "https://news.google.com/rss/articles/CBMiREFVX3lxTE1VQXlFN3lfMlgwWVNkX01iRzhUeE9VUnNkX21BZ29DRmwwTFV5Q3d2RmJ6RlBWemdvd1pMMWVJWi1JY0FF?oc=5",
-    "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOTjZxY3Nzd2g5dGhWX0kzMHlhMUpUSHg3RUVkVE9PcHBXSHYtamwyM3llcGo3NURHNWc5OE42TjJaN1VHeHg2Y1FyYkphVWpZSVdMS1NRREFRNVE5OC1BVWFkUUd6NkFYbDNqN1hZSDFkMWU4b1NnRmE3MkdxUWlXWkpOeW5abTQ2NG1FQnJHNFY5T3BvY296dEtkZjBhbmJnNjFMTTFfVjdXZFRGc285ZFhZak1uMWpRN3djNGRDNmp0cWluZWhvZXFKazFQc3E5TjB0Smc1SVZGakI5TWF0LXFIY0l1V3pG?oc=5",
+    "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tX2NDVnlDTmY0ZjB3cjF4LTNkSkJQVjlfREFnRnU5ZWdCc0lUWVp4Q3hmNGEyNVBCaFk4SlEzT1JrNl93RWVETlFKSG5iMXVaODhQRg?oc=5",
     "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcWJhTFpwTWJFNTl2VFpva1Q1cEFFaVUwMV9QbDdvdE9xVlAxSHpGVkIydmNQMWV5eFdPOVA2bTc5V0Q4OU5fN3l2VDIzWERQeGFSNHlBSS04RVZ4Y1IzVmJPZTR0a2x6N1FBekFiNGoybzNQY0JGakNBZmpaQ3NTUjhVTlpIbUxJWFBMcENHYUJGY1I3RWZVZ0c4MUVMbkpiQ0kzSVRWVzRrcEhwSlNLSTlBVG1ZOWNYSm5IUVB2TWJBWXN3?oc=5",
-    "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBoTklCZTlZcGFiajVGRnNwOXR1Z1h2N3hNcXRWU1BBaGtnXzc2TE1wczZZZEQwSFZFX0VfOC1vNFp2SXFSdVZ3eFRpdnFldw?oc=5",
-    "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01WkRYTDBTYncwVVl5NGlFczBLMjNHZjZuYjBvMUphb3ZMUkhLWlAwMzdCTXlHekdsLTVRcTJRdUIzRmNNUFdIcm1qVDVEd05HVTlaM2N5WWlfVUU?oc=5",
+    "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YcWRsQUJrb3FucUlRbzRvUnkycDNRZ2ZqWVVyWTVkSFVWZVZyTEZpZFBjRDQtSVZZZzg2LTM0anFKODZJdUxabTBNQWVGUnNINEJRakhudkhkRHBCUWpXdXFVTzNkbmc?oc=5",
+    "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUmFLZkxUd2xtbFpoZ29kdHl3RTFmMVhlaWMwTGxHaU9jSVF1WlNyN0JPdkpYell1SWFkaWtiQXFvVExvVldQVl9hZGRiNkVOV0hoYVRST1hjRS1YVTNNOXk1MEhtMU5ONXQxdjR0VjVUMGlkLXBCeDBkWHFGanhOMkQ1MFdONGZQYTZ2YTlESQ?oc=5",
+    "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9vN0Ywc2xleUVYb1pMVHk0VXl6SU5HN1RmSmd1YllMOG1Md2o2NFhMYmdxbzFMM2NnOWkzUHZEckhudWlleGZzZnpBa1pId2FZNzBkX0pB?oc=5",
     "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBMNm9pR0hfMUF6ZTJ0c1k2RERFRS1MR3AteERDTHpaS1ZsWTJjMkRBRU9vOC1qeWl1M2NhZVNhYU5nY1U4RVYxZzhZQQ?oc=5",
-    "https://news.google.com/rss/articles/CBMiTkFVX3lxTE41YnZxTUZHbGo0dVMxckEyX0ZxR0RVbE15TXdfWHhNbXlzSHlSdExzanYyVm5qdVlLXy1DZWJUVl94cWVrOGlUUFUxMTRndw?oc=5",
-    "https://www.spoton.com/blog/q1-2026-highlights/",
-    "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdVFubXZkbXNMSGx6eFpWY011cTFlUW9oWU8xUXpiSUZtamtZZGVZaGFRQ2Izdkp0ck5aZ3NidEZnN2F4ck5jTlNGeGliUlBMbVhlLVp2NEFvMGpsbkFTM2dya2NyNHA5aWpBMnNqRTl2SDB0X1dQTzVKVks0OEhXWERMSDg1M3V3bU1CNEZB?oc=5",
-    "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zSmhaOFg2N2xhNVJDSGxIZTFBU2hKNXRHTjR2bUhBYXl3dkFKMDF3ZHJwaVdIX1B6NmI0aFJhV25VOHdxNzh4dW1XMEVMUHNYcGtkQnRmcjZvUQ?oc=5",
-    "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBKeDl0UXItbktQOUlDWF8xc1dDQk1VdHRLNHFzQTdkMEtSU0RIRERwbC1BLVQwT3ItQmQyVWRDM2xJVkZITGxmRzd1anFOWWZGY3NuTGsxWmZnVG83em1TWXhiNzRkX00?oc=5",
-    "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5JUGJETWl5QTlXVUwtaEtWcDdWQTFNU2l3VmNzUVNZeUQzNGI3TF9xNkFGajhyQlBnQUowdm5CUlI0ejlob2xlUXZ3aW5xam0zRTEwTnRzMFdqeTA4TWVJZnNCUQ?oc=5"
+    "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBoTklCZTlZcGFiajVGRnNwOXR1Z1h2N3hNcXRWU1BBaGtnXzc2TE1wczZZZEQwSFZFX0VfOC1vNFp2SXFSdVZ3eFRpdnFldw?oc=5",
+    "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5JUGJETWl5QTlXVUwtaEtWcDdWQTFNU2l3VmNzUVNZeUQzNGI3TF9xNkFGajhyQlBnQUowdm5CUlI0ejlob2xlUXZ3aW5xam0zRTEwTnRzMFdqeTA4TWVJZnNCUQ?oc=5",
+    "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBET0RsRmlkNHBQYUNnVWpFbUNMT2V4UGptN3I0OXpXSjk0V2FnVGIwMGJCV1RjYXFUdlpkaGd1M0Ytai12Qk9GNWo5MEMtR19fTTZR?oc=5"
   ]
 }
