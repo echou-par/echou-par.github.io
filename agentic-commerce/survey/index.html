@@ -296,7 +296,9 @@
 /* =========================================================================
    CONFIG
    ========================================================================= */
-const UPLOAD_URL = "https://github.com/echou-par/echou-par.github.io/upload/main/agentic-commerce/survey-results";
+// Email address participants are asked to send their CSV to.
+// Update this if a different person takes over collection.
+const ADMIN_EMAIL = "eugene_chou@partech.com";
 
 // Allowed emails (lowercased; comparison is case-insensitive).
 // To add or remove people, just edit this list.
@@ -514,6 +516,10 @@ function escapeHTML(s) {
 }
 
 function showSuccess(filename) {
+  const mailto = `mailto:${ADMIN_EMAIL}`
+    + `?subject=${encodeURIComponent("AI Ordering Survey Response")}`
+    + `&body=${encodeURIComponent("Attached is my response to the AI ordering channel survey.\n\nFile: " + filename)}`;
+
   document.getElementById("mainContent").innerHTML = `
     <div class="success-card">
       <div class="success-icon">✓</div>
@@ -522,16 +528,12 @@ function showSuccess(filename) {
       <div class="filename">${escapeHTML(filename)}</div>
 
       <div class="next-step">
-        <h3>Next: upload the CSV to GitHub</h3>
-        <ol>
-          <li>Click the button below — it opens the upload page for the <code>survey-results</code> folder.</li>
-          <li>Drag the CSV from your <b>Downloads</b> folder into the upload area.</li>
-          <li>Scroll to the bottom and click <b>Commit changes</b>.</li>
-        </ol>
-        <div style="text-align:center">
-          <a href="${UPLOAD_URL}" target="_blank" rel="noopener" class="big-button">Upload to GitHub →</a>
+        <h3>Next: send the CSV to the survey admin</h3>
+        <p>Find the file in your <b>Downloads</b> folder and send it as an attachment — via email or Slack — to <a href="mailto:${escapeHTML(ADMIN_EMAIL)}">${escapeHTML(ADMIN_EMAIL)}</a>.</p>
+        <div style="text-align:center; margin-top:18px">
+          <a href="${mailto}" class="big-button">Open email →</a>
         </div>
-        <p class="alt-note">Don't have write access to the repo? Send the CSV to your admin via Slack or email.</p>
+        <p class="alt-note">The button opens your default email app with the recipient and subject pre-filled. You'll still need to attach the CSV manually.</p>
       </div>
 
       <button onclick="location.reload()" class="link-button">Submit another response</button>
