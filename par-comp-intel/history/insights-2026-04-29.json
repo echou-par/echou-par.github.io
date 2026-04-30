@@ -2,7 +2,7 @@
   "date": "2026-04-29",
   "weekday": "Wednesday",
   "first_seen": "2026-04-29T06:32:49.911326+00:00",
-  "last_updated": "2026-04-29T22:33:34.306202+00:00",
+  "last_updated": "2026-04-30T00:01:36.167190+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"$188K in Delivery Fees Forced This Restaurant Owner to Ditch DoorDash and Uber Eats: 'That's Losses on Us' - entrepreneur.com\"",
@@ -245,7 +245,11 @@
   "most_mentioned": [
     {
       "company": "DoorDash",
-      "count": 16
+      "count": 19
+    },
+    {
+      "company": "TouchBistro",
+      "count": 17
     },
     {
       "company": "SpotOn",
@@ -256,23 +260,19 @@
       "count": 16
     },
     {
-      "company": "TouchBistro",
-      "count": 16
+      "company": "Deliverect",
+      "count": 15
     },
     {
       "company": "Olo",
       "count": 15
     },
     {
-      "company": "Deliverect",
+      "company": "PAR",
       "count": 15
     },
     {
       "company": "Paytronix",
-      "count": 15
-    },
-    {
-      "company": "PAR",
       "count": 15
     }
   ]
