@@ -2,7 +2,7 @@
   "date": "2026-05-01",
   "weekday": "Friday",
   "first_seen": "2026-05-01T04:00:53.068382+00:00",
-  "last_updated": "2026-05-01T14:34:43.167798+00:00",
+  "last_updated": "2026-05-01T15:32:59.667021+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"$188K in Delivery Fees Forced This Restaurant Owner to Ditch DoorDash and Uber Eats: 'That's Losses on Us' - entrepreneur.com\"",
@@ -191,6 +191,28 @@
       ],
       "company": "DoorDash",
       "first_detected": "2026-05-01T14:34:43.167798+00:00"
+    },
+    {
+      "text": "Deliverect shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Asda partners with Deliverect for rapid delivery operations - Yahoo Finance\"",
+      "sources": [
+        {
+          "title": "Asda partners with Deliverect for rapid delivery operations - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPb2xzRzhDUEhySEl6SkRkNEo4LVUxQm5qX3Zndk4wazlMWWU4VjBiaWQ0c1lzNjl0aG11anR6OXFHX1pmY1BkVTM0M2dGN05yc21keHF6U2lOeEFkMFdfVnQ2eTdKcWJxb3dsTThnSkJyaFQxUnozZ1gzYWxveGtqdU9naVR6V2ZmMmhYU1dXRWo0ZXJzbTZMWExRYXU0dUNFaUJUSVVOeVA0cjAx?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "ConverseNow and Deliverect Announce Partnership to Bring Voice AI Ordering into Unified Restaurant Order & Menu Management - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxONDktOUNQZV9udENNQmVWMWJRMlRIOGpnVHVodnFfdndtMTg3WldkV0xsWThnZFpONmJKRG5sVXFhRTI3RWVwNllZUVB6RFVnWWtocUNVNUlJd1B1NmxEOXFrVmhyYnlueURraEFvUlB3NzVYQTFydmUyZVA3REZBdTQ5UDRySVU2THRPb3BtMTU3aXZwYWx4aUh5aFdrcVBRbDBROTM4M0JCQUh6ZmhSSlVzYW1HODdaUXFWdlMzZDhpZXlidXZVN2twR3BqQnF5Zjd1eUhKV1J5SlR0NklVNDZLeUxnQS05UnhFX0F2N3BrMEdENXpEZDZrWmctR3ZBSk5sYkVVYlI?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "ConverseNow, Deliverect partner to integrate Voice AI into restaurant management - QSR Web",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcU1QYm14UXNZMTNmZDV5cGVUMFFlV2NfbmV6TnkyNzlZcmxfNkhMMnM2eFlEYURMSkdBcDQ2WmJWejJXaWFNOExyOFRVdlJvMlhjaGJpb0hZSklYNFdmckdDM1o4WEVDR21qZjlZempNWmhzWHFWZklqUlpkVjlXaVR4QzhkSjdBWGNJT0VkQUpEeFM2SGxLSFhwLWNjNEFBS0s4TUFkaWZENzgw?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Deliverect",
+      "first_detected": "2026-05-01T15:32:59.667021+00:00"
     }
   ],
   "most_mentioned": [
@@ -200,7 +222,7 @@
     },
     {
       "company": "SpotOn",
-      "count": 39
+      "count": 40
     },
     {
       "company": "Lightspeed",
@@ -208,11 +230,7 @@
     },
     {
       "company": "DoorDash",
-      "count": 27
-    },
-    {
-      "company": "Sparkfly",
-      "count": 27
+      "count": 30
     },
     {
       "company": "Olo",
@@ -220,6 +238,10 @@
     },
     {
       "company": "Paytronix",
+      "count": 26
+    },
+    {
+      "company": "Sparkfly",
       "count": 26
     },
     {
