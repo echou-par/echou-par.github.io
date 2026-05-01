@@ -2,7 +2,7 @@
   "date": "2026-05-01",
   "weekday": "Friday",
   "first_seen": "2026-05-01T04:00:53.068382+00:00",
-  "last_updated": "2026-05-01T12:02:57.909338+00:00",
+  "last_updated": "2026-05-01T14:01:33.644466+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"$188K in Delivery Fees Forced This Restaurant Owner to Ditch DoorDash and Uber Eats: 'That's Losses on Us' - entrepreneur.com\"",
@@ -105,8 +105,13 @@
       "first_detected": "2026-05-01T04:00:53.068382+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Total debt per share of Toast, Inc. Class A \u2013 LSX:A3C3Y4 - TradingView\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Vanguard Group Inc. Sells 71,807 Shares of Toast, Inc. $TOST - MarketBeat\"",
       "sources": [
+        {
+          "title": "Vanguard Group Inc. Sells 71,807 Shares of Toast, Inc. $TOST - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOc1U2Rm1kdE82YmE4QTdMejU4SkoycDVoeGZJWWpvZmJLWXNHRjVwZ1RtMUJKOFY5WkxFVENwaklIblVHaDRlTHJyMnZ3SkdBVHJnSGlCRUVWZGFjajJXX0dZQUtXM0IzZ2ZWclpyc3ZjVE5IQXZVeHZSX0Rvakg4bkg3dG4zYWdWcEJVV09BeVB1LWJBSlBCampvVXlZLXpQZm5TUG9nanVMRTE1SWJ0MUxELTQxM0U?oc=5",
+          "source": "Google News"
+        },
         {
           "title": "Total debt per share of Toast, Inc. Class A \u2013 LSX:A3C3Y4 - TradingView",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYmNtZ1ZFYzltSExERmlfTFh1UlpJZ0doNW9XZEx2dzdpUExiaHd5c0ZhdjZvV1MzTEcxVFVGeGdxTkFFN2VYNXh4VXdEWlItb1gwUXlUUnZtczBRbHF0VV9aOFFkcGNwOHVQRC1KU25XT2VtT24tcDVXckpaZkF6TjlrVHUzT2xGb2dpQzF2R1BnbzFHWC1sUV96S1NIR2s2WDFj?oc=5",
@@ -115,11 +120,6 @@
         {
           "title": "Jennison Associates LLC Acquires 157,394 Shares of Toast, Inc. $TOST - MarketBeat",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcXgwQzFKYXhraFRrQmF3N0s5TGF0azZCazBRTUlCUWxKR0pqeU9hRUp3dDNiNE1TNkJfS2FFQWI5QmtESVhnQk1meVhhdnJUdXU2UUloaHB0Rk95b0dFeDFja2ZEQ19JNEh0bjdrODAzUE1TNWlkWUdDdUI4Um1PTm1Tb0NpZUt3cEZBYVpPNzRvSWxsMkRUMEJRaGdFdkVqd3RTbUlNdkxZd0puVjB5Qy1zaGcxUEJvOHZYWGk2Vi02aVU?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "BlackRock (NYSE: TOST) reports 26.1M shares, 4.98% ownership in Toast - Stock Titan",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZGp6a2pKWnJydlN5b3dTemh3c1djNzUyZDR5UVRuMDlpRkt4enR3czVRaDY5SS1zNFloMFhONXFsVzBKUnl5bXlqOXRNQXg0dnRITXJMT0x2cmtNSXNWMmZKSl9JVTRESTVENUdMRUxVMXp0R3R3eDM4akFZeFVMcmJmMzN1Ti0zLXhycHpucGJiUlhOLW1HTHgwSGdDY19DWjR4VGUwOEFsd1hDcXhOZW5HUDNUVE83WDdqcS1HS29Pdw?oc=5",
           "source": "Google News"
         }
       ],
@@ -131,10 +131,6 @@
     {
       "company": "DoorDash",
       "count": 20
-    },
-    {
-      "company": "TouchBistro",
-      "count": 17
     },
     {
       "company": "Paytronix",
@@ -149,11 +145,15 @@
       "count": 16
     },
     {
-      "company": "Shift4",
-      "count": 15
+      "company": "TouchBistro",
+      "count": 16
     },
     {
       "company": "Toast",
+      "count": 15
+    },
+    {
+      "company": "Shift4",
       "count": 15
     },
     {
