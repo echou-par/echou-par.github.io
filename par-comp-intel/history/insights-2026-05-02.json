@@ -2,7 +2,7 @@
   "date": "2026-05-02",
   "weekday": "Saturday",
   "first_seen": "2026-05-02T06:14:49.293687+00:00",
-  "last_updated": "2026-05-02T17:56:18.275776+00:00",
+  "last_updated": "2026-05-02T19:12:34.706860+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"$188K in Delivery Fees Forced This Restaurant Owner to Ditch DoorDash and Uber Eats: 'That's Losses on Us' - entrepreneur.com\"",
@@ -71,7 +71,7 @@
       "first_detected": "2026-05-02T06:14:49.293687+00:00"
     },
     {
-      "text": "PAR shows concentrated risk activity \u2014 2 tracked risk items this cycle. Latest: \"3 Reasons PAR is Risky and 1 Stock to Buy Instead - StockStory\"",
+      "text": "PAR shows concentrated risk activity \u2014 3 tracked risk items this cycle. Latest: \"3 Reasons PAR is Risky and 1 Stock to Buy Instead - StockStory\"",
       "sources": [
         {
           "title": "3 Reasons PAR is Risky and 1 Stock to Buy Instead - StockStory",
@@ -81,6 +81,11 @@
         {
           "title": "Laughing Water Capital Sold PAR Technology Corp (PAR) Due to Valuation Concerns - Yahoo Finance",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVkZLUnJVT3h0NldLdl9KVVJ4bGVVS2FITWEzSDhrUG9tVXZ6aExtRFpNQXpkdW10UDN6R0V3STJ1OTB2VlZsY1pnOGxjNm1tMjlIdmwzVDY2VHM3WGdlUGZGSXl5OXVKOWNxeUpHQndkWGJrYnkxdFhnc0U3ZFVZNzZZWEtTZzM5ZU1ncjhjLUM4eUlaRzJVSWxGS2U?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Benchmark cuts PAR Technology stock price target on valuation concerns - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTy1yeklvZGV2T2JsQ1BsZXhjUWdjMThTTHpvMDdXaFNJWEJyeWhKUV8tVnhyWlBPckJIV243MjdvdHR2VVA2blhMS3ZQYWJEVmZJbmtDc0pmOUFUZ3FOU3BvSXo2X1FNN2JwT0d1c29OTXlQd1FJYUk3Z3gzODZfc0VLRGlhaFRpTllkUUFJOWtTWXc3N21uMXlIR0I4b0Q0eVlfOFgyRW8tYktOaVBIY0JiVmVHSWNxWEd2MFdxYktMenVRUGFYQWVB?oc=5",
           "source": "Google News"
         }
       ],
@@ -260,6 +265,10 @@
       "count": 20
     },
     {
+      "company": "Toast",
+      "count": 16
+    },
+    {
       "company": "Paytronix",
       "count": 16
     },
@@ -274,10 +283,6 @@
     {
       "company": "TouchBistro",
       "count": 16
-    },
-    {
-      "company": "Toast",
-      "count": 15
     },
     {
       "company": "Shift4",
