@@ -2,7 +2,7 @@
   "date": "2026-05-03",
   "weekday": "Sunday",
   "first_seen": "2026-05-03T04:29:35.464897+00:00",
-  "last_updated": "2026-05-03T15:10:50.480910+00:00",
+  "last_updated": "2026-05-03T15:55:09.039812+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"$188K in Delivery Fees Forced This Restaurant Owner to Ditch DoorDash and Uber Eats: 'That's Losses on Us' - entrepreneur.com\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-05-03T04:29:35.464897+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -132,21 +132,21 @@
       "first_detected": "2026-05-03T04:29:35.464897+00:00"
     },
     {
-      "text": "SpotOn shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"SpotOn Highlights Q1 2026 Momentum with New Customers, Product Enhancements, and Strategic Partnerships\"",
+      "text": "SpotOn shows concentrated partnership activity \u2014 5 tracked partnership items this cycle. Latest: \"Popmenu Integrates With SpotOn to Streamline Restaurant Operations and Drive Revenue Growth - Restaurant Technology News\"",
       "sources": [
-        {
-          "title": "SpotOn Highlights Q1 2026 Momentum with New Customers, Product Enhancements, and Strategic Partnerships",
-          "url": "https://www.spoton.com/blog/q1-2026-highlights/",
-          "source": "SpotOn blog"
-        },
         {
           "title": "Popmenu Integrates With SpotOn to Streamline Restaurant Operations and Drive Revenue Growth - Restaurant Technology News",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWUVLM1hIdFRHWERsVUp6RlZVcUlhOUVZcDNZdUJIanBfSlFzeWhad3Q0Rjk0TWNLZUYzZDYtb1lwVl9TTGtmYWhzVlhZZzAwVFFST3piQlhyMjl6UGVoQWFmMlVPY2pNa19OTk8zZ3NETEhuXzRDNklYMVpSa3A1RUl6RnVzQ1o1UWRLdHZjRGlnQXRza2FNdTlrREREd1R6SmNhYWhlc3hfeVBYV09wVG5QMTBGQnRoSW9xYjV4NnBlU29CbGswUENLN2s0THFNV2tV?oc=5",
-          "source": "Google News - POS Industry"
+          "source": "Google News"
         },
         {
           "title": "Loman AI and SpotOn partner to automate restaurant phone calls - Verdict Food Service",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBWeWFibG9WbUxnQUM0NTBJVHRHNnAxNU1wOThwZlotWElMZm4tRjlGbUIwR0dMSjRzajVDdl85d0ZMay03aTQydk1Va3RGSWtQRDhSbk5pLXFmMHpXcUY4UFZqby02dU1ZMkVObFNhQ0t5UQ?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Loman AI and SpotOn Announce Partnership Bringing Voice AI to SpotOn POS Restaurants - Business Wire",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdFpNc09XS2kwdE1NTGNkWG9sTk01THlXcG85clJBOXYxazdEX0JWVFJlaW1tZkVIV2otbFlYNEFUM1FoWlk2TjhoZHVMM0wwWlpxNUpxOTVmdDAwdUVUbVMxUWx2WWxROUdoRmxqRXlvWl9EREstRzFpRUxqc2dGZTRjSUh1clh3dS16UXdsel9lUFlaaTh1QmtQU1VyMUQtU3N3cnRreHFsZk1yVFNLRGdSMFF1ZldWMXh6V1E0THRfaHZiQ05xYlZKTkZoQXlVNnVZczJidVE?oc=5",
           "source": "Google News"
         }
       ],
@@ -239,36 +239,36 @@
   ],
   "most_mentioned": [
     {
-      "company": "Deliverect",
-      "count": 48
+      "company": "DoorDash",
+      "count": 19
     },
     {
       "company": "SpotOn",
-      "count": 40
-    },
-    {
-      "company": "Lightspeed",
-      "count": 31
-    },
-    {
-      "company": "DoorDash",
-      "count": 30
-    },
-    {
-      "company": "Paytronix",
-      "count": 26
+      "count": 16
     },
     {
       "company": "Sparkfly",
-      "count": 26
+      "count": 16
     },
     {
       "company": "TouchBistro",
-      "count": 26
+      "count": 16
     },
     {
       "company": "NCR Voyix",
-      "count": 25
+      "count": 15
+    },
+    {
+      "company": "Toast",
+      "count": 15
+    },
+    {
+      "company": "ItsaCheckmate",
+      "count": 15
+    },
+    {
+      "company": "Olo",
+      "count": 15
     }
   ]
 }
