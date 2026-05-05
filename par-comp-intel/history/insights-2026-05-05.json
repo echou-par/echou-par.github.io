@@ -2,7 +2,7 @@
   "date": "2026-05-05",
   "weekday": "Tuesday",
   "first_seen": "2026-05-05T04:46:08.240587+00:00",
-  "last_updated": "2026-05-05T17:06:20.099071+00:00",
+  "last_updated": "2026-05-05T18:54:53.543553+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: NCR Voyix, Toast appeared together in coverage \u2014 \"Eye on POS: Preferred Hotels Prefer Toast; NCR Voyix Expands at Stater Bros. Markets - Digital Transactions\"",
@@ -154,7 +154,7 @@
       "first_detected": "2026-05-05T07:21:36.792617+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 5 tracked partnership items this cycle. Latest: \"Asda and Deliverect Deepen Partnership to Power Rapid Delivery Across Asda Express - imagesretailme.com\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Asda and Deliverect Deepen Partnership to Power Rapid Delivery Across Asda Express - imagesretailme.com\"",
       "sources": [
         {
           "title": "Asda and Deliverect Deepen Partnership to Power Rapid Delivery Across Asda Express - imagesretailme.com",
@@ -207,20 +207,42 @@
       ],
       "company": "Shift4",
       "first_detected": "2026-05-05T16:24:48.225828+00:00"
+    },
+    {
+      "text": "Square shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Block Inc. Stock: Shares Rise Over 3% in Premarket Trading on April 30, 2026 - AD HOC NEWS\"",
+      "sources": [
+        {
+          "title": "Block Inc. Stock: Shares Rise Over 3% in Premarket Trading on April 30, 2026 - AD HOC NEWS",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONFNRS054UXlkeWVxN0NtQjZWLUFuc2dQVE1zMHZQMDYtbVBMSXV0TUdzVTVjZEtzdU01TVN3RnEtb3g4ZHNBcTVyWUNLdi10WnRVeC10YzJiaWRkZDJ0aldxWHRQcmVXQVFNc1UxUW85bmZLZUtiMkRKSF9aTUUtU1NmU2hkOC1UTXQ1QmpxLU44TEJXU1hnRHhCZENUdTB6dmctRzlvWFlhYkNaTnh3aE9mWjVrcWo4NmR3VVFfc0tuZXc?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Block set to deliver Q4 earnings beat, gross payment volume acceleration eyed - Proactive financial news",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOM2ZzaXVvQ3NmbjN0VVh6M2NjRmtMNjZWQlRfMnNadzhrTkthTkp2dkxNM0xyTXVIZjlSX0x3QWo5bDlLVmNvSnB0VDZPcUVmTU5CNDFEMG5EVWZYMXRraWdvR1d2eHlzRWttekVlaWRCR1BUNzkzOE5zMnNMZHY1cm9tMHkxRlcxTDVsR1M5dGpJRnIxbkpWTzdJeEc1c25tUGFac0ZVN2VtcW4yMnIxLXZhTGtEaUJXeVktMWFyT0VQVFl1NU1lM2tSUmtKNURNd0xpNTJZaHJuLXc5M0RGTA?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Block shares rise on strong multi-year outlook, buyback boost - Proactive financial news",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbVNxMU56Z21Wdm0tWlZyVWJqT3ltWTFyVW5ONk9tNWQ1OEZmdXhUMURDelVfYUZRc0NFQWNONTEwT0JiczRud3c5OHc2YnkydUwyd1hzWmlaRmUwc0gwRENtN1plOFEtMEhoM25JNjV3VUdtRm53OE1fNFpOVXpkU3daYm9TUDRrcTh2VU1rOWNjSkVSdmxWalFHUy05Q1h2MUp1ZUlITDdNdnB5U1FGWDZpa1Q5cDFRQkpGcm9xcFByNEtHNmZUdkdTWQ?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Square",
+      "first_detected": "2026-05-05T18:54:53.543553+00:00"
     }
   ],
   "most_mentioned": [
     {
       "company": "DoorDash",
-      "count": 19
+      "count": 20
+    },
+    {
+      "company": "NCR Voyix",
+      "count": 17
     },
     {
       "company": "TouchBistro",
       "count": 17
-    },
-    {
-      "company": "NCR Voyix",
-      "count": 16
     },
     {
       "company": "SpotOn",
