@@ -1,33 +1,21 @@
 {
-  "updated": "2026-05-06T12:16:35.209052+00:00",
-  "total": 2,
+  "updated": "2026-05-06T15:13:01.550910+00:00",
+  "total": 1,
   "by_category": {
-    "stock_move": 2
+    "stock_move": 1
   },
   "alerts": [
     {
       "category": "stock_move",
       "severity": "medium",
-      "company": "Shift4",
-      "headline": "Shift4 (FOUR) stock down 9.1% over the past week",
-      "url": "https://finance.yahoo.com/quote/FOUR",
-      "source": "Yahoo Finance",
-      "date": "2026-05-06T12:16:35.209052+00:00",
-      "par_relevance": 3,
-      "note": "-9.1% 1W",
-      "detected_at": "2026-05-06T12:16:35.209052+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "medium",
       "company": "Fiserv",
-      "headline": "Fiserv (FISV) stock down 7.6% over the past week",
+      "headline": "Fiserv (FISV) stock down 10.9% over the past week",
       "url": "https://finance.yahoo.com/quote/FISV",
       "source": "Yahoo Finance",
-      "date": "2026-05-06T12:16:35.209052+00:00",
+      "date": "2026-05-06T15:13:01.550910+00:00",
       "par_relevance": 3,
-      "note": "-7.6% 1W",
-      "detected_at": "2026-05-06T12:16:35.209052+00:00"
+      "note": "-10.9% 1W",
+      "detected_at": "2026-05-06T15:13:01.550910+00:00"
     }
   ]
 }
