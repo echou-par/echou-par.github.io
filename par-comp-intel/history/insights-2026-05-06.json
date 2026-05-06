@@ -2,7 +2,7 @@
   "date": "2026-05-06",
   "weekday": "Wednesday",
   "first_seen": "2026-05-06T04:58:35.497034+00:00",
-  "last_updated": "2026-05-06T22:03:19.539249+00:00",
+  "last_updated": "2026-05-06T23:28:44.254622+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Paytronix, Square appeared together in coverage \u2014 \"Tavern in the Square with Paytronix Spikes Insider Loyalty Program Registrations by 86% - GlobeNewswire\"",
@@ -132,7 +132,7 @@
       "first_detected": "2026-05-06T04:58:35.497034+00:00"
     },
     {
-      "text": "SpotOn shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Popmenu Integrates With SpotOn to Streamline Restaurant Operations and Drive Revenue Growth - Restaurant Technology News\"",
+      "text": "SpotOn shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Popmenu Integrates With SpotOn to Streamline Restaurant Operations and Drive Revenue Growth - Restaurant Technology News\"",
       "sources": [
         {
           "title": "Popmenu Integrates With SpotOn to Streamline Restaurant Operations and Drive Revenue Growth - Restaurant Technology News",
@@ -145,9 +145,9 @@
           "source": "Google News"
         },
         {
-          "title": "Loman AI Expands POS Partnerships with SpotOn - Food On Demand",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUGxQeFJRT2cwQ05kVFE3TGFZQnVtTDNXcGpEYVlOa3lnR3ExVDdxZ05WVTg3RWhaWFY5XzZWLThTS1d0UWM0R1hoVnpaRDJIOWtBUm1fX1NxZ0dfZHIxM1IwZl9OaDNRbTlwbEcyd2hpbENfUGEzMVZ4clNHMmFHcXBMblBnaVU?oc=5",
-          "source": "Google News - POS Industry"
+          "title": "Loman AI and SpotOn partner to automate restaurant phone calls - Verdict Food Service",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBWeWFibG9WbUxnQUM0NTBJVHRHNnAxNU1wOThwZlotWElMZm4tRjlGbUIwR0dMSjRzajVDdl85d0ZMay03aTQydk1Va3RGSWtQRDhSbk5pLXFmMHpXcUY4UFZqby02dU1ZMkVObFNhQ0t5UQ?oc=5",
+          "source": "Google News"
         }
       ],
       "company": "SpotOn",
@@ -262,23 +262,45 @@
       ],
       "company": "TalonOne",
       "first_detected": "2026-05-06T19:11:43.285785+00:00"
+    },
+    {
+      "text": "Global Payments shows concentrated financial/market activity \u2014 7 tracked financial/market items this cycle. Latest: \"Global Payments Inc. (NYSE:GPN) Announces Quarterly Dividend of $0.25 - MarketBeat\"",
+      "sources": [
+        {
+          "title": "Global Payments Inc. (NYSE:GPN) Announces Quarterly Dividend of $0.25 - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQk9WQ0ppUHRWaDYxQkJ1VFAxenRaSVgyVDVTZTV1QkpxaTZsY1VTeUp0THZaN2NNbVJteDFQcF9ob2d0NUF1M0lER04waV9UNTZpdXhqN2NkZHJzbzhrZU1YeUlWT3FGUzdfcFRKYlJOTm15Ml9mRmtpbUhOM1BMa0taQWhTNkFLUTNJUDNoYTFXWWt4akhmeFViQ3RfYzVCYTZ4aXVLTjRiVUZnS3NjVEZNcE5HNnZ0?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Global Payments (NYSE:GPN) Updates FY 2026 Earnings Guidance - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNd2ZfdmQ1WXJJQVp1QWJKUmxKUzFCWV9PaWFsa2pfTVFSVmg3cmIyamxsUEttMUNTX21jak96SDhiUkswYmZ4b24tSElBeGtieHBNTjFjekZWcm81a1Z4M1QxbU9IeE9kdmptdU4yX1A0MXZ3eTJfUHczSkRTemxpUzR3dW5tVWR6MkNFZzZMYzNPOE5UVkdjZTd3UFAzQVdkZ1Y5aVFFVEptUWVXMkQzcw?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Global Payments Reports First Quarter 2026 Results - Business Wire",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOb2g3TW9sRUZHWlIyU0JBV3cwQ3FsMVNMRGNGRVhjNzhqRnE5ZC1WRmlJRlhzWmQxaGpENVQ5NHhrWTRRNVQzcWhrNS1acHM3WHZqd0V3T3dndDF1QkVTVXpNd0tWOWFFeHNFc1pRdk5CdTB1Wk1qNzh6eGhaT3NwcFpqU09qS2E5SlhYcUZYaXdtRVJKWk85VEk1NWp4WG1TdUFjR19kVXNTb00?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Global Payments",
+      "first_detected": "2026-05-06T23:28:44.254622+00:00"
     }
   ],
   "most_mentioned": [
     {
       "company": "DoorDash",
+      "count": 20
+    },
+    {
+      "company": "TouchBistro",
+      "count": 17
+    },
+    {
+      "company": "SpotOn",
       "count": 17
     },
     {
       "company": "NCR Voyix",
-      "count": 16
-    },
-    {
-      "company": "TouchBistro",
-      "count": 16
-    },
-    {
-      "company": "SpotOn",
       "count": 16
     },
     {
@@ -290,11 +312,11 @@
       "count": 15
     },
     {
-      "company": "Paytronix",
+      "company": "Fiserv",
       "count": 15
     },
     {
-      "company": "Fiserv",
+      "company": "Paytronix",
       "count": 15
     }
   ]
