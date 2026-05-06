@@ -2,7 +2,7 @@
   "date": "2026-05-06",
   "weekday": "Wednesday",
   "first_seen": "2026-05-06T04:58:35.497034+00:00",
-  "last_updated": "2026-05-06T10:24:44.718708+00:00",
+  "last_updated": "2026-05-06T12:16:35.209052+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Paytronix, Square appeared together in coverage \u2014 \"Tavern in the Square with Paytronix Spikes Insider Loyalty Program Registrations by 86% - GlobeNewswire\"",
@@ -169,20 +169,42 @@
       ],
       "company": "Toast",
       "first_detected": "2026-05-06T07:41:10.831645+00:00"
+    },
+    {
+      "text": "Shift4 shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"Shift4 (FOUR) Reports Earnings Tomorrow: What To Expect - StockStory\"",
+      "sources": [
+        {
+          "title": "Shift4 (FOUR) Reports Earnings Tomorrow: What To Expect - StockStory",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdEt5LWhrRXVkMGRJdlpjRkd0TUVGOG84SmdyaXYyMDJreGFpendjOGZUZXRRRnp3TklZR2FuZUU5U2ROYldoS3E3VUN5UklGQWppX0JoYkpSU0NyWDRVTjlFaWNENDBIbFZ4bjFQUU9rWmdyZzUxY09TR1l2OGltbzF3UnVZVC1faGlaZldsYXpvMGU3cGM3RkJnR2lwRHRyRHpFd1JFckFFa3VSc0E?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Shift4 Payments (NYSE:FOUR) Stock Price Down 5.2% - Time to Sell? - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSVRUQ3ZSS1hpMlRwQTgxblVCUV80SUJKU1BraXVQSEFvRDZFSDU1SE1NZVB5VlB6cElNME9qOUozTzdLOFpJRnB3d0puSUpFcGVSYzVaOG9QdG1iWERrMXV4X2hXQXZWTDItMVlYUVUwb2JQTm1nZTZYWm1VVXlCdnJyLUw0TkxXNFp5cVZWcXFULVB6OGE0SFNhZkhLS3IyTURraV9nR0dIcG81aDU4dg?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Why Shift4 Payments Stock Is Sinking Before Earnings - TipRanks",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZXpNUGphdzFrSnlDU3h5cU5Hejhqb1c5Y1RQMHVWLWRYUHRvN1BsWFQtQkhPYUpveGRoV01NTGNONzlyN0FxQTR3QXJVZVIwU0twS0h0UzRfbTdRUFFMTmdsUzd2ZDNmc0RIazZjWDNSMHFmOXpLNTRSYVB5Q1Q1TDVYMUVNVzdCQ0JZWjR3OHNFNnktR1E?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Shift4",
+      "first_detected": "2026-05-06T12:16:35.209052+00:00"
     }
   ],
   "most_mentioned": [
-    {
-      "company": "DoorDash",
-      "count": 20
-    },
     {
       "company": "NCR Voyix",
       "count": 17
     },
     {
       "company": "TouchBistro",
-      "count": 17
+      "count": 16
+    },
+    {
+      "company": "DoorDash",
+      "count": 16
     },
     {
       "company": "SpotOn",
