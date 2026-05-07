@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-07T01:19:40.189870+00:00",
+  "updated": "2026-05-07T05:01:04.596157+00:00",
   "tickers": {
     "PAR": {
       "ticker": "PAR",
@@ -1175,8 +1175,8 @@
       "ebitda_margin": 0.44629002,
       "gross_margin": 0.72643,
       "enterprise_value": 34189103104.0,
-      "trailing_pe": 15.717833,
-      "forward_pe": 4.3291492,
+      "trailing_pe": 28.892115,
+      "forward_pe": 4.3245277,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
@@ -1217,6 +1217,9 @@
       ],
       "income_statement_quarterly": [
         {
+          "endDate": "2026-03-31"
+        },
+        {
           "endDate": "2025-12-31",
           "totalRevenue": 1932807000.0,
           "costOfRevenue": 569046000.0,
@@ -1251,18 +1254,6 @@
           "ebit": 462723000.0,
           "netIncome": 241640000.0,
           "incomeBeforeTax": 310480000.0
-        },
-        {
-          "endDate": "2025-03-31",
-          "totalRevenue": 2412098000.0,
-          "costOfRevenue": 921195000.0,
-          "grossProfit": 1490903000.0,
-          "sellingGeneralAdministrative": 1024011000.0,
-          "totalOperatingExpenses": 1024011000.0,
-          "operatingIncome": 466892000.0,
-          "ebit": 510274000.0,
-          "netIncome": 305734000.0,
-          "incomeBeforeTax": 353164000.0
         }
       ],
       "balance_sheet_annual": [
@@ -1327,15 +1318,15 @@
       "company": "Fiserv",
       "price": 56.11,
       "market_cap": 30006366208.0,
-      "ttm_revenue": 21193000000.0,
-      "ttm_ebitda": 5698000000.0,
-      "ttm_gross_profit": 12581000000.0,
+      "ttm_revenue": null,
+      "ttm_ebitda": null,
+      "ttm_gross_profit": null,
       "revenue_growth_yoy": 0.03602854908095424,
-      "ebitda_margin": 0.268862360213278,
-      "gross_margin": 0.5936394092388997,
+      "ebitda_margin": null,
+      "gross_margin": null,
       "enterprise_value": null,
       "trailing_pe": 9.510169,
-      "forward_pe": 6.239936,
+      "forward_pe": 6.250251,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
@@ -1376,6 +1367,9 @@
       ],
       "income_statement_quarterly": [
         {
+          "endDate": "2026-03-31"
+        },
+        {
           "endDate": "2025-12-31",
           "totalRevenue": 5284000000.0,
           "costOfRevenue": 2268000000.0,
@@ -1410,18 +1404,6 @@
           "ebit": 1668000000.0,
           "netIncome": 1026000000.0,
           "incomeBeforeTax": 1292000000.0
-        },
-        {
-          "endDate": "2025-03-31",
-          "totalRevenue": 5130000000.0,
-          "costOfRevenue": 2073000000.0,
-          "grossProfit": 3057000000.0,
-          "sellingGeneralAdministrative": 1682000000.0,
-          "totalOperatingExpenses": 1682000000.0,
-          "operatingIncome": 1375000000.0,
-          "ebit": 1385000000.0,
-          "netIncome": 851000000.0,
-          "incomeBeforeTax": 1046000000.0
         }
       ],
       "balance_sheet_annual": [
