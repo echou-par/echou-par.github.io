@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-08T03:49:25.071622+00:00",
+  "updated": "2026-05-08T06:03:55.396430+00:00",
   "tickers": {
     "PAR": {
       "ticker": "PAR",
@@ -182,8 +182,8 @@
       "revenue_growth_yoy": 0.22,
       "ebitda_margin": 0.059970003,
       "gross_margin": 0.25971,
-      "enterprise_value": 14703590400.0,
-      "trailing_pe": 52.464283,
+      "enterprise_value": 15333820416.0,
+      "trailing_pe": 43.850742,
       "forward_pe": 17.601246,
       "income_statement_annual": [
         {
@@ -230,6 +230,7 @@
         {
           "endDate": "2025-12-31",
           "totalRevenue": 1633000000.0,
+          "costOfRevenue": 1210000000.0,
           "grossProfit": 423000000.0,
           "researchDevelopment": 97000000.0,
           "sellingGeneralAdministrative": 237000000.0,
@@ -284,7 +285,7 @@
           "endDate": "2025-12-31",
           "cash": 1353000000.0,
           "shortTermInvestments": 638000000.0,
-          "netReceivables": 127000000.0,
+          "netReceivables": 103000000.0,
           "totalCurrentAssets": 2669000000.0,
           "totalAssets": 3145000000.0,
           "totalCurrentLiabilities": 969000000.0,
@@ -341,13 +342,13 @@
       "company": "DoorDash",
       "price": 171.35,
       "market_cap": 74660405248.0,
-      "ttm_revenue": 13717000192.0,
-      "ttm_ebitda": 1218000000.0,
-      "ttm_gross_profit": 7109000192.0,
-      "revenue_growth_yoy": 0.377,
-      "ebitda_margin": 0.08879,
-      "gross_margin": 0.51826,
-      "enterprise_value": 70767591424.0,
+      "ttm_revenue": 14721000448.0,
+      "ttm_ebitda": 1375000064.0,
+      "ttm_gross_profit": 7621000192.0,
+      "revenue_growth_yoy": 0.331,
+      "ebitda_margin": 0.0934,
+      "gross_margin": 0.5177,
+      "enterprise_value": 72376762368.0,
       "trailing_pe": 81.208534,
       "forward_pe": 22.56268,
       "income_statement_annual": [
@@ -838,13 +839,13 @@
       "company": "Shift4",
       "price": 46.85,
       "market_cap": 4644236800.0,
-      "ttm_revenue": 4180000000.0,
-      "ttm_ebitda": 784000000.0,
-      "ttm_gross_profit": 1428000000.0,
-      "revenue_growth_yoy": 0.339,
-      "ebitda_margin": 0.18756,
-      "gross_margin": 0.34162998,
-      "enterprise_value": 8623542272.0,
+      "ttm_revenue": 4453000192.0,
+      "ttm_ebitda": 862000000.0,
+      "ttm_gross_profit": 1563000064.0,
+      "revenue_growth_yoy": 0.321,
+      "ebitda_margin": 0.19358,
+      "gross_margin": 0.35099998,
+      "enterprise_value": 8691101696.0,
       "trailing_pe": 43.379627,
       "forward_pe": 6.956498,
       "income_statement_annual": [
@@ -1005,7 +1006,7 @@
       "gross_margin": 0.43056,
       "enterprise_value": 43760467968.0,
       "trailing_pe": 33.4,
-      "forward_pe": 14.592709,
+      "forward_pe": 14.443987,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
@@ -1325,7 +1326,7 @@
       "gross_margin": null,
       "enterprise_value": null,
       "trailing_pe": 9.628814,
-      "forward_pe": 6.328226,
+      "forward_pe": 6.332924,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
