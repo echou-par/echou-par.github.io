@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-08T15:58:47.578490+00:00",
+  "updated": "2026-05-08T17:42:02.942135+00:00",
   "total": 3,
   "by_category": {
     "stock_move": 3
@@ -9,37 +9,37 @@
       "category": "stock_move",
       "severity": "high",
       "company": "Toast",
-      "headline": "Toast (TOST) stock down 15.3% over the past week",
+      "headline": "Toast (TOST) stock down 15.4% over the past week",
       "url": "https://finance.yahoo.com/quote/TOST",
       "source": "Yahoo Finance",
-      "date": "2026-05-08T15:58:47.578490+00:00",
+      "date": "2026-05-08T17:42:02.942135+00:00",
       "par_relevance": 3,
-      "note": "-15.3% 1W",
-      "detected_at": "2026-05-08T15:58:47.578490+00:00"
+      "note": "-15.4% 1W",
+      "detected_at": "2026-05-08T17:42:02.942135+00:00"
     },
     {
       "category": "stock_move",
       "severity": "high",
       "company": "NCR Voyix",
-      "headline": "NCR Voyix (VYX) stock up 16.8% over the past week",
+      "headline": "NCR Voyix (VYX) stock up 18.4% over the past week",
       "url": "https://finance.yahoo.com/quote/VYX",
       "source": "Yahoo Finance",
-      "date": "2026-05-08T15:58:47.578490+00:00",
+      "date": "2026-05-08T17:42:02.942135+00:00",
       "par_relevance": 3,
-      "note": "+16.8% 1W",
-      "detected_at": "2026-05-08T15:58:47.578490+00:00"
+      "note": "+18.4% 1W",
+      "detected_at": "2026-05-08T17:42:02.942135+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "Fiserv",
-      "headline": "Fiserv (FISV) stock down 11.3% over the past week",
+      "headline": "Fiserv (FISV) stock down 11.4% over the past week",
       "url": "https://finance.yahoo.com/quote/FISV",
       "source": "Yahoo Finance",
-      "date": "2026-05-08T15:58:47.578490+00:00",
+      "date": "2026-05-08T17:42:02.942135+00:00",
       "par_relevance": 3,
-      "note": "-11.3% 1W",
-      "detected_at": "2026-05-08T15:58:47.578490+00:00"
+      "note": "-11.4% 1W",
+      "detected_at": "2026-05-08T17:42:02.942135+00:00"
     }
   ]
 }
