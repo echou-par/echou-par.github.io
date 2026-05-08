@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-08T06:03:55.396430+00:00",
+  "updated": "2026-05-08T08:11:27.562576+00:00",
   "tickers": {
     "PAR": {
       "ticker": "PAR",
@@ -230,7 +230,6 @@
         {
           "endDate": "2025-12-31",
           "totalRevenue": 1633000000.0,
-          "costOfRevenue": 1210000000.0,
           "grossProfit": 423000000.0,
           "researchDevelopment": 97000000.0,
           "sellingGeneralAdministrative": 237000000.0,
@@ -285,7 +284,7 @@
           "endDate": "2025-12-31",
           "cash": 1353000000.0,
           "shortTermInvestments": 638000000.0,
-          "netReceivables": 103000000.0,
+          "netReceivables": 127000000.0,
           "totalCurrentAssets": 2669000000.0,
           "totalAssets": 3145000000.0,
           "totalCurrentLiabilities": 969000000.0,
@@ -511,13 +510,13 @@
       "company": "NCR Voyix",
       "price": 8.09,
       "market_cap": 1120465024.0,
-      "ttm_revenue": 2687000064.0,
-      "ttm_ebitda": 257000000.0,
-      "ttm_gross_profit": 652000000.0,
-      "revenue_growth_yoy": 0.062,
-      "ebitda_margin": 0.095649995,
-      "gross_margin": 0.24264999,
-      "enterprise_value": 2336249856.0,
+      "ttm_revenue": 2680999936.0,
+      "ttm_ebitda": 252000000.0,
+      "ttm_gross_profit": 648000000.0,
+      "revenue_growth_yoy": -0.018,
+      "ebitda_margin": 0.09399,
+      "gross_margin": 0.2417,
+      "enterprise_value": 2414465024.0,
       "trailing_pe": 57.785717,
       "forward_pe": 8.241058,
       "income_statement_annual": [
