@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-08T21:09:27.673534+00:00",
+  "updated": "2026-05-08T22:31:40.145897+00:00",
   "tickers": {
     "PAR": {
       "ticker": "PAR",
@@ -230,6 +230,7 @@
         {
           "endDate": "2025-12-31",
           "totalRevenue": 1633000000.0,
+          "costOfRevenue": 1210000000.0,
           "grossProfit": 423000000.0,
           "researchDevelopment": 97000000.0,
           "sellingGeneralAdministrative": 237000000.0,
@@ -1325,7 +1326,7 @@
       "gross_margin": null,
       "enterprise_value": null,
       "trailing_pe": 9.40339,
-      "forward_pe": 6.1846614,
+      "forward_pe": 6.184282,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
