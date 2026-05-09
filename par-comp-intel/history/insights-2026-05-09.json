@@ -2,7 +2,7 @@
   "date": "2026-05-09",
   "weekday": "Saturday",
   "first_seen": "2026-05-09T04:04:33.493460+00:00",
-  "last_updated": "2026-05-09T06:33:22.432943+00:00",
+  "last_updated": "2026-05-09T08:46:05.847240+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Global Payments, Lightspeed appeared together in coverage \u2014 \"Global Payments Expands Partnership with Lightspeed DMS to Power Embedded Payments for Dealerships - Business Wire\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-05-09T04:04:33.493460+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -93,7 +93,7 @@
       "first_detected": "2026-05-09T04:04:33.493460+00:00"
     },
     {
-      "text": "PAR shows concentrated financial/market activity \u2014 13 tracked financial/market items this cycle. Latest: \"PAR Technology (PAR) Revenue Growth Versus Persistent Losses Tests Bullish Narratives - simplywall.st\"",
+      "text": "PAR shows concentrated financial/market activity \u2014 12 tracked financial/market items this cycle. Latest: \"PAR Technology (PAR) Revenue Growth Versus Persistent Losses Tests Bullish Narratives - simplywall.st\"",
       "sources": [
         {
           "title": "PAR Technology (PAR) Revenue Growth Versus Persistent Losses Tests Bullish Narratives - simplywall.st",
@@ -135,12 +135,37 @@
       ],
       "company": "Toast",
       "first_detected": "2026-05-09T04:04:33.493460+00:00"
+    },
+    {
+      "text": "Toast shows concentrated risk activity \u2014 2 tracked risk items this cycle. Latest: \"Wall Street Zen Downgrades Toast (NYSE:TOST) to Hold - MarketBeat\"",
+      "sources": [
+        {
+          "title": "Wall Street Zen Downgrades Toast (NYSE:TOST) to Hold - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ21yREdnSWIyLTdYaWFLRGhRdlE2SHNJRE1YUzlscUZRSGp5ckxNVE1ha3hmMHN4aWZ5TVlHQjY5Qlh6STJvUnoxWDhFRGZJblJ1a0tFcEttNGVOcVFNMzFsclZ5VUFiaFp1dFpldHR6YjNTSmtsRW5XR1E5eUU2ZHV5YzU2SjRjY3ZKZmV3WnU5ZkhBbXlQMUZKdHc2cGtENEZxNnln?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Toast (NYSE:TOST) Hits New 12-Month Low on Analyst Downgrade - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYkIxZktfaUpBQnk0NWItNTN0NWNsVzB2Qi1BekJDQk5LbHlxRWk5NHBPYmlmbDlmMVFKdV9BNEJvS2NzRnVZZmpVb0J0dWt1eS1lVXdLRHM3U0Zzb3VhMUlVZ2lTZFZPUXc2NVlrQ0pWWHV3dFVIa0xsSm9RbXRlTnd6MkVEVnRZVjA4Q1JzLWl0X3ZEd3UxTGxHM0hYZUVJT0s5TzJNSkdKV1ljSXFJLQ?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Toast",
+      "first_detected": "2026-05-09T08:46:05.847240+00:00"
     }
   ],
   "most_mentioned": [
     {
       "company": "DoorDash",
-      "count": 20
+      "count": 21
+    },
+    {
+      "company": "NCR Voyix",
+      "count": 18
+    },
+    {
+      "company": "Global Payments",
+      "count": 16
     },
     {
       "company": "TouchBistro",
@@ -159,15 +184,7 @@
       "count": 15
     },
     {
-      "company": "PAR",
-      "count": 15
-    },
-    {
-      "company": "NCR Voyix",
-      "count": 15
-    },
-    {
-      "company": "Global Payments",
+      "company": "Shift4",
       "count": 15
     }
   ]
