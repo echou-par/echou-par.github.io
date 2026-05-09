@@ -2,7 +2,7 @@
   "date": "2026-05-09",
   "weekday": "Saturday",
   "first_seen": "2026-05-09T04:04:33.493460+00:00",
-  "last_updated": "2026-05-09T15:30:00.259630+00:00",
+  "last_updated": "2026-05-09T17:02:27.901353+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Global Payments, Lightspeed appeared together in coverage \u2014 \"Global Payments Expands Partnership with Lightspeed DMS to Power Embedded Payments for Dealerships - Business Wire\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-05-09T04:04:33.493460+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -218,40 +218,51 @@
       ],
       "company": "DoorDash",
       "first_detected": "2026-05-09T14:32:34.105071+00:00"
+    },
+    {
+      "text": "Cross-competitor event: Shift4, Toast appeared together in coverage \u2014 \"Analysts Offer Insights on Technology Companies: Toast Inc (TOST), Open Text (OTEX) and Shift4 Payments (FOUR) - The Globe and Mail\"",
+      "sources": [
+        {
+          "title": "Analysts Offer Insights on Technology Companies: Toast Inc (TOST), Open Text (OTEX) and Shift4 Payments (FOUR) - The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQcUpxUlNwODVwb09uUkUyUmFkVVU4SVM2b2FILVB0cUpwRjBHLXRaTkpod0JPVW1xQmM3WFRSVlFjdFp5YkNVckl3bFZUN09RN2NZVEtiQTFPNjA5UUpMTFFqWWE1NXRGSWZHUnhzNTRaLV9Vd3FVTDVla01HVF90czhjcS0zZUlvR2lLS0UtTHR2SnhNMVBnU2JBR0p2dGwzdEliSklaV1FJYkxNby1KOG9RYzJfVXNvWHhXd0hXOWt2UlpabWdVb0dIVWNEY3Y2VEZqMXFsX0ozY1BfVUJOQ0IwUTJWWV9oNWg4Q1lydXhrOUhIZ2FpVF85NjA4OExSVHFEOWxzUUpUR0ZJM3c3VzlJdUhtQmN1?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "first_detected": "2026-05-09T17:02:27.901353+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "Deliverect",
-      "count": 50
-    },
-    {
-      "company": "SpotOn",
-      "count": 39
-    },
-    {
-      "company": "Lightspeed",
-      "count": 31
-    },
-    {
       "company": "DoorDash",
-      "count": 31
+      "count": 21
     },
     {
       "company": "NCR Voyix",
-      "count": 27
+      "count": 17
+    },
+    {
+      "company": "TouchBistro",
+      "count": 16
+    },
+    {
+      "company": "SpotOn",
+      "count": 16
     },
     {
       "company": "Sparkfly",
-      "count": 26
+      "count": 16
     },
     {
       "company": "Toast",
-      "count": 25
+      "count": 15
     },
     {
       "company": "Shift4",
-      "count": 25
+      "count": 15
+    },
+    {
+      "company": "Global Payments",
+      "count": 15
     }
   ]
 }
