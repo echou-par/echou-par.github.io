@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-09T14:32:34.105071+00:00",
+  "updated": "2026-05-09T15:30:00.259630+00:00",
   "tickers": {
     "PAR": {
       "ticker": "PAR",
@@ -888,6 +888,18 @@
       ],
       "income_statement_quarterly": [
         {
+          "endDate": "2026-03-31",
+          "totalRevenue": 1121000000.0,
+          "costOfRevenue": 729000000.0,
+          "grossProfit": 392000000.0,
+          "sellingGeneralAdministrative": 248000000.0,
+          "totalOperatingExpenses": 342000000.0,
+          "operatingIncome": 50000000.0,
+          "ebit": 53000000.0,
+          "netIncome": 15000000.0,
+          "incomeBeforeTax": -12000000.0
+        },
+        {
           "endDate": "2025-12-31",
           "totalRevenue": 1188600000.0,
           "costOfRevenue": 739100000.0,
@@ -922,18 +934,6 @@
           "ebit": 95100000.0,
           "netIncome": 34000000.0,
           "incomeBeforeTax": 55700000.0
-        },
-        {
-          "endDate": "2025-03-31",
-          "totalRevenue": 848300000.0,
-          "costOfRevenue": 591300000.0,
-          "grossProfit": 257000000.0,
-          "sellingGeneralAdministrative": 179300000.0,
-          "totalOperatingExpenses": 235300000.0,
-          "operatingIncome": 21700000.0,
-          "ebit": 39900000.0,
-          "netIncome": 16700000.0,
-          "incomeBeforeTax": 11400000.0
         }
       ],
       "balance_sheet_annual": [
@@ -966,6 +966,19 @@
       ],
       "balance_sheet_quarterly": [
         {
+          "endDate": "2026-03-31",
+          "cash": 473000000.0,
+          "netReceivables": 694000000.0,
+          "totalCurrentAssets": 2061000000.0,
+          "totalAssets": 8757000000.0,
+          "totalCurrentLiabilities": 1686000000.0,
+          "longTermDebt": 4512000000.0,
+          "totalLiab": 6977000000.0,
+          "totalStockholderEquity": 1653000000.0,
+          "goodWill": 2707000000.0,
+          "intangibleAssets": 2977000000.0
+        },
+        {
           "endDate": "2025-12-31",
           "cash": 964000000.0,
           "netReceivables": 742000000.0,
@@ -977,19 +990,6 @@
           "totalStockholderEquity": 1442000000.0,
           "goodWill": 2704000000.0,
           "intangibleAssets": 3010000000.0
-        },
-        {
-          "endDate": "2025-09-30",
-          "cash": 1511500000.0,
-          "netReceivables": 771500000.0,
-          "totalCurrentAssets": 2700100000.0,
-          "totalAssets": 8989800000.0,
-          "totalCurrentLiabilities": 1958000000.0,
-          "longTermDebt": 4019800000.0,
-          "totalLiab": 6785800000.0,
-          "totalStockholderEquity": 1669700000.0,
-          "goodWill": 2465500000.0,
-          "intangibleAssets": 3015500000.0
         }
       ]
     },
@@ -1006,7 +1006,7 @@
       "gross_margin": 0.45078,
       "enterprise_value": 45327409152.0,
       "trailing_pe": 58.476562,
-      "forward_pe": 15.252351,
+      "forward_pe": 15.246231,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
