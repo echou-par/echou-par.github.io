@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-09T08:46:05.847240+00:00",
+  "updated": "2026-05-09T10:12:45.786718+00:00",
   "tickers": {
     "PAR": {
       "ticker": "PAR",
@@ -998,13 +998,13 @@
       "company": "Block (Square)",
       "price": 74.85,
       "market_cap": 44549296128.0,
-      "ttm_revenue": 24193683456.0,
-      "ttm_ebitda": 2070484992.0,
-      "ttm_gross_profit": 10416779264.0,
-      "revenue_growth_yoy": 0.036,
-      "ebitda_margin": 0.08558,
-      "gross_margin": 0.43056,
-      "enterprise_value": 43760467968.0,
+      "ttm_revenue": 24478734336.0,
+      "ttm_ebitda": 1575778944.0,
+      "ttm_gross_profit": 11034558464.0,
+      "revenue_growth_yoy": 0.049,
+      "ebitda_margin": 0.06437,
+      "gross_margin": 0.45078,
+      "enterprise_value": 45327409152.0,
       "trailing_pe": 58.476562,
       "forward_pe": 15.252351,
       "income_statement_annual": [
@@ -1050,6 +1050,19 @@
       ],
       "income_statement_quarterly": [
         {
+          "endDate": "2026-03-31",
+          "totalRevenue": 6056847000.0,
+          "costOfRevenue": 3147608000.0,
+          "grossProfit": 2909239000.0,
+          "researchDevelopment": 1038873000.0,
+          "sellingGeneralAdministrative": 1508072000.0,
+          "totalOperatingExpenses": 2581104000.0,
+          "operatingIncome": 328135000.0,
+          "ebit": -339382000.0,
+          "netIncome": -308681000.0,
+          "incomeBeforeTax": -392577000.0
+        },
+        {
           "endDate": "2025-12-31",
           "totalRevenue": 6252478000.0,
           "costOfRevenue": 3380252000.0,
@@ -1087,19 +1100,6 @@
           "ebit": 778383000.0,
           "netIncome": 538458000.0,
           "incomeBeforeTax": 659382000.0
-        },
-        {
-          "endDate": "2025-03-31",
-          "totalRevenue": 5771796000.0,
-          "costOfRevenue": 3482193000.0,
-          "grossProfit": 2289603000.0,
-          "researchDevelopment": 760699000.0,
-          "sellingGeneralAdministrative": 996257000.0,
-          "totalOperatingExpenses": 1790612000.0,
-          "operatingIncome": 498991000.0,
-          "ebit": 244293000.0,
-          "netIncome": 189872000.0,
-          "incomeBeforeTax": 227050000.0
         }
       ],
       "balance_sheet_annual": [
@@ -1134,6 +1134,20 @@
       ],
       "balance_sheet_quarterly": [
         {
+          "endDate": "2026-03-31",
+          "cash": 12799537000.0,
+          "shortTermInvestments": 462611000.0,
+          "netReceivables": 3753516000.0,
+          "totalCurrentAssets": 23766425000.0,
+          "totalAssets": 39986081000.0,
+          "totalCurrentLiabilities": 11967110000.0,
+          "longTermDebt": 5977084000.0,
+          "totalLiab": 18305053000.0,
+          "totalStockholderEquity": 21715338000.0,
+          "goodWill": 11956264000.0,
+          "intangibleAssets": 1245784000.0
+        },
+        {
           "endDate": "2025-12-31",
           "cash": 11335916000.0,
           "shortTermInvestments": 628013000.0,
@@ -1146,20 +1160,6 @@
           "totalStockholderEquity": 22204278000.0,
           "goodWill": 11849018000.0,
           "intangibleAssets": 1281670000.0
-        },
-        {
-          "endDate": "2025-09-30",
-          "cash": 13139650000.0,
-          "shortTermInvestments": 448878000.0,
-          "netReceivables": 3474923000.0,
-          "totalCurrentAssets": 22067725000.0,
-          "totalAssets": 39182823000.0,
-          "totalCurrentLiabilities": 10107990000.0,
-          "longTermDebt": 6057011000.0,
-          "totalLiab": 16709615000.0,
-          "totalStockholderEquity": 22507398000.0,
-          "goodWill": 11807858000.0,
-          "intangibleAssets": 1326091000.0
         }
       ]
     },
@@ -1169,10 +1169,10 @@
       "price": 69.19,
       "market_cap": 18916327424.0,
       "ttm_revenue": 8855241728.0,
-      "ttm_ebitda": 3468110080.0,
+      "ttm_ebitda": 3746010112.0,
       "ttm_gross_profit": 5968721920.0,
       "revenue_growth_yoy": 0.642,
-      "ebitda_margin": 0.39164,
+      "ebitda_margin": 0.42303002,
       "gross_margin": 0.67403,
       "enterprise_value": 37514338304.0,
       "trailing_pe": 28.709543,
