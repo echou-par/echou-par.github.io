@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-09T00:01:37.897837+00:00",
+  "updated": "2026-05-09T04:04:33.493460+00:00",
   "tickers": {
     "PAR": {
       "ticker": "PAR",
@@ -184,7 +184,7 @@
       "gross_margin": 0.25971,
       "enterprise_value": 15333820416.0,
       "trailing_pe": 37.388058,
-      "forward_pe": 15.007189,
+      "forward_pe": 14.838465,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
@@ -230,6 +230,7 @@
         {
           "endDate": "2025-12-31",
           "totalRevenue": 1633000000.0,
+          "costOfRevenue": 1210000000.0,
           "grossProfit": 423000000.0,
           "researchDevelopment": 97000000.0,
           "sellingGeneralAdministrative": 237000000.0,
@@ -284,7 +285,7 @@
           "endDate": "2025-12-31",
           "cash": 1353000000.0,
           "shortTermInvestments": 638000000.0,
-          "netReceivables": 127000000.0,
+          "netReceivables": 103000000.0,
           "totalCurrentAssets": 2669000000.0,
           "totalAssets": 3145000000.0,
           "totalCurrentLiabilities": 969000000.0,
@@ -347,9 +348,9 @@
       "revenue_growth_yoy": 0.331,
       "ebitda_margin": 0.0934,
       "gross_margin": 0.5177,
-      "enterprise_value": 72376762368.0,
+      "enterprise_value": 69145878528.0,
       "trailing_pe": 77.69194,
-      "forward_pe": 21.864212,
+      "forward_pe": 21.864824,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
@@ -509,7 +510,7 @@
       "ticker": "VYX",
       "company": "NCR Voyix",
       "price": 8.35,
-      "market_cap": 1156475008.0,
+      "market_cap": 1150689920.0,
       "ttm_revenue": 2680999936.0,
       "ttm_ebitda": 252000000.0,
       "ttm_gross_profit": 648000000.0,
@@ -837,7 +838,7 @@
       "ticker": "FOUR",
       "company": "Shift4",
       "price": 42.58,
-      "market_cap": 4220952576.0,
+      "market_cap": 4220953600.0,
       "ttm_revenue": 4453000192.0,
       "ttm_ebitda": 862000000.0,
       "ttm_gross_profit": 1563000064.0,
@@ -845,7 +846,7 @@
       "ebitda_margin": 0.19358,
       "gross_margin": 0.35099998,
       "enterprise_value": 8376652288.0,
-      "trailing_pe": 39.425926,
+      "trailing_pe": 48.94253,
       "forward_pe": 6.374471,
       "income_statement_annual": [
         {
@@ -996,7 +997,7 @@
       "ticker": "XYZ",
       "company": "Block (Square)",
       "price": 74.85,
-      "market_cap": 44584804352.0,
+      "market_cap": 44549296128.0,
       "ttm_revenue": 24193683456.0,
       "ttm_ebitda": 2070484992.0,
       "ttm_gross_profit": 10416779264.0,
@@ -1004,7 +1005,7 @@
       "ebitda_margin": 0.08558,
       "gross_margin": 0.43056,
       "enterprise_value": 43760467968.0,
-      "trailing_pe": 35.642857,
+      "trailing_pe": 58.476562,
       "forward_pe": 15.259223,
       "income_statement_annual": [
         {
