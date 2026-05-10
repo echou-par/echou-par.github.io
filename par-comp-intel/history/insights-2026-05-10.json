@@ -2,7 +2,7 @@
   "date": "2026-05-10",
   "weekday": "Sunday",
   "first_seen": "2026-05-10T04:06:34.060163+00:00",
-  "last_updated": "2026-05-10T07:13:23.202327+00:00",
+  "last_updated": "2026-05-10T09:13:48.668483+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Shift4, Toast appeared together in coverage \u2014 \"Analysts Offer Insights on Technology Companies: Toast Inc (TOST), Open Text (OTEX) and Shift4 Payments (FOUR) - The Globe and Mail\"",
@@ -174,6 +174,28 @@
       ],
       "company": "NCR Voyix",
       "first_detected": "2026-05-10T07:13:23.202327+00:00"
+    },
+    {
+      "text": "Toast shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Comerica Bank Reduces Stock Position in Toast, Inc. $TOST - MarketBeat\"",
+      "sources": [
+        {
+          "title": "Comerica Bank Reduces Stock Position in Toast, Inc. $TOST - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNakVseHZWb1l2a2swc01FeXVBTGE5N25NVFNQeTVjdVlySWFrdXViWlZodURjZzBnQ3lWX3M0ZlJlNU5yTE5rcEpaN3FFNmFKOEh5dWxRTEs3WEFrM0E3dUhhZ1BRY3FVeDhsZVlCQzdjbnF3eEJObmpOUVdGamF6Z2hFQUFkNHlGRERHTFl5Zkstb1JmNll1YWxrUmx2a2EzNXRlOGVKWDF6M1FzQ29JWjlMT29wQQ?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Toast (TOST) Margin Jump To 5.6% Tests Bullish Long Term Profit Stories - simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNk5qRnR1R1RxNGNRVTJxUlVWWEp2dVBPVUNZTFBhVlQybWZzTGxqcmVBTmRpcEQwLThranA1Z2ZJZW1oYm1LdE40ZjRmVkkzWjlNRUZjSFdjZmVyVWVkMkQ1ZE9Zcl8yODVNTm5nUEFEUUx3ZHpaOS1wbXhCQkR6U0NoUnFvSTRkNElCb2JVbHJNemZVWnlrRktHSTRna0otSzduNnRLc0VKU2d6dThFaEdFVWJkQ1VTYmJacjRLeU5FNzJKVnlrUlFOSWtkQzNB0gHWAUFVX3lxTE9Rc25WUVVFNUhvLWJ0OC0wcVo5WXpORzhFTHhzaWdTWk1hb0VMeWh6OVRjS3EtWGVEQTNCeC0xR0kxakljZC1sdm5mbkNqa05PRDJjd04tREVkNTJ2bndIaGtDTmMxS3pIV2VRb1ltbXItRXFWUVBlX3RWUnNFNjFMYVZHMTBvWXM4MUprSEFsZ3ZWdnRJUVN2Q2NPMWJtOEJOLUxRYkxIN0lFdFNsTElBLU9MQWc3ZGlLWENxMDNkMnZJUU4tTVU2OWNOMFloT1RwZVpaQXc?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Toast, Inc. (NYSE:TOST) Q1 2026 Earnings Call Transcript - Insider Monkey",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOLU1WcFJKbDEyQ01KS1lKWUt6YV8wbWZVQUQ0Qk5GcXhXQ3FxUzduQTdJUzZJLVJaaVJJNGVDYWtSbHk2OElfZmtGTDZXa1BHNEdXSWEwVjBVbGdTV1UyN0oxRlplb1Jnb0xRd0ZMLVVpYkUyV0w2bW82aU5TaVhrRXVkT3Etenhodk1feWNHM2NYaU84M1BLZGhCWQ?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Toast",
+      "first_detected": "2026-05-10T09:13:48.668483+00:00"
     }
   ],
   "most_mentioned": [
@@ -182,8 +204,12 @@
       "count": 20
     },
     {
+      "company": "Toast",
+      "count": 16
+    },
+    {
       "company": "NCR Voyix",
-      "count": 17
+      "count": 16
     },
     {
       "company": "TouchBistro",
@@ -196,10 +222,6 @@
     {
       "company": "Sparkfly",
       "count": 16
-    },
-    {
-      "company": "Toast",
-      "count": 15
     },
     {
       "company": "Shift4",
