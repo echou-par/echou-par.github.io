@@ -2,7 +2,7 @@
   "date": "2026-05-10",
   "weekday": "Sunday",
   "first_seen": "2026-05-10T04:06:34.060163+00:00",
-  "last_updated": "2026-05-10T15:00:12.671787+00:00",
+  "last_updated": "2026-05-10T15:30:57.247248+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Shift4, Toast appeared together in coverage \u2014 \"Analysts Offer Insights on Technology Companies: Toast Inc (TOST), Open Text (OTEX) and Shift4 Payments (FOUR) - The Globe and Mail\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-05-10T04:06:34.060163+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -132,7 +132,7 @@
       "first_detected": "2026-05-10T04:06:34.060163+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 5 tracked partnership items this cycle. Latest: \"Asda partners with Deliverect for rapid delivery operations - Yahoo Finance\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Asda partners with Deliverect for rapid delivery operations - Yahoo Finance\"",
       "sources": [
         {
           "title": "Asda partners with Deliverect for rapid delivery operations - Yahoo Finance",
@@ -209,7 +209,7 @@
       "first_detected": "2026-05-10T13:49:09.757045+00:00"
     },
     {
-      "text": "Shift4 shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Shift4 Payments Q1 Earnings Call Highlights - Yahoo Finance\"",
+      "text": "Shift4 shows concentrated financial/market activity \u2014 13 tracked financial/market items this cycle. Latest: \"Shift4 Payments Q1 Earnings Call Highlights - Yahoo Finance\"",
       "sources": [
         {
           "title": "Shift4 Payments Q1 Earnings Call Highlights - Yahoo Finance",
@@ -277,36 +277,36 @@
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
-      "count": 19
-    },
-    {
-      "company": "Toast",
-      "count": 16
-    },
-    {
-      "company": "NCR Voyix",
-      "count": 16
+      "company": "Deliverect",
+      "count": 50
     },
     {
       "company": "SpotOn",
-      "count": 16
+      "count": 40
+    },
+    {
+      "company": "Lightspeed",
+      "count": 31
+    },
+    {
+      "company": "DoorDash",
+      "count": 30
     },
     {
       "company": "Sparkfly",
-      "count": 16
+      "count": 26
     },
     {
-      "company": "Shift4",
-      "count": 15
+      "company": "Toast",
+      "count": 25
     },
     {
-      "company": "Global Payments",
-      "count": 15
+      "company": "NCR Voyix",
+      "count": 25
     },
     {
       "company": "Paytronix",
-      "count": 15
+      "count": 25
     }
   ]
 }
