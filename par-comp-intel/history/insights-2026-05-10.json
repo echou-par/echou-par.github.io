@@ -2,7 +2,7 @@
   "date": "2026-05-10",
   "weekday": "Sunday",
   "first_seen": "2026-05-10T04:06:34.060163+00:00",
-  "last_updated": "2026-05-10T13:49:09.757045+00:00",
+  "last_updated": "2026-05-10T14:34:07.410025+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Shift4, Toast appeared together in coverage \u2014 \"Analysts Offer Insights on Technology Companies: Toast Inc (TOST), Open Text (OTEX) and Shift4 Payments (FOUR) - The Globe and Mail\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-05-10T04:06:34.060163+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -132,7 +132,7 @@
       "first_detected": "2026-05-10T04:06:34.060163+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 5 tracked partnership items this cycle. Latest: \"Asda partners with Deliverect for rapid delivery operations - Yahoo Finance\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Asda partners with Deliverect for rapid delivery operations - Yahoo Finance\"",
       "sources": [
         {
           "title": "Asda partners with Deliverect for rapid delivery operations - Yahoo Finance",
@@ -209,7 +209,7 @@
       "first_detected": "2026-05-10T13:49:09.757045+00:00"
     },
     {
-      "text": "Shift4 shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Shift4 Payments Q1 Earnings Call Highlights - Yahoo Finance\"",
+      "text": "Shift4 shows concentrated financial/market activity \u2014 12 tracked financial/market items this cycle. Latest: \"Shift4 Payments Q1 Earnings Call Highlights - Yahoo Finance\"",
       "sources": [
         {
           "title": "Shift4 Payments Q1 Earnings Call Highlights - Yahoo Finance",
@@ -222,47 +222,91 @@
           "source": "Google News"
         },
         {
-          "title": "Shift4 1Q Gross Profit Jumps 54% Amid Global Expansion - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUlRhNld3cmxCblNfODNqdUozQzRYVFRyYUQzMEtIT0J0WXZ1cktBS1dyTzB6Q2xmSTZnWm05MzBzT2RwbzZUUlEydVJOdTJSSGw2ZnB4c2pSZno5dW9KcGcxTUVEQ2RUX1VaTHZJa2VCcENuWVBndXJ5YlB2MHhKQXF2YmpMVUVlTGFFcHpTeDRCZHZrX3B4WQ?oc=5",
+          "title": "Shift4 Payments (NYSE:FOUR) Issues Earnings Results - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdTdON0J3eTdJa2g0TVNkSDVGSzJFMUFsQzVhd3M4UlpJbHhuZzZ6RGw0WXljcjVHdkZTTGVxR3lHT1lQdDJqcHh4S0VkNUVVZlFBLS1leXhCaE90X2pDR0w1VzNtYnhaQTZqM0FYWG1BODdzbENFazgtQUZxXzVpUzlVZF80Nm9GNkdnZjJ6X1UzZEFMV0EyQXNJQWNGcnMtU3I4cQ?oc=5",
           "source": "Google News"
         }
       ],
       "company": "Shift4",
       "first_detected": "2026-05-10T13:49:09.757045+00:00"
+    },
+    {
+      "text": "DoorDash shows concentrated campaign activity \u2014 3 tracked campaign items this cycle. Latest: \"DoorDash Unveils Second Annual List of America\u2019s Favorite Delivery Spots Across Cuisines - DoorDash\"",
+      "sources": [
+        {
+          "title": "DoorDash Unveils Second Annual List of America\u2019s Favorite Delivery Spots Across Cuisines - DoorDash",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMGlmMkpfMWhCbnBPLXZ1LTRuZmxoT0pVMlNvRnoxQzh5dWQ2OVNpcjZSRVFSOWZ0dUg1WmNBUXQtQkd2WkxPbzI0dGdaZkJrWU5GR2x5QS1HTU9TYmM1Vndab2QxSzNGYW9ONy1KcFFHNzJELUQ5M2dSYjFBUmdyM28tNG80LVh0YmNsWHYwcko?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "The 12 Best Store-Bought Soups, Out of 25 - DoorDash Blog",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE92VnBRb18ydTdLc1Y1NlhLNVFoOVAySm50WUFhalp0NlNzMlRtSkZHbGxzY3daejNycUJ4VlRuQmR0TjgxTG8tekljMmdqcEVMZVU2QUplLVpqQ2NvZmNnYm5ENmtoa2h3cFNNeA?oc=5",
+          "source": "Google News (blog.doordash.com)"
+        },
+        {
+          "title": "The 8 Best Plastic Food Storage Containers for Every Use - DoorDash Blog",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82NENKSFJSNzB2WFFVc1AtbUg4aF9TN2NhVmZuY19SQXUxRnhyV1gxeGFmQTlpbzAwU0JtVkpTRTlUVmVpT0ZzbzV4UFRvUWtKVXdBXzU1VFQyNzkxazZWeTVMWGVHNGlZdnZBWWJmMXNlcHI4RmRSckpXQ0hrZw?oc=5",
+          "source": "Google News (blog.doordash.com)"
+        }
+      ],
+      "company": "DoorDash",
+      "first_detected": "2026-05-10T14:34:07.410025+00:00"
+    },
+    {
+      "text": "TalonOne shows concentrated campaign activity \u2014 3 tracked campaign items this cycle. Latest: \"Top 6 adtech tools this week: System1, Airship, GlobalData, Ampd, Talon.One and DAIVID - Performance Marketing World\"",
+      "sources": [
+        {
+          "title": "Top 6 adtech tools this week: System1, Airship, GlobalData, Ampd, Talon.One and DAIVID - Performance Marketing World",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRDVwamQzd2VwNUVOakpIM1hzN052d25aS1RDMHJfTVJFMXdFWTdHYnFteHBRUnluMnpWajlGVGlsYmhsb2hvMDc4VkgxNTZlSkJNWkcxZ3Q0Nzg2UnkxTmZ2S0ZPWmo4OEZGdEhkUWRBTXNPV2tvU3pDLWZEeld1Q3FfeUNFcWdCekhDOVY2bzBfdjE2QUJnaFdWbFEzaWxiNllHbHNxWHI2c1BZbHhZSEhtNndWaVB6MXVzcFpSajlheXZxTUY1WA?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Campaign analytics - Talon.One docs",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBsd05ITEx4enNBV3MxNDZPbzVVT0stSWJ1dWFIM2l2SERHV2dLUVYwamRrS2duUTl0ZUxvTk9vTXhWMlNqeFAxTlBDSXdPbndMT0JRcDJhcU5pZ2g3R0hqMTRBZWc2SEJod01fR00xOUdpUQ?oc=5",
+          "source": "Google News (talon.one)"
+        },
+        {
+          "title": "Create a channel-specific coupon campaign - Talon.One docs",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYlZnZ2FEa2s4bnIycktfMlVIZ19XTG02YWFFUWp1bDdXSmlnSThKNElEVmlhQWtTSU9fbnRZbU5RdHlQcnlXZGtuX2VrZTBKVHV3ZWlOYUtVRFlQZEIwbm9uR0pIb2tra2VJUC1Jdk1MdmNfZ3liVG1WTDNZYTd4TGMzcGhPWEtTaGc?oc=5",
+          "source": "Google News (talon.one)"
+        }
+      ],
+      "company": "TalonOne",
+      "first_detected": "2026-05-10T14:34:07.410025+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
-      "count": 19
-    },
-    {
-      "company": "Toast",
-      "count": 16
-    },
-    {
-      "company": "NCR Voyix",
-      "count": 16
-    },
-    {
-      "company": "TouchBistro",
-      "count": 16
+      "company": "Deliverect",
+      "count": 50
     },
     {
       "company": "SpotOn",
-      "count": 16
+      "count": 40
+    },
+    {
+      "company": "Lightspeed",
+      "count": 31
+    },
+    {
+      "company": "DoorDash",
+      "count": 30
+    },
+    {
+      "company": "Toast",
+      "count": 26
     },
     {
       "company": "Sparkfly",
-      "count": 16
+      "count": 26
     },
     {
-      "company": "Shift4",
-      "count": 15
+      "company": "NCR Voyix",
+      "count": 25
     },
     {
-      "company": "Global Payments",
-      "count": 15
+      "company": "Paytronix",
+      "count": 25
     }
   ]
 }
