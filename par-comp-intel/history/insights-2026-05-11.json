@@ -2,7 +2,7 @@
   "date": "2026-05-11",
   "weekday": "Monday",
   "first_seen": "2026-05-11T05:40:48.350921+00:00",
-  "last_updated": "2026-05-11T17:08:56.962118+00:00",
+  "last_updated": "2026-05-11T18:19:13.795509+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-05-11T05:40:48.350921+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -49,13 +49,8 @@
       "first_detected": "2026-05-11T05:40:48.350921+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Imagatec: Integration Overview - Deliverect\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 5 tracked partnership items this cycle. Latest: \"Asda partners with Deliverect for rapid delivery operations - Yahoo Finance\"",
       "sources": [
-        {
-          "title": "Imagatec: Integration Overview - Deliverect",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMzNHbS1mLW5lVzVmaFI2b2pQVWc4a0hRaDd1Y19BTGJVVW9wUGNWS25KaThHUUpoeHRINzE3RFRWOEcxbGdsZ2g2MjdGQ25Qbk5ud19SYW0yWTlxc293dmxNbkNFaUFQZmNrb1d0djBPb0tOd1gtZmJVY0ZuajhqcHBIYmw?oc=5",
-          "source": "Google News (deliverect.com)"
-        },
         {
           "title": "Asda partners with Deliverect for rapid delivery operations - Yahoo Finance",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPb2xzRzhDUEhySEl6SkRkNEo4LVUxQm5qX3Zndk4wazlMWWU4VjBiaWQ0c1lzNjl0aG11anR6OXFHX1pmY1BkVTM0M2dGN05yc21keHF6U2lOeEFkMFdfVnQ2eTdKcWJxb3dsTThnSkJyaFQxUnozZ1gzYWxveGtqdU9naVR6V2ZmMmhYU1dXRWo0ZXJzbTZMWExRYXU0dUNFaUJUSVVOeVA0cjAx?oc=5",
@@ -64,6 +59,11 @@
         {
           "title": "ConverseNow, Deliverect partner to integrate Voice AI into restaurant management - QSR Web",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcU1QYm14UXNZMTNmZDV5cGVUMFFlV2NfbmV6TnkyNzlZcmxfNkhMMnM2eFlEYURMSkdBcDQ2WmJWejJXaWFNOExyOFRVdlJvMlhjaGJpb0hZSklYNFdmckdDM1o4WEVDR21qZjlZempNWmhzWHFWZklqUlpkVjlXaVR4QzhkSjdBWGNJT0VkQUpEeFM2SGxLSFhwLWNjNEFBS0s4TUFkaWZENzgw?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Asda and Deliverect Partner to Enhance Rapid Delivery Across Asda Express - Perishable News",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObzBXX0FHY2RLcVU2dnpQaTQ2WUpQSVhjcG5vbEtIV1dXNXlTYzZ0R1RKSTBpTVpNZWh2YUtDVW1LT2VZV0RwTTQ0NVVLVlNUYmN4aDBVOE9sbFBmQktPN0NreVR3VVlTeEFkTkdsVThSYlFIVHJVSUNYank3ZG1JN0JOTHR4MGotQmdnY2dVVkN0UDRDMVBCSENJWlpOaWpFUTZWMExrQndvRFk5aGo4SmdBUkVUaGt0M2xz?oc=5",
           "source": "Google News"
         }
       ],
@@ -267,36 +267,36 @@
   ],
   "most_mentioned": [
     {
-      "company": "Deliverect",
-      "count": 49
-    },
-    {
-      "company": "SpotOn",
-      "count": 39
-    },
-    {
-      "company": "Lightspeed",
-      "count": 32
-    },
-    {
       "company": "DoorDash",
-      "count": 30
+      "count": 20
     },
     {
       "company": "NCR Voyix",
-      "count": 27
+      "count": 16
+    },
+    {
+      "company": "Toast",
+      "count": 16
+    },
+    {
+      "company": "TouchBistro",
+      "count": 16
+    },
+    {
+      "company": "SpotOn",
+      "count": 16
     },
     {
       "company": "Sparkfly",
-      "count": 26
+      "count": 16
     },
     {
-      "company": "Snackpass",
-      "count": 25
+      "company": "Fiserv",
+      "count": 15
     },
     {
-      "company": "Paytronix",
-      "count": 25
+      "company": "Global Payments",
+      "count": 15
     }
   ]
 }
