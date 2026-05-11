@@ -1,46 +1,45 @@
 {
-  "updated": "2026-05-11T18:19:13.795509+00:00",
+  "updated": "2026-05-11T20:18:52.312922+00:00",
   "total": 3,
   "by_category": {
-    "analyst_downgrade": 1,
-    "stock_move": 2
+    "stock_move": 3
   },
   "alerts": [
-    {
-      "category": "analyst_downgrade",
-      "severity": "high",
-      "company": "Toast",
-      "headline": "Toast (NYSE:TOST) Hits New 12-Month Low on Analyst Downgrade - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYkIxZktfaUpBQnk0NWItNTN0NWNsVzB2Qi1BekJDQk5LbHlxRWk5NHBPYmlmbDlmMVFKdV9BNEJvS2NzRnVZZmpVb0J0dWt1eS1lVXdLRHM3U0Zzb3VhMUlVZ2lTZFZPUXc2NVlrQ0pWWHV3dFVIa0xsSm9RbXRlTnd6MkVEVnRZVjA4Q1JzLWl0X3ZEd3UxTGxHM0hYZUVJT0s5TzJNSkdKV1ljSXFJLQ?oc=5",
-      "source": "Google News",
-      "date": "Sat, 09 May 2026 05:25:10 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-05-11T18:19:13.795509+00:00"
-    },
     {
       "category": "stock_move",
       "severity": "high",
       "company": "Toast",
-      "headline": "Toast (TOST) stock down 14.2% over the past week",
+      "headline": "Toast (TOST) stock down 15.2% over the past week",
       "url": "https://finance.yahoo.com/quote/TOST",
       "source": "Yahoo Finance",
-      "date": "2026-05-11T18:19:13.795509+00:00",
+      "date": "2026-05-11T20:18:52.312922+00:00",
       "par_relevance": 3,
-      "note": "-14.2% 1W",
-      "detected_at": "2026-05-11T18:19:13.795509+00:00"
+      "note": "-15.2% 1W",
+      "detected_at": "2026-05-11T20:18:52.312922+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "PAR",
-      "headline": "PAR (PAR) stock up 9.2% over the past week",
+      "headline": "PAR (PAR) stock up 11.8% over the past week",
       "url": "https://finance.yahoo.com/quote/PAR",
       "source": "Yahoo Finance",
-      "date": "2026-05-11T18:19:13.795509+00:00",
+      "date": "2026-05-11T20:18:52.312922+00:00",
       "par_relevance": 3,
-      "note": "+9.2% 1W",
-      "detected_at": "2026-05-11T18:19:13.795509+00:00"
+      "note": "+11.8% 1W",
+      "detected_at": "2026-05-11T20:18:52.312922+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "medium",
+      "company": "NCR Voyix",
+      "headline": "NCR Voyix (VYX) stock up 7.3% over the past week",
+      "url": "https://finance.yahoo.com/quote/VYX",
+      "source": "Yahoo Finance",
+      "date": "2026-05-11T20:18:52.312922+00:00",
+      "par_relevance": 3,
+      "note": "+7.3% 1W",
+      "detected_at": "2026-05-11T20:18:52.312922+00:00"
     }
   ]
 }
