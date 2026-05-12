@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11T23:01:56.247546+00:00",
+  "updated": "2026-05-12T01:17:52.031263+00:00",
   "tickers": {
     "PAR": {
       "ticker": "PAR",
@@ -175,7 +175,7 @@
       "ticker": "TOST",
       "company": "Toast",
       "price": 24.19,
-      "market_cap": 14022918144.0,
+      "market_cap": 14030199808.0,
       "ttm_revenue": 6446000128.0,
       "ttm_ebitda": 420000000.0,
       "ttm_gross_profit": 1699000064.0,
@@ -243,7 +243,6 @@
         {
           "endDate": "2025-12-31",
           "totalRevenue": 1633000000.0,
-          "costOfRevenue": 1210000000.0,
           "grossProfit": 423000000.0,
           "researchDevelopment": 97000000.0,
           "sellingGeneralAdministrative": 237000000.0,
@@ -285,7 +284,7 @@
           "endDate": "2025-12-31",
           "cash": 1353000000.0,
           "shortTermInvestments": 638000000.0,
-          "netReceivables": 103000000.0,
+          "netReceivables": 127000000.0,
           "totalCurrentAssets": 2669000000.0,
           "totalAssets": 3145000000.0,
           "totalCurrentLiabilities": 969000000.0,
@@ -348,7 +347,7 @@
       "revenue_growth_yoy": 0.331,
       "ebitda_margin": 0.091709994,
       "gross_margin": 0.51763,
-      "enterprise_value": 69193367552.0,
+      "enterprise_value": 66317627392.0,
       "trailing_pe": 74.56399,
       "forward_pe": 20.664663,
       "income_statement_annual": [
@@ -517,7 +516,7 @@
       "revenue_growth_yoy": -0.01,
       "ebitda_margin": 0.09399,
       "gross_margin": 0.2417,
-      "enterprise_value": 2444689920.0,
+      "enterprise_value": 2366139904.0,
       "trailing_pe": 27.785715,
       "forward_pe": 7.965843,
       "income_statement_annual": [
@@ -683,7 +682,7 @@
       "revenue_growth_yoy": 0.115,
       "ebitda_margin": -0.023,
       "gross_margin": 0.4284,
-      "enterprise_value": 894994240.0,
+      "enterprise_value": 819478720.0,
       "trailing_pe": null,
       "forward_pe": 14.022775,
       "income_statement_annual": [
@@ -845,7 +844,7 @@
       "revenue_growth_yoy": 0.322,
       "ebitda_margin": 0.19111,
       "gross_margin": 0.35099998,
-      "enterprise_value": 8618825728.0,
+      "enterprise_value": 8530770432.0,
       "trailing_pe": 47.666668,
       "forward_pe": 6.227634,
       "income_statement_annual": [
@@ -1004,9 +1003,9 @@
       "revenue_growth_yoy": 0.049,
       "ebitda_margin": 0.06437,
       "gross_margin": 0.45078,
-      "enterprise_value": 45327409152.0,
+      "enterprise_value": 44327505920.0,
       "trailing_pe": 57.164062,
-      "forward_pe": 14.821881,
+      "forward_pe": 14.81738,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
@@ -1167,14 +1166,14 @@
       "ticker": "GPN",
       "company": "Global Payments",
       "price": 68.77,
-      "market_cap": 18801500160.0,
+      "market_cap": 18811586560.0,
       "ttm_revenue": 8855241728.0,
       "ttm_ebitda": 3920230912.0,
       "ttm_gross_profit": 5968721920.0,
       "revenue_growth_yoy": 0.631,
       "ebitda_margin": 0.4427,
       "gross_margin": 0.67403,
-      "enterprise_value": 37534629888.0,
+      "enterprise_value": 37419741184.0,
       "trailing_pe": 28.535267,
       "forward_pe": 4.2629447,
       "income_statement_annual": [
@@ -1474,7 +1473,7 @@
       "revenue_growth_yoy": 0.145,
       "ebitda_margin": 0.13076,
       "gross_margin": 0.39635,
-      "enterprise_value": 160974946304.0,
+      "enterprise_value": 162399862784.0,
       "trailing_pe": 18.89578,
       "forward_pe": 17.564093,
       "income_statement_annual": [
