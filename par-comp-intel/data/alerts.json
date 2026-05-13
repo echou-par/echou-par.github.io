@@ -1,10 +1,23 @@
 {
-  "updated": "2026-05-12T23:08:42.050007+00:00",
-  "total": 4,
+  "updated": "2026-05-13T01:24:20.851815+00:00",
+  "total": 5,
   "by_category": {
+    "analyst_downgrade": 1,
     "stock_move": 4
   },
   "alerts": [
+    {
+      "category": "analyst_downgrade",
+      "severity": "high",
+      "company": "Toast",
+      "headline": "Rothschild Redburn Downgrades Toast Inc. (TOST) to Neutral - StreetInsider",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQLVZ6a3doMnhMWW5Ma0EtUUtBdHRfWWxMMzBPMWV3d21nYzdaazVfMmd4R296bW5SSjU2cXFQLU9YbEE0T19Id2todVAxWTdmTWR2dlFZNDdJVXV3QVNPSENMSzRaSzQybWVIUy16T2k2N3dqbU1BTEh5eU9LS3N6aUNnMW9vSFhncTFTZGUzNjZCMDJLSXhLMlc3YWE5RXlVLUNvQ3A0MlJGZGUzS1U4M0N2TWhYd3lX?oc=5",
+      "source": "Google News",
+      "date": "Tue, 12 May 2026 08:53:06 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-05-13T01:24:20.851815+00:00"
+    },
     {
       "category": "stock_move",
       "severity": "high",
@@ -12,10 +25,10 @@
       "headline": "PAR (PAR) stock up 12.1% over the past week",
       "url": "https://finance.yahoo.com/quote/PAR",
       "source": "Yahoo Finance",
-      "date": "2026-05-12T23:08:42.050007+00:00",
+      "date": "2026-05-13T01:24:20.851815+00:00",
       "par_relevance": 3,
       "note": "+12.1% 1W",
-      "detected_at": "2026-05-12T23:08:42.050007+00:00"
+      "detected_at": "2026-05-13T01:24:20.851815+00:00"
     },
     {
       "category": "stock_move",
@@ -24,10 +37,10 @@
       "headline": "Toast (TOST) stock down 17.8% over the past week",
       "url": "https://finance.yahoo.com/quote/TOST",
       "source": "Yahoo Finance",
-      "date": "2026-05-12T23:08:42.050007+00:00",
+      "date": "2026-05-13T01:24:20.851815+00:00",
       "par_relevance": 3,
       "note": "-17.8% 1W",
-      "detected_at": "2026-05-12T23:08:42.050007+00:00"
+      "detected_at": "2026-05-13T01:24:20.851815+00:00"
     },
     {
       "category": "stock_move",
@@ -36,10 +49,10 @@
       "headline": "NCR Voyix (VYX) stock up 8.1% over the past week",
       "url": "https://finance.yahoo.com/quote/VYX",
       "source": "Yahoo Finance",
-      "date": "2026-05-12T23:08:42.050007+00:00",
+      "date": "2026-05-13T01:24:20.851815+00:00",
       "par_relevance": 3,
       "note": "+8.1% 1W",
-      "detected_at": "2026-05-12T23:08:42.050007+00:00"
+      "detected_at": "2026-05-13T01:24:20.851815+00:00"
     },
     {
       "category": "stock_move",
@@ -48,10 +61,10 @@
       "headline": "DoorDash (DASH) stock down 7.6% over the past week",
       "url": "https://finance.yahoo.com/quote/DASH",
       "source": "Yahoo Finance",
-      "date": "2026-05-12T23:08:42.050007+00:00",
+      "date": "2026-05-13T01:24:20.851815+00:00",
       "par_relevance": 2,
       "note": "-7.6% 1W",
-      "detected_at": "2026-05-12T23:08:42.050007+00:00"
+      "detected_at": "2026-05-13T01:24:20.851815+00:00"
     }
   ]
 }
