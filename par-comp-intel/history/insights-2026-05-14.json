@@ -2,7 +2,7 @@
   "date": "2026-05-14",
   "weekday": "Thursday",
   "first_seen": "2026-05-14T05:29:05.647995+00:00",
-  "last_updated": "2026-05-14T13:00:31.165123+00:00",
+  "last_updated": "2026-05-14T15:38:30.176430+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Toast appeared together in coverage \u2014 \"Toast Wins Hungry Howie\u2019s Deal As DoorDash POS Pressures Outlook - simplywall.st\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-05-14T05:29:05.647995+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 11 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -163,40 +163,123 @@
       ],
       "company": "Fiserv",
       "first_detected": "2026-05-14T10:58:39.440680+00:00"
+    },
+    {
+      "text": "Deliverect shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Deliverect Partners with DataCandy to Connect Digital Ordering, Loyalty and Gift Cards Across Every Restaurant Channel - PR Newswire\"",
+      "sources": [
+        {
+          "title": "Deliverect Partners with DataCandy to Connect Digital Ordering, Loyalty and Gift Cards Across Every Restaurant Channel - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNa1VJR2c5aThIZHVULVhzUEJOaXU2Tzd6V1RYNXRRTVFjRW9ta3J5OERHZHNMdFh2dk9VdjJmRnlfWmo2SC1Md3dkdTlyMGlFWTZRZ1pFZF9NRUxFZ3ZqeXpUaU9kTXVXY08yNW9BazBtVHp3RXh4NUhpMU0zanJuU0huanFqQjl6aFJ1WFBuajZSRl9PY19fVmQtS3V1TTh1cG1jczRzSlBmUnhKS0xyU2JFeWJPSG5GWHBfX1JMblg5M2NuU2RyRFpEWHhMdm5nZVV4WnhTUFVmQ25DTmtXR0M4NXJwZWV4bVVnMmxBdWlIQUgydVFEQXAzUGdCVE1tQUlv?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Deliverect, DataCandy partner for loyalty - QSR Web",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1EVFRrR0NwUTh2Vmo1dVIzektyNVdoRHpaU1JjZVJOVFlENGVFRExNTHFZZXdFNlhqSmRkaUVaVU5oZTdXZnhNSnR2Wmh1R1UyeklMWUpIZDlEZ3Z4dlZTNDJLTmd2bVhFdVo1TE93NERqSTBqQ3ZsSw?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Winpos: Integration Overview - help.deliverect.com",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWVlXbE9RS2VTRXBiVEVpTDZqNXRLbDRYZjJUSXkwYTJNV3BBbVY5VVBFUk9kQnRyQm55dHRVNEVBbjA1NGdnZ3BWQjVVWVB2VjRDekJ3TEc3dC11RDRKeUVzS0U1Y0ZhckN3V0RMbjhOaTg1Qy1qMmI4Q0VLMHYtRzF3?oc=5",
+          "source": "Google News (deliverect.com)"
+        }
+      ],
+      "company": "Deliverect",
+      "first_detected": "2026-05-14T15:38:30.176430+00:00"
+    },
+    {
+      "text": "Shift4 shows concentrated product launch activity \u2014 3 tracked product launch items this cycle. Latest: \"Shift4 Partners with Lydian to Support USDT Payment Acceptance - Shift4\"",
+      "sources": [
+        {
+          "title": "Shift4 Partners with Lydian to Support USDT Payment Acceptance - Shift4",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSmcyUjVHN1VHXzVMdjN4MEJfUGRSd2Q5aUwzaFVVdEdPZDdOWVZ2Yk5jUW5iZkJESC1fcl9RaDY5M0ZpN3RwM1lTcDc2aWxoaEpvZkNLeDIta0hqZW5lYmhBS0dxZC16M2hqQ25ucm1rb25Uc0h6M1hNSzZIWVEyTUpiRkRfZFFpWmNDcnBMc2VqYkJzZWphRTA2amVEWFp1ZjY3YUpnRk1hc25nWU53SU1LOUtTcmRxZzctYTlJNmRuY1lRVzRyYg?oc=5",
+          "source": "Google News (shift4.com)"
+        },
+        {
+          "title": "Shift4 Partners with Chicago Cubs to Power Commerce at Iconic Wrigley Field - Shift4",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONVFMRFdmcXJfaWpOSUJWRW5taGNkSGZoVUdhR24wbVVTMDlFZUNmSUlibnhlOTlsUF9RMURvdEpza1gyM0NHcU1uYnV6YzdHNTRtbTlsSDR1ZlRaUWhJMS00N0xYRkNrY0tHSDY0dE85a0JXYTI2eGk5QkwwdE9WMFFLMHlMMnhTV1Rhem5vRFBQM1AzZ2xfa2JvTndETEt5WDRHOVljd19xRWZIZ2ZGOGFFWGh2SzdlRVNUNTJ0c3lKMTdpUlhGUWQtWTEyWS0xaFVSNW92VktsUQ?oc=5",
+          "source": "Google News (shift4.com)"
+        },
+        {
+          "title": "Shift4 | Integrate Payments and Commerce Technology - Shift4",
+          "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE4zSmswR0FJOW40RzNPZ042d05kRGs4MG4xNU5WemozSERIYmE1R1IyQVk3bnJ3R0FwVUUw?oc=5",
+          "source": "Google News (shift4.com)"
+        }
+      ],
+      "company": "Shift4",
+      "first_detected": "2026-05-14T15:38:30.176430+00:00"
+    },
+    {
+      "text": "DoorDash shows concentrated campaign activity \u2014 3 tracked campaign items this cycle. Latest: \"DoorDash Unveils Second Annual List of America\u2019s Favorite Delivery Spots Across Cuisines - DoorDash\"",
+      "sources": [
+        {
+          "title": "DoorDash Unveils Second Annual List of America\u2019s Favorite Delivery Spots Across Cuisines - DoorDash",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMGlmMkpfMWhCbnBPLXZ1LTRuZmxoT0pVMlNvRnoxQzh5dWQ2OVNpcjZSRVFSOWZ0dUg1WmNBUXQtQkd2WkxPbzI0dGdaZkJrWU5GR2x5QS1HTU9TYmM1Vndab2QxSzNGYW9ONy1KcFFHNzJELUQ5M2dSYjFBUmdyM28tNG80LVh0YmNsWHYwcko?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "The 12 Best Store-Bought Soups, Out of 25 - DoorDash Blog",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE92VnBRb18ydTdLc1Y1NlhLNVFoOVAySm50WUFhalp0NlNzMlRtSkZHbGxzY3daejNycUJ4VlRuQmR0TjgxTG8tekljMmdqcEVMZVU2QUplLVpqQ2NvZmNnYm5ENmtoa2h3cFNNeA?oc=5",
+          "source": "Google News (blog.doordash.com)"
+        },
+        {
+          "title": "The 8 Best Plastic Food Storage Containers for Every Use - DoorDash Blog",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82NENKSFJSNzB2WFFVc1AtbUg4aF9TN2NhVmZuY19SQXUxRnhyV1gxeGFmQTlpbzAwU0JtVkpTRTlUVmVpT0ZzbzV4UFRvUWtKVXdBXzU1VFQyNzkxazZWeTVMWGVHNGlZdnZBWWJmMXNlcHI4RmRSckpXQ0hrZw?oc=5",
+          "source": "Google News (blog.doordash.com)"
+        }
+      ],
+      "company": "DoorDash",
+      "first_detected": "2026-05-14T15:38:30.176430+00:00"
+    },
+    {
+      "text": "Square shows concentrated risk activity \u2014 2 tracked risk items this cycle. Latest: \"Is Block Inc. (SQ) Navigating a Shifting Fintech Landscape, or Is It Signaling Deeper Concerns - Kavout\"",
+      "sources": [
+        {
+          "title": "Is Block Inc. (SQ) Navigating a Shifting Fintech Landscape, or Is It Signaling Deeper Concerns - Kavout",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSTJTVl9zdUhsaGNYNWJDWHQ0X1lLYkZhRktjUUJQU3l3WThHNkFXd0E1c0tyVmpXYm4wOGlRM2FPT0wwenJoSmZrQjkwZWpLeWVsVDZCRnhvYlgyRHUtT1pVZGZfSzN3Yl9aaXVBTU9obWl2YzRrSnFqY1pSZDItTUd4YWVjRkItc2tGQ2ZJQmlfVFFPVEduLTktSU9jVF81WEhPTmRLd1RyMndKQ2NoUmROZk5Wc3JVMGJpOHhiZllBZzg?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Block, Inc. (XYZ) Faces Securities Class Action, Regulators Levy Cash App Fines Following Investigations Going Back to Hindenburg Report- Hagens Berman - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQM05pMnk1bGRndDlvUGFXOHJzcFNxQWVEYjBhYUdSZGxGRUdtTDVieUxSajF6OXo4cm5TU3pkdldhM2VRd2tSRXFka3pWN2Uyc1A5MmtMTG9PcW4wNVNiSXNtcVlzNmdfR1p3X1hJQnhBenc5ZERxX1VMZDRjNHhYcHlEVXdmeTRqWDhpbDR2Mlo4ZnFDMUU2dm1OcVp4WVFlWjNlc0NjYjcyRDZDMk9TSFhDTlhuRXhCckNQWWlrdHVjcjVKNl9lb1BJU0V2bGc2MlEzc0FQTWYxUFFPTnlsUEwzeFgxSDNlWWFZeC16OWNQSkdQVFRXaUo0RlBMczZfT3BERTZ4eUVleEJERVkydnBvNlFZUGJQQ0Y0Rmcxa0RrZlRQRkNWTw?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Square",
+      "first_detected": "2026-05-14T15:38:30.176430+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
-      "count": 20
+      "company": "Deliverect",
+      "count": 48
     },
     {
-      "company": "Fiserv",
-      "count": 16
+      "company": "SpotOn",
+      "count": 36
+    },
+    {
+      "company": "Lightspeed",
+      "count": 33
+    },
+    {
+      "company": "DoorDash",
+      "count": 30
     },
     {
       "company": "Toast",
-      "count": 16
+      "count": 26
     },
     {
       "company": "Sparkfly",
-      "count": 16
+      "count": 26
     },
     {
-      "company": "Global Payments",
-      "count": 15
+      "company": "Fiserv",
+      "count": 25
     },
     {
       "company": "Uber Eats",
-      "count": 15
-    },
-    {
-      "company": "PAR",
-      "count": 15
-    },
-    {
-      "company": "Shift4",
-      "count": 15
+      "count": 25
     }
   ]
 }
