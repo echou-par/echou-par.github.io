@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-14T05:29:05.647995+00:00",
+  "updated": "2026-05-14T08:13:04.058322+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Toast appeared together in coverage \u2014 \"Toast Wins Hungry Howie\u2019s Deal As DoorDash POS Pressures Outlook - simplywall.st\"",
@@ -64,8 +64,13 @@
       "company": "Global Payments"
     },
     {
-      "text": "PAR shows concentrated financial/market activity \u2014 13 tracked financial/market items this cycle. Latest: \"[Form 4] PAR TECHNOLOGY CORP Insider Trading Activity - Stock Titan\"",
+      "text": "PAR shows concentrated financial/market activity \u2014 13 tracked financial/market items this cycle. Latest: \"PAR Technology Q1 Earnings Call Highlights - MarketBeat\"",
       "sources": [
+        {
+          "title": "PAR Technology Q1 Earnings Call Highlights - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPS3NrUXZDbVRWZUpGZUphbE44Nkw5MUZlWGw0N2YwRFl0OXlENnVhdml5VDJYQmpBdG16cUNyVEFCU3dQRU9kY2piSzl4ZzhUeDNrQ2FRLUpiQy1qNVExeC1fWEhHSTdKSWtJZE1CbG05SHhuOUNPVEdtUU8tMTZkT1pkbnlTXzg0cThfalcxUW92ZmFjNFR0VG1mRHk?oc=5",
+          "source": "Google News"
+        },
         {
           "title": "[Form 4] PAR TECHNOLOGY CORP Insider Trading Activity - Stock Titan",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRTYwNjZpeEpOWUZZMlNZT01tbzVHUjFHMGZ5Q1paSTZHWk1lWmdxOVhjcFR2MVJpMW1waXZkMGdhd2ZPczZKekwtUUVzVE50TmpRMmNONEFHZXoxQnhpS3ExN1pSYjNuT3g5b1JQSl9wRkZKeXlHR1FwcXhWcTNmcTJTTVpwZUdPdGxWZmdZdV9scjR4dENBVDZ0eDY1bDFGMDA5WW16RnJHUVo3ZEdDYlVR?oc=5",
@@ -75,17 +80,12 @@
           "title": "PAR Technology (PAR) awards 66,293 restricted stock units to CLO - Stock Titan",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQkxreVhaZFFvNjYycW1kYng4YnJvXzBPQkJzZlppanA4cjdFRm0xQzFxSjloMFNLcXoyNXhDSFd6M0ZaVDd2cHFPanVMd0hIc09CTTNZWVBGMllwS3RjNE1oa2xOTDFNU1hHNHVNZ3ZzRnpocWpobEZrQ3RxaXl2SHZEOGFpYU54TWVPYW8wcnRveU8xelVSa1U0aHFzem95ZXNlQnVVSHQxZlBDbHVYVmNR?oc=5",
           "source": "Google News"
-        },
-        {
-          "title": "PAR Technology (PAR) SVP awarded 26,517 RSUs, holdings corrected - Stock Titan",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNR2N5Nnd4MzhWU3JDX05SeHdHaVZodnB6Z3RVRE53V3Y1TWp0TDdoMXZxSUdxczkxUWtLRG82Qzk1azVodFBmRHc3OGxQWE5EMmtiX19Zb0d5MkdsLTBNN1QyWmxkUmQ5ZzBkUFVzUWV6ZDJ3Rmt6TmdJdF9aYUwtS3lqN0ZxQ0s3NVRCNTQ2TUpGdGtHUzF5UVNTSER1TnlvYXJ3OVdMaldZV2JzZHRVM0N3?oc=5",
-          "source": "Google News"
         }
       ],
       "company": "PAR"
     },
     {
-      "text": "Shift4 shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Earnings call transcript: Shift4 Payments beats Q1 2026 forecasts with strong growth - Investing.com\"",
+      "text": "Shift4 shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Earnings call transcript: Shift4 Payments beats Q1 2026 forecasts with strong growth - Investing.com\"",
       "sources": [
         {
           "title": "Earnings call transcript: Shift4 Payments beats Q1 2026 forecasts with strong growth - Investing.com",
@@ -128,15 +128,23 @@
       "count": 20
     },
     {
-      "company": "Fiserv",
+      "company": "Global Payments",
       "count": 17
     },
     {
-      "company": "Toast",
+      "company": "PAR",
       "count": 16
     },
     {
-      "company": "Olo",
+      "company": "Fiserv",
+      "count": 16
+    },
+    {
+      "company": "NCR Voyix",
+      "count": 16
+    },
+    {
+      "company": "Toast",
       "count": 16
     },
     {
@@ -145,14 +153,6 @@
     },
     {
       "company": "Shift4",
-      "count": 15
-    },
-    {
-      "company": "PAR",
-      "count": 15
-    },
-    {
-      "company": "Global Payments",
       "count": 15
     }
   ]
