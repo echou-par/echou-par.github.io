@@ -2,7 +2,7 @@
   "date": "2026-05-15",
   "weekday": "Friday",
   "first_seen": "2026-05-15T04:36:12.298878+00:00",
-  "last_updated": "2026-05-15T20:41:22.190270+00:00",
+  "last_updated": "2026-05-15T22:03:30.297021+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Toast appeared together in coverage \u2014 \"Toast Wins Hungry Howie\u2019s Deal As DoorDash POS Pressures Outlook - simplywall.st\"",
@@ -105,7 +105,7 @@
       "first_detected": "2026-05-15T04:36:12.298878+00:00"
     },
     {
-      "text": "PAR shows concentrated financial/market activity \u2014 12 tracked financial/market items this cycle. Latest: \"Newtyn Management (PAR) reports aggregate 2.73M shares, 6.6% stake - Stock Titan\"",
+      "text": "PAR shows concentrated financial/market activity \u2014 13 tracked financial/market items this cycle. Latest: \"Newtyn Management (PAR) reports aggregate 2.73M shares, 6.6% stake - Stock Titan\"",
       "sources": [
         {
           "title": "Newtyn Management (PAR) reports aggregate 2.73M shares, 6.6% stake - Stock Titan",
@@ -225,8 +225,16 @@
       "count": 17
     },
     {
-      "company": "Fiserv",
-      "count": 17
+      "company": "Toast",
+      "count": 16
+    },
+    {
+      "company": "Global Payments",
+      "count": 16
+    },
+    {
+      "company": "TouchBistro",
+      "count": 16
     },
     {
       "company": "SpotOn",
@@ -237,15 +245,7 @@
       "count": 16
     },
     {
-      "company": "PAR",
-      "count": 15
-    },
-    {
       "company": "Shift4",
-      "count": 15
-    },
-    {
-      "company": "Toast",
       "count": 15
     }
   ]
