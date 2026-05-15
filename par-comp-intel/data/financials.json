@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-15T00:02:16.339143+00:00",
+  "updated": "2026-05-15T04:36:12.298878+00:00",
   "tickers": {
     "PAR": {
       "ticker": "PAR",
@@ -243,7 +243,6 @@
         {
           "endDate": "2025-12-31",
           "totalRevenue": 1633000000.0,
-          "costOfRevenue": 1210000000.0,
           "grossProfit": 423000000.0,
           "researchDevelopment": 97000000.0,
           "sellingGeneralAdministrative": 237000000.0,
@@ -285,7 +284,7 @@
           "endDate": "2025-12-31",
           "cash": 1353000000.0,
           "shortTermInvestments": 638000000.0,
-          "netReceivables": 103000000.0,
+          "netReceivables": 127000000.0,
           "totalCurrentAssets": 2669000000.0,
           "totalAssets": 3145000000.0,
           "totalCurrentLiabilities": 969000000.0,
@@ -349,7 +348,7 @@
       "ebitda_margin": 0.091709994,
       "gross_margin": 0.51763,
       "enterprise_value": 64735969280.0,
-      "trailing_pe": 72.5,
+      "trailing_pe": 72.843605,
       "forward_pe": 20.187876,
       "income_statement_annual": [
         {
@@ -683,7 +682,7 @@
       "revenue_growth_yoy": 0.115,
       "ebitda_margin": -0.023,
       "gross_margin": 0.4284,
-      "enterprise_value": 760439360.0,
+      "enterprise_value": 750828288.0,
       "trailing_pe": null,
       "forward_pe": 13.269672,
       "income_statement_annual": [
@@ -845,7 +844,7 @@
       "revenue_growth_yoy": 0.322,
       "ebitda_margin": 0.19111,
       "gross_margin": 0.35099998,
-      "enterprise_value": 8483173376.0,
+      "enterprise_value": 8574401536.0,
       "trailing_pe": 48.29885,
       "forward_pe": 6.3122287,
       "income_statement_annual": [
@@ -1004,8 +1003,8 @@
       "revenue_growth_yoy": 0.049,
       "ebitda_margin": 0.06437,
       "gross_margin": 0.45078,
-      "enterprise_value": 42309844992.0,
-      "trailing_pe": 55.882812,
+      "enterprise_value": 43351408640.0,
+      "trailing_pe": 54.603054,
       "forward_pe": 14.447324,
       "income_statement_annual": [
         {
@@ -1174,7 +1173,7 @@
       "revenue_growth_yoy": 0.631,
       "ebitda_margin": 0.4427,
       "gross_margin": 0.67403,
-      "enterprise_value": 36938305536.0,
+      "enterprise_value": 37025841152.0,
       "trailing_pe": 24.753677,
       "forward_pe": 4.175056,
       "income_statement_annual": [
@@ -1474,7 +1473,7 @@
       "revenue_growth_yoy": 0.145,
       "ebitda_margin": 0.13076,
       "gross_margin": 0.39635,
-      "enterprise_value": 159448252416.0,
+      "enterprise_value": 159427887104.0,
       "trailing_pe": 18.533499,
       "forward_pe": 17.175644,
       "income_statement_annual": [
