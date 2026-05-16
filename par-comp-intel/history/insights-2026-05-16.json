@@ -2,7 +2,7 @@
   "date": "2026-05-16",
   "weekday": "Saturday",
   "first_seen": "2026-05-16T04:57:40.959947+00:00",
-  "last_updated": "2026-05-16T13:51:45.261621+00:00",
+  "last_updated": "2026-05-16T14:37:34.813526+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Toast appeared together in coverage \u2014 \"Toast Wins Hungry Howie\u2019s Deal As DoorDash POS Pressures Outlook - simplywall.st\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-05-16T04:57:40.959947+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -175,40 +175,84 @@
       ],
       "company": "PAR",
       "first_detected": "2026-05-16T11:57:20.712061+00:00"
+    },
+    {
+      "text": "Deliverect shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Deliverect Partners with DataCandy to Connect Digital Ordering, Loyalty and Gift Cards Across Every Restaurant Channel - PR Newswire\"",
+      "sources": [
+        {
+          "title": "Deliverect Partners with DataCandy to Connect Digital Ordering, Loyalty and Gift Cards Across Every Restaurant Channel - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNa1VJR2c5aThIZHVULVhzUEJOaXU2Tzd6V1RYNXRRTVFjRW9ta3J5OERHZHNMdFh2dk9VdjJmRnlfWmo2SC1Md3dkdTlyMGlFWTZRZ1pFZF9NRUxFZ3ZqeXpUaU9kTXVXY08yNW9BazBtVHp3RXh4NUhpMU0zanJuU0huanFqQjl6aFJ1WFBuajZSRl9PY19fVmQtS3V1TTh1cG1jczRzSlBmUnhKS0xyU2JFeWJPSG5GWHBfX1JMblg5M2NuU2RyRFpEWHhMdm5nZVV4WnhTUFVmQ25DTmtXR0M4NXJwZWV4bVVnMmxBdWlIQUgydVFEQXAzUGdCVE1tQUlv?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Deliverect, DataCandy partner for loyalty - QSR Web",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1EVFRrR0NwUTh2Vmo1dVIzektyNVdoRHpaU1JjZVJOVFlENGVFRExNTHFZZXdFNlhqSmRkaUVaVU5oZTdXZnhNSnR2Wmh1R1UyeklMWUpIZDlEZ3Z4dlZTNDJLTmd2bVhFdVo1TE93NERqSTBqQ3ZsSw?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Papa John's Partners Deliverect: Can Delivery Tech Drive Growth? - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWXNNUUd4bE5JRVZxb3ZmdFlFdERhQ0ZIdlpROXJEbmNuSGRVWmJTd2dqa2hTLW1KdVUwN2JzTzF6TG9mMUJDOTdCRjBCdWNYV29hazUtbE81S1ZCblRyWkp5UFN2OGQxaHI0WHd4MndUYktWeUc4VzlSdkdYdXAwdktObFVKUTAwRVJJOGFjUlF1Vk9EbGVTOWtXMnJWeWpuamFua0gxaw?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Deliverect",
+      "first_detected": "2026-05-16T14:37:34.813526+00:00"
+    },
+    {
+      "text": "DoorDash shows concentrated campaign activity \u2014 3 tracked campaign items this cycle. Latest: \"DoorDash Unveils Second Annual List of America\u2019s Favorite Delivery Spots Across Cuisines - DoorDash\"",
+      "sources": [
+        {
+          "title": "DoorDash Unveils Second Annual List of America\u2019s Favorite Delivery Spots Across Cuisines - DoorDash",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMGlmMkpfMWhCbnBPLXZ1LTRuZmxoT0pVMlNvRnoxQzh5dWQ2OVNpcjZSRVFSOWZ0dUg1WmNBUXQtQkd2WkxPbzI0dGdaZkJrWU5GR2x5QS1HTU9TYmM1Vndab2QxSzNGYW9ONy1KcFFHNzJELUQ5M2dSYjFBUmdyM28tNG80LVh0YmNsWHYwcko?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "The 12 Best Store-Bought Soups, Out of 25 - DoorDash Blog",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE92VnBRb18ydTdLc1Y1NlhLNVFoOVAySm50WUFhalp0NlNzMlRtSkZHbGxzY3daejNycUJ4VlRuQmR0TjgxTG8tekljMmdqcEVMZVU2QUplLVpqQ2NvZmNnYm5ENmtoa2h3cFNNeA?oc=5",
+          "source": "Google News (blog.doordash.com)"
+        },
+        {
+          "title": "The 8 Best Plastic Food Storage Containers for Every Use - DoorDash Blog",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82NENKSFJSNzB2WFFVc1AtbUg4aF9TN2NhVmZuY19SQXUxRnhyV1gxeGFmQTlpbzAwU0JtVkpTRTlUVmVpT0ZzbzV4UFRvUWtKVXdBXzU1VFQyNzkxazZWeTVMWGVHNGlZdnZBWWJmMXNlcHI4RmRSckpXQ0hrZw?oc=5",
+          "source": "Google News (blog.doordash.com)"
+        }
+      ],
+      "company": "DoorDash",
+      "first_detected": "2026-05-16T14:37:34.813526+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
-      "count": 17
+      "company": "Deliverect",
+      "count": 49
     },
     {
-      "company": "Global Payments",
-      "count": 16
+      "company": "SpotOn",
+      "count": 38
+    },
+    {
+      "company": "Lightspeed",
+      "count": 34
+    },
+    {
+      "company": "DoorDash",
+      "count": 27
     },
     {
       "company": "Toast",
-      "count": 16
+      "count": 26
+    },
+    {
+      "company": "TouchBistro",
+      "count": 26
     },
     {
       "company": "Sparkfly",
-      "count": 16
-    },
-    {
-      "company": "PAR",
-      "count": 15
-    },
-    {
-      "company": "Shift4",
-      "count": 15
-    },
-    {
-      "company": "Uber Eats",
-      "count": 15
+      "count": 26
     },
     {
       "company": "NCR Voyix",
-      "count": 15
+      "count": 25
     }
   ]
 }
