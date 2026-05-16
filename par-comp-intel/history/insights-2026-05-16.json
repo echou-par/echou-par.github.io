@@ -2,7 +2,7 @@
   "date": "2026-05-16",
   "weekday": "Saturday",
   "first_seen": "2026-05-16T04:57:40.959947+00:00",
-  "last_updated": "2026-05-16T10:46:21.447509+00:00",
+  "last_updated": "2026-05-16T11:57:20.712061+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Toast appeared together in coverage \u2014 \"Toast Wins Hungry Howie\u2019s Deal As DoorDash POS Pressures Outlook - simplywall.st\"",
@@ -153,6 +153,28 @@
       ],
       "company": "Olo",
       "first_detected": "2026-05-16T07:22:32.452510+00:00"
+    },
+    {
+      "text": "PAR shows concentrated financial/market activity \u2014 12 tracked financial/market items this cycle. Latest: \"Newtyn Management (PAR) reports aggregate 2.73M shares, 6.6% stake - Stock Titan\"",
+      "sources": [
+        {
+          "title": "Newtyn Management (PAR) reports aggregate 2.73M shares, 6.6% stake - Stock Titan",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYzlxR1dSc1VuT3NsVjZuYTFEY3hMTE5BMUo2cDRGZWcySTBlRERzTDRzcHlTNy1RcFlNM2pocDY1RU9CdFdCRHFITGI3bmpGZTBKNWJJS2d4SU5LMERHQm1haXZmcGt6NWZ6aTAyUkIyQVMzb2d6ODJCUk1uTGNydE1hZ2V0U1RBNUEzTXpHcTQ4NjVYcVEyTnMxNnJLa1VwM0FDTE0ySGtzN281UVN5VDBxUkNjYzE5Z2kxTkJ2UzdZZTQ?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Insight Enterprises, PAR Technology, Sinclair, CECO Environmental, and HNI Shares Are Soaring, What You Need To Know - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPZzlRak1SNmNmWVRKQ2xzMnhoWTZibk5WWEhUcUpDX0xPOVQyUkdWMDIyMmpadHJvVmljYXdKb2ZSV2pWZWpjRTBETVcxMDJLV1dIeVR1d2I3LU9VamZSam1XdUlIZmlGVkRvTWQ2NzU0U2tGRFBzaFZ0ZzNpSWVucUpELW1GMkx3U1JFWFo3UUs5U01qbU53VWxwQjRBZ1VVSnNaQV9lejZvdWJ0UHlTWkJudXNpd1RWMzluaGd4OFdvUVlVSkEtMHUtY3h4Mk52ODZZakpyekJqT3NaNUxlTnctWFFtem4tY3J1T0k5eFBpQWdmSndVX0hyZW03bmtVWUE?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Free cash flow per share of PAR Technology Corporation \u2013 DUS:35U - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNjNaRXE5bkRzSl8yS1FwWkdWWkhvaVd5ZGVfWnBmMkg5ZHBGelFLenRuOHFrWnByNlgxZTJTZTgzeU03cUx4U29sYW1VdUtDNjBEcGU4Ukk1MWh0a2RLY0doS0pGU2I2MlRLSjM4R2g2WkVqZzJYZUliM0RYb0p1SVBYcG1ValFNNzVjUTVKMUp1WDAyUFFBVVAzbFM1X3dvYjZOcw?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "PAR",
+      "first_detected": "2026-05-16T11:57:20.712061+00:00"
     }
   ],
   "most_mentioned": [
@@ -173,19 +195,19 @@
       "count": 16
     },
     {
-      "company": "TouchBistro",
+      "company": "Sparkfly",
       "count": 16
     },
     {
-      "company": "Sparkfly",
-      "count": 16
+      "company": "Shift4",
+      "count": 15
     },
     {
       "company": "PAR",
       "count": 15
     },
     {
-      "company": "Shift4",
+      "company": "Uber Eats",
       "count": 15
     }
   ]
