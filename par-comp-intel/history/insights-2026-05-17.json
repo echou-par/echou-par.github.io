@@ -2,7 +2,7 @@
   "date": "2026-05-17",
   "weekday": "Sunday",
   "first_seen": "2026-05-17T05:32:08.709356+00:00",
-  "last_updated": "2026-05-17T05:32:08.709356+00:00",
+  "last_updated": "2026-05-17T08:29:06.237596+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Toast appeared together in coverage \u2014 \"Toast Wins Hungry Howie\u2019s Deal As DoorDash POS Pressures Outlook - simplywall.st\"",
@@ -125,16 +125,27 @@
       ],
       "company": "Olo",
       "first_detected": "2026-05-17T05:32:08.709356+00:00"
+    },
+    {
+      "text": "Cross-competitor event: Global Payments, Lightspeed appeared together in coverage \u2014 \"Global Payments Expands Partnership with Lightspeed DMS - RVBusiness\"",
+      "sources": [
+        {
+          "title": "Global Payments Expands Partnership with Lightspeed DMS - RVBusiness",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZjExenVwYzJrbFg5X0VNSmNsV3RCZUNESkJSc0VnRDVHV1c0eWxaOVZBa0tmcWVvczF3R3BCbVk0VTIzcXJidklSSDBiS0VYa0puNEg5a21zYnBZZnVlSlZ6ci1yczdBQWJSUkRRU0I1eEdBZzdPMk02bmgzU0J2ZElWS3FoQQ?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "first_detected": "2026-05-17T08:29:06.237596+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "Toast",
-      "count": 28
-    },
-    {
       "company": "DoorDash",
       "count": 17
+    },
+    {
+      "company": "Toast",
+      "count": 16
     },
     {
       "company": "PAR",
@@ -157,7 +168,7 @@
       "count": 15
     },
     {
-      "company": "Paytronix",
+      "company": "Fiserv",
       "count": 15
     }
   ]
