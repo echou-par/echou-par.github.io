@@ -2,7 +2,7 @@
   "date": "2026-05-17",
   "weekday": "Sunday",
   "first_seen": "2026-05-17T05:32:08.709356+00:00",
-  "last_updated": "2026-05-17T22:27:08.574334+00:00",
+  "last_updated": "2026-05-17T23:33:28.159086+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Toast appeared together in coverage \u2014 \"Toast Wins Hungry Howie\u2019s Deal As DoorDash POS Pressures Outlook - simplywall.st\"",
@@ -110,8 +110,13 @@
       "first_detected": "2026-05-17T05:32:08.709356+00:00"
     },
     {
-      "text": "Olo shows concentrated risk activity \u2014 2 tracked risk items this cycle. Latest: \"OLO INVESTOR REMINDER: Olo Inc. Shareholders are Reminded to Contact BFA Law about its Investigation into the Thoma Bravo Merger - TMX Newsf\"",
+      "text": "Olo shows concentrated risk activity \u2014 3 tracked risk items this cycle. Latest: \"OLO Investors Have the Opportunity to Join Investigation of Olo Inc. with the Schall Law Firm - FinancialContent\"",
       "sources": [
+        {
+          "title": "OLO Investors Have the Opportunity to Join Investigation of Olo Inc. with the Schall Law Firm - FinancialContent",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPMF90ZzJBX0JwdlF1Zl9mRUROeS1STkdLWlNHa19OUFRIeWd2VTJKUkdKVFhDNzdSOUlIUWo2aFBORjBtS0o2eEFDWTQ3ZGg4QWN3UzNwZmU0STVlSHFtTmV0RXFYSGg2Vi1TdFVmanQ4empDVW54RVB6WTZBYjh4MmZkOHdraEx0U2tDSE5tdE1pNHBnN1VVREhXcGdRdllKWUJ2U3U3Ui1LeXpTakJxM1pudF91VUhFbVQ3RU9pejFvV3VrYjlQdC1LRDZLdXZrNWMyakRlMVFZeVEzV19NTm1RZ2V4ZlBHLXpEMGEwdnBmbk5MUUFpaUxJMDE?oc=5",
+          "source": "Google News"
+        },
         {
           "title": "OLO INVESTOR REMINDER: Olo Inc. Shareholders are Reminded to Contact BFA Law about its Investigation into the Thoma Bravo Merger - TMX Newsfile",
           "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOdjNPX0NCWEpQd1FTV0xOdGtTMURja3ZoTmJoM2N4OURCUkhXOFdwLWRQYS02dC1Pb3dwV0tvYTVsMTk1QlFUV3NrVmhEOGNOZ3NTYVRiTW5zRU55TVBtZnVEb3Qtd3JxY2lObklidXcxT0RIa2M5ZHEtaVhCTkFWN1c0ZmNoQlUtN0p1b3hrS0hhOWgtUzRpakIya1dLbm1aaUttMlNId2s1Q1hDT25zb1VNMlJBR00tMWREc005ejdMaTB1YjZETDRqWV8xNndqYWJPcm5CS0ZxNG1jZlBZWjVtUlRfb0hJWGplcUROS1UtZ2hEOEV1OXlidjVzVGtPOW83WjRCNF95MkU?oc=5",
@@ -264,19 +269,15 @@
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
+      "company": "Global Payments",
       "count": 17
     },
     {
-      "company": "Toast",
+      "company": "DoorDash",
       "count": 16
     },
     {
-      "company": "Global Payments",
-      "count": 16
-    },
-    {
-      "company": "TouchBistro",
+      "company": "SpotOn",
       "count": 16
     },
     {
@@ -293,6 +294,10 @@
     },
     {
       "company": "Fiserv",
+      "count": 15
+    },
+    {
+      "company": "Toast",
       "count": 15
     }
   ]
