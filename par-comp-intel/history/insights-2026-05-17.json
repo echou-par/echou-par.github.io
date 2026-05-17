@@ -2,7 +2,7 @@
   "date": "2026-05-17",
   "weekday": "Sunday",
   "first_seen": "2026-05-17T05:32:08.709356+00:00",
-  "last_updated": "2026-05-17T11:39:55.166524+00:00",
+  "last_updated": "2026-05-17T13:47:21.813355+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Toast appeared together in coverage \u2014 \"Toast Wins Hungry Howie\u2019s Deal As DoorDash POS Pressures Outlook - simplywall.st\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-05-17T05:32:08.709356+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -180,40 +180,108 @@
       ],
       "company": "Shift4",
       "first_detected": "2026-05-17T11:39:55.166524+00:00"
+    },
+    {
+      "text": "Cross-competitor event: Paytronix, Square appeared together in coverage \u2014 \"Tavern in the Square with Paytronix Spikes Insider Loyalty Program Registrations by 86% - Yahoo Finance\"",
+      "sources": [
+        {
+          "title": "Tavern in the Square with Paytronix Spikes Insider Loyalty Program Registrations by 86% - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNkdQYXpWSGZKdXk3U19BQV9pbC1ub3Q3RWhidFQzaGIwbmNtV19NVUlmN2p1Zm03V1IyR1J3WDJWMFJfNGRQNDlrR09MWkdTWjM5VGs3TXFUV2E0emVPT2lobWZvRkNyTERsNFRSeGRTZzQ1NUl6X3lJcDV3NWpreU9mQ1ZTWnN5eFRfa3FEcVpnTmcxZ3pfSGQyYVZHcWRXWllKc193?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "first_detected": "2026-05-17T13:47:21.813355+00:00"
+    },
+    {
+      "text": "Cross-competitor event: Square, TouchBistro appeared together in coverage \u2014 \"TouchBistro vs Square: Pricing, Costs & User Experience Rated - tech.co\"",
+      "sources": [
+        {
+          "title": "TouchBistro vs Square: Pricing, Costs & User Experience Rated - tech.co",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE54Q09MaDNONDNhWml0bXJicW9LMzhWdHVFOFBuRUgwdlJCVmc1cDBsNkhhQVdmT0xydlp1anRJLTZ4c3RFVFp4R3Q3WkpqZlU0MFZyV3dlX0hZTHZT?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "first_detected": "2026-05-17T13:47:21.813355+00:00"
+    },
+    {
+      "text": "Deliverect shows concentrated partnership activity \u2014 3 tracked partnership items this cycle. Latest: \"Deliverect Partners with DataCandy to Connect Digital Ordering, Loyalty and Gift Cards Across Every Restaurant Channel - PR Newswire\"",
+      "sources": [
+        {
+          "title": "Deliverect Partners with DataCandy to Connect Digital Ordering, Loyalty and Gift Cards Across Every Restaurant Channel - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNa1VJR2c5aThIZHVULVhzUEJOaXU2Tzd6V1RYNXRRTVFjRW9ta3J5OERHZHNMdFh2dk9VdjJmRnlfWmo2SC1Md3dkdTlyMGlFWTZRZ1pFZF9NRUxFZ3ZqeXpUaU9kTXVXY08yNW9BazBtVHp3RXh4NUhpMU0zanJuU0huanFqQjl6aFJ1WFBuajZSRl9PY19fVmQtS3V1TTh1cG1jczRzSlBmUnhKS0xyU2JFeWJPSG5GWHBfX1JMblg5M2NuU2RyRFpEWHhMdm5nZVV4WnhTUFVmQ25DTmtXR0M4NXJwZWV4bVVnMmxBdWlIQUgydVFEQXAzUGdCVE1tQUlv?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Deliverect, DataCandy partner for loyalty - QSR Web",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1EVFRrR0NwUTh2Vmo1dVIzektyNVdoRHpaU1JjZVJOVFlENGVFRExNTHFZZXdFNlhqSmRkaUVaVU5oZTdXZnhNSnR2Wmh1R1UyeklMWUpIZDlEZ3Z4dlZTNDJLTmd2bVhFdVo1TE93NERqSTBqQ3ZsSw?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Papa John's Partners Deliverect: Can Delivery Tech Drive Growth? - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWXNNUUd4bE5JRVZxb3ZmdFlFdERhQ0ZIdlpROXJEbmNuSGRVWmJTd2dqa2hTLW1KdVUwN2JzTzF6TG9mMUJDOTdCRjBCdWNYV29hazUtbE81S1ZCblRyWkp5UFN2OGQxaHI0WHd4MndUYktWeUc4VzlSdkdYdXAwdktObFVKUTAwRVJJOGFjUlF1Vk9EbGVTOWtXMnJWeWpuamFua0gxaw?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Deliverect",
+      "first_detected": "2026-05-17T13:47:21.813355+00:00"
+    },
+    {
+      "text": "NCR Voyix (VYX) stock declined 14.4% over the past week \u2014 material weekly move relative to broader cohort.",
+      "sources": [
+        {
+          "title": "VYX on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/VYX",
+          "source": "Yahoo Finance"
+        }
+      ],
+      "company": "NCR Voyix",
+      "first_detected": "2026-05-17T13:47:21.813355+00:00"
+    },
+    {
+      "text": "Lightspeed (LSPD) stock declined 5.2% over the past week \u2014 material weekly move relative to broader cohort.",
+      "sources": [
+        {
+          "title": "LSPD on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/LSPD",
+          "source": "Yahoo Finance"
+        }
+      ],
+      "company": "Lightspeed",
+      "first_detected": "2026-05-17T13:47:21.813355+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
-      "count": 17
-    },
-    {
-      "company": "Toast",
-      "count": 16
-    },
-    {
-      "company": "PAR",
-      "count": 16
+      "company": "Paytronix",
+      "count": 15
     },
     {
       "company": "TouchBistro",
-      "count": 16
+      "count": 15
+    },
+    {
+      "company": "Spendgo",
+      "count": 15
+    },
+    {
+      "company": "ItsaCheckmate",
+      "count": 15
+    },
+    {
+      "company": "Tillster",
+      "count": 15
     },
     {
       "company": "Sparkfly",
-      "count": 16
-    },
-    {
-      "company": "Fiserv",
       "count": 15
     },
     {
-      "company": "Shift4",
-      "count": 15
+      "company": "Deliverect",
+      "count": 14
     },
     {
-      "company": "Global Payments",
-      "count": 15
+      "company": "TalonOne",
+      "count": 14
     }
   ]
 }
