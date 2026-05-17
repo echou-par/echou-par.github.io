@@ -2,7 +2,7 @@
   "date": "2026-05-17",
   "weekday": "Sunday",
   "first_seen": "2026-05-17T05:32:08.709356+00:00",
-  "last_updated": "2026-05-17T14:41:13.932969+00:00",
+  "last_updated": "2026-05-17T15:03:57.593769+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Toast appeared together in coverage \u2014 \"Toast Wins Hungry Howie\u2019s Deal As DoorDash POS Pressures Outlook - simplywall.st\"",
@@ -248,40 +248,24 @@
       ],
       "company": "Lightspeed",
       "first_detected": "2026-05-17T13:47:21.813355+00:00"
+    },
+    {
+      "text": "Global Payments (GPN) leading revenue growth at +63.1% YoY \u2014 fastest grower among tracked public competitors.",
+      "sources": [
+        {
+          "title": "Global Payments financials on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/GPN/financials",
+          "source": "Yahoo Finance"
+        }
+      ],
+      "company": "Global Payments",
+      "first_detected": "2026-05-17T15:03:57.593769+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "Deliverect",
-      "count": 49
-    },
-    {
-      "company": "SpotOn",
-      "count": 37
-    },
-    {
-      "company": "Lightspeed",
-      "count": 32
-    },
-    {
-      "company": "DoorDash",
-      "count": 27
-    },
-    {
-      "company": "Toast",
-      "count": 26
-    },
-    {
-      "company": "Sparkfly",
-      "count": 26
-    },
-    {
-      "company": "TouchBistro",
-      "count": 25
-    },
-    {
-      "company": "Spendgo",
-      "count": 25
+      "company": "Thanx",
+      "count": 1
     }
   ]
 }
