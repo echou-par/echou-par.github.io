@@ -1,23 +1,10 @@
 {
-  "updated": "2026-05-18T20:16:24.517142+00:00",
-  "total": 3,
+  "updated": "2026-05-18T21:48:14.840447+00:00",
+  "total": 2,
   "by_category": {
-    "analyst_downgrade": 1,
     "stock_move": 2
   },
   "alerts": [
-    {
-      "category": "analyst_downgrade",
-      "severity": "high",
-      "company": "Shift4",
-      "headline": "Evercore Maintains Shift4 Payments(FOUR.US) With Hold Rating, Cuts Target Price to $45 - \u5bcc\u9014\u725b\u725b",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbENhTnVsb08xTHUwWjJZcjEwd2Z6Y3dYWFVaOENMWG1naFVBd0lkcDZ0N1dsa3N6eU9nQUpEcU95UUdYRTJwd0c5cEhBSFpPa1p2Mk1yOXBGdHlFRWhuVzh0QXhuZFdBNG5FX0sxb1F4MU9WOTBCU2tpeFhVQTdqVzRWbE96amhJN29hc2tqWU40elh2RGZxa1VHZjZkUGU2aWNYNzA2eDNfdExKbUVScg?oc=5",
-      "source": "Google News",
-      "date": "Mon, 18 May 2026 14:01:18 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-05-18T20:16:24.517142+00:00"
-    },
     {
       "category": "stock_move",
       "severity": "high",
@@ -25,10 +12,10 @@
       "headline": "NCR Voyix (VYX) stock down 14.5% over the past week",
       "url": "https://finance.yahoo.com/quote/VYX",
       "source": "Yahoo Finance",
-      "date": "2026-05-18T20:16:24.517142+00:00",
+      "date": "2026-05-18T21:48:14.840447+00:00",
       "par_relevance": 3,
       "note": "-14.5% 1W",
-      "detected_at": "2026-05-18T20:16:24.517142+00:00"
+      "detected_at": "2026-05-18T21:48:14.840447+00:00"
     },
     {
       "category": "stock_move",
@@ -37,10 +24,10 @@
       "headline": "PAR (PAR) stock down 9.8% over the past week",
       "url": "https://finance.yahoo.com/quote/PAR",
       "source": "Yahoo Finance",
-      "date": "2026-05-18T20:16:24.517142+00:00",
+      "date": "2026-05-18T21:48:14.840447+00:00",
       "par_relevance": 3,
       "note": "-9.8% 1W",
-      "detected_at": "2026-05-18T20:16:24.517142+00:00"
+      "detected_at": "2026-05-18T21:48:14.840447+00:00"
     }
   ]
 }
