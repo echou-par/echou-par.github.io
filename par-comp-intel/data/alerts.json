@@ -1,21 +1,46 @@
 {
-  "updated": "2026-05-18T12:40:02.190894+00:00",
-  "total": 1,
+  "updated": "2026-05-18T16:30:23.326689+00:00",
+  "total": 3,
   "by_category": {
-    "stock_move": 1
+    "analyst_downgrade": 1,
+    "stock_move": 2
   },
   "alerts": [
     {
-      "category": "stock_move",
+      "category": "analyst_downgrade",
       "severity": "high",
+      "company": "Shift4",
+      "headline": "Evercore Maintains Shift4 Payments(FOUR.US) With Hold Rating, Cuts Target Price to $45 - \u5bcc\u9014\u725b\u725b",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbENhTnVsb08xTHUwWjJZcjEwd2Z6Y3dYWFVaOENMWG1naFVBd0lkcDZ0N1dsa3N6eU9nQUpEcU95UUdYRTJwd0c5cEhBSFpPa1p2Mk1yOXBGdHlFRWhuVzh0QXhuZFdBNG5FX0sxb1F4MU9WOTBCU2tpeFhVQTdqVzRWbE96amhJN29hc2tqWU40elh2RGZxa1VHZjZkUGU2aWNYNzA2eDNfdExKbUVScg?oc=5",
+      "source": "Google News",
+      "date": "Mon, 18 May 2026 14:01:18 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-05-18T16:30:23.326689+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "medium",
+      "company": "PAR",
+      "headline": "PAR (PAR) stock down 8.2% over the past week",
+      "url": "https://finance.yahoo.com/quote/PAR",
+      "source": "Yahoo Finance",
+      "date": "2026-05-18T16:30:23.326689+00:00",
+      "par_relevance": 3,
+      "note": "-8.2% 1W",
+      "detected_at": "2026-05-18T16:30:23.326689+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "medium",
       "company": "NCR Voyix",
-      "headline": "NCR Voyix (VYX) stock down 14.4% over the past week",
+      "headline": "NCR Voyix (VYX) stock down 11.8% over the past week",
       "url": "https://finance.yahoo.com/quote/VYX",
       "source": "Yahoo Finance",
-      "date": "2026-05-18T12:40:02.190894+00:00",
+      "date": "2026-05-18T16:30:23.326689+00:00",
       "par_relevance": 3,
-      "note": "-14.4% 1W",
-      "detected_at": "2026-05-18T12:40:02.190894+00:00"
+      "note": "-11.8% 1W",
+      "detected_at": "2026-05-18T16:30:23.326689+00:00"
     }
   ]
 }
