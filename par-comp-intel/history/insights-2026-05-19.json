@@ -2,7 +2,7 @@
   "date": "2026-05-19",
   "weekday": "Tuesday",
   "first_seen": "2026-05-19T06:15:20.132052+00:00",
-  "last_updated": "2026-05-19T06:15:20.132052+00:00",
+  "last_updated": "2026-05-19T10:25:22.404400+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Paytronix, Square appeared together in coverage \u2014 \"Tavern in the Square with Paytronix Spikes Insider Loyalty Program Registrations by 86% - The Wise Marketer\"",
@@ -130,12 +130,34 @@
       ],
       "company": "Square",
       "first_detected": "2026-05-19T06:15:20.132052+00:00"
+    },
+    {
+      "text": "Deliverect shows concentrated partnership activity \u2014 5 tracked partnership items this cycle. Latest: \"Deliverect Partners with DataCandy to Connect Digital Ordering, Loyalty and Gift Cards Across Every Restaurant Channel - PR Newswire\"",
+      "sources": [
+        {
+          "title": "Deliverect Partners with DataCandy to Connect Digital Ordering, Loyalty and Gift Cards Across Every Restaurant Channel - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNa1VJR2c5aThIZHVULVhzUEJOaXU2Tzd6V1RYNXRRTVFjRW9ta3J5OERHZHNMdFh2dk9VdjJmRnlfWmo2SC1Md3dkdTlyMGlFWTZRZ1pFZF9NRUxFZ3ZqeXpUaU9kTXVXY08yNW9BazBtVHp3RXh4NUhpMU0zanJuU0huanFqQjl6aFJ1WFBuajZSRl9PY19fVmQtS3V1TTh1cG1jczRzSlBmUnhKS0xyU2JFeWJPSG5GWHBfX1JMblg5M2NuU2RyRFpEWHhMdm5nZVV4WnhTUFVmQ25DTmtXR0M4NXJwZWV4bVVnMmxBdWlIQUgydVFEQXAzUGdCVE1tQUlv?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Deliverect, DataCandy partner for loyalty - QSR Web",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1EVFRrR0NwUTh2Vmo1dVIzektyNVdoRHpaU1JjZVJOVFlENGVFRExNTHFZZXdFNlhqSmRkaUVaVU5oZTdXZnhNSnR2Wmh1R1UyeklMWUpIZDlEZ3Z4dlZTNDJLTmd2bVhFdVo1TE93NERqSTBqQ3ZsSw?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "ConverseNow and Deliverect Announce Partnership to Bring Voice AI Ordering into Unified Restaurant Order & Menu Management - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxONDktOUNQZV9udENNQmVWMWJRMlRIOGpnVHVodnFfdndtMTg3WldkV0xsWThnZFpONmJKRG5sVXFhRTI3RWVwNllZUVB6RFVnWWtocUNVNUlJd1B1NmxEOXFrVmhyYnlueURraEFvUlB3NzVYQTFydmUyZVA3REZBdTQ5UDRySVU2THRPb3BtMTU3aXZwYWx4aUh5aFdrcVBRbDBROTM4M0JCQUh6ZmhSSlVzYW1HODdaUXFWdlMzZDhpZXlidXZVN2twR3BqQnF5Zjd1eUhKV1J5SlR0NklVNDZLeUxnQS05UnhFX0F2N3BrMEdENXpEZDZrWmctR3ZBSk5sYkVVYlI?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Deliverect",
+      "first_detected": "2026-05-19T10:25:22.404400+00:00"
     }
   ],
   "most_mentioned": [
     {
       "company": "DoorDash",
-      "count": 17
+      "count": 19
     },
     {
       "company": "Global Payments",
@@ -146,11 +168,15 @@
       "count": 16
     },
     {
+      "company": "TouchBistro",
+      "count": 16
+    },
+    {
       "company": "SpotOn",
       "count": 16
     },
     {
-      "company": "Shift4",
+      "company": "Toast",
       "count": 15
     },
     {
@@ -158,11 +184,7 @@
       "count": 15
     },
     {
-      "company": "Square",
-      "count": 15
-    },
-    {
-      "company": "TouchBistro",
+      "company": "Spendgo",
       "count": 15
     }
   ]
