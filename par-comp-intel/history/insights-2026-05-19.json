@@ -2,7 +2,7 @@
   "date": "2026-05-19",
   "weekday": "Tuesday",
   "first_seen": "2026-05-19T06:15:20.132052+00:00",
-  "last_updated": "2026-05-19T13:42:26.153272+00:00",
+  "last_updated": "2026-05-19T16:35:13.330242+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Paytronix, Square appeared together in coverage \u2014 \"Tavern in the Square with Paytronix Spikes Insider Loyalty Program Registrations by 86% - The Wise Marketer\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-05-19T06:15:20.132052+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -132,7 +132,7 @@
       "first_detected": "2026-05-19T06:15:20.132052+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 5 tracked partnership items this cycle. Latest: \"Deliverect Partners with DataCandy to Connect Digital Ordering, Loyalty and Gift Cards Across Every Restaurant Channel - PR Newswire\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Deliverect Partners with DataCandy to Connect Digital Ordering, Loyalty and Gift Cards Across Every Restaurant Channel - PR Newswire\"",
       "sources": [
         {
           "title": "Deliverect Partners with DataCandy to Connect Digital Ordering, Loyalty and Gift Cards Across Every Restaurant Channel - PR Newswire",
@@ -174,40 +174,62 @@
       ],
       "company": "PAR",
       "first_detected": "2026-05-19T13:42:26.153272+00:00"
+    },
+    {
+      "text": "TalonOne shows concentrated product launch activity \u2014 3 tracked product launch items this cycle. Latest: \"Talon.One joins forces with Adyen: Read more here - Talon.One\"",
+      "sources": [
+        {
+          "title": "Talon.One joins forces with Adyen: Read more here - Talon.One",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5JUGJETWl5QTlXVUwtaEtWcDdWQTFNU2l3VmNzUVNZeUQzNGI3TF9xNkFGajhyQlBnQUowdm5CUlI0ejlob2xlUXZ3aW5xam0zRTEwTnRzMFdqeTA4TWVJZnNCUQ?oc=5",
+          "source": "Google News (talon.one)"
+        },
+        {
+          "title": "How Talon.One integrates with Adobe Experience Platform: Architecture, data flows, and real-time decisioning - Talon.One",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fejFlSUNmU080eWJ3YXk2RXN3X2xqZFJ6NEM4Qm5BTDFuVnBoS1JLU3Btckx1bDc0TEdSMEZwUE92NDlqaXpJVXdzUU9jakJIUVZXU1NwTUhYU19ibVRFS1lKaXdmNnJSbV9OWDVaRURlOFdCYi1hZFN6d3dzQUk?oc=5",
+          "source": "Google News (talon.one)"
+        },
+        {
+          "title": "Technology integrations for loyalty & promotions - Talon.One",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBET0RsRmlkNHBQYUNnVWpFbUNMT2V4UGptN3I0OXpXSjk0V2FnVGIwMGJCV1RjYXFUdlpkaGd1M0Ytai12Qk9GNWo5MEMtR19fTTZR?oc=5",
+          "source": "Google News (talon.one)"
+        }
+      ],
+      "company": "TalonOne",
+      "first_detected": "2026-05-19T16:35:13.330242+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
-      "count": 19
-    },
-    {
-      "company": "Global Payments",
-      "count": 17
-    },
-    {
-      "company": "PAR",
-      "count": 16
-    },
-    {
-      "company": "NCR Voyix",
-      "count": 16
+      "company": "Deliverect",
+      "count": 48
     },
     {
       "company": "SpotOn",
-      "count": 16
+      "count": 39
     },
     {
-      "company": "Toast",
-      "count": 15
+      "company": "Lightspeed",
+      "count": 35
+    },
+    {
+      "company": "DoorDash",
+      "count": 29
     },
     {
       "company": "Fiserv",
-      "count": 15
+      "count": 26
+    },
+    {
+      "company": "NCR Voyix",
+      "count": 25
+    },
+    {
+      "company": "Paytronix",
+      "count": 25
     },
     {
       "company": "TouchBistro",
-      "count": 15
+      "count": 25
     }
   ]
 }
