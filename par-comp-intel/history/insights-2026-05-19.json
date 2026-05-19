@@ -2,7 +2,7 @@
   "date": "2026-05-19",
   "weekday": "Tuesday",
   "first_seen": "2026-05-19T06:15:20.132052+00:00",
-  "last_updated": "2026-05-19T19:07:19.921744+00:00",
+  "last_updated": "2026-05-19T21:04:10.887177+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Paytronix, Square appeared together in coverage \u2014 \"Tavern in the Square with Paytronix Spikes Insider Loyalty Program Registrations by 86% - The Wise Marketer\"",
@@ -196,6 +196,34 @@
       ],
       "company": "TalonOne",
       "first_detected": "2026-05-19T16:35:13.330242+00:00"
+    },
+    {
+      "text": "Cross-competitor event: Global Payments, Lightspeed appeared together in coverage \u2014 \"Global Payments Expands Partnership with Lightspeed DMS - RVBusiness\"",
+      "sources": [
+        {
+          "title": "Global Payments Expands Partnership with Lightspeed DMS - RVBusiness",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZjExenVwYzJrbFg5X0VNSmNsV3RCZUNESkJSc0VnRDVHV1c0eWxaOVZBa0tmcWVvczF3R3BCbVk0VTIzcXJidklSSDBiS0VYa0puNEg5a21zYnBZZnVlSlZ6ci1yczdBQWJSUkRRU0I1eEdBZzdPMk02bmgzU0J2ZElWS3FoQQ?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "first_detected": "2026-05-19T21:04:10.887177+00:00"
+    },
+    {
+      "text": "Lightspeed shows concentrated risk activity \u2014 2 tracked risk items this cycle. Latest: \"BofA Securities Downgrades Lightspeed Commerce to Underperform From Neutral - Moomoo\"",
+      "sources": [
+        {
+          "title": "BofA Securities Downgrades Lightspeed Commerce to Underperform From Neutral - Moomoo",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSGRTN2VfUUZwSGdwSXhrSy1zRWJxb1N5dVc4ek9DTm14ZUNyWTVlaUl6c2JfWlhEZndtYWROWEh0bThuUGp4alVSRzF1RTJxZEg2TW5wU2tST19wOEdLMlpmY1NndDhpUXgtZU9NZnd6NFMxdXpoV0pWTFdEMkdtemUyaHBsa3BqYnFCTmI5R3pFWUlKT0kyUkJvT3R3cWNyV2ZyWlRiU2w3ZTNwZFRUSEcxdmFnX1RI?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Lightspeed Commerce Inc. (LSPD) declines more than market: Some information for investors - MSN",
+          "url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxQVzViWHNtc0x0Q21sLUNFcUFYYjZzMVFLY0g5WURhei1OckhZczdKd2sycl9VSkxLRDgtcDdaSzh6bkRZX2F3Z2ZGS2JIdF9aYzBLSDRHUVpfcHAwb1BWaVN0WmdmZjBsMW1YYjA5UGhQUnZCTUtnVi1POWtNOW5qdE01d2JxZVd2TUgtdWx3QlZUTE4yZWtlVWNOYVFNSFpna1lsZlM0X0lZZU9pMnhCODc4ODRObEU4MVRZUTJTUlpYQWxsakFIVTQta09DOFZzYldYSWRkRGliTkMwblFZMGhTbW54YXR6LVp5T2Y1UlFITW5MZ2hOeEc0ekFLcXBTTzlCNll5SWRGTG1QVi1RVlNkb3ltenhQaWowcWFJYllxSDdNUXotYktmLXl0UWktWWU2MWVyRl8tS2k0UFU2Q3FKVFRJa1AtSUI3LXp1ODU0aFhfN2VHUVpaWldXZElzR25sNE1XUUY4LW91cjJEUzQtQ3lDT1daR2tjVTNDQzdSM0tSclE?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Lightspeed",
+      "first_detected": "2026-05-19T21:04:10.887177+00:00"
     }
   ],
   "most_mentioned": [
@@ -205,7 +233,11 @@
     },
     {
       "company": "Global Payments",
-      "count": 17
+      "count": 16
+    },
+    {
+      "company": "NCR Voyix",
+      "count": 16
     },
     {
       "company": "TouchBistro",
@@ -216,19 +248,15 @@
       "count": 16
     },
     {
-      "company": "Toast",
-      "count": 15
-    },
-    {
-      "company": "Uber Eats",
-      "count": 15
-    },
-    {
-      "company": "Shift4",
-      "count": 15
-    },
-    {
       "company": "PAR",
+      "count": 15
+    },
+    {
+      "company": "Fiserv",
+      "count": 15
+    },
+    {
+      "company": "Square",
       "count": 15
     }
   ]
