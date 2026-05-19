@@ -1,6 +1,21 @@
 {
-  "updated": "2026-05-19T16:52:42.721678+00:00",
-  "total": 0,
-  "by_category": {},
-  "alerts": []
+  "updated": "2026-05-19T17:25:24.060557+00:00",
+  "total": 1,
+  "by_category": {
+    "analyst_downgrade": 1
+  },
+  "alerts": [
+    {
+      "category": "analyst_downgrade",
+      "severity": "high",
+      "company": "Lightspeed",
+      "headline": "BofA Securities Downgrades Lightspeed Commerce to Underperform From Neutral - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSGRTN2VfUUZwSGdwSXhrSy1zRWJxb1N5dVc4ek9DTm14ZUNyWTVlaUl6c2JfWlhEZndtYWROWEh0bThuUGp4alVSRzF1RTJxZEg2TW5wU2tST19wOEdLMlpmY1NndDhpUXgtZU9NZnd6NFMxdXpoV0pWTFdEMkdtemUyaHBsa3BqYnFCTmI5R3pFWUlKT0kyUkJvT3R3cWNyV2ZyWlRiU2w3ZTNwZFRUSEcxdmFnX1RI?oc=5",
+      "source": "Google News",
+      "date": "Tue, 19 May 2026 14:05:18 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-05-19T17:25:24.060557+00:00"
+    }
+  ]
 }
