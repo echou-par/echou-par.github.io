@@ -1,11 +1,24 @@
 {
-  "updated": "2026-05-21T18:05:29.140488+00:00",
-  "total": 4,
+  "updated": "2026-05-21T20:22:35.402258+00:00",
+  "total": 5,
   "by_category": {
+    "analyst_downgrade": 1,
     "guidance_cut": 3,
     "stock_move": 1
   },
   "alerts": [
+    {
+      "category": "analyst_downgrade",
+      "severity": "high",
+      "company": "Lightspeed",
+      "headline": "Lightspeed Commerce (NYSE:LSPD) Shares Down 9.4% After Analyst Downgrade - MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSGw0aVZUcjF0eXhneHBVTG1qQWY5TmszY1d2MDZncUZHc0RmeTczSHBKdnVObVZkcjJxYnhQTEVtWnhGV0NneVd2bkl3MjVzMzFfVnJyZTlWcmZkU1JhbV9GVGk2REJub184UEhydHJfX3JONHlwNlRmT0VjellJQlh2WEg2cnN5SjFqaWwzb3NzNDd3elRhd2puYi1LU2ZXaVBEZG1ia3RkSVY5SGVGQVhfSUFGWWt0cFdSMVBn?oc=5",
+      "source": "Google News",
+      "date": "Thu, 21 May 2026 18:38:26 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-05-21T20:22:35.402258+00:00"
+    },
     {
       "category": "guidance_cut",
       "severity": "high",
@@ -16,7 +29,7 @@
       "date": "Thu, 21 May 2026 16:17:27 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-05-21T18:05:29.140488+00:00"
+      "detected_at": "2026-05-21T20:22:35.402258+00:00"
     },
     {
       "category": "guidance_cut",
@@ -28,7 +41,7 @@
       "date": "Thu, 21 May 2026 15:13:43 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-05-21T18:05:29.140488+00:00"
+      "detected_at": "2026-05-21T20:22:35.402258+00:00"
     },
     {
       "category": "guidance_cut",
@@ -40,19 +53,19 @@
       "date": "Thu, 21 May 2026 11:25:00 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-05-21T18:05:29.140488+00:00"
+      "detected_at": "2026-05-21T20:22:35.402258+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "Global Payments",
-      "headline": "Global Payments (GPN) stock up 7.5% over the past week",
+      "headline": "Global Payments (GPN) stock up 7.4% over the past week",
       "url": "https://finance.yahoo.com/quote/GPN",
       "source": "Yahoo Finance",
-      "date": "2026-05-21T18:05:29.140488+00:00",
+      "date": "2026-05-21T20:22:35.402258+00:00",
       "par_relevance": 3,
-      "note": "+7.5% 1W",
-      "detected_at": "2026-05-21T18:05:29.140488+00:00"
+      "note": "+7.4% 1W",
+      "detected_at": "2026-05-21T20:22:35.402258+00:00"
     }
   ]
 }
