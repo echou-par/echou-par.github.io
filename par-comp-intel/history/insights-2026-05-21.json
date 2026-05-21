@@ -2,7 +2,7 @@
   "date": "2026-05-21",
   "weekday": "Thursday",
   "first_seen": "2026-05-21T04:21:44.693151+00:00",
-  "last_updated": "2026-05-21T08:09:16.956116+00:00",
+  "last_updated": "2026-05-21T11:49:09.507067+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Global Payments, Lightspeed appeared together in coverage \u2014 \"Global Payments Expands Partnership with Lightspeed DMS - RVBusiness\"",
@@ -147,15 +147,37 @@
       ],
       "company": "Lightspeed",
       "first_detected": "2026-05-21T08:09:16.956116+00:00"
+    },
+    {
+      "text": "Global Payments shows concentrated partnership activity \u2014 4 tracked partnership items this cycle. Latest: \"Assessing Global Payments (NYSE:GPN) Valuation After New AI POS Launch And Expanded Payment Partnerships - simplywall.st\"",
+      "sources": [
+        {
+          "title": "Assessing Global Payments (NYSE:GPN) Valuation After New AI POS Launch And Expanded Payment Partnerships - simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbUR0enNxTGZtMVJvSnpUck1McERPQ2YwbFlIeEh4V0ptVnB1NzE3MHdMSm5xRGx1X0lmdFU1MHp4Z1E5LVVZNFp0d0FQQWc4NHI3SFZRMjdKdkRQQ1RFNkptS3ZzcW1jdW5RRHo5blEyZUdYTTZyU2pCQ1RLNVZHWHpxME5IZVVzVkVuUjJyZVJ5aHVULWNvcFBpVVhjX2FmMmNoYWFlUjRiOWo4SDhvVUpsUW1aX0djZmFwNGExcE9kY3kxR2FrWEZkcDg4bS1iYUlzT1oxU0htZ21TbFHSAeMBQVVfeXFMTkdXZUtwbHJLRXk2R0RLQWNVc1dkUUV0NTVlazg3bDljNTA4dnIzejRpOE9XbkIwSF90bW1rZHhwa0M3djVXeVNyS3NMMkJBRkYxLTViX0xua0ZXblM4MG94alhPdkVjWlRhZGVNaGltMDU3WFNjc1N5NW5lMnBiQnBkVHlDSnB0amplUExuM1VESzlNTEVpWWoyS3UzRHpxRDhDUlJ5TkpXenRkWXlTaGxlczcyUk5zZDUwSXU1aWhCQnhRTC1QZDJNcnhJU2JxMkszWkJwS2t0Q3RXVFhaZk5tWUk?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Global Payments Bets On AI Handhelds And Embedded Deals In Restaurants - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNS0dodWxtcVd2SDhuTjdYUlJpb3VvV3o1T0haWllwR2FYWXB2ajZwa3JCUDVLVFc5SlBDMGZLOXo0dm9oYVdzenZFVXBwdHFLX1BqR2VZWW1WdFE0aFBHRlZDeG1qV2YwLXBIR09uN09WalMzbEwyTUM5dnVZVWpTNGhjR3dpMFNMeW5CSlBjdlc3dHBsalJjVm9VcU1EbTQ?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Global Payments Expands Partnership with Lightspeed DMS - RVBusiness",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZjExenVwYzJrbFg5X0VNSmNsV3RCZUNESkJSc0VnRDVHV1c0eWxaOVZBa0tmcWVvczF3R3BCbVk0VTIzcXJidklSSDBiS0VYa0puNEg5a21zYnBZZnVlSlZ6ci1yczdBQWJSUkRRU0I1eEdBZzdPMk02bmgzU0J2ZElWS3FoQQ?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Global Payments",
+      "first_detected": "2026-05-21T11:49:09.507067+00:00"
     }
   ],
   "most_mentioned": [
     {
       "company": "DoorDash",
-      "count": 19
+      "count": 18
     },
     {
-      "company": "PAR",
+      "company": "TouchBistro",
       "count": 16
     },
     {
@@ -163,7 +185,15 @@
       "count": 16
     },
     {
+      "company": "Lightspeed",
+      "count": 15
+    },
+    {
       "company": "Global Payments",
+      "count": 15
+    },
+    {
+      "company": "PAR",
       "count": 15
     },
     {
@@ -172,14 +202,6 @@
     },
     {
       "company": "Square",
-      "count": 15
-    },
-    {
-      "company": "NCR Voyix",
-      "count": 15
-    },
-    {
-      "company": "Uber Eats",
       "count": 15
     }
   ]

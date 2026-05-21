@@ -1,10 +1,23 @@
 {
-  "updated": "2026-05-21T08:09:16.956116+00:00",
-  "total": 1,
+  "updated": "2026-05-21T11:49:09.507067+00:00",
+  "total": 2,
   "by_category": {
+    "guidance_cut": 1,
     "analyst_downgrade": 1
   },
   "alerts": [
+    {
+      "category": "guidance_cut",
+      "severity": "high",
+      "company": "Lightspeed",
+      "headline": "Lightspeed Commerce falls on earnings miss By Investing.com - Investing.com Nigeria",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSU91a0RrM0w0bS1ZTENobTg4SzdqYU9ZbXhZZGRqd0hfLVVDZ1d4RGx6ekJ1S1pQWUFFZG9CbURUeThCTE9OQ2tTOWczVS1wRUdEdjA5TUQ5b2VCYjlHdmFrdmM1LWVma2IwM1FvTm81ZEdFU1BQN0JTRzlvS3dKVE10X1JsMkZPZzI5c0ptTU13blJyc1J2RnR3?oc=5",
+      "source": "Google News",
+      "date": "Thu, 21 May 2026 11:27:21 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-05-21T11:49:09.507067+00:00"
+    },
     {
       "category": "analyst_downgrade",
       "severity": "high",
@@ -15,7 +28,7 @@
       "date": "Tue, 19 May 2026 22:04:36 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-05-21T08:09:16.956116+00:00"
+      "detected_at": "2026-05-21T11:49:09.507067+00:00"
     }
   ]
 }
