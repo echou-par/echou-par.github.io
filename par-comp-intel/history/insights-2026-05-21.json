@@ -2,7 +2,7 @@
   "date": "2026-05-21",
   "weekday": "Thursday",
   "first_seen": "2026-05-21T04:21:44.693151+00:00",
-  "last_updated": "2026-05-21T11:49:09.507067+00:00",
+  "last_updated": "2026-05-21T15:43:30.647785+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Global Payments, Lightspeed appeared together in coverage \u2014 \"Global Payments Expands Partnership with Lightspeed DMS - RVBusiness\"",
@@ -93,16 +93,11 @@
       "first_detected": "2026-05-21T04:21:44.693151+00:00"
     },
     {
-      "text": "Olo shows concentrated risk activity \u2014 3 tracked risk items this cycle. Latest: \"OLO Investors Have the Opportunity to Join Investigation of Olo Inc. with the Schall Law Firm - FinancialContent\"",
+      "text": "Olo shows concentrated risk activity \u2014 2 tracked risk items this cycle. Latest: \"OLO Investors Have the Opportunity to Join Investigation of Olo Inc. with the Schall Law Firm - FinancialContent\"",
       "sources": [
         {
           "title": "OLO Investors Have the Opportunity to Join Investigation of Olo Inc. with the Schall Law Firm - FinancialContent",
           "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPMF90ZzJBX0JwdlF1Zl9mRUROeS1STkdLWlNHa19OUFRIeWd2VTJKUkdKVFhDNzdSOUlIUWo2aFBORjBtS0o2eEFDWTQ3ZGg4QWN3UzNwZmU0STVlSHFtTmV0RXFYSGg2Vi1TdFVmanQ4empDVW54RVB6WTZBYjh4MmZkOHdraEx0U2tDSE5tdE1pNHBnN1VVREhXcGdRdllKWUJ2U3U3Ui1LeXpTakJxM1pudF91VUhFbVQ3RU9pejFvV3VrYjlQdC1LRDZLdXZrNWMyakRlMVFZeVEzV19NTm1RZ2V4ZlBHLXpEMGEwdnBmbk5MUUFpaUxJMDE?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "OLO INVESTIGATION: Current Olo Inc. Shareholders are Urged to Contact BFA Law about the Upcoming Therma Bravo Acquisition - TMX Newsfile",
-          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQSW1UYnFnTnVrQU9pREtNbEpCbEc5M2cxUkIwXzQ4YTFWNFkzd3FHVld6QnhvalJBWjJpODk2TVhFX3VZbmtFNWxFa3ZUWnBFc2g4ZmEwYVliMS1HdGt2cUVYUXZabkZiSlVkc2YtUDlNMzFiRHY0RTJSd0lMWXJIOU1GMG9KbFlOR2R0dWRZVEM0dTdESGtJWWRVMDVYcDliQUw3NFdKZUhWQm5uTWc2WUh3N3ZZZGpZZWpNWVNkWHA5Z3l3QWZ3MWk4ZVJEN2ZZYkwtd0VlbjVKRklqQzFQQTNEN2xEYWhDS3RWMm9sOGUzR0N1eWx6Z3lLUDk0Nkg1Y1E?oc=5",
           "source": "Google News"
         },
         {
@@ -174,7 +169,11 @@
   "most_mentioned": [
     {
       "company": "DoorDash",
-      "count": 18
+      "count": 19
+    },
+    {
+      "company": "PAR",
+      "count": 16
     },
     {
       "company": "TouchBistro",
@@ -185,15 +184,7 @@
       "count": 16
     },
     {
-      "company": "Lightspeed",
-      "count": 15
-    },
-    {
       "company": "Global Payments",
-      "count": 15
-    },
-    {
-      "company": "PAR",
       "count": 15
     },
     {
@@ -202,6 +193,10 @@
     },
     {
       "company": "Square",
+      "count": 15
+    },
+    {
+      "company": "NCR Voyix",
       "count": 15
     }
   ]

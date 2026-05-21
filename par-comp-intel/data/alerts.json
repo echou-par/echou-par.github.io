@@ -1,34 +1,34 @@
 {
-  "updated": "2026-05-21T11:49:09.507067+00:00",
+  "updated": "2026-05-21T15:43:30.647785+00:00",
   "total": 2,
   "by_category": {
     "guidance_cut": 1,
-    "analyst_downgrade": 1
+    "stock_move": 1
   },
   "alerts": [
     {
       "category": "guidance_cut",
       "severity": "high",
       "company": "Lightspeed",
-      "headline": "Lightspeed Commerce falls on earnings miss By Investing.com - Investing.com Nigeria",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSU91a0RrM0w0bS1ZTENobTg4SzdqYU9ZbXhZZGRqd0hfLVVDZ1d4RGx6ekJ1S1pQWUFFZG9CbURUeThCTE9OQ2tTOWczVS1wRUdEdjA5TUQ5b2VCYjlHdmFrdmM1LWVma2IwM1FvTm81ZEdFU1BQN0JTRzlvS3dKVE10X1JsMkZPZzI5c0ptTU13blJyc1J2RnR3?oc=5",
+      "headline": "Lightspeed Commerce falls on earnings miss - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYzE1UGFJcVd5ZU12aDdMS1pNb0FUY2dYN0tOLWVaek1sRzJ3aFd6OUtjRkRENWhER1IyNnkxcXkxNk9ObDJ3dmFCQUV3RTBGa2p4NFpHX01rVnduV3JSREhlTVhzZ2h5UURHQWpPMFRDZ1NBMzROaHpZNWVQNVZHc3FvZzhrX1hpVllDRzBRYnU4dld4c3VXTjV4ek5JZkxPTUVWWm5B?oc=5",
       "source": "Google News",
-      "date": "Thu, 21 May 2026 11:27:21 GMT",
+      "date": "Thu, 21 May 2026 11:25:00 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-05-21T11:49:09.507067+00:00"
+      "detected_at": "2026-05-21T15:43:30.647785+00:00"
     },
     {
-      "category": "analyst_downgrade",
-      "severity": "high",
+      "category": "stock_move",
+      "severity": "medium",
       "company": "Lightspeed",
-      "headline": "Lightspeed Commerce Shares Fall After BofA Securities Downgrade - Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOckc4MnU2NTZNOHI2VTJlOEVXeWtkNl9qLVNFeDExa0Y4NkpyOC0zbzd0eDVpSkozakFwNzBFclZzZGp6RFRnNG0tTS1lZ0ZVbkZDb2lkVTZfX0pqZWdlWWRscF9wVTdaaWtxZFhFYmd2RFNGdUpkZWpyY1F6Wi1mU2xKd3ZPLVRtZVlZUEg0dDdVMERwZmsyMDliMkFSbDlpUEZzYWgyUnI?oc=5",
-      "source": "Google News",
-      "date": "Tue, 19 May 2026 22:04:36 GMT",
+      "headline": "Lightspeed (LSPD) stock down 7.0% over the past week",
+      "url": "https://finance.yahoo.com/quote/LSPD",
+      "source": "Yahoo Finance",
+      "date": "2026-05-21T15:43:30.647785+00:00",
       "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-05-21T11:49:09.507067+00:00"
+      "note": "-7.0% 1W",
+      "detected_at": "2026-05-21T15:43:30.647785+00:00"
     }
   ]
 }
