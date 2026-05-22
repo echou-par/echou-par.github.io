@@ -1,9 +1,9 @@
 {
-  "updated": "2026-05-21T23:35:31.253366+00:00",
-  "total": 5,
+  "updated": "2026-05-22T04:17:00.534875+00:00",
+  "total": 3,
   "by_category": {
     "analyst_downgrade": 1,
-    "guidance_cut": 3,
+    "guidance_cut": 1,
     "stock_move": 1
   },
   "alerts": [
@@ -17,7 +17,7 @@
       "date": "Thu, 21 May 2026 18:38:26 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-05-21T23:35:31.253366+00:00"
+      "detected_at": "2026-05-22T04:17:00.534875+00:00"
     },
     {
       "category": "guidance_cut",
@@ -29,31 +29,7 @@
       "date": "Thu, 21 May 2026 16:17:27 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-05-21T23:35:31.253366+00:00"
-    },
-    {
-      "category": "guidance_cut",
-      "severity": "high",
-      "company": "Lightspeed",
-      "headline": "Lightspeed Commerce shares decline after quarterly earnings miss despite revenue growth (LSPD) - MSN",
-      "url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxQLVJTWlZVZ1dtOVFTMWxrSmh4bVQ4eW5OdFZiXzBrZG5jT1YyXzdUSU9BZ1h2R2RyMS1SdG5NZERzekMzYzRSSzUtdUNPS0N1dTdJY2VMT1dqanFUcWJlNWVPeERSNlJOdEZIeTBLRElYbDFuYlhQY0lUYTJqSWFuRUtmMkpsR1RpSnhkV2pYek9KbWxNbDlKUGR5WVRsSFA5RFdOV1J2RXRWT0lncVhSLW1OOGRBellCVXVLdTFtY2p6OUlXSlhsVFFTWnk0bkRyY3hkcGp2b1lGdkhRYVAtNEJ0eXdRNXVfdWJrTEYtWjFEV3lFSFlHNnJwVVIzQzQzTVQzenhqVEZleDFwOFdIUzJvMkdLNlRRbnJvcXk0Y3JraWt0VGpybmw4Vk5vSzFSQkl0S3g1aFF4dFpYV19QbEJrT29TNUFYbjZZeDNiMVFtQTI5Y0tUeTlIa2laVjViQWpSSXFRS1JGbVdaMlZ3VFpfamZjQQ?oc=5",
-      "source": "Google News",
-      "date": "Thu, 21 May 2026 15:13:43 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-05-21T23:35:31.253366+00:00"
-    },
-    {
-      "category": "guidance_cut",
-      "severity": "high",
-      "company": "Lightspeed",
-      "headline": "Lightspeed Commerce falls on earnings miss - Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYzE1UGFJcVd5ZU12aDdMS1pNb0FUY2dYN0tOLWVaek1sRzJ3aFd6OUtjRkRENWhER1IyNnkxcXkxNk9ObDJ3dmFCQUV3RTBGa2p4NFpHX01rVnduV3JSREhlTVhzZ2h5UURHQWpPMFRDZ1NBMzROaHpZNWVQNVZHc3FvZzhrX1hpVllDRzBRYnU4dld4c3VXTjV4ek5JZkxPTUVWWm5B?oc=5",
-      "source": "Google News",
-      "date": "Thu, 21 May 2026 11:25:00 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-05-21T23:35:31.253366+00:00"
+      "detected_at": "2026-05-22T04:17:00.534875+00:00"
     },
     {
       "category": "stock_move",
@@ -62,10 +38,10 @@
       "headline": "Global Payments (GPN) stock up 7.4% over the past week",
       "url": "https://finance.yahoo.com/quote/GPN",
       "source": "Yahoo Finance",
-      "date": "2026-05-21T23:35:31.253366+00:00",
+      "date": "2026-05-22T04:17:00.534875+00:00",
       "par_relevance": 3,
       "note": "+7.4% 1W",
-      "detected_at": "2026-05-21T23:35:31.253366+00:00"
+      "detected_at": "2026-05-22T04:17:00.534875+00:00"
     }
   ]
 }
