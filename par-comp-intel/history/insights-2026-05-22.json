@@ -2,7 +2,7 @@
   "date": "2026-05-22",
   "weekday": "Friday",
   "first_seen": "2026-05-22T04:17:00.534875+00:00",
-  "last_updated": "2026-05-22T07:59:17.450648+00:00",
+  "last_updated": "2026-05-22T11:13:26.507456+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Global Payments, Lightspeed appeared together in coverage \u2014 \"Global Payments Expands Partnership with Lightspeed DMS - RVBusiness\"",
@@ -130,23 +130,53 @@
       ],
       "company": "Shift4",
       "first_detected": "2026-05-22T04:17:00.534875+00:00"
+    },
+    {
+      "text": "SpotOn shows concentrated partnership activity \u2014 5 tracked partnership items this cycle. Latest: \"SpotOn Highlights Q1 2026 Momentum with New Customers, Product Enhancements, and Strategic Partnerships - Business Wire\"",
+      "sources": [
+        {
+          "title": "SpotOn Highlights Q1 2026 Momentum with New Customers, Product Enhancements, and Strategic Partnerships - Business Wire",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPZnRlSl9KbGh6TURPTjJiNUN0eDd4alRQTEJpWUttVFV1ckhUV2FJX1BlWlRWZ3p2Z0sxUUUwYnBfYkZGQVFaNS1DM3hJR3ZRZ3VQaFg0dHN0VXdUU2VXRzNfVEpnN3ppaGlDTS1JMWNKWGRiS0ZvZ2RkYUp2TDM4cmUwY3VpOER1eW9nMUVfMjN3cVc1ekhZVjB6dlZSUGptM0RtRUhNdDdnQjB6dnBMM2djOTJrSXVEcGpoOTJ5WDhZSlFfWFB4Nk1LOEx1MlJHc1pJUzdCcTk4eUh0YTBncEpvV2x3MjNZX1EzandUdw?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Loman AI Expands POS Partnerships with SpotOn - Food On Demand",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUGxQeFJRT2cwQ05kVFE3TGFZQnVtTDNXcGpEYVlOa3lnR3ExVDdxZ05WVTg3RWhaWFY5XzZWLThTS1d0UWM0R1hoVnpaRDJIOWtBUm1fX1NxZ0dfZHIxM1IwZl9OaDNRbTlwbEcyd2hpbENfUGEzMVZ4clNHMmFHcXBMblBnaVU?oc=5",
+          "source": "Google News - POS Industry"
+        },
+        {
+          "title": "Loman AI and SpotOn Announce Partnership Bringing Voice AI to SpotOn POS Restaurants - Business Wire",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdFpNc09XS2kwdE1NTGNkWG9sTk01THlXcG85clJBOXYxazdEX0JWVFJlaW1tZkVIV2otbFlYNEFUM1FoWlk2TjhoZHVMM0wwWlpxNUpxOTVmdDAwdUVUbVMxUWx2WWxROUdoRmxqRXlvWl9EREstRzFpRUxqc2dGZTRjSUh1clh3dS16UXdsel9lUFlaaTh1QmtQU1VyMUQtU3N3cnRreHFsZk1yVFNLRGdSMFF1ZldWMXh6V1E0THRfaHZiQ05xYlZKTkZoQXlVNnVZczJidVE?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "SpotOn",
+      "first_detected": "2026-05-22T11:13:26.507456+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "PAR",
-      "count": 17
-    },
-    {
       "company": "DoorDash",
-      "count": 16
-    },
-    {
-      "company": "SpotOn",
-      "count": 16
+      "count": 18
     },
     {
       "company": "NCR Voyix",
+      "count": 17
+    },
+    {
+      "company": "SpotOn",
+      "count": 17
+    },
+    {
+      "company": "PAR",
+      "count": 16
+    },
+    {
+      "company": "TouchBistro",
+      "count": 16
+    },
+    {
+      "company": "Shift4",
       "count": 15
     },
     {
@@ -155,14 +185,6 @@
     },
     {
       "company": "Square",
-      "count": 15
-    },
-    {
-      "company": "Toast",
-      "count": 15
-    },
-    {
-      "company": "Spendgo",
       "count": 15
     }
   ]
