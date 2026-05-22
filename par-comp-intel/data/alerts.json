@@ -1,8 +1,8 @@
 {
-  "updated": "2026-05-22T16:31:38.157221+00:00",
-  "total": 5,
+  "updated": "2026-05-22T16:40:40.776072+00:00",
+  "total": 6,
   "by_category": {
-    "analyst_downgrade": 4,
+    "analyst_downgrade": 5,
     "guidance_cut": 1
   },
   "alerts": [
@@ -16,7 +16,7 @@
       "date": "Fri, 22 May 2026 12:33:00 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-05-22T16:31:38.157221+00:00"
+      "detected_at": "2026-05-22T16:40:40.776072+00:00"
     },
     {
       "category": "guidance_cut",
@@ -28,7 +28,7 @@
       "date": "Fri, 22 May 2026 12:05:46 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-05-22T16:31:38.157221+00:00"
+      "detected_at": "2026-05-22T16:40:40.776072+00:00"
     },
     {
       "category": "analyst_downgrade",
@@ -40,7 +40,7 @@
       "date": "Fri, 22 May 2026 11:46:49 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-05-22T16:31:38.157221+00:00"
+      "detected_at": "2026-05-22T16:40:40.776072+00:00"
     },
     {
       "category": "analyst_downgrade",
@@ -52,7 +52,7 @@
       "date": "Fri, 22 May 2026 11:46:33 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-05-22T16:31:38.157221+00:00"
+      "detected_at": "2026-05-22T16:40:40.776072+00:00"
     },
     {
       "category": "analyst_downgrade",
@@ -64,7 +64,19 @@
       "date": "Thu, 21 May 2026 18:38:26 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-05-22T16:31:38.157221+00:00"
+      "detected_at": "2026-05-22T16:40:40.776072+00:00"
+    },
+    {
+      "category": "analyst_downgrade",
+      "severity": "high",
+      "company": "Shift4",
+      "headline": "Evercore Maintains Shift4 Payments(FOUR.US) With Hold Rating, Cuts Target Price to $45 - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcWo1c2dkUS1uV3QtbldlODFRdVZucktlNEhOdWRFUVhUcXlDakdFc1lOUC1UWjFiUWdSODZTZ25nRVd3OFhxTU9ydUZkMWIzY0h6SElxNFdMRnZFYjF5MTVxekFYZEZxLTd2OEFxZ2d4YlM1bkg2TGJQWW1lekltNjltbzdSVFROR25oZmVDM3pncXJFV1YtOUlsMDRoSHh6MTQyU2VHdGRTQks0MXJ3bTZ3?oc=5",
+      "source": "Google News",
+      "date": "Mon, 18 May 2026 13:34:00 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-05-22T16:40:40.776072+00:00"
     }
   ]
 }
