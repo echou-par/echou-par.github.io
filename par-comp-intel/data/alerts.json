@@ -1,12 +1,48 @@
 {
-  "updated": "2026-05-22T11:13:26.507456+00:00",
-  "total": 4,
+  "updated": "2026-05-22T13:55:44.044911+00:00",
+  "total": 6,
   "by_category": {
-    "analyst_downgrade": 1,
     "guidance_cut": 2,
+    "analyst_downgrade": 3,
     "stock_move": 1
   },
   "alerts": [
+    {
+      "category": "guidance_cut",
+      "severity": "high",
+      "company": "Lightspeed",
+      "headline": "Lightspeed Commerce shares decline after quarterly earnings miss despite revenue growth (LSPD) - MSN",
+      "url": "https://news.google.com/rss/articles/CBMimANBVV95cUxPblpyaHlscWU2LWZ5VVFLNGdZUDRTQ3NwRndSeWZrcm9oSmVKVlBsTFVtMC1oY1hNUHRGcTJNVm9NV1FyMlo4WTJXZ3FSbDZLY3JjaUNZaXAwMWtZSGRWa1F1NXZOb3Z0RFh4ZHBiY19sakduV0pRZ0NSaVY4Wll4S2xBRDBfSHRjMXVvN1ctRkRqZF9STzhYMG10SkFfMnBtQ05vcXlBdDBBcHRhWTNMS19rbmFZMW5TbGpmZldOeENXZEpTcHdZMkRvbUEyT09wVm1QNjdqSTR5ZV9YMGE4Nk1XRnJZalBvUXpSZWtSanB3TWF6cWFxdDJZSW9YMm1tZGhfdXEweC1NZ1p4eDRjdjh4dmdfYy1XTzd6a0J3dlRiWWRYV1lnS1B6enQwY25jR0VOeUFmd0R5TFByUURzTmhFdDllbkNBQ29jaWpZcFJTRVFtdjRGSC1tQkZ2MTlacnlUSWc5TXBlb2xXUDhzeDhBSWlVYkRVT0hyT0ZWQUNTWWVFc0FXTWl4b2tNejB5cTdfbUMtQ2w?oc=5",
+      "source": "Google News",
+      "date": "Fri, 22 May 2026 12:05:46 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-05-22T13:55:44.044911+00:00"
+    },
+    {
+      "category": "analyst_downgrade",
+      "severity": "high",
+      "company": "Lightspeed",
+      "headline": "RBC Cuts Price Target on Lightspeed Commerce to $10 From $13, Keeps Outperform Rating - marketscreener.com",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMjFidGw2cnlfbU50NXpmVDlSOWRTcDgzT1JNemlsNFp2ZWpjeGw1bFZTYzVfdEc1M2xnYnlwSk96SFZyVUlseGhNNTMzYm1sU0NrUG8wUVd6Y18yQUl4dVR2TjZKellNMTZGUnlVb3daZzFyREZ3MzhPM3pmNURycHBraGFzam1hN2JXeWNhUU1Sam91NDlGS2NUOEFsbGlUYUt6WkxhRGNaQlhFVV9ZOEMydkY5OHQyaEpCaU56Mm9VazBRRTJGeVNOU2NMcGxD?oc=5",
+      "source": "Google News",
+      "date": "Fri, 22 May 2026 11:46:33 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-05-22T13:55:44.044911+00:00"
+    },
+    {
+      "category": "analyst_downgrade",
+      "severity": "high",
+      "company": "Lightspeed",
+      "headline": "BTIG Maintains Lightspeed POS(LSPD.US) With Buy Rating, Cuts Target Price to $12 - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWEhMaTdaTGZIZ05haVlRRmtYMzBUZnoteGM5UkVPUWo3Q3VMMmNzY3B0WDlqWVlnSXlLejJfbUh3LWRwZ0ZnVUFVMHYxNGVtRGNMUXlqTUJ3TzV2enlrcGtwVUdDbElqU1lLZnh4Z1d2T0pJWE9SOVlMRlN1eV8tZDRlbC1uYTluNGFmU0piZGZ0U01yQWhhcXFpUUR0VURQNzZwZ2hFRWo1dw?oc=5",
+      "source": "Google News",
+      "date": "Thu, 21 May 2026 22:00:28 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-05-22T13:55:44.044911+00:00"
+    },
     {
       "category": "analyst_downgrade",
       "severity": "high",
@@ -17,43 +53,31 @@
       "date": "Thu, 21 May 2026 18:38:26 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-05-22T11:13:26.507456+00:00"
+      "detected_at": "2026-05-22T13:55:44.044911+00:00"
     },
     {
       "category": "guidance_cut",
       "severity": "high",
       "company": "Lightspeed",
-      "headline": "Lightspeed Commerce (LSPD) Reports Q4 Earnings Miss, Shares Drop 7.4% - GuruFocus",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRGF3ZnItb1A0em1KOXFwWXNjV21kZEZFdUdjYTktS182V3pLY0Z6TFp2N2xkUWFCVmZPV2d3Y21Yc29JNTREd25NN0FEWW1hd1hGYVNhNG1ERzBYV01NWEZHQURSUUlXdmJiMzJ1amRrT1lNTkpZNGtuZVhBY3JBdkZWMWVEZ29wZnctQW9XMEtHSjREZEtwNVRBcEY2eXVGd2VKLXlR?oc=5",
+      "headline": "Lightspeed Commerce falls on earnings miss - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYzE1UGFJcVd5ZU12aDdMS1pNb0FUY2dYN0tOLWVaek1sRzJ3aFd6OUtjRkRENWhER1IyNnkxcXkxNk9ObDJ3dmFCQUV3RTBGa2p4NFpHX01rVnduV3JSREhlTVhzZ2h5UURHQWpPMFRDZ1NBMzROaHpZNWVQNVZHc3FvZzhrX1hpVllDRzBRYnU4dld4c3VXTjV4ek5JZkxPTUVWWm5B?oc=5",
       "source": "Google News",
-      "date": "Thu, 21 May 2026 16:17:27 GMT",
+      "date": "Thu, 21 May 2026 11:25:00 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-05-22T11:13:26.507456+00:00"
-    },
-    {
-      "category": "guidance_cut",
-      "severity": "high",
-      "company": "Lightspeed",
-      "headline": "Lightspeed Commerce shares decline after quarterly earnings miss despite revenue growth (LSPD) - MSN",
-      "url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxQLVJTWlZVZ1dtOVFTMWxrSmh4bVQ4eW5OdFZiXzBrZG5jT1YyXzdUSU9BZ1h2R2RyMS1SdG5NZERzekMzYzRSSzUtdUNPS0N1dTdJY2VMT1dqanFUcWJlNWVPeERSNlJOdEZIeTBLRElYbDFuYlhQY0lUYTJqSWFuRUtmMkpsR1RpSnhkV2pYek9KbWxNbDlKUGR5WVRsSFA5RFdOV1J2RXRWT0lncVhSLW1OOGRBellCVXVLdTFtY2p6OUlXSlhsVFFTWnk0bkRyY3hkcGp2b1lGdkhRYVAtNEJ0eXdRNXVfdWJrTEYtWjFEV3lFSFlHNnJwVVIzQzQzTVQzenhqVEZleDFwOFdIUzJvMkdLNlRRbnJvcXk0Y3JraWt0VGpybmw4Vk5vSzFSQkl0S3g1aFF4dFpYV19QbEJrT29TNUFYbjZZeDNiMVFtQTI5Y0tUeTlIa2laVjViQWpSSXFRS1JGbVdaMlZ3VFpfamZjQQ?oc=5",
-      "source": "Google News",
-      "date": "Thu, 21 May 2026 15:13:43 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-05-22T11:13:26.507456+00:00"
+      "detected_at": "2026-05-22T13:55:44.044911+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "Global Payments",
-      "headline": "Global Payments (GPN) stock up 7.4% over the past week",
+      "headline": "Global Payments (GPN) stock up 7.6% over the past week",
       "url": "https://finance.yahoo.com/quote/GPN",
       "source": "Yahoo Finance",
-      "date": "2026-05-22T11:13:26.507456+00:00",
+      "date": "2026-05-22T13:55:44.044911+00:00",
       "par_relevance": 3,
-      "note": "+7.4% 1W",
-      "detected_at": "2026-05-22T11:13:26.507456+00:00"
+      "note": "+7.6% 1W",
+      "detected_at": "2026-05-22T13:55:44.044911+00:00"
     }
   ]
 }
