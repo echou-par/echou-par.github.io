@@ -1,10 +1,9 @@
 {
-  "updated": "2026-05-22T13:55:44.044911+00:00",
-  "total": 6,
+  "updated": "2026-05-22T15:58:56.096628+00:00",
+  "total": 4,
   "by_category": {
     "guidance_cut": 2,
-    "analyst_downgrade": 3,
-    "stock_move": 1
+    "analyst_downgrade": 2
   },
   "alerts": [
     {
@@ -17,7 +16,7 @@
       "date": "Fri, 22 May 2026 12:05:46 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-05-22T13:55:44.044911+00:00"
+      "detected_at": "2026-05-22T15:58:56.096628+00:00"
     },
     {
       "category": "analyst_downgrade",
@@ -29,7 +28,7 @@
       "date": "Fri, 22 May 2026 11:46:33 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-05-22T13:55:44.044911+00:00"
+      "detected_at": "2026-05-22T15:58:56.096628+00:00"
     },
     {
       "category": "analyst_downgrade",
@@ -41,19 +40,7 @@
       "date": "Thu, 21 May 2026 22:00:28 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-05-22T13:55:44.044911+00:00"
-    },
-    {
-      "category": "analyst_downgrade",
-      "severity": "high",
-      "company": "Lightspeed",
-      "headline": "Lightspeed Commerce (NYSE:LSPD) Shares Down 9.4% After Analyst Downgrade - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSGw0aVZUcjF0eXhneHBVTG1qQWY5TmszY1d2MDZncUZHc0RmeTczSHBKdnVObVZkcjJxYnhQTEVtWnhGV0NneVd2bkl3MjVzMzFfVnJyZTlWcmZkU1JhbV9GVGk2REJub184UEhydHJfX3JONHlwNlRmT0VjellJQlh2WEg2cnN5SjFqaWwzb3NzNDd3elRhd2puYi1LU2ZXaVBEZG1ia3RkSVY5SGVGQVhfSUFGWWt0cFdSMVBn?oc=5",
-      "source": "Google News",
-      "date": "Thu, 21 May 2026 18:38:26 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-05-22T13:55:44.044911+00:00"
+      "detected_at": "2026-05-22T15:58:56.096628+00:00"
     },
     {
       "category": "guidance_cut",
@@ -65,19 +52,7 @@
       "date": "Thu, 21 May 2026 11:25:00 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-05-22T13:55:44.044911+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "medium",
-      "company": "Global Payments",
-      "headline": "Global Payments (GPN) stock up 7.6% over the past week",
-      "url": "https://finance.yahoo.com/quote/GPN",
-      "source": "Yahoo Finance",
-      "date": "2026-05-22T13:55:44.044911+00:00",
-      "par_relevance": 3,
-      "note": "+7.6% 1W",
-      "detected_at": "2026-05-22T13:55:44.044911+00:00"
+      "detected_at": "2026-05-22T15:58:56.096628+00:00"
     }
   ]
 }
