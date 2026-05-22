@@ -1,8 +1,8 @@
 {
-  "updated": "2026-05-22T16:40:40.776072+00:00",
-  "total": 6,
+  "updated": "2026-05-22T18:57:42.389027+00:00",
+  "total": 2,
   "by_category": {
-    "analyst_downgrade": 5,
+    "analyst_downgrade": 1,
     "guidance_cut": 1
   },
   "alerts": [
@@ -16,7 +16,7 @@
       "date": "Fri, 22 May 2026 12:33:00 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-05-22T16:40:40.776072+00:00"
+      "detected_at": "2026-05-22T18:57:42.389027+00:00"
     },
     {
       "category": "guidance_cut",
@@ -28,55 +28,7 @@
       "date": "Fri, 22 May 2026 12:05:46 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-05-22T16:40:40.776072+00:00"
-    },
-    {
-      "category": "analyst_downgrade",
-      "severity": "high",
-      "company": "Lightspeed",
-      "headline": "Morgan Stanley Cuts Price Target on Lightspeed Commerce to $11.50 From $13.50, Keeps Equalweight Rating - Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVmNvTVN6V1RsZWp2eld5ZGRKbm96cVBqZlhUR25tS2g2NE95YzB6VmFoblpVcWZlS094cTFMSnJqZDBVZjJ1QlVJU1lULTRkSDYyNnYxT25uV0huRFRRalZCcTZ6bXhOSDRsd3FhVGtxand6dFJSWGs5VTZjTExfU3U3UEJXNXZzSFo4NDgtSlVLTmVvZ2lfdnJyWWtiaE11dnZTZGtCakxxcjZCaDdueDlyS2laMl9BVGV1Zncya3ZZYi1RNWFPNC1IZlBYclhVR3lJNg?oc=5",
-      "source": "Google News",
-      "date": "Fri, 22 May 2026 11:46:49 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-05-22T16:40:40.776072+00:00"
-    },
-    {
-      "category": "analyst_downgrade",
-      "severity": "high",
-      "company": "Lightspeed",
-      "headline": "RBC Cuts Price Target on Lightspeed Commerce to $10 From $13, Keeps Outperform Rating - marketscreener.com",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMjFidGw2cnlfbU50NXpmVDlSOWRTcDgzT1JNemlsNFp2ZWpjeGw1bFZTYzVfdEc1M2xnYnlwSk96SFZyVUlseGhNNTMzYm1sU0NrUG8wUVd6Y18yQUl4dVR2TjZKellNMTZGUnlVb3daZzFyREZ3MzhPM3pmNURycHBraGFzam1hN2JXeWNhUU1Sam91NDlGS2NUOEFsbGlUYUt6WkxhRGNaQlhFVV9ZOEMydkY5OHQyaEpCaU56Mm9VazBRRTJGeVNOU2NMcGxD?oc=5",
-      "source": "Google News",
-      "date": "Fri, 22 May 2026 11:46:33 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-05-22T16:40:40.776072+00:00"
-    },
-    {
-      "category": "analyst_downgrade",
-      "severity": "high",
-      "company": "Lightspeed",
-      "headline": "Lightspeed Commerce (NYSE:LSPD) Shares Down 9.4% After Analyst Downgrade - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSGw0aVZUcjF0eXhneHBVTG1qQWY5TmszY1d2MDZncUZHc0RmeTczSHBKdnVObVZkcjJxYnhQTEVtWnhGV0NneVd2bkl3MjVzMzFfVnJyZTlWcmZkU1JhbV9GVGk2REJub184UEhydHJfX3JONHlwNlRmT0VjellJQlh2WEg2cnN5SjFqaWwzb3NzNDd3elRhd2puYi1LU2ZXaVBEZG1ia3RkSVY5SGVGQVhfSUFGWWt0cFdSMVBn?oc=5",
-      "source": "Google News",
-      "date": "Thu, 21 May 2026 18:38:26 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-05-22T16:40:40.776072+00:00"
-    },
-    {
-      "category": "analyst_downgrade",
-      "severity": "high",
-      "company": "Shift4",
-      "headline": "Evercore Maintains Shift4 Payments(FOUR.US) With Hold Rating, Cuts Target Price to $45 - Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcWo1c2dkUS1uV3QtbldlODFRdVZucktlNEhOdWRFUVhUcXlDakdFc1lOUC1UWjFiUWdSODZTZ25nRVd3OFhxTU9ydUZkMWIzY0h6SElxNFdMRnZFYjF5MTVxekFYZEZxLTd2OEFxZ2d4YlM1bkg2TGJQWW1lekltNjltbzdSVFROR25oZmVDM3pncXJFV1YtOUlsMDRoSHh6MTQyU2VHdGRTQks0MXJ3bTZ3?oc=5",
-      "source": "Google News",
-      "date": "Mon, 18 May 2026 13:34:00 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-05-22T16:40:40.776072+00:00"
+      "detected_at": "2026-05-22T18:57:42.389027+00:00"
     }
   ]
 }
