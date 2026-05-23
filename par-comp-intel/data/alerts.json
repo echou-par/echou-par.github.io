@@ -1,8 +1,9 @@
 {
-  "updated": "2026-05-23T09:06:36.012725+00:00",
-  "total": 1,
+  "updated": "2026-05-23T12:02:44.992676+00:00",
+  "total": 2,
   "by_category": {
-    "guidance_cut": 1
+    "guidance_cut": 1,
+    "analyst_downgrade": 1
   },
   "alerts": [
     {
@@ -15,7 +16,19 @@
       "date": "Thu, 21 May 2026 14:56:28 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-05-23T09:06:36.012725+00:00"
+      "detected_at": "2026-05-23T12:02:44.992676+00:00"
+    },
+    {
+      "category": "analyst_downgrade",
+      "severity": "high",
+      "company": "Shift4",
+      "headline": "Evercore Maintains Shift4 Payments(FOUR.US) With Hold Rating, Cuts Target Price to $45 - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcWo1c2dkUS1uV3QtbldlODFRdVZucktlNEhOdWRFUVhUcXlDakdFc1lOUC1UWjFiUWdSODZTZ25nRVd3OFhxTU9ydUZkMWIzY0h6SElxNFdMRnZFYjF5MTVxekFYZEZxLTd2OEFxZ2d4YlM1bkg2TGJQWW1lekltNjltbzdSVFROR25oZmVDM3pncXJFV1YtOUlsMDRoSHh6MTQyU2VHdGRTQks0MXJ3bTZ3?oc=5",
+      "source": "Google News",
+      "date": "Mon, 18 May 2026 13:34:00 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-05-23T12:02:44.992676+00:00"
     }
   ]
 }
