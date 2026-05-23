@@ -1,8 +1,9 @@
 {
-  "updated": "2026-05-23T21:28:17.672555+00:00",
-  "total": 2,
+  "updated": "2026-05-23T22:30:22.041785+00:00",
+  "total": 3,
   "by_category": {
-    "guidance_cut": 2
+    "guidance_cut": 2,
+    "analyst_downgrade": 1
   },
   "alerts": [
     {
@@ -15,7 +16,19 @@
       "date": "Sat, 23 May 2026 12:50:35 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-05-23T21:28:17.672555+00:00"
+      "detected_at": "2026-05-23T22:30:22.041785+00:00"
+    },
+    {
+      "category": "analyst_downgrade",
+      "severity": "high",
+      "company": "Lightspeed",
+      "headline": "Lightspeed Commerce (NYSE:LSPD) Shares Down 9.4% After Analyst Downgrade - MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSGw0aVZUcjF0eXhneHBVTG1qQWY5TmszY1d2MDZncUZHc0RmeTczSHBKdnVObVZkcjJxYnhQTEVtWnhGV0NneVd2bkl3MjVzMzFfVnJyZTlWcmZkU1JhbV9GVGk2REJub184UEhydHJfX3JONHlwNlRmT0VjellJQlh2WEg2cnN5SjFqaWwzb3NzNDd3elRhd2puYi1LU2ZXaVBEZG1ia3RkSVY5SGVGQVhfSUFGWWt0cFdSMVBn?oc=5",
+      "source": "Google News",
+      "date": "Thu, 21 May 2026 18:38:26 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-05-23T22:30:22.041785+00:00"
     },
     {
       "category": "guidance_cut",
@@ -27,7 +40,7 @@
       "date": "Thu, 21 May 2026 11:25:00 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-05-23T21:28:17.672555+00:00"
+      "detected_at": "2026-05-23T22:30:22.041785+00:00"
     }
   ]
 }
