@@ -2,7 +2,7 @@
   "date": "2026-05-26",
   "weekday": "Tuesday",
   "first_seen": "2026-05-26T05:46:43.349945+00:00",
-  "last_updated": "2026-05-26T16:59:09.680746+00:00",
+  "last_updated": "2026-05-26T17:42:46.174270+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Global Payments, Lightspeed appeared together in coverage \u2014 \"Global Payments Expands Partnership with Lightspeed DMS - RVBusiness\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-05-26T05:46:43.349945+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -212,40 +212,62 @@
       ],
       "company": "DoorDash",
       "first_detected": "2026-05-26T16:55:01.239223+00:00"
+    },
+    {
+      "text": "Shift4 shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Shift4 Partners With Bar Rescue\u2019s Jon Taffer for $100,000 \u201cRescue Mission\u201d Contest - Shift4\"",
+      "sources": [
+        {
+          "title": "Shift4 Partners With Bar Rescue\u2019s Jon Taffer for $100,000 \u201cRescue Mission\u201d Contest - Shift4",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNk9pdkYyeldtb3pMOVF1c3BxWlUyZmJFTjVzaXY4akxWZjRHZ2VvaHF0bWxlWnE2V3NVT0VOVkNTV1kzY0pZSFZYS1NiRnNDS3FVLXdpMGRHZkJ2NHBXQ1hwdHIxVy1XU2psLUs2cURWb2hvcmtFRG1DeXNCMHFfdy1UN1JCUkg1eUFJMGNvRlRteDRZWmNMMUplamVwOXRKWHp4Zmk1cm5MSkEtb3ZySTIwRmt5ckNsbmhDNU1ZbUdnRzdkZEpBWTg0S1FqWG1FV2V4djR6QWNQNzVF?oc=5",
+          "source": "Google News (shift4.com)"
+        },
+        {
+          "title": "Shift4 Partners with Lydian to Support USDT Payment Acceptance - Shift4",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSmcyUjVHN1VHXzVMdjN4MEJfUGRSd2Q5aUwzaFVVdEdPZDdOWVZ2Yk5jUW5iZkJESC1fcl9RaDY5M0ZpN3RwM1lTcDc2aWxoaEpvZkNLeDIta0hqZW5lYmhBS0dxZC16M2hqQ25ucm1rb25Uc0h6M1hNSzZIWVEyTUpiRkRfZFFpWmNDcnBMc2VqYkJzZWphRTA2amVEWFp1ZjY3YUpnRk1hc25nWU53SU1LOUtTcmRxZzctYTlJNmRuY1lRVzRyYg?oc=5",
+          "source": "Google News (shift4.com)"
+        },
+        {
+          "title": "Shift4 Partners with Chicago Cubs to Power Commerce at Iconic Wrigley Field - Shift4",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONVFMRFdmcXJfaWpOSUJWRW5taGNkSGZoVUdhR24wbVVTMDlFZUNmSUlibnhlOTlsUF9RMURvdEpza1gyM0NHcU1uYnV6YzdHNTRtbTlsSDR1ZlRaUWhJMS00N0xYRkNrY0tHSDY0dE85a0JXYTI2eGk5QkwwdE9WMFFLMHlMMnhTV1Rhem5vRFBQM1AzZ2xfa2JvTndETEt5WDRHOVljd19xRWZIZ2ZGOGFFWGh2SzdlRVNUNTJ0c3lKMTdpUlhGUWQtWTEyWS0xaFVSNW92VktsUQ?oc=5",
+          "source": "Google News (shift4.com)"
+        }
+      ],
+      "company": "Shift4",
+      "first_detected": "2026-05-26T17:42:46.174270+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
-      "count": 18
-    },
-    {
-      "company": "NCR Voyix",
-      "count": 16
+      "company": "Deliverect",
+      "count": 50
     },
     {
       "company": "SpotOn",
-      "count": 16
+      "count": 39
     },
     {
-      "company": "Sparkfly",
-      "count": 16
+      "company": "Lightspeed",
+      "count": 35
     },
     {
-      "company": "PAR",
-      "count": 15
-    },
-    {
-      "company": "Toast",
-      "count": 15
+      "company": "DoorDash",
+      "count": 29
     },
     {
       "company": "Fiserv",
-      "count": 15
+      "count": 25
     },
     {
-      "company": "Shift4",
-      "count": 15
+      "company": "Toast",
+      "count": 25
+    },
+    {
+      "company": "NCR Voyix",
+      "count": 25
+    },
+    {
+      "company": "Square",
+      "count": 25
     }
   ]
 }
