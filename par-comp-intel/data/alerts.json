@@ -1,9 +1,8 @@
 {
-  "updated": "2026-05-27T12:26:34.347746+00:00",
-  "total": 2,
+  "updated": "2026-05-27T16:25:09.227877+00:00",
+  "total": 1,
   "by_category": {
-    "guidance_cut": 1,
-    "stock_move": 1
+    "guidance_cut": 1
   },
   "alerts": [
     {
@@ -16,19 +15,7 @@
       "date": "Tue, 26 May 2026 15:24:34 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-05-27T12:26:34.347746+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "medium",
-      "company": "Global Payments",
-      "headline": "Global Payments (GPN) stock up 7.9% over the past week",
-      "url": "https://finance.yahoo.com/quote/GPN",
-      "source": "Yahoo Finance",
-      "date": "2026-05-27T12:26:34.347746+00:00",
-      "par_relevance": 3,
-      "note": "+7.9% 1W",
-      "detected_at": "2026-05-27T12:26:34.347746+00:00"
+      "detected_at": "2026-05-27T16:25:09.227877+00:00"
     }
   ]
 }
