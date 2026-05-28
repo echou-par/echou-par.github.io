@@ -1,58 +1,45 @@
 {
-  "updated": "2026-05-28T19:42:29.030027+00:00",
-  "total": 4,
+  "updated": "2026-05-28T22:01:28.037361+00:00",
+  "total": 3,
   "by_category": {
-    "guidance_cut": 1,
     "stock_move": 3
   },
   "alerts": [
     {
-      "category": "guidance_cut",
-      "severity": "high",
-      "company": "Lightspeed",
-      "headline": "Lightspeed Commerce shares decline after quarterly earnings miss despite revenue growth (LSPD) - MSN",
-      "url": "https://news.google.com/rss/articles/CBMimANBVV95cUxPblpyaHlscWU2LWZ5VVFLNGdZUDRTQ3NwRndSeWZrcm9oSmVKVlBsTFVtMC1oY1hNUHRGcTJNVm9NV1FyMlo4WTJXZ3FSbDZLY3JjaUNZaXAwMWtZSGRWa1F1NXZOb3Z0RFh4ZHBiY19sakduV0pRZ0NSaVY4Wll4S2xBRDBfSHRjMXVvN1ctRkRqZF9STzhYMG10SkFfMnBtQ05vcXlBdDBBcHRhWTNMS19rbmFZMW5TbGpmZldOeENXZEpTcHdZMkRvbUEyT09wVm1QNjdqSTR5ZV9YMGE4Nk1XRnJZalBvUXpSZWtSanB3TWF6cWFxdDJZSW9YMm1tZGhfdXEweC1NZ1p4eDRjdjh4dmdfYy1XTzd6a0J3dlRiWWRYV1lnS1B6enQwY25jR0VOeUFmd0R5TFByUURzTmhFdDllbkNBQ29jaWpZcFJTRVFtdjRGSC1tQkZ2MTlacnlUSWc5TXBlb2xXUDhzeDhBSWlVYkRVT0hyT0ZWQUNTWWVFc0FXTWl4b2tNejB5cTdfbUMtQ2w?oc=5",
-      "source": "Google News",
-      "date": "Tue, 26 May 2026 15:24:34 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-05-28T19:42:29.030027+00:00"
-    },
-    {
       "category": "stock_move",
       "severity": "medium",
       "company": "PAR",
-      "headline": "PAR (PAR) stock up 8.0% over the past week",
+      "headline": "PAR (PAR) stock up 8.3% over the past week",
       "url": "https://finance.yahoo.com/quote/PAR",
       "source": "Yahoo Finance",
-      "date": "2026-05-28T19:42:29.030027+00:00",
+      "date": "2026-05-28T22:01:28.037361+00:00",
       "par_relevance": 3,
-      "note": "+8.0% 1W",
-      "detected_at": "2026-05-28T19:42:29.030027+00:00"
+      "note": "+8.3% 1W",
+      "detected_at": "2026-05-28T22:01:28.037361+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "Toast",
-      "headline": "Toast (TOST) stock up 8.9% over the past week",
+      "headline": "Toast (TOST) stock up 8.3% over the past week",
       "url": "https://finance.yahoo.com/quote/TOST",
       "source": "Yahoo Finance",
-      "date": "2026-05-28T19:42:29.030027+00:00",
+      "date": "2026-05-28T22:01:28.037361+00:00",
       "par_relevance": 3,
-      "note": "+8.9% 1W",
-      "detected_at": "2026-05-28T19:42:29.030027+00:00"
+      "note": "+8.3% 1W",
+      "detected_at": "2026-05-28T22:01:28.037361+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "Lightspeed",
-      "headline": "Lightspeed (LSPD) stock up 11.1% over the past week",
+      "headline": "Lightspeed (LSPD) stock up 10.8% over the past week",
       "url": "https://finance.yahoo.com/quote/LSPD",
       "source": "Yahoo Finance",
-      "date": "2026-05-28T19:42:29.030027+00:00",
+      "date": "2026-05-28T22:01:28.037361+00:00",
       "par_relevance": 3,
-      "note": "+11.1% 1W",
-      "detected_at": "2026-05-28T19:42:29.030027+00:00"
+      "note": "+10.8% 1W",
+      "detected_at": "2026-05-28T22:01:28.037361+00:00"
     }
   ]
 }
