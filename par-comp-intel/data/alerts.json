@@ -1,10 +1,35 @@
 {
-  "updated": "2026-05-29T04:18:04.357354+00:00",
-  "total": 3,
+  "updated": "2026-05-29T08:25:45.454826+00:00",
+  "total": 5,
   "by_category": {
+    "guidance_cut": 2,
     "stock_move": 3
   },
   "alerts": [
+    {
+      "category": "guidance_cut",
+      "severity": "high",
+      "company": "Lightspeed",
+      "headline": "Lightspeed Commerce shares decline after quarterly earnings miss despite revenue growth (LSPD) - MSN",
+      "url": "https://news.google.com/rss/articles/CBMimANBVV95cUxPblpyaHlscWU2LWZ5VVFLNGdZUDRTQ3NwRndSeWZrcm9oSmVKVlBsTFVtMC1oY1hNUHRGcTJNVm9NV1FyMlo4WTJXZ3FSbDZLY3JjaUNZaXAwMWtZSGRWa1F1NXZOb3Z0RFh4ZHBiY19sakduV0pRZ0NSaVY4Wll4S2xBRDBfSHRjMXVvN1ctRkRqZF9STzhYMG10SkFfMnBtQ05vcXlBdDBBcHRhWTNMS19rbmFZMW5TbGpmZldOeENXZEpTcHdZMkRvbUEyT09wVm1QNjdqSTR5ZV9YMGE4Nk1XRnJZalBvUXpSZWtSanB3TWF6cWFxdDJZSW9YMm1tZGhfdXEweC1NZ1p4eDRjdjh4dmdfYy1XTzd6a0J3dlRiWWRYV1lnS1B6enQwY25jR0VOeUFmd0R5TFByUURzTmhFdDllbkNBQ29jaWpZcFJTRVFtdjRGSC1tQkZ2MTlacnlUSWc5TXBlb2xXUDhzeDhBSWlVYkRVT0hyT0ZWQUNTWWVFc0FXTWl4b2tNejB5cTdfbUMtQ2w?oc=5",
+      "source": "Google News",
+      "date": "Tue, 26 May 2026 15:24:34 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-05-29T08:25:45.454826+00:00"
+    },
+    {
+      "category": "guidance_cut",
+      "severity": "high",
+      "company": "Lightspeed",
+      "headline": "A Look At Lightspeed Commerce (TSX:LSPD) Valuation After Q4 Earnings Miss New Guidance And Buyback Plan - simplywall.st",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPcmZfSDNRMmt0RWEwNTNzaHlabGJ4V0xEVzZXM3BpSkdwODc3YmRNdG85Y0RKNzhLZDBiZXRlOGtVSHVHY2pjYllnUW94OXhmSHhJaHAzbDhMeVZ2NDVkYXhzbFo4aWpBNXZvNS0zcnJfcHRvS3JoWGVEZnpfdDRoejZOSGhDTnQ3VGRCUjRjZUNFYUF1dGE5MlVoMHR3aFF1RDMxMnhGNHVEQ19UaWdCWUVjRXZsTmRYYTFQdEgtejI1QWoxTnp6Y2p2UlZ4eG1VX2h0Qkg1OVFBQdIB3wFBVV95cUxQR1BzRzh6ZzBOdnFfYkd4UkpFUlNHRzRJa0lCT2p4NEZEX0JhNFZJSG1HYlVObGx2ZFBINmxwWWFfVEZoamUtc0ptSHVpam56eEVocS00ZGw1dUpUSW5JVU1TTU5HbTlLM3Q4dnV1ZEN0VW9UNFZ2YVo1dV9hWG1qZF9vckIyNFU2RFRuV09ITk1LN3g4Qm1raXM2cG1PZnZuc0NZTGR0NmF5Sm5abVpKam1WcWdnUkNTbDR1X1pmYmtDeWJxRG5vOFRrck43ZEhsUVZQVmpTZVhEZnlVcjFZ?oc=5",
+      "source": "Google News",
+      "date": "Sun, 24 May 2026 13:43:06 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-05-29T08:25:45.454826+00:00"
+    },
     {
       "category": "stock_move",
       "severity": "medium",
@@ -12,10 +37,10 @@
       "headline": "PAR (PAR) stock up 8.3% over the past week",
       "url": "https://finance.yahoo.com/quote/PAR",
       "source": "Yahoo Finance",
-      "date": "2026-05-29T04:18:04.357354+00:00",
+      "date": "2026-05-29T08:25:45.454826+00:00",
       "par_relevance": 3,
       "note": "+8.3% 1W",
-      "detected_at": "2026-05-29T04:18:04.357354+00:00"
+      "detected_at": "2026-05-29T08:25:45.454826+00:00"
     },
     {
       "category": "stock_move",
@@ -24,10 +49,10 @@
       "headline": "Toast (TOST) stock up 8.3% over the past week",
       "url": "https://finance.yahoo.com/quote/TOST",
       "source": "Yahoo Finance",
-      "date": "2026-05-29T04:18:04.357354+00:00",
+      "date": "2026-05-29T08:25:45.454826+00:00",
       "par_relevance": 3,
       "note": "+8.3% 1W",
-      "detected_at": "2026-05-29T04:18:04.357354+00:00"
+      "detected_at": "2026-05-29T08:25:45.454826+00:00"
     },
     {
       "category": "stock_move",
@@ -36,10 +61,10 @@
       "headline": "Lightspeed (LSPD) stock up 10.8% over the past week",
       "url": "https://finance.yahoo.com/quote/LSPD",
       "source": "Yahoo Finance",
-      "date": "2026-05-29T04:18:04.357354+00:00",
+      "date": "2026-05-29T08:25:45.454826+00:00",
       "par_relevance": 3,
       "note": "+10.8% 1W",
-      "detected_at": "2026-05-29T04:18:04.357354+00:00"
+      "detected_at": "2026-05-29T08:25:45.454826+00:00"
     }
   ]
 }
