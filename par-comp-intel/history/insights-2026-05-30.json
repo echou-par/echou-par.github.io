@@ -2,7 +2,7 @@
   "date": "2026-05-30",
   "weekday": "Saturday",
   "first_seen": "2026-05-30T04:36:01.789832+00:00",
-  "last_updated": "2026-05-30T15:16:13.224174+00:00",
+  "last_updated": "2026-05-30T15:46:26.972885+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Square appeared together in coverage \u2014 \"Three Square Food Bank\u2019s Las Vegas Restaurant Week with DoorDash Reservations - KLAS 8 News Now\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-05-30T04:36:01.789832+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -71,7 +71,7 @@
       "first_detected": "2026-05-30T04:36:01.789832+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Is Toast (TOST) Offering Value After Recent Share Price Rebound? - simplywall.st\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Is Toast (TOST) Offering Value After Recent Share Price Rebound? - simplywall.st\"",
       "sources": [
         {
           "title": "Is Toast (TOST) Offering Value After Recent Share Price Rebound? - simplywall.st",
@@ -196,40 +196,62 @@
       ],
       "company": "DoorDash",
       "first_detected": "2026-05-30T14:49:32.848949+00:00"
+    },
+    {
+      "text": "Shift4 shows concentrated product launch activity \u2014 3 tracked product launch items this cycle. Latest: \"Shift4 Partners With Bar Rescue\u2019s Jon Taffer for $100,000 \u201cRescue Mission\u201d Contest - Shift4\"",
+      "sources": [
+        {
+          "title": "Shift4 Partners With Bar Rescue\u2019s Jon Taffer for $100,000 \u201cRescue Mission\u201d Contest - Shift4",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNk9pdkYyeldtb3pMOVF1c3BxWlUyZmJFTjVzaXY4akxWZjRHZ2VvaHF0bWxlWnE2V3NVT0VOVkNTV1kzY0pZSFZYS1NiRnNDS3FVLXdpMGRHZkJ2NHBXQ1hwdHIxVy1XU2psLUs2cURWb2hvcmtFRG1DeXNCMHFfdy1UN1JCUkg1eUFJMGNvRlRteDRZWmNMMUplamVwOXRKWHp4Zmk1cm5MSkEtb3ZySTIwRmt5ckNsbmhDNU1ZbUdnRzdkZEpBWTg0S1FqWG1FV2V4djR6QWNQNzVF?oc=5",
+          "source": "Google News (shift4.com)"
+        },
+        {
+          "title": "Shift4 Partners with Lydian to Support USDT Payment Acceptance - Shift4",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSmcyUjVHN1VHXzVMdjN4MEJfUGRSd2Q5aUwzaFVVdEdPZDdOWVZ2Yk5jUW5iZkJESC1fcl9RaDY5M0ZpN3RwM1lTcDc2aWxoaEpvZkNLeDIta0hqZW5lYmhBS0dxZC16M2hqQ25ucm1rb25Uc0h6M1hNSzZIWVEyTUpiRkRfZFFpWmNDcnBMc2VqYkJzZWphRTA2amVEWFp1ZjY3YUpnRk1hc25nWU53SU1LOUtTcmRxZzctYTlJNmRuY1lRVzRyYg?oc=5",
+          "source": "Google News (shift4.com)"
+        },
+        {
+          "title": "Shift4 & Payter Partner to Revolutionize Payments in Unattended POS & Drive Electric Vehicle Charging Network - Shift4",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQk4yTVNLX2FETGVfbUNnbmdPVUtkY2Z6RGdqbXB2NVBmNWpBWDE2Z1dNLXJLUEVyLWhQZXFFVG1ZYUlNMXZva2RiQy0wLWZ4RmpLelNMOS1oWmZWYlNXRHRnYmRTblVZRlRSbXpKRExyQnFqUUdJS2RjTzdjVGxUMm43M2hPVFh4OTlyVzNWT3k4U25VeHl0Q0dfRkNyVERRMS1MZ3hzVDdzMGpzN1F3a3RJMmlndWxWT3c3UFp2RV9KREtUMTQtbXdFLVhrbm82akpDeEU4NEs?oc=5",
+          "source": "Google News (shift4.com)"
+        }
+      ],
+      "company": "Shift4",
+      "first_detected": "2026-05-30T15:46:26.972885+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
-      "count": 19
-    },
-    {
-      "company": "Toast",
-      "count": 16
+      "company": "Deliverect",
+      "count": 50
     },
     {
       "company": "SpotOn",
-      "count": 16
-    },
-    {
-      "company": "Sparkfly",
-      "count": 16
-    },
-    {
-      "company": "Shift4",
-      "count": 15
-    },
-    {
-      "company": "PAR",
-      "count": 15
+      "count": 38
     },
     {
       "company": "Lightspeed",
-      "count": 15
+      "count": 35
+    },
+    {
+      "company": "DoorDash",
+      "count": 29
+    },
+    {
+      "company": "Toast",
+      "count": 25
     },
     {
       "company": "Square",
-      "count": 15
+      "count": 25
+    },
+    {
+      "company": "Fiserv",
+      "count": 25
+    },
+    {
+      "company": "Olo",
+      "count": 25
     }
   ]
 }
