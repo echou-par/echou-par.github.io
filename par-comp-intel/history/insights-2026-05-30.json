@@ -2,7 +2,7 @@
   "date": "2026-05-30",
   "weekday": "Saturday",
   "first_seen": "2026-05-30T04:36:01.789832+00:00",
-  "last_updated": "2026-05-30T19:50:31.412737+00:00",
+  "last_updated": "2026-05-30T21:08:33.843945+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Square appeared together in coverage \u2014 \"Three Square Food Bank\u2019s Las Vegas Restaurant Week with DoorDash Reservations - KLAS 8 News Now\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-05-30T04:36:01.789832+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -93,7 +93,7 @@
       "first_detected": "2026-05-30T04:36:01.789832+00:00"
     },
     {
-      "text": "PAR shows concentrated financial/market activity \u2014 7 tracked financial/market items this cycle. Latest: \"Rock Creek Group LP Buys 190,000 Shares of PAR Technology Corporation $PAR - MarketBeat\"",
+      "text": "PAR shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"Rock Creek Group LP Buys 190,000 Shares of PAR Technology Corporation $PAR - MarketBeat\"",
       "sources": [
         {
           "title": "Rock Creek Group LP Buys 190,000 Shares of PAR Technology Corporation $PAR - MarketBeat",
@@ -257,6 +257,23 @@
       ],
       "company": "ItsaCheckmate",
       "first_detected": "2026-05-30T19:50:31.412737+00:00"
+    },
+    {
+      "text": "Lightspeed shows concentrated risk activity \u2014 2 tracked risk items this cycle. Latest: \"Lightspeed Commerce shares decline after quarterly earnings miss despite revenue growth (LSPD) - MSN\"",
+      "sources": [
+        {
+          "title": "Lightspeed Commerce shares decline after quarterly earnings miss despite revenue growth (LSPD) - MSN",
+          "url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxQLVJTWlZVZ1dtOVFTMWxrSmh4bVQ4eW5OdFZiXzBrZG5jT1YyXzdUSU9BZ1h2R2RyMS1SdG5NZERzekMzYzRSSzUtdUNPS0N1dTdJY2VMT1dqanFUcWJlNWVPeERSNlJOdEZIeTBLRElYbDFuYlhQY0lUYTJqSWFuRUtmMkpsR1RpSnhkV2pYek9KbWxNbDlKUGR5WVRsSFA5RFdOV1J2RXRWT0lncVhSLW1OOGRBellCVXVLdTFtY2p6OUlXSlhsVFFTWnk0bkRyY3hkcGp2b1lGdkhRYVAtNEJ0eXdRNXVfdWJrTEYtWjFEV3lFSFlHNnJwVVIzQzQzTVQzenhqVEZleDFwOFdIUzJvMkdLNlRRbnJvcXk0Y3JraWt0VGpybmw4Vk5vSzFSQkl0S3g1aFF4dFpYV19QbEJrT29TNUFYbjZZeDNiMVFtQTI5Y0tUeTlIa2laVjViQWpSSXFRS1JGbVdaMlZ3VFpfamZjQQ?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Lightspeed Commerce\u2019s SWOT analysis: stock faces software growth concerns - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQXQ5Z2dzNjhrRTRKS1NCRWl6UjNjbUMwSW9kRWRfaHVtTWF3WXpiaGJ0NWRGQ3hobXVkV0tIMFN3VkxJbi0wYkE0dVlJNm1FSzFsS0lwYUt4VXBOTWJMYWFGWkVJNHhNYS1QekdWa3NGVmdNcDJKOEd3WFd5enZNZDdweTlHN2NuZjl2Y1UzaDRObDlBWkYzTENnakJPNHQtNDVaSlJINmhJNjNleUlZSWdpNHZKWXBkNWVyWFluZTRYZldKc2ZkRw?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Lightspeed",
+      "first_detected": "2026-05-30T21:08:33.843945+00:00"
     }
   ],
   "most_mentioned": [
@@ -285,11 +302,11 @@
       "count": 15
     },
     {
-      "company": "Square",
+      "company": "PAR",
       "count": 15
     },
     {
-      "company": "Lightspeed",
+      "company": "Square",
       "count": 15
     }
   ]
