@@ -2,7 +2,7 @@
   "date": "2026-05-30",
   "weekday": "Saturday",
   "first_seen": "2026-05-30T04:36:01.789832+00:00",
-  "last_updated": "2026-05-30T16:34:40.548663+00:00",
+  "last_updated": "2026-05-30T18:05:39.778990+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Square appeared together in coverage \u2014 \"Three Square Food Bank\u2019s Las Vegas Restaurant Week with DoorDash Reservations - KLAS 8 News Now\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-05-30T04:36:01.789832+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -132,7 +132,7 @@
       "first_detected": "2026-05-30T04:36:01.789832+00:00"
     },
     {
-      "text": "Shift4 shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"10 Percent Owner Buys 388,000 Shift4 Shares for $15.9 Million - Yahoo Finance\"",
+      "text": "Shift4 shows concentrated financial/market activity \u2014 7 tracked financial/market items this cycle. Latest: \"10 Percent Owner Buys 388,000 Shift4 Shares for $15.9 Million - Yahoo Finance\"",
       "sources": [
         {
           "title": "10 Percent Owner Buys 388,000 Shift4 Shares for $15.9 Million - Yahoo Finance",
@@ -218,6 +218,23 @@
       ],
       "company": "Shift4",
       "first_detected": "2026-05-30T15:46:26.972885+00:00"
+    },
+    {
+      "text": "Square shows concentrated risk activity \u2014 2 tracked risk items this cycle. Latest: \"Is Block Inc. (SQ) Navigating a Shifting Fintech Landscape, or Is It Signaling Deeper Concerns - Kavout\"",
+      "sources": [
+        {
+          "title": "Is Block Inc. (SQ) Navigating a Shifting Fintech Landscape, or Is It Signaling Deeper Concerns - Kavout",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSTJTVl9zdUhsaGNYNWJDWHQ0X1lLYkZhRktjUUJQU3l3WThHNkFXd0E1c0tyVmpXYm4wOGlRM2FPT0wwenJoSmZrQjkwZWpLeWVsVDZCRnhvYlgyRHUtT1pVZGZfSzN3Yl9aaXVBTU9obWl2YzRrSnFqY1pSZDItTUd4YWVjRkItc2tGQ2ZJQmlfVFFPVEduLTktSU9jVF81WEhPTmRLd1RyMndKQ2NoUmROZk5Wc3JVMGJpOHhiZllBZzg?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Block, Inc. (XYZ) Faces Securities Class Action, Regulators Levy Cash App Fines Following Investigations Going Back to Hindenburg Report- Hagens Berman - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQM05pMnk1bGRndDlvUGFXOHJzcFNxQWVEYjBhYUdSZGxGRUdtTDVieUxSajF6OXo4cm5TU3pkdldhM2VRd2tSRXFka3pWN2Uyc1A5MmtMTG9PcW4wNVNiSXNtcVlzNmdfR1p3X1hJQnhBenc5ZERxX1VMZDRjNHhYcHlEVXdmeTRqWDhpbDR2Mlo4ZnFDMUU2dm1OcVp4WVFlWjNlc0NjYjcyRDZDMk9TSFhDTlhuRXhCckNQWWlrdHVjcjVKNl9lb1BJU0V2bGc2MlEzc0FQTWYxUFFPTnlsUEwzeFgxSDNlWWFZeC16OWNQSkdQVFRXaUo0RlBMczZfT3BERTZ4eUVleEJERVkydnBvNlFZUGJQQ0Y0Rmcxa0RrZlRQRkNWTw?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Square",
+      "first_detected": "2026-05-30T18:05:39.778990+00:00"
     }
   ],
   "most_mentioned": [
@@ -226,11 +243,15 @@
       "count": 19
     },
     {
-      "company": "SpotOn",
-      "count": 17
+      "company": "Toast",
+      "count": 16
     },
     {
-      "company": "PAR",
+      "company": "Olo",
+      "count": 16
+    },
+    {
+      "company": "SpotOn",
       "count": 16
     },
     {
@@ -242,15 +263,11 @@
       "count": 15
     },
     {
-      "company": "Lightspeed",
-      "count": 15
-    },
-    {
-      "company": "Toast",
-      "count": 15
-    },
-    {
       "company": "Square",
+      "count": 15
+    },
+    {
+      "company": "Lightspeed",
       "count": 15
     }
   ]
