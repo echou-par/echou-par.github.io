@@ -2,7 +2,7 @@
   "date": "2026-05-30",
   "weekday": "Saturday",
   "first_seen": "2026-05-30T04:36:01.789832+00:00",
-  "last_updated": "2026-05-30T22:32:32.400364+00:00",
+  "last_updated": "2026-05-31T00:06:51.207191+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Square appeared together in coverage \u2014 \"Three Square Food Bank\u2019s Las Vegas Restaurant Week with DoorDash Reservations - KLAS 8 News Now\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-05-30T04:36:01.789832+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -140,8 +140,8 @@
           "source": "Google News"
         },
         {
-          "title": "Q1 Earnings Roundup: Shift4 (NYSE:FOUR) And The Rest Of The Payment Processing Segment - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcHlvLUlJTlhjcTF6TkRZLU9yNkxhb0Z4VTMtU0U1RTlKQ0pMUmx6eElBSHBNLWVEaFM1MklCVVBFc3dNSGNQVjB0MUZKdm5wREZ5UTlCaGZtcG5LWHJuWmxEQ285Rlp5em5oRERWWDh3cUFyTG1wZFd5ZGFWblFVSy0xal9yVkk4RXF0NmNPVE9rdGpsR296ZDFLd1k?oc=5",
+          "title": "5 Revealing Analyst Questions From Shift4\u2019s Q1 Earnings Call - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUFB0V0dMb2QtMHNOLVFEM2p5M2RTVVByLV9qTjdGa2pKTEYwcW1OTHZqR0kzdkY5QnNSVi1WU0ZESVQ4VXdISGYxbi1hMzlxSFdxNEduQnBqYU1JRUNTLXVsZHBQMmFoNU1HbUM1ai0xa2FreGxyT19uRmg3RXQ2ZGhYWlU5dUMxWEF4SHRiSTV1YzNlWG9manBjM2sybGdlbFJR?oc=5",
           "source": "Google News"
         },
         {
@@ -274,23 +274,22 @@
       ],
       "company": "Lightspeed",
       "first_detected": "2026-05-30T21:08:33.843945+00:00"
+    },
+    {
+      "text": "Cross-competitor event: Global Payments, Lightspeed appeared together in coverage \u2014 \"Global Payments Expands Partnership with Lightspeed DMS to Power Embedded Payments for Dealerships - Business Wire\"",
+      "sources": [
+        {
+          "title": "Global Payments Expands Partnership with Lightspeed DMS to Power Embedded Payments for Dealerships - Business Wire",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPcFZtRmhBT0loYkdSSmpnZXNJNlR6bjVKcndkVGlXVjgwRDN6ekU5OTljNUtjaVU4b0M5Tll6eC1TWk9heXRoY3EtQUFlSXlXS25yNmlFR0tQdEFQSy1sYzNJa2JpdFpNUmRfelhrektYVWVRaG5Fb2EtanJEanZYT1dlTVZuQnc0NWZDdVZhQmJwVEFnWWRIMjM4bUlPWjVkN2dTUGJMR1g1R0VlQ2NhRTdkUTBJUmZueHp1RU5XRGFSU1djTThOb1lLUVBJa2Z6RTBYQXcyUlNhVVczZzB3VXlsZm9HVUxobUpZ?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "first_detected": "2026-05-31T00:06:51.207191+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
-      "count": 19
-    },
-    {
       "company": "Toast",
-      "count": 16
-    },
-    {
-      "company": "Global Payments",
-      "count": 16
-    },
-    {
-      "company": "Olo",
       "count": 16
     },
     {
@@ -307,6 +306,18 @@
     },
     {
       "company": "PAR",
+      "count": 15
+    },
+    {
+      "company": "Lightspeed",
+      "count": 15
+    },
+    {
+      "company": "Square",
+      "count": 15
+    },
+    {
+      "company": "Fiserv",
       "count": 15
     }
   ]
