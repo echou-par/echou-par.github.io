@@ -2,7 +2,7 @@
   "date": "2026-05-31",
   "weekday": "Sunday",
   "first_seen": "2026-05-31T05:05:54.904856+00:00",
-  "last_updated": "2026-05-31T21:34:05.103123+00:00",
+  "last_updated": "2026-05-31T23:08:22.395629+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Square appeared together in coverage \u2014 \"Three Square Food Bank\u2019s Las Vegas Restaurant Week with DoorDash Reservations - KLAS 8 News Now\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-05-31T05:05:54.904856+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -218,12 +218,34 @@
       ],
       "company": "DoorDash",
       "first_detected": "2026-05-31T14:58:24.160533+00:00"
+    },
+    {
+      "text": "NCR Voyix shows concentrated partnership activity \u2014 5 tracked partnership items this cycle. Latest: \"NCR Voyix Partners With U.S. Bank Voyager - NACS\"",
+      "sources": [
+        {
+          "title": "NCR Voyix Partners With U.S. Bank Voyager - NACS",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcXJLR1RBSFBndmpuSFhaT1ZJQnp5bnpJcHJaZkRpNkdrYVdScU1xRERUZUROWVZyT2pXREFNUkFBbW9pWFlSQ2FDdlRPc0JyUk1Sa3RLYXBnVVI3T3d5UE85ajN0UWFMZTNVM1R4UlNYUXFhdV8zOXY3YjJoV0d4amxiQmV6TmtGSDd2eGhVWlROR01Q?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "NCR Voyix Partners With US Bank Voyager to Enable Fleet Card Acceptance - Moomoo",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOENxSUwxTDFsRDNsUmpKZzdBeUhGMXNhNFlmdUloRHVNZE81UWQzUDVYZS1FTGpsemlUMFNjWUM5cm4zQ2VIRGF5eG82NHBGckl4ZnJTZ1FjOGFWeUJwQ25ZVm9ORXBRbTU2N0pJQm8yVkN2bFd0YmRpaksycXNWRjJfcllxejdTaDRLNHRpR1ZzbkQwZExEYmN0dWZpdw?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "NCR Voyix integrates U.S. Bank Voyager fleet card acceptance - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORjBrS2tWekZUTkRrQWxmclYwbzE1bm5vOGJqbmcyOHNXUTV4N1pzWmZyUFpIVnpJR1h4UDZSX2Z6SzZRYldVOEd5SUZ6WVNHZ1R5a1JJa1VBYlEwM3k3enZCcnZKVld2elNyaF8wNEMyblNBb1JDWWFQS0MxT2ZSSHNCMDF3MzBVMWstaDg5RWRnd0padFhJWkhycFV1bE9MZjBPMlNMMFI4azNEelhNZmlRcVRXUQ?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "NCR Voyix",
+      "first_detected": "2026-05-31T23:08:22.395629+00:00"
     }
   ],
   "most_mentioned": [
     {
       "company": "DoorDash",
-      "count": 19
+      "count": 20
     },
     {
       "company": "Toast",
@@ -242,15 +264,15 @@
       "count": 15
     },
     {
-      "company": "PAR",
-      "count": 15
-    },
-    {
       "company": "Square",
       "count": 15
     },
     {
       "company": "Fiserv",
+      "count": 15
+    },
+    {
+      "company": "SpotOn",
       "count": 15
     }
   ]
