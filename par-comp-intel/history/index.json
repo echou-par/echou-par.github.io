@@ -1,6 +1,12 @@
 {
-  "updated": "2026-05-31T00:06:51.207191+00:00",
+  "updated": "2026-05-31T05:05:54.904856+00:00",
   "days": [
+    {
+      "date": "2026-05-31",
+      "weekday": "Sunday",
+      "insight_count": 7,
+      "last_updated": "2026-05-31T05:05:54.904856+00:00"
+    },
     {
       "date": "2026-05-30",
       "weekday": "Saturday",
@@ -180,12 +186,6 @@
       "weekday": "Friday",
       "insight_count": 13,
       "last_updated": "2026-05-02T03:34:20.878464+00:00"
-    },
-    {
-      "date": "2026-04-30",
-      "weekday": "Thursday",
-      "insight_count": 11,
-      "last_updated": "2026-04-30T23:31:22.191218+00:00"
     }
   ]
 }
