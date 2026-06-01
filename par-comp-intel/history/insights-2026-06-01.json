@@ -2,7 +2,7 @@
   "date": "2026-06-01",
   "weekday": "Monday",
   "first_seen": "2026-06-01T07:08:46.613681+00:00",
-  "last_updated": "2026-06-01T19:28:36.091687+00:00",
+  "last_updated": "2026-06-01T22:22:07.940654+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Square appeared together in coverage \u2014 \"Three Square Food Bank\u2019s Las Vegas Restaurant Week with DoorDash Reservations - KLAS 8 News Now\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-06-01T07:08:46.613681+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -71,13 +71,8 @@
       "first_detected": "2026-06-01T07:08:46.613681+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"TOST (NYSE) insider sells 3,664 shares; option line of 54,000 noted - Stock Titan\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"TOST Stock Price, Quote & Chart | TOAST INC-CLASS A (NYSE:TOST) - ChartMill\"",
       "sources": [
-        {
-          "title": "TOST (NYSE) insider sells 3,664 shares; option line of 54,000 noted - Stock Titan",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTHQyM1Ixa0FlX095M2dJTFhxMjRwZlhSRTN3WnlZYk5lNW1Sd3I1MXkxcjJ1RlpkSmQwQlFQeWx1Ri16YnpOUFA1UHptMGktTTlkUnJkWDJSYWdpNW9tOXprZkZMekVaRnVvdnkzUUZDVmJ4b1h3RTJ3TnFjNEtwbVNpa0x1RUlKSWJnX3owUQ?oc=5",
-          "source": "Google News"
-        },
         {
           "title": "TOST Stock Price, Quote & Chart | TOAST INC-CLASS A (NYSE:TOST) - ChartMill",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE84eUZNRVFDbUVaNXJvOVFxckFLV05NeFdUOExtb29Hcl9LaDZyZmNWaS1qdjBsWFNRdlFjc0NTSXVKby16ZnpSODNPVlZta3BXWDJnUGVHSF81WE01aHkw?oc=5",
@@ -86,6 +81,11 @@
         {
           "title": "Toast Stock: I Was Wrong (NYSE:TOST) - Seeking Alpha",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBRQ0htcXpibTJiOVNMMkwwTmE5X25mbGYwRExYRlUycl9jSXFUaXZudjdaMG5PWGpqNmZTY2EwNElLYUZRMk9KOXRtR0NPMGVKdl9wZWVINmNzMllETVFLcFJOMTZ1d0podHc?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Toast Inc. (TOST) Reveals Growth Plans After Earnings - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORjY2X01rSGgtQmVyOHEyc2w2V1JXUGxrQ1FfTWxDY2E5dF8zdHFpLTVuZjE0aGRIOE81RU5scjhNbjBDclZpMEVBQ080Z25RZEZzOFcxTDNMazNteU5fUFpHcGxlLTFGUm5zeFpTNDNCUzlfcTBiY3BWMmQ0TUMtNUpzOUVuNHpESVNJYWp4ZHVBVDNLWGFuazRn?oc=5",
           "source": "Google News"
         }
       ],
@@ -230,40 +230,62 @@
       ],
       "company": "Square",
       "first_detected": "2026-06-01T19:28:36.091687+00:00"
+    },
+    {
+      "text": "Shift4 shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"Shift4 (FOUR) Q1 2026 Earnings Call Transcript - AOL.com\"",
+      "sources": [
+        {
+          "title": "Shift4 (FOUR) Q1 2026 Earnings Call Transcript - AOL.com",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBNemZMbHNKSlNRSURmYWdCNFBzWHhZWTg1OV9jYXRvb3RkTDVuUVVoMHp5V2lXeV9WS01aNGUzWHVUa3ctWEoydExNZF9INmpFd2xkcnR3ZlFwdlBJZERMUWRELWk2ZjF0aFVhbWtENzFPcDhlQ2NXSjB4MWQ?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "10 Percent Owner Buys 388,000 Shift4 Shares for $15.9 Million - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPanVReEhBRjZVRi1Pa2EySlF0ZXFmSnpNWnE1aldUZUFVaUVSTFVMcXBxNm1DbEEyTlJ2TUtoOE9pRGNRem4wVTA3VEtYeXRDa294ZXdXZnNFcURBeWVvb0NjUER6eHZ1MXlvRVVjX1Uxb1dYM0ZiWjZoYTdhZC1BMnBuYzloTmg0Q3lzREtRVm5WODNF?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Shift4\u2019s (NYSE:FOUR) Q1 CY2026: Beats On Revenue, Stock Jumps 13.1% - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdmg2UEZodjhhbDJHWXp2MlhPeEtkN0dIdWlCQmpORGJUWjJCTTJPSkhHODJwelgzNUlpaEFoQncyYUdieF9Ub3hjaTNSNldsWTlKWXhOc2ZfeXdib2pFUEZRNzQ5eDY1UzkyVDFINHhqYnU1WFQwRGdfVWhOYnhkRDFyeW5ybHpZRnpVQkJkektxV0l0Umc?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Shift4",
+      "first_detected": "2026-06-01T22:22:07.940654+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "Deliverect",
-      "count": 50
+      "company": "DoorDash",
+      "count": 19
+    },
+    {
+      "company": "Toast",
+      "count": 16
     },
     {
       "company": "SpotOn",
-      "count": 39
+      "count": 16
+    },
+    {
+      "company": "Sparkfly",
+      "count": 16
+    },
+    {
+      "company": "Shift4",
+      "count": 15
     },
     {
       "company": "Lightspeed",
-      "count": 35
+      "count": 15
     },
     {
-      "company": "DoorDash",
-      "count": 29
-    },
-    {
-      "company": "Square",
-      "count": 25
+      "company": "PAR",
+      "count": 15
     },
     {
       "company": "Fiserv",
-      "count": 25
-    },
-    {
-      "company": "Paytronix",
-      "count": 25
-    },
-    {
-      "company": "Tillster",
-      "count": 25
+      "count": 15
     }
   ]
 }
