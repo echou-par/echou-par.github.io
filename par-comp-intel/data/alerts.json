@@ -1,23 +1,10 @@
 {
-  "updated": "2026-06-02T21:18:00.742104+00:00",
-  "total": 4,
+  "updated": "2026-06-02T23:17:13.128318+00:00",
+  "total": 3,
   "by_category": {
-    "guidance_cut": 1,
     "stock_move": 3
   },
   "alerts": [
-    {
-      "category": "guidance_cut",
-      "severity": "high",
-      "company": "Lightspeed",
-      "headline": "Lightspeed Commerce shares decline after quarterly earnings miss despite revenue growth (LSPD) - MSN",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRl9wcDlBZzdXbXpIOFVkblF4M2pYcEhXM3dGZnRTb3VoR2tuMUt2TVBsMXBzRXhWWHVVUHlXSXFIWjdpcERLNF9DZHZNTnR2aTVRQ1YtT3dWOEFpWWRNSl9aYnVvdDhqcTU2VVJORm1oWWtDcUREQ01WSHBjSUs2MFFNejdDX1pRYktXbC0tNm5ObU1kSWlBU29LU1drdnpvd3daa3l2SjJ3eUthT3E4T2NzN0JDSnpSRk1zb2Z3d2FVc3hHQ0VoVVlfT3RsVGFfT29CVHFEUTNuM05CakhF?oc=5",
-      "source": "Google News",
-      "date": "Sun, 31 May 2026 23:42:36 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-06-02T21:18:00.742104+00:00"
-    },
     {
       "category": "stock_move",
       "severity": "medium",
@@ -25,10 +12,10 @@
       "headline": "Toast (TOST) stock up 7.5% over the past week",
       "url": "https://finance.yahoo.com/quote/TOST",
       "source": "Yahoo Finance",
-      "date": "2026-06-02T21:18:00.742104+00:00",
+      "date": "2026-06-02T23:17:13.128318+00:00",
       "par_relevance": 3,
       "note": "+7.5% 1W",
-      "detected_at": "2026-06-02T21:18:00.742104+00:00"
+      "detected_at": "2026-06-02T23:17:13.128318+00:00"
     },
     {
       "category": "stock_move",
@@ -37,10 +24,10 @@
       "headline": "NCR Voyix (VYX) stock up 10.8% over the past week",
       "url": "https://finance.yahoo.com/quote/VYX",
       "source": "Yahoo Finance",
-      "date": "2026-06-02T21:18:00.742104+00:00",
+      "date": "2026-06-02T23:17:13.128318+00:00",
       "par_relevance": 3,
       "note": "+10.8% 1W",
-      "detected_at": "2026-06-02T21:18:00.742104+00:00"
+      "detected_at": "2026-06-02T23:17:13.128318+00:00"
     },
     {
       "category": "stock_move",
@@ -49,10 +36,10 @@
       "headline": "Lightspeed (LSPD) stock up 9.3% over the past week",
       "url": "https://finance.yahoo.com/quote/LSPD",
       "source": "Yahoo Finance",
-      "date": "2026-06-02T21:18:00.742104+00:00",
+      "date": "2026-06-02T23:17:13.128318+00:00",
       "par_relevance": 3,
       "note": "+9.3% 1W",
-      "detected_at": "2026-06-02T21:18:00.742104+00:00"
+      "detected_at": "2026-06-02T23:17:13.128318+00:00"
     }
   ]
 }

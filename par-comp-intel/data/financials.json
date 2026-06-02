@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-02T21:18:00.742104+00:00",
+  "updated": "2026-06-02T23:17:13.128318+00:00",
   "tickers": {
     "PAR": {
       "ticker": "PAR",
@@ -12,7 +12,7 @@
       "revenue_growth_yoy": 0.194,
       "ebitda_margin": -0.08085,
       "gross_margin": 0.43674,
-      "enterprise_value": 1026680192.0,
+      "enterprise_value": 986671360.0,
       "trailing_pe": null,
       "forward_pe": 13.4817,
       "income_statement_annual": [
@@ -182,7 +182,7 @@
       "revenue_growth_yoy": 0.219,
       "ebitda_margin": 0.06516,
       "gross_margin": 0.26357,
-      "enterprise_value": 14336199680.0,
+      "enterprise_value": 13530000384.0,
       "trailing_pe": 39.328358,
       "forward_pe": 15.517891,
       "income_statement_annual": [
@@ -243,6 +243,7 @@
         {
           "endDate": "2025-12-31",
           "totalRevenue": 1633000000.0,
+          "costOfRevenue": 1210000000.0,
           "grossProfit": 423000000.0,
           "researchDevelopment": 97000000.0,
           "sellingGeneralAdministrative": 237000000.0,
@@ -284,7 +285,7 @@
           "endDate": "2025-12-31",
           "cash": 1353000000.0,
           "shortTermInvestments": 638000000.0,
-          "netReceivables": 127000000.0,
+          "netReceivables": 103000000.0,
           "totalCurrentAssets": 2669000000.0,
           "totalAssets": 3145000000.0,
           "totalCurrentLiabilities": 969000000.0,
@@ -347,7 +348,7 @@
       "revenue_growth_yoy": 0.331,
       "ebitda_margin": 0.091709994,
       "gross_margin": 0.51763,
-      "enterprise_value": 69563727872.0,
+      "enterprise_value": 66152054784.0,
       "trailing_pe": 74.38389,
       "forward_pe": 20.161213,
       "income_statement_annual": [
