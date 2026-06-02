@@ -2,7 +2,7 @@
   "date": "2026-06-02",
   "weekday": "Tuesday",
   "first_seen": "2026-06-02T04:46:43.548915+00:00",
-  "last_updated": "2026-06-02T17:51:32.126041+00:00",
+  "last_updated": "2026-06-02T18:21:29.794533+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Square appeared together in coverage \u2014 \"Three Square Food Bank\u2019s Las Vegas Restaurant Week with DoorDash Reservations - KLAS 8 News Now\"",
@@ -93,7 +93,7 @@
       "first_detected": "2026-06-02T04:46:43.548915+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"TOST (NYSE) insider sells 3,664 shares; option line of 54,000 noted - Stock Titan\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"TOST (NYSE) insider sells 3,664 shares; option line of 54,000 noted - Stock Titan\"",
       "sources": [
         {
           "title": "TOST (NYSE) insider sells 3,664 shares; option line of 54,000 noted - Stock Titan",
@@ -241,10 +241,10 @@
     },
     {
       "company": "DoorDash",
-      "count": 30
+      "count": 29
     },
     {
-      "company": "Global Payments",
+      "company": "Fiserv",
       "count": 25
     },
     {
@@ -252,11 +252,11 @@
       "count": 25
     },
     {
-      "company": "Fiserv",
+      "company": "Olo",
       "count": 25
     },
     {
-      "company": "Olo",
+      "company": "Square",
       "count": 25
     }
   ]
