@@ -2,7 +2,7 @@
   "date": "2026-06-02",
   "weekday": "Tuesday",
   "first_seen": "2026-06-02T04:46:43.548915+00:00",
-  "last_updated": "2026-06-02T18:21:29.794533+00:00",
+  "last_updated": "2026-06-02T21:18:00.742104+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Square appeared together in coverage \u2014 \"Three Square Food Bank\u2019s Las Vegas Restaurant Week with DoorDash Reservations - KLAS 8 News Now\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-06-02T04:46:43.548915+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -165,7 +165,7 @@
       "first_detected": "2026-06-02T17:47:45.620672+00:00"
     },
     {
-      "text": "NCR Voyix (VYX) stock gained 8.9% over the past week \u2014 material weekly move relative to broader cohort.",
+      "text": "NCR Voyix (VYX) stock gained 10.8% over the past week \u2014 material weekly move relative to broader cohort.",
       "sources": [
         {
           "title": "VYX Stock Chart | NCR VOYIX CORP (NYSE:VYX) - ChartMill",
@@ -224,40 +224,84 @@
       ],
       "company": "Shift4",
       "first_detected": "2026-06-02T17:51:32.126041+00:00"
+    },
+    {
+      "text": "ItsaCheckmate shows concentrated partnership activity \u2014 5 tracked partnership items this cycle. Latest: \"Coco Robotics Powers White Castle's First Autonomous Deliveries on Uber Eats with Checkmate Integration - PR Newswire\"",
+      "sources": [
+        {
+          "title": "Coco Robotics Powers White Castle's First Autonomous Deliveries on Uber Eats with Checkmate Integration - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNG9yNDcwNmN3VGE5NVd1ZlRIMll4UXBucHFvT2YwNWJMUTFWSEp0bUhlXzhkOW1hcDhoTkJZLXVUclFFUEsycVhWdGp0bWRlUVRSZDNDX1hOdGNBX3B4Q3kyaHJPT1NheWJYYU5VTTBaLS1nRzZ6S0FCaEZxclZaX0U0bUhaazl5dFVPVVp3enFKMmFJMnlkWHVXZ3hLb29ZQ1pESDhoTURzcWdtN0dYb2RqWUd0MF9Fa0tMLUI1Rm5YSWF5eDJEbVhNVDB0dTV0TkcxNl9NQ2RfTXpicWVCenFDbmZfM0tSNUV0WXZhNA?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Checkmate's integration with ezCater helping restaurants streamline catering - fastcasual.com",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPc2M3ZGM1TE1yX2R3cV9NYWYzc0dOWjA3RlU1alFQRjVEb2RHWkFSMHlwZ2VlTkVBa1JGbmY5LVgxYjU0M3lmdFVvMVpacVRxWGlwNzdfZnhiU0t6RTROdXVPcFBGTTdrbWkyRk12UERJbHYyM0g4M1cxUEs0T1Vtdi02blZrS2pVQmpVbl9Sa21LdndRZE1TZlF3Z2RObWZmU0dVUjdUdEdjQTVP?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Checkmate Acquires VoiceBite Integrated Voice AI Solution for Restaurants | - Restaurant Technology News",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQU00yNGd2c3dTcEJGR1hQVGlqQlJoNVN1OHNEOGZ1aE9GM0lmUUlLZE5UNUZHeEZPb2o0d1pabTNMdVV0aVNUS082VU5OUjR5Q0RNZmRoM1lqeGoxMEx0b0FFVWM5OGZ2OHlSc2kwalA5bEI3NTBoT0VmQ01DMEVTbTlCSThMbTFaajRfWkt1MXl1Ymx1ZC16aVVlNDVma0lzWlBEUmtMR2RSS2sxakQtYkJWTTFSczRLYTlz?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "ItsaCheckmate",
+      "first_detected": "2026-06-02T21:18:00.742104+00:00"
+    },
+    {
+      "text": "Olo shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"Olo Inc stock (US6811141042): shares steady on Nasdaq ahead of next catalysts - AD HOC NEWS\"",
+      "sources": [
+        {
+          "title": "Olo Inc stock (US6811141042): shares steady on Nasdaq ahead of next catalysts - AD HOC NEWS",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeDlUOGgtZnAwOHRvU1ZDNFBIay01dUQxMnN5d0tBTFNtb0VmWW1jMmk4UTFuSHp5clBWR25rb1VOcVRfMENaWGdqN1hibG9WRFlkU2tGakJNVG9OX08wN29KME0xYnlpWHRtSnpyakF6UW5QUFNMOU8xRTdVU1VXWm5ocVQxdmRncnhQQTNjUGRzcFVySGM3dUh3ZjZkbHVZRWgwd2pNdDJBNndaWmQtOGQ5a3cwdHpzY2dKSlk5b2w?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "OLO Stock Price, News & Analysis - Stock Titan",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBnR2ZaTTkyV3FVYnozTE1LQThVT0dNTGxVaTZON2tmVDN5SE1lWjY0RGhxaHVhUGl0Z0FBaTZvZnRHUXRBak5QVzA1T1FwU2RMUFE?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Is Olo Inc. (OLO) the Best Cloud Computing Stock to Buy Under $10? - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9pdHdDV0Fud19WTEJNc25kMjRWbUlJcGxnVTVRZHgzUjk3c0tsQ3MwMEYwYTVIN2dibW82eTlud1IxSWJDS0IyYmY3ZFNnUnBfTTUwSzZRdnVVdmJQejVsX21QVVJreWYwZmpYa0VReC1IRk9qa3ZN?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Olo",
+      "first_detected": "2026-06-02T21:18:00.742104+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "Deliverect",
-      "count": 50
-    },
-    {
       "company": "SpotOn",
-      "count": 38
-    },
-    {
-      "company": "Lightspeed",
-      "count": 35
+      "count": 17
     },
     {
       "company": "DoorDash",
-      "count": 29
+      "count": 16
+    },
+    {
+      "company": "Sparkfly",
+      "count": 16
     },
     {
       "company": "Fiserv",
-      "count": 25
+      "count": 15
+    },
+    {
+      "company": "Uber Eats",
+      "count": 15
+    },
+    {
+      "company": "Global Payments",
+      "count": 15
     },
     {
       "company": "Toast",
-      "count": 25
+      "count": 15
     },
     {
-      "company": "Olo",
-      "count": 25
-    },
-    {
-      "company": "Square",
-      "count": 25
+      "company": "Lightspeed",
+      "count": 15
     }
   ]
 }
