@@ -2,7 +2,7 @@
   "date": "2026-06-03",
   "weekday": "Wednesday",
   "first_seen": "2026-06-03T07:23:41.285155+00:00",
-  "last_updated": "2026-06-03T18:06:50.884687+00:00",
+  "last_updated": "2026-06-03T18:35:13.571493+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news\"",
@@ -176,8 +176,13 @@
       "first_detected": "2026-06-03T17:29:00.198335+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"TOST (NYSE) insider sells 3,664 shares; option line of 54,000 noted - Stock Titan\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Toast (NYSE: TOST) General Counsel sells 108K shares after exercising 54K options - Stock Titan\"",
       "sources": [
+        {
+          "title": "Toast (NYSE: TOST) General Counsel sells 108K shares after exercising 54K options - Stock Titan",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPa283eFlRZlRmQWE3VXAtVk85OWVzZVRFenEwLXFNVU9SM2VadWJtaW9vVzhxeTFtT050U25HWmM0emdRQ0IwekpRZnB1b3h1Z01RbDd5R293VHRzZWREZm12bm4xV01XNkZNV2EzMThwMVlNYzZyV19SbGpub08xTVdMQXQyY0JkdFJtRFNKM01iX0daZXZXTEtyMEQzR1lRdnFad2lR?oc=5",
+          "source": "Google News"
+        },
         {
           "title": "TOST (NYSE) insider sells 3,664 shares; option line of 54,000 noted - Stock Titan",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTHQyM1Ixa0FlX095M2dJTFhxMjRwZlhSRTN3WnlZYk5lNW1Sd3I1MXkxcjJ1RlpkSmQwQlFQeWx1Ri16YnpOUFA1UHptMGktTTlkUnJkWDJSYWdpNW9tOXprZkZMekVaRnVvdnkzUUZDVmJ4b1h3RTJ3TnFjNEtwbVNpa0x1RUlKSWJnX3owUQ?oc=5",
@@ -186,11 +191,6 @@
         {
           "title": "Toast Stock: I Was Wrong (NYSE:TOST) - Seeking Alpha",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBRQ0htcXpibTJiOVNMMkwwTmE5X25mbGYwRExYRlUycl9jSXFUaXZudjdaMG5PWGpqNmZTY2EwNElLYUZRMk9KOXRtR0NPMGVKdl9wZWVINmNzMllETVFLcFJOMTZ1d0podHc?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Toast Inc. (TOST) Reveals Growth Plans After Earnings - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORjY2X01rSGgtQmVyOHEyc2w2V1JXUGxrQ1FfTWxDY2E5dF8zdHFpLTVuZjE0aGRIOE81RU5scjhNbjBDclZpMEVBQ080Z25RZEZzOFcxTDNMazNteU5fUFpHcGxlLTFGUm5zeFpTNDNCUzlfcTBiY3BWMmQ0TUMtNUpzOUVuNHpESVNJYWp4ZHVBVDNLWGFuazRn?oc=5",
           "source": "Google News"
         }
       ],
@@ -252,6 +252,28 @@
       ],
       "company": "Square",
       "first_detected": "2026-06-03T18:06:50.884687+00:00"
+    },
+    {
+      "text": "Shift4 shows concentrated product launch activity \u2014 3 tracked product launch items this cycle. Latest: \"Shift4 Partners With Bar Rescue\u2019s Jon Taffer for $100,000 \u201cRescue Mission\u201d Contest - Shift4\"",
+      "sources": [
+        {
+          "title": "Shift4 Partners With Bar Rescue\u2019s Jon Taffer for $100,000 \u201cRescue Mission\u201d Contest - Shift4",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNk9pdkYyeldtb3pMOVF1c3BxWlUyZmJFTjVzaXY4akxWZjRHZ2VvaHF0bWxlWnE2V3NVT0VOVkNTV1kzY0pZSFZYS1NiRnNDS3FVLXdpMGRHZkJ2NHBXQ1hwdHIxVy1XU2psLUs2cURWb2hvcmtFRG1DeXNCMHFfdy1UN1JCUkg1eUFJMGNvRlRteDRZWmNMMUplamVwOXRKWHp4Zmk1cm5MSkEtb3ZySTIwRmt5ckNsbmhDNU1ZbUdnRzdkZEpBWTg0S1FqWG1FV2V4djR6QWNQNzVF?oc=5",
+          "source": "Google News (shift4.com)"
+        },
+        {
+          "title": "Shift4 Partners with Lydian to Support USDT Payment Acceptance - Shift4",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWG9UcFJuSWhMNE1zUWI4UWdvMnJ5enc5Snk2eVdGUkNCQWtmMmxRRjRteUhyZUN1ZkV3R25tVy03SVVyZGJYaUpGdDdtMmdScWs4ODJhYXNoUW5UU1p5cWlGSTZmaV9UU2dxYThaWDhnZ2h3MXZlNVZWVENBQTA5c2wyU2RPV0xKSTE1aDdyNlhOSm45?oc=5",
+          "source": "Google News (shift4.com)"
+        },
+        {
+          "title": "Shift4 | Integrate Payments and Commerce Technology - Shift4",
+          "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE4zSmswR0FJOW40RzNPZ042d05kRGs4MG4xNU5WemozSERIYmE1R1IyQVk3bnJ3R0FwVUUw?oc=5",
+          "source": "Google News (shift4.com)"
+        }
+      ],
+      "company": "Shift4",
+      "first_detected": "2026-06-03T18:35:13.571493+00:00"
     }
   ],
   "most_mentioned": [
@@ -261,7 +283,7 @@
     },
     {
       "company": "SpotOn",
-      "count": 36
+      "count": 34
     },
     {
       "company": "Lightspeed",

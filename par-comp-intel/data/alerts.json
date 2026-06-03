@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-03T18:06:50.884687+00:00",
+  "updated": "2026-06-03T18:35:13.571493+00:00",
   "total": 2,
   "by_category": {
     "guidance_cut": 1,
@@ -16,19 +16,19 @@
       "date": "Sun, 31 May 2026 23:42:36 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-06-03T18:06:50.884687+00:00"
+      "detected_at": "2026-06-03T18:35:13.571493+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "Global Payments",
-      "headline": "Global Payments (GPN) stock down 8.1% over the past week",
+      "headline": "Global Payments (GPN) stock down 8.0% over the past week",
       "url": "https://finance.yahoo.com/quote/GPN",
       "source": "Yahoo Finance",
-      "date": "2026-06-03T18:06:50.884687+00:00",
+      "date": "2026-06-03T18:35:13.571493+00:00",
       "par_relevance": 3,
-      "note": "-8.1% 1W",
-      "detected_at": "2026-06-03T18:06:50.884687+00:00"
+      "note": "-8.0% 1W",
+      "detected_at": "2026-06-03T18:35:13.571493+00:00"
     }
   ]
 }
