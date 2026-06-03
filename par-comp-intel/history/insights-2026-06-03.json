@@ -2,7 +2,7 @@
   "date": "2026-06-03",
   "weekday": "Wednesday",
   "first_seen": "2026-06-03T07:23:41.285155+00:00",
-  "last_updated": "2026-06-03T18:35:13.571493+00:00",
+  "last_updated": "2026-06-03T20:40:42.773052+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-06-03T07:23:41.285155+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -176,7 +176,7 @@
       "first_detected": "2026-06-03T17:29:00.198335+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Toast (NYSE: TOST) General Counsel sells 108K shares after exercising 54K options - Stock Titan\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"Toast (NYSE: TOST) General Counsel sells 108K shares after exercising 54K options - Stock Titan\"",
       "sources": [
         {
           "title": "Toast (NYSE: TOST) General Counsel sells 108K shares after exercising 54K options - Stock Titan",
@@ -198,7 +198,7 @@
       "first_detected": "2026-06-03T17:29:00.198335+00:00"
     },
     {
-      "text": "Global Payments (GPN) stock declined 9.7% over the past week \u2014 material weekly move relative to broader cohort.",
+      "text": "Global Payments (GPN) stock declined 8.2% over the past week \u2014 material weekly move relative to broader cohort.",
       "sources": [
         {
           "title": "Global Payments (GPN) Unveils AI-First Genius Handheld for Frontline Operations - Insider Monkey",
@@ -278,36 +278,36 @@
   ],
   "most_mentioned": [
     {
-      "company": "Deliverect",
-      "count": 50
+      "company": "DoorDash",
+      "count": 20
+    },
+    {
+      "company": "Global Payments",
+      "count": 17
+    },
+    {
+      "company": "PAR",
+      "count": 16
     },
     {
       "company": "SpotOn",
-      "count": 34
-    },
-    {
-      "company": "Lightspeed",
-      "count": 34
-    },
-    {
-      "company": "DoorDash",
-      "count": 30
+      "count": 16
     },
     {
       "company": "Toast",
-      "count": 26
+      "count": 16
     },
     {
-      "company": "NCR Voyix",
-      "count": 25
+      "company": "Sparkfly",
+      "count": 16
     },
     {
-      "company": "Olo",
-      "count": 25
+      "company": "Shift4",
+      "count": 15
     },
     {
-      "company": "Square",
-      "count": 25
+      "company": "Uber Eats",
+      "count": 15
     }
   ]
 }
