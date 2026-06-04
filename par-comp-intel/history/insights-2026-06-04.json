@@ -2,7 +2,7 @@
   "date": "2026-06-04",
   "weekday": "Thursday",
   "first_seen": "2026-06-04T07:07:50.275206+00:00",
-  "last_updated": "2026-06-04T14:07:46.281398+00:00",
+  "last_updated": "2026-06-04T16:30:25.513194+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Square appeared together in coverage \u2014 \"Three Square Food Bank\u2019s Las Vegas Restaurant Week with DoorDash Reservations - KLAS 8 News Now\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-06-04T07:07:50.275206+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -180,40 +180,73 @@
       ],
       "company": "Lightspeed",
       "first_detected": "2026-06-04T14:07:46.281398+00:00"
+    },
+    {
+      "text": "Cross-competitor event: Paytronix, Square appeared together in coverage \u2014 \"Tavern in the Square with Paytronix Spikes Insider Loyalty Program Registrations by 86% - Yahoo Finance\"",
+      "sources": [
+        {
+          "title": "Tavern in the Square with Paytronix Spikes Insider Loyalty Program Registrations by 86% - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNkdQYXpWSGZKdXk3U19BQV9pbC1ub3Q3RWhidFQzaGIwbmNtV19NVUlmN2p1Zm03V1IyR1J3WDJWMFJfNGRQNDlrR09MWkdTWjM5VGs3TXFUV2E0emVPT2lobWZvRkNyTERsNFRSeGRTZzQ1NUl6X3lJcDV3NWpreU9mQ1ZTWnN5eFRfa3FEcVpnTmcxZ3pfSGQyYVZHcWRXWllKc193?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "first_detected": "2026-06-04T16:30:25.513194+00:00"
+    },
+    {
+      "text": "Toast shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Toast (NYSE: TOST) General Counsel sells 108K shares after exercising 54K options - Stock Titan\"",
+      "sources": [
+        {
+          "title": "Toast (NYSE: TOST) General Counsel sells 108K shares after exercising 54K options - Stock Titan",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPa283eFlRZlRmQWE3VXAtVk85OWVzZVRFenEwLXFNVU9SM2VadWJtaW9vVzhxeTFtT050U25HWmM0emdRQ0IwekpRZnB1b3h1Z01RbDd5R293VHRzZWREZm12bm4xV01XNkZNV2EzMThwMVlNYzZyV19SbGpub08xTVdMQXQyY0JkdFJtRFNKM01iX0daZXZXTEtyMEQzR1lRdnFad2lR?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "TOST (NYSE) insider sells 3,664 shares; option line of 54,000 noted - Stock Titan",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTHQyM1Ixa0FlX095M2dJTFhxMjRwZlhSRTN3WnlZYk5lNW1Sd3I1MXkxcjJ1RlpkSmQwQlFQeWx1Ri16YnpOUFA1UHptMGktTTlkUnJkWDJSYWdpNW9tOXprZkZMekVaRnVvdnkzUUZDVmJ4b1h3RTJ3TnFjNEtwbVNpa0x1RUlKSWJnX3owUQ?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Toast Stock: I Was Wrong (NYSE:TOST) - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBRQ0htcXpibTJiOVNMMkwwTmE5X25mbGYwRExYRlUycl9jSXFUaXZudjdaMG5PWGpqNmZTY2EwNElLYUZRMk9KOXRtR0NPMGVKdl9wZWVINmNzMllETVFLcFJOMTZ1d0podHc?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Toast",
+      "first_detected": "2026-06-04T16:30:25.513194+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
-      "count": 19
+      "company": "Lightspeed",
+      "count": 35
     },
     {
       "company": "SpotOn",
-      "count": 16
+      "count": 35
+    },
+    {
+      "company": "Deliverect",
+      "count": 35
+    },
+    {
+      "company": "DoorDash",
+      "count": 31
     },
     {
       "company": "Toast",
-      "count": 16
+      "count": 26
     },
     {
-      "company": "Sparkfly",
-      "count": 16
+      "company": "TouchBistro",
+      "count": 26
     },
     {
       "company": "Global Payments",
-      "count": 15
+      "count": 25
     },
     {
-      "company": "Shift4",
-      "count": 15
-    },
-    {
-      "company": "Lightspeed",
-      "count": 15
-    },
-    {
-      "company": "PAR",
-      "count": 15
+      "company": "NCR Voyix",
+      "count": 25
     }
   ]
 }
