@@ -2,7 +2,7 @@
   "date": "2026-06-05",
   "weekday": "Friday",
   "first_seen": "2026-06-05T04:24:34.111867+00:00",
-  "last_updated": "2026-06-05T20:27:54.367889+00:00",
+  "last_updated": "2026-06-05T22:03:03.770606+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news\"",
@@ -71,8 +71,13 @@
       "first_detected": "2026-06-05T04:24:34.111867+00:00"
     },
     {
-      "text": "Shift4 shows concentrated risk activity \u2014 2 tracked risk items this cycle. Latest: \"A Look at Shift4 Payments Inc (FOUR) After 7.1% Decline -- GF Va - GuruFocus\"",
+      "text": "Shift4 shows concentrated risk activity \u2014 3 tracked risk items this cycle. Latest: \"Shift4 Payments faces earnings test as growth concerns mount - Investing.com\"",
       "sources": [
+        {
+          "title": "Shift4 Payments faces earnings test as growth concerns mount - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbHZPay0xaXpadHMzMGZaZEtaUzNGanRfaXZqZVh6NzktZkxVdTQ0em5yZUFLTS1JdHFXUlVXcjJjYkJRMktCWms2dVRvNXJIaHRlOTUwVXZXMENyRTNDcjZqZXliLWFTQnZoMERoMWlsTVRMTEVBVzh2OHVhUHVtdkh1NXpaUUtGa3RHMVZydlNoeHhtb2pONnRIRERENklnYWZyZlNjOTB1NWJTckM4RkNLbw?oc=5",
+          "source": "Google News"
+        },
         {
           "title": "A Look at Shift4 Payments Inc (FOUR) After 7.1% Decline -- GF Va - GuruFocus",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONUVrR2JsdzZydHB3ZkF2R1FaZWl1OVBUZHlGbm9kUlZSQUZib2lydTRGNE1ZSlZRN3ppWDNzVFpZZzNjQVR1NXNLQ0ZqVldCd0w1UFZtQ1lTaHNLMmhhVHJOZlByNUNFbXJWMllFNmp3ZExMWWdPc3Vrb1lhZGVTUXhtYUxwQWE4N0VMbEFjXzkyQzItWFhvdEgzTGFCb2VwdS1HZ2JDNWpjU3VNSTJ4TGFuY05Ea1BNem54LVpHRGFmS29yY1Qtc29wUQ?oc=5",
@@ -105,11 +110,11 @@
       "first_detected": "2026-06-05T04:24:34.111867+00:00"
     },
     {
-      "text": "PAR shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"PAR Technology, Zebra, and Mirion Stocks Trade Down, What You Need To Know - TradingView\"",
+      "text": "PAR shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"PAR Technology, Zebra, and Mirion Stocks Trade Down, What You Need To Know - StockStory\"",
       "sources": [
         {
-          "title": "PAR Technology, Zebra, and Mirion Stocks Trade Down, What You Need To Know - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVUFqSEtYYzNSVFlkcUNVZXhFYTNsTzZXUzBCQmxwNmY4X3ZVakpYREsybkRJM1dtR1pTX0dFRTE5NHdfSHNVREE0azFYMURjeW5aTnNwc2R6T3VaTWlDeHNrX2YtUVFJLU85dXVHMUt0djhuRGRJcVFEWVFoSUtWX2pQdE84RzJwZmlwaUNxZlNZSGRCVUV0THljMUpvRnlfNFJnd24xN3l5M0t0RW9SaGp5Y3VSdnhuc21pSlRSaWU3MmFfdFp4bVNpN0w?oc=5",
+          "title": "PAR Technology, Zebra, and Mirion Stocks Trade Down, What You Need To Know - StockStory",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUXNPX3lNTDJYQ29senktT2FNenZjd0FMLU41UjRSMmdYbEotY09PS05RUHY2X3NkbS1pSUtwa01haXg1NGgxdFhBZVp3VDNkOS1VTHhUSFUxaVdpSnBjR3BLYkVPYlE3S0NBYl9qU2NBNHFsNHVCdjBnVHJDQUNGeXJ3MHUySGFEQUhmTzZXRkFHS0FBUEJtN2VZMkp0VXptZ3pzTkloVUF5bWcyc3E0VFdBX05WTmU0bmRiQ2VsdnBnclJzUWtuNV93?oc=5",
           "source": "Google News"
         },
         {
@@ -285,11 +290,23 @@
   "most_mentioned": [
     {
       "company": "DoorDash",
-      "count": 20
+      "count": 19
     },
     {
       "company": "Global Payments",
       "count": 17
+    },
+    {
+      "company": "PAR",
+      "count": 16
+    },
+    {
+      "company": "NCR Voyix",
+      "count": 16
+    },
+    {
+      "company": "Shift4",
+      "count": 16
     },
     {
       "company": "SpotOn",
@@ -302,18 +319,6 @@
     {
       "company": "Sparkfly",
       "count": 16
-    },
-    {
-      "company": "TouchBistro",
-      "count": 16
-    },
-    {
-      "company": "PAR",
-      "count": 15
-    },
-    {
-      "company": "Shift4",
-      "count": 15
     }
   ]
 }
