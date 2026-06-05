@@ -1,9 +1,9 @@
 {
-  "updated": "2026-06-05T12:15:15.550391+00:00",
-  "total": 3,
+  "updated": "2026-06-05T15:36:21.758552+00:00",
+  "total": 6,
   "by_category": {
     "guidance_cut": 1,
-    "stock_move": 2
+    "stock_move": 5
   },
   "alerts": [
     {
@@ -16,31 +16,67 @@
       "date": "Thu, 04 Jun 2026 02:58:31 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-06-05T12:15:15.550391+00:00"
+      "detected_at": "2026-06-05T15:36:21.758552+00:00"
     },
     {
       "category": "stock_move",
-      "severity": "medium",
+      "severity": "high",
+      "company": "PAR",
+      "headline": "PAR (PAR) stock down 14.7% over the past week",
+      "url": "https://finance.yahoo.com/quote/PAR",
+      "source": "Yahoo Finance",
+      "date": "2026-06-05T15:36:21.758552+00:00",
+      "par_relevance": 3,
+      "note": "-14.7% 1W",
+      "detected_at": "2026-06-05T15:36:21.758552+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "high",
       "company": "Shift4",
-      "headline": "Shift4 (FOUR) stock down 9.7% over the past week",
+      "headline": "Shift4 (FOUR) stock down 16.6% over the past week",
       "url": "https://finance.yahoo.com/quote/FOUR",
       "source": "Yahoo Finance",
-      "date": "2026-06-05T12:15:15.550391+00:00",
+      "date": "2026-06-05T15:36:21.758552+00:00",
       "par_relevance": 3,
-      "note": "-9.7% 1W",
-      "detected_at": "2026-06-05T12:15:15.550391+00:00"
+      "note": "-16.6% 1W",
+      "detected_at": "2026-06-05T15:36:21.758552+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "high",
+      "company": "Global Payments",
+      "headline": "Global Payments (GPN) stock down 13.2% over the past week",
+      "url": "https://finance.yahoo.com/quote/GPN",
+      "source": "Yahoo Finance",
+      "date": "2026-06-05T15:36:21.758552+00:00",
+      "par_relevance": 3,
+      "note": "-13.2% 1W",
+      "detected_at": "2026-06-05T15:36:21.758552+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
-      "company": "Global Payments",
-      "headline": "Global Payments (GPN) stock down 10.2% over the past week",
-      "url": "https://finance.yahoo.com/quote/GPN",
+      "company": "Toast",
+      "headline": "Toast (TOST) stock down 11.9% over the past week",
+      "url": "https://finance.yahoo.com/quote/TOST",
       "source": "Yahoo Finance",
-      "date": "2026-06-05T12:15:15.550391+00:00",
+      "date": "2026-06-05T15:36:21.758552+00:00",
       "par_relevance": 3,
-      "note": "-10.2% 1W",
-      "detected_at": "2026-06-05T12:15:15.550391+00:00"
+      "note": "-11.9% 1W",
+      "detected_at": "2026-06-05T15:36:21.758552+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "medium",
+      "company": "Fiserv",
+      "headline": "Fiserv (FISV) stock down 8.8% over the past week",
+      "url": "https://finance.yahoo.com/quote/FISV",
+      "source": "Yahoo Finance",
+      "date": "2026-06-05T15:36:21.758552+00:00",
+      "par_relevance": 3,
+      "note": "-8.8% 1W",
+      "detected_at": "2026-06-05T15:36:21.758552+00:00"
     }
   ]
 }
