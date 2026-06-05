@@ -2,7 +2,7 @@
   "date": "2026-06-05",
   "weekday": "Friday",
   "first_seen": "2026-06-05T04:24:34.111867+00:00",
-  "last_updated": "2026-06-05T18:02:05.493928+00:00",
+  "last_updated": "2026-06-05T20:27:54.367889+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news\"",
@@ -49,7 +49,7 @@
       "first_detected": "2026-06-05T04:24:34.111867+00:00"
     },
     {
-      "text": "Global Payments shows concentrated partnership activity \u2014 5 tracked partnership items this cycle. Latest: \"Assessing Global Payments (GPN) Valuation After New PrognoPay Healthcare Partnership - simplywall.st\"",
+      "text": "Global Payments shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Assessing Global Payments (GPN) Valuation After New PrognoPay Healthcare Partnership - simplywall.st\"",
       "sources": [
         {
           "title": "Assessing Global Payments (GPN) Valuation After New PrognoPay Healthcare Partnership - simplywall.st",
@@ -105,8 +105,13 @@
       "first_detected": "2026-06-05T04:24:34.111867+00:00"
     },
     {
-      "text": "PAR shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Par Technology\u2019s SVP Michael Steenberge sells $7,071 in stock - Investing.com\"",
+      "text": "PAR shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"PAR Technology, Zebra, and Mirion Stocks Trade Down, What You Need To Know - TradingView\"",
       "sources": [
+        {
+          "title": "PAR Technology, Zebra, and Mirion Stocks Trade Down, What You Need To Know - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVUFqSEtYYzNSVFlkcUNVZXhFYTNsTzZXUzBCQmxwNmY4X3ZVakpYREsybkRJM1dtR1pTX0dFRTE5NHdfSHNVREE0azFYMURjeW5aTnNwc2R6T3VaTWlDeHNrX2YtUVFJLU85dXVHMUt0djhuRGRJcVFEWVFoSUtWX2pQdE84RzJwZmlwaUNxZlNZSGRCVUV0THljMUpvRnlfNFJnd24xN3l5M0t0RW9SaGp5Y3VSdnhuc21pSlRSaWU3MmFfdFp4bVNpN0w?oc=5",
+          "source": "Google News"
+        },
         {
           "title": "Par Technology\u2019s SVP Michael Steenberge sells $7,071 in stock - Investing.com",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZ0psVThFbndDSlBQZ1MzeDVUcnRjRTRVclRkN2V2UVJOMWJqdnNDQ1FYLUZPUktaaEpwUGNQc3pzVFdEQ3JYSGR2U0FFR2NUN3AtVkY1UlprdVAwTWQ2VE9acHlJZjl0T1JlTjVINnA2Ul9NTUNoOXpQdHVRR0U5eExsVU4zbXgyeW9NNzdDR01PQTdfa0NEREhfdV9wSV95TXFPeWpGZW00RmtRajktcFVmQUNSVGdQOEhGSnRkdEZkVWVQZmt1UFVFUQ?oc=5",
@@ -115,11 +120,6 @@
         {
           "title": "PAR Technology (NYSE: PAR) SVP executes 498-share tax sell-to-cover under 10b5-1 plan - Stock Titan",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeS1maHRMTDJObDBhaS01UjVwVmgtSExfd2hXSjBGTmpyV0ppQlVfOEV3bnN1TVdiTFBaWVFILXEtUlprdnRxRjZWOFg2TlYwcmdPaUcxWnRmY3EzRWNOMFoxRkJEdHV4UndSSlZtV3h6bUhGeVMtSVEtUV9ydHhDY282TXpfMGs3QW9UVTF1Z0F5cXhDWG5SNm00Z3YxeTYtdS15ZHYyQjF2TV9hY3hsTmdn?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Par Technology CLO Cathy King sells $307,600 in shares - Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa2RNQ013bnpIRmVyaUtiMWo3bzhSeUhKQ0pSR2FkRmt6MEdvT01GaVZ0X2pHdTNnaDJFQnJOVFFvbzZzbklPSjJXOFBUM0thX1gxVEJpMk5VUzg0aDB4NHB1cWJ5VlpXNjNZNmF1dkpRYlZMNjU4MXZkMzdIVHd2QnI4UnRZSm5XSzgxa3RvMlVORGhCQ29pOXpaZDlPV2I0NWtBaTlCYW5CRGo3TVRxcFlWY1dhc1p1MXQ3ZldyYmxmNms?oc=5",
           "source": "Google News"
         }
       ],
@@ -241,6 +241,45 @@
       ],
       "company": "SpotOn",
       "first_detected": "2026-06-05T16:59:25.242770+00:00"
+    },
+    {
+      "text": "Square shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news\"",
+      "sources": [
+        {
+          "title": "Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPX2ZKVnBKRjZRTnZhUmJNdmQ3Vk8wbmpFeHVBSVJLUTBZekNHZEZSaV9nbDQ5NE9qM29reDN5bG1yZ0drSEh0U3lmVkZlc1F6Vlg0cWE5emNTWGtoam0tbm1RUXNzOFNYemxkU0c2VmViUFRpX3VaSlZBa3VUVFhUMTVLdF9oVlBQekJMcE5iY09MZ0dYNURiSlVURHZCMnFBb3dNOHRZX3Z6UjBFdDdIR2xYY2pLX2dIOExWZGxWVjhVeTl0YlRWVw?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Block Inc. Stock: Shares Rise Over 3% in Premarket Trading on April 30, 2026 - AD HOC NEWS",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONFNRS054UXlkeWVxN0NtQjZWLUFuc2dQVE1zMHZQMDYtbVBMSXV0TUdzVTVjZEtzdU01TVN3RnEtb3g4ZHNBcTVyWUNLdi10WnRVeC10YzJiaWRkZDJ0aldxWHRQcmVXQVFNc1UxUW85bmZLZUtiMkRKSF9aTUUtU1NmU2hkOC1UTXQ1QmpxLU44TEJXU1hnRHhCZENUdTB6dmctRzlvWFlhYkNaTnh3aE9mWjVrcWo4NmR3VVFfc0tuZXc?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Block shares surge on workforce reduction, in-line fourth quarter earnings - Proactive financial news",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNV3VjajVEc0JsTjdqVDU5M3JobFNEelRsX0ZWdVdTSUJTYTJrN0hUT2Nha2JHaFNUZVBmX0VqNklaTUlpbGNESjM2RDlLRUNVZW1RazlJLVZqMWRncFdlVzc2dVQ0UWNOS0pBVXlxcHlfYnlQUmw0Wi1CYWpMODFNMUh4QS1KeERkdU94bmhjM0h6RFdxUDBRdVVsTW1LSm91eWdITEc3T2Y3cXhkYkpNUl8tSUpLWm40WTljN3JCREdUY01mVHE0U1N4RlFvVFpKN3c4akU4R0dtM3BM?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Square",
+      "first_detected": "2026-06-05T20:27:54.367889+00:00"
+    },
+    {
+      "text": "PAR (PAR) stock declined 17.2% over the past week \u2014 material weekly move relative to broader cohort.",
+      "sources": [
+        {
+          "title": "PAR Technology, Zebra, and Mirion Stocks Trade Down, What You Need To Know - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVUFqSEtYYzNSVFlkcUNVZXhFYTNsTzZXUzBCQmxwNmY4X3ZVakpYREsybkRJM1dtR1pTX0dFRTE5NHdfSHNVREE0azFYMURjeW5aTnNwc2R6T3VaTWlDeHNrX2YtUVFJLU85dXVHMUt0djhuRGRJcVFEWVFoSUtWX2pQdE84RzJwZmlwaUNxZlNZSGRCVUV0THljMUpvRnlfNFJnd24xN3l5M0t0RW9SaGp5Y3VSdnhuc21pSlRSaWU3MmFfdFp4bVNpN0w?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Par Technology\u2019s SVP Michael Steenberge sells $7,071 in stock - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZ0psVThFbndDSlBQZ1MzeDVUcnRjRTRVclRkN2V2UVJOMWJqdnNDQ1FYLUZPUktaaEpwUGNQc3pzVFdEQ3JYSGR2U0FFR2NUN3AtVkY1UlprdVAwTWQ2VE9acHlJZjl0T1JlTjVINnA2Ul9NTUNoOXpQdHVRR0U5eExsVU4zbXgyeW9NNzdDR01PQTdfa0NEREhfdV9wSV95TXFPeWpGZW00RmtRajktcFVmQUNSVGdQOEhGSnRkdEZkVWVQZmt1UFVFUQ?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "PAR",
+      "first_detected": "2026-06-05T20:27:54.367889+00:00"
     }
   ],
   "most_mentioned": [
@@ -251,10 +290,6 @@
     {
       "company": "Global Payments",
       "count": 17
-    },
-    {
-      "company": "PAR",
-      "count": 16
     },
     {
       "company": "SpotOn",
@@ -271,6 +306,10 @@
     {
       "company": "TouchBistro",
       "count": 16
+    },
+    {
+      "company": "PAR",
+      "count": 15
     },
     {
       "company": "Shift4",
