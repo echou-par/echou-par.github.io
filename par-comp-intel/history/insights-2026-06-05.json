@@ -2,7 +2,7 @@
   "date": "2026-06-05",
   "weekday": "Friday",
   "first_seen": "2026-06-05T04:24:34.111867+00:00",
-  "last_updated": "2026-06-05T08:31:09.187145+00:00",
+  "last_updated": "2026-06-05T12:15:15.550391+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news\"",
@@ -49,7 +49,7 @@
       "first_detected": "2026-06-05T04:24:34.111867+00:00"
     },
     {
-      "text": "Global Payments shows concentrated partnership activity \u2014 5 tracked partnership items this cycle. Latest: \"Assessing Global Payments (GPN) Valuation After New PrognoPay Healthcare Partnership - simplywall.st\"",
+      "text": "Global Payments shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Assessing Global Payments (GPN) Valuation After New PrognoPay Healthcare Partnership - simplywall.st\"",
       "sources": [
         {
           "title": "Assessing Global Payments (GPN) Valuation After New PrognoPay Healthcare Partnership - simplywall.st",
@@ -105,7 +105,7 @@
       "first_detected": "2026-06-05T04:24:34.111867+00:00"
     },
     {
-      "text": "PAR shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Par Technology\u2019s SVP Michael Steenberge sells $7,071 in stock - Investing.com\"",
+      "text": "PAR shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Par Technology\u2019s SVP Michael Steenberge sells $7,071 in stock - Investing.com\"",
       "sources": [
         {
           "title": "Par Technology\u2019s SVP Michael Steenberge sells $7,071 in stock - Investing.com",
@@ -118,8 +118,8 @@
           "source": "Google News"
         },
         {
-          "title": "Par Technology CLO Cathy King sells $307,600 in shares - Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa2RNQ013bnpIRmVyaUtiMWo3bzhSeUhKQ0pSR2FkRmt6MEdvT01GaVZ0X2pHdTNnaDJFQnJOVFFvbzZzbklPSjJXOFBUM0thX1gxVEJpMk5VUzg0aDB4NHB1cWJ5VlpXNjNZNmF1dkpRYlZMNjU4MXZkMzdIVHd2QnI4UnRZSm5XSzgxa3RvMlVORGhCQ29pOXpaZDlPV2I0NWtBaTlCYW5CRGo3TVRxcFlWY1dhc1p1MXQ3ZldyYmxmNms?oc=5",
+          "title": "PAR Technology Stake Increase Puts Software Stock Back In Focus - Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcjAycXdLVlBNOE9xWFlVZ1ZSMDFwY2VFeUNJWVVONjZlUlNGYUVwQVE0ODZVYlBpdzV3dEFzaVk1eVlDaWpobXJIOXhUSVZaNTJCSE96ZE9jOFZoRUF5R19WcEtmcXVvZE1hM3dnVjViZkRSa2I4U3p6czZaTUZ5c3B6cnJrZFNlcE0zcVBKTnlxSDJQbTFqZnppYnoyeFFHRVc3YktjWFMwWGxX?oc=5",
           "source": "Google News"
         }
       ],
@@ -136,6 +136,45 @@
         }
       ],
       "first_detected": "2026-06-05T08:31:09.187145+00:00"
+    },
+    {
+      "text": "Lightspeed shows concentrated risk activity \u2014 2 tracked risk items this cycle. Latest: \"Lightspeed Commerce shares decline after quarterly earnings miss despite revenue growth (LSPD) - MSN\"",
+      "sources": [
+        {
+          "title": "Lightspeed Commerce shares decline after quarterly earnings miss despite revenue growth (LSPD) - MSN",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRl9wcDlBZzdXbXpIOFVkblF4M2pYcEhXM3dGZnRTb3VoR2tuMUt2TVBsMXBzRXhWWHVVUHlXSXFIWjdpcERLNF9DZHZNTnR2aTVRQ1YtT3dWOEFpWWRNSl9aYnVvdDhqcTU2VVJORm1oWWtDcUREQ01WSHBjSUs2MFFNejdDX1pRYktXbC0tNm5ObU1kSWlBU29LU1drdnpvd3daa3l2SjJ3eUthT3E4T2NzN0JDSnpSRk1zb2Z3d2FVc3hHQ0VoVVlfT3RsVGFfT29CVHFEUTNuM05CakhF?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Lightspeed Commerce Inc. (LSPD) Declines More Than Market: Some Information for Investors - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMk9kTXl0enVwVWpzMElJSW55WjhmbEFndEVLTUp1TldSbXpld1RaWk1IQXp5U1YtRmM5aE5jTWJpeEg0bmh4SFhtUEhRYlZNbjJ0ZlkwOGtUZjFhMkp5TVRYclFwellNZU4wdlBNSmZQSDR6OHpDSi1FWGJLZ0RBaEgwT09uQ1l0eGRB?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Lightspeed",
+      "first_detected": "2026-06-05T12:15:15.550391+00:00"
+    },
+    {
+      "text": "NCR Voyix shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"NCR Voyix (VYX) director Irv Henderson receives 26,573 RSUs in equity grant - Stock Titan\"",
+      "sources": [
+        {
+          "title": "NCR Voyix (VYX) director Irv Henderson receives 26,573 RSUs in equity grant - Stock Titan",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUTJXcUwwUjU0ZFNnQWlDVTR4MmxyY2g5dFljRTlMVnN5ZlhLVm1ZTmtsQkxtaWk5RTF1dkd3QVJacWRiMWRwdGlrRHBXaEFRSmlNeEhvSkNfcU9WQm9vQWtsX2R5cUtyZWdWNXI1c09vVVE4RU5YRy1mQktJS3lmSnl5cDRBeUV3RDdoMkRMLWVJTEZ5SVo1Nmo4Sk40aElJaVZweFdMTGZRajA?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "NCR Voyix (VYX) director Laura Miller receives 26,573 RSU grant, holds 62,478 shares - Stock Titan",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWHhacFotcEVDRnBzMUdJN05lbVJFeHRQc3pZdXkwZFRjWmt1UWRoa2oxNHZHd1N6WVZoY3hYR3Q4d25SenlIM3lwbjJsZ0ZlNVZUc0U3Y2tRMlYwNjk1bkh5SHk5T0tyM0F1V01Rc2VReldNdGQ4cl8ydUwxemI5cmlnVGhnS0haQmoyNU4zMk1ZQ3cxcGQzUGNFUm81LXhWOHE5NG9mZmEtZE0?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "NCR Voyix (NYSE: VYX) grants 26,573 RSUs to board director - Stock Titan",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNX0JNUEhNY0pKXzFuc3ZNcWhwVDRsNG9TWFBFYVE5NS1jVzdVODJhamZfYnR0NHRLaGJha2owcHFDdzZObk5YUUpNQWJDdmp0cUU1R1ktWEh3SEVJME1qSHEzemx0SXZPNHFINXAxT1Bib1k5RVZQREoxUlhnaTBIdDlHSk1ZZDZYb3J6Wm1SaDJlQnVBWVBTSHd2YVZ2Y2lhM18wNEFjeEduaVk?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "NCR Voyix",
+      "first_detected": "2026-06-05T12:15:15.550391+00:00"
     }
   ],
   "most_mentioned": [
@@ -144,19 +183,11 @@
       "count": 19
     },
     {
-      "company": "Global Payments",
-      "count": 17
+      "company": "PAR",
+      "count": 16
     },
     {
       "company": "NCR Voyix",
-      "count": 16
-    },
-    {
-      "company": "Shift4",
-      "count": 16
-    },
-    {
-      "company": "SpotOn",
       "count": 16
     },
     {
@@ -168,8 +199,16 @@
       "count": 16
     },
     {
-      "company": "TouchBistro",
-      "count": 16
+      "company": "Global Payments",
+      "count": 15
+    },
+    {
+      "company": "Lightspeed",
+      "count": 15
+    },
+    {
+      "company": "Uber Eats",
+      "count": 15
     }
   ]
 }
