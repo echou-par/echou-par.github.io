@@ -2,7 +2,7 @@
   "date": "2026-06-06",
   "weekday": "Saturday",
   "first_seen": "2026-06-06T04:06:57.945393+00:00",
-  "last_updated": "2026-06-06T15:52:57.536775+00:00",
+  "last_updated": "2026-06-06T17:21:11.443882+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Square appeared together in coverage \u2014 \"Three Square Food Bank\u2019s Las Vegas Restaurant Week with DoorDash Reservations - AOL.com\"",
@@ -105,7 +105,7 @@
       "first_detected": "2026-06-06T04:06:57.945393+00:00"
     },
     {
-      "text": "PAR shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"PAR Technology, Zebra, and Mirion Stocks Trade Down, What You Need To Know - Yahoo Finance\"",
+      "text": "PAR shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"PAR Technology, Zebra, and Mirion Stocks Trade Down, What You Need To Know - Yahoo Finance\"",
       "sources": [
         {
           "title": "PAR Technology, Zebra, and Mirion Stocks Trade Down, What You Need To Know - Yahoo Finance",
@@ -163,13 +163,13 @@
           "source": "Google News"
         },
         {
-          "title": "Toast Stock: I Was Wrong (NYSE:TOST) - Seeking Alpha",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBRQ0htcXpibTJiOVNMMkwwTmE5X25mbGYwRExYRlUycl9jSXFUaXZudjdaMG5PWGpqNmZTY2EwNElLYUZRMk9KOXRtR0NPMGVKdl9wZWVINmNzMllETVFLcFJOMTZ1d0podHc?oc=5",
+          "title": "TOST (NYSE) insider sells 3,664 shares; option line of 54,000 noted - Stock Titan",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTHQyM1Ixa0FlX095M2dJTFhxMjRwZlhSRTN3WnlZYk5lNW1Sd3I1MXkxcjJ1RlpkSmQwQlFQeWx1Ri16YnpOUFA1UHptMGktTTlkUnJkWDJSYWdpNW9tOXprZkZMekVaRnVvdnkzUUZDVmJ4b1h3RTJ3TnFjNEtwbVNpa0x1RUlKSWJnX3owUQ?oc=5",
           "source": "Google News"
         },
         {
-          "title": "Toast Inc. (TOST) Reveals Growth Plans After Earnings - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORjY2X01rSGgtQmVyOHEyc2w2V1JXUGxrQ1FfTWxDY2E5dF8zdHFpLTVuZjE0aGRIOE81RU5scjhNbjBDclZpMEVBQ080Z25RZEZzOFcxTDNMazNteU5fUFpHcGxlLTFGUm5zeFpTNDNCUzlfcTBiY3BWMmQ0TUMtNUpzOUVuNHpESVNJYWp4ZHVBVDNLWGFuazRn?oc=5",
+          "title": "Toast Stock: I Was Wrong (NYSE:TOST) - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBRQ0htcXpibTJiOVNMMkwwTmE5X25mbGYwRExYRlUycl9jSXFUaXZudjdaMG5PWGpqNmZTY2EwNElLYUZRMk9KOXRtR0NPMGVKdl9wZWVINmNzMllETVFLcFJOMTZ1d0podHc?oc=5",
           "source": "Google News"
         }
       ],
@@ -238,23 +238,7 @@
       "count": 19
     },
     {
-      "company": "NCR Voyix",
-      "count": 17
-    },
-    {
-      "company": "Global Payments",
-      "count": 17
-    },
-    {
       "company": "Shift4",
-      "count": 16
-    },
-    {
-      "company": "SpotOn",
-      "count": 16
-    },
-    {
-      "company": "Toast",
       "count": 16
     },
     {
@@ -262,7 +246,23 @@
       "count": 16
     },
     {
+      "company": "TouchBistro",
+      "count": 16
+    },
+    {
       "company": "Uber Eats",
+      "count": 15
+    },
+    {
+      "company": "NCR Voyix",
+      "count": 15
+    },
+    {
+      "company": "Global Payments",
+      "count": 15
+    },
+    {
+      "company": "Fiserv",
       "count": 15
     }
   ]
