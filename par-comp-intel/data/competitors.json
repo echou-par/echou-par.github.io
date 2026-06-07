@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-07T18:50:32.329796+00:00",
+  "updated": "2026-06-07T20:18:46.904977+00:00",
   "companies": {
     "Lightspeed": [
       {
@@ -35,16 +35,6 @@
       {
         "headline": "Lightspeed Commerce: I Won\u2019t Be Buying Until Things Get A Lot Better (NYSE:LSPD) - Seeking Alpha",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbGVIb3FUMDRpaVBlU0s2S1RESUhRbjl2QVJDN1U3VFV4ZklRSHIyUTloZWo5ZjJadWtFUlVWMy1vNWlIaGVSZHZmdXI3U1FnNWtwM1gwR19uS05xOFlrVm00dXBBVDI2SFFQV185WE5PTE5lWVd0T1RvZVZINDFUZzZlTWdncXcwdDJXelJGMTlBeHJzUF9ZamRHZEFSQWpPdGhjWXE5emhQQm8?oc=5",
-        "date": "Fri, 22 May 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Lightspeed",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "RBC Trims Lightspeed Commerce Price Target to US$10.00, Maintains Outperform Rating - Moomoo",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUUE3ZUFDUk9DSkN2TUd2YWJ2Wjd5S0ZmUFdmVVp1WjJZdmlJUkVXSGJ0aTJFV3BDVTVtODhyOXV4dExUbGVfNXVWWXh2eUJBZWlIU0dSUjdRRk56T3FHV3pJSEllOTBWcmlnLWpOUUd5eWh3QUhxMF9OUmRLY3RwYkpXUkZUbmdxT1FGTkVNQ0Vqb0hUWWVQMklPcXE?oc=5",
         "date": "Fri, 22 May 2026 07:00:00 GMT",
         "source": "Google News",
         "company": "Lightspeed",
@@ -110,6 +100,16 @@
         "company": "Lightspeed",
         "type": "public",
         "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Lightspeed Commerce (LSPD) Appoints Bhawna Singh as CTO to Lead AI Strategy - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZnppNk5fc29RLWdnRGtGbkctbWxNWTg4UTE3MUx6RlFpRGwyeGFHdTBUclU4a0ZybG5MVm1heXAtSnBQT1lIRWt0eC04MElmQkxRbVEtN29LWVFRMi1hZHc5azRuRm9oMGdLa3FFUlVkXy1yUl9lNGV4dzVlTDVLTkhSN1hoRHpvZjVHdmhEYw?oc=5",
+        "date": "Wed, 13 May 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       },
       {
@@ -467,155 +467,195 @@
         "content_type": "press_general"
       }
     ],
-    "Uber Eats": [
+    "DoorDash": [
       {
-        "headline": "Dos Primos Mexican Restaurant in Troy, MO, Launches Online Ordering - stl.news",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9oQmtFUFlxbFVKWXBHeW9RaVZpUy01RzZCY1I0ZkYxODR4OFRaSnVyUThyV2oyYUZ6bVdKTi1RSWw3aFQydHBRUllYNkVLalItdDhKSXhmNTF2OWJBWC1CaElYcWxmYlRhSzhjT01fRlR3WEtzb3d3a3NRck1IUQ?oc=5",
-        "date": "Sat, 06 Jun 2026 08:54:30 GMT",
+        "headline": "Three Square Food Bank\u2019s Las Vegas Restaurant Week with DoorDash Reservations - AOL.com",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE80ZTBZeHR4OXJDZERubWtrWjZPdUF1Smg3TUlDS042NnVpTDR1YjhiVjljLXpwdlJkVDBud1VpdTYtZS1TZ1E5UGhOU3pNUDRwb0JRdmV0MkRiSERscGhlN3hXZGJDMm9tR2s1LUdlWnQ5dDd5bHh2NWlR?oc=5",
+        "date": "Sat, 06 Jun 2026 13:55:29 GMT",
         "source": "Google News",
-        "company": "Uber Eats",
+        "company": "DoorDash",
         "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Opinion | The surprising truth about who uses DoorDash - The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMVZJdGZJYkQ4cTh3dDZSMlB0dVAtc01IUy1DT3FfdG9qVkhHY0FySXFmUlBCakFuTy1EOUphS3ZmNjQwYWRIcE9INlFLQkVxNFlmVDQtYlNTN1k3LXJvM3VvT2xCSVdTNE5xb0dwVlNYYUlDNUVncHpmRHdPdkJmU3ZzYTltdUNMY3BFclEwUmhoRTY1eU9kdmlITDVldUVQR3lncFhYRnhpb2JRcjUwemxwUjA?oc=5",
+        "date": "Thu, 04 Jun 2026 17:15:00 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "DoorDash unites brands for the World Cup - Brand Innovators",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1HT3BiXzBOdG5BMDFKTHlPbWI4bGVlcnV3aEF6TnZlTV8wOTlWVkd4SlFyM0FDX05vcTJ4WVBXejNpaENKRXBvbmJKb2JCQlBDNmNKTHFXTHNzV3JrMDNGb0N4R3l6VXBaalZPSUtoMko0UjBUeG9JQ1RB?oc=5",
+        "date": "Thu, 04 Jun 2026 17:08:03 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Eligible Chase Cardholders Get New DoorDash Credit Up to $20 per Month - NerdWallet",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZUpiWFBRTHR5NzA1WUt2Z0VwWGE5WjVUeUt0bElZOEo5RENxbzlSMkFuUEJkTmVVc1lNM3FXMkhKVl9iaklSWmpUTkJKY1hwaHlxX21zZ2JnSWxHTXQ4OVZ4d0JYZ3Q5b1Jic0RRN3pTX0hDZEhiUDlFY3UyTDJyYWZNTXFhVFdBalZsRmVxV3FyVnNhbUJWemk2XzFlVS1XUGc?oc=5",
+        "date": "Thu, 04 Jun 2026 16:05:06 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "DoorDash Launches New Integration Standards to Improve Order Accuracy, Reduce Cancellations, and Boost Sales - DoorDash",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVHZrcmhWNGJDOUxMekFxUVZrelh6bUlsako1MFJnbFRQSGQ5SHVEX2lxQ1ZfcEt3aV9DYllqTUEwUlhJZnNOTjJzTVgyTkZIWmJ6N3JHaEFROTItMDlrdWh2bVZRWkVIWnF3VkIxempyV2pyRFR6WEdXQkhsZU80ZS1rcHVvLWtkVnc?oc=5",
+        "date": "Tue, 02 Jun 2026 14:39:47 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Google is making big changes to search - Expedite | Kristen Hawley",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1PaGFVYl9QeHh2RUhrVUpMNWMtNVFEeFRlWEJDdE1VUTZRc1NRSE1DSjFWb2pZYTFwZGZmMEpxX0lMaWE2bDExeHhqcHlFMXY1VTVVVlpjamlnU282dERDOFVpZFZoM0xHby1iMUJqLXZ4WG5w?oc=5",
+        "date": "Fri, 29 May 2026 19:10:38 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "DoorDash Trends Report Highlights AI\u2019s Growing Role in Restaurant Discovery - foodondemand.com",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOREVUSGFuZTBvaHpRMWRySGNGMk5SX2MxNkk2bFpCMWlXendidnNIY2ZlV251Z1B4Njh6T25hMEVPV2pzVkc1eFlxSS1GVDVnMjdwVl91LWJfUEZrWkh0UVNWT3FsdlZtMTJJdldiUEI4ZW1lZElSMjR4U3FXTjU5MmE5dXludWF3NVl3TE85RnoxcF93U25PYjZ3MWF4S1RpdUp0enNTaTh4Ni1jZ2c?oc=5",
+        "date": "Wed, 20 May 2026 17:10:10 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "From the Doorstep to the Dining Room: New DoorDash Survey Data Reveals the Full Picture of the Modern Restaurant Guest - DoorDash",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRF8zWmlkSU5zdnZPajRLOEhMT19ycktKdlpKSnNwQlhZNWIzaG96dVh2WWg5Y2o0ZllkbUdwOHhSQUItaWxoWlVDcmd2UzQ5aTBCSzBUQ3h2ZnRlaWltYmdHMGptNFNSWGpXaDJNVWZsNEsxY0tWQm5lbW8yWTM3ODVjZzBqZGl0bGltSGl3?oc=5",
+        "date": "Mon, 18 May 2026 12:53:59 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "DoorDash Could Expand into Payments with Restaurant POS Launch - PaymentsJournal",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVzRKTVpBcUsyOXBjZjZqdy1ROXVOOWdNRGtYUXFQREpaU0VQWTFnWnB4TzVBYkRpaTBPMFpQZXFpdm5DMnIwV3FNdXg0eXdDUG1nbnFfT1g4Y0IxdmE4b2lMNW5wLXdzb2oyeHhLTWxKMFNfZHZRQWk5YmdfZGF3dkJrMGc1YlY0eGhMWUNoV1lYMmluUkY4czBnc9IBoAFBVV95cUxNSmZIVkFJZTY2TmFPTDJsMlZOU0tOU0VaUTNMWG56OTlQSDVSczRxRFRSSUxaRy1rYi1RcEhUb2s2VXhEaWxRZGJ2dE5rN3lKYkU1MHJIWm9qbmpRdThiUlhCa0FsUnFQSGZGNWtDS0QyZGh6MEczeDJsM3oxQnRQNUNrT0lYVklRT2ctTUh3dXJ5SmVQY2tYLTRGMzRVMk1t?oc=5",
+        "date": "Wed, 13 May 2026 07:00:00 GMT",
+        "source": "Google News - Restaurant Tech",
+        "type": "trade",
+        "company": "DoorDash",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "DoorDash Projected to Reach 20% of US Restaurants by 2035 - PYMNTS.com",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdWdOdHVrNGQ1QzBjSXJERmpUOWZIM1VaWUpGd2JHQzJ3eWc0enpJYmpQSjUzcU9WcDFaa3F5ekhKSHpxX3p0Wkg1ZTBUWHAwWjlWN2pGNlA1cnh0bjRRNWpEWHdWeFoteWhkZEV0UGM0VW9MbzJQTkZDbXNPcURjTVJUaUM0cl9peW92RkJ0NVRHcXJDTEw3MENxNmZLdWtKSXBDd0Ewd0FSa0FKaFhZN0Q4a04?oc=5",
+        "date": "Tue, 12 May 2026 07:00:00 GMT",
+        "source": "Google News - POS Industry",
+        "type": "trade",
+        "company": "DoorDash",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "You Can Now Snag That Hot Restaurant Reservation \u2026 on DoorDash? - Food & Wine",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5xUlpVWWJJLWFrdG84Mm03cWlET2VXbkxub3pIaWlLTjFKWVdGeVR1S19abGxwNkxTdkFCaVQtOHViVFA1ZmdUNzlRLTlYd1dBSDh6T2xFR0JTNWxVdlpUdlZKdFlYVzJfcDY1OUpYN3Y2cldxX0tLag?oc=5",
+        "date": "Thu, 09 Apr 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "DoorDash winds down restaurant discovery app Zesty - Nation\u2019s Restaurant News",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcjBlakpqR0ZSRWtUSmI4QllkNjhzTFl4OUR4cXp1ZHBnX3NIZF9DX2tMdXBKTEl1QXNiLVI1cDgxMldpazZnZVFGRUNFX0h5ZndfN0NGZUlKVW1vMFBRUE9rU1pwTVR2NV9zRTQ3WGI5NUxHWV9hMXZvVHRQU0VVLTl6WHRSbE9LRm1QMG5ORnc4aEc2TVQw?oc=5",
+        "date": "Mon, 06 Apr 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "DoorDash Reservations Expands to Chicago and Adds New Premier Restaurant Partners Nationwide - DoorDash",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBGdVRTOEN4QjdxR213UmRsSDRNM2tsZmMtaVliV0RUdlNTdWFTd3IxWk1UVE9QZ0V6VlBZUnpBZDBXSnlJT0VkZGd5WlpheWZnZG9DaHlXQi1EVURIYUhsN3ZXSDlRVXR2UlE?oc=5",
+        "date": "Thu, 05 Mar 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "DoorDash and the dilemma of affluence - by Matthew Yglesias - Slow Boring",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9JODlHTmZxSnROTC1fcWJmclNuR1Y0V3dSTkJ3dzFoaGJNR0s3azBvcjJuS3p6Um1DWHdoaUZ3MEFjRlVfOTlyWi1BWmlSUlRtM2RIem9zMHF1aTRRc1JJSmJDRlFNTENZZzhqSm5MTW5sc2Fs?oc=5",
+        "date": "Mon, 09 Feb 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Freedom With a Side of Guilt: How Food Delivery Is Reshaping Mealtime - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcXRGRGJhdTU4V3R2czZzUHJLXzRaTnZpVWF5VE8yZXd1LVBDTzhGc1BHZE9SR0lrcjZFR1BybXJRTzlLbFdsSkZRbEpscXRONDV4RWlkSjROX01PUG5nb0JpdnpqYkNtT2k0dHNGeTh5Y05hQXphNjlWcjZqQ3JXQ3VROERnQQ?oc=5",
+        "date": "Sat, 31 Jan 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "DoorDash Launches In-App Restaurant Reservations with Exclusive Dining Experiences and Rewards For Every Booking - DoorDash",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQWx6dkpUTko4eDluT056X2N4Tm1UdFlnZHZmUFN0N0ozME5sbVduSllGU2JCSTZqU3FMZkxvajNYeTI0MFRwSWNmMTVMYWNzLWs2WlNPWDhfajM1eVBGWGNyWW1ZMHhsMWlTckJKSm5USm1paHVSbzlOeGYtN1ZLXw?oc=5",
+        "date": "Thu, 23 Oct 2025 07:00:00 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "DoorDash announces commerce platform expansion with new tools - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZi1qWGpWSlRaYlFxZ05KZmRLUm5WaGlfRC1HVG1TQlRFNGFKUUR2SHh2bDhPeXdsNlVrelhybmJ2TlBtN0QxZnFQN3lSRUFLUHh0VGxzMDNzeEtNMTZDRG1EN2dfS2tzdnRmcl81UlphZXBFT1hGOWxGendnZGxaZnpDbzNOeDZPN0ZtMkRZVXpseGVWYmJn?oc=5",
+        "date": "Thu, 21 Aug 2025 07:00:00 GMT",
+        "source": "Google News - Restaurant Loyalty",
+        "type": "trade",
+        "company": "DoorDash",
         "emoji": "\ud83d\ude80",
         "content_type": "press_general"
       },
       {
-        "headline": "The reimagined Uber Eats Pro program: Coming soon to select cities in California - Uber",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBVbTZMX3NaVFRiOVhWb2gzTmlzT0FQVmVuc05CQkVza2dZLWdCdU1GdHlmcExUMjdTd3Y4RHVNZVpDYnhiQTMzMF9WRUxxTDdyZ0VIbTQ3WDVyUGJRdDZzNDZ5cWE5Yzht?oc=5",
-        "date": "Mon, 01 Jun 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
+        "headline": "DoorDash Puts Loyalty at the Center of Its New Restaurant Tools - foodondemand.com",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSmtNb20xbTVoMVRaYzVlUWc2bjlHdlZSdlZDYmJZZnIyNWYyOXFIRElqX1BNRXJIV2ZRUVFENVdiOXdGcXZYT3NDMjAzR2QybUk1ZWtQZ0VfX2RORU9sa09WdFRjS01wUnBEcmQ2THRfamlZekh6ZmZWVXlhQ2hTTXhkOGNhWk1KaWp0MjlrZXhyaXNUYmRKTWZYRDdRZWs?oc=5",
+        "date": "Wed, 20 Aug 2025 07:00:00 GMT",
+        "source": "Google News - Restaurant Loyalty",
+        "type": "trade",
+        "company": "DoorDash",
         "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       },
       {
-        "headline": "Uber Eats Expands Robot Delivery Service to All Center City Restaurants - 92.5 XTU",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTDR4WFRVZnJTTEU2VDM4cVhpdTNnMmN2LUdFcFNORE5XUkNidEdva09EaV9MYmd0UGlESmFOZ0RUb0IxMk1faHpaLXhUZ2VLSDJZMVp4RHhsaWFhV3oxMVBvc1hxRjZDOVZLc2VvVE5CVVk0S0lRQmdWdWpBTzdCaFo3VXc2Nm41NjRMQkdDYU0ycmJqSWxXTERVamZUT016NGI1cw?oc=5",
-        "date": "Tue, 19 May 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
+        "headline": "DoorDash Adds Tiered Membership Packages to Commerce Platform for Restaurants - PYMNTS.com",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVnVFbW9vVkZPX3ZzcmU3RUN5czVzTk5fWU5DWkxabE1WbFVpMkYwZFdzdHRscU9MbkE0ZU03cU40WEwtTUl1VmJNZndwQVNwdF9ydFdMaVNTM2pOUU1CcVRoWGkyS0RicUJhbUJQWVZNdC1hMjFhc29yTUxHd2pBd3I1N1N1VnVOLS1FdzNkc3ZzejRpX0tibHFUUy01SFQyZF9EN29NT1RTMTgyYVhjeFIzbjh3UmNnOUJxb08zZEltR0tkeWJj?oc=5",
+        "date": "Wed, 20 Aug 2025 07:00:00 GMT",
+        "source": "Google News - Restaurant Loyalty",
+        "type": "trade",
+        "company": "DoorDash",
         "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Uber Eats quietly expands its robot delivery in Center City, restaurants say - Inquirer.com",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOODlId3lQOHlpOUc5TDVJd2puVVRMVmZiOE85Y0RSdmR2TnJpYXMxbDVKV1piYlRvdFFjVzNCX2did2JZcTJ2dS14d0FqV2dLQ3NJU3B2TmtCVTVSNXd4bEV5elhra2N3dXVkbGhpV2dKaWIzSHhfZENaX1h1SGc0SDlkbDNrczI2dGRvZA?oc=5",
-        "date": "Fri, 15 May 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "$188K in Delivery Fees Forced This Restaurant Owner to Ditch DoorDash and Uber Eats: 'That's Losses on Us' - entrepreneur.com",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSDBkYzhickw5eWptbDlkTXc1TDlHRFBjTkdBV25fSERUOVF2OXY5V0hHMXhQdEwxQXh1UDlaTjVNX2hIQW94bW5FNGVOSVdtYjlrSnl1RjlNNmZFQkNVelpOY0ZvczFBQmFKejlsRXdJY0RDNmh6eEVIdi1wQXJUd0ZNOEJfNzQ4WWtlVy1NVW4zUmo5Y28xdzBqQUpBLUNQVXcyUU16cTRRSGtQTUJLVkQ2V3VRd0hnWXBTQU1rYjBoSDlMZExobkMwa1pleGdvSVdLaFB3SXpQa0Fv?oc=5",
-        "date": "Tue, 28 Apr 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Uber and Block Expand Global Partnership for Restaurant Tech - Block",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQaVJObUUwMTJpbEM4RjM4OExPQUU1dkJ2VGp4VGJaT0s4NVN2UjFPeE90MEhsekM2emFBVko2MHdwbGRCZmlYdzFTcmZ1aW1QcUV5eUdWSjZHZHBuWFdqbmtLM01hbjl1c0tudkk2MUl6dkc4WDFROGFuM0YtUlhrcEl2dTIxeVFzUzlKVVBSb1MyTFZRSFZiUEdldi1zN2FFUkt1cGE0ZGpMYVVNb0NfcFFmTlEzUWtuVG9wMVJTbWNHdw?oc=5",
-        "date": "Wed, 22 Apr 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Next-Gen Restaurant Recommendation with Generative Modeling and Real-Time Features - Uber",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LZzJHeUdreENVT3N1TGZSRVJIcnFIQWs5TGFkd01zSXZDRE1WWEhoYzFCYmFhb3pwZ3V2UUkzbGkzME5wU21VTjJSYU11X2NzVUNyN3MzeVB3RjNWOWxMcG5OdnVWajJMQzdpTDh3R2FvcEd3VlE?oc=5",
-        "date": "Fri, 17 Apr 2026 09:01:02 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Why Rave Restaurant Group cut ties with Uber Eats - Restaurant Dive",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUmxaWTVpYTNKdVVNalJsNkhZMnNGcWpCMU1md19zbkZuWXVTNUV4Wms3X3BKamdyemxqbTVWeXl5VGY3T0xuM3c3Q3lnMmNpUXJrd19aVjdhaUI1Ul9QVFNDZE5uTmYxNWJQTjVoZlpVcVVkbXZzcUk3VnRhbHlpNk1TTkNfVzdxbGNWaG1wMFJzMjdETmxaX0Q4QW1jdlFHUE9IMEpBdFRHZlU?oc=5",
-        "date": "Wed, 01 Apr 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "The Dish: Delivery apps are squeezing restaurants, owners say. Your wallet may be next. - thebanner.com",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOVc4V1V6QWp5SVRQVmV5VHFLVlZ0cWZQR3A2NGtTV19wd2o1c2UwQ3MxN2VxNzEyMGlBbG10NEoyYnhPcUVzMWp0aVZ4UFZHSmt3eGl3T05mckhMVXZfRlNqT3NOaUF2VG5waExTbnlDbl9jeTQwQVVYc29BLXZQUUY5ai1ZSHlGOWVqYmhpaDRkVjNHVTRKREtabUdfV0RxeEZhMGIzclZCaG0xQTdmMU5Wa3VDTUU?oc=5",
-        "date": "Wed, 25 Mar 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Uber Eats just raised its price on restaurants \u2013 here\u2019s what it could mean for your next to-go order - Yahoo Finance UK",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdVZLSmRCWUVmX3NBbnd3a0RGVzB1WWZSZE9JdlR5NG9Wck8zNXhNb3RjOU5tdUl2eE5Gdk9PdHpsTk1oVy03RjNOVnlTcndYWFViVWxMSVpseDdaQXZ4aFNGajNJRUduY2RsM3NNSmxfd0VGMml2ck0xWFQya2wyWEln?oc=5",
-        "date": "Thu, 12 Mar 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Uber Eats raises marketplace fees - Restaurant Dive",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNczNPeVhpaXlUY1R3bE1oS2t1ZElUSTBMNFR2S2xQaml3N0poVGh6TTBRQlBwZXMyRHliaDRfQUFta3dobk9YYTZNS0pVaDdSa00xSHZVSENlMnJtblZpaFA3VWVQajYzelNXTUFxMUlCMXVxRUVZbWdOVUw1Nm1OM3BKNGRPVDQ?oc=5",
-        "date": "Tue, 10 Mar 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Uber Eats is raising delivery fees for some restaurants - Restaurant Business Magazine",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVXlFRzZ0elNSQnhXckp3cjhEVU9zR1N0S1lOS2t2VUV4OVB4SXVQMlFpcnNMSmJSV2hfYmV4aGZ1QjVWVTBhczVDa1J4YkxFdi1TUjJwQkstM1h0NFhNU2xvajAxVnNfME5YWTMwMXNLLW5MSlFiMkphYUZyc0JCRFZjSWtlN2hOLUNRcDc4ZDc2TlFOUHAzcFlWNFU?oc=5",
-        "date": "Sun, 08 Mar 2026 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Everything to Know About Uber Eats for Restaurants - Business.com",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBWcDNnaE1yb1ozd1J4VDhYTXAzY3QwM0NMZTh3NXJCRVM5WFhhOG1TS3hSSE9QbGNKaFpwMTFCaHFIV3ZCSzNjTS1OU21McnpMWnlsUmpRNXNDWTVFXy10Q1EyS0FJWDVHSlNF?oc=5",
-        "date": "Tue, 13 Jan 2026 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Uber Eats Revenue and Usage Statistics (2026) - Business of Apps",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Wa2VlVGQ3NjBHTnQtRUoxdFFOTFRXYUJsNU1PR05kTEpFemlwY1NzTWQwbDJDUG14VDRWMjBSTnBLQmlNS2FkSkxjcFpMYndiOG5UUldtRlJxam4yc3IzRjlRU0NQR3Z2?oc=5",
-        "date": "Wed, 07 Jan 2026 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Uber partners with fintech firm Pipe to offer capital to small businesses - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0zNlRUeEZJS01wbTdNTjZWUEp1WFN0RzBDNVVUU3lCaFRVSzRnOGhsNjduTUpjNkNyMHZ4OVhfSHZIMi1CbUVVcExLSS1HM29ibWw5bExNa1kyN3lQN0hZbTdmX0l1UG0zVjBwcEVrdmFhQXpjRkJlWtIBfkFVX3lxTE82YWQxRmxfVjZiNzNWN1RqQnFxUGNzejFQX2xJQXRQV0VOTUtIZHFBVk1fMk0zQ09WdEdjei1JMnpPLWR1V0Q2VjVXOTV1a2FZcUdyZF80TExvckYtZXdqa0xzRG1WemR1QlZLdzAwVDRwNHl0aTFnNWxReUM4UQ?oc=5",
-        "date": "Wed, 10 Sep 2025 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83e\udd1d",
         "content_type": "press_general"
       }
     ],
@@ -634,6 +674,16 @@
         "headline": "Par Technology\u2019s SVP Michael Steenberge sells $7,071 in stock By Investing.com - Investing.com Nigeria",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWXB6TWVORnJBS29YU1FGdTN4eFAwTnV5cXJBMFY0R3BGQmg3ZTVpQjRPUFlBeUdUeldXQm54WUNaaWF4REM1MVF3ak5jc04zS2VBSG5DMUw3SVV1ZDNzQjZWaEtTalY2a2dscl82dDdlWEhrUWY5NE4xRV9hSjFNb3hpR2dMYW1tZTV6MWxUNm9rdzc5ODk2TUE0STBvQTR2NE82cWF1MjVIeERENHc2TTlqSmxnRUNSVFBRQkFCQQ?oc=5",
         "date": "Thu, 04 Jun 2026 22:28:29 GMT",
+        "source": "Google News",
+        "company": "PAR",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "PAR Technology (NYSE: PAR) SVP executes 498-share tax sell-to-cover under 10b5-1 plan - Stock Titan",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeS1maHRMTDJObDBhaS01UjVwVmgtSExfd2hXSjBGTmpyV0ppQlVfOEV3bnN1TVdiTFBaWVFILXEtUlprdnRxRjZWOFg2TlYwcmdPaUcxWnRmY3EzRWNOMFoxRkJEdHV4UndSSlZtV3h6bUhGeVMtSVEtUV9ydHhDY282TXpfMGs3QW9UVTF1Z0F5cXhDWG5SNm00Z3YxeTYtdS15ZHYyQjF2TV9hY3hsTmdn?oc=5",
+        "date": "Thu, 04 Jun 2026 20:45:08 GMT",
         "source": "Google News",
         "company": "PAR",
         "type": "public",
@@ -748,16 +798,6 @@
         "company": "PAR",
         "type": "public",
         "emoji": "\ud83d\udce2",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "PAR Technology Corporation (PAR) Declined in Q1 Despite Healthy Business Performance - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS0ZtMUdOVGdxcU51V0JBZk8zS3o4eHU4anI4LVlIejNqWmpxTWJhNG5SWFhkamdtM3ZtdzMyMnY4d1p5QUc5V2tSUTFYak12YUlhTk5XMU1BZVFqX3NfaFFtZU83SlFVUkRYMHlmSTlHNGRqU1MyeWlOOFVHaDRmaW1JRHZGTHdkbUphVTdIeHZSVEV1aHNoZVdFTGE5NnU4YU9rOGdOQQ?oc=5",
-        "date": "Wed, 06 May 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "PAR",
-        "type": "public",
-        "emoji": "\u26a0\ufe0f",
         "content_type": "press_general"
       },
       {
@@ -945,9 +985,9 @@
     ],
     "Global Payments": [
       {
-        "headline": "Global Payments to Present at Mizuho Technology Conference - Business Wire",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPR29CaUlQWmk2NlBZWnBhOEtmQm1Kc09oaThLYUhob1ZobS1VMVdHWlYwNmFBb2ZyUy16aTJURVd1dFVlQkxPSFBhQVFHNnRHcEE2YmFjUjM0VGh0THJkNUw3R0ZfUEgzNWtHQ2pDYjFVZlN1NWFzcEkyMnlmLXJMYmJmVlBwdGRsR0FjQXVxX1lJUEZ5dy14MGhTX0JoUVZjNUxIY0xhcXktTnp1NHRTUlQxbXBOQQ?oc=5",
-        "date": "Fri, 05 Jun 2026 12:30:00 GMT",
+        "headline": "Global Payments to Present at Mizuho Technology Conference - Quantisnow",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSWloNUVYZHktQTN6bkg4NDAxOTBmMm1iSEJlMThna3ROamE5UmFfZVJkZnBxeHZSRUQ2WjE5YUtVQVRVMUo1RlJCeVNCYVRoQ2Rxd3I3b0xmSDV1cDMyR084SmluVnExdnNkOUt3bi1aeGlWakM4N3Y0N1lNcjU0cUM5V196bDFFUlU4eFhTUXc1R3k3T0phcjdNTEl2M3NxNlow?oc=5",
+        "date": "Fri, 05 Jun 2026 12:44:06 GMT",
         "source": "Google News",
         "company": "Global Payments",
         "type": "public",
@@ -992,16 +1032,6 @@
         "company": "Global Payments",
         "type": "public",
         "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Is Global Payments (GPN) Quietly Redefining Its Software-Embedded Moat With AI-First POS Innovations? - simplywall.st",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONVpLbWJvRzhCSG5JV182Q1U2S2gtRjZpTWV5R0FjdGg0dzF1akJNTW9ndm95NDF2amFYVkxoWlBQZWJpMTkyRE5wOURKZlBMNllheDFId2s2bWxDVWV5SXowN3ktc194d3FKRENTUGRpZldWMFdYZkVYRzV4WXJ4RkZWZVl6MV9meUdzNXhoM2luUktRQzhkVkpzSW5HZ09GV2NxSUp6TEc2elBXXzRRUk9KMFoxMHdndjU0aWdIOEI1Wk96bjBkZl9BT3lsV3hvQzVSR3FNRnZ2ZFlPUWfSAeMBQVVfeXFMUG9BRWZVbnFPOGp3czRRZ1pocl9GZF93RG9FOXo4Nkt1d1hvQ2lmOUdNTDlWSnhDYldpaUVZRjdSNWpkME92U09YWEdQS0wwRl9SQlZ0XzBmbDdGMFNLYkZ6VkMxbVRuZ3h6dXdwaVhid2FIMlc4d05ISTFWNUkzOWRYMXBVYV9ta0hBVDZ3V1N1LS14d0kzZ3dKLXB1WWtON1dmcTlGbVZqLVdfTllOQjMtdTZ4bG94TWlGOHBYbHdYTVBGNmZhSjA0TGtzZVBzeXI5Tk96UG9nZEVLZTlKbndzcmM?oc=5",
-        "date": "Wed, 27 May 2026 01:37:53 GMT",
-        "source": "Google News",
-        "company": "Global Payments",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       },
       {
@@ -1113,6 +1143,16 @@
         "type": "public",
         "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
+      },
+      {
+        "headline": "Acrisure Completes Acquisition of Global Payments\u2019 Payroll Business - Business Wire",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdHdJUGZydENIR0x2WVlFVEdhV3hvU1JQQmYyaE5ySm1kRkJQX0daaFV1T1ZSaE9hN21jcVpOYThFRGUwMkpiWEVSYmx1YXpYLWgxb3J3eXp2b0J1VTRMeElhc2NmM21oWktCQk9mOE5palQ1S2VpWWNRdVpmbTdyc1dKT0h5Z1Ntck1BVmI3MGwwX1FYTFhva3JRX1FEa2dla2VXSFU3ZVZ3dkx3TFM2WVhVU00tVk5QSjZaVkdxaVo?oc=5",
+        "date": "Wed, 01 Oct 2025 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Global Payments",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       }
     ],
     "Fiserv": [
@@ -1197,16 +1237,6 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Fiserv Has Crashed 75% From Its Peak: Can it Recover in 2026? - TIKR.com",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWkZEc0RpM0FRNFNtRS15SEFTcEs3aUdDTkVJRGJicERCTGRCTklTQzdlRnZrUlJlZTd0M0FNTWlMMzhsVUxvU2NCWU5SbTRadmF0ZHREZVZaRWRIbTVDRGlwaGtkVnZaTGppLWFTS2o0SmlSX2hPd1piSUlCT2F3eFZwLW1aQ1hzS3VwNg?oc=5",
-        "date": "Tue, 31 Mar 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
         "headline": "Fiserv Named One of America\u2019s Most Innovative Companies by Fortune for Fourth Consecutive Year - Fiserv",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNU43Mm1uSGpaVmY3V191U2xqUTZBdkQ5em0xQmRpSHRrTGlYX082dTRwR3l4UGN2NTA4TUlJXzd5dW4xcGlrd0pocGRISHg2bWx2bVM4M0prdEdUaFNTR1J0elJEQWwxZ0NaLUhMX2RJR0FaUHFyQzllLU10YlE5Nm94Nm8wRXk4M25kMzdiaFRVd1lSLUl6dTRmaHNTNUpGNUFnM3ljTVRBMU5HV2cyU0Q2R1BWREJxMm85SXduMGxDajg?oc=5",
         "date": "Wed, 25 Mar 2026 07:00:00 GMT",
@@ -1257,11 +1287,173 @@
         "content_type": "press_general"
       },
       {
+        "headline": "Fiserv turns to AI for help - Payments Dive",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVkU0eFRqOVhoTTViRFZCRWpSV3V4cWNid2g4REZ1LTIyYmVZM1ZPdURPY01VTTJZYzM2bEN4alY0RDdYWnlmS21DMVFRYlpvWWV4ZHN0Ry1NZkNvZUt0LTJxSnh1VDEyVldtdnlHV3BRSjRrTjJTZnpCczBtektBWDMwQXBMaU9nNmJkYkFreU5oUlVDRW1VSEItUW0wWkJZN1lJLQ?oc=5",
+        "date": "Tue, 04 Nov 2025 08:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
         "headline": "Fiserv sued over Clover migration - Payments Dive",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcldGSU9FS3B3YTFDM0Y5Wm1ucU85Um1vQ2pIQk1WZlE5NXhQdmlwMWtBSUd2OV9xRkdkU29XVjF6bk5XOHQtRjV5cU1VbjRMaDg4X1Jrb210RzVyYW1NY0NJSTV2ckpZeTlCc3AzX3pZeUNabGVMTmdsT1JzUDk1Qg?oc=5",
         "date": "Mon, 28 Jul 2025 07:00:00 GMT",
         "source": "Google News",
         "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      }
+    ],
+    "Uber Eats": [
+      {
+        "headline": "Uber Eats Bags C\u00f3rdoba with Oversized Restaurant Takeovers - Little Black Book | LBBOnline",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE85SENtU3U5VU15cWc4NU8taDBndTRrUUtLUUc2V0pEb1FXSThHMi1EUTdBdl9kV2F6U3dvM3FORTBuN1hJTWFHQi1Gai1PZGFVcE9yMVBoVm5FSXA5?oc=5",
+        "date": "Wed, 03 Jun 2026 10:40:49 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "The reimagined Uber Eats Pro program: Coming soon to select cities in California - Uber",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBVbTZMX3NaVFRiOVhWb2gzTmlzT0FQVmVuc05CQkVza2dZLWdCdU1GdHlmcExUMjdTd3Y4RHVNZVpDYnhiQTMzMF9WRUxxTDdyZ0VIbTQ3WDVyUGJRdDZzNDZ5cWE5Yzht?oc=5",
+        "date": "Mon, 01 Jun 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Uber Eats Expands Robot Delivery Service to All Center City Restaurants - 92.5 XTU",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTDR4WFRVZnJTTEU2VDM4cVhpdTNnMmN2LUdFcFNORE5XUkNidEdva09EaV9MYmd0UGlESmFOZ0RUb0IxMk1faHpaLXhUZ2VLSDJZMVp4RHhsaWFhV3oxMVBvc1hxRjZDOVZLc2VvVE5CVVk0S0lRQmdWdWpBTzdCaFo3VXc2Nm41NjRMQkdDYU0ycmJqSWxXTERVamZUT016NGI1cw?oc=5",
+        "date": "Tue, 19 May 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Uber Eats quietly expands its robot delivery in Center City, restaurants say - Inquirer.com",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOODlId3lQOHlpOUc5TDVJd2puVVRMVmZiOE85Y0RSdmR2TnJpYXMxbDVKV1piYlRvdFFjVzNCX2did2JZcTJ2dS14d0FqV2dLQ3NJU3B2TmtCVTVSNXd4bEV5elhra2N3dXVkbGhpV2dKaWIzSHhfZENaX1h1SGc0SDlkbDNrczI2dGRvZA?oc=5",
+        "date": "Fri, 15 May 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "$188K in Delivery Fees Forced This Restaurant Owner to Ditch DoorDash and Uber Eats: 'That's Losses on Us' - entrepreneur.com",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSDBkYzhickw5eWptbDlkTXc1TDlHRFBjTkdBV25fSERUOVF2OXY5V0hHMXhQdEwxQXh1UDlaTjVNX2hIQW94bW5FNGVOSVdtYjlrSnl1RjlNNmZFQkNVelpOY0ZvczFBQmFKejlsRXdJY0RDNmh6eEVIdi1wQXJUd0ZNOEJfNzQ4WWtlVy1NVW4zUmo5Y28xdzBqQUpBLUNQVXcyUU16cTRRSGtQTUJLVkQ2V3VRd0hnWXBTQU1rYjBoSDlMZExobkMwa1pleGdvSVdLaFB3SXpQa0Fv?oc=5",
+        "date": "Tue, 28 Apr 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Uber and Block Expand Global Partnership for Restaurant Tech - Block",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQaVJObUUwMTJpbEM4RjM4OExPQUU1dkJ2VGp4VGJaT0s4NVN2UjFPeE90MEhsekM2emFBVko2MHdwbGRCZmlYdzFTcmZ1aW1QcUV5eUdWSjZHZHBuWFdqbmtLM01hbjl1c0tudkk2MUl6dkc4WDFROGFuM0YtUlhrcEl2dTIxeVFzUzlKVVBSb1MyTFZRSFZiUEdldi1zN2FFUkt1cGE0ZGpMYVVNb0NfcFFmTlEzUWtuVG9wMVJTbWNHdw?oc=5",
+        "date": "Wed, 22 Apr 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Next-Gen Restaurant Recommendation with Generative Modeling and Real-Time Features - Uber",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LZzJHeUdreENVT3N1TGZSRVJIcnFIQWs5TGFkd01zSXZDRE1WWEhoYzFCYmFhb3pwZ3V2UUkzbGkzME5wU21VTjJSYU11X2NzVUNyN3MzeVB3RjNWOWxMcG5OdnVWajJMQzdpTDh3R2FvcEd3VlE?oc=5",
+        "date": "Fri, 17 Apr 2026 09:01:02 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Why Rave Restaurant Group cut ties with Uber Eats - Restaurant Dive",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUmxaWTVpYTNKdVVNalJsNkhZMnNGcWpCMU1md19zbkZuWXVTNUV4Wms3X3BKamdyemxqbTVWeXl5VGY3T0xuM3c3Q3lnMmNpUXJrd19aVjdhaUI1Ul9QVFNDZE5uTmYxNWJQTjVoZlpVcVVkbXZzcUk3VnRhbHlpNk1TTkNfVzdxbGNWaG1wMFJzMjdETmxaX0Q4QW1jdlFHUE9IMEpBdFRHZlU?oc=5",
+        "date": "Wed, 01 Apr 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "The Dish: Delivery apps are squeezing restaurants, owners say. Your wallet may be next. - thebanner.com",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOVc4V1V6QWp5SVRQVmV5VHFLVlZ0cWZQR3A2NGtTV19wd2o1c2UwQ3MxN2VxNzEyMGlBbG10NEoyYnhPcUVzMWp0aVZ4UFZHSmt3eGl3T05mckhMVXZfRlNqT3NOaUF2VG5waExTbnlDbl9jeTQwQVVYc29BLXZQUUY5ai1ZSHlGOWVqYmhpaDRkVjNHVTRKREtabUdfV0RxeEZhMGIzclZCaG0xQTdmMU5Wa3VDTUU?oc=5",
+        "date": "Wed, 25 Mar 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Pie Five owner cuts ties with Uber Eats after fee hike - Restaurant Business Magazine",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYkdyQVFkVkpGMHVnaGtHbGtfRi1rTWhaVm9CWjUzNzZsVE5la3RCQUhrOXVmMktmVzF5OXpZN253YnN5aXVILVdRNTNmOW16MGNnS2gtS3d1TXRJcnA2cEk3dmVwYTR6OXBydnFtc1JUYnRCSVNhcEI1bWYtM0o2Q09TQzNjVTA3YkhSbjJVQzBpSGo0YUkwZjYybDB4UQ?oc=5",
+        "date": "Tue, 17 Mar 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Uber Eats just raised its price on restaurants \u2013 here\u2019s what it could mean for your next to-go order - Yahoo Finance UK",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdVZLSmRCWUVmX3NBbnd3a0RGVzB1WWZSZE9JdlR5NG9Wck8zNXhNb3RjOU5tdUl2eE5Gdk9PdHpsTk1oVy03RjNOVnlTcndYWFViVWxMSVpseDdaQXZ4aFNGajNJRUduY2RsM3NNSmxfd0VGMml2ck0xWFQya2wyWEln?oc=5",
+        "date": "Thu, 12 Mar 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Uber Eats debuts autonomous sidewalk delivery robots in Philadelphia - 6abc Philadelphia",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNT0dXbzRPZjBCRDRpdGZCcGdJU2FTUXpnT0MtcVUwS3VGbWk3WEkyN29PZnVxd0NVNjROX2d2YjU1VExWcF9MQ0M0TVRMbElaeU5lb0pweklHNFBxWDIxTmdRN201SHJ2RXJ2U0FDeDV2c2xTc3R1QUpEdG5RT0diekpzUm1pdHA5S25CdGdtZHdSZEN6T2R0STA3LUlyd9IBowFBVV95cUxPYUdSVDhBLXZDZWhLLTF3ejRMVm41U3VlQm9YV01KTDBJRUdPMmJFbHRuZnNGLThGUGRZcjBaS2ZrcFBXSDduZXA3MTk2MVk4MzQzOVVJMlBUbDVRN2FFY0djYlk4UlMtM3UxSzFSaGcwRk5WTUFxX21zcExXeEFwV3ZLLVFHbXRlMHh1eVdEekVlNGM2ZE1tZ3ZaMi1EVFRfWnVB?oc=5",
+        "date": "Tue, 10 Mar 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Uber Eats raises marketplace fees - Restaurant Dive",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNczNPeVhpaXlUY1R3bE1oS2t1ZElUSTBMNFR2S2xQaml3N0poVGh6TTBRQlBwZXMyRHliaDRfQUFta3dobk9YYTZNS0pVaDdSa00xSHZVSENlMnJtblZpaFA3VWVQajYzelNXTUFxMUlCMXVxRUVZbWdOVUw1Nm1OM3BKNGRPVDQ?oc=5",
+        "date": "Tue, 10 Mar 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Uber Eats is raising delivery fees for some restaurants - Restaurant Business Magazine",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVXlFRzZ0elNSQnhXckp3cjhEVU9zR1N0S1lOS2t2VUV4OVB4SXVQMlFpcnNMSmJSV2hfYmV4aGZ1QjVWVTBhczVDa1J4YkxFdi1TUjJwQkstM1h0NFhNU2xvajAxVnNfME5YWTMwMXNLLW5MSlFiMkphYUZyc0JCRFZjSWtlN2hOLUNRcDc4ZDc2TlFOUHAzcFlWNFU?oc=5",
+        "date": "Sun, 08 Mar 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Everything to Know About Uber Eats for Restaurants - Business.com",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBWcDNnaE1yb1ozd1J4VDhYTXAzY3QwM0NMZTh3NXJCRVM5WFhhOG1TS3hSSE9QbGNKaFpwMTFCaHFIV3ZCSzNjTS1OU21McnpMWnlsUmpRNXNDWTVFXy10Q1EyS0FJWDVHSlNF?oc=5",
+        "date": "Tue, 13 Jan 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
         "type": "public",
         "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
@@ -1451,16 +1643,6 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Thoma Bravo\u2019s $2 Billion Deal for Olo Draws Scrutiny Lawsuit (1) - Bloomberg Law News",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTEZZblZWQUV5NW5LeWxoOUtSM3VJS3E0aFo0d2t2YXVRVVdqR2luYUVOeU15bVpZOG14ejhZcEpjQ0x5T3BZdG5HWnQ3M3pST19fM3RhUU53ZEhUVkVHdkh0TTNEWDREVzczNnFiRUJGNWtPWlRrQzRlVkZmNzVsUGw5ZllUa3YzTXRtLTNHMDRPTm03eHJHYXkxeXI?oc=5",
-        "date": "Wed, 24 Sep 2025 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Olo",
-        "type": "private",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
         "headline": "Thoma Bravo completes $2 billion acquisition of restaurant tech company - The Business Journals",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQR0RkZjdwblg4R1RPV1JJVDRwaTNkOFhwZVlvellSYjBjOVVaWkR2MGVka1diMG03R1FrLWUyeDcwNlp4WlRWQUx5SEpRblMwdEtvakNKTS0yLVQwa2h6ajhoYmFpUzZaeUZVTWFQWWZhV1pjU3J2VzRfZlpJa2tmUXJJNjlvNkx1eXVXQXhKMFliaC1Oa0xDbTR2RGpZZjVDMkhpN3UxMA?oc=5",
         "date": "Mon, 15 Sep 2025 07:00:00 GMT",
@@ -1541,6 +1723,16 @@
         "content_type": "press_general"
       },
       {
+        "headline": "Olo Inc. relocates headquarters to One World Trade Center - Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQTBLaFhUNG95UnVEU01acXl4LUw2ekZnMjNVM294ZVdfUXlHY1Q2NGdKZGNteC1oVXIzN1lyWnhzdHZrd2ctd2tyX1YzSlpwbFZLOXRBYVBpangweU9ESENzaU4zTzZwb3RwX1g5V0ZkbEVnTFNSQ2hJWnFjQ0N6ZUlJMllqOWJoRHpuSW1rdzRLUVp4dU9EUkpYcXdqb042b1g0TkFnOXV3a1hRaUhfN3dvVQ?oc=5",
+        "date": "Tue, 16 Jul 2024 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Olo",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
         "headline": "Olo Inc. extends partnership with DoorDash for three years - Investing.com",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUUJmRUVnZHV6T3hFV1ZmZ05uQks5TjM5emNGY09aRE5KN2d0S3JjSnRlZWpSV2FHUm51aDhYNjM0RzRjc2hwWHdNVkhYUVRnRFVTV2VCWE0zenFQVk5NR0tXOFJRNlo0dFA3Tm1xOVd0WXFsU21QRXgzVDBZQWdGX0xPZnAwQmZoZGZ0Vzk5S2FUc2hQaklaNTNCMHdLNHJRQ1ZWcWJVbEx5aTJfSklLaUdDck4?oc=5",
         "date": "Mon, 01 Apr 2024 07:00:00 GMT",
@@ -1613,6 +1805,16 @@
         "content_type": "press_general"
       },
       {
+        "headline": "Deliverect launches AI agents to optimise restaurant digital menus - Verdict Food Service",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAxMWdacFpySDEzVzJtbXZoS1lGU3RlcFNWNlE5SnMzVVd5RjVYVzhLQjBVVU1LWUloclkyYVZ6YWpEc0hsQXVnbk9fZDZZVzFYcUFONVBsWGpmUnUyV2FVeDczQTlXRnhxZWY5NEZkd2g2dXRKQVluZk53?oc=5",
+        "date": "Fri, 10 Apr 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Deliverect",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
         "headline": "Deliverect Launches AI Agents and Smart Assistants to Boost Restaurant Sales and Protect Digital Revenue - Restaurant Technology News",
         "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQUjNKWW9XR1owSDBOSHV1S2JsYzN1MkFGRXZzOUh3dng2WVZKbU1tamVtRy1pZjZyajYxUk5YZ1dXNjdxRXlSUkVveGRUQzhYSWc5ektkOEJIck1hbU9aWXc3cElBTS13ejdxRDRuSU9SaUZTNzhBeWJPYjVhaldGR0dnbmVuQlExWU5TdWZRNnlFa2d5eWdzQkRaUXlPTjFpdUJETDk0dnVnZWJIeHBZMVFXcWduekVHdXN3WUFsaTdtRGhIQWJUOG0zS2tIcUpuT3A0QVAyZHE4c0xuMnN6SkRqRTE?oc=5",
         "date": "Thu, 09 Apr 2026 08:03:11 GMT",
@@ -1670,16 +1872,6 @@
         "company": "Deliverect",
         "type": "private",
         "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "bb.q Chicken streamlines operations via Deliverect - fastcasual.com",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMmZMTmNuN29ZdnZGV1RwWGF6cDRXS1JQWjg4UDc1TEM4N2FlcWpGZTV3Y242RzRVdWhwWlo1M0JwNGVYMUhlYWZrWDNjX2RrNUU2aFdZNkNJVGd5VVVrcFBNTVhkVnZTeGt1WUxoVHJ2c1U2UUU1RVFiYmUzMmpLNFBrcDNwaVJKaVE?oc=5",
-        "date": "Tue, 17 Feb 2026 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Deliverect",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       },
       {
@@ -1815,58 +2007,6 @@
         "content_type": "press_general"
       }
     ],
-    "DoorDash": [
-      {
-        "headline": "DoorDash Could Expand into Payments with Restaurant POS Launch - PaymentsJournal",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVzRKTVpBcUsyOXBjZjZqdy1ROXVOOWdNRGtYUXFQREpaU0VQWTFnWnB4TzVBYkRpaTBPMFpQZXFpdm5DMnIwV3FNdXg0eXdDUG1nbnFfT1g4Y0IxdmE4b2lMNW5wLXdzb2oyeHhLTWxKMFNfZHZRQWk5YmdfZGF3dkJrMGc1YlY0eGhMWUNoV1lYMmluUkY4czBnc9IBoAFBVV95cUxNSmZIVkFJZTY2TmFPTDJsMlZOU0tOU0VaUTNMWG56OTlQSDVSczRxRFRSSUxaRy1rYi1RcEhUb2s2VXhEaWxRZGJ2dE5rN3lKYkU1MHJIWm9qbmpRdThiUlhCa0FsUnFQSGZGNWtDS0QyZGh6MEczeDJsM3oxQnRQNUNrT0lYVklRT2ctTUh3dXJ5SmVQY2tYLTRGMzRVMk1t?oc=5",
-        "date": "Wed, 13 May 2026 07:00:00 GMT",
-        "source": "Google News - Restaurant Tech",
-        "type": "trade",
-        "company": "DoorDash",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "DoorDash Projected to Reach 20% of US Restaurants by 2035 - PYMNTS.com",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdWdOdHVrNGQ1QzBjSXJERmpUOWZIM1VaWUpGd2JHQzJ3eWc0enpJYmpQSjUzcU9WcDFaa3F5ekhKSHpxX3p0Wkg1ZTBUWHAwWjlWN2pGNlA1cnh0bjRRNWpEWHdWeFoteWhkZEV0UGM0VW9MbzJQTkZDbXNPcURjTVJUaUM0cl9peW92RkJ0NVRHcXJDTEw3MENxNmZLdWtKSXBDd0Ewd0FSa0FKaFhZN0Q4a04?oc=5",
-        "date": "Tue, 12 May 2026 07:00:00 GMT",
-        "source": "Google News - POS Industry",
-        "type": "trade",
-        "company": "DoorDash",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "DoorDash announces commerce platform expansion with new tools - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZi1qWGpWSlRaYlFxZ05KZmRLUm5WaGlfRC1HVG1TQlRFNGFKUUR2SHh2bDhPeXdsNlVrelhybmJ2TlBtN0QxZnFQN3lSRUFLUHh0VGxzMDNzeEtNMTZDRG1EN2dfS2tzdnRmcl81UlphZXBFT1hGOWxGendnZGxaZnpDbzNOeDZPN0ZtMkRZVXpseGVWYmJn?oc=5",
-        "date": "Thu, 21 Aug 2025 07:00:00 GMT",
-        "source": "Google News - Restaurant Loyalty",
-        "type": "trade",
-        "company": "DoorDash",
-        "emoji": "\ud83d\ude80",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "DoorDash Puts Loyalty at the Center of Its New Restaurant Tools - foodondemand.com",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSmtNb20xbTVoMVRaYzVlUWc2bjlHdlZSdlZDYmJZZnIyNWYyOXFIRElqX1BNRXJIV2ZRUVFENVdiOXdGcXZYT3NDMjAzR2QybUk1ZWtQZ0VfX2RORU9sa09WdFRjS01wUnBEcmQ2THRfamlZekh6ZmZWVXlhQ2hTTXhkOGNhWk1KaWp0MjlrZXhyaXNUYmRKTWZYRDdRZWs?oc=5",
-        "date": "Wed, 20 Aug 2025 07:00:00 GMT",
-        "source": "Google News - Restaurant Loyalty",
-        "type": "trade",
-        "company": "DoorDash",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "DoorDash Adds Tiered Membership Packages to Commerce Platform for Restaurants - PYMNTS.com",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVnVFbW9vVkZPX3ZzcmU3RUN5czVzTk5fWU5DWkxabE1WbFVpMkYwZFdzdHRscU9MbkE0ZU03cU40WEwtTUl1VmJNZndwQVNwdF9ydFdMaVNTM2pOUU1CcVRoWGkyS0RicUJhbUJQWVZNdC1hMjFhc29yTUxHd2pBd3I1N1N1VnVOLS1FdzNkc3ZzejRpX0tibHFUUy01SFQyZF9EN29NT1RTMTgyYVhjeFIzbjh3UmNnOUJxb08zZEltR0tkeWJj?oc=5",
-        "date": "Wed, 20 Aug 2025 07:00:00 GMT",
-        "source": "Google News - Restaurant Loyalty",
-        "type": "trade",
-        "company": "DoorDash",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      }
-    ],
     "Square": [
       {
         "headline": "Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news",
@@ -1919,16 +2059,6 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Square Stock Steel: Comparing Block, Inc. and Industrial Equities - Bitget",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mS3NFT2o5NTJtUWZJa3FQeVhxaWU3aE5Ecl9xTVNOd2dFOWszbllMOGVES0ZqUXFCOThkR2ZQWjg3ZWJqUVpGeXdiNW16QUZGbGN3TlhGSWJQdw?oc=5",
-        "date": "Thu, 12 Feb 2026 16:39:39 GMT",
-        "source": "Google News",
-        "company": "Square",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
         "headline": "Block set to deliver Q4 earnings beat, gross payment volume acceleration eyed - Proactive financial news",
         "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOM2ZzaXVvQ3NmbjN0VVh6M2NjRmtMNjZWQlRfMnNadzhrTkthTkp2dkxNM0xyTXVIZjlSX0x3QWo5bDlLVmNvSnB0VDZPcUVmTU5CNDFEMG5EVWZYMXRraWdvR1d2eHlzRWttekVlaWRCR1BUNzkzOE5zMnNMZHY1cm9tMHkxRlcxTDVsR1M5dGpJRnIxbkpWTzdJeEc1c25tUGFac0ZVN2VtcW4yMnIxLXZhTGtEaUJXeVktMWFyT0VQVFl1NU1lM2tSUmtKNURNd0xpNTJZaHJuLXc5M0RGTA?oc=5",
         "date": "Wed, 28 Jan 2026 08:00:00 GMT",
@@ -1956,6 +2086,16 @@
         "company": "Square",
         "type": "public",
         "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Block, Inc. (XYZ) Faces Securities Class Action, Regulators Levy Cash App Fines Following Investigations Going Back to Hindenburg Report- Hagens Berman - PR Newswire",
+        "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQM05pMnk1bGRndDlvUGFXOHJzcFNxQWVEYjBhYUdSZGxGRUdtTDVieUxSajF6OXo4cm5TU3pkdldhM2VRd2tSRXFka3pWN2Uyc1A5MmtMTG9PcW4wNVNiSXNtcVlzNmdfR1p3X1hJQnhBenc5ZERxX1VMZDRjNHhYcHlEVXdmeTRqWDhpbDR2Mlo4ZnFDMUU2dm1OcVp4WVFlWjNlc0NjYjcyRDZDMk9TSFhDTlhuRXhCckNQWWlrdHVjcjVKNl9lb1BJU0V2bGc2MlEzc0FQTWYxUFFPTnlsUEwzeFgxSDNlWWFZeC16OWNQSkdQVFRXaUo0RlBMczZfT3BERTZ4eUVleEJERVkydnBvNlFZUGJQQ0Y0Rmcxa0RrZlRQRkNWTw?oc=5",
+        "date": "Fri, 07 Feb 2025 08:00:00 GMT",
+        "source": "Google News",
+        "company": "Square",
+        "type": "public",
+        "emoji": "\u26a0\ufe0f",
         "content_type": "press_general"
       },
       {
@@ -2019,6 +2159,158 @@
         "content_type": "press_general"
       }
     ],
+    "ItsaCheckmate": [
+      {
+        "headline": "How many employees work at Checkmate? - Revelio Labs",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB5WUxFM0YxZHJwaE9haGRZb0JIWmtRczVuSGhJZloydkpOTzQyeU1Jay1YUzFDZE9zQUtsUTlmWjJRd3dobV9EVDcxXzJsWHVzSHU0THpuMGtQczlMUkxPcGNvY0lvSW96dWc?oc=5",
+        "date": "Wed, 06 May 2026 17:21:47 GMT",
+        "source": "Google News",
+        "company": "ItsaCheckmate",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Check out the latest Afro-Caribbean restaurant opening this weekend in Wigan - Wigan Today",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOY2d1Z2ltN1h4Ri1KMklXVlVQQ2hWWFAwOURFX3VzSUdWTUVHVkN4cDI1WXJCSUdLQnQtSng2enBqbVBfXzczVks4MmdZaHFvY0VrRXBPNEcwLWhrQ3loSDE3XzdBSVBxc0lHR1hWY3BLYlRBWEJpaXRWZHA4N2RDLUdXdXMyR3NXajV5OUxGaWtrNHZZY0c0X2xpQUoyUU52V21CM2d2cWMwb1JXckRJTGZoNHlIcjZpd0tUZURNdDgxUTA4cnlvSlZpQW1SMUNSZWhCaUhMYVhQVkVKc2YyLUtnSHM?oc=5",
+        "date": "Fri, 01 May 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "ItsaCheckmate",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Checkmate Enables Restaurant Brands to Test, Learn, and Increase AOV with Digital Menu Boards - PRWeb",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPN3FZeHgxSUNuUFNCckZ0WVRGck1hWm1rbUNabk5sOWwzS1huMlBGZklLb010ckUxcWFUWFBDdVhrQnZQTEhlYVZOeGllV0J6M19aMFdFUlRDVC1xSUhWYjRGNWlfMVNlWVBpU01kUXN5NkM0QmNPaldIamJQeEpkM2NBNFlkMmZDZEcwSEtidGJBdnNzNTczU0dnWGg4am1QQnJ6d3ZuejZZYWFRak9DM08ycmd4WUdFVFEyZVNRdlBvSEwxaV9SNzAxaTAxOXhTTmtn?oc=5",
+        "date": "Wed, 01 Apr 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "ItsaCheckmate",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Domino's Pizza opening seventh location in capital city - Tallahassee Democrat",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVVZ3YmdBeVhBMjVxMTRDWkFaX3FUUTdCTzBrYnBVcTc5R1o3emNFTGktUnZYVDQ5aHdBRlFWd1NoXzVyamFjUGRWMGhiNVpxdDlKN0tCcWtZMmF5Y2NlU2ZQODJnM2hkSk51MWI3VFprUUoyUF9MZXFLWGthVWpnb2E0Y2phdktod3hzMHptOFpDTU5RUjZUT1NIN2RuUEVaWk9pVEMxV1dhNVIwdU13TlE5ZkFiSFd2dnJhUzhRcnJoSVA4MGFqOXVqSTIxYk0zMHNMUA?oc=5",
+        "date": "Wed, 24 Dec 2025 08:00:00 GMT",
+        "source": "Google News",
+        "company": "ItsaCheckmate",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Checkmate Revenue 2025: $44.1M ARR, $132.3M Valuation - GetLatka",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE00UGFJVHNOYTZMNWwyTGVsakRMeG81SlVzemM4RFVocTRIek1oYlpRS2Vmb3h3LTA5R3ZfY3NMY1phVzgtNGVaeUg5QURKNmlhb3UycS15cGsyRFY2?oc=5",
+        "date": "Thu, 18 Sep 2025 07:00:00 GMT",
+        "source": "Google News",
+        "company": "ItsaCheckmate",
+        "type": "private",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Checkmate Launches AI-Powered Digital Menu Boards - foodondemand.com",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNR0hfS2ZsSWJjZTFhQXc2b3MzOUNBNF9xbGlsNFBxOXNhakVCVTUwRGpzUHVxSERxb0loN2NUZWd3OTFfZWxPZVVQc0hDSVBUdEtHamtBaktuMU5TSDNVOV9Zd2lERG0yRVhlWE8tcE5HRnp0OHo4c1ZjS2pXcFo4V3lCYm5VTFIwcXdTWA?oc=5",
+        "date": "Wed, 17 Sep 2025 07:00:00 GMT",
+        "source": "Google News",
+        "company": "ItsaCheckmate",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Checkmate Launches AI-Powered Digital Menu Boards to Help Enterprise Restaurants Sell Smarter - RestaurantNews.com",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRUQwWTV4NnJEQkFJbkE4VEdfaEp6ZDhKVzBKWDdycURQVzBqeEJNVFMzNXRDRHZncEhMTkdvTEI4YWE0dk9GLWFyTTlpb2hXNTh4QU9OWTFwc0tDWmhIWTF3bHZGdzVEUmgtaHdvUVRxVDFibGJxRWtOdDVWSzJjeF9XMWZaRlpaNWZfTnV6QXNKQm5SSnhRVVhR?oc=5",
+        "date": "Thu, 11 Sep 2025 07:00:00 GMT",
+        "source": "Google News",
+        "company": "ItsaCheckmate",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Coco Robotics Powers White Castle's First Autonomous Deliveries on Uber Eats with Checkmate Integration - PR Newswire",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNG9yNDcwNmN3VGE5NVd1ZlRIMll4UXBucHFvT2YwNWJMUTFWSEp0bUhlXzhkOW1hcDhoTkJZLXVUclFFUEsycVhWdGp0bWRlUVRSZDNDX1hOdGNBX3B4Q3kyaHJPT1NheWJYYU5VTTBaLS1nRzZ6S0FCaEZxclZaX0U0bUhaazl5dFVPVVp3enFKMmFJMnlkWHVXZ3hLb29ZQ1pESDhoTURzcWdtN0dYb2RqWUd0MF9Fa0tMLUI1Rm5YSWF5eDJEbVhNVDB0dTV0TkcxNl9NQ2RfTXpicWVCenFDbmZfM0tSNUV0WXZhNA?oc=5",
+        "date": "Mon, 28 Jul 2025 07:00:00 GMT",
+        "source": "Google News",
+        "company": "ItsaCheckmate",
+        "type": "private",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Checkmate's integration with ezCater helping restaurants streamline catering - fastcasual.com",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPc2M3ZGM1TE1yX2R3cV9NYWYzc0dOWjA3RlU1alFQRjVEb2RHWkFSMHlwZ2VlTkVBa1JGbmY5LVgxYjU0M3lmdFVvMVpacVRxWGlwNzdfZnhiU0t6RTROdXVPcFBGTTdrbWkyRk12UERJbHYyM0g4M1cxUEs0T1Vtdi02blZrS2pVQmpVbl9Sa21LdndRZE1TZlF3Z2RObWZmU0dVUjdUdEdjQTVP?oc=5",
+        "date": "Thu, 06 Feb 2025 08:00:00 GMT",
+        "source": "Google News",
+        "company": "ItsaCheckmate",
+        "type": "private",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Tech provider Checkmate raises $10M to grow AI ordering - Restaurant Business Magazine",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOHBpekNkMEgta2QtSGgxM1JqNUNnckotOFJrbDAxM3hQblN6Ni1lYi1pcEtkZTRydFdiRnhUU0cxcUFjV0ctM09jX2t5eFNTVWZoQWdlRlR6U002M3VtMDZLdm9FeWd5Y2lGaXFOcldaYU9BeWMxYUYwZVVJT1RRZ0xUekRVV3RvYVJmWlIxT082SWowMkFOTWNlZUhZNTNy?oc=5",
+        "date": "Wed, 23 Oct 2024 07:00:00 GMT",
+        "source": "Google News",
+        "company": "ItsaCheckmate",
+        "type": "private",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Checkmate Steps Out With a New Identity and Expanded Ordering Solutions - foodondemand.com",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcFBwS0ZrWHdheDkyVmNaRVVBeUgta3dpNDEtM3pabmxaQ1RiTEVfbnVTTVBBOGVIWFhsNnJUNUpzeG9iQ3lDSXVGdzFuQktZMTN0LXRTNlVlVUx4ekd2RlpGLW9lcW5GUVZ5bWlJSkFSNDFDcmFBbklRYUs3eDhCRExiUFRaVDRoUHNoaXZPVU44MmFPd0REVDdqTnNjVFFpZDBSR1QxaURQdw?oc=5",
+        "date": "Wed, 12 Jun 2024 07:00:00 GMT",
+        "source": "Google News",
+        "company": "ItsaCheckmate",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Checkmate Acquires VoiceBite Integrated Voice AI Solution for Restaurants | - Restaurant Technology News",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQU00yNGd2c3dTcEJGR1hQVGlqQlJoNVN1OHNEOGZ1aE9GM0lmUUlLZE5UNUZHeEZPb2o0d1pabTNMdVV0aVNUS082VU5OUjR5Q0RNZmRoM1lqeGoxMEx0b0FFVWM5OGZ2OHlSc2kwalA5bEI3NTBoT0VmQ01DMEVTbTlCSThMbTFaajRfWkt1MXl1Ymx1ZC16aVVlNDVma0lzWlBEUmtMR2RSS2sxakQtYkJWTTFSczRLYTlz?oc=5",
+        "date": "Wed, 08 May 2024 07:00:00 GMT",
+        "source": "Google News",
+        "company": "ItsaCheckmate",
+        "type": "private",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "DoorDash Debuts Seamless Self-Serve Integration Onboarding Capabilities - DoorDash",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTllWbTB2UUJtd1dqQURCNktaRHAxM2prOW9uM3hJdXBacER0Njg0LWVPODA3RFRDWl9DTklIanZoTFJaS2xVelNiWGd0Y3hPWU8xb21DMWNsZlh1elRCR3NNMldLVnJ2LU1sdVhSbFFwem0xaW5mUFZWZlc2c3FQV1ZaeFlpYkVBTlhMdG5ibkN3XzFEcHlQTWpBd0JRYnZqQXlFLWU3eWowS1doNHc?oc=5",
+        "date": "Tue, 25 Jul 2023 06:23:48 GMT",
+        "source": "Google News",
+        "company": "ItsaCheckmate",
+        "type": "private",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "DoorDash teams with ItsaCheckmate, Deliverect for easier restaurant signups - Restaurant Dive",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZ3djTHZpQlR6aUxZdXFWVUxnU0FTTlppRnhrYUZ1NzFKOTZITU1Nb3BHU1o1ekozYUJGRHNOMWFuMVFaQlQ1ZkFiYUtBYmZhbElPdnNDNnpKbEJJanFPWFRxbXJSVW9DbG03WEVjbzJrVUdTc05JdlFvVHBsLVQ5WEd3S2dYWFUzUFpMTDdnT3lBSjY4OU1ENzlFU283QTM4OFhKbg?oc=5",
+        "date": "Wed, 19 Jul 2023 07:00:00 GMT",
+        "source": "Google News",
+        "company": "ItsaCheckmate",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Inspire Brands to Invest in and Deploy ItsaCheckmate - stories.inspirebrands.com",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQXhkejBueW9vR3NuWHlCdG5mamJvM0J6b2l1WVUtNVVTbHRGM1RYSHJZVi1zVmJFQVJoMFUxZmJrdUFtR1lBOUVkbk54Yk5EZHlIOEVaNXB6a1RFbmkzN0ozWHRlOHlkQ3ZJWWdrcEtPUVFsUzFSSDRPekE2NEp2dldpU3NLYUx3Zm9wZVRyaExXMUhGdVhteldkVVN2ZjJRSFpoMlhYV0Q4Ti1HNEE?oc=5",
+        "date": "Wed, 30 Sep 2020 07:00:00 GMT",
+        "source": "Google News",
+        "company": "ItsaCheckmate",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      }
+    ],
     "Paytronix": [
       {
         "headline": "Paytronix launches rewards hub giving marketers real-time control - fastcasual.com",
@@ -2028,16 +2320,6 @@
         "company": "Paytronix",
         "type": "private",
         "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Paytronix upgrades guest engagement platform - Restobiz",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9CNTAzWERxZl90bUNuX1IyVTU3cFljcXlPdk1WQ3NkeFZzTlN2MWl0dV9kcl9CajFtUG1NTGtGYXpYeTB5a0RkempFZjdjakZPZUJkaXBWTFNHME1MMktuT0gwTVRPVW8yc2JQUHR6bHZxNS14a1UxUA?oc=5",
-        "date": "Tue, 28 Apr 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Paytronix",
-        "type": "private",
-        "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
       },
       {
@@ -2131,9 +2413,29 @@
         "content_type": "press_general"
       },
       {
+        "headline": "Paytronix, Rinsed integration links TigerWash with Market Rewards - Professional Carwashing & Detailing",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQM1R6NXpfb1NjenZLZWZZYTRWd3F2WDJ2c1hPX3NfTjJVM2RERmJ2VERnN2tBUlVvaEtjVFE2a0h1MHNNVW5wSmNRUnU5MDE3WlpPTTNxOGZjbk5XN3FIWUZUTk1zeGt6dmcxS0hFQzhIZVNHMXF6TXIyc3VxYUJ4Uw?oc=5",
+        "date": "Wed, 11 Feb 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "Paytronix",
+        "type": "private",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
         "headline": "AI, Gen Z, and Gamification: The Engagement Trifecta Defining 2026 - The Food Institute",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYVRWRFVnZ1h6ZHp3MldqVjk1Q2FEZE9oeFRYM3dWb19MVVJSTlVhLU5oN3Z1QmVvOWUycHhLdnhrbk01d29ycjRiY2NscVBQcHpCcDNkcF9xVDFmNXpGUlJIN2JxWUdVbk1EZGVWcTdBeElxcDhwamJVT0xvZTlURVlHMHpNSWdQRnpRTzg5c05UcDFTQ2d6NUVaRXg?oc=5",
         "date": "Thu, 29 Jan 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "Paytronix",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Paytronix: AI Will Continue to Shape 2026 Trends - NACS",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaVJJT3hxSm5lUms5Y1NRLUprTG1TZ2YwZVV6ZnNoWjNkRG84ZmN5bzUyTEozSVNfTXpVVVMxdGNYdFU1SkVpN19yMFZCZDltRjJBSEcxTXRWTWkyX05wRnY4cmRvYkZXVUVsT3JmUXdlYnNaSTlMZ2IwMlhmWU51YnhCZ0pDUGl0eFpXZUVTYmxRWWh1Vzc4b3VrcERuWGRpOTlmbVhpRUhjUQ?oc=5",
+        "date": "Wed, 14 Jan 2026 08:00:00 GMT",
         "source": "Google News",
         "company": "Paytronix",
         "type": "private",
@@ -2156,168 +2458,6 @@
         "date": "Tue, 07 Oct 2025 07:00:00 GMT",
         "source": "Google News",
         "company": "Paytronix",
-        "type": "private",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "People on the Move: EG Group, Paytronix & The Wills Group - Convenience Store News",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0wN3F4YW9Cd2NqdDFveEhXSXlFWVExM1lKUzBQTGw4TkRDVU9WSG9pTk13YXAyV05LMmdvRU1PenFSS3lLTGNJaGQySlY3MnBWaEotT015RTY3eXhjMGpBUjJXVVVJODNIY2hab1Jn?oc=5",
-        "date": "Wed, 20 Aug 2025 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Paytronix",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      }
-    ],
-    "ItsaCheckmate": [
-      {
-        "headline": "Check out the latest Afro-Caribbean restaurant opening this weekend in Wigan - Wigan Today",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOY2d1Z2ltN1h4Ri1KMklXVlVQQ2hWWFAwOURFX3VzSUdWTUVHVkN4cDI1WXJCSUdLQnQtSng2enBqbVBfXzczVks4MmdZaHFvY0VrRXBPNEcwLWhrQ3loSDE3XzdBSVBxc0lHR1hWY3BLYlRBWEJpaXRWZHA4N2RDLUdXdXMyR3NXajV5OUxGaWtrNHZZY0c0X2xpQUoyUU52V21CM2d2cWMwb1JXckRJTGZoNHlIcjZpd0tUZURNdDgxUTA4cnlvSlZpQW1SMUNSZWhCaUhMYVhQVkVKc2YyLUtnSHM?oc=5",
-        "date": "Fri, 01 May 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "ItsaCheckmate",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Checkmate Enables Restaurant Brands to Test, Learn, and Increase AOV with Digital Menu Boards - PRWeb",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPN3FZeHgxSUNuUFNCckZ0WVRGck1hWm1rbUNabk5sOWwzS1huMlBGZklLb010ckUxcWFUWFBDdVhrQnZQTEhlYVZOeGllV0J6M19aMFdFUlRDVC1xSUhWYjRGNWlfMVNlWVBpU01kUXN5NkM0QmNPaldIamJQeEpkM2NBNFlkMmZDZEcwSEtidGJBdnNzNTczU0dnWGg4am1QQnJ6d3ZuejZZYWFRak9DM08ycmd4WUdFVFEyZVNRdlBvSEwxaV9SNzAxaTAxOXhTTmtn?oc=5",
-        "date": "Wed, 01 Apr 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "ItsaCheckmate",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Checkmate Revenue 2025: $44.1M ARR, $132.3M Valuation - GetLatka",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE00UGFJVHNOYTZMNWwyTGVsakRMeG81SlVzemM4RFVocTRIek1oYlpRS2Vmb3h3LTA5R3ZfY3NMY1phVzgtNGVaeUg5QURKNmlhb3UycS15cGsyRFY2?oc=5",
-        "date": "Thu, 18 Sep 2025 07:00:00 GMT",
-        "source": "Google News",
-        "company": "ItsaCheckmate",
-        "type": "private",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Checkmate Launches AI-Powered Digital Menu Boards - foodondemand.com",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNR0hfS2ZsSWJjZTFhQXc2b3MzOUNBNF9xbGlsNFBxOXNhakVCVTUwRGpzUHVxSERxb0loN2NUZWd3OTFfZWxPZVVQc0hDSVBUdEtHamtBaktuMU5TSDNVOV9Zd2lERG0yRVhlWE8tcE5HRnp0OHo4c1ZjS2pXcFo4V3lCYm5VTFIwcXdTWA?oc=5",
-        "date": "Wed, 17 Sep 2025 07:00:00 GMT",
-        "source": "Google News",
-        "company": "ItsaCheckmate",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Checkmate Launches AI-Powered Digital Menu Boards to Help Enterprise Restaurants Sell Smarter - RestaurantNews.com",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRUQwWTV4NnJEQkFJbkE4VEdfaEp6ZDhKVzBKWDdycURQVzBqeEJNVFMzNXRDRHZncEhMTkdvTEI4YWE0dk9GLWFyTTlpb2hXNTh4QU9OWTFwc0tDWmhIWTF3bHZGdzVEUmgtaHdvUVRxVDFibGJxRWtOdDVWSzJjeF9XMWZaRlpaNWZfTnV6QXNKQm5SSnhRVVhR?oc=5",
-        "date": "Thu, 11 Sep 2025 07:00:00 GMT",
-        "source": "Google News",
-        "company": "ItsaCheckmate",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Coco Robotics Powers White Castle's First Autonomous Deliveries on Uber Eats with Checkmate Integration - PR Newswire",
-        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNG9yNDcwNmN3VGE5NVd1ZlRIMll4UXBucHFvT2YwNWJMUTFWSEp0bUhlXzhkOW1hcDhoTkJZLXVUclFFUEsycVhWdGp0bWRlUVRSZDNDX1hOdGNBX3B4Q3kyaHJPT1NheWJYYU5VTTBaLS1nRzZ6S0FCaEZxclZaX0U0bUhaazl5dFVPVVp3enFKMmFJMnlkWHVXZ3hLb29ZQ1pESDhoTURzcWdtN0dYb2RqWUd0MF9Fa0tMLUI1Rm5YSWF5eDJEbVhNVDB0dTV0TkcxNl9NQ2RfTXpicWVCenFDbmZfM0tSNUV0WXZhNA?oc=5",
-        "date": "Mon, 28 Jul 2025 07:00:00 GMT",
-        "source": "Google News",
-        "company": "ItsaCheckmate",
-        "type": "private",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Checkmate's integration with ezCater helping restaurants streamline catering - fastcasual.com",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPc2M3ZGM1TE1yX2R3cV9NYWYzc0dOWjA3RlU1alFQRjVEb2RHWkFSMHlwZ2VlTkVBa1JGbmY5LVgxYjU0M3lmdFVvMVpacVRxWGlwNzdfZnhiU0t6RTROdXVPcFBGTTdrbWkyRk12UERJbHYyM0g4M1cxUEs0T1Vtdi02blZrS2pVQmpVbl9Sa21LdndRZE1TZlF3Z2RObWZmU0dVUjdUdEdjQTVP?oc=5",
-        "date": "Thu, 06 Feb 2025 08:00:00 GMT",
-        "source": "Google News",
-        "company": "ItsaCheckmate",
-        "type": "private",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Tech provider Checkmate raises $10M to grow AI ordering - Restaurant Business Magazine",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOHBpekNkMEgta2QtSGgxM1JqNUNnckotOFJrbDAxM3hQblN6Ni1lYi1pcEtkZTRydFdiRnhUU0cxcUFjV0ctM09jX2t5eFNTVWZoQWdlRlR6U002M3VtMDZLdm9FeWd5Y2lGaXFOcldaYU9BeWMxYUYwZVVJT1RRZ0xUekRVV3RvYVJmWlIxT082SWowMkFOTWNlZUhZNTNy?oc=5",
-        "date": "Wed, 23 Oct 2024 07:00:00 GMT",
-        "source": "Google News",
-        "company": "ItsaCheckmate",
-        "type": "private",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Checkmate Raises $10 Million in Series B Funding Led by Tiger Global to Scale the Adoption of its Restaurant Voice AI and Kiosk Solutions - PRWeb",
-        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOSHRJdUw4Zl9yaEFoV3pKd2hsVy1KRFliSU9QeGhsMndxTXMtSzR6MkZuLVpRUTRPdVQzaExfZ1hHRVRtVE1JZENLeWljbWphc2l6UndCWHAyWVBJSlRNT2MtUkxNNVhIUFQxM0FMOFRlU3lLTlNvNGU5SXdwRk5mVmxmVjlZeUgxSkxDZ1RzOVpTRWVCdUM5LXJWODZGN0xBUWN0eU5LcHI1Vk9mTkNUdzQzTExCWGh3ZDM3VXZpQmhBVm9OWl9SWjU5cER3N3FjdE11c2hfU05qcEc2TGZsV1Q3akxod0JMNHFCU0xVbzhMVXIwU1g0ZGpsNU5xQ2VYMTcwUXlkNVI1VF91UUhn?oc=5",
-        "date": "Wed, 23 Oct 2024 07:00:00 GMT",
-        "source": "Google News",
-        "company": "ItsaCheckmate",
-        "type": "private",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Checkmate Steps Out With a New Identity and Expanded Ordering Solutions - foodondemand.com",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcFBwS0ZrWHdheDkyVmNaRVVBeUgta3dpNDEtM3pabmxaQ1RiTEVfbnVTTVBBOGVIWFhsNnJUNUpzeG9iQ3lDSXVGdzFuQktZMTN0LXRTNlVlVUx4ekd2RlpGLW9lcW5GUVZ5bWlJSkFSNDFDcmFBbklRYUs3eDhCRExiUFRaVDRoUHNoaXZPVU44MmFPd0REVDdqTnNjVFFpZDBSR1QxaURQdw?oc=5",
-        "date": "Wed, 12 Jun 2024 07:00:00 GMT",
-        "source": "Google News",
-        "company": "ItsaCheckmate",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Checkmate Acquires VoiceBite Integrated Voice AI Solution for Restaurants | - Restaurant Technology News",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQU00yNGd2c3dTcEJGR1hQVGlqQlJoNVN1OHNEOGZ1aE9GM0lmUUlLZE5UNUZHeEZPb2o0d1pabTNMdVV0aVNUS082VU5OUjR5Q0RNZmRoM1lqeGoxMEx0b0FFVWM5OGZ2OHlSc2kwalA5bEI3NTBoT0VmQ01DMEVTbTlCSThMbTFaajRfWkt1MXl1Ymx1ZC16aVVlNDVma0lzWlBEUmtMR2RSS2sxakQtYkJWTTFSczRLYTlz?oc=5",
-        "date": "Wed, 08 May 2024 07:00:00 GMT",
-        "source": "Google News",
-        "company": "ItsaCheckmate",
-        "type": "private",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "ItsaCheckmate rebrands, acquires AI voice provider VoiceBite - Restaurant Business Magazine",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSWNidTJraWxiNHRlb0FjdTVhMVVKMzczQUhFTnlkYUt6ME5nMDh6QWxhT0stSDY2b3hTMkRYRHdBeWl2Q1dlZXJDUnZFLVJlU2FmWTJGS0RnREFWdFo2MEo5VXVCeDZ0N1UtYjBDZ2RiSnNMOUFBRWFFN3FDWGRudVZkTWZEQ212VnFNWEFNYlZfV0stZXRNX3FiQ1lZLVBfLVFGcExJTlJsNm8?oc=5",
-        "date": "Wed, 08 May 2024 07:00:00 GMT",
-        "source": "Google News",
-        "company": "ItsaCheckmate",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "DoorDash teams with ItsaCheckmate, Deliverect for easier restaurant signups - Restaurant Dive",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZ3djTHZpQlR6aUxZdXFWVUxnU0FTTlppRnhrYUZ1NzFKOTZITU1Nb3BHU1o1ekozYUJGRHNOMWFuMVFaQlQ1ZkFiYUtBYmZhbElPdnNDNnpKbEJJanFPWFRxbXJSVW9DbG03WEVjbzJrVUdTc05JdlFvVHBsLVQ5WEd3S2dYWFUzUFpMTDdnT3lBSjY4OU1ENzlFU283QTM4OFhKbg?oc=5",
-        "date": "Wed, 19 Jul 2023 07:00:00 GMT",
-        "source": "Google News",
-        "company": "ItsaCheckmate",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Inspire Brands to Invest in and Deploy ItsaCheckmate - stories.inspirebrands.com",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQXhkejBueW9vR3NuWHlCdG5mamJvM0J6b2l1WVUtNVVTbHRGM1RYSHJZVi1zVmJFQVJoMFUxZmJrdUFtR1lBOUVkbk54Yk5EZHlIOEVaNXB6a1RFbmkzN0ozWHRlOHlkQ3ZJWWdrcEtPUVFsUzFSSDRPekE2NEp2dldpU3NLYUx3Zm9wZVRyaExXMUhGdVhteldkVVN2ZjJRSFpoMlhYV0Q4Ti1HNEE?oc=5",
-        "date": "Wed, 30 Sep 2020 07:00:00 GMT",
-        "source": "Google News",
-        "company": "ItsaCheckmate",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Checkmate\u2019s delivery-POS integration software scores $3M in funding - Restaurant Dive",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNR2swY1lsY0d2c2hlSmg4dHRsbjFYRENaaWJXNkZuNE5QNUJ5d24yTkNqa2ptQnRpNEhVSWZ6aHh1MUJha1NlMXY4UU5ZMm4wU2ZROW5aN2h2VDROWGdNdnNuZVJYeDdfSlZ6bmVyOUpNQjVLX3k0aFctaE1RZV9zbTFCZWZJNFBwczN0LVFYLTVEODlSRTAzSXZQNjlYMmdlZFNNbGVhVElCeDJlaVE?oc=5",
-        "date": "Tue, 13 Nov 2018 08:00:00 GMT",
-        "source": "Google News",
-        "company": "ItsaCheckmate",
         "type": "private",
         "emoji": "\ud83e\udd1d",
         "content_type": "press_general"
@@ -2368,16 +2508,6 @@
         "headline": "Postino Elevates Hospitality Through Personalization With Bikky - Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNT29JODhIOElxcF9HOFh6bE1GVm45dTdYOHJyeF9rWk5Zam5MVkV5X2cwTkxNT0pqVldDX0lueE1rQkNac1ZWS0tpZUl1ZFBIWkxrbFFXWjUyNDU0Y3JfWm5hb0tNMzRod184cVR2clFxTVJydTZYQjNVOV9tQkJyb2p6blJFLXVweFROdTNlRDExMVplaTdUY3VnaDQ?oc=5",
         "date": "Tue, 05 Aug 2025 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Bikky",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "MOD Pizza Is Diving Deeper Into the Customer Analytics Game - PMQ Pizza",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rV3p6R1AxakVha3l1b0RFVnlJa0NMQWxJV0pxUXZGd21paEh4SE43cVNMbFQzcDJaYkZHSjQtaGU1LWE0Q1dVeDlOdFJzNFBGSVBpTVlINUdoRnc1V3BhQzU3djBEc1RycFlvX2VfVldOYTJLSzl5cExBbUlobTQ?oc=5",
-        "date": "Tue, 16 Apr 2024 07:00:00 GMT",
         "source": "Google News",
         "company": "Bikky",
         "type": "private",
@@ -2487,8 +2617,8 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Adyen acquires Talon.One for \u20ac750m - FinTech Global",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5fOEUtUkh6aG5PTU9yRWJFVDBQQ1BwUzZWR25vOW1hNm4wZWlPRkdTSDFhd3hQdi1HY2hVTFU4VFlwRkljNFVYRzBPNFFLd3lxLVhQYjNEdkR1TjJFZU02XzRCQXF0TGJzQnV1bjdoWGhuQmZXS2g1bg?oc=5",
+        "headline": "Adyen to buy German loyalty platform in first-ever acquisition - American Banker",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeW5HUnRXN3cwSVo4RF9vXy10ZjdqeHRBOVJROHRyY2ZGTVZRbndaYlJkMkc1V3FSREp6QU5YYkZmZ0p2eWlwNG10LXdwNnRnRUpPb2ZkM2VoZnJFWHlDaVpvc0l5NjR5bjBXNnFpbnJNWUJzN204bUZFUUhuaGJXeTBzYVVKTTlGcU1PTWxpLTNOQ29jVTViYQ?oc=5",
         "date": "Fri, 24 Apr 2026 07:00:00 GMT",
         "source": "Google News",
         "company": "TalonOne",
@@ -2497,8 +2627,8 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Adyen to buy German loyalty platform in first-ever acquisition - American Banker",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeW5HUnRXN3cwSVo4RF9vXy10ZjdqeHRBOVJROHRyY2ZGTVZRbndaYlJkMkc1V3FSREp6QU5YYkZmZ0p2eWlwNG10LXdwNnRnRUpPb2ZkM2VoZnJFWHlDaVpvc0l5NjR5bjBXNnFpbnJNWUJzN204bUZFUUhuaGJXeTBzYVVKTTlGcU1PTWxpLTNOQ29jVTViYQ?oc=5",
+        "headline": "Adyen acquires Talon.One for \u20ac750m - FinTech Global",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5fOEUtUkh6aG5PTU9yRWJFVDBQQ1BwUzZWR25vOW1hNm4wZWlPRkdTSDFhd3hQdi1HY2hVTFU4VFlwRkljNFVYRzBPNFFLd3lxLVhQYjNEdkR1TjJFZU02XzRCQXF0TGJzQnV1bjdoWGhuQmZXS2g1bg?oc=5",
         "date": "Fri, 24 Apr 2026 07:00:00 GMT",
         "source": "Google News",
         "company": "TalonOne",
@@ -2863,6 +2993,16 @@
         "content_type": "press_general"
       },
       {
+        "headline": "8 Best Hospitality POS Systems | Top Platforms Compared - Startups.co.uk",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAxNm00ZVhkTVZlZ0V0MERCYTc1QlhCNE5YNjFvMXBQbWtRd2hhM1BNOS1QWTZJT05uYVU4UzZMSDJJM1hkVjNYS01XbHIwYlJzUWV2bFNUN0k2ckVZWFVrM3FXQkF0NTh1TkFJek9tZ2FiQXNibFYxRllWYw?oc=5",
+        "date": "Fri, 02 Jan 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "TouchBistro",
+        "type": "private",
+        "emoji": "\ud83d\udce2",
+        "content_type": "press_general"
+      },
+      {
         "headline": "TouchBistro vs Square: Pricing, Costs & User Experience Rated - tech.co",
         "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE54Q09MaDNONDNhWml0bXJicW9LMzhWdHVFOFBuRUgwdlJCVmc1cDBsNkhhQVdmT0xydlp1anRJLTZ4c3RFVFp4R3Q3WkpqZlU0MFZyV3dlX0hZTHZT?oc=5",
         "date": "Mon, 17 Nov 2025 08:00:00 GMT",
@@ -2933,16 +3073,6 @@
         "content_type": "press_general"
       },
       {
-        "headline": "TD Bank partners with TouchBistro to enhance payment solutions for Canadian restaurants - FinTech Global",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNT1UwSVd1MjRta016NVZCVTAyeDVwR2R0bl8tUkxJdDhMU3EzdjNzQmhNejZPbjJMc1JJeWhScktiTW1oa2RONTM1c2hxa3pObnZfT0F3SzR5MVgxQ2s2MjBCQ01hQTBYV0tvYjRRRzZ0MEQ5Q2hPYjFrVjJQVFBDV0Vtd0E2R2hiUXlqaWhQdmczRVdQSkhaOWdsajd1Ny1TNjNFVlNvV0NIcVFhV3k5OE9wUnpYdWpHWUdkVzREQQ?oc=5",
-        "date": "Fri, 08 Nov 2024 08:00:00 GMT",
-        "source": "Google News",
-        "company": "TouchBistro",
-        "type": "private",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
         "headline": "TouchBistro Review 2026 - Business News Daily",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBMRDM3S0VNTmdGcF9OdVFnSlIzVFF1Z09iek9Ic2hFYnFQVmhMR0M5a2RnQ3N2QzM5R3dMcDFNRUJ5Z1pkcjJMZDZyZmZ4Wnd1X0ZqVUh1TVhYSWxkSFRZazFzanItSUQxUEdOdDdMa2dfOWFFT0RzRlV3SQ?oc=5",
         "date": "Thu, 03 Oct 2024 07:00:00 GMT",
@@ -2990,6 +3120,16 @@
         "company": "TouchBistro",
         "type": "private",
         "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "TouchBistro acquires TableUp to launch new loyalty solution for restaurants - BetaKit",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNblliT2trNFZlT3cwSXJFQThST0xOVFJ6MWluVk9mVzFPa2E3bzEyZXM2Sl9HVlRHLXZKMlYyLW1POUQ0dDF0NERIV2p3UDV3VEZvd2U2Z1NuelZPd0Z6ZDA5dWh2aWhLbTY0b292TWVPcFlvd0lxSXkxczM1d2hveGRoczBtYmxvajlKZ3hpc0VaVFNCVEJ1OC1Za3E?oc=5",
+        "date": "Wed, 05 Aug 2020 07:00:00 GMT",
+        "source": "Google News - Restaurant Loyalty",
+        "type": "trade",
+        "company": "TouchBistro",
+        "emoji": "\ud83d\ude80",
         "content_type": "press_general"
       },
       {
@@ -3045,8 +3185,8 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Olo closes Spendgo deal to expand loyalty offer - Verdict Food Service",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdkZsSjRzMWtFOW02Z1VTUlEwZTNIY1Zya0M0SDgtdlVJNU1ObFBmMW5UeDk3dC1nX3l5dXFkZnpJZEQ2aVRRZUNxM3RRemdBLW8yUnNYbnlnaUZfdC14X0hUUEFhX2ZUcFhYRTluY3BMTlZBME9FSll1UmdzbkppY0tZVEE3ZlVlWjBCTERSamZCUQ?oc=5",
+        "headline": "Olo closes Spendgo deal to expand loyalty offer - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTTUwUzhsOHgzVm5xeVJIQXp0Tkk0cXpXMnh3am9TMldOZEloMk9RYkR5WWM2UlF5Q2Vhb0RPVUxaS296dGd6dkVxTmR1Wms1dTVSVWFMYVlfdkprZWxHZkh5dmlFU2NQQlZpdFlXQnJFeUxfSF9TYVNTaFVkUmtoUTdR?oc=5",
         "date": "Tue, 23 Dec 2025 08:00:00 GMT",
         "source": "Google News",
         "company": "Spendgo",
