@@ -1,23 +1,10 @@
 {
-  "updated": "2026-06-07T06:36:58.093788+00:00",
-  "total": 7,
+  "updated": "2026-06-07T10:08:08.098444+00:00",
+  "total": 6,
   "by_category": {
-    "guidance_cut": 1,
     "stock_move": 6
   },
   "alerts": [
-    {
-      "category": "guidance_cut",
-      "severity": "high",
-      "company": "Lightspeed",
-      "headline": "Lightspeed Commerce shares decline after quarterly earnings miss despite revenue growth (LSPD) - MSN",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRl9wcDlBZzdXbXpIOFVkblF4M2pYcEhXM3dGZnRTb3VoR2tuMUt2TVBsMXBzRXhWWHVVUHlXSXFIWjdpcERLNF9DZHZNTnR2aTVRQ1YtT3dWOEFpWWRNSl9aYnVvdDhqcTU2VVJORm1oWWtDcUREQ01WSHBjSUs2MFFNejdDX1pRYktXbC0tNm5ObU1kSWlBU29LU1drdnpvd3daa3l2SjJ3eUthT3E4T2NzN0JDSnpSRk1zb2Z3d2FVc3hHQ0VoVVlfT3RsVGFfT29CVHFEUTNuM05CakhF?oc=5",
-      "source": "Google News",
-      "date": "Thu, 04 Jun 2026 02:58:31 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-06-07T06:36:58.093788+00:00"
-    },
     {
       "category": "stock_move",
       "severity": "high",
@@ -25,10 +12,10 @@
       "headline": "PAR (PAR) stock down 17.2% over the past week",
       "url": "https://finance.yahoo.com/quote/PAR",
       "source": "Yahoo Finance",
-      "date": "2026-06-07T06:36:58.093788+00:00",
+      "date": "2026-06-07T10:08:08.098444+00:00",
       "par_relevance": 3,
       "note": "-17.2% 1W",
-      "detected_at": "2026-06-07T06:36:58.093788+00:00"
+      "detected_at": "2026-06-07T10:08:08.098444+00:00"
     },
     {
       "category": "stock_move",
@@ -37,10 +24,10 @@
       "headline": "Shift4 (FOUR) stock down 15.8% over the past week",
       "url": "https://finance.yahoo.com/quote/FOUR",
       "source": "Yahoo Finance",
-      "date": "2026-06-07T06:36:58.093788+00:00",
+      "date": "2026-06-07T10:08:08.098444+00:00",
       "par_relevance": 3,
       "note": "-15.8% 1W",
-      "detected_at": "2026-06-07T06:36:58.093788+00:00"
+      "detected_at": "2026-06-07T10:08:08.098444+00:00"
     },
     {
       "category": "stock_move",
@@ -49,10 +36,10 @@
       "headline": "Global Payments (GPN) stock down 12.1% over the past week",
       "url": "https://finance.yahoo.com/quote/GPN",
       "source": "Yahoo Finance",
-      "date": "2026-06-07T06:36:58.093788+00:00",
+      "date": "2026-06-07T10:08:08.098444+00:00",
       "par_relevance": 3,
       "note": "-12.1% 1W",
-      "detected_at": "2026-06-07T06:36:58.093788+00:00"
+      "detected_at": "2026-06-07T10:08:08.098444+00:00"
     },
     {
       "category": "stock_move",
@@ -61,10 +48,10 @@
       "headline": "Toast (TOST) stock down 11.2% over the past week",
       "url": "https://finance.yahoo.com/quote/TOST",
       "source": "Yahoo Finance",
-      "date": "2026-06-07T06:36:58.093788+00:00",
+      "date": "2026-06-07T10:08:08.098444+00:00",
       "par_relevance": 3,
       "note": "-11.2% 1W",
-      "detected_at": "2026-06-07T06:36:58.093788+00:00"
+      "detected_at": "2026-06-07T10:08:08.098444+00:00"
     },
     {
       "category": "stock_move",
@@ -73,10 +60,10 @@
       "headline": "NCR Voyix (VYX) stock down 7.7% over the past week",
       "url": "https://finance.yahoo.com/quote/VYX",
       "source": "Yahoo Finance",
-      "date": "2026-06-07T06:36:58.093788+00:00",
+      "date": "2026-06-07T10:08:08.098444+00:00",
       "par_relevance": 3,
       "note": "-7.7% 1W",
-      "detected_at": "2026-06-07T06:36:58.093788+00:00"
+      "detected_at": "2026-06-07T10:08:08.098444+00:00"
     },
     {
       "category": "stock_move",
@@ -85,10 +72,10 @@
       "headline": "Fiserv (FISV) stock down 7.8% over the past week",
       "url": "https://finance.yahoo.com/quote/FISV",
       "source": "Yahoo Finance",
-      "date": "2026-06-07T06:36:58.093788+00:00",
+      "date": "2026-06-07T10:08:08.098444+00:00",
       "par_relevance": 3,
       "note": "-7.8% 1W",
-      "detected_at": "2026-06-07T06:36:58.093788+00:00"
+      "detected_at": "2026-06-07T10:08:08.098444+00:00"
     }
   ]
 }
