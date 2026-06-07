@@ -2,7 +2,7 @@
   "date": "2026-06-07",
   "weekday": "Sunday",
   "first_seen": "2026-06-07T06:36:58.093788+00:00",
-  "last_updated": "2026-06-07T15:06:24.653303+00:00",
+  "last_updated": "2026-06-07T15:50:57.495785+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Square appeared together in coverage \u2014 \"Three Square Food Bank\u2019s Las Vegas Restaurant Week with DoorDash Reservations - AOL.com\"",
@@ -105,7 +105,7 @@
       "first_detected": "2026-06-07T06:36:58.093788+00:00"
     },
     {
-      "text": "PAR shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"PAR Technology, Zebra, and Mirion Stocks Trade Down, What You Need To Know - Yahoo Finance\"",
+      "text": "PAR shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"PAR Technology, Zebra, and Mirion Stocks Trade Down, What You Need To Know - Yahoo Finance\"",
       "sources": [
         {
           "title": "PAR Technology, Zebra, and Mirion Stocks Trade Down, What You Need To Know - Yahoo Finance",
@@ -118,8 +118,8 @@
           "source": "Google News"
         },
         {
-          "title": "PAR Technology (NYSE: PAR) SVP executes 498-share tax sell-to-cover under 10b5-1 plan - Stock Titan",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeS1maHRMTDJObDBhaS01UjVwVmgtSExfd2hXSjBGTmpyV0ppQlVfOEV3bnN1TVdiTFBaWVFILXEtUlprdnRxRjZWOFg2TlYwcmdPaUcxWnRmY3EzRWNOMFoxRkJEdHV4UndSSlZtV3h6bUhGeVMtSVEtUV9ydHhDY282TXpfMGs3QW9UVTF1Z0F5cXhDWG5SNm00Z3YxeTYtdS15ZHYyQjF2TV9hY3hsTmdn?oc=5",
+          "title": "Par Technology CLO Cathy King sells $307,600 in shares - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbWpmYWNmMnVNVW9JajNVLXhMeENGbjZuWXJrWEs1UEdFcUg3d1laOUdVdm1aMWkwRWIxSXZzRnhiYnExWkNGdTVfRzRwcnhZQ1ZROW9sTU5weGIwZjhESUdHRGsyTEhFR3dwQkVaTEI1RVVUS3ZldlQ2QmxwbUwwSDJDUHZMbS1OZk9QM1N4YjZKdmM5ejZzYkRhckU4T3I2R2U0ZlZ4cm5RMDZ3U0pZUlhibDlDSDc5?oc=5",
           "source": "Google News"
         }
       ],
@@ -230,12 +230,23 @@
       ],
       "company": "Toast",
       "first_detected": "2026-06-07T14:30:05.588331+00:00"
+    },
+    {
+      "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"$188K in Delivery Fees Forced This Restaurant Owner to Ditch DoorDash and Uber Eats: 'That's Losses on Us' - entrepreneur.com\"",
+      "sources": [
+        {
+          "title": "$188K in Delivery Fees Forced This Restaurant Owner to Ditch DoorDash and Uber Eats: 'That's Losses on Us' - entrepreneur.com",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSDBkYzhickw5eWptbDlkTXc1TDlHRFBjTkdBV25fSERUOVF2OXY5V0hHMXhQdEwxQXh1UDlaTjVNX2hIQW94bW5FNGVOSVdtYjlrSnl1RjlNNmZFQkNVelpOY0ZvczFBQmFKejlsRXdJY0RDNmh6eEVIdi1wQXJUd0ZNOEJfNzQ4WWtlVy1NVW4zUmo5Y28xdzBqQUpBLUNQVXcyUU16cTRRSGtQTUJLVkQ2V3VRd0hnWXBTQU1rYjBoSDlMZExobkMwa1pleGdvSVdLaFB3SXpQa0Fv?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "first_detected": "2026-06-07T15:50:57.495785+00:00"
     }
   ],
   "most_mentioned": [
     {
       "company": "Deliverect",
-      "count": 49
+      "count": 50
     },
     {
       "company": "SpotOn",
@@ -243,27 +254,27 @@
     },
     {
       "company": "Lightspeed",
-      "count": 34
+      "count": 35
     },
     {
       "company": "DoorDash",
-      "count": 28
-    },
-    {
-      "company": "Toast",
-      "count": 27
+      "count": 30
     },
     {
       "company": "NCR Voyix",
       "count": 27
     },
     {
-      "company": "Shift4",
+      "company": "Toast",
       "count": 26
     },
     {
       "company": "TouchBistro",
       "count": 26
+    },
+    {
+      "company": "Shift4",
+      "count": 25
     }
   ]
 }
