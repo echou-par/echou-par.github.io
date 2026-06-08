@@ -1,16 +1,6 @@
 {
-  "updated": "2026-06-08T16:36:48.011590+00:00",
+  "updated": "2026-06-08T16:54:39.196092+00:00",
   "insights": [
-    {
-      "text": "Cross-competitor event: DoorDash, Square appeared together in coverage \u2014 \"Three Square Food Bank\u2019s Las Vegas Restaurant Week with DoorDash Reservations - AOL.com\"",
-      "sources": [
-        {
-          "title": "Three Square Food Bank\u2019s Las Vegas Restaurant Week with DoorDash Reservations - AOL.com",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE80ZTBZeHR4OXJDZERubWtrWjZPdUF1Smg3TUlDS042NnVpTDR1YjhiVjljLXpwdlJkVDBud1VpdTYtZS1TZ1E5UGhOU3pNUDRwb0JRdmV0MkRiSERscGhlN3hXZGJDMm9tR2s1LUdlWnQ5dDd5bHh2NWlR?oc=5",
-          "source": "Google News"
-        }
-      ]
-    },
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news\"",
       "sources": [
@@ -22,7 +12,17 @@
       ]
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"$188K in Delivery Fees Forced This Restaurant Owner to Ditch DoorDash and Uber Eats: 'That's Losses on Us' - entrepreneur.com\"",
+      "sources": [
+        {
+          "title": "$188K in Delivery Fees Forced This Restaurant Owner to Ditch DoorDash and Uber Eats: 'That's Losses on Us' - entrepreneur.com",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSDBkYzhickw5eWptbDlkTXc1TDlHRFBjTkdBV25fSERUOVF2OXY5V0hHMXhQdEwxQXh1UDlaTjVNX2hIQW94bW5FNGVOSVdtYjlrSnl1RjlNNmZFQkNVelpOY0ZvczFBQmFKejlsRXdJY0RDNmh6eEVIdi1wQXJUd0ZNOEJfNzQ4WWtlVy1NVW4zUmo5Y28xdzBqQUpBLUNQVXcyUU16cTRRSGtQTUJLVkQ2V3VRd0hnWXBTQU1rYjBoSDlMZExobkMwa1pleGdvSVdLaFB3SXpQa0Fv?oc=5",
+          "source": "Google News"
+        }
+      ]
+    },
+    {
+      "text": "Sparkfly shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -43,7 +43,7 @@
       "company": "Sparkfly"
     },
     {
-      "text": "Shift4 shows concentrated partnership activity \u2014 5 tracked partnership items this cycle. Latest: \"Is Shift4 (FOUR) Using Voice AI Partnerships To Strengthen Its Restaurant Payments Moat? - simplywall.st\"",
+      "text": "Shift4 shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Is Shift4 (FOUR) Using Voice AI Partnerships To Strengthen Its Restaurant Payments Moat? - simplywall.st\"",
       "sources": [
         {
           "title": "Is Shift4 (FOUR) Using Voice AI Partnerships To Strengthen Its Restaurant Payments Moat? - simplywall.st",
@@ -124,36 +124,36 @@
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
-      "count": 19
+      "company": "Deliverect",
+      "count": 49
     },
     {
       "company": "SpotOn",
-      "count": 16
+      "count": 35
     },
     {
-      "company": "Shift4",
-      "count": 16
+      "company": "Lightspeed",
+      "count": 34
+    },
+    {
+      "company": "DoorDash",
+      "count": 29
+    },
+    {
+      "company": "NCR Voyix",
+      "count": 26
     },
     {
       "company": "Toast",
-      "count": 16
-    },
-    {
-      "company": "Global Payments",
-      "count": 16
-    },
-    {
-      "company": "Sparkfly",
-      "count": 16
+      "count": 26
     },
     {
       "company": "TouchBistro",
-      "count": 16
+      "count": 26
     },
     {
       "company": "Olo",
-      "count": 15
+      "count": 25
     }
   ]
 }
