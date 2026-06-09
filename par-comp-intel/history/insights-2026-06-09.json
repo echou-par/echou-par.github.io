@@ -2,7 +2,7 @@
   "date": "2026-06-09",
   "weekday": "Tuesday",
   "first_seen": "2026-06-09T04:47:32.047293+00:00",
-  "last_updated": "2026-06-09T18:13:51.572757+00:00",
+  "last_updated": "2026-06-09T20:30:11.436768+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news\"",
@@ -182,7 +182,7 @@
       "first_detected": "2026-06-09T12:10:51.885123+00:00"
     },
     {
-      "text": "PAR shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"PAR Technology (NYSE:PAR) Upgraded at JPMorgan Chase & Co. - MarketBeat\"",
+      "text": "PAR shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"PAR Technology (NYSE:PAR) Upgraded at JPMorgan Chase & Co. - MarketBeat\"",
       "sources": [
         {
           "title": "PAR Technology (NYSE:PAR) Upgraded at JPMorgan Chase & Co. - MarketBeat",
@@ -268,27 +268,53 @@
       ],
       "company": "SpotOn",
       "first_detected": "2026-06-09T16:14:26.305566+00:00"
+    },
+    {
+      "text": "Toast shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Toast (NYSE: TOST) General Counsel sells 108K shares after exercising 54K options - Stock Titan\"",
+      "sources": [
+        {
+          "title": "Toast (NYSE: TOST) General Counsel sells 108K shares after exercising 54K options - Stock Titan",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPa283eFlRZlRmQWE3VXAtVk85OWVzZVRFenEwLXFNVU9SM2VadWJtaW9vVzhxeTFtT050U25HWmM0emdRQ0IwekpRZnB1b3h1Z01RbDd5R293VHRzZWREZm12bm4xV01XNkZNV2EzMThwMVlNYzZyV19SbGpub08xTVdMQXQyY0JkdFJtRFNKM01iX0daZXZXTEtyMEQzR1lRdnFad2lR?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "TOST (NYSE) insider sells 3,664 shares; option line of 54,000 noted - Stock Titan",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTHQyM1Ixa0FlX095M2dJTFhxMjRwZlhSRTN3WnlZYk5lNW1Sd3I1MXkxcjJ1RlpkSmQwQlFQeWx1Ri16YnpOUFA1UHptMGktTTlkUnJkWDJSYWdpNW9tOXprZkZMekVaRnVvdnkzUUZDVmJ4b1h3RTJ3TnFjNEtwbVNpa0x1RUlKSWJnX3owUQ?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Toast Stock: I Was Wrong (NYSE:TOST) - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBRQ0htcXpibTJiOVNMMkwwTmE5X25mbGYwRExYRlUycl9jSXFUaXZudjdaMG5PWGpqNmZTY2EwNElLYUZRMk9KOXRtR0NPMGVKdl9wZWVINmNzMllETVFLcFJOMTZ1d0podHc?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Toast",
+      "first_detected": "2026-06-09T20:30:11.436768+00:00"
     }
   ],
   "most_mentioned": [
     {
       "company": "DoorDash",
-      "count": 19
-    },
-    {
-      "company": "Shift4",
       "count": 18
     },
     {
-      "company": "SpotOn",
+      "company": "Global Payments",
       "count": 17
     },
     {
-      "company": "PAR",
+      "company": "Shift4",
       "count": 16
     },
     {
-      "company": "Fiserv",
+      "company": "NCR Voyix",
+      "count": 16
+    },
+    {
+      "company": "SpotOn",
+      "count": 16
+    },
+    {
+      "company": "Toast",
       "count": 16
     },
     {
@@ -298,10 +324,6 @@
     {
       "company": "TouchBistro",
       "count": 16
-    },
-    {
-      "company": "Paytronix",
-      "count": 15
     }
   ]
 }
