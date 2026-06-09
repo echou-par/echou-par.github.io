@@ -1,70 +1,21 @@
 {
-  "updated": "2026-06-09T12:10:51.885123+00:00",
-  "total": 5,
+  "updated": "2026-06-09T15:41:26.582549+00:00",
+  "total": 1,
   "by_category": {
-    "guidance_cut": 1,
-    "stock_move": 4
+    "stock_move": 1
   },
   "alerts": [
     {
-      "category": "guidance_cut",
-      "severity": "high",
-      "company": "Lightspeed",
-      "headline": "Lightspeed Commerce shares decline after quarterly earnings miss despite revenue growth (LSPD) - MSN",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRl9wcDlBZzdXbXpIOFVkblF4M2pYcEhXM3dGZnRTb3VoR2tuMUt2TVBsMXBzRXhWWHVVUHlXSXFIWjdpcERLNF9DZHZNTnR2aTVRQ1YtT3dWOEFpWWRNSl9aYnVvdDhqcTU2VVJORm1oWWtDcUREQ01WSHBjSUs2MFFNejdDX1pRYktXbC0tNm5ObU1kSWlBU29LU1drdnpvd3daa3l2SjJ3eUthT3E4T2NzN0JDSnpSRk1zb2Z3d2FVc3hHQ0VoVVlfT3RsVGFfT29CVHFEUTNuM05CakhF?oc=5",
-      "source": "Google News",
-      "date": "Mon, 08 Jun 2026 16:24:43 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-06-09T12:10:51.885123+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "high",
-      "company": "PAR",
-      "headline": "PAR (PAR) stock down 13.2% over the past week",
-      "url": "https://finance.yahoo.com/quote/PAR",
-      "source": "Yahoo Finance",
-      "date": "2026-06-09T12:10:51.885123+00:00",
-      "par_relevance": 3,
-      "note": "-13.2% 1W",
-      "detected_at": "2026-06-09T12:10:51.885123+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "high",
-      "company": "Shift4",
-      "headline": "Shift4 (FOUR) stock down 13.0% over the past week",
-      "url": "https://finance.yahoo.com/quote/FOUR",
-      "source": "Yahoo Finance",
-      "date": "2026-06-09T12:10:51.885123+00:00",
-      "par_relevance": 3,
-      "note": "-13.0% 1W",
-      "detected_at": "2026-06-09T12:10:51.885123+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "high",
-      "company": "Global Payments",
-      "headline": "Global Payments (GPN) stock down 12.9% over the past week",
-      "url": "https://finance.yahoo.com/quote/GPN",
-      "source": "Yahoo Finance",
-      "date": "2026-06-09T12:10:51.885123+00:00",
-      "par_relevance": 3,
-      "note": "-12.9% 1W",
-      "detected_at": "2026-06-09T12:10:51.885123+00:00"
-    },
-    {
       "category": "stock_move",
       "severity": "medium",
-      "company": "Toast",
-      "headline": "Toast (TOST) stock down 8.5% over the past week",
-      "url": "https://finance.yahoo.com/quote/TOST",
+      "company": "Shift4",
+      "headline": "Shift4 (FOUR) stock down 7.7% over the past week",
+      "url": "https://finance.yahoo.com/quote/FOUR",
       "source": "Yahoo Finance",
-      "date": "2026-06-09T12:10:51.885123+00:00",
+      "date": "2026-06-09T15:41:26.582549+00:00",
       "par_relevance": 3,
-      "note": "-8.5% 1W",
-      "detected_at": "2026-06-09T12:10:51.885123+00:00"
+      "note": "-7.7% 1W",
+      "detected_at": "2026-06-09T15:41:26.582549+00:00"
     }
   ]
 }
