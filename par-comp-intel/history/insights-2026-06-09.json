@@ -2,7 +2,7 @@
   "date": "2026-06-09",
   "weekday": "Tuesday",
   "first_seen": "2026-06-09T04:47:32.047293+00:00",
-  "last_updated": "2026-06-09T16:14:26.305566+00:00",
+  "last_updated": "2026-06-09T17:08:20.157018+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news\"",
@@ -127,7 +127,7 @@
       "first_detected": "2026-06-09T04:47:32.047293+00:00"
     },
     {
-      "text": "Shift4 shows concentrated partnership activity \u2014 5 tracked partnership items this cycle. Latest: \"Is Shift4 (FOUR) Using Voice AI Partnerships To Strengthen Its Restaurant Payments Moat? - simplywall.st\"",
+      "text": "Shift4 shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Is Shift4 (FOUR) Using Voice AI Partnerships To Strengthen Its Restaurant Payments Moat? - simplywall.st\"",
       "sources": [
         {
           "title": "Is Shift4 (FOUR) Using Voice AI Partnerships To Strengthen Its Restaurant Payments Moat? - simplywall.st",
@@ -182,7 +182,7 @@
       "first_detected": "2026-06-09T12:10:51.885123+00:00"
     },
     {
-      "text": "PAR shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"PAR Technology (NYSE:PAR) Upgraded at JPMorgan Chase & Co. - MarketBeat\"",
+      "text": "PAR shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"PAR Technology (NYSE:PAR) Upgraded at JPMorgan Chase & Co. - MarketBeat\"",
       "sources": [
         {
           "title": "PAR Technology (NYSE:PAR) Upgraded at JPMorgan Chase & Co. - MarketBeat",
@@ -277,19 +277,15 @@
     },
     {
       "company": "SpotOn",
-      "count": 38
+      "count": 36
     },
     {
       "company": "Lightspeed",
-      "count": 35
+      "count": 34
     },
     {
       "company": "DoorDash",
       "count": 30
-    },
-    {
-      "company": "NCR Voyix",
-      "count": 26
     },
     {
       "company": "Sparkfly",
@@ -301,6 +297,10 @@
     },
     {
       "company": "Paytronix",
+      "count": 25
+    },
+    {
+      "company": "Shift4",
       "count": 25
     }
   ]
