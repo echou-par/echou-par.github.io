@@ -1,21 +1,33 @@
 {
-  "updated": "2026-06-10T16:45:40.767505+00:00",
-  "total": 1,
+  "updated": "2026-06-10T17:42:03.783737+00:00",
+  "total": 2,
   "by_category": {
-    "stock_move": 1
+    "stock_move": 2
   },
   "alerts": [
     {
       "category": "stock_move",
       "severity": "medium",
+      "company": "Shift4",
+      "headline": "Shift4 (FOUR) stock down 7.1% over the past week",
+      "url": "https://finance.yahoo.com/quote/FOUR",
+      "source": "Yahoo Finance",
+      "date": "2026-06-10T17:42:03.783737+00:00",
+      "par_relevance": 3,
+      "note": "-7.1% 1W",
+      "detected_at": "2026-06-10T17:42:03.783737+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "medium",
       "company": "Global Payments",
-      "headline": "Global Payments (GPN) stock down 7.3% over the past week",
+      "headline": "Global Payments (GPN) stock down 7.1% over the past week",
       "url": "https://finance.yahoo.com/quote/GPN",
       "source": "Yahoo Finance",
-      "date": "2026-06-10T16:45:40.767505+00:00",
+      "date": "2026-06-10T17:42:03.783737+00:00",
       "par_relevance": 3,
-      "note": "-7.3% 1W",
-      "detected_at": "2026-06-10T16:45:40.767505+00:00"
+      "note": "-7.1% 1W",
+      "detected_at": "2026-06-10T17:42:03.783737+00:00"
     }
   ]
 }
