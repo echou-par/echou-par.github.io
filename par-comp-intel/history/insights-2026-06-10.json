@@ -2,7 +2,7 @@
   "date": "2026-06-10",
   "weekday": "Wednesday",
   "first_seen": "2026-06-10T04:21:35.991270+00:00",
-  "last_updated": "2026-06-10T12:30:03.947589+00:00",
+  "last_updated": "2026-06-10T16:24:36.068994+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news\"",
@@ -163,12 +163,29 @@
       ],
       "company": "Toast",
       "first_detected": "2026-06-10T08:32:39.962501+00:00"
+    },
+    {
+      "text": "Shift4 shows concentrated risk activity \u2014 2 tracked risk items this cycle. Latest: \"Shift4 Payments faces earnings test as growth concerns mount By Investing.com - Investing.com Nigeria\"",
+      "sources": [
+        {
+          "title": "Shift4 Payments faces earnings test as growth concerns mount By Investing.com - Investing.com Nigeria",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbjZBWTVKckxLOXh6bEFwLWpnajc5MGt2RW0zOHgyV3lTRDRxNmNHUHh2N2dCUVN2bmkxbjF4Wld3YkNfU0NuX1IxLWlEOWdhNDA3UGU4WWtDaFJ1QlJ3b2Z6S2YyU0dwSWt5VXNGZHU5ZmhLNjJ3cElhU1FMSjFKSDJ0Y3BkMkE2TnBFU184WmJrN25IS25EV1pmd1cxY2l1emZUeG51WGY1R09Ed2JTWDlR?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Shift4 Payments CEO on how business is involving amid rising global risks - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWDVlakpvOURxTE9XTXI0SGJsUkxLY0pnNHRIQ3BMcGZJNkxtcnJKZl8zQ0dtbVo5R0c5a3hQRHA4RVJBTE9Qb01tY2FGak8tX1hUdWpnM1JRWktEZi1iRFBUdmlVdUZxa2VNTVNUY19SRHk1QVlEQkdnN09jSUl2N21BcTRqalhDUGc1dXR4aVZmWHg4VHdOZXdDOVJnZ29UTWNiZ2FLNlhGNkNpUUpJNXY4dnFGVU0?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Shift4",
+      "first_detected": "2026-06-10T16:24:36.068994+00:00"
     }
   ],
   "most_mentioned": [
     {
       "company": "DoorDash",
-      "count": 18
+      "count": 19
     },
     {
       "company": "Global Payments",
@@ -176,6 +193,10 @@
     },
     {
       "company": "PAR",
+      "count": 16
+    },
+    {
+      "company": "NCR Voyix",
       "count": 16
     },
     {
@@ -187,15 +208,11 @@
       "count": 16
     },
     {
-      "company": "Shift4",
-      "count": 15
-    },
-    {
       "company": "Paytronix",
       "count": 15
     },
     {
-      "company": "Fiserv",
+      "company": "Shift4",
       "count": 15
     }
   ]

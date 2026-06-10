@@ -1,11 +1,11 @@
 {
-  "updated": "2026-06-10T12:30:03.947589+00:00",
+  "updated": "2026-06-10T16:24:36.068994+00:00",
   "tickers": {
     "PAR": {
       "ticker": "PAR",
       "company": "PAR",
-      "price": 13.53,
-      "market_cap": 558061056.0,
+      "price": 13.59,
+      "market_cap": 560535872.0,
       "ttm_revenue": 475660992.0,
       "ttm_ebitda": -38459000.0,
       "ttm_gross_profit": 207740000.0,
@@ -14,7 +14,7 @@
       "gross_margin": 0.43674,
       "enterprise_value": 914078080.0,
       "trailing_pe": null,
-      "forward_pe": 11.929849,
+      "forward_pe": 11.982754,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
@@ -174,17 +174,17 @@
     "TOST": {
       "ticker": "TOST",
       "company": "Toast",
-      "price": 25.0,
-      "market_cap": 14499999744.0,
+      "price": 24.84,
+      "market_cap": 14407199744.0,
       "ttm_revenue": 6446000128.0,
       "ttm_ebitda": 420000000.0,
       "ttm_gross_profit": 1699000064.0,
       "revenue_growth_yoy": 0.219,
       "ebitda_margin": 0.06516,
       "gross_margin": 0.26357,
-      "enterprise_value": 12225000448.0,
-      "trailing_pe": 37.31343,
-      "forward_pe": 14.7228565,
+      "enterprise_value": 12746999808.0,
+      "trailing_pe": 37.074627,
+      "forward_pe": 14.628631,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
@@ -243,6 +243,7 @@
         {
           "endDate": "2025-12-31",
           "totalRevenue": 1633000000.0,
+          "costOfRevenue": 1210000000.0,
           "grossProfit": 423000000.0,
           "researchDevelopment": 97000000.0,
           "sellingGeneralAdministrative": 237000000.0,
@@ -284,7 +285,7 @@
           "endDate": "2025-12-31",
           "cash": 1353000000.0,
           "shortTermInvestments": 638000000.0,
-          "netReceivables": 127000000.0,
+          "netReceivables": 103000000.0,
           "totalCurrentAssets": 2669000000.0,
           "totalAssets": 3145000000.0,
           "totalCurrentLiabilities": 969000000.0,
@@ -339,8 +340,8 @@
     "DASH": {
       "ticker": "DASH",
       "company": "DoorDash",
-      "price": 155.67,
-      "market_cap": 67828330496.0,
+      "price": 154.04,
+      "market_cap": 67118108672.0,
       "ttm_revenue": 14721000448.0,
       "ttm_ebitda": 1350000000.0,
       "ttm_gross_profit": 7619999744.0,
@@ -348,8 +349,8 @@
       "ebitda_margin": 0.091709994,
       "gross_margin": 0.51763,
       "enterprise_value": 65594335232.0,
-      "trailing_pe": 73.429245,
-      "forward_pe": 19.90828,
+      "trailing_pe": 72.66038,
+      "forward_pe": 19.699821,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
@@ -508,8 +509,8 @@
     "VYX": {
       "ticker": "VYX",
       "company": "NCR Voyix",
-      "price": 6.99,
-      "market_cap": 963272064.0,
+      "price": 7.07,
+      "market_cap": 974296704.0,
       "ttm_revenue": 2680999936.0,
       "ttm_ebitda": 252000000.0,
       "ttm_gross_profit": 648000000.0,
@@ -517,8 +518,8 @@
       "ebitda_margin": 0.09399,
       "gross_margin": 0.2417,
       "enterprise_value": 2257272064.0,
-      "trailing_pe": 24.964285,
-      "forward_pe": 7.0810623,
+      "trailing_pe": 25.25,
+      "forward_pe": 7.1621046,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
@@ -674,8 +675,8 @@
     "LSPD": {
       "ticker": "LSPD",
       "company": "Lightspeed",
-      "price": 9.55,
-      "market_cap": 1315856512.0,
+      "price": 9.605,
+      "market_cap": 1323434624.0,
       "ttm_revenue": 1227046016.0,
       "ttm_ebitda": -39660000.0,
       "ttm_gross_profit": 526921984.0,
@@ -684,7 +685,7 @@
       "gross_margin": 0.42942002,
       "enterprise_value": 882115392.0,
       "trailing_pe": null,
-      "forward_pe": 10.433852,
+      "forward_pe": 10.493941,
       "income_statement_annual": [
         {
           "endDate": "2026-03-31",
@@ -836,8 +837,8 @@
     "FOUR": {
       "ticker": "FOUR",
       "company": "Shift4",
-      "price": 38.11,
-      "market_cap": 3777842432.0,
+      "price": 36.7,
+      "market_cap": 3638069248.0,
       "ttm_revenue": 4453000192.0,
       "ttm_ebitda": 851000000.0,
       "ttm_gross_profit": 1563000064.0,
@@ -845,8 +846,8 @@
       "ebitda_margin": 0.19111,
       "gross_margin": 0.35099998,
       "enterprise_value": 8264225280.0,
-      "trailing_pe": 43.8046,
-      "forward_pe": 5.6426573,
+      "trailing_pe": 42.18391,
+      "forward_pe": 5.4338894,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
@@ -995,8 +996,8 @@
     "XYZ": {
       "ticker": "XYZ",
       "company": "Block (Square)",
-      "price": 68.29,
-      "market_cap": 40644911104.0,
+      "price": 67.84,
+      "market_cap": 40377077760.0,
       "ttm_revenue": 24478734336.0,
       "ttm_ebitda": 1575778944.0,
       "ttm_gross_profit": 11034558464.0,
@@ -1004,8 +1005,8 @@
       "ebitda_margin": 0.06437,
       "gross_margin": 0.45078,
       "enterprise_value": 41423024128.0,
-      "trailing_pe": 53.351566,
-      "forward_pe": 13.710181,
+      "trailing_pe": 53.0,
+      "forward_pe": 13.619837,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
@@ -1165,8 +1166,8 @@
     "GPN": {
       "ticker": "GPN",
       "company": "Global Payments",
-      "price": 63.81,
-      "market_cap": 17454813184.0,
+      "price": 62.7,
+      "market_cap": 17151178752.0,
       "ttm_revenue": 8855241728.0,
       "ttm_ebitda": 3920230912.0,
       "ttm_gross_profit": 5968721920.0,
@@ -1174,8 +1175,8 @@
       "ebitda_margin": 0.4427,
       "gross_margin": 0.67403,
       "enterprise_value": 36062965760.0,
-      "trailing_pe": 23.459558,
-      "forward_pe": 3.9432483,
+      "trailing_pe": 23.05147,
+      "forward_pe": 3.8746538,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
@@ -1324,8 +1325,8 @@
     "FISV": {
       "ticker": "FISV",
       "company": "Fiserv",
-      "price": 54.03,
-      "market_cap": 28811712512.0,
+      "price": 53.75,
+      "market_cap": 28662401024.0,
       "ttm_revenue": 21090000000.0,
       "ttm_ebitda": 5158000000.0,
       "ttm_gross_profit": 12244000000.0,
@@ -1333,8 +1334,8 @@
       "ebitda_margin": 0.24457088667614985,
       "gross_margin": 0.5805595068752963,
       "enterprise_value": null,
-      "trailing_pe": 9.157627,
-      "forward_pe": 6.0394425,
+      "trailing_pe": 9.110169,
+      "forward_pe": 6.0079827,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
@@ -1483,8 +1484,8 @@
     "UBER": {
       "ticker": "UBER",
       "company": "Uber",
-      "price": 70.38,
-      "market_cap": 143265447936.0,
+      "price": 69.865,
+      "market_cap": 142217117696.0,
       "ttm_revenue": 53687001088.0,
       "ttm_ebitda": 7020000256.0,
       "ttm_gross_profit": 21279000576.0,
@@ -1492,8 +1493,8 @@
       "ebitda_margin": 0.13076,
       "gross_margin": 0.39635,
       "enterprise_value": 150654451712.0,
-      "trailing_pe": 17.464018,
-      "forward_pe": 16.10633,
+      "trailing_pe": 17.336227,
+      "forward_pe": 15.988475,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
