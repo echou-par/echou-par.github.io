@@ -1,7 +1,7 @@
 {
   "week_start": "2026-06-08T13:30:00+00:00",
-  "updated": "2026-06-11T17:04:15.055795+00:00",
-  "items_count": 17,
+  "updated": "2026-06-11T17:50:40.649253+00:00",
+  "items_count": 18,
   "by_competitor": {
     "Toast": {
       "count": 1,
@@ -21,9 +21,9 @@
       ]
     },
     "Shift4": {
-      "count": 2,
+      "count": 3,
       "content_types": {
-        "site_news": 2
+        "site_news": 3
       },
       "items": [
         {
@@ -39,6 +39,15 @@
           "headline": "Shift4 Partners With Bar Rescue\u2019s Jon Taffer for $100,000 \u201cRescue Mission\u201d Contest - Shift4",
           "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNk9pdkYyeldtb3pMOVF1c3BxWlUyZmJFTjVzaXY4akxWZjRHZ2VvaHF0bWxlWnE2V3NVT0VOVkNTV1kzY0pZSFZYS1NiRnNDS3FVLXdpMGRHZkJ2NHBXQ1hwdHIxVy1XU2psLUs2cURWb2hvcmtFRG1DeXNCMHFfdy1UN1JCUkg1eUFJMGNvRlRteDRZWmNMMUplamVwOXRKWHp4Zmk1cm5MSkEtb3ZySTIwRmt5ckNsbmhDNU1ZbUdnRzdkZEpBWTg0S1FqWG1FV2V4djR6QWNQNzVF?oc=5",
           "date": "Thu, 21 May 2026 13:03:17 GMT",
+          "emoji": "\ud83e\udd1d",
+          "content_type": "site_news",
+          "source": "Google News (shift4.com)",
+          "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        },
+        {
+          "headline": "Shift4 Partners with Lydian to Support USDT Payment Acceptance - Shift4",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSmcyUjVHN1VHXzVMdjN4MEJfUGRSd2Q5aUwzaFVVdEdPZDdOWVZ2Yk5jUW5iZkJESC1fcl9RaDY5M0ZpN3RwM1lTcDc2aWxoaEpvZkNLeDIta0hqZW5lYmhBS0dxZC16M2hqQ25ucm1rb25Uc0h6M1hNSzZIWVEyTUpiRkRfZFFpWmNDcnBMc2VqYkJzZWphRTA2amVEWFp1ZjY3YUpnRk1hc25nWU53SU1LOUtTcmRxZzctYTlJNmRuY1lRVzRyYg?oc=5",
+          "date": "Thu, 14 May 2026 17:56:30 GMT",
           "emoji": "\ud83e\udd1d",
           "content_type": "site_news",
           "source": "Google News (shift4.com)",
@@ -248,22 +257,23 @@
     }
   },
   "seen_urls": [
-    "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tX2NDVnlDTmY0ZjB3cjF4LTNkSkJQVjlfREFnRnU5ZWdCc0lUWVp4Q3hmNGEyNVBCaFk4SlEzT1JrNl93RWVETlFKSG5iMXVaODhQRg?oc=5",
-    "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBoTklCZTlZcGFiajVGRnNwOXR1Z1h2N3hNcXRWU1BBaGtnXzc2TE1wczZZZEQwSFZFX0VfOC1vNFp2SXFSdVZ3eFRpdnFldw?oc=5",
-    "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdVFubXZkbXNMSGx6eFpWY011cTFlUW9oWU8xUXpiSUZtamtZZGVZaGFRQ2Izdkp0ck5aZ3NidEZnN2F4ck5jTlNGeGliUlBMbVhlLVp2NEFvMGpsbkFTM2dya2NyNHA5aWpBMnNqRTl2SDB0X1dQTzVKVks0OEhXWERMSDg1M3V3bU1CNEZB?oc=5",
-    "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01WkRYTDBTYncwVVl5NGlFczBLMjNHZjZuYjBvMUphb3ZMUkhLWlAwMzdCTXlHekdsLTVRcTJRdUIzRmNNUFdIcm1qVDVEd05HVTlaM2N5WWlfVUU?oc=5",
-    "https://www.spoton.com/blog/spoton-introduces-profit-ai/",
-    "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNk9pdkYyeldtb3pMOVF1c3BxWlUyZmJFTjVzaXY4akxWZjRHZ2VvaHF0bWxlWnE2V3NVT0VOVkNTV1kzY0pZSFZYS1NiRnNDS3FVLXdpMGRHZkJ2NHBXQ1hwdHIxVy1XU2psLUs2cURWb2hvcmtFRG1DeXNCMHFfdy1UN1JCUkg1eUFJMGNvRlRteDRZWmNMMUplamVwOXRKWHp4Zmk1cm5MSkEtb3ZySTIwRmt5ckNsbmhDNU1ZbUdnRzdkZEpBWTg0S1FqWG1FV2V4djR6QWNQNzVF?oc=5",
+    "https://news.google.com/rss/articles/CBMiREFVX3lxTE1VQXlFN3lfMlgwWVNkX01iRzhUeE9VUnNkX21BZ29DRmwwTFV5Q3d2RmJ6RlBWemdvd1pMMWVJWi1JY0FF?oc=5",
     "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBET0RsRmlkNHBQYUNnVWpFbUNMT2V4UGptN3I0OXpXSjk0V2FnVGIwMGJCV1RjYXFUdlpkaGd1M0Ytai12Qk9GNWo5MEMtR19fTTZR?oc=5",
-    "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWUs2QnlJdUhfZVZqM1I5ZnRZTzBCTEhnblFBcUcxUlR0aDI0a1hNODhkRVF0b3ZaNEpuU2t3U2h2YjZMVXYtQTllcG40cGtOSk93WnJfUWhDeGlHcHduVmMzN29MVUc5RDZCN3hnOEU5ZGExLTdmTTVrQ3NzRkVoRXlQbVd3UExjS0ZZeWp2QmNETTVpMHJHVmpFcnpHSno3SUdLb2JXQlNuV1lPRXZPSHdHd3k3bm1md05YbHBQT3FRX28?oc=5",
+    "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tX2NDVnlDTmY0ZjB3cjF4LTNkSkJQVjlfREFnRnU5ZWdCc0lUWVp4Q3hmNGEyNVBCaFk4SlEzT1JrNl93RWVETlFKSG5iMXVaODhQRg?oc=5",
+    "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSmcyUjVHN1VHXzVMdjN4MEJfUGRSd2Q5aUwzaFVVdEdPZDdOWVZ2Yk5jUW5iZkJESC1fcl9RaDY5M0ZpN3RwM1lTcDc2aWxoaEpvZkNLeDIta0hqZW5lYmhBS0dxZC16M2hqQ25ucm1rb25Uc0h6M1hNSzZIWVEyTUpiRkRfZFFpWmNDcnBMc2VqYkJzZWphRTA2amVEWFp1ZjY3YUpnRk1hc25nWU53SU1LOUtTcmRxZzctYTlJNmRuY1lRVzRyYg?oc=5",
+    "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNk9pdkYyeldtb3pMOVF1c3BxWlUyZmJFTjVzaXY4akxWZjRHZ2VvaHF0bWxlWnE2V3NVT0VOVkNTV1kzY0pZSFZYS1NiRnNDS3FVLXdpMGRHZkJ2NHBXQ1hwdHIxVy1XU2psLUs2cURWb2hvcmtFRG1DeXNCMHFfdy1UN1JCUkg1eUFJMGNvRlRteDRZWmNMMUplamVwOXRKWHp4Zmk1cm5MSkEtb3ZySTIwRmt5ckNsbmhDNU1ZbUdnRzdkZEpBWTg0S1FqWG1FV2V4djR6QWNQNzVF?oc=5",
     "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUmFLZkxUd2xtbFpoZ29kdHl3RTFmMVhlaWMwTGxHaU9jSVF1WlNyN0JPdkpYell1SWFkaWtiQXFvVExvVldQVl9hZGRiNkVOV0hoYVRST1hjRS1YVTNNOXk1MEhtMU5ONXQxdjR0VjVUMGlkLXBCeDBkWHFGanhOMkQ1MFdONGZQYTZ2YTlESQ?oc=5",
     "https://www.deliverect.com/en/blog/fulfilment/how-integrated-online-ordering-software-can-improve-your-last-mile-logistics",
+    "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01WkRYTDBTYncwVVl5NGlFczBLMjNHZjZuYjBvMUphb3ZMUkhLWlAwMzdCTXlHekdsLTVRcTJRdUIzRmNNUFdIcm1qVDVEd05HVTlaM2N5WWlfVUU?oc=5",
+    "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBoTklCZTlZcGFiajVGRnNwOXR1Z1h2N3hNcXRWU1BBaGtnXzc2TE1wczZZZEQwSFZFX0VfOC1vNFp2SXFSdVZ3eFRpdnFldw?oc=5",
     "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZ3MyOGZQODZvNE0xaHZUeU94NVJlX1RJTXY3VEdMclVxa3NabWpEV1NhemNHeEhLWEZPeW05ek5BQUpCOUZPdmZrZkxZbjZoUEZScENlcXdzNVZuTWpiSE9oWHNobzRaYURHMGtNSExIWloxcHdfTW1WUTNLZ3c0Wk4xSVNOS2tJVnpaaVlMREdtMk0?oc=5",
-    "https://news.google.com/rss/articles/CBMiO0FVX3lxTE4zSmswR0FJOW40RzNPZ042d05kRGs4MG4xNU5WemozSERIYmE1R1IyQVk3bnJ3R0FwVUUw?oc=5",
     "https://www.spoton.com/blog/q1-2026-highlights/",
-    "https://news.google.com/rss/articles/CBMiREFVX3lxTE1VQXlFN3lfMlgwWVNkX01iRzhUeE9VUnNkX21BZ29DRmwwTFV5Q3d2RmJ6RlBWemdvd1pMMWVJWi1JY0FF?oc=5",
     "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YcWRsQUJrb3FucUlRbzRvUnkycDNRZ2ZqWVVyWTVkSFVWZVZyTEZpZFBjRDQtSVZZZzg2LTM0anFKODZJdUxabTBNQWVGUnNINEJRakhudkhkRHBCUWpXdXFVTzNkbmc?oc=5",
+    "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wdFc3OHJ5Y0FSTk1LOWRYSjIzUGxwSml6dGwtN21KelhMWlcteG5zWVRZTG5KNE1wdlVkVDdfcWlkYjc3Y3JxZ0hyZXNNSi1TZUlXYzhPRnRUUnFXSFVkVFlPak5ubzQ?oc=5",
     "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9yX2tOb1NQRHJYN1lOUGhJYlhBUXoyQTZITzdtWGIwT1Zubk9rOW10U240LXV4MmdPT3AyZ0FGa2w0RWYwNl9BYQ?oc=5",
-    "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wdFc3OHJ5Y0FSTk1LOWRYSjIzUGxwSml6dGwtN21KelhMWlcteG5zWVRZTG5KNE1wdlVkVDdfcWlkYjc3Y3JxZ0hyZXNNSi1TZUlXYzhPRnRUUnFXSFVkVFlPak5ubzQ?oc=5"
+    "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdVFubXZkbXNMSGx6eFpWY011cTFlUW9oWU8xUXpiSUZtamtZZGVZaGFRQ2Izdkp0ck5aZ3NidEZnN2F4ck5jTlNGeGliUlBMbVhlLVp2NEFvMGpsbkFTM2dya2NyNHA5aWpBMnNqRTl2SDB0X1dQTzVKVks0OEhXWERMSDg1M3V3bU1CNEZB?oc=5",
+    "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWUs2QnlJdUhfZVZqM1I5ZnRZTzBCTEhnblFBcUcxUlR0aDI0a1hNODhkRVF0b3ZaNEpuU2t3U2h2YjZMVXYtQTllcG40cGtOSk93WnJfUWhDeGlHcHduVmMzN29MVUc5RDZCN3hnOEU5ZGExLTdmTTVrQ3NzRkVoRXlQbVd3UExjS0ZZeWp2QmNETTVpMHJHVmpFcnpHSno3SUdLb2JXQlNuV1lPRXZPSHdHd3k3bm1md05YbHBQT3FRX28?oc=5",
+    "https://www.spoton.com/blog/spoton-introduces-profit-ai/",
+    "https://news.google.com/rss/articles/CBMiO0FVX3lxTE4zSmswR0FJOW40RzNPZ042d05kRGs4MG4xNU5WemozSERIYmE1R1IyQVk3bnJ3R0FwVUUw?oc=5"
   ]
 }
