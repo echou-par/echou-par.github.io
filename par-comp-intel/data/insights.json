@@ -1,22 +1,22 @@
 {
-  "updated": "2026-06-11T19:59:12.967555+00:00",
+  "updated": "2026-06-11T22:09:40.967802+00:00",
   "insights": [
+    {
+      "text": "Cross-competitor event: DoorDash, Square appeared together in coverage \u2014 \"Three Square Food Bank\u2019s Las Vegas Restaurant Week with DoorDash Reservations - KLAS 8 News Now\"",
+      "sources": [
+        {
+          "title": "Three Square Food Bank\u2019s Las Vegas Restaurant Week with DoorDash Reservations - KLAS 8 News Now",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSktLQUlCeWJkcGljdlNQU1VUMFNPODRPVDl0LUEyUzJnR0hJOHdzRjdYTkx1cElKUGF1bVRaeXhRU2tjMnQ4d2U2Wmd1WVc5MVBfWHF6SFBfbnI2WjVETDl0SWhnUXhMbHdHZ0YycTgzc3BuNlZKU2UxZkJyYjZGV1hlc1RJY2Ntd0ZpbU5wM25aVG9qODhmcjNkMlZGWF9Od1ZhZUkzZWRrMTVoLS1GTllCVWFiSG5IeThHS09B0gHDAUFVX3lxTFBlT2oxUUZUZF9mZVVqMVpnczFHNERhT0MxWC1EYzhuWXgxaVM4SWdDNzhGTS11dElqQURCbmt6NVRmZVlaZC1BZ21iMHpEWU9YMjRYOEtKWjdZVDN5aEN6bmpzb3lVVmVVUE5FSEdhZy1GUW9mSHpCcHI5UFdTb2dPQkdrblQycEpYZ2d2WEZYWEVaM3pTaEJZYnNSZXdPM21LcC1hUDJmaVZ5YXpOMUs3b2k1aHFDY2lXaW83dGtTWUZFVQ?oc=5",
+          "source": "Google News"
+        }
+      ]
+    },
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news\"",
       "sources": [
         {
           "title": "Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPX2ZKVnBKRjZRTnZhUmJNdmQ3Vk8wbmpFeHVBSVJLUTBZekNHZEZSaV9nbDQ5NE9qM29reDN5bG1yZ0drSEh0U3lmVkZlc1F6Vlg0cWE5emNTWGtoam0tbm1RUXNzOFNYemxkU0c2VmViUFRpX3VaSlZBa3VUVFhUMTVLdF9oVlBQekJMcE5iY09MZ0dYNURiSlVURHZCMnFBb3dNOHRZX3Z6UjBFdDdIR2xYY2pLX2dIOExWZGxWVjhVeTl0YlRWVw?oc=5",
-          "source": "Google News"
-        }
-      ]
-    },
-    {
-      "text": "Cross-competitor event: Paytronix, Square appeared together in coverage \u2014 \"Tavern in the Square with Paytronix Spikes Insider Loyalty Program Registrations by 86% - GlobeNewswire\"",
-      "sources": [
-        {
-          "title": "Tavern in the Square with Paytronix Spikes Insider Loyalty Program Registrations by 86% - GlobeNewswire",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOOXF5TEtON1o4SGpTcW12OEJ4MEt0d3NZMXlCSGJ0LUdEb3UxbjV0c3JnUDl3WERiMk1YbXFNLUxUSW41MkRxenJLUzhKQXBXV1FwemFUUnJQUDF4aVZ2MnFYQ1cyWERjMy1GenU5ZWIxODl4Mjd5N0hQMGE4TlVhVjRfLXplV3oxNzlzTEo4Zy1md2V0d1MwWlhnQVVqNlFpZkl5TWJXVGlOb2lOaV9FbXdXTUZCNTU2QjJWbDREWGRrSDFtWFlKaWhEcjg0eV9JZzB5NzBwTVctMnA3NU1DS3Y4QUpOWnptVnZXRi1tQQ?oc=5",
           "source": "Google News"
         }
       ]
@@ -101,7 +101,7 @@
       "company": "Square"
     },
     {
-      "text": "PAR shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Director Cynthia Russo receives 11,490 PAR Technology (PAR) stock units as retainer - Stock Titan\"",
+      "text": "PAR shows concentrated financial/market activity \u2014 12 tracked financial/market items this cycle. Latest: \"Director Cynthia Russo receives 11,490 PAR Technology (PAR) stock units as retainer - Stock Titan\"",
       "sources": [
         {
           "title": "Director Cynthia Russo receives 11,490 PAR Technology (PAR) stock units as retainer - Stock Titan",
@@ -125,11 +125,19 @@
   "most_mentioned": [
     {
       "company": "DoorDash",
-      "count": 19
+      "count": 20
+    },
+    {
+      "company": "TouchBistro",
+      "count": 16
     },
     {
       "company": "Global Payments",
-      "count": 17
+      "count": 16
+    },
+    {
+      "company": "NCR Voyix",
+      "count": 16
     },
     {
       "company": "SpotOn",
@@ -145,14 +153,6 @@
     },
     {
       "company": "Toast",
-      "count": 15
-    },
-    {
-      "company": "PAR",
-      "count": 15
-    },
-    {
-      "company": "NCR Voyix",
       "count": 15
     }
   ]

@@ -2,7 +2,7 @@
   "date": "2026-06-11",
   "weekday": "Thursday",
   "first_seen": "2026-06-11T04:44:02.275367+00:00",
-  "last_updated": "2026-06-11T19:59:12.967555+00:00",
+  "last_updated": "2026-06-11T22:09:40.967802+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Square appeared together in coverage \u2014 \"Three Square Food Bank\u2019s Las Vegas Restaurant Week with DoorDash Reservations - KLAS 8 News Now\"",
@@ -177,7 +177,7 @@
       "first_detected": "2026-06-11T09:16:35.901431+00:00"
     },
     {
-      "text": "PAR shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Director Cynthia Russo receives 11,490 PAR Technology (PAR) stock units as retainer - Stock Titan\"",
+      "text": "PAR shows concentrated financial/market activity \u2014 12 tracked financial/market items this cycle. Latest: \"Director Cynthia Russo receives 11,490 PAR Technology (PAR) stock units as retainer - Stock Titan\"",
       "sources": [
         {
           "title": "Director Cynthia Russo receives 11,490 PAR Technology (PAR) stock units as retainer - Stock Titan",
@@ -279,11 +279,19 @@
   "most_mentioned": [
     {
       "company": "DoorDash",
-      "count": 19
+      "count": 20
+    },
+    {
+      "company": "TouchBistro",
+      "count": 16
     },
     {
       "company": "Global Payments",
-      "count": 17
+      "count": 16
+    },
+    {
+      "company": "NCR Voyix",
+      "count": 16
     },
     {
       "company": "SpotOn",
@@ -299,14 +307,6 @@
     },
     {
       "company": "Toast",
-      "count": 15
-    },
-    {
-      "company": "PAR",
-      "count": 15
-    },
-    {
-      "company": "NCR Voyix",
       "count": 15
     }
   ]
