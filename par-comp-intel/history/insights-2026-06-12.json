@@ -2,7 +2,7 @@
   "date": "2026-06-12",
   "weekday": "Friday",
   "first_seen": "2026-06-12T05:16:53.800825+00:00",
-  "last_updated": "2026-06-12T05:16:53.800825+00:00",
+  "last_updated": "2026-06-12T09:45:11.414062+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news\"",
@@ -130,6 +130,23 @@
       ],
       "company": "PAR",
       "first_detected": "2026-06-12T05:16:53.800825+00:00"
+    },
+    {
+      "text": "Lightspeed shows concentrated risk activity \u2014 2 tracked risk items this cycle. Latest: \"Lightspeed Commerce shares decline after quarterly earnings miss despite revenue growth (LSPD) - Yahoo Finance\"",
+      "sources": [
+        {
+          "title": "Lightspeed Commerce shares decline after quarterly earnings miss despite revenue growth (LSPD) - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOHZ1N3k5QTRFNXBVRHFCMDdSUWVScWtJOFJ3Tm5BZGZXMmJKU1BVc2xXazBPNWptWkpDeGNxQVQ1YWxvaXNZSkxjTngwQW1Tck1CLTJLdlFUcy1JTFE5Sk5UcUktdl8zaWU5a1B0X1FxQmRZVE02SkFfeWtUS0VXUWl6QmJ2eUtiTGtlNHlwQnh1MjdCdEhIY1BMOE5VM3RzajdhWXJxekRjRjFPcHc?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Lightspeed Commerce Inc. (LSPD) Declines More Than Market: Some Information for Investors - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMk9kTXl0enVwVWpzMElJSW55WjhmbEFndEVLTUp1TldSbXpld1RaWk1IQXp5U1YtRmM5aE5jTWJpeEg0bmh4SFhtUEhRYlZNbjJ0ZlkwOGtUZjFhMkp5TVRYclFwellNZU4wdlBNSmZQSDR6OHpDSi1FWGJLZ0RBaEgwT09uQ1l0eGRB?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Lightspeed",
+      "first_detected": "2026-06-12T09:45:11.414062+00:00"
     }
   ],
   "most_mentioned": [
@@ -139,14 +156,10 @@
     },
     {
       "company": "Global Payments",
-      "count": 17
-    },
-    {
-      "company": "NCR Voyix",
       "count": 16
     },
     {
-      "company": "SpotOn",
+      "company": "TouchBistro",
       "count": 16
     },
     {
@@ -154,15 +167,19 @@
       "count": 16
     },
     {
+      "company": "PAR",
+      "count": 15
+    },
+    {
       "company": "Toast",
       "count": 15
     },
     {
-      "company": "TouchBistro",
+      "company": "Shift4",
       "count": 15
     },
     {
-      "company": "PAR",
+      "company": "NCR Voyix",
       "count": 15
     }
   ]
