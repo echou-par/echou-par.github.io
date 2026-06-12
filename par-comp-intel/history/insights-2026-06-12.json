@@ -2,7 +2,7 @@
   "date": "2026-06-12",
   "weekday": "Friday",
   "first_seen": "2026-06-12T05:16:53.800825+00:00",
-  "last_updated": "2026-06-12T17:22:12.785881+00:00",
+  "last_updated": "2026-06-12T19:12:12.915191+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-06-12T05:16:53.800825+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -191,40 +191,62 @@
       ],
       "company": "Deliverect",
       "first_detected": "2026-06-12T16:29:21.751902+00:00"
+    },
+    {
+      "text": "Square shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news\"",
+      "sources": [
+        {
+          "title": "Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPX2ZKVnBKRjZRTnZhUmJNdmQ3Vk8wbmpFeHVBSVJLUTBZekNHZEZSaV9nbDQ5NE9qM29reDN5bG1yZ0drSEh0U3lmVkZlc1F6Vlg0cWE5emNTWGtoam0tbm1RUXNzOFNYemxkU0c2VmViUFRpX3VaSlZBa3VUVFhUMTVLdF9oVlBQekJMcE5iY09MZ0dYNURiSlVURHZCMnFBb3dNOHRZX3Z6UjBFdDdIR2xYY2pLX2dIOExWZGxWVjhVeTl0YlRWVw?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Block Inc. Stock: Shares Rise Over 3% in Premarket Trading on April 30, 2026 - AD HOC NEWS",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONFNRS054UXlkeWVxN0NtQjZWLUFuc2dQVE1zMHZQMDYtbVBMSXV0TUdzVTVjZEtzdU01TVN3RnEtb3g4ZHNBcTVyWUNLdi10WnRVeC10YzJiaWRkZDJ0aldxWHRQcmVXQVFNc1UxUW85bmZLZUtiMkRKSF9aTUUtU1NmU2hkOC1UTXQ1QmpxLU44TEJXU1hnRHhCZENUdTB6dmctRzlvWFlhYkNaTnh3aE9mWjVrcWo4NmR3VVFfc0tuZXc?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Block, Inc. (NYSE:SQ) Q4 2025 Earnings Call Transcript - Insider Monkey",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVTQwUTFwSkJYaUVma016cm1hMERpZEJxTnFzbi1zWnhLNVdVTU5sSW9VYWVzbTJ2TU1zSGNKcDMxRWNMVVNrZHlsMGJJNjRMQmMyYXRHN05JYlh6ZWhfOXlyNHJtWHhWcTVfRV9NZGdGM3d5NEpUYkRoNTR3Yi0ycDUxZnpxWXJhNWxHRjAzSXM4MlVKQUpsaQ?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Square",
+      "first_detected": "2026-06-12T19:12:12.915191+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "Deliverect",
-      "count": 49
-    },
-    {
-      "company": "Lightspeed",
-      "count": 34
-    },
-    {
-      "company": "SpotOn",
-      "count": 33
-    },
-    {
       "company": "DoorDash",
-      "count": 29
-    },
-    {
-      "company": "NCR Voyix",
-      "count": 26
-    },
-    {
-      "company": "Sparkfly",
-      "count": 26
-    },
-    {
-      "company": "Fiserv",
-      "count": 25
+      "count": 19
     },
     {
       "company": "Global Payments",
-      "count": 25
+      "count": 17
+    },
+    {
+      "company": "NCR Voyix",
+      "count": 16
+    },
+    {
+      "company": "SpotOn",
+      "count": 16
+    },
+    {
+      "company": "Sparkfly",
+      "count": 16
+    },
+    {
+      "company": "Toast",
+      "count": 15
+    },
+    {
+      "company": "PAR",
+      "count": 15
+    },
+    {
+      "company": "Fiserv",
+      "count": 15
     }
   ]
 }
