@@ -2,7 +2,7 @@
   "date": "2026-06-13",
   "weekday": "Saturday",
   "first_seen": "2026-06-13T05:06:45.541666+00:00",
-  "last_updated": "2026-06-13T15:57:51.665152+00:00",
+  "last_updated": "2026-06-13T16:58:26.111271+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-06-13T05:06:45.541666+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 11 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -93,7 +93,7 @@
       "first_detected": "2026-06-13T05:06:45.541666+00:00"
     },
     {
-      "text": "PAR shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Greenhaven Road Investment Management L.P. Sells 86,315 Shares of PAR Technology Corporation $PAR - MarketBeat\"",
+      "text": "PAR shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Greenhaven Road Investment Management L.P. Sells 86,315 Shares of PAR Technology Corporation $PAR - MarketBeat\"",
       "sources": [
         {
           "title": "Greenhaven Road Investment Management L.P. Sells 86,315 Shares of PAR Technology Corporation $PAR - MarketBeat",
@@ -204,11 +204,11 @@
       "first_detected": "2026-06-13T15:14:48.516320+00:00"
     },
     {
-      "text": "Shift4 shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Shift4 Payments Inc (FOUR) Stock Up 4.4% and Still Undervalued -- GF Score: 74/100 - GuruFocus\"",
+      "text": "Shift4 shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Is Shift4 Payments, Inc. (FOUR) A Good Stock To Buy Now? - Yahoo Finance\"",
       "sources": [
         {
-          "title": "Shift4 Payments Inc (FOUR) Stock Up 4.4% and Still Undervalued -- GF Score: 74/100 - GuruFocus",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZ0JMdURvVnR5dzhyRFAydFVubnhBSk81aklKX1ZhSlpiMXlmTHhZU3R0Z2xhVWFRYUQtZFNTYVFIMkRSaDBQUzBzUXp5ZGJqTzFPdm5CbHU4WV9JXzJHNUFuemE0Y2pOM1RnZFF3a1ZwWndQSDhMajR1bkU4UEwwUnFLcFZVNmwwVjEwM2Q1UFRVcGhRRFlWSXJ5Tmh6N3NTLXdDelgxWUZHV3hBc1FaZVg1T1pmU0dJdGJhU2tuamtaZw?oc=5",
+          "title": "Is Shift4 Payments, Inc. (FOUR) A Good Stock To Buy Now? - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOLTNpSXVyaDZzb1EzZ0R4SlB3MXA2NUxGSFVsWWstQkdiOXlXX0tvYmZKb0dDWVllbVdLeVBycUlDS3FhUVpwNkgyX0k0TWdzWXlRdG8zMG1SZWNfRklNMDdnWXJYQjl4YXRKVXU4WjI2dThUUmY4RFFPTk92b3E2QlF1MFZpZzVBVmR3WEFPZjA5eFVOX2lZOHRB?oc=5",
           "source": "Google News"
         },
         {
@@ -228,36 +228,36 @@
   ],
   "most_mentioned": [
     {
-      "company": "Deliverect",
-      "count": 49
-    },
-    {
-      "company": "Lightspeed",
-      "count": 33
-    },
-    {
-      "company": "SpotOn",
-      "count": 33
-    },
-    {
       "company": "DoorDash",
-      "count": 29
+      "count": 20
     },
     {
       "company": "NCR Voyix",
-      "count": 26
+      "count": 16
+    },
+    {
+      "company": "Global Payments",
+      "count": 16
     },
     {
       "company": "Sparkfly",
-      "count": 26
+      "count": 16
+    },
+    {
+      "company": "Shift4",
+      "count": 15
+    },
+    {
+      "company": "Toast",
+      "count": 15
+    },
+    {
+      "company": "Uber Eats",
+      "count": 15
     },
     {
       "company": "Fiserv",
-      "count": 25
-    },
-    {
-      "company": "Snackpass",
-      "count": 25
+      "count": 15
     }
   ]
 }
