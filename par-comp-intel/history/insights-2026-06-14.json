@@ -2,7 +2,7 @@
   "date": "2026-06-14",
   "weekday": "Sunday",
   "first_seen": "2026-06-14T06:50:54.738495+00:00",
-  "last_updated": "2026-06-14T20:07:21.919275+00:00",
+  "last_updated": "2026-06-14T21:52:58.668198+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news\"",
@@ -240,19 +240,36 @@
       ],
       "company": "Deliverect",
       "first_detected": "2026-06-14T15:22:40.988808+00:00"
+    },
+    {
+      "text": "Square shows concentrated risk activity \u2014 2 tracked risk items this cycle. Latest: \"Is Block Inc. (SQ) Navigating a Shifting Fintech Landscape, or Is It Signaling Deeper Concerns - Kavout\"",
+      "sources": [
+        {
+          "title": "Is Block Inc. (SQ) Navigating a Shifting Fintech Landscape, or Is It Signaling Deeper Concerns - Kavout",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSTJTVl9zdUhsaGNYNWJDWHQ0X1lLYkZhRktjUUJQU3l3WThHNkFXd0E1c0tyVmpXYm4wOGlRM2FPT0wwenJoSmZrQjkwZWpLeWVsVDZCRnhvYlgyRHUtT1pVZGZfSzN3Yl9aaXVBTU9obWl2YzRrSnFqY1pSZDItTUd4YWVjRkItc2tGQ2ZJQmlfVFFPVEduLTktSU9jVF81WEhPTmRLd1RyMndKQ2NoUmROZk5Wc3JVMGJpOHhiZllBZzg?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Fintech giant Block Inc. confirms Atlanta layoffs - The Business Journals",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcHY0TlViYjllVnJuN1p0VjZSWV9KSXdPbjM1QndWN290VlpUUkJqZngtYnBVVnQ2Sm14bGpGeWc1aVhzVE5DaWQxcER0WTBSYWlaY2ZQQkE4LTN4by1HTW1fRjg2Z0lwWm9FMHlNOEtHZ1BWLWI3dEJnTlZMTW93VS1SdTIzdy12MmU3cXVtQ2xVeWlxMDlzaTBoYWN6Z3RGbHNrTFJBcw?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Square",
+      "first_detected": "2026-06-14T21:52:58.668198+00:00"
     }
   ],
   "most_mentioned": [
     {
       "company": "DoorDash",
-      "count": 19
-    },
-    {
-      "company": "NCR Voyix",
-      "count": 17
+      "count": 18
     },
     {
       "company": "Global Payments",
+      "count": 18
+    },
+    {
+      "company": "NCR Voyix",
       "count": 17
     },
     {
@@ -260,7 +277,7 @@
       "count": 16
     },
     {
-      "company": "Toast",
+      "company": "Uber Eats",
       "count": 15
     },
     {
@@ -268,11 +285,11 @@
       "count": 15
     },
     {
-      "company": "Lightspeed",
+      "company": "Toast",
       "count": 15
     },
     {
-      "company": "TouchBistro",
+      "company": "Lightspeed",
       "count": 15
     }
   ]
