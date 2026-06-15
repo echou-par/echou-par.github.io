@@ -2,7 +2,7 @@
   "date": "2026-06-15",
   "weekday": "Monday",
   "first_seen": "2026-06-15T08:37:39.570248+00:00",
-  "last_updated": "2026-06-15T18:49:56.734589+00:00",
+  "last_updated": "2026-06-15T19:13:04.051559+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive Investors\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-06-15T08:37:39.570248+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -137,16 +137,16 @@
       "first_detected": "2026-06-15T08:37:39.570248+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"DoorDash: Integrate Your DoorDash Account with Deliverect - help.deliverect.com\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 5 tracked partnership items this cycle. Latest: \"ConverseNow and Deliverect Announce Partnership to Bring Voice AI Ordering into Unified Restaurant Order & Menu Management - PR Newswire\"",
       "sources": [
-        {
-          "title": "DoorDash: Integrate Your DoorDash Account with Deliverect - help.deliverect.com",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOb1VGRERrRy1paVBqRmk2NUJpZm10YWlPQk5kQnFWc3AtUjE2V29jOFdIQ1RnbmFRdlBRVmg3N3ZtTVNRLVdYREJaNXRyZHc1TkZFNmdjZm1sZ0VaY2tQS0lLUzdRSkFFSTRCd1N2YS1tSU5Yc1RYNnYzM0d2T0ItNVJEZGYyc0VNZFJmU0NJa1FFclBzV0ROZlZCcDFRbXNUcVhTbGMzaw?oc=5",
-          "source": "Google News (deliverect.com)"
-        },
         {
           "title": "ConverseNow and Deliverect Announce Partnership to Bring Voice AI Ordering into Unified Restaurant Order & Menu Management - PR Newswire",
           "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxONDktOUNQZV9udENNQmVWMWJRMlRIOGpnVHVodnFfdndtMTg3WldkV0xsWThnZFpONmJKRG5sVXFhRTI3RWVwNllZUVB6RFVnWWtocUNVNUlJd1B1NmxEOXFrVmhyYnlueURraEFvUlB3NzVYQTFydmUyZVA3REZBdTQ5UDRySVU2THRPb3BtMTU3aXZwYWx4aUh5aFdrcVBRbDBROTM4M0JCQUh6ZmhSSlVzYW1HODdaUXFWdlMzZDhpZXlidXZVN2twR3BqQnF5Zjd1eUhKV1J5SlR0NklVNDZLeUxnQS05UnhFX0F2N3BrMEdENXpEZDZrWmctR3ZBSk5sYkVVYlI?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "ConverseNow, Deliverect partner to integrate Voice AI into restaurant management - QSR Web",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcU1QYm14UXNZMTNmZDV5cGVUMFFlV2NfbmV6TnkyNzlZcmxfNkhMMnM2eFlEYURMSkdBcDQ2WmJWejJXaWFNOExyOFRVdlJvMlhjaGJpb0hZSklYNFdmckdDM1o4WEVDR21qZjlZempNWmhzWHFWZklqUlpkVjlXaVR4QzhkSjdBWGNJT0VkQUpEeFM2SGxLSFhwLWNjNEFBS0s4TUFkaWZENzgw?oc=5",
           "source": "Google News"
         },
         {
@@ -211,36 +211,36 @@
   ],
   "most_mentioned": [
     {
-      "company": "Deliverect",
-      "count": 50
-    },
-    {
-      "company": "SpotOn",
-      "count": 35
-    },
-    {
-      "company": "Lightspeed",
-      "count": 33
-    },
-    {
       "company": "DoorDash",
-      "count": 29
+      "count": 19
     },
     {
       "company": "Global Payments",
-      "count": 28
+      "count": 17
     },
     {
       "company": "NCR Voyix",
-      "count": 26
+      "count": 16
+    },
+    {
+      "company": "SpotOn",
+      "count": 16
     },
     {
       "company": "Fiserv",
-      "count": 25
+      "count": 15
     },
     {
       "company": "Shift4",
-      "count": 25
+      "count": 15
+    },
+    {
+      "company": "Uber Eats",
+      "count": 15
+    },
+    {
+      "company": "Toast",
+      "count": 15
     }
   ]
 }
