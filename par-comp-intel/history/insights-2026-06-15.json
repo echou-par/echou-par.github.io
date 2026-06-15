@@ -2,7 +2,7 @@
   "date": "2026-06-15",
   "weekday": "Monday",
   "first_seen": "2026-06-15T08:37:39.570248+00:00",
-  "last_updated": "2026-06-15T15:21:35.045142+00:00",
+  "last_updated": "2026-06-15T18:05:43.968257+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive Investors\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-06-15T08:37:39.570248+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -137,8 +137,13 @@
       "first_detected": "2026-06-15T08:37:39.570248+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 5 tracked partnership items this cycle. Latest: \"ConverseNow and Deliverect Announce Partnership to Bring Voice AI Ordering into Unified Restaurant Order & Menu Management - PR Newswire\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"DoorDash: Integrate Your DoorDash Account with Deliverect - help.deliverect.com\"",
       "sources": [
+        {
+          "title": "DoorDash: Integrate Your DoorDash Account with Deliverect - help.deliverect.com",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOb1VGRERrRy1paVBqRmk2NUJpZm10YWlPQk5kQnFWc3AtUjE2V29jOFdIQ1RnbmFRdlBRVmg3N3ZtTVNRLVdYREJaNXRyZHc1TkZFNmdjZm1sZ0VaY2tQS0lLUzdRSkFFSTRCd1N2YS1tSU5Yc1RYNnYzM0d2T0ItNVJEZGYyc0VNZFJmU0NJa1FFclBzV0ROZlZCcDFRbXNUcVhTbGMzaw?oc=5",
+          "source": "Google News (deliverect.com)"
+        },
         {
           "title": "ConverseNow and Deliverect Announce Partnership to Bring Voice AI Ordering into Unified Restaurant Order & Menu Management - PR Newswire",
           "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxONDktOUNQZV9udENNQmVWMWJRMlRIOGpnVHVodnFfdndtMTg3WldkV0xsWThnZFpONmJKRG5sVXFhRTI3RWVwNllZUVB6RFVnWWtocUNVNUlJd1B1NmxEOXFrVmhyYnlueURraEFvUlB3NzVYQTFydmUyZVA3REZBdTQ5UDRySVU2THRPb3BtMTU3aXZwYWx4aUh5aFdrcVBRbDBROTM4M0JCQUh6ZmhSSlVzYW1HODdaUXFWdlMzZDhpZXlidXZVN2twR3BqQnF5Zjd1eUhKV1J5SlR0NklVNDZLeUxnQS05UnhFX0F2N3BrMEdENXpEZDZrWmctR3ZBSk5sYkVVYlI?oc=5",
@@ -147,11 +152,6 @@
         {
           "title": "ConverseNow, Deliverect partner to integrate Voice AI into restaurant management - QSR Web",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcU1QYm14UXNZMTNmZDV5cGVUMFFlV2NfbmV6TnkyNzlZcmxfNkhMMnM2eFlEYURMSkdBcDQ2WmJWejJXaWFNOExyOFRVdlJvMlhjaGJpb0hZSklYNFdmckdDM1o4WEVDR21qZjlZempNWmhzWHFWZklqUlpkVjlXaVR4QzhkSjdBWGNJT0VkQUpEeFM2SGxLSFhwLWNjNEFBS0s4TUFkaWZENzgw?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Papa John's Partners Deliverect: Can Delivery Tech Drive Growth? - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWXNNUUd4bE5JRVZxb3ZmdFlFdERhQ0ZIdlpROXJEbmNuSGRVWmJTd2dqa2hTLW1KdVUwN2JzTzF6TG9mMUJDOTdCRjBCdWNYV29hazUtbE81S1ZCblRyWkp5UFN2OGQxaHI0WHd4MndUYktWeUc4VzlSdkdYdXAwdktObFVKUTAwRVJJOGFjUlF1Vk9EbGVTOWtXMnJWeWpuamFua0gxaw?oc=5",
           "source": "Google News"
         }
       ],
@@ -179,40 +179,68 @@
       ],
       "company": "Square",
       "first_detected": "2026-06-15T15:21:35.045142+00:00"
+    },
+    {
+      "text": "Cross-competitor event: Deliverect, DoorDash appeared together in coverage \u2014 \"DoorDash: Integrate Your DoorDash Account with Deliverect - help.deliverect.com\"",
+      "sources": [
+        {
+          "title": "DoorDash: Integrate Your DoorDash Account with Deliverect - help.deliverect.com",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOb1VGRERrRy1paVBqRmk2NUJpZm10YWlPQk5kQnFWc3AtUjE2V29jOFdIQ1RnbmFRdlBRVmg3N3ZtTVNRLVdYREJaNXRyZHc1TkZFNmdjZm1sZ0VaY2tQS0lLUzdRSkFFSTRCd1N2YS1tSU5Yc1RYNnYzM0d2T0ItNVJEZGYyc0VNZFJmU0NJa1FFclBzV0ROZlZCcDFRbXNUcVhTbGMzaw?oc=5",
+          "source": "Google News (deliverect.com)"
+        }
+      ],
+      "first_detected": "2026-06-15T18:05:43.968257+00:00"
+    },
+    {
+      "text": "Lightspeed shows concentrated risk activity \u2014 2 tracked risk items this cycle. Latest: \"Lightspeed Commerce shares decline after quarterly earnings miss despite revenue growth (LSPD) - MSN\"",
+      "sources": [
+        {
+          "title": "Lightspeed Commerce shares decline after quarterly earnings miss despite revenue growth (LSPD) - MSN",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRl9wcDlBZzdXbXpIOFVkblF4M2pYcEhXM3dGZnRTb3VoR2tuMUt2TVBsMXBzRXhWWHVVUHlXSXFIWjdpcERLNF9DZHZNTnR2aTVRQ1YtT3dWOEFpWWRNSl9aYnVvdDhqcTU2VVJORm1oWWtDcUREQ01WSHBjSUs2MFFNejdDX1pRYktXbC0tNm5ObU1kSWlBU29LU1drdnpvd3daa3l2SjJ3eUthT3E4T2NzN0JDSnpSRk1zb2Z3d2FVc3hHQ0VoVVlfT3RsVGFfT29CVHFEUTNuM05CakhF?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Lightspeed Commerce Inc. (LSPD) Declines More Than Market: Some Information for Investors - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMk9kTXl0enVwVWpzMElJSW55WjhmbEFndEVLTUp1TldSbXpld1RaWk1IQXp5U1YtRmM5aE5jTWJpeEg0bmh4SFhtUEhRYlZNbjJ0ZlkwOGtUZjFhMkp5TVRYclFwellNZU4wdlBNSmZQSDR6OHpDSi1FWGJLZ0RBaEgwT09uQ1l0eGRB?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Lightspeed",
+      "first_detected": "2026-06-15T18:05:43.968257+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
-      "count": 19
-    },
-    {
-      "company": "Global Payments",
-      "count": 18
-    },
-    {
-      "company": "NCR Voyix",
-      "count": 16
+      "company": "Deliverect",
+      "count": 50
     },
     {
       "company": "SpotOn",
-      "count": 16
+      "count": 35
+    },
+    {
+      "company": "Lightspeed",
+      "count": 33
+    },
+    {
+      "company": "DoorDash",
+      "count": 29
+    },
+    {
+      "company": "Global Payments",
+      "count": 28
+    },
+    {
+      "company": "NCR Voyix",
+      "count": 26
     },
     {
       "company": "Shift4",
-      "count": 15
-    },
-    {
-      "company": "Uber Eats",
-      "count": 15
-    },
-    {
-      "company": "Toast",
-      "count": 15
+      "count": 25
     },
     {
       "company": "Fiserv",
-      "count": 15
+      "count": 25
     }
   ]
 }
