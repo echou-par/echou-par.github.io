@@ -2,7 +2,7 @@
   "date": "2026-06-15",
   "weekday": "Monday",
   "first_seen": "2026-06-15T08:37:39.570248+00:00",
-  "last_updated": "2026-06-15T22:01:19.701106+00:00",
+  "last_updated": "2026-06-16T00:13:14.171965+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive Investors\"",
@@ -93,8 +93,13 @@
       "first_detected": "2026-06-15T08:37:39.570248+00:00"
     },
     {
-      "text": "PAR shows concentrated financial/market activity \u2014 12 tracked financial/market items this cycle. Latest: \"Director adds 13,000 PAR Technology (NYSE: PAR) shares in open-market buy - Stock Titan\"",
+      "text": "PAR shows concentrated financial/market activity \u2014 12 tracked financial/market items this cycle. Latest: \"Insider Buying: Keith Pascal Acquires Shares of PAR Technology C - GuruFocus\"",
       "sources": [
+        {
+          "title": "Insider Buying: Keith Pascal Acquires Shares of PAR Technology C - GuruFocus",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUDE1X0lsT3d0aG9ES1pBVUpLV1kwNVNLRktVZE52YWVJYXhMYnE2V2xCM1I2Y3NKUkNVVElUMTN6djRUYXh4OThOQTdOakpuTWVCS3lCWUl6Ni03RzZONTJZeXBpbWp1bmZLY0d1dzVqSkZFNXJ0OUNiVldFb3h6UF8ycDczSXE4REVnd29zSnNvMGFnbTUwMVJ2eUxicXRVUXQxc0xZNWU?oc=5",
+          "source": "Google News"
+        },
         {
           "title": "Director adds 13,000 PAR Technology (NYSE: PAR) shares in open-market buy - Stock Titan",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQmhsQ0RSaGZQTjVrUlNCQ21uWEwxUHBVbk5BRG50SWpiZ21nbzZqdXRfeGU1WG16Ti04dEQxdi0yVlRnc3loOHZBclNfcmpMeHQ1UVJUMS1xYkh5ZEcydV9UOTc1ekxUZnRzVUhxQTE5VGNkMXp4WWIzdW4wVmhtazlscFpDLUZwRjNOSUxYdDFJTHNscnBwN0VlanhwamZmMHZYR3lkOW8xaGpHMDhPZkNR?oc=5",
@@ -103,11 +108,6 @@
         {
           "title": "Greenhaven Road Investment Management L.P. Sells 86,315 Shares of PAR Technology Corporation $PAR - MarketBeat",
           "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPaGg4UTRUSUhtdFZyZ19nM1B2cFlOVEVsSFg5T3FoZWVjQUNsMHRwZ1ZKS1M4M2xhU1NULWR5RXpzZWdPemhPcjdYNE1keVRLb201Mm0tODlpcVJTYmNfMkhrdXBqVmNHUTNfVGpxYzRvY1FXcnJfM1UtOVpIbVVXVm9rZlVVMHNFN2RvVThxRDA0RjBITXB1eUZpOG91c0dGaUhDYXp6aXRCR3VVMDFaY253cjhyVXU4ZngzM3VpYnFlN2U1UldEMlc2d2tMay1oZXRQV01pLTRLeThPTFJYWms4ZlNEWXBoMnc?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Crane NXT, PAR Technology, and Ryan Specialty Shares Are Soaring, What You Need To Know - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNdTVaRC1uQklrUmFoOFJJajZ3VG1XZnhGWXRlZjk1bm1YT290UmpWdTNkSUY5MjI3RFFwdFgyREtEbE5sY1A1U2NhcmgtdWpKLWVJXzR0NDNHZkItQlVnaG5vTlpfQmNSVVIzd3FDdGh1MEZmOXI2eTViQkxoZzF0NEtSTzYxNmJLb1Uwd2VkNnBfekI2Q0ZCTlNRcWo4TkF6N05pWjFxN05QZHFRWmZDa1FjSFNYUjItemFEOWJMbE55U2I1U3RHV3pfMjQ1Rk1WU290Q0ZMQ3ZDMUdvM1E?oc=5",
           "source": "Google News"
         }
       ],
@@ -215,11 +215,11 @@
       "count": 19
     },
     {
-      "company": "NCR Voyix",
-      "count": 17
+      "company": "Global Payments",
+      "count": 18
     },
     {
-      "company": "Global Payments",
+      "company": "NCR Voyix",
       "count": 17
     },
     {
@@ -227,11 +227,11 @@
       "count": 16
     },
     {
-      "company": "Toast",
+      "company": "PAR",
       "count": 15
     },
     {
-      "company": "PAR",
+      "company": "Toast",
       "count": 15
     },
     {
