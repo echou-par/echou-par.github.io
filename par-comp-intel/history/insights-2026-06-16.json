@@ -2,7 +2,7 @@
   "date": "2026-06-16",
   "weekday": "Tuesday",
   "first_seen": "2026-06-16T06:10:41.628710+00:00",
-  "last_updated": "2026-06-16T18:12:38.891538+00:00",
+  "last_updated": "2026-06-16T18:42:34.449006+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive Investors\"",
@@ -201,6 +201,28 @@
         }
       ],
       "first_detected": "2026-06-16T18:12:38.891538+00:00"
+    },
+    {
+      "text": "Square shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Block earnings beat driven by Cash App and Square strength - Proactive Investors\"",
+      "sources": [
+        {
+          "title": "Block earnings beat driven by Cash App and Square strength - Proactive Investors",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOeXBrWHRqd0ZqV3o2X1hyX056WVFTaDUtU0dPZm95bGdXWUw3WGZlcm01UGV3RVpIWTJPV21MOE1iZTl2ZWc3eDdqaWktc3lrZXlrYUR2U0JvQkxlZnFxZ2lxRXJSM0ZKYmc3UnB2enU0SEJhZlRjNWVnWTRXY1hyN25oU0t2YVpwcUJLZ3J4cXlJbUpCYmtPMENmbWdBUGxVc1FEQXprcTB4VlNPODNvdkloN25WdVQ5T0RvR1l1QTRUb1g2ejduczNRSQ?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Block Inc. Stock: Shares Rise Over 3% in Premarket Trading on April 30, 2026 - AD HOC NEWS",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONFNRS054UXlkeWVxN0NtQjZWLUFuc2dQVE1zMHZQMDYtbVBMSXV0TUdzVTVjZEtzdU01TVN3RnEtb3g4ZHNBcTVyWUNLdi10WnRVeC10YzJiaWRkZDJ0aldxWHRQcmVXQVFNc1UxUW85bmZLZUtiMkRKSF9aTUUtU1NmU2hkOC1UTXQ1QmpxLU44TEJXU1hnRHhCZENUdTB6dmctRzlvWFlhYkNaTnh3aE9mWjVrcWo4NmR3VVFfc0tuZXc?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Block, Inc. (NYSE:SQ) Q4 2025 Earnings Call Transcript - Insider Monkey",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVTQwUTFwSkJYaUVma016cm1hMERpZEJxTnFzbi1zWnhLNVdVTU5sSW9VYWVzbTJ2TU1zSGNKcDMxRWNMVVNrZHlsMGJJNjRMQmMyYXRHN05JYlh6ZWhfOXlyNHJtWHhWcTVfRV9NZGdGM3d5NEpUYkRoNTR3Yi0ycDUxZnpxWXJhNWxHRjAzSXM4MlVKQUpsaQ?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Square",
+      "first_detected": "2026-06-16T18:42:34.449006+00:00"
     }
   ],
   "most_mentioned": [
@@ -218,15 +240,11 @@
     },
     {
       "company": "DoorDash",
-      "count": 30
-    },
-    {
-      "company": "NCR Voyix",
-      "count": 27
+      "count": 29
     },
     {
       "company": "Global Payments",
-      "count": 26
+      "count": 27
     },
     {
       "company": "Sparkfly",
@@ -234,6 +252,10 @@
     },
     {
       "company": "Fiserv",
+      "count": 25
+    },
+    {
+      "company": "Paytronix",
       "count": 25
     }
   ]
