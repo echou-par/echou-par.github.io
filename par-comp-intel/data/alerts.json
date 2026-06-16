@@ -1,11 +1,23 @@
 {
-  "updated": "2026-06-16T06:10:41.628710+00:00",
-  "total": 3,
+  "updated": "2026-06-16T11:42:40.346992+00:00",
+  "total": 4,
   "by_category": {
-    "executive_departure": 1,
+    "executive_departure": 2,
     "stock_move": 2
   },
   "alerts": [
+    {
+      "category": "executive_departure",
+      "severity": "high",
+      "company": "Fiserv",
+      "headline": "Michael Burry Stays Bullish On FISV Stock Despite \u2018Thesis Violation\u2019 Triggered By CEO Exit, Buys The Dip - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQdGN0b2JTOVFwd1JYVXdjQXFNTDBvU2RJb3BPcWluWEFkMkNET0s1N3kyMERYWFhBRHR3TjBCdWlicHl5TFNaUmFYZ1B1OU9GcG9ZNm8zeHZwLVlyTDB4VFZYMlJpSDZRZVNXNjJzRlpXY19nSTh2aFdTdk9ZV0lxQXBpWXdudWZCTzlONW96OVdVRktqa3ZOMTBHbmZzYVhpU1puYjFxNDVQY0pfTnpFbWwyRXR3aHZOYVZsWm5Lamx5cTJZMU9QNFVRaXBRNEo5U1p1X0lIUjRwdnJoODdZV2x6VHlCbEgzU01IdXIyMWlIUmZm?oc=5",
+      "source": "Google News",
+      "date": "Tue, 16 Jun 2026 03:23:00 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-06-16T11:42:40.346992+00:00"
+    },
     {
       "category": "executive_departure",
       "severity": "high",
@@ -16,7 +28,7 @@
       "date": "Mon, 15 Jun 2026 17:16:07 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-06-16T06:10:41.628710+00:00"
+      "detected_at": "2026-06-16T11:42:40.346992+00:00"
     },
     {
       "category": "stock_move",
@@ -25,10 +37,10 @@
       "headline": "PAR (PAR) stock up 10.1% over the past week",
       "url": "https://finance.yahoo.com/quote/PAR",
       "source": "Yahoo Finance",
-      "date": "2026-06-16T06:10:41.628710+00:00",
+      "date": "2026-06-16T11:42:40.346992+00:00",
       "par_relevance": 3,
       "note": "+10.1% 1W",
-      "detected_at": "2026-06-16T06:10:41.628710+00:00"
+      "detected_at": "2026-06-16T11:42:40.346992+00:00"
     },
     {
       "category": "stock_move",
@@ -37,10 +49,10 @@
       "headline": "DoorDash (DASH) stock up 8.0% over the past week",
       "url": "https://finance.yahoo.com/quote/DASH",
       "source": "Yahoo Finance",
-      "date": "2026-06-16T06:10:41.628710+00:00",
+      "date": "2026-06-16T11:42:40.346992+00:00",
       "par_relevance": 2,
       "note": "+8.0% 1W",
-      "detected_at": "2026-06-16T06:10:41.628710+00:00"
+      "detected_at": "2026-06-16T11:42:40.346992+00:00"
     }
   ]
 }
