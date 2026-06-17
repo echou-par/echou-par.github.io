@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T17:31:40.427621+00:00",
+  "updated": "2026-06-17T20:23:17.426312+00:00",
   "total": 5,
   "by_category": {
     "executive_departure": 3,
@@ -16,7 +16,7 @@
       "date": "Tue, 16 Jun 2026 14:11:40 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-06-17T17:31:40.427621+00:00"
+      "detected_at": "2026-06-17T20:23:17.426312+00:00"
     },
     {
       "category": "executive_departure",
@@ -28,7 +28,7 @@
       "date": "Tue, 16 Jun 2026 03:23:00 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-06-17T17:31:40.427621+00:00"
+      "detected_at": "2026-06-17T20:23:17.426312+00:00"
     },
     {
       "category": "executive_departure",
@@ -40,31 +40,31 @@
       "date": "Mon, 15 Jun 2026 17:16:07 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-06-17T17:31:40.427621+00:00"
+      "detected_at": "2026-06-17T20:23:17.426312+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
-      "company": "NCR Voyix",
-      "headline": "NCR Voyix (VYX) stock up 7.5% over the past week",
-      "url": "https://finance.yahoo.com/quote/VYX",
+      "company": "Fiserv",
+      "headline": "Fiserv (FISV) stock down 8.1% over the past week",
+      "url": "https://finance.yahoo.com/quote/FISV",
       "source": "Yahoo Finance",
-      "date": "2026-06-17T17:31:40.427621+00:00",
+      "date": "2026-06-17T20:23:17.426312+00:00",
       "par_relevance": 3,
-      "note": "+7.5% 1W",
-      "detected_at": "2026-06-17T17:31:40.427621+00:00"
+      "note": "-8.1% 1W",
+      "detected_at": "2026-06-17T20:23:17.426312+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "DoorDash",
-      "headline": "DoorDash (DASH) stock up 11.1% over the past week",
+      "headline": "DoorDash (DASH) stock up 7.2% over the past week",
       "url": "https://finance.yahoo.com/quote/DASH",
       "source": "Yahoo Finance",
-      "date": "2026-06-17T17:31:40.427621+00:00",
+      "date": "2026-06-17T20:23:17.426312+00:00",
       "par_relevance": 2,
-      "note": "+11.1% 1W",
-      "detected_at": "2026-06-17T17:31:40.427621+00:00"
+      "note": "+7.2% 1W",
+      "detected_at": "2026-06-17T20:23:17.426312+00:00"
     }
   ]
 }
