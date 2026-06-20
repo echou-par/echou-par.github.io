@@ -2,7 +2,7 @@
   "date": "2026-06-20",
   "weekday": "Saturday",
   "first_seen": "2026-06-20T04:18:11.916382+00:00",
-  "last_updated": "2026-06-20T17:05:17.802241+00:00",
+  "last_updated": "2026-06-20T18:55:50.358803+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive Investors\"",
@@ -132,7 +132,7 @@
       "first_detected": "2026-06-20T04:18:11.916382+00:00"
     },
     {
-      "text": "PAR shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Keith Pascal Bought 45% More Shares In PAR Technology - simplywall.st\"",
+      "text": "PAR shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Keith Pascal Bought 45% More Shares In PAR Technology - simplywall.st\"",
       "sources": [
         {
           "title": "Keith Pascal Bought 45% More Shares In PAR Technology - simplywall.st",
@@ -145,8 +145,8 @@
           "source": "Google News"
         },
         {
-          "title": "Insider Buying: Keith Pascal Acquires Shares of PAR Technology C - GuruFocus",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUm5kSU9qN2RyUnB6ajRSMGZNTFZDcmRtR05uZzlLTnpyZ21CXzFkWXFkTFNkMU9BYmZwZmxqVGNjS3ZqU014VE5ueXlyelNNV3djVFJTMGoxQVA5U1pzREhoS29yc3dkdlBtYTc5c09pSVdRZVZYZm9Wa2ZxcVhyUGFJRGJLNFM0bVZKVEZOMU1UT25yS3UwVFZjYk1JcEtXNEU2TUwtUFl4ejRnWkRzUl8yZGhkUm9I?oc=5",
+          "title": "PAR Technology (NYSE:PAR) Major Shareholder Buys $2,320,297.65 in Stock - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMFRCSEJtQXZEc0J6X2gwVDNMdVVGel9aUFZNVF9ieXRZQ3ZtOW00LUx5a01yRU9Pak1kZjZPMVA2S05wV0J6bjhoWWZDeUpQYkIzR1k1eW11SWJJb2V0Tm16NnBsRURnNm9xXzBsYU5Wb1IwUnllcVVrZ0h0TW5CQTRGcUxCRzBHaHg5WDVKcVpJWjNHMVNWMDRablVoRzZKSTA1Q0VuUzd2V2FkcURlalQ0U2hLSTdTOEE?oc=5",
           "source": "Google News"
         }
       ],
@@ -218,18 +218,26 @@
   "most_mentioned": [
     {
       "company": "DoorDash",
-      "count": 18
+      "count": 19
+    },
+    {
+      "company": "NCR Voyix",
+      "count": 17
+    },
+    {
+      "company": "TouchBistro",
+      "count": 17
+    },
+    {
+      "company": "Global Payments",
+      "count": 16
     },
     {
       "company": "PAR",
       "count": 16
     },
     {
-      "company": "NCR Voyix",
-      "count": 16
-    },
-    {
-      "company": "Square",
+      "company": "SpotOn",
       "count": 16
     },
     {
@@ -237,15 +245,7 @@
       "count": 16
     },
     {
-      "company": "Global Payments",
-      "count": 15
-    },
-    {
-      "company": "Toast",
-      "count": 15
-    },
-    {
-      "company": "Deliverect",
+      "company": "Shift4",
       "count": 15
     }
   ]
