@@ -1,11 +1,23 @@
 {
-  "updated": "2026-06-22T17:58:04.970814+00:00",
+  "updated": "2026-06-22T18:31:37.734646+00:00",
   "total": 2,
   "by_category": {
-    "executive_departure": 1,
-    "stock_move": 1
+    "guidance_cut": 1,
+    "executive_departure": 1
   },
   "alerts": [
+    {
+      "category": "guidance_cut",
+      "severity": "high",
+      "company": "Toast",
+      "headline": "Toast (TOST) Stock Could Be 27% Undervalued After Hungry Howie\u2019s Win And Soft Guidance - simplywall.st",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUmY1ZGVjMW16ZUdoajlSVHJ0SkdqNDBUY3ZSVnBfemRMdW9PRHdBa3hZMTFKWXJLczFkNXZ4SXpOX3FzSUptdjJXam5wWFFtSVppY1o3MjhNWEtTXzdwZ29ia2dDZ1UzT3NXanBfb1FYRHJrdGd5bzhORHVZOG9ULXgydkhwV3VBbkgyVlZBV0FFYnRrSkItNlZtX0w4a1RyU00yVEtRMzloOGlqYll6NFJSOU43aC10cVNMeFZsT2toTDVqUUNMSkRXVDRkbl81Q1HSAdcBQVVfeXFMUEZiQW9uY3BlcDc0eV9NLTh2YkpXN3ZRQzI1WFBGSFJFTjg1bUZmdXJsTmc2YzBNajhHaHI2REo5eFhFU1lWXzR2QUw5T3kxOXVOVGxjRFZCOWc0c0c1RGN2OVVCcUcyTXlHUmFEbzdEWEc4ZVhqX3pvQndIeDR6U0hqMjVNaFFubEY2ZzZWeTZxVmUwYzZ5LThSSFlETnNrYVRnM09XM0ZmaWFQb2JYNkJSLUFkdGNsSERobkdtRU1VTDBFbDZLR3JNcnF0TkM4LWdwYkxhUDA?oc=5",
+      "source": "Google News",
+      "date": "Mon, 22 Jun 2026 01:33:55 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-06-22T18:31:37.734646+00:00"
+    },
     {
       "category": "executive_departure",
       "severity": "high",
@@ -16,19 +28,7 @@
       "date": "Tue, 16 Jun 2026 14:11:40 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-06-22T17:58:04.970814+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "medium",
-      "company": "Lightspeed",
-      "headline": "Lightspeed (LSPD) stock down 7.2% over the past week",
-      "url": "https://finance.yahoo.com/quote/LSPD",
-      "source": "Yahoo Finance",
-      "date": "2026-06-22T17:58:04.970814+00:00",
-      "par_relevance": 3,
-      "note": "-7.2% 1W",
-      "detected_at": "2026-06-22T17:58:04.970814+00:00"
+      "detected_at": "2026-06-22T18:31:37.734646+00:00"
     }
   ]
 }
