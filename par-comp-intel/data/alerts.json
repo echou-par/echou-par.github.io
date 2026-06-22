@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-22T11:15:58.160592+00:00",
-  "total": 6,
+  "updated": "2026-06-22T16:12:44.539972+00:00",
+  "total": 4,
   "by_category": {
     "guidance_cut": 1,
-    "executive_departure": 3,
-    "stock_move": 2
+    "executive_departure": 2,
+    "stock_move": 1
   },
   "alerts": [
     {
@@ -17,7 +17,7 @@
       "date": "Mon, 22 Jun 2026 01:33:55 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-06-22T11:15:58.160592+00:00"
+      "detected_at": "2026-06-22T16:12:44.539972+00:00"
     },
     {
       "category": "executive_departure",
@@ -29,19 +29,7 @@
       "date": "Tue, 16 Jun 2026 14:11:40 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-06-22T11:15:58.160592+00:00"
-    },
-    {
-      "category": "executive_departure",
-      "severity": "high",
-      "company": "Fiserv",
-      "headline": "Michael Burry Stays Bullish On FISV Stock Despite \u2018Thesis Violation\u2019 Triggered By CEO Exit, Buys The Dip - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPSWl1SFNURFVhWTZNTDRtcFRJdkRfOEM1OWNrQ3d1aDFjMmxtN1owQW11bkVsTkp4bDNwd05tV3k5SDdheHRHSnJOMW1JY1dwLU0ycUZnZThjRjlKN2tNVGFaYXIwWk1iUzBUMzU3aGZEZU5FamdlcF9lNDVyU1VON0pIR0NqdloyVFd6eC1RUXhka1hxRl81M1h4cXZ6ZHBlMnRrcmxJdU9lMGRhVzBBM3ZnVzRZSkVxTjdDX3ByMUF3VTN1R2JrR2NDdUhIOFN6YVBnVm9EMWdtRTh0WWswMUFvNV81Q1ZOazdQVWFVa2FZXzQ?oc=5",
-      "source": "Google News",
-      "date": "Tue, 16 Jun 2026 03:23:00 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-06-22T11:15:58.160592+00:00"
+      "detected_at": "2026-06-22T16:12:44.539972+00:00"
     },
     {
       "category": "executive_departure",
@@ -53,31 +41,19 @@
       "date": "Mon, 15 Jun 2026 17:16:07 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-06-22T11:15:58.160592+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "high",
-      "company": "DoorDash",
-      "headline": "DoorDash (DASH) stock up 15.2% over the past week",
-      "url": "https://finance.yahoo.com/quote/DASH",
-      "source": "Yahoo Finance",
-      "date": "2026-06-22T11:15:58.160592+00:00",
-      "par_relevance": 2,
-      "note": "+15.2% 1W",
-      "detected_at": "2026-06-22T11:15:58.160592+00:00"
+      "detected_at": "2026-06-22T16:12:44.539972+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
-      "company": "Fiserv",
-      "headline": "Fiserv (FISV) stock down 11.0% over the past week",
-      "url": "https://finance.yahoo.com/quote/FISV",
+      "company": "Lightspeed",
+      "headline": "Lightspeed (LSPD) stock down 7.0% over the past week",
+      "url": "https://finance.yahoo.com/quote/LSPD",
       "source": "Yahoo Finance",
-      "date": "2026-06-22T11:15:58.160592+00:00",
+      "date": "2026-06-22T16:12:44.539972+00:00",
       "par_relevance": 3,
-      "note": "-11.0% 1W",
-      "detected_at": "2026-06-22T11:15:58.160592+00:00"
+      "note": "-7.0% 1W",
+      "detected_at": "2026-06-22T16:12:44.539972+00:00"
     }
   ]
 }
