@@ -1,11 +1,24 @@
 {
-  "updated": "2026-06-22T19:54:26.054824+00:00",
-  "total": 2,
+  "updated": "2026-06-22T22:09:12.015627+00:00",
+  "total": 3,
   "by_category": {
+    "analyst_downgrade": 1,
     "guidance_cut": 1,
     "executive_departure": 1
   },
   "alerts": [
+    {
+      "category": "analyst_downgrade",
+      "severity": "high",
+      "company": "Shift4",
+      "headline": "Moody\u2019s affirms Shift4 rating, downgrades unsecured notes By Investing.com - Investing.com South Africa",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWmlsSHVEcGFVM3Z6UHg2a2tFc1BUdXdxY21wRVBkWWhfSk5leXR4XzE2Mi1vdUc0VVA0NTlTODJFekRSLTFyNVBhVVhwanpxdFc5VnJTbEEyVGZHSXpSMVRGQWdoazhzLTJISktMOGZueU44Q2tSR0xRQUxSOWdvcUZMckFUS2Z4ZEctMlU1M0FpT1hYV0s3bklxd2k5X1c5M0ZIMGJFdVdYOEFZNUVEQTFpWGhvWGtBZ0p6eVcyeEZTSkFjZkc4?oc=5",
+      "source": "Google News",
+      "date": "Mon, 22 Jun 2026 20:40:07 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-06-22T22:09:12.015627+00:00"
+    },
     {
       "category": "guidance_cut",
       "severity": "high",
@@ -16,7 +29,7 @@
       "date": "Mon, 22 Jun 2026 01:33:55 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-06-22T19:54:26.054824+00:00"
+      "detected_at": "2026-06-22T22:09:12.015627+00:00"
     },
     {
       "category": "executive_departure",
@@ -28,7 +41,7 @@
       "date": "Tue, 16 Jun 2026 14:11:40 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-06-22T19:54:26.054824+00:00"
+      "detected_at": "2026-06-22T22:09:12.015627+00:00"
     }
   ]
 }
