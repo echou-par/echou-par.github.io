@@ -1,11 +1,24 @@
 {
-  "updated": "2026-06-21T23:52:21.552720+00:00",
-  "total": 4,
+  "updated": "2026-06-22T05:10:13.639505+00:00",
+  "total": 6,
   "by_category": {
-    "executive_departure": 2,
+    "guidance_cut": 1,
+    "executive_departure": 3,
     "stock_move": 2
   },
   "alerts": [
+    {
+      "category": "guidance_cut",
+      "severity": "high",
+      "company": "Toast",
+      "headline": "Toast (TOST) Stock Could Be 27% Undervalued After Hungry Howie\u2019s Win And Soft Guidance - simplywall.st",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUmY1ZGVjMW16ZUdoajlSVHJ0SkdqNDBUY3ZSVnBfemRMdW9PRHdBa3hZMTFKWXJLczFkNXZ4SXpOX3FzSUptdjJXam5wWFFtSVppY1o3MjhNWEtTXzdwZ29ia2dDZ1UzT3NXanBfb1FYRHJrdGd5bzhORHVZOG9ULXgydkhwV3VBbkgyVlZBV0FFYnRrSkItNlZtX0w4a1RyU00yVEtRMzloOGlqYll6NFJSOU43aC10cVNMeFZsT2toTDVqUUNMSkRXVDRkbl81Q1HSAdcBQVVfeXFMUEZiQW9uY3BlcDc0eV9NLTh2YkpXN3ZRQzI1WFBGSFJFTjg1bUZmdXJsTmc2YzBNajhHaHI2REo5eFhFU1lWXzR2QUw5T3kxOXVOVGxjRFZCOWc0c0c1RGN2OVVCcUcyTXlHUmFEbzdEWEc4ZVhqX3pvQndIeDR6U0hqMjVNaFFubEY2ZzZWeTZxVmUwYzZ5LThSSFlETnNrYVRnM09XM0ZmaWFQb2JYNkJSLUFkdGNsSERobkdtRU1VTDBFbDZLR3JNcnF0TkM4LWdwYkxhUDA?oc=5",
+      "source": "Google News",
+      "date": "Mon, 22 Jun 2026 01:33:55 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-06-22T05:10:13.639505+00:00"
+    },
     {
       "category": "executive_departure",
       "severity": "high",
@@ -16,7 +29,19 @@
       "date": "Tue, 16 Jun 2026 14:11:40 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-06-21T23:52:21.552720+00:00"
+      "detected_at": "2026-06-22T05:10:13.639505+00:00"
+    },
+    {
+      "category": "executive_departure",
+      "severity": "high",
+      "company": "Fiserv",
+      "headline": "Michael Burry Stays Bullish On FISV Stock Despite \u2018Thesis Violation\u2019 Triggered By CEO Exit, Buys The Dip - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQdGN0b2JTOVFwd1JYVXdjQXFNTDBvU2RJb3BPcWluWEFkMkNET0s1N3kyMERYWFhBRHR3TjBCdWlicHl5TFNaUmFYZ1B1OU9GcG9ZNm8zeHZwLVlyTDB4VFZYMlJpSDZRZVNXNjJzRlpXY19nSTh2aFdTdk9ZV0lxQXBpWXdudWZCTzlONW96OVdVRktqa3ZOMTBHbmZzYVhpU1puYjFxNDVQY0pfTnpFbWwyRXR3aHZOYVZsWm5Lamx5cTJZMU9QNFVRaXBRNEo5U1p1X0lIUjRwdnJoODdZV2x6VHlCbEgzU01IdXIyMWlIUmZm?oc=5",
+      "source": "Google News",
+      "date": "Tue, 16 Jun 2026 03:23:00 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-06-22T05:10:13.639505+00:00"
     },
     {
       "category": "executive_departure",
@@ -28,7 +53,7 @@
       "date": "Mon, 15 Jun 2026 17:16:07 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-06-21T23:52:21.552720+00:00"
+      "detected_at": "2026-06-22T05:10:13.639505+00:00"
     },
     {
       "category": "stock_move",
@@ -37,10 +62,10 @@
       "headline": "DoorDash (DASH) stock up 15.2% over the past week",
       "url": "https://finance.yahoo.com/quote/DASH",
       "source": "Yahoo Finance",
-      "date": "2026-06-21T23:52:21.552720+00:00",
+      "date": "2026-06-22T05:10:13.639505+00:00",
       "par_relevance": 2,
       "note": "+15.2% 1W",
-      "detected_at": "2026-06-21T23:52:21.552720+00:00"
+      "detected_at": "2026-06-22T05:10:13.639505+00:00"
     },
     {
       "category": "stock_move",
@@ -49,10 +74,10 @@
       "headline": "Fiserv (FISV) stock down 11.0% over the past week",
       "url": "https://finance.yahoo.com/quote/FISV",
       "source": "Yahoo Finance",
-      "date": "2026-06-21T23:52:21.552720+00:00",
+      "date": "2026-06-22T05:10:13.639505+00:00",
       "par_relevance": 3,
       "note": "-11.0% 1W",
-      "detected_at": "2026-06-21T23:52:21.552720+00:00"
+      "detected_at": "2026-06-22T05:10:13.639505+00:00"
     }
   ]
 }
