@@ -2,7 +2,7 @@
   "date": "2026-06-23",
   "weekday": "Tuesday",
   "first_seen": "2026-06-23T04:07:42.765422+00:00",
-  "last_updated": "2026-06-23T16:07:48.916938+00:00",
+  "last_updated": "2026-06-23T17:00:06.142514+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive Investors\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-06-23T04:07:42.765422+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Deliverect and 5&5 partner to streamline restaurant digital ordering - Verdict Food Service\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 12 tracked partnership items this cycle. Latest: \"Deliverect and 5&5 partner to streamline restaurant digital ordering - Verdict Food Service\"",
       "sources": [
         {
           "title": "Deliverect and 5&5 partner to streamline restaurant digital ordering - Verdict Food Service",
@@ -224,6 +224,23 @@
       ],
       "company": "Lightspeed",
       "first_detected": "2026-06-23T16:07:48.916938+00:00"
+    },
+    {
+      "text": "Square shows concentrated risk activity \u2014 2 tracked risk items this cycle. Latest: \"Is Block Inc. (SQ) Navigating a Shifting Fintech Landscape, or Is It Signaling Deeper Concerns - Kavout\"",
+      "sources": [
+        {
+          "title": "Is Block Inc. (SQ) Navigating a Shifting Fintech Landscape, or Is It Signaling Deeper Concerns - Kavout",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSTJTVl9zdUhsaGNYNWJDWHQ0X1lLYkZhRktjUUJQU3l3WThHNkFXd0E1c0tyVmpXYm4wOGlRM2FPT0wwenJoSmZrQjkwZWpLeWVsVDZCRnhvYlgyRHUtT1pVZGZfSzN3Yl9aaXVBTU9obWl2YzRrSnFqY1pSZDItTUd4YWVjRkItc2tGQ2ZJQmlfVFFPVEduLTktSU9jVF81WEhPTmRLd1RyMndKQ2NoUmROZk5Wc3JVMGJpOHhiZllBZzg?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Fintech giant Block Inc. confirms Atlanta layoffs - The Business Journals",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcHY0TlViYjllVnJuN1p0VjZSWV9KSXdPbjM1QndWN290VlpUUkJqZngtYnBVVnQ2Sm14bGpGeWc1aVhzVE5DaWQxcER0WTBSYWlaY2ZQQkE4LTN4by1HTW1fRjg2Z0lwWm9FMHlNOEtHZ1BWLWI3dEJnTlZMTW93VS1SdTIzdy12MmU3cXVtQ2xVeWlxMDlzaTBoYWN6Z3RGbHNrTFJBcw?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Square",
+      "first_detected": "2026-06-23T17:00:06.142514+00:00"
     }
   ],
   "most_mentioned": [
@@ -233,7 +250,7 @@
     },
     {
       "company": "Lightspeed",
-      "count": 34
+      "count": 35
     },
     {
       "company": "SpotOn",
