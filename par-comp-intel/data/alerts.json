@@ -1,83 +1,58 @@
 {
-  "updated": "2026-06-24T18:19:37.130131+00:00",
-  "total": 6,
+  "updated": "2026-06-24T20:19:24.170044+00:00",
+  "total": 4,
   "by_category": {
     "analyst_downgrade": 1,
-    "guidance_cut": 1,
-    "stock_move": 4
+    "stock_move": 3
   },
   "alerts": [
     {
       "category": "analyst_downgrade",
       "severity": "high",
       "company": "Shift4",
-      "headline": "Moody\u2019s affirms Shift4 rating, downgrades unsecured notes - Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUlVLUmhIQkdHNW9vRHVZaElNUTZKU1FhdGs5ZWsybUZqbzJxa051b0ZwbVNTck1kLTJFUm1mQmx6d2lrX3R0YmxGZjhlZ3gtejNUM3dDYWxnN21FMEtpVlZHbExwaEpxTUk5ektROGxFSFYyaTh5X2NKZ0MtbjlqYTNXaVdoazZIRGRtVl9Lel83SjhSNXNtUXhfS3JhWWZLZHZNWVlybXFEa0R1Ql9GLVByem02bG9M?oc=5",
+      "headline": "Moody\u2019s affirms Shift4 rating, downgrades unsecured notes By Investing.com - Investing.com Nigeria",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYW0zQ2drbmtWWHdvUFRNLUtrWi0zMFA0dDF6N3FkX2lOVWo4YUM1M1hWazBRZU00UkxxNmt2Mmh2M0RQZ0pqeW5OdmdncFFMMHhWdC1rMXMyVnRSUk9OMlpJdzlJUTM2ZXNWWFBSRTdhaEJLX3RONnkzc3hkR2FXV1ROOGx1S2pFclMwVlE5SzAteS1oUlU4cThsTnNlLU9GWno0c2VmeEI5UndMakc2UDlhOWEweFk?oc=5",
       "source": "Google News",
-      "date": "Mon, 22 Jun 2026 20:12:45 GMT",
+      "date": "Mon, 22 Jun 2026 20:17:59 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-06-24T18:19:37.130131+00:00"
+      "detected_at": "2026-06-24T20:19:24.170044+00:00"
     },
     {
-      "category": "guidance_cut",
+      "category": "stock_move",
       "severity": "high",
-      "company": "Toast",
-      "headline": "Toast (TOST) Stock Could Be 27% Undervalued After Hungry Howie\u2019s Win And Soft Guidance - simplywall.st",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUmY1ZGVjMW16ZUdoajlSVHJ0SkdqNDBUY3ZSVnBfemRMdW9PRHdBa3hZMTFKWXJLczFkNXZ4SXpOX3FzSUptdjJXam5wWFFtSVppY1o3MjhNWEtTXzdwZ29ia2dDZ1UzT3NXanBfb1FYRHJrdGd5bzhORHVZOG9ULXgydkhwV3VBbkgyVlZBV0FFYnRrSkItNlZtX0w4a1RyU00yVEtRMzloOGlqYll6NFJSOU43aC10cVNMeFZsT2toTDVqUUNMSkRXVDRkbl81Q1HSAdcBQVVfeXFMUEZiQW9uY3BlcDc0eV9NLTh2YkpXN3ZRQzI1WFBGSFJFTjg1bUZmdXJsTmc2YzBNajhHaHI2REo5eFhFU1lWXzR2QUw5T3kxOXVOVGxjRFZCOWc0c0c1RGN2OVVCcUcyTXlHUmFEbzdEWEc4ZVhqX3pvQndIeDR6U0hqMjVNaFFubEY2ZzZWeTZxVmUwYzZ5LThSSFlETnNrYVRnM09XM0ZmaWFQb2JYNkJSLUFkdGNsSERobkdtRU1VTDBFbDZLR3JNcnF0TkM4LWdwYkxhUDA?oc=5",
-      "source": "Google News",
-      "date": "Mon, 22 Jun 2026 01:33:55 GMT",
+      "company": "Shift4",
+      "headline": "Shift4 (FOUR) stock up 12.9% over the past week",
+      "url": "https://finance.yahoo.com/quote/FOUR",
+      "source": "Yahoo Finance",
+      "date": "2026-06-24T20:19:24.170044+00:00",
       "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-06-24T18:19:37.130131+00:00"
+      "note": "+12.9% 1W",
+      "detected_at": "2026-06-24T20:19:24.170044+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "PAR",
-      "headline": "PAR (PAR) stock up 9.8% over the past week",
+      "headline": "PAR (PAR) stock up 10.3% over the past week",
       "url": "https://finance.yahoo.com/quote/PAR",
       "source": "Yahoo Finance",
-      "date": "2026-06-24T18:19:37.130131+00:00",
+      "date": "2026-06-24T20:19:24.170044+00:00",
       "par_relevance": 3,
-      "note": "+9.8% 1W",
-      "detected_at": "2026-06-24T18:19:37.130131+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "medium",
-      "company": "Toast",
-      "headline": "Toast (TOST) stock up 7.5% over the past week",
-      "url": "https://finance.yahoo.com/quote/TOST",
-      "source": "Yahoo Finance",
-      "date": "2026-06-24T18:19:37.130131+00:00",
-      "par_relevance": 3,
-      "note": "+7.5% 1W",
-      "detected_at": "2026-06-24T18:19:37.130131+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "medium",
-      "company": "Shift4",
-      "headline": "Shift4 (FOUR) stock up 10.5% over the past week",
-      "url": "https://finance.yahoo.com/quote/FOUR",
-      "source": "Yahoo Finance",
-      "date": "2026-06-24T18:19:37.130131+00:00",
-      "par_relevance": 3,
-      "note": "+10.5% 1W",
-      "detected_at": "2026-06-24T18:19:37.130131+00:00"
+      "note": "+10.3% 1W",
+      "detected_at": "2026-06-24T20:19:24.170044+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "DoorDash",
-      "headline": "DoorDash (DASH) stock up 8.8% over the past week",
+      "headline": "DoorDash (DASH) stock up 7.4% over the past week",
       "url": "https://finance.yahoo.com/quote/DASH",
       "source": "Yahoo Finance",
-      "date": "2026-06-24T18:19:37.130131+00:00",
+      "date": "2026-06-24T20:19:24.170044+00:00",
       "par_relevance": 2,
-      "note": "+8.8% 1W",
-      "detected_at": "2026-06-24T18:19:37.130131+00:00"
+      "note": "+7.4% 1W",
+      "detected_at": "2026-06-24T20:19:24.170044+00:00"
     }
   ]
 }
