@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-24T16:37:32.954624+00:00",
-  "total": 5,
+  "updated": "2026-06-24T18:19:37.130131+00:00",
+  "total": 6,
   "by_category": {
     "analyst_downgrade": 1,
     "guidance_cut": 1,
-    "stock_move": 3
+    "stock_move": 4
   },
   "alerts": [
     {
@@ -17,7 +17,7 @@
       "date": "Mon, 22 Jun 2026 20:12:45 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-06-24T16:37:32.954624+00:00"
+      "detected_at": "2026-06-24T18:19:37.130131+00:00"
     },
     {
       "category": "guidance_cut",
@@ -29,43 +29,55 @@
       "date": "Mon, 22 Jun 2026 01:33:55 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-06-24T16:37:32.954624+00:00"
+      "detected_at": "2026-06-24T18:19:37.130131+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "PAR",
-      "headline": "PAR (PAR) stock up 10.4% over the past week",
+      "headline": "PAR (PAR) stock up 9.8% over the past week",
       "url": "https://finance.yahoo.com/quote/PAR",
       "source": "Yahoo Finance",
-      "date": "2026-06-24T16:37:32.954624+00:00",
+      "date": "2026-06-24T18:19:37.130131+00:00",
       "par_relevance": 3,
-      "note": "+10.4% 1W",
-      "detected_at": "2026-06-24T16:37:32.954624+00:00"
+      "note": "+9.8% 1W",
+      "detected_at": "2026-06-24T18:19:37.130131+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "medium",
+      "company": "Toast",
+      "headline": "Toast (TOST) stock up 7.5% over the past week",
+      "url": "https://finance.yahoo.com/quote/TOST",
+      "source": "Yahoo Finance",
+      "date": "2026-06-24T18:19:37.130131+00:00",
+      "par_relevance": 3,
+      "note": "+7.5% 1W",
+      "detected_at": "2026-06-24T18:19:37.130131+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "Shift4",
-      "headline": "Shift4 (FOUR) stock up 9.8% over the past week",
+      "headline": "Shift4 (FOUR) stock up 10.5% over the past week",
       "url": "https://finance.yahoo.com/quote/FOUR",
       "source": "Yahoo Finance",
-      "date": "2026-06-24T16:37:32.954624+00:00",
+      "date": "2026-06-24T18:19:37.130131+00:00",
       "par_relevance": 3,
-      "note": "+9.8% 1W",
-      "detected_at": "2026-06-24T16:37:32.954624+00:00"
+      "note": "+10.5% 1W",
+      "detected_at": "2026-06-24T18:19:37.130131+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "DoorDash",
-      "headline": "DoorDash (DASH) stock up 8.7% over the past week",
+      "headline": "DoorDash (DASH) stock up 8.8% over the past week",
       "url": "https://finance.yahoo.com/quote/DASH",
       "source": "Yahoo Finance",
-      "date": "2026-06-24T16:37:32.954624+00:00",
+      "date": "2026-06-24T18:19:37.130131+00:00",
       "par_relevance": 2,
-      "note": "+8.7% 1W",
-      "detected_at": "2026-06-24T16:37:32.954624+00:00"
+      "note": "+8.8% 1W",
+      "detected_at": "2026-06-24T18:19:37.130131+00:00"
     }
   ]
 }
