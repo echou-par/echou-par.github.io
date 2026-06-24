@@ -1,23 +1,11 @@
 {
-  "updated": "2026-06-24T11:24:30.736920+00:00",
+  "updated": "2026-06-24T13:38:16.371241+00:00",
   "total": 2,
   "by_category": {
-    "analyst_downgrade": 1,
-    "guidance_cut": 1
+    "guidance_cut": 1,
+    "stock_move": 1
   },
   "alerts": [
-    {
-      "category": "analyst_downgrade",
-      "severity": "high",
-      "company": "Shift4",
-      "headline": "Moody\u2019s affirms Shift4 rating, downgrades unsecured notes - Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUlVLUmhIQkdHNW9vRHVZaElNUTZKU1FhdGs5ZWsybUZqbzJxa051b0ZwbVNTck1kLTJFUm1mQmx6d2lrX3R0YmxGZjhlZ3gtejNUM3dDYWxnN21FMEtpVlZHbExwaEpxTUk5ektROGxFSFYyaTh5X2NKZ0MtbjlqYTNXaVdoazZIRGRtVl9Lel83SjhSNXNtUXhfS3JhWWZLZHZNWVlybXFEa0R1Ql9GLVByem02bG9M?oc=5",
-      "source": "Google News",
-      "date": "Mon, 22 Jun 2026 20:12:45 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-06-24T11:24:30.736920+00:00"
-    },
     {
       "category": "guidance_cut",
       "severity": "high",
@@ -28,7 +16,19 @@
       "date": "Mon, 22 Jun 2026 01:33:55 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-06-24T11:24:30.736920+00:00"
+      "detected_at": "2026-06-24T13:38:16.371241+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "medium",
+      "company": "PAR",
+      "headline": "PAR (PAR) stock up 7.7% over the past week",
+      "url": "https://finance.yahoo.com/quote/PAR",
+      "source": "Yahoo Finance",
+      "date": "2026-06-24T13:38:16.371241+00:00",
+      "par_relevance": 3,
+      "note": "+7.7% 1W",
+      "detected_at": "2026-06-24T13:38:16.371241+00:00"
     }
   ]
 }
