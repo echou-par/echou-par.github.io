@@ -2,7 +2,7 @@
   "date": "2026-06-25",
   "weekday": "Thursday",
   "first_seen": "2026-06-25T06:15:02.344430+00:00",
-  "last_updated": "2026-06-25T15:57:10.717748+00:00",
+  "last_updated": "2026-06-25T16:40:34.670682+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news\"",
@@ -207,6 +207,28 @@
       ],
       "company": "TouchBistro",
       "first_detected": "2026-06-25T15:57:10.717748+00:00"
+    },
+    {
+      "text": "Lightspeed shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Founder Led Stocks Worth Watching In Software Payments And Quantum Computing - simplywall.st\"",
+      "sources": [
+        {
+          "title": "Founder Led Stocks Worth Watching In Software Payments And Quantum Computing - simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPc2RVSzVIZWp5UVExMC1WV0NGUFFUdHZkSVFLQTZUNU8zWXpSX0FIamp0ekthd1c1VlBlXzdYbmlteGdTNFdmRWUwUnlaZ0RFSENoMjVDaTdiMFJVd1Y1b2kwclNPcWJ6LUJERXc1UWRXemN4RDU3OGNrZXpEZlEwbU9XZ0Q4cWRjMnlEeE9SS1R4N0lLa1JJMFVqa0VNVDBZS3UxT2JCLTRJYlJvUnlmSXZpeDZvTFFleW94TjlnWHUwVllzVmdwWjBzSGN4LU9kR2xhZ01LbmFCd9IB3wFBVV95cUxNRkVBWlZ4WkMwNkYyY2ZQTW9tQms5aVVpQWdfbGpUUVhDZ3ZiUXNQbnJqWkF4aVRxbDc5NnBPSFJwTUo0SjktZncxazhKX0FxVjBLTUthWlFSX19LOTNLdjlVNVVDV1FOeXE1QWJhQjRlOWxYUDYyc1BiVTVzQkhfVU5TNzFNY3k1Tl9BZ0Rob2NzTFlScVBadVVOSGF3NmtGRWtrNjhaNmNHY2F0dWhxNUNsMkhZWnl5Tmc5NXhLUExubjBuTG5PcWJiV21IVjBvRkZNcTdhOW5ha1B0VGhF?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Lightspeed Stock And 2 Fast Growing Insider Owned Shares Worth Watching - simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQWhVUkpYYVcyZXFDQXZKQndvYmVzV1JJNkJjZGVobEhrYTdCaWNyYUo3ZVQ3WjBXdkVUbEliX0RWdkFydlZsbVFXdWlwbmZHUVNGbW5PM3NNdTJYSXFrc0liU1dEWlc2TElFUkctNWRqdEhkYWo1WWxxNnJwNm9VY2JrdG43Q3AyMFF3Tm1PeGJZQW9TaGo2WklsR0JvaWVHM3hHSlloZHplTjRTazFHazJ1cExRZEFnbXRDRDVvUzVlOU0yejlLSXhMc012UHU5SWMySXBFeUduQdIB3wFBVV95cUxPVlI2NHZRaHBEc2xEN19WVjdiOWwwZUNkLTFNbHhGLUswcEQzR0pvMjVtVUp1LUZqZGFCVXVRTkJ3ZXZLcUx5M0NCWE5wMkQtczltUjNMOFNYNEJCRE1iOXhCR3RNSEJnM3hjTTlnMnRJZ0JHMmJzZ3lPelduQTZiWWhrM3BETUR6TjBseGU4c0N0N0VlelBLRmVGWUVtUHpRNnhpVlVBV3NIVEpsSHdMOF9TdG5YWW5mZVBuenRodTdBdDlNT1F1bEJXbWdJVXNpRjRnM0x3WUMxLVdud2pN?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "FIFO vs. LIFO: A Comparative Analysis of Inventory Valuation Methods",
+          "url": "https://www.lightspeedhq.com/blog/fifo-vs-lifo/",
+          "source": "Lightspeed blog"
+        }
+      ],
+      "company": "Lightspeed",
+      "first_detected": "2026-06-25T16:40:34.670682+00:00"
     }
   ],
   "most_mentioned": [
@@ -215,11 +237,11 @@
       "count": 50
     },
     {
-      "company": "Lightspeed",
-      "count": 35
+      "company": "SpotOn",
+      "count": 36
     },
     {
-      "company": "SpotOn",
+      "company": "Lightspeed",
       "count": 35
     },
     {
