@@ -2,7 +2,7 @@
   "date": "2026-06-26",
   "weekday": "Friday",
   "first_seen": "2026-06-26T04:17:49.355594+00:00",
-  "last_updated": "2026-06-26T08:08:40.884184+00:00",
+  "last_updated": "2026-06-26T11:25:47.817890+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news\"",
@@ -118,52 +118,31 @@
       "text": "Shift4 (FOUR) stock gained 11.1% over the past week \u2014 material weekly move relative to broader cohort.",
       "sources": [
         {
-          "title": "FOUR Initiates Coverage On Shift4 Payments -- Rating Set to Hold - GuruFocus",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM2ZCVUhINmhMazB4bzZ3RElCeWVlbUpRbFlsamtub2h5SDVtMU5xdnhzOWRIcnhqU1JRZm56MUZIcWY1cHNsb1BmUzhNYVNkQVpYQXo4T0gxTFpwUkw4ZmRDZUpmeGh5UFFyWFNMZHBBSmpJUURVbXZNV2YwN0hZTUo2MDJDUHc3WFdWaFdPQXRWdnNjMjFTVW41eHgzS1lxdGVXQkdpTFlfWlhvTnNoaXp3?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Shift4 Payments (FOUR) Receives Hold Rating from Loop Capital - GuruFocus",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOU3U0NEhfMnNMMlhHOTNtYjBNX25abzdna3c0TFJlaE84b1ViMnF6U2NZNVlCUWlwYjQ1N0hSRzlLaU1VSkthS0RpU2hWT0VHQmJPVjF6MWVmRUlYMDNKamZUNGJJclA3VWt1N1BMWl9fOFVKd0JOSjJXd25TTGNqNGRNd2ZZQW1GRTBPUVNQUl9wd0t5ZjVESHVqdXF0cWc?oc=5",
-          "source": "Google News"
+          "title": "FOUR on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/FOUR",
+          "source": "Yahoo Finance"
         }
       ],
       "company": "Shift4",
       "first_detected": "2026-06-26T04:17:49.355594+00:00"
+    },
+    {
+      "text": "Global Payments (GPN) leading revenue growth at +63.1% YoY \u2014 fastest grower among tracked public competitors.",
+      "sources": [
+        {
+          "title": "Global Payments financials on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/GPN/financials",
+          "source": "Yahoo Finance"
+        }
+      ],
+      "company": "Global Payments",
+      "first_detected": "2026-06-26T11:25:47.817890+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
-      "count": 19
-    },
-    {
-      "company": "Global Payments",
-      "count": 18
-    },
-    {
-      "company": "NCR Voyix",
-      "count": 16
-    },
-    {
       "company": "Paytronix",
-      "count": 16
-    },
-    {
-      "company": "SpotOn",
-      "count": 16
-    },
-    {
-      "company": "TouchBistro",
-      "count": 16
-    },
-    {
-      "company": "Sparkfly",
-      "count": 16
-    },
-    {
-      "company": "Shift4",
-      "count": 15
+      "count": 1
     }
   ]
 }

@@ -1,23 +1,10 @@
 {
-  "updated": "2026-06-26T08:08:40.884184+00:00",
-  "total": 2,
+  "updated": "2026-06-26T11:25:47.817890+00:00",
+  "total": 1,
   "by_category": {
-    "analyst_downgrade": 1,
     "stock_move": 1
   },
   "alerts": [
-    {
-      "category": "analyst_downgrade",
-      "severity": "high",
-      "company": "Shift4",
-      "headline": "Moody\u2019s affirms Shift4 rating, downgrades unsecured notes - Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUlVLUmhIQkdHNW9vRHVZaElNUTZKU1FhdGs5ZWsybUZqbzJxa051b0ZwbVNTck1kLTJFUm1mQmx6d2lrX3R0YmxGZjhlZ3gtejNUM3dDYWxnN21FMEtpVlZHbExwaEpxTUk5ektROGxFSFYyaTh5X2NKZ0MtbjlqYTNXaVdoazZIRGRtVl9Lel83SjhSNXNtUXhfS3JhWWZLZHZNWVlybXFEa0R1Ql9GLVByem02bG9M?oc=5",
-      "source": "Google News",
-      "date": "Mon, 22 Jun 2026 20:12:45 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-06-26T08:08:40.884184+00:00"
-    },
     {
       "category": "stock_move",
       "severity": "medium",
@@ -25,10 +12,10 @@
       "headline": "Shift4 (FOUR) stock up 11.1% over the past week",
       "url": "https://finance.yahoo.com/quote/FOUR",
       "source": "Yahoo Finance",
-      "date": "2026-06-26T08:08:40.884184+00:00",
+      "date": "2026-06-26T11:25:47.817890+00:00",
       "par_relevance": 3,
       "note": "+11.1% 1W",
-      "detected_at": "2026-06-26T08:08:40.884184+00:00"
+      "detected_at": "2026-06-26T11:25:47.817890+00:00"
     }
   ]
 }
