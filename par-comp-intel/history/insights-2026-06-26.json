@@ -2,7 +2,7 @@
   "date": "2026-06-26",
   "weekday": "Friday",
   "first_seen": "2026-06-26T04:17:49.355594+00:00",
-  "last_updated": "2026-06-26T21:48:54.367835+00:00",
+  "last_updated": "2026-06-26T23:14:37.990649+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news\"",
@@ -93,7 +93,7 @@
       "first_detected": "2026-06-26T04:17:49.355594+00:00"
     },
     {
-      "text": "Shift4 shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Price to earnings forward of Shift4 Payments, Inc. \u2013 NYSE:FOUR - TradingView\"",
+      "text": "Shift4 shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Price to earnings forward of Shift4 Payments, Inc. \u2013 NYSE:FOUR - TradingView\"",
       "sources": [
         {
           "title": "Price to earnings forward of Shift4 Payments, Inc. \u2013 NYSE:FOUR - TradingView",
@@ -230,6 +230,28 @@
       ],
       "company": "Toast",
       "first_detected": "2026-06-26T16:22:14.239438+00:00"
+    },
+    {
+      "text": "Olo shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Olo Inc (OLO) Valuation: PE, PB & Fair Value Analysis - TradingKey\"",
+      "sources": [
+        {
+          "title": "Olo Inc (OLO) Valuation: PE, PB & Fair Value Analysis - TradingKey",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE16SDdrNERHV2pmZHpWZWtSV0xZSlg1bU9VdXk5Yy1JdTAzdFJLRW5HNm1xYkwxRGJnV2c0aFA0VmliQ0dSb0g2YXZQQUVvdHA1WTNBWkhnUVkxWDNRdmQ4enlxbUpROEdfZmphQm1fQW8tTFB4VUwxOUxB?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Olo Inc (OLO) Financial Health: Profitability & Balance Sheet Analysis - TradingKey",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0xT3Y1aFJYWkwycVJnZ0p6MFpOeXFvMHpIMVZUNTB5MW9PdkQtTUt2YnRzcGpOZ1BWYWxNaERRUTF2QXlGNGhPVXlscGNOWnNPcmUwU25uN1lGRU9vcjFPTDUtRnp6b0JrUzZpOFVJV2F3ZkZidVBhVQ?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Olo Inc (OLO) Earnings Forecast: Future EPS & Revenue Growth Estimates - TradingKey",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE45RHpqWVdlb1FnU1lzVzBhZmdzdi00bnMyTWVkYUxXTUpVSm9BeWJCN245MzBtREJ3TVZOem9VbWVuLXEwRml0a2I2ZkVHQ1A0dEJBYW5jX2FTUUVyblpsem9HVWRQOEFkMU56czF3?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Olo",
+      "first_detected": "2026-06-26T23:14:37.990649+00:00"
     }
   ],
   "most_mentioned": [
@@ -239,10 +261,14 @@
     },
     {
       "company": "Global Payments",
-      "count": 18
+      "count": 17
     },
     {
       "company": "NCR Voyix",
+      "count": 16
+    },
+    {
+      "company": "Paytronix",
       "count": 16
     },
     {
@@ -259,10 +285,6 @@
     },
     {
       "company": "Lightspeed",
-      "count": 15
-    },
-    {
-      "company": "Shift4",
       "count": 15
     }
   ]
