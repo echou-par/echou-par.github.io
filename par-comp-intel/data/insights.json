@@ -1,6 +1,16 @@
 {
-  "updated": "2026-06-29T14:35:25.371513+00:00",
+  "updated": "2026-06-29T16:43:40.736341+00:00",
   "insights": [
+    {
+      "text": "Cross-competitor event: Deliverect, DoorDash appeared together in coverage \u2014 \"DoorDash: Integrate Your DoorDash Account with Deliverect - help.deliverect.com\"",
+      "sources": [
+        {
+          "title": "DoorDash: Integrate Your DoorDash Account with Deliverect - help.deliverect.com",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOb1VGRERrRy1paVBqRmk2NUJpZm10YWlPQk5kQnFWc3AtUjE2V29jOFdIQ1RnbmFRdlBRVmg3N3ZtTVNRLVdYREJaNXRyZHc1TkZFNmdjZm1sZ0VaY2tQS0lLUzdRSkFFSTRCd1N2YS1tSU5Yc1RYNnYzM0d2T0ItNVJEZGYyc0VNZFJmU0NJa1FFclBzV0ROZlZCcDFRbXNUcVhTbGMzaw?oc=5",
+          "source": "Google News (deliverect.com)"
+        }
+      ]
+    },
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news\"",
       "sources": [
@@ -12,17 +22,7 @@
       ]
     },
     {
-      "text": "Cross-competitor event: Global Payments, Lightspeed appeared together in coverage \u2014 \"Global Payments Expands Partnership with Lightspeed DMS to Power Embedded Payments for Dealerships - Business Wire\"",
-      "sources": [
-        {
-          "title": "Global Payments Expands Partnership with Lightspeed DMS to Power Embedded Payments for Dealerships - Business Wire",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPcFZtRmhBT0loYkdSSmpnZXNJNlR6bjVKcndkVGlXVjgwRDN6ekU5OTljNUtjaVU4b0M5Tll6eC1TWk9heXRoY3EtQUFlSXlXS25yNmlFR0tQdEFQSy1sYzNJa2JpdFpNUmRfelhrektYVWVRaG5Fb2EtanJEanZYT1dlTVZuQnc0NWZDdVZhQmJwVEFnWWRIMjM4bUlPWjVkN2dTUGJMR1g1R0VlQ2NhRTdkUTBJUmZueHp1RU5XRGFSU1djTThOb1lLUVBJa2Z6RTBYQXcyUlNhVVczZzB3VXlsZm9HVUxobUpZ?oc=5",
-          "source": "Google News"
-        }
-      ]
-    },
-    {
-      "text": "Deliverect shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Deliverect and 5&5 partner to streamline restaurant digital ordering - Verdict Food Service\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 11 tracked partnership items this cycle. Latest: \"Deliverect and 5&5 partner to streamline restaurant digital ordering - Verdict Food Service\"",
       "sources": [
         {
           "title": "Deliverect and 5&5 partner to streamline restaurant digital ordering - Verdict Food Service",
@@ -43,7 +43,7 @@
       "company": "Deliverect"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360\"",
       "sources": [
         {
           "title": "Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360",
@@ -85,7 +85,7 @@
       "company": "Square"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Price to earnings forward of Toast, Inc. \u2013 NYSE:TOST - TradingView\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Price to earnings forward of Toast, Inc. \u2013 NYSE:TOST - TradingView\"",
       "sources": [
         {
           "title": "Price to earnings forward of Toast, Inc. \u2013 NYSE:TOST - TradingView",
@@ -106,7 +106,7 @@
       "company": "Toast"
     },
     {
-      "text": "Shift4 (FOUR) stock gained 27.0% over the past week \u2014 material weekly move relative to broader cohort.",
+      "text": "Shift4 (FOUR) stock gained 25.6% over the past week \u2014 material weekly move relative to broader cohort.",
       "sources": [
         {
           "title": "Shift4 Payments: Staying Bullish On Leading FinTech (NYSE:FOUR) - Seeking Alpha",
@@ -124,36 +124,36 @@
   ],
   "most_mentioned": [
     {
-      "company": "Global Payments",
-      "count": 18
+      "company": "Deliverect",
+      "count": 49
     },
     {
-      "company": "DoorDash",
-      "count": 18
+      "company": "Lightspeed",
+      "count": 35
     },
     {
       "company": "SpotOn",
-      "count": 16
+      "count": 34
+    },
+    {
+      "company": "DoorDash",
+      "count": 28
     },
     {
       "company": "NCR Voyix",
-      "count": 16
+      "count": 26
+    },
+    {
+      "company": "Olo",
+      "count": 25
     },
     {
       "company": "Paytronix",
-      "count": 15
+      "count": 25
     },
     {
       "company": "Shift4",
-      "count": 15
-    },
-    {
-      "company": "PAR",
-      "count": 15
-    },
-    {
-      "company": "Toast",
-      "count": 15
+      "count": 25
     }
   ]
 }
