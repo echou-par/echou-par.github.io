@@ -2,7 +2,7 @@
   "date": "2026-06-29",
   "weekday": "Monday",
   "first_seen": "2026-06-29T05:14:21.535810+00:00",
-  "last_updated": "2026-06-29T10:10:05.617926+00:00",
+  "last_updated": "2026-06-29T14:35:25.371513+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news\"",
@@ -71,7 +71,7 @@
       "first_detected": "2026-06-29T05:14:21.535810+00:00"
     },
     {
-      "text": "Square shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Block wins over skeptics as BofA raises estimates following post-restructuring rebound - Proactive financial news\"",
+      "text": "Square shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Block wins over skeptics as BofA raises estimates following post-restructuring rebound - Proactive financial news\"",
       "sources": [
         {
           "title": "Block wins over skeptics as BofA raises estimates following post-restructuring rebound - Proactive financial news",
@@ -115,21 +115,54 @@
       "first_detected": "2026-06-29T05:14:21.535810+00:00"
     },
     {
-      "text": "Shift4 (FOUR) stock gained 23.5% over the past week \u2014 material weekly move relative to broader cohort.",
+      "text": "Shift4 (FOUR) stock gained 27.0% over the past week \u2014 material weekly move relative to broader cohort.",
       "sources": [
         {
-          "title": "Shift4 Payments, Inc.(NYSE: FOUR) added to Russell 1000 Value Benchmark - marketscreener.com",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcm5sY1Y4LW54ellfV1JyaGkxSVJXMXowazJkNEJQcHoyRTJxampoUDdNbl9SdElTSUFwTTBwcjVPSmxoQ1hOY3F4MDhxNlF1Y05NdHVERmo5OGxRMTAxNFptTmRud00tbm4zODFrQnJaNzg3NnBTV2NGNmtma0FpWXFVcHMzRmNhODN4ZzVPajBWQWxHekFmNzh5MWpVVERxNHRmVEFwcjFwa3dDTllrVGRPN2V5dXd3bC05WQ?oc=5",
+          "title": "Shift4 Payments: Staying Bullish On Leading FinTech (NYSE:FOUR) - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOE5mcFpJbUJXXzI3SXNMX0gwY0NxSFdld1I5UDF2RnBhMHZRREczUzdnX0oxdnJIdW14d3VETDJ2U3BzOTZuYXF0aFlzZkVZMUVHQTBncDZwWmE3RVhUNWw1SHdKYkxhRHVHdmNra2JvdVFTaWZQa0hzeF9tbnNQRFI4ZkFzQ3BUTmtTWDF0bFhRRERZdG1ZN1FKQnExdw?oc=5",
           "source": "Google News"
         },
         {
-          "title": "FOUR Stock Pops As Founder Isaacman Loads Up Despite Analyst Doubts - Stocktwits",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUExRbGMzUDdBRTJxWmN2NWp5RWJsdzVQaFFXYzk4aW5hV3ZEMEM4ZGpGVGJRNzF6TlhfbWJfZUQ4bmM4OW9RR0RJc21vRkJNMDV3NXJva19mZUF5dXloQ21qUjBkWGpYOTZVamxiV3E5UngwUzRBTnJFWkd0dnVmMlhzRHByRGNyWFNXbDdBcERaUk9vYWE2VndsbVJveVkwMThoTzhYSUstTk1XTGNyUmpKSlB6eFFla2hXSGxkaE81eXpaY1FyU1Z2dw?oc=5",
-          "source": "Google News"
+          "title": "Shift4 Gives Restaurants a More Connected Way to Manage Payments, Ordering and Guest Engagement - Restaurant Technology News",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeG1DVlh1aDdTM2hWbnVPNUFRR09EQWxBVlJsMUdmR3Mwd2tUOHBpS0tFWGtZUmltVXV4dG5WRmtWeDdFMmc0M1Y1bWJMLWJFZnBBbmYzRVFKQ3BvYnEzWnlfbU9SdkN5TlgxYVdwdDgxS2NCMVNNWjZxRWhWd3d6eW9MX1dfbElTa2ZKekJBZTV5MS1SdnNqOUotT3VZRHdYZVF2UEJSZzZ6OG1halVxWU8tZnhkaUtocVFGZlAyWkJOUlhvQkJmNnVBRklkNWZCa0haNzFnMA?oc=5",
+          "source": "Google News - POS Industry"
         }
       ],
       "company": "Shift4",
       "first_detected": "2026-06-29T05:14:21.535810+00:00"
+    },
+    {
+      "text": "Cross-competitor event: Global Payments, Lightspeed appeared together in coverage \u2014 \"Global Payments Expands Partnership with Lightspeed DMS to Power Embedded Payments for Dealerships - Business Wire\"",
+      "sources": [
+        {
+          "title": "Global Payments Expands Partnership with Lightspeed DMS to Power Embedded Payments for Dealerships - Business Wire",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPcFZtRmhBT0loYkdSSmpnZXNJNlR6bjVKcndkVGlXVjgwRDN6ekU5OTljNUtjaVU4b0M5Tll6eC1TWk9heXRoY3EtQUFlSXlXS25yNmlFR0tQdEFQSy1sYzNJa2JpdFpNUmRfelhrektYVWVRaG5Fb2EtanJEanZYT1dlTVZuQnc0NWZDdVZhQmJwVEFnWWRIMjM4bUlPWjVkN2dTUGJMR1g1R0VlQ2NhRTdkUTBJUmZueHp1RU5XRGFSU1djTThOb1lLUVBJa2Z6RTBYQXcyUlNhVVczZzB3VXlsZm9HVUxobUpZ?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "first_detected": "2026-06-29T14:35:25.371513+00:00"
+    },
+    {
+      "text": "Toast shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Price to earnings forward of Toast, Inc. \u2013 NYSE:TOST - TradingView\"",
+      "sources": [
+        {
+          "title": "Price to earnings forward of Toast, Inc. \u2013 NYSE:TOST - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQV0RYYzJRUEtmenpONWxVazFyeWhhUk5vc0JQdE1tUE5nalhhTVp1VXlzYVFpZmU3emh0bnVWZWVnTm9Sa21TcXllQ0pidUFjaVcwYy1xN0MxYnhfbkg4LVpTVzBhOXhwQ1lOZTRvV0d3SVhRbnlOMnJNQkplVGRNZThldWdSaDduWkhRV2JHYlVEVm9LOE1MbUkzajVUY1U?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Can Toast (NYSE:TOST) Beat the NYSE Composite Index? - Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPN2FudlVTSndYMnhzLV9pQVJVYjR3aXVCTVJSYVJjZHZWSWxyaEFGWm1UQXd5bm9sVnhFSzBIWWJhcVlpbDRPSG1aeUh2T2h3VzRrend2eHg3d2h5N3gxTTNSWjJRaXVMS3A0Y2NtWmRZcW1oWkM3T2hrSVRaTlhKckpYaGVQTUJIZDlsYkwxel9hZ1RaYUNEWDlR?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Toast Shares Heat Up: TOST Joining S&P MidCap 400 - Toast (NYSE:TOST) - Benzinga",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMkZ6RFBIODQySDRxdjMzQjN0Y0tCd2REalhNRG5SalFSZi1UWXFhSTdjX09mS2ZFei1nakF3V04zelBBMWxHTjg5R19saF9XSFozQVo0d0UwTmZ2WFAwaEZFZkoxSzJsSDdhOERnRU02d0VydGg2dk1Pd0d3cEdESnVsR0xjRHMzVVpRX0VocVhsYW1xRDV4dlRGS0ZqN2VzcUhVZHRpa1RNNDlU?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Toast",
+      "first_detected": "2026-06-29T14:35:25.371513+00:00"
     }
   ],
   "most_mentioned": [
@@ -150,6 +183,10 @@
       "count": 16
     },
     {
+      "company": "Paytronix",
+      "count": 15
+    },
+    {
       "company": "Shift4",
       "count": 15
     },
@@ -158,11 +195,7 @@
       "count": 15
     },
     {
-      "company": "Lightspeed",
-      "count": 15
-    },
-    {
-      "company": "Olo",
+      "company": "Toast",
       "count": 15
     }
   ]
