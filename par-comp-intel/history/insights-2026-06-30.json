@@ -2,7 +2,7 @@
   "date": "2026-06-30",
   "weekday": "Tuesday",
   "first_seen": "2026-06-30T06:19:33.929616+00:00",
-  "last_updated": "2026-06-30T19:22:07.338733+00:00",
+  "last_updated": "2026-06-30T21:16:21.708028+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news\"",
@@ -115,7 +115,7 @@
       "first_detected": "2026-06-30T06:19:33.929616+00:00"
     },
     {
-      "text": "Shift4 (FOUR) stock gained 10.5% over the past week \u2014 material weekly move relative to broader cohort.",
+      "text": "Shift4 (FOUR) stock gained 10.0% over the past week \u2014 material weekly move relative to broader cohort.",
       "sources": [
         {
           "title": "Shift4 Payments, Inc.(NYSE: FOUR) added to Russell Midcap Value Benchmark - marketscreener.com",
@@ -206,12 +206,12 @@
   ],
   "most_mentioned": [
     {
-      "company": "Global Payments",
+      "company": "DoorDash",
       "count": 18
     },
     {
-      "company": "DoorDash",
-      "count": 16
+      "company": "Global Payments",
+      "count": 18
     },
     {
       "company": "NCR Voyix",
@@ -219,6 +219,10 @@
     },
     {
       "company": "Olo",
+      "count": 16
+    },
+    {
+      "company": "Fiserv",
       "count": 16
     },
     {
@@ -231,10 +235,6 @@
     },
     {
       "company": "Paytronix",
-      "count": 15
-    },
-    {
-      "company": "SpotOn",
       "count": 15
     }
   ]
