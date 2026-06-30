@@ -1,45 +1,57 @@
 {
-  "updated": "2026-06-30T16:36:02.625293+00:00",
-  "total": 3,
+  "updated": "2026-06-30T17:26:04.447007+00:00",
+  "total": 4,
   "by_category": {
-    "stock_move": 3
+    "stock_move": 4
   },
   "alerts": [
     {
       "category": "stock_move",
       "severity": "medium",
+      "company": "PAR",
+      "headline": "PAR (PAR) stock up 7.1% over the past week",
+      "url": "https://finance.yahoo.com/quote/PAR",
+      "source": "Yahoo Finance",
+      "date": "2026-06-30T17:26:04.447007+00:00",
+      "par_relevance": 3,
+      "note": "+7.1% 1W",
+      "detected_at": "2026-06-30T17:26:04.447007+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "medium",
       "company": "Toast",
-      "headline": "Toast (TOST) stock up 8.6% over the past week",
+      "headline": "Toast (TOST) stock up 8.7% over the past week",
       "url": "https://finance.yahoo.com/quote/TOST",
       "source": "Yahoo Finance",
-      "date": "2026-06-30T16:36:02.625293+00:00",
+      "date": "2026-06-30T17:26:04.447007+00:00",
       "par_relevance": 3,
-      "note": "+8.6% 1W",
-      "detected_at": "2026-06-30T16:36:02.625293+00:00"
+      "note": "+8.7% 1W",
+      "detected_at": "2026-06-30T17:26:04.447007+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "Lightspeed",
-      "headline": "Lightspeed (LSPD) stock up 7.1% over the past week",
+      "headline": "Lightspeed (LSPD) stock up 8.0% over the past week",
       "url": "https://finance.yahoo.com/quote/LSPD",
       "source": "Yahoo Finance",
-      "date": "2026-06-30T16:36:02.625293+00:00",
+      "date": "2026-06-30T17:26:04.447007+00:00",
       "par_relevance": 3,
-      "note": "+7.1% 1W",
-      "detected_at": "2026-06-30T16:36:02.625293+00:00"
+      "note": "+8.0% 1W",
+      "detected_at": "2026-06-30T17:26:04.447007+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "Shift4",
-      "headline": "Shift4 (FOUR) stock up 8.1% over the past week",
+      "headline": "Shift4 (FOUR) stock up 8.5% over the past week",
       "url": "https://finance.yahoo.com/quote/FOUR",
       "source": "Yahoo Finance",
-      "date": "2026-06-30T16:36:02.625293+00:00",
+      "date": "2026-06-30T17:26:04.447007+00:00",
       "par_relevance": 3,
-      "note": "+8.1% 1W",
-      "detected_at": "2026-06-30T16:36:02.625293+00:00"
+      "note": "+8.5% 1W",
+      "detected_at": "2026-06-30T17:26:04.447007+00:00"
     }
   ]
 }
