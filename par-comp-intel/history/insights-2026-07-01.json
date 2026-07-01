@@ -2,7 +2,7 @@
   "date": "2026-07-01",
   "weekday": "Wednesday",
   "first_seen": "2026-07-01T05:08:13.533687+00:00",
-  "last_updated": "2026-07-01T19:21:52.665778+00:00",
+  "last_updated": "2026-07-01T21:09:03.139511+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news\"",
@@ -71,7 +71,7 @@
       "first_detected": "2026-07-01T05:08:13.533687+00:00"
     },
     {
-      "text": "Square shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news\"",
+      "text": "Square shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news\"",
       "sources": [
         {
           "title": "Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news",
@@ -154,7 +154,7 @@
       "first_detected": "2026-07-01T12:15:40.756391+00:00"
     },
     {
-      "text": "PAR (PAR) stock gained 16.9% over the past week \u2014 material weekly move relative to broader cohort.",
+      "text": "PAR (PAR) stock gained 15.3% over the past week \u2014 material weekly move relative to broader cohort.",
       "sources": [
         {
           "title": "PAR Technology Corporation(NYSE:PAR) dropped from Russell Small Cap Comp Growth Benchmark - marketscreener.com",
@@ -246,6 +246,28 @@
         }
       ],
       "first_detected": "2026-07-01T19:21:52.665778+00:00"
+    },
+    {
+      "text": "PAR shows concentrated financial/market activity \u2014 6 tracked financial/market items this cycle. Latest: \"Rockefeller Capital Management L.P. Trims Stake in PAR Technology Corporation $PAR - MarketBeat\"",
+      "sources": [
+        {
+          "title": "Rockefeller Capital Management L.P. Trims Stake in PAR Technology Corporation $PAR - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSFB6ZXB4U3ZUQkFlZGNjMm1zcGxHMTQ3MGJyVi0wRUxMeFp5MTVnNU1mZXhlcjhGbk5IdGcyUFFEbkgzRGp0Mi1DcVhiamRLNE9KZ1QwR2JoOWprTnNXbEllQW1WNnJvUUJlZ3plTGRwWFJtbTdtX0VERFZNcVFhQVZvMy1VTDNPOHVMUW41dnM2aDVVMXMtUTZhZDhDamEzOGhTUnJOX1dBV29tTnBNWFcyM2NKdjZZQ0xzd2VJNm5oSURzWnVnUkgxVURmbGNxTThfSGlRQQ?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Price to earnings forward of PAR Technology Corporation \u2013 NYSE:PAR - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPckgxd3pYZkh3cm44OGRXVkR1RGRnOU9ReHA3WVV6cVpDcVJZS1Z2eG1KcWN1MElYTnlWclFWX3o3cHEzQ2UzMThxaG9tdFR1M1hWdUFkdUxoSTZQMlhfeHo0SlpwcTU4VnZxS2lGOUNNcXEwNXlvV3JZWDdnWS1wU2xkbFNpaGh1Z181ZldmTzNkR25nWnJFM3ZIczZPQQ?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Unpacking Q1 Earnings: PAR Technology (NYSE:PAR) In The Context Of Other Specialized Technology Stocks - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ2hNbHIwamotZE44b2RWYWtuS0RiaU5TeDljT0VlVlEtM29Nc19TN0kwZ0lueUY2X25mZG45RXJPajk1S2RyN3VoRi1aSVVTMmZHcGtDRWRGM0RhclZDMVlpa1lkSzRJREp4akowY19ZYzByUk1TeHhRRDFuZEtjQndHV3JuTU1GUHdfcWxzQXVCTU1kWGZFcTZhT1ZIZ1JDLTlV?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "PAR",
+      "first_detected": "2026-07-01T21:09:03.139511+00:00"
     }
   ],
   "most_mentioned": [
@@ -262,8 +284,12 @@
       "count": 16
     },
     {
-      "company": "Fiserv",
+      "company": "Olo",
       "count": 16
+    },
+    {
+      "company": "Uber Eats",
+      "count": 15
     },
     {
       "company": "TouchBistro",
@@ -271,10 +297,6 @@
     },
     {
       "company": "Paytronix",
-      "count": 15
-    },
-    {
-      "company": "Olo",
       "count": 15
     },
     {

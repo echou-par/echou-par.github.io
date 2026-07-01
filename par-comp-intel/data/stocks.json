@@ -1,252 +1,252 @@
 {
-  "updated": "2026-07-01T19:21:52.665778+00:00",
+  "updated": "2026-07-01T21:09:03.139511+00:00",
   "ranges": {
     "1W": [
       {
         "ticker": "PAR",
         "company": "PAR",
-        "change_pct": 16.9,
-        "price": 18.61
+        "change_pct": 15.33,
+        "price": 18.36
       },
       {
         "ticker": "TOST",
         "company": "Toast",
-        "change_pct": 12.09,
-        "price": 28.89
+        "change_pct": 11.41,
+        "price": 28.71
       },
       {
         "ticker": "DASH",
         "company": "DoorDash",
-        "change_pct": 5.81,
-        "price": 187.18
+        "change_pct": 6.76,
+        "price": 188.87
       },
       {
         "ticker": "VYX",
         "company": "NCR Voyix",
-        "change_pct": 13.12,
-        "price": 8.49
+        "change_pct": 13.18,
+        "price": 8.5
       },
       {
         "ticker": "LSPD",
         "company": "Lightspeed",
-        "change_pct": 13.65,
-        "price": 10.86
+        "change_pct": 12.97,
+        "price": 10.8
       },
       {
         "ticker": "FOUR",
         "company": "Shift4",
-        "change_pct": 12.92,
-        "price": 49.44
+        "change_pct": 12.38,
+        "price": 49.2
       },
       {
         "ticker": "XYZ",
         "company": "Block (Square)",
-        "change_pct": 4.85,
-        "price": 77.68
+        "change_pct": 4.12,
+        "price": 77.13
       },
       {
         "ticker": "GPN",
         "company": "Global Payments",
-        "change_pct": 10.59,
-        "price": 75.38
+        "change_pct": 10.11,
+        "price": 75.05
       },
       {
         "ticker": "FISV",
         "company": "Fiserv",
-        "change_pct": 7.1,
-        "price": 50.9
+        "change_pct": 6.73,
+        "price": 50.73
       },
       {
         "ticker": "UBER",
         "company": "Uber",
-        "change_pct": 1.29,
-        "price": 73.18
+        "change_pct": 0.57,
+        "price": 72.66
       }
     ],
     "1M": [
       {
         "ticker": "PAR",
         "company": "PAR",
-        "change_pct": 14.45,
-        "price": 18.61
+        "change_pct": 20.08,
+        "price": 18.36
       },
       {
         "ticker": "TOST",
         "company": "Toast",
-        "change_pct": 4.13,
-        "price": 28.89
+        "change_pct": 8.96,
+        "price": 28.71
       },
       {
         "ticker": "DASH",
         "company": "DoorDash",
-        "change_pct": 13.59,
-        "price": 187.18
+        "change_pct": 20.34,
+        "price": 188.87
       },
       {
         "ticker": "VYX",
         "company": "NCR Voyix",
-        "change_pct": 13.42,
-        "price": 8.49
+        "change_pct": 16.92,
+        "price": 8.5
       },
       {
         "ticker": "LSPD",
         "company": "Lightspeed",
-        "change_pct": 9.86,
-        "price": 10.86
+        "change_pct": 11.57,
+        "price": 10.8
       },
       {
         "ticker": "FOUR",
         "company": "Shift4",
-        "change_pct": 9.35,
-        "price": 49.44
+        "change_pct": 13.65,
+        "price": 49.2
       },
       {
         "ticker": "XYZ",
         "company": "Block (Square)",
-        "change_pct": 2.07,
-        "price": 77.68
+        "change_pct": 4.02,
+        "price": 77.13
       },
       {
         "ticker": "GPN",
         "company": "Global Payments",
-        "change_pct": 0.28,
-        "price": 75.38
+        "change_pct": 1.77,
+        "price": 75.05
       },
       {
         "ticker": "FISV",
         "company": "Fiserv",
-        "change_pct": -13.79,
-        "price": 50.9
+        "change_pct": -10.15,
+        "price": 50.73
       },
       {
         "ticker": "UBER",
         "company": "Uber",
-        "change_pct": -0.79,
-        "price": 73.18
+        "change_pct": 1.45,
+        "price": 72.66
       }
     ],
     "3M": [
       {
         "ticker": "PAR",
         "company": "PAR",
-        "change_pct": 35.64,
-        "price": 18.61
+        "change_pct": 33.82,
+        "price": 18.36
       },
       {
         "ticker": "TOST",
         "company": "Toast",
-        "change_pct": 9.12,
-        "price": 28.89
+        "change_pct": 8.46,
+        "price": 28.71
       },
       {
         "ticker": "DASH",
         "company": "DoorDash",
-        "change_pct": 19.64,
-        "price": 187.18
+        "change_pct": 20.72,
+        "price": 188.87
       },
       {
         "ticker": "VYX",
         "company": "NCR Voyix",
-        "change_pct": 38.13,
-        "price": 8.49
+        "change_pct": 38.21,
+        "price": 8.5
       },
       {
         "ticker": "LSPD",
         "company": "Lightspeed",
-        "change_pct": 22.22,
-        "price": 10.86
+        "change_pct": 21.48,
+        "price": 10.8
       },
       {
         "ticker": "FOUR",
         "company": "Shift4",
-        "change_pct": 15.61,
-        "price": 49.44
+        "change_pct": 15.06,
+        "price": 49.2
       },
       {
         "ticker": "XYZ",
         "company": "Block (Square)",
-        "change_pct": 29.93,
-        "price": 77.68
+        "change_pct": 29.02,
+        "price": 77.13
       },
       {
         "ticker": "GPN",
         "company": "Global Payments",
-        "change_pct": 18.16,
-        "price": 75.39
+        "change_pct": 17.62,
+        "price": 75.05
       },
       {
         "ticker": "FISV",
         "company": "Fiserv",
-        "change_pct": -9.34,
-        "price": 50.92
+        "change_pct": -9.67,
+        "price": 50.73
       },
       {
         "ticker": "UBER",
         "company": "Uber",
-        "change_pct": 1.84,
-        "price": 73.16
+        "change_pct": 1.14,
+        "price": 72.66
       }
     ],
     "YTD": [
       {
         "ticker": "PAR",
         "company": "PAR",
-        "change_pct": -46.46,
-        "price": 18.61
+        "change_pct": -47.18,
+        "price": 18.36
       },
       {
         "ticker": "TOST",
         "company": "Toast",
-        "change_pct": -21.21,
-        "price": 28.89
+        "change_pct": -21.69,
+        "price": 28.71
       },
       {
         "ticker": "DASH",
         "company": "DoorDash",
-        "change_pct": -18.8,
-        "price": 187.18
+        "change_pct": -18.07,
+        "price": 188.87
       },
       {
         "ticker": "VYX",
         "company": "NCR Voyix",
-        "change_pct": -17.36,
-        "price": 8.49
+        "change_pct": -17.32,
+        "price": 8.5
       },
       {
         "ticker": "LSPD",
         "company": "Lightspeed",
-        "change_pct": -10.28,
-        "price": 10.86
+        "change_pct": -10.82,
+        "price": 10.8
       },
       {
         "ticker": "FOUR",
         "company": "Shift4",
-        "change_pct": -24.63,
-        "price": 49.44
+        "change_pct": -24.99,
+        "price": 49.2
       },
       {
         "ticker": "XYZ",
         "company": "Block (Square)",
-        "change_pct": 8.69,
-        "price": 77.68
+        "change_pct": 7.92,
+        "price": 77.13
       },
       {
         "ticker": "GPN",
         "company": "Global Payments",
-        "change_pct": -2.01,
-        "price": 75.4
+        "change_pct": -2.47,
+        "price": 75.05
       },
       {
         "ticker": "FISV",
         "company": "Fiserv",
-        "change_pct": -25.9,
-        "price": 50.92
+        "change_pct": -26.17,
+        "price": 50.73
       },
       {
         "ticker": "UBER",
         "company": "Uber",
-        "change_pct": -15.12,
-        "price": 73.16
+        "change_pct": -15.7,
+        "price": 72.66
       }
     ]
   }
