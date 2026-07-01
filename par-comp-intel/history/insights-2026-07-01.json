@@ -2,7 +2,7 @@
   "date": "2026-07-01",
   "weekday": "Wednesday",
   "first_seen": "2026-07-01T05:08:13.533687+00:00",
-  "last_updated": "2026-07-01T15:21:26.062989+00:00",
+  "last_updated": "2026-07-01T15:59:40.439711+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-07-01T05:08:13.533687+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Deliverect and 5&5 partner to streamline restaurant digital ordering - Verdict Food Service\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 12 tracked partnership items this cycle. Latest: \"Deliverect and 5&5 partner to streamline restaurant digital ordering - Verdict Food Service\"",
       "sources": [
         {
           "title": "Deliverect and 5&5 partner to streamline restaurant digital ordering - Verdict Food Service",
@@ -49,7 +49,7 @@
       "first_detected": "2026-07-01T05:08:13.533687+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360\"",
       "sources": [
         {
           "title": "Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360",
@@ -169,40 +169,95 @@
       ],
       "company": "PAR",
       "first_detected": "2026-07-01T15:21:26.062989+00:00"
+    },
+    {
+      "text": "Cross-competitor event: Deliverect, DoorDash appeared together in coverage \u2014 \"DoorDash: Integrate Your DoorDash Account with Deliverect - help.deliverect.com\"",
+      "sources": [
+        {
+          "title": "DoorDash: Integrate Your DoorDash Account with Deliverect - help.deliverect.com",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOb1VGRERrRy1paVBqRmk2NUJpZm10YWlPQk5kQnFWc3AtUjE2V29jOFdIQ1RnbmFRdlBRVmg3N3ZtTVNRLVdYREJaNXRyZHc1TkZFNmdjZm1sZ0VaY2tQS0lLUzdRSkFFSTRCd1N2YS1tSU5Yc1RYNnYzM0d2T0ItNVJEZGYyc0VNZFJmU0NJa1FFclBzV0ROZlZCcDFRbXNUcVhTbGMzaw?oc=5",
+          "source": "Google News (deliverect.com)"
+        }
+      ],
+      "first_detected": "2026-07-01T15:59:40.439711+00:00"
+    },
+    {
+      "text": "TouchBistro shows concentrated campaign activity \u2014 3 tracked campaign items this cycle. Latest: \"8 Best Hospitality POS Systems | Top Platforms Compared - Startups.co.uk\"",
+      "sources": [
+        {
+          "title": "8 Best Hospitality POS Systems | Top Platforms Compared - Startups.co.uk",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAxNm00ZVhkTVZlZ0V0MERCYTc1QlhCNE5YNjFvMXBQbWtRd2hhM1BNOS1QWTZJT05uYVU4UzZMSDJJM1hkVjNYS01XbHIwYlJzUWV2bFNUN0k2ckVZWFVrM3FXQkF0NTh1TkFJek9tZ2FiQXNibFYxRllWYw?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Top 5 Best Kitchen Display Systems in the USA - vocal.media",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9Uc2JvRVZSV0JJVkdyeGdXZTlKNy1UdGd0WWFtbUVZekM3NGVjXzJpVmh1WEVpLWVCOFNJMHdVbnRNaDI5R3RscklKOVpjQi1xY09uYk9HYV9JcUlneVk3MnJ4YlJjUndzdlB0ZUpiWkd2dmhTdDlqUlhVUQ?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "The top 5 made-in-Toronto dining apps for restaurants - TouchBistro",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbGd4ZW1oX1VoeS1lS0V1TkxpQnE2al9ENTFndTRCbl85UWx2OGJDSXN1ZnJHcjNScW1tUVMzbHpTQVNGbnlIeWxXVl9fNnh6YXo3aURHWEZ3Q1RRMEVWYmVFZDlBTFhmYVhWYk02MWowOHZVNVJCWVZIRTh6VFBXLVAtMzRRSWF0QkpPNFNkSlpZM1REb2JRRUNPU2RTQQ?oc=5",
+          "source": "Google News (touchbistro.com)"
+        }
+      ],
+      "company": "TouchBistro",
+      "first_detected": "2026-07-01T15:59:40.439711+00:00"
+    },
+    {
+      "text": "SpotOn shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"SpotOn Gives Restaurants a Smarter Path to Profitability With Connected POS, Operations and Practical AI - Restaurant Technology News\"",
+      "sources": [
+        {
+          "title": "SpotOn Gives Restaurants a Smarter Path to Profitability With Connected POS, Operations and Practical AI - Restaurant Technology News",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQNm1QOVFkVENOblJNa3FTTlhZWFY1UE9Ga0FTUkpKS1c4QlNOeGcyZXJLeGNfUVpGbm9wTWVKbkdITGZfRkZhSWdNa3F2SDNoUTVZM1E4QUl4ZjJDZXJjX1ZKVFRXNGtsZTFGUC1CSnJCVjBKMUZWOGFIaGJoWFlBeC1jaFNzLUY1TEFQMDRtVmstY2ZENW5yWngxbWtDOXNGbUU4S1JzRXUteHBOTEdKcldBYUZwVmNWRDQwdnZRTGZBbFJNU2hjaWFkR2RMa3YtcmtZamdnc1BQU09xdjZXWE53TQ?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "10 Ways Restaurants Are Using QR Codes to Improve Service and Increase Revenue",
+          "url": "https://www.spoton.com/blog/restaurant-qr-code/",
+          "source": "SpotOn blog"
+        },
+        {
+          "title": "Neighborhood Advantage Can Boost Game-Day Revenue - Modern Restaurant Management",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYkM0azctSHdZYjhkUVVxUHNkRFpsM2NIS0l4eUhFR1ZuNVpsNi1tSEE5ZGFPa2dQcXZmaTllZG1HeG5EeFdVVWthcGdxcDJDaTBwSTRKSTlLME1lSkprdVJrajJGLVo0aldPeE1oVHlEbHJ5OEU1WjFFdEx6M0M0VHdkazBRYWJMWkozOUlxbUVTMzQ?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "SpotOn",
+      "first_detected": "2026-07-01T15:59:40.439711+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "Global Payments",
-      "count": 18
+      "company": "Deliverect",
+      "count": 48
     },
     {
-      "company": "DoorDash",
-      "count": 18
-    },
-    {
-      "company": "NCR Voyix",
-      "count": 16
-    },
-    {
-      "company": "TouchBistro",
-      "count": 15
-    },
-    {
-      "company": "Paytronix",
-      "count": 15
-    },
-    {
-      "company": "Olo",
-      "count": 15
+      "company": "Lightspeed",
+      "count": 34
     },
     {
       "company": "SpotOn",
-      "count": 15
+      "count": 30
+    },
+    {
+      "company": "DoorDash",
+      "count": 28
+    },
+    {
+      "company": "Global Payments",
+      "count": 27
+    },
+    {
+      "company": "NCR Voyix",
+      "count": 25
     },
     {
       "company": "Fiserv",
-      "count": 15
+      "count": 25
+    },
+    {
+      "company": "TouchBistro",
+      "count": 25
     }
   ]
 }
