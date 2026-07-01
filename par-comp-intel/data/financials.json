@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T21:09:03.139511+00:00",
+  "updated": "2026-07-01T22:49:07.061043+00:00",
   "tickers": {
     "PAR": {
       "ticker": "PAR",
@@ -243,6 +243,7 @@
         {
           "endDate": "2025-12-31",
           "totalRevenue": 1633000000.0,
+          "costOfRevenue": 1210000000.0,
           "grossProfit": 423000000.0,
           "researchDevelopment": 97000000.0,
           "sellingGeneralAdministrative": 237000000.0,

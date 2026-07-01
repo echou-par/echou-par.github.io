@@ -2,7 +2,7 @@
   "date": "2026-07-01",
   "weekday": "Wednesday",
   "first_seen": "2026-07-01T05:08:13.533687+00:00",
-  "last_updated": "2026-07-01T21:09:03.139511+00:00",
+  "last_updated": "2026-07-01T22:49:07.061043+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news\"",
@@ -226,12 +226,12 @@
       "first_detected": "2026-07-01T15:59:40.439711+00:00"
     },
     {
-      "text": "Cross-competitor event: DoorDash, Square appeared together in coverage \u2014 \"Square AI Restaurant Ordering Charges 2.9% vs DoorDash\u2019s 30% Cut - Bitget\"",
+      "text": "Cross-competitor event: DoorDash, Square appeared together in coverage \u2014 \"Square AI Restaurant Ordering Charges 2.9% vs DoorDash\u2019s 30% Cut - The Cryptonomist\"",
       "sources": [
         {
-          "title": "Square AI Restaurant Ordering Charges 2.9% vs DoorDash\u2019s 30% Cut - Bitget",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBGc1JCMDdJUjd0N1FLdzhMN21wMFB2QUdmUUJKdGFPRUVuMlA0b3k2Y0MwM3l1eVhRTGtsdWVoUkJLVzlvS1VMX3ZqSWV2bHhUMzU1QTkwMDBuMHA1dFVYQmJoQdIBY0FVX3lxTFBGc1JCMDdJUjd0N1FLdzhMN21wMFB2QUdmUUJKdGFPRUVuMlA0b3k2Y0MwM3l1eVhRTGtsdWVoUkJLVzlvS1VMX3ZqSWV2bHhUMzU1QTkwMDBuMHA1dFVYQmJoQQ?oc=5",
-          "source": "Google News"
+          "title": "Square AI Restaurant Ordering Charges 2.9% vs DoorDash\u2019s 30% Cut - The Cryptonomist",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBFRkVtcXlhOTVVWi1Pb29RZi1VeUF6a1JfX25CWUxNbzl5WlAxd2pOVnB3MmJpN1FHYS04aUwteG1SSU9HTFBIZm5mRTBVUC1IcTN4WWZqTHRrWE5DWDJodnIwZXdzcXk1V3pjTUhBbGxWUkllQWhN?oc=5",
+          "source": "Google News - POS Industry"
         }
       ],
       "first_detected": "2026-07-01T19:21:52.665778+00:00"
@@ -284,14 +284,6 @@
       "count": 16
     },
     {
-      "company": "Olo",
-      "count": 16
-    },
-    {
-      "company": "Uber Eats",
-      "count": 15
-    },
-    {
       "company": "TouchBistro",
       "count": 15
     },
@@ -300,7 +292,15 @@
       "count": 15
     },
     {
+      "company": "Olo",
+      "count": 15
+    },
+    {
       "company": "SpotOn",
+      "count": 15
+    },
+    {
+      "company": "Fiserv",
       "count": 15
     }
   ]
