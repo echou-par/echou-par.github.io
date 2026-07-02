@@ -2,7 +2,7 @@
   "date": "2026-07-01",
   "weekday": "Wednesday",
   "first_seen": "2026-07-01T05:08:13.533687+00:00",
-  "last_updated": "2026-07-01T22:49:07.061043+00:00",
+  "last_updated": "2026-07-02T00:15:19.863926+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength | NYSE:SQ - Proactive financial news\"",
@@ -49,7 +49,7 @@
       "first_detected": "2026-07-01T05:08:13.533687+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360\"",
       "sources": [
         {
           "title": "Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360",
@@ -277,11 +277,23 @@
     },
     {
       "company": "Global Payments",
-      "count": 18
+      "count": 17
     },
     {
       "company": "NCR Voyix",
       "count": 16
+    },
+    {
+      "company": "Sparkfly",
+      "count": 16
+    },
+    {
+      "company": "Lightspeed",
+      "count": 15
+    },
+    {
+      "company": "Uber Eats",
+      "count": 15
     },
     {
       "company": "TouchBistro",
@@ -289,18 +301,6 @@
     },
     {
       "company": "Paytronix",
-      "count": 15
-    },
-    {
-      "company": "Olo",
-      "count": 15
-    },
-    {
-      "company": "SpotOn",
-      "count": 15
-    },
-    {
-      "company": "Fiserv",
       "count": 15
     }
   ]
