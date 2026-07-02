@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T17:57:02.564683+00:00",
+  "updated": "2026-07-02T19:44:08.369428+00:00",
   "total": 3,
   "by_category": {
     "stock_move": 3
@@ -7,39 +7,39 @@
   "alerts": [
     {
       "category": "stock_move",
-      "severity": "medium",
+      "severity": "high",
       "company": "PAR",
-      "headline": "PAR (PAR) stock up 11.7% over the past week",
+      "headline": "PAR (PAR) stock up 12.9% over the past week",
       "url": "https://finance.yahoo.com/quote/PAR",
       "source": "Yahoo Finance",
-      "date": "2026-07-02T17:57:02.564683+00:00",
+      "date": "2026-07-02T19:44:08.369428+00:00",
       "par_relevance": 3,
-      "note": "+11.7% 1W",
-      "detected_at": "2026-07-02T17:57:02.564683+00:00"
+      "note": "+12.9% 1W",
+      "detected_at": "2026-07-02T19:44:08.369428+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "high",
+      "company": "Global Payments",
+      "headline": "Global Payments (GPN) stock up 12.1% over the past week",
+      "url": "https://finance.yahoo.com/quote/GPN",
+      "source": "Yahoo Finance",
+      "date": "2026-07-02T19:44:08.369428+00:00",
+      "par_relevance": 3,
+      "note": "+12.1% 1W",
+      "detected_at": "2026-07-02T19:44:08.369428+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "NCR Voyix",
-      "headline": "NCR Voyix (VYX) stock up 8.6% over the past week",
+      "headline": "NCR Voyix (VYX) stock up 10.9% over the past week",
       "url": "https://finance.yahoo.com/quote/VYX",
       "source": "Yahoo Finance",
-      "date": "2026-07-02T17:57:02.564683+00:00",
+      "date": "2026-07-02T19:44:08.369428+00:00",
       "par_relevance": 3,
-      "note": "+8.6% 1W",
-      "detected_at": "2026-07-02T17:57:02.564683+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "medium",
-      "company": "Global Payments",
-      "headline": "Global Payments (GPN) stock up 11.3% over the past week",
-      "url": "https://finance.yahoo.com/quote/GPN",
-      "source": "Yahoo Finance",
-      "date": "2026-07-02T17:57:02.564683+00:00",
-      "par_relevance": 3,
-      "note": "+11.3% 1W",
-      "detected_at": "2026-07-02T17:57:02.564683+00:00"
+      "note": "+10.9% 1W",
+      "detected_at": "2026-07-02T19:44:08.369428+00:00"
     }
   ]
 }
