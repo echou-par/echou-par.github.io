@@ -2,7 +2,7 @@
   "date": "2026-07-02",
   "weekday": "Thursday",
   "first_seen": "2026-07-02T04:42:50.457481+00:00",
-  "last_updated": "2026-07-02T21:16:20.595361+00:00",
+  "last_updated": "2026-07-02T22:39:06.991123+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Square appeared together in coverage \u2014 \"Square AI Restaurant Ordering Charges 2.9% vs DoorDash\u2019s 30% Cut - The Cryptonomist\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-07-02T04:42:50.457481+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Deliverect and 5&5 partner to streamline restaurant digital ordering - Verdict Food Service\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Deliverect and 5&5 partner to streamline restaurant digital ordering - Verdict Food Service\"",
       "sources": [
         {
           "title": "Deliverect and 5&5 partner to streamline restaurant digital ordering - Verdict Food Service",
@@ -40,8 +40,8 @@
           "source": "Google News"
         },
         {
-          "title": "Deliverect, 5&5 partner to scale restaurant technology - fastcasual.com",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQclptQkNZWE9PQXVaM2V1TERHV3A3MUo1X1NLSWFzM1ljc2JqXzdFWVF0SlNJczJESFpnVkJpMXBYaTBQTkR6Q1hDLUJyRHcwejVzWGNpcmpTekNxZGlQWFJzOW5Pc1dNenRJNlA2VDI4MjRnc3FDSTFRYU51Q1U4UWJKVTRLdXBDUks4WHFXbVpzYWJVdjdCekxLY1oyNzg?oc=5",
+          "title": "Deliverect, 5&5 partner to scale restaurant technology - QSR Web",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNnhvRDlXaGwxWFV1bXhYSVp2R283R0xQM2IwZ3NVX1hnelU4ZnBzcnY1VnFsQ19tVVpkMm4wVk5CdHRacmZ6b3loajJRVHhIRjQ2OW1Delo0U3N2YjhlTFNoeGZKdmowMkNuYmNtUTk1cTF2a0RFNW5UdXV3YlZLdlF2cUFqSDdCTU1NTVRuTFg1eWxDbWJOT0lR?oc=5",
           "source": "Google News - Restaurant Tech"
         }
       ],
@@ -118,9 +118,14 @@
       "text": "PAR (PAR) stock gained 12.7% over the past week \u2014 material weekly move relative to broader cohort.",
       "sources": [
         {
-          "title": "PAR on Yahoo Finance",
-          "url": "https://finance.yahoo.com/quote/PAR",
-          "source": "Yahoo Finance"
+          "title": "Analysts Offer Insights on Technology Companies: SPS Commerce (SPSC) and Par Technology (PAR) - The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOZXdoT3Y2cVRHbmFYTVdzdjRfWVFxYlNkLTNCYThQV3ZILXBlb2tjN1dENWRhb2tSMVhqWXktZGFRNVlnSGJkbU1ZLVpQR2NkY1dwbDJWZ3hJOHo5ZEx3Uk1LTDRoSkVDVFZQa0pkM3o4U2VnWWk5UWNTZ2JTUmZDd0JXRzJydmJFaTNaeXBFVnVZcUs4YmlwMDhVZXF6S0xvQ3h0SzlqYVd2WFZVaUZSYzRZeHNuZUgyd1M4dGJuNGw4LTZTZGhHMWJISDV4OWVXX3d6eFhkSGtkU1ktRm91NGpRc1VLRlhSd0JkTUd3Wmk1V2VpRkN1aHZPOVg2RTZTbW84?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "PAR Technology: The Platform Is Better, But Valuation Already Assumes A Lot (NYSE:PAR) - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLUYxRmJXYi1jZjdDUE5xQWFVcHdvRzVqRXl1SW04RDBJQkJsY0NhdFpoX3ExNEo2UUxUN293V1ZoRmtUdFZOTE1YeW9tNVNFSnpnbEhMeUdHUHpubHVkXzQ5UUtpakJMbHpYOWdvMVlMa1dGaHBMZkNwdWl2QklVNDRIUExHdlFhZmxROGdic2pzZTk3NkpvbXJXY0V0MWFXM0VMMWZLV2NHdHFaWlU1bEhWbEc?oc=5",
+          "source": "Google News"
         }
       ],
       "company": "PAR",
@@ -186,12 +191,36 @@
   ],
   "most_mentioned": [
     {
-      "company": "TouchBistro",
-      "count": 1
+      "company": "Global Payments",
+      "count": 19
+    },
+    {
+      "company": "DoorDash",
+      "count": 18
+    },
+    {
+      "company": "NCR Voyix",
+      "count": 16
+    },
+    {
+      "company": "Olo",
+      "count": 16
+    },
+    {
+      "company": "Fiserv",
+      "count": 16
+    },
+    {
+      "company": "Sparkfly",
+      "count": 16
     },
     {
       "company": "Shift4",
-      "count": 1
+      "count": 15
+    },
+    {
+      "company": "Lightspeed",
+      "count": 15
     }
   ]
 }
