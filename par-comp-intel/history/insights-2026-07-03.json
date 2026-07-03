@@ -2,7 +2,7 @@
   "date": "2026-07-03",
   "weekday": "Friday",
   "first_seen": "2026-07-03T04:27:25.909529+00:00",
-  "last_updated": "2026-07-03T16:06:31.486788+00:00",
+  "last_updated": "2026-07-03T17:40:00.316712+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Square appeared together in coverage \u2014 \"Square AI Restaurant Ordering Charges 2.9% vs DoorDash\u2019s 30% Cut - The Cryptonomist\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-07-03T04:27:25.909529+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360\"",
       "sources": [
         {
           "title": "Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360",
@@ -71,7 +71,7 @@
       "first_detected": "2026-07-03T04:27:25.909529+00:00"
     },
     {
-      "text": "Square shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Block wins over skeptics as BofA raises estimates following post-restructuring rebound - Proactive financial news\"",
+      "text": "Square shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Block wins over skeptics as BofA raises estimates following post-restructuring rebound - Proactive financial news\"",
       "sources": [
         {
           "title": "Block wins over skeptics as BofA raises estimates following post-restructuring rebound - Proactive financial news",
@@ -143,7 +143,7 @@
       "first_detected": "2026-07-03T07:47:53.448630+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 11 tracked partnership items this cycle. Latest: \"Deliverect and 5&5 partner to streamline restaurant digital ordering - Verdict Food Service\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Deliverect and 5&5 partner to streamline restaurant digital ordering - Verdict Food Service\"",
       "sources": [
         {
           "title": "Deliverect and 5&5 partner to streamline restaurant digital ordering - Verdict Food Service",
@@ -213,40 +213,62 @@
       ],
       "company": "Square",
       "first_detected": "2026-07-03T16:06:31.486788+00:00"
+    },
+    {
+      "text": "PAR shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"PAR Technology: The Platform Is Better, But Valuation Already Assumes A Lot (NYSE:PAR) - Seeking Alpha\"",
+      "sources": [
+        {
+          "title": "PAR Technology: The Platform Is Better, But Valuation Already Assumes A Lot (NYSE:PAR) - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLUYxRmJXYi1jZjdDUE5xQWFVcHdvRzVqRXl1SW04RDBJQkJsY0NhdFpoX3ExNEo2UUxUN293V1ZoRmtUdFZOTE1YeW9tNVNFSnpnbEhMeUdHUHpubHVkXzQ5UUtpakJMbHpYOWdvMVlMa1dGaHBMZkNwdWl2QklVNDRIUExHdlFhZmxROGdic2pzZTk3NkpvbXJXY0V0MWFXM0VMMWZLV2NHdHFaWlU1bEhWbEc?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Rockefeller Capital Management L.P. Trims Stake in PAR Technology Corporation $PAR - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSFB6ZXB4U3ZUQkFlZGNjMm1zcGxHMTQ3MGJyVi0wRUxMeFp5MTVnNU1mZXhlcjhGbk5IdGcyUFFEbkgzRGp0Mi1DcVhiamRLNE9KZ1QwR2JoOWprTnNXbEllQW1WNnJvUUJlZ3plTGRwWFJtbTdtX0VERFZNcVFhQVZvMy1VTDNPOHVMUW41dnM2aDVVMXMtUTZhZDhDamEzOGhTUnJOX1dBV29tTnBNWFcyM2NKdjZZQ0xzd2VJNm5oSURzWnVnUkgxVURmbGNxTThfSGlRQQ?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Price to earnings forward of PAR Technology Corporation \u2013 NYSE:PAR - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPckgxd3pYZkh3cm44OGRXVkR1RGRnOU9ReHA3WVV6cVpDcVJZS1Z2eG1KcWN1MElYTnlWclFWX3o3cHEzQ2UzMThxaG9tdFR1M1hWdUFkdUxoSTZQMlhfeHo0SlpwcTU4VnZxS2lGOUNNcXEwNXlvV3JZWDdnWS1wU2xkbFNpaGh1Z181ZldmTzNkR25nWnJFM3ZIczZPQQ?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "PAR",
+      "first_detected": "2026-07-03T17:40:00.316712+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "Deliverect",
-      "count": 48
-    },
-    {
-      "company": "SpotOn",
-      "count": 37
-    },
-    {
-      "company": "Lightspeed",
-      "count": 34
-    },
-    {
       "company": "DoorDash",
-      "count": 29
+      "count": 19
     },
     {
       "company": "Global Payments",
-      "count": 27
+      "count": 18
     },
     {
       "company": "TouchBistro",
-      "count": 26
+      "count": 16
     },
     {
       "company": "Olo",
-      "count": 26
+      "count": 16
     },
     {
       "company": "Fiserv",
-      "count": 26
+      "count": 16
+    },
+    {
+      "company": "Sparkfly",
+      "count": 16
+    },
+    {
+      "company": "Uber Eats",
+      "count": 15
+    },
+    {
+      "company": "PAR",
+      "count": 15
     }
   ]
 }
