@@ -2,7 +2,7 @@
   "date": "2026-07-02",
   "weekday": "Thursday",
   "first_seen": "2026-07-02T04:42:50.457481+00:00",
-  "last_updated": "2026-07-02T22:39:06.991123+00:00",
+  "last_updated": "2026-07-03T00:13:36.380574+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Square appeared together in coverage \u2014 \"Square AI Restaurant Ordering Charges 2.9% vs DoorDash\u2019s 30% Cut - The Cryptonomist\"",
@@ -84,7 +84,7 @@
           "source": "Google News"
         },
         {
-          "title": "Block Inc. Stock: Shares Rise Over 3% in Premarket Trading on April 30, 2026 - AD HOC NEWS",
+          "title": "Block Inc. Stock: Shares Rise Over 3% in Premarket Trading on April 30, 2026 - Ad-hoc-news.de",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONFNRS054UXlkeWVxN0NtQjZWLUFuc2dQVE1zMHZQMDYtbVBMSXV0TUdzVTVjZEtzdU01TVN3RnEtb3g4ZHNBcTVyWUNLdi10WnRVeC10YzJiaWRkZDJ0aldxWHRQcmVXQVFNc1UxUW85bmZLZUtiMkRKSF9aTUUtU1NmU2hkOC1UTXQ1QmpxLU44TEJXU1hnRHhCZENUdTB6dmctRzlvWFlhYkNaTnh3aE9mWjVrcWo4NmR3VVFfc0tuZXc?oc=5",
           "source": "Google News"
         }
@@ -187,6 +187,28 @@
       ],
       "company": "Global Payments",
       "first_detected": "2026-07-02T21:16:20.595361+00:00"
+    },
+    {
+      "text": "Toast shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"TOST (NYSE: TOST) notifies intent to sell 9,146 Class A shares under Rule 144 - Stock Titan\"",
+      "sources": [
+        {
+          "title": "TOST (NYSE: TOST) notifies intent to sell 9,146 Class A shares under Rule 144 - Stock Titan",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQU2RuU0xLS0JUOTF3M1pteUpjNldyNDFNM0M3VnpFSmE3aGNZM2plOVJTeUlfUTM5UnFlaF9kT0Rmd25oWFk3eGJLSmNiQURzNTBZeUJlalkxRjFBRXV3d0FOZkFqT1loZ3kxQ3o1Q25iTHM5cVR0YXpsMkRGZllmN2VhZkU1Z25pb2pWTTYwaw?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "TOST (TOST) Form 144 lists Class A vesting; insider sales reported - Stock Titan",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRlJ3M2dBN3VEcFEyZmtkcFpnZGdrTVFiVUhPUEF0T3FlYXZtSHZOdmY1aXFfUk9IMVNTOWR1ekxvb3ZRRjJoTldyTzN5bDFjOU5DMFJQemt4YlYzWXVJZkZ3WXg5N3FrbDZNMmNjbXFFTXMxYmVFdFRPdGJnRDh3b1pycm50TXJaMG9leXRSYw?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Elena C. Gomez to sell 8,929 Class A shares (TOST) - Stock Titan",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdGxZWUg3TkxyZjNWX2VDZU1yT1BLZkVFbUZreXVBNGpZS0RoZlFQbUFYUjY4Uk1iaDM0anppNWd6NWJpb1plclhmaU5WUFd6MktmQTlUX1llczI3RkNxeGYzYnZGSThGcGIyRGtrQU8wNXU2aHFTY0ZzbXJoTnlRaGtIX2p3RGpmSVlKUEhnSQ?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Toast",
+      "first_detected": "2026-07-03T00:13:36.380574+00:00"
     }
   ],
   "most_mentioned": [
@@ -196,7 +218,7 @@
     },
     {
       "company": "DoorDash",
-      "count": 18
+      "count": 19
     },
     {
       "company": "NCR Voyix",
@@ -215,11 +237,11 @@
       "count": 16
     },
     {
-      "company": "Shift4",
+      "company": "Toast",
       "count": 15
     },
     {
-      "company": "Lightspeed",
+      "company": "Shift4",
       "count": 15
     }
   ]
