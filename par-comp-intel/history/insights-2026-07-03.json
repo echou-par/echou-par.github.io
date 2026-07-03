@@ -2,7 +2,7 @@
   "date": "2026-07-03",
   "weekday": "Friday",
   "first_seen": "2026-07-03T04:27:25.909529+00:00",
-  "last_updated": "2026-07-03T04:27:25.909529+00:00",
+  "last_updated": "2026-07-03T07:47:53.448630+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Square appeared together in coverage \u2014 \"Square AI Restaurant Ordering Charges 2.9% vs DoorDash\u2019s 30% Cut - The Cryptonomist\"",
@@ -119,7 +119,7 @@
       "sources": [
         {
           "title": "Analysts Offer Insights on Technology Companies: SPS Commerce (SPSC) and Par Technology (PAR) - The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOZXdoT3Y2cVRHbmFYTVdzdjRfWVFxYlNkLTNCYThQV3ZILXBlb2tjN1dENWRhb2tSMVhqWXktZGFRNVlnSGJkbU1ZLVpQR2NkY1dwbDJWZ3hJOHo5ZEx3Uk1LTDRoSkVDVFZQa0pkM3o4U2VnWWk5UWNTZ2JTUmZDd0JXRzJydmJFaTNaeXBFVnVZcUs4YmlwMDhVZXF6S0xvQ3h0SzlqYVd2WFZVaUZSYzRZeHNuZUgyd1M4dGJuNGw4LTZTZGhHMWJISDV4OWVXX3d6eFhkSGtkU1ktRm91NGpRc1VLRlhSd0JkTUd3Wmk1V2VpRkN1aHZPOVg2RTZTbW84?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPUV9YRENydlFQZWgxUVpnTTVwR0xnNFJPWndUWkpMR19WUEZmb1BrdDlvVFhuSkdLMno4ZVlsUGNmb1Zxelp4b2JzTjhyWVp3YWFweW9oOEgwZmhlMDdoT1Zha3NValpJam5kVjBmcHFoWDlETXB3R040bDVtbnJDbHpfYnJleTFKXzRJZWF3TWhqRmpPMnk5a1hUeXdZNnZGSWprRmZHSVllRmJmNE82T3hBZkEtOGQzbmh5bUhZYkxvVUd0RG5KU3lJbWFZbE1YMXdGYjNsa01MeUNNNjZLdG9QeVhKSGlQSk9uWXNFNXJDSjhXYnJkQnl5eE5ScHlvaW55MV93?oc=5",
           "source": "Google News"
         },
         {
@@ -130,23 +130,60 @@
       ],
       "company": "PAR",
       "first_detected": "2026-07-03T04:27:25.909529+00:00"
+    },
+    {
+      "text": "Cross-competitor event: Fiserv, Toast appeared together in coverage \u2014 \"How Toast And Fiserv Are Widening Their Reach in Restaurants - Digital Transactions\"",
+      "sources": [
+        {
+          "title": "How Toast And Fiserv Are Widening Their Reach in Restaurants - Digital Transactions",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMHRyc0I2d1E2bmZlOTZnX3JXU2M5VlZYLTZtdXA2NHRIZlJ5YTRiLU9LcGVpZUVYZkVUdWpjNGQ3Ri01cGZuajZyUEJtdTZFX0tBc19wVkZLSU90RXBMMGJpZ3JsZEFHUmlfbGFIVXpRXy1jeVUzT2FLQWRqdk0xOENkeFVORXNCbGJ4ZF9Wd3FIR1FGenpITW8zbXdHdw?oc=5",
+          "source": "Google News - POS Industry"
+        }
+      ],
+      "first_detected": "2026-07-03T07:47:53.448630+00:00"
+    },
+    {
+      "text": "Deliverect shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Deliverect and 5&5 partner to streamline restaurant digital ordering - Verdict Food Service\"",
+      "sources": [
+        {
+          "title": "Deliverect and 5&5 partner to streamline restaurant digital ordering - Verdict Food Service",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPckhTMHRwUkd2NTBQb1FBUlgxWGVrLWlfNzUwVzhqVTBaRmxSbkczLWIxYkRXYlpsbGFNeEtSRUdWaDdaR3ptaGFaRnZCNnQ0V1NwbzY2MmRPdVp4dnFpYmNTQ0tzMFhZek5EckpxOVFFVDZPaGNYamp5Q3A0SnZjZ20xT1FweHI2Wmtia21pR1QyWnFsaXhWaTFCNW1pcnBtMmZ1RHVHSzBoRUQw?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Deliverect Partners with 5&5 to Help Restaurant Brands Scale Their Digital Ordering Ecosystem - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOcjh2eWV1SGthOWRwUTdDUVFrai1BX0s5bmt2dFBuWjJXUVdPLUF0aF9JSnNpWklseHloNlI4WGNYQy1Ubl9taWc2LVFFSDdVU1Z4OU95eWk4YncwTWFxaHlNTUpMcTFnVHBRVGh2ZnAtZzd4SjNSSHFpQVAzSHREcl9xLXJmSDNBUUlhejJPREpUYWc0NGd3QVk3YjRsQ1ZtYTd1SlBuNUw2TkMyd3BRUDFQUTRUYVJwUHdOVkRkU2hELXFxZGV6S3dwek9YZEl5emtBZmQ4SE5KSVVNdnB6aXJn?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Deliverect, 5&5 partner to scale restaurant technology - QSR Web",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNnhvRDlXaGwxWFV1bXhYSVp2R283R0xQM2IwZ3NVX1hnelU4ZnBzcnY1VnFsQ19tVVpkMm4wVk5CdHRacmZ6b3loajJRVHhIRjQ2OW1Delo0U3N2YjhlTFNoeGZKdmowMkNuYmNtUTk1cTF2a0RFNW5UdXV3YlZLdlF2cUFqSDdCTU1NTVRuTFg1eWxDbWJOT0lR?oc=5",
+          "source": "Google News - Restaurant Tech"
+        }
+      ],
+      "company": "Deliverect",
+      "first_detected": "2026-07-03T07:47:53.448630+00:00"
     }
   ],
   "most_mentioned": [
     {
       "company": "DoorDash",
-      "count": 18
+      "count": 20
     },
     {
       "company": "Global Payments",
-      "count": 16
+      "count": 19
     },
     {
-      "company": "TouchBistro",
+      "company": "NCR Voyix",
       "count": 16
     },
     {
       "company": "Olo",
+      "count": 16
+    },
+    {
+      "company": "Fiserv",
       "count": 16
     },
     {
@@ -158,11 +195,7 @@
       "count": 15
     },
     {
-      "company": "Uber Eats",
-      "count": 15
-    },
-    {
-      "company": "NCR Voyix",
+      "company": "PAR",
       "count": 15
     }
   ]
