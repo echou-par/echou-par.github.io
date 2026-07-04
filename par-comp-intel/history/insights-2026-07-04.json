@@ -2,7 +2,7 @@
   "date": "2026-07-04",
   "weekday": "Saturday",
   "first_seen": "2026-07-04T04:21:23.833437+00:00",
-  "last_updated": "2026-07-04T14:47:33.936438+00:00",
+  "last_updated": "2026-07-04T15:12:37.846274+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Square Card from Block Inc. - everyday spending tool built for US small businesses - Ad-hoc-news.de\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-07-04T04:21:23.833437+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360\"",
       "sources": [
         {
           "title": "Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360",
@@ -49,7 +49,7 @@
       "first_detected": "2026-07-04T04:21:23.833437+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 11 tracked partnership items this cycle. Latest: \"Deliverect and 5&5 partner to streamline restaurant digital ordering - Verdict Food Service\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Deliverect and 5&5 partner to streamline restaurant digital ordering - Verdict Food Service\"",
       "sources": [
         {
           "title": "Deliverect and 5&5 partner to streamline restaurant digital ordering - Verdict Food Service",
@@ -93,7 +93,7 @@
       "first_detected": "2026-07-04T04:21:23.833437+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"TOST (NYSE: TOST) notifies intent to sell 9,146 Class A shares under Rule 144 - Stock Titan\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"TOST (NYSE: TOST) notifies intent to sell 9,146 Class A shares under Rule 144 - Stock Titan\"",
       "sources": [
         {
           "title": "TOST (NYSE: TOST) notifies intent to sell 9,146 Class A shares under Rule 144 - Stock Titan",
@@ -141,40 +141,51 @@
         }
       ],
       "first_detected": "2026-07-04T14:47:33.936438+00:00"
+    },
+    {
+      "text": "Cross-competitor event: Fiserv, Toast appeared together in coverage \u2014 \"How Toast And Fiserv Are Widening Their Reach in Restaurants - Digital Transactions\"",
+      "sources": [
+        {
+          "title": "How Toast And Fiserv Are Widening Their Reach in Restaurants - Digital Transactions",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMHRyc0I2d1E2bmZlOTZnX3JXU2M5VlZYLTZtdXA2NHRIZlJ5YTRiLU9LcGVpZUVYZkVUdWpjNGQ3Ri01cGZuajZyUEJtdTZFX0tBc19wVkZLSU90RXBMMGJpZ3JsZEFHUmlfbGFIVXpRXy1jeVUzT2FLQWRqdk0xOENkeFVORXNCbGJ4ZF9Wd3FIR1FGenpITW8zbXdHdw?oc=5",
+          "source": "Google News - POS Industry"
+        }
+      ],
+      "first_detected": "2026-07-04T15:12:37.846274+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "Deliverect",
-      "count": 48
-    },
-    {
-      "company": "Lightspeed",
-      "count": 34
-    },
-    {
-      "company": "SpotOn",
-      "count": 32
+      "company": "Global Payments",
+      "count": 18
     },
     {
       "company": "DoorDash",
-      "count": 28
-    },
-    {
-      "company": "Fiserv",
-      "count": 26
-    },
-    {
-      "company": "Global Payments",
-      "count": 26
+      "count": 18
     },
     {
       "company": "TouchBistro",
-      "count": 26
+      "count": 16
     },
     {
       "company": "Olo",
-      "count": 26
+      "count": 16
+    },
+    {
+      "company": "Fiserv",
+      "count": 16
+    },
+    {
+      "company": "Sparkfly",
+      "count": 16
+    },
+    {
+      "company": "Uber Eats",
+      "count": 15
+    },
+    {
+      "company": "PAR",
+      "count": 15
     }
   ]
 }
