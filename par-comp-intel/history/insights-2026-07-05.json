@@ -2,7 +2,7 @@
   "date": "2026-07-05",
   "weekday": "Sunday",
   "first_seen": "2026-07-05T04:42:00.321275+00:00",
-  "last_updated": "2026-07-05T20:18:40.254175+00:00",
+  "last_updated": "2026-07-05T21:34:42.524887+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Square Card from Block Inc. - everyday spending tool built for US small businesses - AD HOC NEWS\"",
@@ -93,7 +93,7 @@
       "first_detected": "2026-07-05T04:42:00.321275+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"Earnings call transcript: Toast Inc. Q1 2026 earnings fall short, stock rises - Investing.com\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Earnings call transcript: Toast Inc. Q1 2026 earnings fall short, stock rises - Investing.com\"",
       "sources": [
         {
           "title": "Earnings call transcript: Toast Inc. Q1 2026 earnings fall short, stock rises - Investing.com",
@@ -118,13 +118,13 @@
       "text": "PAR (PAR) stock gained 12.7% over the past week \u2014 material weekly move relative to broader cohort.",
       "sources": [
         {
-          "title": "PAR Technology Q1 2026 slides: earnings beat fuels profitability push - Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYlk0ZUZxdnBvcElLSEw5N2pabzhROXc3UU03YlBWQ0cwNDd6SVJlbDE3NHI1ZzV5TXBtZzZ2M1M4MzZTRnI3RGdPRFc1eHBuWERabk91Y29fU1ExcjBkUkp0NGh3MlNXY1FzN1R2VW9aNEtkSFZCY0ZiQ0RQOTM5LUtoR083SHdsUEhqOXdGa3NLUkdEMWFlc2YtUkREOXlRbzVNU0U4SnF2WFVoTUlnbzNxMllDeXVDMVF6Tkw1V3hUa2s?oc=5",
+          "title": "PAR Technology Corporation (NYSE:PAR) Receives Average Rating of \"Moderate Buy\" from Brokerages - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNS3N0Tl9ubU1FZjZ3MFFzbVZqRC1yWDVkT3lUMmw4eEd0MWhhd2ZYNHBTQXFvUWI2Vjd2RFlBVlFGRTJUQzB0XzBiYXdYYUlKdFh3Rm4wOFFES3JhZ01PSWZmRlU0X3FQXy16LWxtLVJ5OGR5X0RrX04xbVVWb1NPVFNpdlRnTldSWDhna2xjSHViZV9XcGdjVWMwV2hJckVwVm10eVBEdGlqM0lCT201N0lWM2hzTV92TnFFMF9zenhpNXJQZHVVRDA2c3JRT1g2aHI0aTd0OHVXeHZX?oc=5",
           "source": "Google News"
         },
         {
-          "title": "PAR - Par Technology Corp Volatility & Greeks - Finviz",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBoU2hHSEtwSUMzSFNzT19wd3RkRW1zblF4UGlGNFBVZHhWVndpZTdXWXJYNF9tQWpzcjFubHZ6SzBZQmRIYTNudkFoNTc0cGJjZWpZd1NtWE5sbmtnZy05NHk1cVRNZk10aU9uTWkwYTd1c2prR0dXQjJTamgyQQ?oc=5",
+          "title": "PAR Technology Q1 2026 slides: earnings beat fuels profitability push - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYlk0ZUZxdnBvcElLSEw5N2pabzhROXc3UU03YlBWQ0cwNDd6SVJlbDE3NHI1ZzV5TXBtZzZ2M1M4MzZTRnI3RGdPRFc1eHBuWERabk91Y29fU1ExcjBkUkp0NGh3MlNXY1FzN1R2VW9aNEtkSFZCY0ZiQ0RQOTM5LUtoR083SHdsUEhqOXdGa3NLUkdEMWFlc2YtUkREOXlRbzVNU0U4SnF2WFVoTUlnbzNxMllDeXVDMVF6Tkw1V3hUa2s?oc=5",
           "source": "Google News"
         }
       ],
@@ -164,6 +164,14 @@
       "count": 18
     },
     {
+      "company": "PAR",
+      "count": 16
+    },
+    {
+      "company": "Fiserv",
+      "count": 16
+    },
+    {
       "company": "TouchBistro",
       "count": 16
     },
@@ -172,16 +180,8 @@
       "count": 16
     },
     {
-      "company": "Fiserv",
-      "count": 16
-    },
-    {
       "company": "Sparkfly",
       "count": 16
-    },
-    {
-      "company": "Shift4",
-      "count": 15
     },
     {
       "company": "NCR Voyix",
