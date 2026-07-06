@@ -2,7 +2,7 @@
   "date": "2026-07-05",
   "weekday": "Sunday",
   "first_seen": "2026-07-05T04:42:00.321275+00:00",
-  "last_updated": "2026-07-05T23:07:48.846948+00:00",
+  "last_updated": "2026-07-06T01:16:32.040796+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Square Card from Block Inc. - everyday spending tool built for US small businesses - AD HOC NEWS\"",
@@ -93,7 +93,7 @@
       "first_detected": "2026-07-05T04:42:00.321275+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Earnings call transcript: Toast Inc. Q1 2026 earnings fall short, stock rises - Investing.com\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"Earnings call transcript: Toast Inc. Q1 2026 earnings fall short, stock rises - Investing.com\"",
       "sources": [
         {
           "title": "Earnings call transcript: Toast Inc. Q1 2026 earnings fall short, stock rises - Investing.com",
@@ -152,19 +152,52 @@
       ],
       "company": "PAR",
       "first_detected": "2026-07-05T12:21:23.567757+00:00"
+    },
+    {
+      "text": "Cross-competitor event: DoorDash, Square appeared together in coverage \u2014 \"Square AI Restaurant Ordering Charges 2.9% vs DoorDash\u2019s 30% Cut - The Cryptonomist\"",
+      "sources": [
+        {
+          "title": "Square AI Restaurant Ordering Charges 2.9% vs DoorDash\u2019s 30% Cut - The Cryptonomist",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBFRkVtcXlhOTVVWi1Pb29RZi1VeUF6a1JfX25CWUxNbzl5WlAxd2pOVnB3MmJpN1FHYS04aUwteG1SSU9HTFBIZm5mRTBVUC1IcTN4WWZqTHRrWE5DWDJodnIwZXdzcXk1V3pjTUhBbGxWUkllQWhN?oc=5",
+          "source": "Google News - POS Industry"
+        }
+      ],
+      "first_detected": "2026-07-06T01:16:32.040796+00:00"
+    },
+    {
+      "text": "Square shows concentrated risk activity \u2014 3 tracked risk items this cycle. Latest: \"Is Block Inc. (SQ) Navigating a Shifting Fintech Landscape, or Is It Signaling Deeper Concerns - Kavout | AI\"",
+      "sources": [
+        {
+          "title": "Is Block Inc. (SQ) Navigating a Shifting Fintech Landscape, or Is It Signaling Deeper Concerns - Kavout | AI",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSTJTVl9zdUhsaGNYNWJDWHQ0X1lLYkZhRktjUUJQU3l3WThHNkFXd0E1c0tyVmpXYm4wOGlRM2FPT0wwenJoSmZrQjkwZWpLeWVsVDZCRnhvYlgyRHUtT1pVZGZfSzN3Yl9aaXVBTU9obWl2YzRrSnFqY1pSZDItTUd4YWVjRkItc2tGQ2ZJQmlfVFFPVEduLTktSU9jVF81WEhPTmRLd1RyMndKQ2NoUmROZk5Wc3JVMGJpOHhiZllBZzg?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Block, Inc. (XYZ) Faces Securities Class Action, Regulators Levy Cash App Fines Following Investigations Going Back to Hindenburg Report- Hagens Berman - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQM05pMnk1bGRndDlvUGFXOHJzcFNxQWVEYjBhYUdSZGxGRUdtTDVieUxSajF6OXo4cm5TU3pkdldhM2VRd2tSRXFka3pWN2Uyc1A5MmtMTG9PcW4wNVNiSXNtcVlzNmdfR1p3X1hJQnhBenc5ZERxX1VMZDRjNHhYcHlEVXdmeTRqWDhpbDR2Mlo4ZnFDMUU2dm1OcVp4WVFlWjNlc0NjYjcyRDZDMk9TSFhDTlhuRXhCckNQWWlrdHVjcjVKNl9lb1BJU0V2bGc2MlEzc0FQTWYxUFFPTnlsUEwzeFgxSDNlWWFZeC16OWNQSkdQVFRXaUo0RlBMczZfT3BERTZ4eUVleEJERVkydnBvNlFZUGJQQ0Y0Rmcxa0RrZlRQRkNWTw?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Fintech giant Block Inc. confirms Atlanta layoffs - The Business Journals",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcHY0TlViYjllVnJuN1p0VjZSWV9KSXdPbjM1QndWN290VlpUUkJqZngtYnBVVnQ2Sm14bGpGeWc1aVhzVE5DaWQxcER0WTBSYWlaY2ZQQkE4LTN4by1HTW1fRjg2Z0lwWm9FMHlNOEtHZ1BWLWI3dEJnTlZMTW93VS1SdTIzdy12MmU3cXVtQ2xVeWlxMDlzaTBoYWN6Z3RGbHNrTFJBcw?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Square",
+      "first_detected": "2026-07-06T01:16:32.040796+00:00"
     }
   ],
   "most_mentioned": [
     {
       "company": "DoorDash",
-      "count": 20
+      "count": 19
     },
     {
       "company": "Global Payments",
       "count": 18
     },
     {
-      "company": "PAR",
+      "company": "TouchBistro",
       "count": 16
     },
     {
@@ -172,19 +205,19 @@
       "count": 16
     },
     {
-      "company": "TouchBistro",
-      "count": 16
-    },
-    {
-      "company": "Olo",
-      "count": 16
-    },
-    {
       "company": "Sparkfly",
       "count": 16
     },
     {
+      "company": "PAR",
+      "count": 15
+    },
+    {
       "company": "NCR Voyix",
+      "count": 15
+    },
+    {
+      "company": "Toast",
       "count": 15
     }
   ]
