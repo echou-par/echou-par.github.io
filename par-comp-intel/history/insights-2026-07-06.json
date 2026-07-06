@@ -2,7 +2,7 @@
   "date": "2026-07-06",
   "weekday": "Monday",
   "first_seen": "2026-07-06T06:04:33.616182+00:00",
-  "last_updated": "2026-07-06T14:43:04.883715+00:00",
+  "last_updated": "2026-07-06T16:32:41.712920+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Square Card from Block Inc. - everyday spending tool built for US small businesses - AD HOC NEWS\"",
@@ -16,7 +16,7 @@
       "first_detected": "2026-07-06T06:04:33.616182+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360\"",
       "sources": [
         {
           "title": "Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360",
@@ -38,7 +38,7 @@
       "first_detected": "2026-07-06T06:04:33.616182+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Deliverect and 5&5 partner to streamline restaurant digital ordering - Yahoo Finance\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Deliverect and 5&5 partner to streamline restaurant digital ordering - Yahoo Finance\"",
       "sources": [
         {
           "title": "Deliverect and 5&5 partner to streamline restaurant digital ordering - Yahoo Finance",
@@ -82,7 +82,7 @@
       "first_detected": "2026-07-06T06:04:33.616182+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Earnings call transcript: Toast Inc. Q1 2026 earnings fall short, stock rises - Investing.com\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Earnings call transcript: Toast Inc. Q1 2026 earnings fall short, stock rises - Investing.com\"",
       "sources": [
         {
           "title": "Earnings call transcript: Toast Inc. Q1 2026 earnings fall short, stock rises - Investing.com",
@@ -143,7 +143,7 @@
       "first_detected": "2026-07-06T14:43:04.883715+00:00"
     },
     {
-      "text": "NCR Voyix (VYX) stock gained 9.1% over the past week \u2014 material weekly move relative to broader cohort.",
+      "text": "NCR Voyix (VYX) stock gained 11.8% over the past week \u2014 material weekly move relative to broader cohort.",
       "sources": [
         {
           "title": "ETFs Investing in NCR Voyix Corporation Stocks - TradingView",
@@ -158,40 +158,62 @@
       ],
       "company": "NCR Voyix",
       "first_detected": "2026-07-06T14:43:04.883715+00:00"
+    },
+    {
+      "text": "Shift4 shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Why Retailers Shouldn\u2019t Miss Shift4 at NRF Europe 2025 - Shift4\"",
+      "sources": [
+        {
+          "title": "Why Retailers Shouldn\u2019t Miss Shift4 at NRF Europe 2025 - Shift4",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTFY3NDhtQWlLb0l5ZHdtU3JOaHNjYy1HSzFORHVGcjBaLWozQ3NXNjhNTEgwQUVwV25QeHRsaUliVUhLcm1WR2VNREJ0eHlQMV9JWkwwTWlFN2tXYmxELTl2bHJ5aW9mV1E4TzFtMjVRekxYNWk0cXRKYjEyQW1oNlZXLVBkQi14aWlrNw?oc=5",
+          "source": "Google News (shift4.com)"
+        },
+        {
+          "title": "Shift4 Payments vs. PayPal: Which FinTech Stock Is a Better Buy in 2026? - AOL.com",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSEFYR1FZSTZIT3NlU1ZoQzZxMUxzRzJRQXlSNlc4clVBaC1MbFNhQm52Mk5kUVo1eHRWMUZoNHVmemY5ak1TQzRKRWp0emZXY3hEZU4xWjljTDRWNTRNWlVhQzM0T1dIRWhkMElab0hMOF9GWmFvSF9VNXdoWXVPeXBR?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Why is Shift4 Payments stock surging today? - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOazBCYTFTakFuNlFjTm9TYllrMGtacHhQWE9XbWpPZzRpZGhDRFdEcGZFSnpST2NhZFRzNnJoQ0x2eEJEYzRob3djb09mV1JyMDhqZmxWZE1qZXF3b3M1Uk5yU0loMFBkblRDM3hSbDMxb21RM2Q0YVBNbnlPS0JvSGNoVFllVHQ0Qk9yN1ItV0NBWGdNU2dIb3p2ZnRFRjFpZUo3WVNCRQ?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Shift4",
+      "first_detected": "2026-07-06T16:32:41.712920+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "Global Payments",
-      "count": 20
+      "company": "Deliverect",
+      "count": 48
+    },
+    {
+      "company": "SpotOn",
+      "count": 32
+    },
+    {
+      "company": "Lightspeed",
+      "count": 32
     },
     {
       "company": "DoorDash",
-      "count": 19
+      "count": 29
     },
     {
-      "company": "TouchBistro",
-      "count": 17
+      "company": "Global Payments",
+      "count": 27
     },
     {
       "company": "Fiserv",
-      "count": 16
+      "count": 26
     },
     {
-      "company": "Olo",
-      "count": 16
+      "company": "Toast",
+      "count": 26
     },
     {
-      "company": "Sparkfly",
-      "count": 16
-    },
-    {
-      "company": "PAR",
-      "count": 15
-    },
-    {
-      "company": "NCR Voyix",
-      "count": 15
+      "company": "TouchBistro",
+      "count": 26
     }
   ]
 }
