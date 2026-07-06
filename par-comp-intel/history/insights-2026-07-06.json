@@ -2,7 +2,7 @@
   "date": "2026-07-06",
   "weekday": "Monday",
   "first_seen": "2026-07-06T06:04:33.616182+00:00",
-  "last_updated": "2026-07-06T11:13:04.501803+00:00",
+  "last_updated": "2026-07-06T14:43:04.883715+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Square Card from Block Inc. - everyday spending tool built for US small businesses - AD HOC NEWS\"",
@@ -60,7 +60,7 @@
       "first_detected": "2026-07-06T06:04:33.616182+00:00"
     },
     {
-      "text": "Square shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Block wins over skeptics as BofA raises estimates following post-restructuring rebound - Proactive financial news\"",
+      "text": "Square shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Block wins over skeptics as BofA raises estimates following post-restructuring rebound - Proactive financial news\"",
       "sources": [
         {
           "title": "Block wins over skeptics as BofA raises estimates following post-restructuring rebound - Proactive financial news",
@@ -119,19 +119,58 @@
       ],
       "company": "PAR",
       "first_detected": "2026-07-06T06:04:33.616182+00:00"
+    },
+    {
+      "text": "Global Payments shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Global Payments (GPN) Is Up 11.9% After Closing Worldpay Deal \u2013 Has The Bull Case Changed? - simplywall.st\"",
+      "sources": [
+        {
+          "title": "Global Payments (GPN) Is Up 11.9% After Closing Worldpay Deal \u2013 Has The Bull Case Changed? - simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNXzhCNUEtVnEyVGhrZHRzTW1XRlcxNVdGTFFHTUFYMHdsTXNsd1ZSekpHUGFaRjV0R3FwZ3lTdVNuaUVyWHo0X0d5TTJjY3JUbzB3RjJkdXpNZEFIdVA0N0pRdXdiUi0zaWJLWTdYc01ZdVB2M3ZRR2lJVFV4VFBENlJ2TVpMQlBvQnRabGRmdGdZQ3pYMkFPeFhzbG9UbmREXzQ1clUxbHQza2NIeDlqS2JSdXhaelpDNGJFODhDT0xWQVZTbndiYlFJUGxGUENCSEpSQXZJUnhiNzhNT0HSAeMBQVVfeXFMTjBrUmkyMmdDRUlYUUJlTGpXQ3FncXBlLUEwZHlPcjV5Q0xUU2JPV3ZPWGczWFhpNE1hN2Y5WnplbVFkRU5TWnk1d0dPZUhZQVk0RWc3Y0dhQzF0U0EwNWdLUkpaUzJZTHo0OXVvNEpjbGp4UFcwRkxhLXlDUmFaZDdidUpfT3BCYTBSbkdqUFZrMzc5c2otSHA5cmdTbEpyNnhqWjNFcllqQVpNazFadTJQMzNRdmRldkxqZVRJNS1leHVmSkRKVTZvaGFLYXV4OTFlaEx2Qi1SLUoyTGw3VjVkSTA?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Can Global Payments' (GPN) Merchant Pivot and Worldpay Integration Recast Its Risk\u2011Reward Profile? - simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNa0QxMWZmRFFkZTJEVlBRazBEc2RZUmwyZUNXaE5QNm95T2dLMmJtOXpLQ3pqSjVDdDM1SGtQZ3dLNnpmWEhmajBidnQ3VFZOQ3g0MC1JdXlLb2RoQzdxUVMxeU5yNWF2UW1uWGNxRW5pZGRaSk1IODVSR0tDaVRDSEluYzV0VTRENEw2enkxdzc2cU84eDhGZ09BVmRWQ296VHpwSkdGQ0NTdU1CMWNHNU10Q1hvdnBEcVE4cnEwaUloT2hMUlAyc05ja0tTZDFuLV9OM2Qzd2Y4RHFCRFHSAeMBQVVfeXFMT3BhbkFQMG4ycGwtSk9YOVp5aG15NFd0OTlheExLTWN5Y1VtYmpaTnkwS2FaVDExX183LXdGaDFjQ1FzWlJBeGwwdlZieVZ3eTg1UHFBVHFmQkVvYWNzZE41a1pxUzZ2RWpmTEcwUnEwS182Z01rUzNSNmVSNWVXeGRCcGJBZ2xTaVY2TDYxMjJQbU0xcXFoVFZZczRDX2psM0I4VkpmVGdxaTMxWjJHZFg0N3N5d2FsWEdqZVZ4REowRWo4SFpRX3hyUFRQeFJpQ1M1VHo1bEhVOEdteVpLNmg5XzA?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Global Payments Bets On AI Handhelds And Embedded Deals In Restaurants - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNS0dodWxtcVd2SDhuTjdYUlJpb3VvV3o1T0haWllwR2FYWXB2ajZwa3JCUDVLVFc5SlBDMGZLOXo0dm9oYVdzenZFVXBwdHFLX1BqR2VZWW1WdFE0aFBHRlZDeG1qV2YwLXBIR09uN09WalMzbEwyTUM5dnVZVWpTNGhjR3dpMFNMeW5CSlBjdlc3dHBsalJjVm9VcU1EbTQ?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Global Payments",
+      "first_detected": "2026-07-06T14:43:04.883715+00:00"
+    },
+    {
+      "text": "NCR Voyix (VYX) stock gained 9.1% over the past week \u2014 material weekly move relative to broader cohort.",
+      "sources": [
+        {
+          "title": "ETFs Investing in NCR Voyix Corporation Stocks - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5iajhQNWtqSVZTWG00UmF6Z0VRSF9obnpaU1B1bWthWUdRa1VMeUgyME4wVGhUdW1CMzVCLXlNdmt5cTg2WVJZWHhkWGNHd2dwYUE0MFh2MGFUWUlxYjlZMXYxZw?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "NCR Voyix surges on earnings beat and solid guidance - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOWEtNFpYLW9ETDRwN1QzTGJWNlJiNHZpbDlpa2NDVktoYlhsNHBZcmIzZnAySjJJYUNabHhPY0w5QXF5LXA3eENVTThPN0tNQk9ObURmcUk1YWRRS2hVcEZlcF9ocFRSNEJILVIyX0poU1NFSnZNZWhkcUV4QWtBbUxLZHk3enNJTGFtWnR3VERlLTRlbW96OVNFS2JqLUtqeWN6QWw4d0E?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "NCR Voyix",
+      "first_detected": "2026-07-06T14:43:04.883715+00:00"
     }
   ],
   "most_mentioned": [
     {
       "company": "Global Payments",
-      "count": 18
+      "count": 20
     },
     {
       "company": "DoorDash",
-      "count": 18
+      "count": 19
     },
     {
-      "company": "Olo",
+      "company": "TouchBistro",
       "count": 17
     },
     {
@@ -139,7 +178,7 @@
       "count": 16
     },
     {
-      "company": "TouchBistro",
+      "company": "Olo",
       "count": 16
     },
     {
