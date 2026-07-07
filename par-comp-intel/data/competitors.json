@@ -1,7 +1,393 @@
 {
-  "updated": "2026-07-07T18:06:09.338266+00:00",
+  "updated": "2026-07-07T20:26:42.515742+00:00",
   "companies": {
+    "Toast": [
+      {
+        "headline": "Form 144: 3,150 Class A shares proposed sale (TOST) - Stock Titan",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWlhwVnlZeENYY19tbUI5UDlDUXpKM3BueVlhOXJBT0hXV1FSUEc3LUVTbk9NVlpKWXpvNm5CNzlSNEphckdGRXJHc3c3eEFXVExiM2JRc0ZGQmpIZElVYkRQM3h3M2YyR2NnYkh5dU5jN1ZYLWFJMm5NVUVKb3l4QVdyTnB0UmRWUENVLXVNNA?oc=5",
+        "date": "Tue, 07 Jul 2026 20:05:41 GMT",
+        "source": "Google News",
+        "company": "Toast",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Form 4 Toast Inc For: 6 July By Investing.com - Investing.com Canada",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZFdwQlpTZ1VIYWpUNms2c29aWnVXOFdmS2JMWlMySzMwbEhKakthaDg3NFVOMnZCNzQ5NDh6ZXp3bDNPUzBXaVRLZEx4VTRMbFdmSk1JVDJZaTQwblM3ZldXX3NEdDU3bjJpQVFvaE95TEczcVBuTXR2MWZYSFN1ajktaUNyTXNmMUpYNE0xZmNodw?oc=5",
+        "date": "Mon, 06 Jul 2026 20:51:50 GMT",
+        "source": "Google News",
+        "company": "Toast",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Toast (NYSE: TOST) CRO sells shares to cover RSU tax obligations - Stock Titan",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdlVoUlg5WUtuNFA4RGFaQVBkUG5NOXo1Rm9vbUVMdWo5RzFBMGNEeklqM2ZNNWVzZ1lRZ3N2QTJsQkRvUkhqMWllXzNIY0k0N0w4a1hIN0kzMElPU0NRMFNfNG9vQVljbmZxbElrZzRBdnNmZHJBX0V0aGtxb3NnOUdNVFJBRTFmOVQ1VFFWM1VlaXV0NHVHTlY4ZVc0Zk41cmVvZGxB?oc=5",
+        "date": "Mon, 06 Jul 2026 20:43:45 GMT",
+        "source": "Google News",
+        "company": "Toast",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Toast (NYSE: TOST) CEO sells shares for RSU tax withholding after vesting - Stock Titan",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPS1RpbDRybEk5Mlk5RTVNSFBsV1RyWS1uNkxadG9MNkRwb3FSYlFUaVBCT0Y2dnJCVVVkNU1Rb0QxMlZ1RGdWeDdpdmFCUk43eFA4WldCUmc2aXk1S3J1T3E0N1FIUWhlTzVIa0dMc3hXR1FyU0d1RlRMTFJwcHNKVl85V3M0UHZzR3o2MmNibjdJTmJ4cndpd2xQYzBwdkROemtzOTRB?oc=5",
+        "date": "Mon, 06 Jul 2026 20:43:15 GMT",
+        "source": "Google News",
+        "company": "Toast",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "RSU vesting and tax-driven share sale for Toast (NYSE: TOST) counsel - Stock Titan",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRzlfQnJhMlA5eG82ZGJHMFFVcWxOZW5LOE9BN3h1bFYwRFNYSmczZTBWZnFJWjBxSzlWTjNuUC1PYlhkeEtfd2dxU05vWE9BLUYxOWpEamtEZS1fQUNTVEphLWFWUHp1UU5kRlVBWEpQZkM3dUw4TWc4Qjg4bExDd3NDWVRXNFloQ3dyYW5wS3ZXSS1YeXVCV3dId0ZINVJyVmtzYjdn?oc=5",
+        "date": "Mon, 06 Jul 2026 20:42:46 GMT",
+        "source": "Google News",
+        "company": "Toast",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Toast (NYSE: TOST) CFO Elena Gomez reports RSU vesting and required tax-related share sale - Stock Titan",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPa2dydlIzZ3RPd0RlUm9qOWctUVp4c3VYWjdvZXRpb0ZwcXA4V19SV0VPYlZQUTJvOTlVbDBXT2NTQTlUREJ2dHdEWTZPSG9MWEc3MUJKSkI2VG9XQUR4LWRUaHA2WUpOMWZDay1nZVhnR3dGbUhSTUVibWdwOWhYdjdwd01icG56RGx4S1AxWHp5N2ZzTTNQUkV3ZVlPNF9wbkE5aDlR?oc=5",
+        "date": "Mon, 06 Jul 2026 20:41:33 GMT",
+        "source": "Google News",
+        "company": "Toast",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Earnings call transcript: Toast Inc. Q1 2026 earnings fall short, stock rises - Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQSDhmSW9pQnJZNm1qa3FORmZ4a09qeHdZMkFaOEE2YzRzOWltWC05WHdkUDc2alM4ejBiU2NGNVE4ODU4YmRoWnktb241TlFGcUY5T18wTllQV0owdjR1ZHBpQk1GUzFVWjhELWFSRHdON0JiWnhodFY3TXdINElEb2pSUzFFeUxyMVZBaGxITlktdjBnd2twVkhDVHRIOGRFcjJPY0xXbnAzR3dreUtXRS13cW5na3p6ZGR0OHVHNU5Eb2JKeWV3ZVFR?oc=5",
+        "date": "Mon, 06 Jul 2026 07:53:13 GMT",
+        "source": "Google News",
+        "company": "Toast",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Enterprise value to revenue forward of Toast, Inc. \u2013 NYSE:TOST - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWFRBeTdyWUhMT3NOUElGVUpzSnE3WDI1NExHSjdiVjk0aHQ1dTdjWEZMZkxnd0swaW9NYnppODVQUW9lanp3RWV3aERqT1JKZlNscUN1NFM5SV8yUFQwcHdwV0pLWS1IVzFrNGNsOTEyQ1M3ZTlEc2VBRHY0YnhIY1huN0hkT2VRLXc4YXI4UElJY0Y1SGhUaHlWVXR6R1dDUzdHX2lwNnM2QQ?oc=5",
+        "date": "Sat, 04 Jul 2026 08:30:25 GMT",
+        "source": "Google News",
+        "company": "Toast",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "TOST (NYSE: TOST) Form 144: 14,365 Class A shares tied to vesting - Stock Titan",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSC0zWDlsN003ZWpPaTRvV0g1SDVJekdKRTIyNVE3c0o4Y1BGMDlvWW9MUnJXWmphQ0xmU19GN1FKUmJqbXFWLWl4NjhNQUJsQmdtUFJmeXRGWnpvRk9pUVMyRUMxeFNqQzBxV0paVV80ZkVPU09sMnlGLW04RkVHcExRRndTeWh5eFFTclZ6UQ?oc=5",
+        "date": "Thu, 02 Jul 2026 21:04:43 GMT",
+        "source": "Google News",
+        "company": "Toast",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Toast, Inc.(NYSE: TOST) added to S&P 1000 - marketscreener.com",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdkFkUW1wc2tSMk9nYTFEYmVrSUhzRjY4R0R6a3hpYXVxTlJueUtVcWM5Q3FmYVBUTVowSzRGajljZS1Ha1VRR1RTcDBxU3IzdEVIY0ZmY2NKLXViY3dmanhrSmVDaEhlX1J1b1YwYUtMME5XMWllQUhaRU41RVlGbXh4VTdfOU5WVnpGejFsNmd5Ujcy?oc=5",
+        "date": "Wed, 01 Jul 2026 10:13:31 GMT",
+        "source": "Google News",
+        "company": "Toast",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Is Toast, Inc. (TOST) A Good Stock To Buy Now? - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVllSMXQyZFNRRldJa21KSUJ6d2tBZnZhWE1fT01IN00zS2JDcWpYNHZJY21rOG9wMGZKRlpfWGNDNTBOVXF0MGx4bGhpT2tBR3lJZV8wSk5TMHllcHdIYmZoa25JWTh0TlhEOFNic2dYdTEwSTJ0SnNXMWJZcFhuUnc4cVppbTRtMFpXRlA3X1hWS1pF?oc=5",
+        "date": "Mon, 22 Jun 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Toast",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Piper Sandler Assumes Coverage with Overweight Rating for Toast Inc. (TOST) - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdzhsV2MzQkk1TWhHNy1fdjBZR080VmkwNEp0RFZnZXpPZlplR09BRVBRbnZCUTRVcVAxRzVuUkFmLWNQd0ljQmRpTlNyLWN6cWJ5RzVtLVlfV3RabXFxa1V2RU9aeVFLOXZsem9vdFhNYlpCaVc1Y1lvd291dUt4YWR5UTN1RWpHMkczZXd4V1JuVGRDdnIyRHpoalVaOGREbjRJLTF1bVktdw?oc=5",
+        "date": "Sat, 20 Jun 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Toast",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Q1 Rundown: Toast (NYSE:TOST) Vs Other Vertical Software Stocks - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZHNxbHhIamRMWW5obTVrd3ZfMGRyYk9nWHlFT00yMElXQ3JGa1lFaHdoNUY2aFRUTGRxSUdIcE9ZVWpkbzJMbkV1MG9nQlN3Z0dDU3BEMFdvdlJUOTlFTUhhdVNEVTUxdWFlcm1pWTFiRG5CQlRvd3BMUmdFNFJSU00tX0RJc0J3UXkzVjBrQ2YwNEM1Rmc?oc=5",
+        "date": "Fri, 19 Jun 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Toast",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Here is What to Know Beyond Why Toast, Inc. (TOST) is a Trending Stock - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOFRsOFVobG5PTHUtbFpOYlhkR2dCd0Z0RFAyOHU5YTNTMnJmQmxlZWZ3Y3hPeTVFY1dhNFJVb3laaWpDVmFjYTZMVnBYU19IUXJobmxDNElQU21mR0ZZamNBcm5QaWpra1Y2VzZ1Z3Z2RnhWMFpvRENkNVNiMVU2WmFBYl9kTzl0VlFNMUM5aWVEb05h?oc=5",
+        "date": "Wed, 17 Jun 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Toast",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      }
+    ],
+    "Thanx": [
+      {
+        "headline": "Thanx Announces Direct-to-POS First-Party Ordering Integration with Square",
+        "url": "https://www.qsrmagazine.com/news/thanx-announces-direct-to-pos-first-party-ordering-integration-with-square/",
+        "date": "Tue, 07 Jul 2026 18:19:51 +0000",
+        "source": "QSR Magazine",
+        "type": "trade",
+        "company": "Thanx",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Thanx Integrates Loyalty Platform With Square POS System - PYMNTS.com",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcl9RaTlDWFJlTHM1ZDI4TDN4cGtjRTNfYkszeWZQM1pDUkRIREI3ZDhnVjM2U1V1d0J3T19yUFpuSWJTUGxnVHhHZkxTVXc4Z3c4aGFmOHE3dGV0RE56ck1RSWIwN0U4WGhHVWpSc1Z6TFRwa2xsT2RnY1BMS2kyNzh5YWV3RnQ5dXNXWC1JNnRxWkV0aTZDWEpoNDVRd1VOSWhxcURxV0ZJdEpTYmwtSTJGVkRYdw?oc=5",
+        "date": "Mon, 31 Mar 2025 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Thanx",
+        "type": "private",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "With new loyalty system, Thanx wants to bring restaurants into new era of rewards - Restaurant Business",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUTJrNjhjcl91RFg3UGdFRzlPajJaUzhGSU5BRjdmYmQwYlFmdTY1X1o5czRyLWdrNWFuNUI5QmdPTWU0US1nQmpwTW9JR3RyaEE3RmEwOENFcDd1bUN5VHlyWWRBY3F4NXBCdUxBQVNQVVlWRnFFbUpsOFpaeW5JQ0ZLUXEtUWtqWWw2ZG0yUW5MUWk0dkF0UjBQYXQzelp6UGJrbnF5VHFCaWZOd0wtb1pB?oc=5",
+        "date": "Tue, 25 Oct 2022 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Thanx",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Pincho, Hattie B\u2019s tapping Thanx hidden menu capability - QSR Web",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeFdzYXlBWDEzUFNNT3BHelJUaUtWTE5NWnVBTVMxVHlCWnFCYk5CSnpKQ0l2YlBRWmt6NmNuVUZrUWF2QkhuYVhoa1lIRXU0Ym1SdDlOcVU1Z3FVVEp2VXBSczlneTFEQms1MHp1Rllyei1QUWZpQXh3cnFDMVg1d0Fab2pya0pNYVE?oc=5",
+        "date": "Fri, 18 Mar 2022 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Thanx",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Revolution Partners with Thanx to Bridge Online and Mobile Food Purchases with Customer Engagement and Loyalty - RestaurantNews.com",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSTFJbUJtQ0NGTTJnc3VSZHN0OEt0eDFUaUphOEQ2VEZFTFNGSzI5anB4cmpBdUpFUHZVN093MlNwNXRSb0ZUZnVoNWc2OGUzdGdWbnRfenNjZTBZdkRWQ0tzLWc3cXcwMWdmM05INFlaNG5FVVRBLVpKM0ttSmticXhaUVRUSDlyQkJQU0EzbHB2c3dBNDJsS3M4UTRucUdqSGIyV3hsN3p1YVdFT1JDem81R0hCN1dwSHdfOVdHZ3ZvTHUzUjVKUl9xR19GSkFKQndlaGNUazdhcEIyN0xjSGU2Yw?oc=5",
+        "date": "Thu, 06 Sep 2018 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Thanx",
+        "type": "private",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Study finds 70% of retail and restaurant customers never make a return visit - PR Newswire",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNejZpekQzWk84dS1xTUI3dHhoRFB6T2VmMnpDQzBmVlhneVdHbVBKMTR0MDZKM1piRGl0eUh3a0E1ZTFVb2JsYS1HOEhtVEEzMGZNM2RuQ3psWTBCbVJ6QUpqTWpRR0ZBN0VnNmRKX0g1MTdkcjlKWlBZLXNUZjZGRmFTSllvZ2c5dFQ4aHI2QS1lT2dPOGR4bUtSZTI5NXlnWEJCaTlZLWtjQ2xFdVk4cERyRExuNjZ1TTNYVVpqV2pEak54MEs1WHZtWQ?oc=5",
+        "date": "Thu, 29 Jan 2015 08:00:00 GMT",
+        "source": "Google News",
+        "company": "Thanx",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Here's Why Restaurants Hate the Holidays - Time Magazine",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJWHZkUC1NcXIxMFBXNGlsQldXQjRSeHhuUnBSLVZhbXMwOVVTcnRJTk9mTTdrSHlHZmtWRG1CbmpYWFJDQzdIX2tOOUpIUWFJaUtqVmRGQjM?oc=5",
+        "date": "Tue, 23 Dec 2014 08:00:00 GMT",
+        "source": "Google News",
+        "company": "Thanx",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      }
+    ],
+    "SpotOn": [
+      {
+        "headline": "SpotOn Opens Hawai\u02bbi Technology Showroom to Better Serve Local Restaurant and Hospitality Operators - FinancialContent",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNTUJDVVlBUGsyaVRNWHNzRFNuSkNfNVRueUtkUXJOV3dBZ0V2X1hXSjhpWWItcFdZNmlrWHVMZngyT3VfUzFWMzVxVjBNb0hkNnJnb2E4WlhFNjdjemtJamY5WGQ0UG5HdUJtSkNuRkxFS29jVEFHQXJfcnd3a0x0OGpWNGJUMFJMTEhuOHQtczVqQlFmVXNwdE1IbHpjSE9BWUdRRG9zZlZTU0trUWpteXNuSThuTEJPSThSUXlMZEVVTlNpZjA3RU9WdFlUY2NiWUR5ZmlYNGlnWmk5S3lHcnZ2TUpvRnA3cVEzaG1Ua0VqODRxZ08zemhjZw?oc=5",
+        "date": "Tue, 07 Jul 2026 18:00:00 GMT",
+        "source": "Google News - POS Industry",
+        "type": "trade",
+        "company": "SpotOn",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "SpotOn selects Hawaii as first market for new showroom concept as it expands Pacific presence - The Business Journals",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdk8zZUdiRnU5MWRBX1pmbG1pUTdQUTRFVjExb0dCUUtQWlNTS1liTEFoMjJEOVEyMXJ6Mm5YYkRwNXlrenZUeWppeU9zbzZWRWg0ZUpsSmVwR3NNZks3UENpd2t5Q3ZsdURJdVVMYkdPbTJia1AzVkxzbWNmbGNxd0gxbUh3bHQzdERzVUlRcWVLQUFOV1E?oc=5",
+        "date": "Tue, 07 Jul 2026 03:48:00 GMT",
+        "source": "Google News - Restaurant Tech",
+        "type": "trade",
+        "company": "SpotOn",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "SpotOn Gives Restaurants a Smarter Path to Profitability With Connected POS, Operations and Practical AI - Restaurant Technology News",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQNm1QOVFkVENOblJNa3FTTlhZWFY1UE9Ga0FTUkpKS1c4QlNOeGcyZXJLeGNfUVpGbm9wTWVKbkdITGZfRkZhSWdNa3F2SDNoUTVZM1E4QUl4ZjJDZXJjX1ZKVFRXNGtsZTFGUC1CSnJCVjBKMUZWOGFIaGJoWFlBeC1jaFNzLUY1TEFQMDRtVmstY2ZENW5yWngxbWtDOXNGbUU4S1JzRXUteHBOTEdKcldBYUZwVmNWRDQwdnZRTGZBbFJNU2hjaWFkR2RMa3YtcmtZamdnc1BQU09xdjZXWE53TQ?oc=5",
+        "date": "Mon, 29 Jun 2026 08:44:49 GMT",
+        "source": "Google News",
+        "company": "SpotOn",
+        "type": "private",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Neighborhood Advantage Can Boost Game-Day Revenue - Modern Restaurant Management",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYkM0azctSHdZYjhkUVVxUHNkRFpsM2NIS0l4eUhFR1ZuNVpsNi1tSEE5ZGFPa2dQcXZmaTllZG1HeG5EeFdVVWthcGdxcDJDaTBwSTRKSTlLME1lSkprdVJrajJGLVo0aldPeE1oVHlEbHJ5OEU1WjFFdEx6M0M0VHdkazBRYWJMWkozOUlxbUVTMzQ?oc=5",
+        "date": "Tue, 16 Jun 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "SpotOn",
+        "type": "private",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "How independent restaurants are leaning into World Cup frenzy - Restaurant Dive",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQnc1eUNaTEkzbU0zVGExcjFjZTJDcHFMaFJKNTB6aVlVSnZUSFpORWtFYkJpbXVBanQxV3lzYm8tbG1iYkNFZDJ4SlJmMzdkY0IxRDhtd0dENXREMFg5bEhaaXZHWVYwX0RVNWNRUnlZTDJ4aUlvYzdFMW5VS3lDbWdMaWhTbGU1MFpXMGtOMjdmWDFaSExGVEhsMVQ?oc=5",
+        "date": "Mon, 08 Jun 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "SpotOn",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "SpotOn opens beta for Profit AI tool for restaurants - Verdict Food Service",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQjNoYmN3bndiQkZtWjJHZ3VQT2FtOXpaX194WWZBU1l1QXpxaUdYVlUyRG5SOU1vWUpDdzJxaDZpWUh6NFQyazVjcTlrS25lenJLYjMwVGdWZ0l2TUNUSVJ2Z0p5RWh5TnNOUW5IU2VlclptM05DeWh0NDhGUFBKR29HZVlnZXpNeVlwM0YtZEk?oc=5",
+        "date": "Wed, 03 Jun 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "SpotOn",
+        "type": "private",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "SpotOn Introduces Profit AI, Delivering Proactive Profit Recommendations to Independent Restaurants - Business Wire",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNM3pfVkVlOHFnRWQtaUdjVHU4dlk5QjB0cFJUZ01Vb3pqVU5qcFByazlSYkUyY2hfTXlrTHhvMkkxay1sU0kzTVNTVVBGd0NlY1VLUWZHMVNHamFHWldwQ0RYS3hYM0E2MW5qdUxCSldKOFpMakFhbUpqQXVrWGF6Tms5bjJxbmRlckItcmRUVVU5cUhTQURFN1UxOXRHdDZVZXhCdGhYVnJ5ZXZxaXEtSkxrUnlLOXRNSzRTLVh0c2E4WUx0RGNsOGRTTVp3U2xvYldlZHdGRE5oUkRpYmtwTE91dFdRbWJBTVZr?oc=5",
+        "date": "Tue, 02 Jun 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "SpotOn",
+        "type": "private",
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Tech Tracker: A host of new AI tools hit the market - Restaurant Business",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdkRudjZ5RWs2Mng4SHhfcDlOSGJTR2tFaTZuTFBqWm5kWkxNSDNFS1lfWWZUV2lVdVptMjJKLVFvNVdSVEtyVFRhM2ZWUXA3NVV2RG1LRjNTQ0xrWXFidk92MDlGcWNjcGZpYVl4QUl0Wm1CX3VVSEdfR0VDSHdWUk9Od2JXUkxSNXlqdHdEajd2WWc?oc=5",
+        "date": "Fri, 29 May 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "SpotOn",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "SpotOn Reports Independent Restaurants Increased Non-Alcoholic Beverage Menu Additions 47% Year Over Year as They Rebuild Beverage Profit Margin - Business Wire",
+        "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxOVGxDWnBZUXM5MlBCd3ZoVHZkWXlrNTVuOV9ZNU52NlR4WHUzSkFhRzNyZnV3SmllVGhTaWhXLWczdWEzeGhEZjN4OW10bVp6NU1EcVl5VWtGb25Qc29QaVBkYTVScW9QVE00R1RTWmYtN0h1aU9uRHJobFIySEZxbk40NmpjUHE1R3NXTlhyUFFKWjJMb0N2b2c4UDYxazY1T2RUX0FIQk9NeFZwcFJkVXRsMlFxbWZJM3RETy1IdG9qQlZpczg0cmtFRURwRzRZQmJWOWNzczdkOF9PT3hrTjk3anBnWDZHMC1xaE9fajFXOXVBMnBNeWJIdDhWejRfQzJNRU5md0Zrbk03MnhWdWN4T0xfMmlDM2FMam43cVBQd0hCQ2ow?oc=5",
+        "date": "Wed, 18 Mar 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "SpotOn",
+        "type": "private",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Loman AI and SpotOn Announce Partnership Bringing Voice AI to SpotOn POS Restaurants - Business Wire",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdFpNc09XS2kwdE1NTGNkWG9sTk01THlXcG85clJBOXYxazdEX0JWVFJlaW1tZkVIV2otbFlYNEFUM1FoWlk2TjhoZHVMM0wwWlpxNUpxOTVmdDAwdUVUbVMxUWx2WWxROUdoRmxqRXlvWl9EREstRzFpRUxqc2dGZTRjSUh1clh3dS16UXdsel9lUFlaaTh1QmtQU1VyMUQtU3N3cnRreHFsZk1yVFNLRGdSMFF1ZldWMXh6V1E0THRfaHZiQ05xYlZKTkZoQXlVNnVZczJidVE?oc=5",
+        "date": "Wed, 28 Jan 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "SpotOn",
+        "type": "private",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "SpotOn Unveils 2026 Restaurant Outlook Focused on Profit, Not Hype - PR Newswire",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWHNTSVUyV3lWZ2dhc3hhXzdLOFhURTNYckY5NkV0czExTUdIUFNGN1VDeS1Bb05RRzRhQmlOUnNJQWpPOEdEMTlRajdWeUFzcWpiWXE5RTBRSy01ZzFNcGk5RXJpN3BzRTBJdmJzUHdHWGdBQ1B1MHZJN0QwMTZEZUZsWEJxUmlXalV0bDVhdXV0VDFFNWN5M2QtYTZfR2xzMGVTUFZQaUVILWhKcmphSDV4R1o0Z1prSkx3VDdR?oc=5",
+        "date": "Wed, 10 Dec 2025 08:00:00 GMT",
+        "source": "Google News",
+        "company": "SpotOn",
+        "type": "private",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "SpotOn POS Review 2026: Is the POS Right for Your Business? - tech.co",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9yZWp3c055Z1FvQ3VuRmpSbUxSRDlkVktGZGFLY2dmQ0xWWWxHTHZ1d1ExRWdYOEw4alFkN09LLXg5dHczWXRDU184dEdXdDl6ZmIybWF6MA?oc=5",
+        "date": "Wed, 03 Dec 2025 08:00:00 GMT",
+        "source": "Google News",
+        "company": "SpotOn",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Adalina Taps SpotOn as Technology Partner for Its Newest Concept, Adalina Prime - PR Newswire",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQT1g4bUZpV3ZDbmJzeHpqX0Q5cmUxZEdsc2lFYm9DQUpqd0xKV3dYUi12YVVISXpxWmNiNmo2WHl1TUplX3dtYzlYaVI2WW14MV9YcFZ0bllFM3BoVU1Lbm85X1JwYnRWQ21QeFVSeWZoSDBSUEw2ODctM1MtdnItOFBjbkZfeHpMVkRiWkhvYklQOEw3VUVGSWw2NU43ZnNNTjdGQnp2VlFYVVhkbUdSOHZ5TG93ZWZlRE5WVkhiaXlGLXFSZDVOeFBNekY1Q1k?oc=5",
+        "date": "Tue, 02 Dec 2025 08:00:00 GMT",
+        "source": "Google News",
+        "company": "SpotOn",
+        "type": "private",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Best Restaurant POS Systems of 2025 - NerdWallet",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iQ281WGdnN21DaTV0c2J6QWZrQmhzcFJKYU9RX2ZXRDJXVW5ORnBpM3NQOEhRMmpQdWpjQkVqdF9nOGx0MHozTXJMbTI0dHJVMnJWWUpSMERwckZFUFRQbDB3dVlfYWtPZGZxbWpuZno1ZFBHVG5GV3ZzVWc?oc=5",
+        "date": "Wed, 29 Oct 2025 03:41:47 GMT",
+        "source": "Google News",
+        "company": "SpotOn",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "SpotOn Ranked #1 Restaurant POS by G2 for Fall 2025, Outperforming Toast Where It Matters Most - PR Newswire",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVnkwN1lQS3REQXd2cDc4ZHJDUVJqMWg1Y0pYaElVSXV1Mk9PWmtYdXdkeWVrMjJGRmtMTGs0SDhTNzdTMWhJWGZzY25BMGt4V2xZZjNoUHBPOXltT0FtX2JYcWpONkZ2emxJT25XMWRUNVdJM3phTElEUXBNN1Rpa1JUSU5MXzltTHBxY3Zfb0xoR2JXUVJjUmc1a3ZTRGZWY2hjamJTZDhSenlLbG1GVUVhM1BtSGdOSThMTUZtdkZsZTZXY21US2dRVVJGcHBYZzE4Y0lsLW44YmhqbU9NVzF3?oc=5",
+        "date": "Mon, 06 Oct 2025 07:00:00 GMT",
+        "source": "Google News - Restaurant Tech",
+        "type": "trade",
+        "company": "SpotOn",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "SpotOn Named #1 Restaurant POS System in G2's Winter Report Highlighting User Satisfaction and Growing Market Presence - Food & Beverage Magazine",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTjYtZjQ4cGZoNi1Zb2lTcThjbW9WeGhLSm5qRjBJcUtZYUJBcS1QN2VFTjI0TFJUNXQwaUdkSmFHZmdBWnRETDFaSm1FTFRnb3JmM2ZpcktxYWNJSkpfZVdNWnZndkhNZk5fNGdoVWtkNVJsZXk4OE5nVUJJQ1lHYWRfNTVUOWUzbHF6ZnF3d1VBeVFqNFFQek81Qmxia2kzeTF3Ymg0aFVkck5JdkhVUlotZGU3d2NxU2hfaGtWcWRoS1c1TjlHc3dUT0dHNFdhcTB2eg?oc=5",
+        "date": "Wed, 05 Feb 2025 08:00:00 GMT",
+        "source": "Google News",
+        "company": "SpotOn",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      }
+    ],
     "NCR Voyix": [
+      {
+        "headline": "Does NCR Voyix (VYX) Winning Pizza Ranch Deal Reveal Durable POS Moat Or Just Niche Strength? - simplywall.st",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZXhHRkk1aGFnNUE2MFQ4VEI2c1Z0V2dkcmtyZmZ3TDVOLUhRUUQtbTBnLXEtQTB0SjNYMkVFaUt6aENFSHdpclBtZThncUNPa1habjFKMUZEclphR2lIZXBndlpfMXJJdVFGM3Foc0dxbU1PbHRiVEExU05KZ2xtaEJQYkhnMHdkRmZ6MkpPc3g0bVlDQ04ydERSSExfV0prQWY3SHBvbHJ2aFdDNHN3THdqWXAxeXlibDdXb3VwZy1ZU1pxQV9rd9IByAFBVV95cUxNZXhHRkk1aGFnNUE2MFQ4VEI2c1Z0V2dkcmtyZmZ3TDVOLUhRUUQtbTBnLXEtQTB0SjNYMkVFaUt6aENFSHdpclBtZThncUNPa1habjFKMUZEclphR2lIZXBndlpfMXJJdVFGM3Foc0dxbU1PbHRiVEExU05KZ2xtaEJQYkhnMHdkRmZ6MkpPc3g0bVlDQ04ydERSSExfV0prQWY3SHBvbHJ2aFdDNHN3THdqWXAxeXlibDdXb3VwZy1ZU1pxQV9rdw?oc=5",
+        "date": "Tue, 07 Jul 2026 16:11:13 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
       {
         "headline": "Pizza Ranch Picks NCR Voyix and other Digital Transactions News briefs from 7/7/26 - Digital Transactions",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdWJqRzROR3VTRUJhYnlMNG1LVFNLRHJlb2RJTUZVUGVVSmpramZsbVlKeXFubi1WOVhyeXVRbTNwUTlvYlRURXVZbEhMT0hCZWtQOTZXdGxSdW5aQjZnT3ZvZ3hmamFSVHRNY05FaDBxdE9LSW9fVHZfQ2hvVTBENzNTbXFWUWRTVXVXMlZjNFJuNFEyc3RXMTB1TW4wQXR0aldoYmJwLVpJTUV0STlVLV9oYks4ZDNJTVlF?oc=5",
@@ -63,6 +449,16 @@
         "content_type": "press_general"
       },
       {
+        "headline": "NCR Voyix (VYX) Could Be 34% Undervalued Following Commerce Platform Demand - simplywall.st",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUzhucklxLVdpVHhFazEzXzJhaDAybGU5T0RUUmE0OTFqYmdaeEphSE84QkdYVEpZU0x6NTFtQXhYeVNFcG1DRzFaZjdPZE9GOUVxS25BRDdVNHBmM0ktbTNEZnRydi1RMTFsaG9rdGItU1BfaGJwQWttcFpVTzdIcElEa2ZpR3RCbU5QZVlmczh4dzVYeWlQbi1EcERuSnZ6bXhiOUlKbWhGVDRSa0haUmEtWVZmc0JDNTQxQUNNRGVEeGfSAcgBQVVfeXFMTW1LRXVtRHR6M2JLTHltUzRKNU5DWDNDQi1CNUdwd2NaZm1xaVVRUjh6ek95M1VNWldPdXJBZUhqNXhFRlB6RXNoblBLM1V5SFJqM1lUY19RQUlYRVRhRTg5TjdOWklfbmg1eWpSWGV0bmxHeGFVUm1WX1BobTlaM2Fack5DUV9KOGpiamVIa3QyblZFTXpNbm1kOWluOHAtU0pPTHgwV2dVMHM4eWdxZHBOQnlGbnZkYzYxYUdJRnJXU3dEQjA5V00?oc=5",
+        "date": "Thu, 02 Jul 2026 09:53:03 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
         "headline": "NCR Voyix Corporation - Encyclopedia Britannica",
         "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1YTGdWVGtWS3JUSkV6MXZad2FlLUduWjk2eTA1WklJTU1JN28xOXJBTTdnTUlJMjN3OHk5TEhMcm9admxydVZ0N2FUc2Juc1VidGdRTTBXWi01RV9LNFI4NzloUUE?oc=5",
         "date": "Thu, 02 Jul 2026 07:00:00 GMT",
@@ -93,13 +489,13 @@
         "content_type": "press_general"
       },
       {
-        "headline": "NCR Voyix to Present at the 2026 RBC Capital Markets Global Financial Technology Conference - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRDI4QndHS2RYb2FEUFo2ZmJVLU1ENWdnbW5iUkFvZkg3Z2ltemdleU5LeDZ2Wm9jOVhGVGhKQXVRNzA0ZWVDNGpqblBUQUlrdzVZOW9Vc1k2M05hWS01SnltZUFIeU9tSVBreXh4bXA1R3RpQ0R5aHRDaEpBTThBMlh1N0ZzOFVfZ2I0blVsQ0w1dk5iaWc?oc=5",
-        "date": "Mon, 08 Jun 2026 07:00:00 GMT",
+        "headline": "NCR Voyix (VYX) Stock Valuation After New Stock Incentive Plan And Upcoming Conference Appearance - simplywall.st",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQktXbFREb0ViUURSdmZReW9mUnJBVm1PNUt6Q2s1SGNVOVd3eUlJSk1YLXM1MXBJOVZDMmIzMFJPN05vNDAzQm95cHpELVljUmFXQjViNmdVTXZRVEUzMmpqVHNwc1ZMWEEtWkR0d2NtN2dFY0xzMXFKMGNfNW83a1hTVk16U1UzZE1wODEyY2NBNzROaHlSSEVKMHRSYXd2ZmJKSUJvTHRoZmV5LVl5bDdILTlENFJqRUhOSzZqZ01rQdIBxwFBVV95cUxQR2l2eFpVREJ5TlRUd2RmVExJemI5OFh1RWJEbmQ5OFdpanNINXk5SEdVN0EwRmxWMzdpMy1jX2F0TGw2RWR4VWI3SXBJdk1kdlBDQVZiZzlXOERydXRaUzc3WEZyWWkyTll4cWFjZWcxQ1NPZFNVMmc5cTUzSFFjbXNSc0ZCOXpKdF9qZmxmNmlxU0h1ZXllTTc1VzNldlFfQTNPS1ZuUWQ3NGRzY0FYVGUyclZrQzUzYzllY2h2RGk5WWo4N2JZ?oc=5",
+        "date": "Sun, 14 Jun 2026 07:00:00 GMT",
         "source": "Google News",
         "company": "NCR Voyix",
         "type": "public",
-        "emoji": "\ud83d\udcf0",
+        "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
       },
       {
@@ -131,57 +527,17 @@
         "type": "public",
         "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
-      },
-      {
-        "headline": "NCR Voyix (VYX) Beats Q1 Earnings and Revenue Estimates - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQYkJGYUt3cTRqUDRpQmlHMFM2UkNIQzlyQnk2ck00XzhiNGFEaENCSEpuX0FPV2JCelg3VVQtcmo5Y2YtNHQyZUpTTE11UElieDNrd3pkSGhmRWZYNnVZaTFuOVFwNzBpY19OVzhzRklHNUtSd18wVVVXSnBFTklMQ0VwRjhFSUhDQU1sWW85eng?oc=5",
-        "date": "Thu, 07 May 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "How The NCR Voyix (VYX) Investment Story Is Shifting As Analyst Views Rebalance - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOb1NIc3c5R3J5bGlmLU1leDdfYUZmSzdMN3Jxclp5TW90dERXN1JnaW16NWpwNnhGWVZ1eU9JdktZdklvdDREYktRVk5fVXhyb1R2T2JycnZKaDNQZVhqVllkNF9nemt4VHJPamFGdXQzUGxLTFFVbE9xZU5GVVRObjZqOVIzN3dWdDE1QzFVdVpxVVh0a28yTFFEOA?oc=5",
-        "date": "Mon, 30 Mar 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Pilot Selects NCR Voyix to Modernize Point of Sale Across Its Industry-Leading Travel Center Network - Pilot Travel Centers",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdkc5ZHMycG44anpNNm9IZF92S0phdGdoM0syN3hlVU1LRXp0SXQ4SXRiOHNQN3NVN0tGWnc4cjdaQWp3VlhmaVh5R3pjajhqMFZGdEVXdVlFRnFIMlNTdldmRmNhZmFOZ1AweHVsUEFEYmxPeVE2RjVnYVQtbnp4UHBFOG9NVW5SU3BYcnowRUN0RTJQTDhNV3hfNklNLWhCN3JiU1Q2dEk4N3hxcDJXcDJZMkxvQnB5TVdQSGxMUFlMS2dhUVo5d1YwaDFCZGhp?oc=5",
-        "date": "Thu, 05 Mar 2026 08:00:00 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
       }
     ],
     "Shift4": [
       {
-        "headline": "Shift4 Payments Stock: A Dominant, Structurally Protected Niche (NYSE:FOUR) - Seeking Alpha",
+        "headline": "Shift4 Payments Is No Longer Only A Payment Company: A Dominant, Structurally Protected Niche - Seeking Alpha",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOU00zTHFOOVpvckdMSHlheldENzRMRmlIYnRyZjhqLXc2TFY1NEpIMXVFN2FhY0k4WHVJcXpMZW1iNFB3aGtFbTRFQ29vczZ1ZW0wX19Wd1laZDlENE41eDNkOEFXb1BzS2dZVzY1eHFKdXBFZlEydWRqOFJlS2dyZGpwU18zLU9URGprMW5fYlBoZ1dGeGZZVlRQNmF5NWtFTWZHTmJuVmhyeFNfN000Ti1DNUNxWmdFVWE2VA?oc=5",
         "date": "Tue, 07 Jul 2026 14:11:13 GMT",
         "source": "Google News",
         "company": "Shift4",
         "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Shift4 Payments vs. PayPal: Which FinTech Stock Is a Better Buy in 2026? - AOL.com",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSEFYR1FZSTZIT3NlU1ZoQzZxMUxzRzJRQXlSNlc4clVBaC1MbFNhQm52Mk5kUVo1eHRWMUZoNHVmemY5ak1TQzRKRWp0emZXY3hEZU4xWjljTDRWNTRNWlVhQzM0T1dIRWhkMElab0hMOF9GWmFvSF9VNXdoWXVPeXBR?oc=5",
-        "date": "Sun, 05 Jul 2026 19:43:16 GMT",
-        "source": "Google News",
-        "company": "Shift4",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
+        "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       },
       {
@@ -295,6 +651,16 @@
         "content_type": "press_general"
       },
       {
+        "headline": "Chicago Fire FC Welcomes Shift4 to Elevate Matchday Commerce Experience - chicagofirefc.com",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcXpFdXRNa3Vlb3phQkpEbGFGcUEwbFMwbE04Q3ItZHZzbUo5WGZ5WWpadTltSXA5Vmt4a3Nld0tRMkFPTE1JTXp5VG1WbG5CSEkzSXZCS0xfclV4YnZlWjNUUUZGdU5vamlIVE9IeUNNeURqMS01ZUtycTAweWZQeGwyUzFVRDViSVdpVVJTdjk0bnBkSk1RRTJ5dUVaUWhWNi1kVUU0cUJEZw?oc=5",
+        "date": "Thu, 09 Apr 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Shift4",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
         "headline": "Shift4 Announces Executive Promotions and Leadership Changes - Shift4",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaWJtSUpiS1Y4S0YwSWN5dG9nZTNyX05NT1V2eWkxT3Q4YlpRZWh3MUdMN1c5dG5ZMVFUbW1TQ2ZWOVg5SVBWTXhLanV3eTJjMDJmS0xFTjhYY1dkVTlFQzJsbkVlUE1jRVhvNlQ2N0xEb3NsZmcwTkVwV2VRQVU1clMwdXJ0Y2FNY2xIQUxOa3Zmc29YTFFJZWJ4MEJiMmFnQ19GUVg5T0VKSjhjS0VkVk5HWGlqVlRqMWowLUNFQmpHX3NxbEE?oc=5",
         "date": "Mon, 09 Mar 2026 07:00:00 GMT",
@@ -312,6 +678,158 @@
         "company": "Shift4",
         "type": "public",
         "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      }
+    ],
+    "Fiserv": [
+      {
+        "headline": "Visa stock falls as banks explore Fiserv debit network deal - Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNV2R5R3A4VENUcS1TRHJlbnlNNUJoakxhZ0pfZXZfWnh4RV9qaEFQSkVLRjRlVVk3d2tOTEF6VnpwbG94XzM0Vk9XdGRMX0xUVFh2cU5ZT3l4THVJZEtFb0JLNEpFbGs3NlBKdVJIeGwya24xRzNPNTJ2SVlVZnNxeXVPNWxPb0VpQnRvMzRQRXRNSXdrYVBucGRzN1BQcGNla0JDQU5qVFE0OFppVktfZHdWSmtfTFY2TXlqVGhFU2J6czBCYkt2aA?oc=5",
+        "date": "Tue, 07 Jul 2026 11:44:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv (FISV) Q4 2025 Earnings Call Transcript - Fortune",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0zOUFkSXAwR2FLaGEzY3BNRGhSNUduQXdHZUxHMFhGWEhaZWZOQ3dRY3pRX3FPT0F2ckk3Q3JyRTB3LWtobEFaZG1DYnhtY2FLT2p1eFI0bm9TSGZSWm9vUnJB?oc=5",
+        "date": "Sat, 04 Jul 2026 21:27:16 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv CEO exits after rocky year - Payments Dive",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObnQxUFhWS3Zod1BJVDhLa0RjWDdjQWhvY1o1OFdjWHFONnJ0OHRyWWFyLTY1RlViOGxHV19ZNnJpUjdzNXVJNmJWVDczWnhyOHBFTUo5WTZNOUFzOFREMkF5X184eFU2MG5lbW5ETFY1bjFpUFY2b2xVZ3d4a0lJVg?oc=5",
+        "date": "Mon, 15 Jun 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Is Clover Becoming a Bigger Challenge for Fiserv (FISV)? - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNHJCRHBaNFRXTmRBMExFcWh0X212Q0lIZW0yZzhkWURCSEJjYTltZjFZclV1eUZWQzNNZXlsakQ3OENNRHZnbDFvQlR5ckxSTUZrSEg0bm9UbWVfY0dEN0ppdjFFLWtzV180Mm1wQ1VNdXpUdV84ZXdjWnd1bVk2Q3VtWGlaLWdGY2h3YUxLbFFZd1laWGd6S0VLZjV4NDhUbWRfZGFNSQ?oc=5",
+        "date": "Tue, 02 Jun 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv CEO Says AI, Clover Can Help Restore Predictable Growth After Tough Year - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdUJhWmRaVUszZUNHUXhBSmFsajhlUW9FeUpnN2ZOX1RpSzBUSWV5cDRmV1dta1lBZG5PT2VpN2JqLVN6aXNHN1hnNERtVFJRdWw3MXdJc1pxc0JMOFBaYjA1ZXNEUHo1MGxnMENGd1NwMHVRX0pLMWNJSW5XTzlFemlkbUpPRE9zZGZYa21qbWxNUEw4d0swOUR3?oc=5",
+        "date": "Fri, 29 May 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv Investor Day Sets AI, Clover Roadmap to Revive Growth and Top $12 EPS - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWWJEMWRRQzJsUHBuOFZQU1c0a3lnRGRVc3ZMcGVSY2JobV94bmhxNUJjN2laa3JSM0lEeHVBRGw5MWRBZUpfNGxpSUI5Rm9SSURFMkFGQjN1a29fLUFXWWNMQkZxbGd2Q0l0VUE2STJfTjZXZ21DVXJIUjVKUkNKMVhuZW1QX181LXR0XzZIbUdiWHlGbExB?oc=5",
+        "date": "Sat, 16 May 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv Expands Clover\u2019s Restaurant Portfolio with New Fine Dining Solution, Clover Reserve Powered by Tabit - GlobeNewswire",
+        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPc0ZLQWlldFZoTE9Ud2xXRW85ci1QYngtaVE5Y1o3am9pdHFCczZYc193NTJPZnl2dHBZclptQ2g0RUdXdFYyaFlvTmR6YXZPa1dWVlF5SkV3NGM5ajJqQzZtMVp2czE2Z1lmSjNlYVNoUm1pTjlLUEd1LWtjV0NyRHMtVTUtNEViSGtDVmZ5SXVYQ0x5T01XbVNPT19zNzU4bzl6SDlrWXlOZkItSjhjazZ0cGFQd2p6T3JkZDJveXByYjd1anJFTjhSa3VybFdQaDVxbk5za2ZpbnRYOU5uQ01Db095VktNd1JLNUFaNXBRRU13dTBXRm5tUFdhazQyUkpNeFlNOE9PUQ?oc=5",
+        "date": "Tue, 12 May 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Judge combines Fiserv lawsuits - Payments Dive",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE04Tkx2eXlUQXcxTGZLbUl3ekhOakt4dEZlS2VBQ0FpeExhMTJuazgxc1F6aEliU1FVNlE1NS1WRl9GOEZ5NWo3VjB0N1BTbVN3UGVYNUh4VTAxTS1MQmFTY1gzeFJqejIxcjRjN1NuaHJiNE5Fc0FkcGxQb1M?oc=5",
+        "date": "Tue, 12 May 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\u26a0\ufe0f",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "5 Must-Read Analyst Questions From Fiserv\u2019s Q1 Earnings Call - StockStory",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdHlBWU52Ql96TDFxQWFPWWsyamFYVFEzQlFDLXRrVFVTZ2JVbWRhVkJWMFRLUXd6Q2l0ejloX1N3bjd1LXZQeEJpeV9tNzhkVzZZVm5mdU1zMFpGLTRLNnZhWi1vOGwtbERmU2N5NllUUm9RbDFZbmswbWhXNlVZbURVLURSMVl3dHNZYjlHdHBCdHdlWTVjSWRXZGxud1JGUDdhOUE0QVZBTS1tSXEwUGRNamdiOXVOdVNyZm80SDY?oc=5",
+        "date": "Mon, 11 May 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "New Brazil plant targets lower-cost Clover Flex payment devices - Stock Titan",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObm9PRmxNWkExQ25YTGR5TWFZdzg0b2ZtMWo1ZkpYODFvVk9HdnZvVnA2VWxaSWpsMVhfcUdnbDdQcEhWeHdvbEIzU1Y1UV9yZHV4NnJQNGJhS3RaS25wQlowMkZoYm9yc2tiTk9QbkRzQ3dYS29XUnNLajVBSkhsT1RmMGhVNG5QN3UzTndVYTBkMEFOd0F2cmh3bE1YNGR2THlPMXViZzE0aTNLekFYVG4wWlFxY3M?oc=5",
+        "date": "Thu, 07 May 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv Has Crashed 75% From Its Peak: Can it Recover in 2026? - TIKR.com",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWkZEc0RpM0FRNFNtRS15SEFTcEs3aUdDTkVJRGJicERCTGRCTklTQzdlRnZrUlJlZTd0M0FNTWlMMzhsVUxvU2NCWU5SbTRadmF0ZHREZVZaRWRIbTVDRGlwaGtkVnZaTGppLWFTS2o0SmlSX2hPd1piSUlCT2F3eFZwLW1aQ1hzS3VwNg?oc=5",
+        "date": "Tue, 31 Mar 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv Top Brass Misrepresented Clover\u2019s Prospects, Suit Says - Bloomberg Law News",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOX2R6c3dKVjY3M29QQjV5TEFTX3dJLXowcWZ6WXE3TzdTay10MkJ4T2dfSUtxeGgzS3A0bm5Fa2oxRnlHWVRSdkJldzRXaTFWSUhZemxnYm5jUFFTX3pzb05zNDNBTjg3VEJUMHk1V2JGeTZfZVNVOEc4V2o2bTZoQTU0S2c2cVhLaV9xb1BXUFpMU3c0U2NkNjJTYUwxOVdzSThtMExjZw?oc=5",
+        "date": "Wed, 28 Jan 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv signs Clover partnership with Japan's Sumitomo Mitsui - FinTech Futures",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPM0EzZnphaGZhcWgta21JOGpoYVFnZzRFUnZoa2YzeGxURXhUdG5VRk9sUDVCT2R2M0JPc0haYjBRcWc4RlI1blN0ZTkxRU1oVGRtR3c3UzV1NEFVSUt6MkYwSWlscE51T2h6eThOdXRVVDI5SWg5SWNDWGNKbXNkYXY3Qks4QUY0LVRxcDN1Zi1CQm1QczgwazJUNW1VR3RPSmdZ?oc=5",
+        "date": "Thu, 22 Jan 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv\u2019s Clover commerce platform to integrate Wink\u2019s multimodal biometrics - Biometric Update",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWUxwLUh0c3dMQzdPSl82VEpRZ2RXemF2a3Zqbm5mckNfNGozVWpNcWxZZ0xvRWFFYVdsRS0wVFZrcHJPNWtXaW15djY3YTQyWnFmMkU4VEZneWZGNXFGVHNBaDFCcWZFMXJNY1VsYnpxNVlLTWxUdTRibFRPX1JyeW54SGpPYWZZUk9MWHJIVXVrXzVLTnVfZ2ZYVHhsTUZtdEVtTWJVNHcxVGY4dDJzb1BB?oc=5",
+        "date": "Fri, 09 Jan 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv\u2019s Clover adopts biometrics - Payments Dive",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BTzdPYmFUdVhWam1LX0p0dmY0ZW96dWdWNFFidUpkR3o3MW5rU3hweXFPcVN0SnlwZ3FQb0RRYTFTOVJiT0xuc1ZoWm5DazJlcm10MHNWd01PeDBKZ2VfdTV3bnlWNVhWVkRGdE11LXBTUkZqS0J1UENRSzhMWXc?oc=5",
+        "date": "Wed, 07 Jan 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       }
     ],
@@ -589,310 +1107,6 @@
         "content_type": "press_general"
       }
     ],
-    "SpotOn": [
-      {
-        "headline": "SpotOn selects Hawaii as first market for new showroom concept as it expands Pacific presence - The Business Journals",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdk8zZUdiRnU5MWRBX1pmbG1pUTdQUTRFVjExb0dCUUtQWlNTS1liTEFoMjJEOVEyMXJ6Mm5YYkRwNXlrenZUeWppeU9zbzZWRWg0ZUpsSmVwR3NNZks3UENpd2t5Q3ZsdURJdVVMYkdPbTJia1AzVkxzbWNmbGNxd0gxbUh3bHQzdERzVUlRcWVLQUFOV1E?oc=5",
-        "date": "Tue, 07 Jul 2026 03:48:00 GMT",
-        "source": "Google News - Restaurant Tech",
-        "type": "trade",
-        "company": "SpotOn",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "SpotOn Gives Restaurants a Smarter Path to Profitability With Connected POS, Operations and Practical AI - Restaurant Technology News",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQNm1QOVFkVENOblJNa3FTTlhZWFY1UE9Ga0FTUkpKS1c4QlNOeGcyZXJLeGNfUVpGbm9wTWVKbkdITGZfRkZhSWdNa3F2SDNoUTVZM1E4QUl4ZjJDZXJjX1ZKVFRXNGtsZTFGUC1CSnJCVjBKMUZWOGFIaGJoWFlBeC1jaFNzLUY1TEFQMDRtVmstY2ZENW5yWngxbWtDOXNGbUU4S1JzRXUteHBOTEdKcldBYUZwVmNWRDQwdnZRTGZBbFJNU2hjaWFkR2RMa3YtcmtZamdnc1BQU09xdjZXWE53TQ?oc=5",
-        "date": "Mon, 29 Jun 2026 08:44:49 GMT",
-        "source": "Google News",
-        "company": "SpotOn",
-        "type": "private",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Neighborhood Advantage Can Boost Game-Day Revenue - Modern Restaurant Management",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYkM0azctSHdZYjhkUVVxUHNkRFpsM2NIS0l4eUhFR1ZuNVpsNi1tSEE5ZGFPa2dQcXZmaTllZG1HeG5EeFdVVWthcGdxcDJDaTBwSTRKSTlLME1lSkprdVJrajJGLVo0aldPeE1oVHlEbHJ5OEU1WjFFdEx6M0M0VHdkazBRYWJMWkozOUlxbUVTMzQ?oc=5",
-        "date": "Tue, 16 Jun 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "SpotOn",
-        "type": "private",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "How independent restaurants are leaning into World Cup frenzy - Restaurant Dive",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQnc1eUNaTEkzbU0zVGExcjFjZTJDcHFMaFJKNTB6aVlVSnZUSFpORWtFYkJpbXVBanQxV3lzYm8tbG1iYkNFZDJ4SlJmMzdkY0IxRDhtd0dENXREMFg5bEhaaXZHWVYwX0RVNWNRUnlZTDJ4aUlvYzdFMW5VS3lDbWdMaWhTbGU1MFpXMGtOMjdmWDFaSExGVEhsMVQ?oc=5",
-        "date": "Mon, 08 Jun 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "SpotOn",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "SpotOn opens beta for Profit AI tool for restaurants - Verdict Food Service",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQjNoYmN3bndiQkZtWjJHZ3VQT2FtOXpaX194WWZBU1l1QXpxaUdYVlUyRG5SOU1vWUpDdzJxaDZpWUh6NFQyazVjcTlrS25lenJLYjMwVGdWZ0l2TUNUSVJ2Z0p5RWh5TnNOUW5IU2VlclptM05DeWh0NDhGUFBKR29HZVlnZXpNeVlwM0YtZEk?oc=5",
-        "date": "Wed, 03 Jun 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "SpotOn",
-        "type": "private",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "SpotOn Introduces Profit AI, Delivering Proactive Profit Recommendations to Independent Restaurants - Business Wire",
-        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNM3pfVkVlOHFnRWQtaUdjVHU4dlk5QjB0cFJUZ01Vb3pqVU5qcFByazlSYkUyY2hfTXlrTHhvMkkxay1sU0kzTVNTVVBGd0NlY1VLUWZHMVNHamFHWldwQ0RYS3hYM0E2MW5qdUxCSldKOFpMakFhbUpqQXVrWGF6Tms5bjJxbmRlckItcmRUVVU5cUhTQURFN1UxOXRHdDZVZXhCdGhYVnJ5ZXZxaXEtSkxrUnlLOXRNSzRTLVh0c2E4WUx0RGNsOGRTTVp3U2xvYldlZHdGRE5oUkRpYmtwTE91dFdRbWJBTVZr?oc=5",
-        "date": "Tue, 02 Jun 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "SpotOn",
-        "type": "private",
-        "emoji": "\ud83d\ude80",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Tech Tracker: A host of new AI tools hit the market - Restaurant Business",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdkRudjZ5RWs2Mng4SHhfcDlOSGJTR2tFaTZuTFBqWm5kWkxNSDNFS1lfWWZUV2lVdVptMjJKLVFvNVdSVEtyVFRhM2ZWUXA3NVV2RG1LRjNTQ0xrWXFidk92MDlGcWNjcGZpYVl4QUl0Wm1CX3VVSEdfR0VDSHdWUk9Od2JXUkxSNXlqdHdEajd2WWc?oc=5",
-        "date": "Fri, 29 May 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "SpotOn",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "SpotOn Reports Independent Restaurants Increased Non-Alcoholic Beverage Menu Additions 47% Year Over Year as They Rebuild Beverage Profit Margin - Business Wire",
-        "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxOVGxDWnBZUXM5MlBCd3ZoVHZkWXlrNTVuOV9ZNU52NlR4WHUzSkFhRzNyZnV3SmllVGhTaWhXLWczdWEzeGhEZjN4OW10bVp6NU1EcVl5VWtGb25Qc29QaVBkYTVScW9QVE00R1RTWmYtN0h1aU9uRHJobFIySEZxbk40NmpjUHE1R3NXTlhyUFFKWjJMb0N2b2c4UDYxazY1T2RUX0FIQk9NeFZwcFJkVXRsMlFxbWZJM3RETy1IdG9qQlZpczg0cmtFRURwRzRZQmJWOWNzczdkOF9PT3hrTjk3anBnWDZHMC1xaE9fajFXOXVBMnBNeWJIdDhWejRfQzJNRU5md0Zrbk03MnhWdWN4T0xfMmlDM2FMam43cVBQd0hCQ2ow?oc=5",
-        "date": "Wed, 18 Mar 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "SpotOn",
-        "type": "private",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Loman AI and SpotOn Announce Partnership Bringing Voice AI to SpotOn POS Restaurants - Business Wire",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdFpNc09XS2kwdE1NTGNkWG9sTk01THlXcG85clJBOXYxazdEX0JWVFJlaW1tZkVIV2otbFlYNEFUM1FoWlk2TjhoZHVMM0wwWlpxNUpxOTVmdDAwdUVUbVMxUWx2WWxROUdoRmxqRXlvWl9EREstRzFpRUxqc2dGZTRjSUh1clh3dS16UXdsel9lUFlaaTh1QmtQU1VyMUQtU3N3cnRreHFsZk1yVFNLRGdSMFF1ZldWMXh6V1E0THRfaHZiQ05xYlZKTkZoQXlVNnVZczJidVE?oc=5",
-        "date": "Wed, 28 Jan 2026 08:00:00 GMT",
-        "source": "Google News",
-        "company": "SpotOn",
-        "type": "private",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "SpotOn Unveils 2026 Restaurant Outlook Focused on Profit, Not Hype - PR Newswire",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWHNTSVUyV3lWZ2dhc3hhXzdLOFhURTNYckY5NkV0czExTUdIUFNGN1VDeS1Bb05RRzRhQmlOUnNJQWpPOEdEMTlRajdWeUFzcWpiWXE5RTBRSy01ZzFNcGk5RXJpN3BzRTBJdmJzUHdHWGdBQ1B1MHZJN0QwMTZEZUZsWEJxUmlXalV0bDVhdXV0VDFFNWN5M2QtYTZfR2xzMGVTUFZQaUVILWhKcmphSDV4R1o0Z1prSkx3VDdR?oc=5",
-        "date": "Wed, 10 Dec 2025 08:00:00 GMT",
-        "source": "Google News",
-        "company": "SpotOn",
-        "type": "private",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "SpotOn POS Review 2026: Is the POS Right for Your Business? - tech.co",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9yZWp3c055Z1FvQ3VuRmpSbUxSRDlkVktGZGFLY2dmQ0xWWWxHTHZ1d1ExRWdYOEw4alFkN09LLXg5dHczWXRDU184dEdXdDl6ZmIybWF6MA?oc=5",
-        "date": "Wed, 03 Dec 2025 08:00:00 GMT",
-        "source": "Google News",
-        "company": "SpotOn",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Adalina Taps SpotOn as Technology Partner for Its Newest Concept, Adalina Prime - PR Newswire",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQT1g4bUZpV3ZDbmJzeHpqX0Q5cmUxZEdsc2lFYm9DQUpqd0xKV3dYUi12YVVISXpxWmNiNmo2WHl1TUplX3dtYzlYaVI2WW14MV9YcFZ0bllFM3BoVU1Lbm85X1JwYnRWQ21QeFVSeWZoSDBSUEw2ODctM1MtdnItOFBjbkZfeHpMVkRiWkhvYklQOEw3VUVGSWw2NU43ZnNNTjdGQnp2VlFYVVhkbUdSOHZ5TG93ZWZlRE5WVkhiaXlGLXFSZDVOeFBNekY1Q1k?oc=5",
-        "date": "Tue, 02 Dec 2025 08:00:00 GMT",
-        "source": "Google News",
-        "company": "SpotOn",
-        "type": "private",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Best Restaurant POS Systems of 2025 - NerdWallet",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iQ281WGdnN21DaTV0c2J6QWZrQmhzcFJKYU9RX2ZXRDJXVW5ORnBpM3NQOEhRMmpQdWpjQkVqdF9nOGx0MHozTXJMbTI0dHJVMnJWWUpSMERwckZFUFRQbDB3dVlfYWtPZGZxbWpuZno1ZFBHVG5GV3ZzVWc?oc=5",
-        "date": "Wed, 29 Oct 2025 03:41:47 GMT",
-        "source": "Google News",
-        "company": "SpotOn",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "SpotOn Ranked #1 Restaurant POS by G2 for Fall 2025, Outperforming Toast Where It Matters Most - PR Newswire",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVnkwN1lQS3REQXd2cDc4ZHJDUVJqMWg1Y0pYaElVSXV1Mk9PWmtYdXdkeWVrMjJGRmtMTGs0SDhTNzdTMWhJWGZzY25BMGt4V2xZZjNoUHBPOXltT0FtX2JYcWpONkZ2emxJT25XMWRUNVdJM3phTElEUXBNN1Rpa1JUSU5MXzltTHBxY3Zfb0xoR2JXUVJjUmc1a3ZTRGZWY2hjamJTZDhSenlLbG1GVUVhM1BtSGdOSThMTUZtdkZsZTZXY21US2dRVVJGcHBYZzE4Y0lsLW44YmhqbU9NVzF3?oc=5",
-        "date": "Mon, 06 Oct 2025 07:00:00 GMT",
-        "source": "Google News - Restaurant Tech",
-        "type": "trade",
-        "company": "SpotOn",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "SpotOn Redefines Online Ordering to Help Restaurants Take Back Control from Third Parties - PR Newswire",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZE9DbEhSYmlZYkhjTGhGTnFjdmRjOVJOX2RqdDNhc2d6ejhMQWozWEFCRDZURkVONm05T0RIbnlJSEFUcTI4b29zcXJkOHVZSTNNR0ktd1JMWS15cTBxVXJiMTdLY3dHSFpVd251RjhmUm9WVEpJbFE5VTIxRjNjZUtCS3pJM3R6bUxCZkZ6NEllREwzV3ctNXBBYVBxTXVhbmhWOWVNUlZsYlZ4VzJwNHhIV0RvczY0NXp1ZTdDQmV0YUo5QWJvNzhjd1VZa0g5QUwtelR2VHROc2FwZXc?oc=5",
-        "date": "Mon, 11 Aug 2025 07:00:00 GMT",
-        "source": "Google News",
-        "company": "SpotOn",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "SpotOn Named #1 Restaurant POS System in G2's Winter Report Highlighting User Satisfaction and Growing Market Presence - Food & Beverage Magazine",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTjYtZjQ4cGZoNi1Zb2lTcThjbW9WeGhLSm5qRjBJcUtZYUJBcS1QN2VFTjI0TFJUNXQwaUdkSmFHZmdBWnRETDFaSm1FTFRnb3JmM2ZpcktxYWNJSkpfZVdNWnZndkhNZk5fNGdoVWtkNVJsZXk4OE5nVUJJQ1lHYWRfNTVUOWUzbHF6ZnF3d1VBeVFqNFFQek81Qmxia2kzeTF3Ymg0aFVkck5JdkhVUlotZGU3d2NxU2hfaGtWcWRoS1c1TjlHc3dUT0dHNFdhcTB2eg?oc=5",
-        "date": "Wed, 05 Feb 2025 08:00:00 GMT",
-        "source": "Google News",
-        "company": "SpotOn",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      }
-    ],
-    "Toast": [
-      {
-        "headline": "Form 4 Toast Inc For: 6 July By Investing.com - Investing.com Canada",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZFdwQlpTZ1VIYWpUNms2c29aWnVXOFdmS2JMWlMySzMwbEhKakthaDg3NFVOMnZCNzQ5NDh6ZXp3bDNPUzBXaVRLZEx4VTRMbFdmSk1JVDJZaTQwblM3ZldXX3NEdDU3bjJpQVFvaE95TEczcVBuTXR2MWZYSFN1ajktaUNyTXNmMUpYNE0xZmNodw?oc=5",
-        "date": "Mon, 06 Jul 2026 20:51:50 GMT",
-        "source": "Google News",
-        "company": "Toast",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Toast (NYSE: TOST) CRO sells shares to cover RSU tax obligations - Stock Titan",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdlVoUlg5WUtuNFA4RGFaQVBkUG5NOXo1Rm9vbUVMdWo5RzFBMGNEeklqM2ZNNWVzZ1lRZ3N2QTJsQkRvUkhqMWllXzNIY0k0N0w4a1hIN0kzMElPU0NRMFNfNG9vQVljbmZxbElrZzRBdnNmZHJBX0V0aGtxb3NnOUdNVFJBRTFmOVQ1VFFWM1VlaXV0NHVHTlY4ZVc0Zk41cmVvZGxB?oc=5",
-        "date": "Mon, 06 Jul 2026 20:43:45 GMT",
-        "source": "Google News",
-        "company": "Toast",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Toast (NYSE: TOST) CEO sells shares for RSU tax withholding after vesting - Stock Titan",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPS1RpbDRybEk5Mlk5RTVNSFBsV1RyWS1uNkxadG9MNkRwb3FSYlFUaVBCT0Y2dnJCVVVkNU1Rb0QxMlZ1RGdWeDdpdmFCUk43eFA4WldCUmc2aXk1S3J1T3E0N1FIUWhlTzVIa0dMc3hXR1FyU0d1RlRMTFJwcHNKVl85V3M0UHZzR3o2MmNibjdJTmJ4cndpd2xQYzBwdkROemtzOTRB?oc=5",
-        "date": "Mon, 06 Jul 2026 20:43:15 GMT",
-        "source": "Google News",
-        "company": "Toast",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "RSU vesting and tax-driven share sale for Toast (NYSE: TOST) counsel - Stock Titan",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRzlfQnJhMlA5eG82ZGJHMFFVcWxOZW5LOE9BN3h1bFYwRFNYSmczZTBWZnFJWjBxSzlWTjNuUC1PYlhkeEtfd2dxU05vWE9BLUYxOWpEamtEZS1fQUNTVEphLWFWUHp1UU5kRlVBWEpQZkM3dUw4TWc4Qjg4bExDd3NDWVRXNFloQ3dyYW5wS3ZXSS1YeXVCV3dId0ZINVJyVmtzYjdn?oc=5",
-        "date": "Mon, 06 Jul 2026 20:42:46 GMT",
-        "source": "Google News",
-        "company": "Toast",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Toast (NYSE: TOST) CFO Elena Gomez reports RSU vesting and required tax-related share sale - Stock Titan",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPa2dydlIzZ3RPd0RlUm9qOWctUVp4c3VYWjdvZXRpb0ZwcXA4V19SV0VPYlZQUTJvOTlVbDBXT2NTQTlUREJ2dHdEWTZPSG9MWEc3MUJKSkI2VG9XQUR4LWRUaHA2WUpOMWZDay1nZVhnR3dGbUhSTUVibWdwOWhYdjdwd01icG56RGx4S1AxWHp5N2ZzTTNQUkV3ZVlPNF9wbkE5aDlR?oc=5",
-        "date": "Mon, 06 Jul 2026 20:41:33 GMT",
-        "source": "Google News",
-        "company": "Toast",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Earnings call transcript: Toast Inc. Q1 2026 earnings fall short, stock rises - Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQSDhmSW9pQnJZNm1qa3FORmZ4a09qeHdZMkFaOEE2YzRzOWltWC05WHdkUDc2alM4ejBiU2NGNVE4ODU4YmRoWnktb241TlFGcUY5T18wTllQV0owdjR1ZHBpQk1GUzFVWjhELWFSRHdON0JiWnhodFY3TXdINElEb2pSUzFFeUxyMVZBaGxITlktdjBnd2twVkhDVHRIOGRFcjJPY0xXbnAzR3dreUtXRS13cW5na3p6ZGR0OHVHNU5Eb2JKeWV3ZVFR?oc=5",
-        "date": "Mon, 06 Jul 2026 07:53:13 GMT",
-        "source": "Google News",
-        "company": "Toast",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Enterprise value to revenue forward of Toast, Inc. \u2013 NYSE:TOST - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWFRBeTdyWUhMT3NOUElGVUpzSnE3WDI1NExHSjdiVjk0aHQ1dTdjWEZMZkxnd0swaW9NYnppODVQUW9lanp3RWV3aERqT1JKZlNscUN1NFM5SV8yUFQwcHdwV0pLWS1IVzFrNGNsOTEyQ1M3ZTlEc2VBRHY0YnhIY1huN0hkT2VRLXc4YXI4UElJY0Y1SGhUaHlWVXR6R1dDUzdHX2lwNnM2QQ?oc=5",
-        "date": "Sat, 04 Jul 2026 08:30:25 GMT",
-        "source": "Google News",
-        "company": "Toast",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "TOST (NYSE: TOST) notifies intent to sell 9,146 Class A shares under Rule 144 - Stock Titan",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQU2RuU0xLS0JUOTF3M1pteUpjNldyNDFNM0M3VnpFSmE3aGNZM2plOVJTeUlfUTM5UnFlaF9kT0Rmd25oWFk3eGJLSmNiQURzNTBZeUJlalkxRjFBRXV3d0FOZkFqT1loZ3kxQ3o1Q25iTHM5cVR0YXpsMkRGZllmN2VhZkU1Z25pb2pWTTYwaw?oc=5",
-        "date": "Thu, 02 Jul 2026 21:33:32 GMT",
-        "source": "Google News",
-        "company": "Toast",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "TOST (NYSE: TOST) Form 144: 14,365 Class A shares tied to vesting - Stock Titan",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSC0zWDlsN003ZWpPaTRvV0g1SDVJekdKRTIyNVE3c0o4Y1BGMDlvWW9MUnJXWmphQ0xmU19GN1FKUmJqbXFWLWl4NjhNQUJsQmdtUFJmeXRGWnpvRk9pUVMyRUMxeFNqQzBxV0paVV80ZkVPU09sMnlGLW04RkVHcExRRndTeWh5eFFTclZ6UQ?oc=5",
-        "date": "Thu, 02 Jul 2026 21:04:43 GMT",
-        "source": "Google News",
-        "company": "Toast",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Toast, Inc.(NYSE: TOST) added to S&P 1000 - marketscreener.com",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdkFkUW1wc2tSMk9nYTFEYmVrSUhzRjY4R0R6a3hpYXVxTlJueUtVcWM5Q3FmYVBUTVowSzRGajljZS1Ha1VRR1RTcDBxU3IzdEVIY0ZmY2NKLXViY3dmanhrSmVDaEhlX1J1b1YwYUtMME5XMWllQUhaRU41RVlGbXh4VTdfOU5WVnpGejFsNmd5Ujcy?oc=5",
-        "date": "Wed, 01 Jul 2026 10:13:31 GMT",
-        "source": "Google News",
-        "company": "Toast",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Is Toast, Inc. (TOST) A Good Stock To Buy Now? - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVllSMXQyZFNRRldJa21KSUJ6d2tBZnZhWE1fT01IN00zS2JDcWpYNHZJY21rOG9wMGZKRlpfWGNDNTBOVXF0MGx4bGhpT2tBR3lJZV8wSk5TMHllcHdIYmZoa25JWTh0TlhEOFNic2dYdTEwSTJ0SnNXMWJZcFhuUnc4cVppbTRtMFpXRlA3X1hWS1pF?oc=5",
-        "date": "Mon, 22 Jun 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Toast",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Piper Sandler Assumes Coverage with Overweight Rating for Toast Inc. (TOST) - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdzhsV2MzQkk1TWhHNy1fdjBZR080VmkwNEp0RFZnZXpPZlplR09BRVBRbnZCUTRVcVAxRzVuUkFmLWNQd0ljQmRpTlNyLWN6cWJ5RzVtLVlfV3RabXFxa1V2RU9aeVFLOXZsem9vdFhNYlpCaVc1Y1lvd291dUt4YWR5UTN1RWpHMkczZXd4V1JuVGRDdnIyRHpoalVaOGREbjRJLTF1bVktdw?oc=5",
-        "date": "Sat, 20 Jun 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Toast",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Q1 Rundown: Toast (NYSE:TOST) Vs Other Vertical Software Stocks - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZHNxbHhIamRMWW5obTVrd3ZfMGRyYk9nWHlFT00yMElXQ3JGa1lFaHdoNUY2aFRUTGRxSUdIcE9ZVWpkbzJMbkV1MG9nQlN3Z0dDU3BEMFdvdlJUOTlFTUhhdVNEVTUxdWFlcm1pWTFiRG5CQlRvd3BMUmdFNFJSU00tX0RJc0J3UXkzVjBrQ2YwNEM1Rmc?oc=5",
-        "date": "Fri, 19 Jun 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Toast",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Here is What to Know Beyond Why Toast, Inc. (TOST) is a Trending Stock - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOFRsOFVobG5PTHUtbFpOYlhkR2dCd0Z0RFAyOHU5YTNTMnJmQmxlZWZ3Y3hPeTVFY1dhNFJVb3laaWpDVmFjYTZMVnBYU19IUXJobmxDNElQU21mR0ZZamNBcm5QaWpra1Y2VzZ1Z3Z2RnhWMFpvRENkNVNiMVU2WmFBYl9kTzl0VlFNMUM5aWVEb05h?oc=5",
-        "date": "Wed, 17 Jun 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Toast",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      }
-    ],
     "PAR": [
       {
         "headline": "Stephens Investment Management Group LLC Purchases 175,831 Shares of PAR Technology Corporation $PAR - MarketBeat",
@@ -912,16 +1126,6 @@
         "company": "PAR",
         "type": "public",
         "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "PAR Technology Q1 2026 slides: earnings beat fuels profitability push - Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYlk0ZUZxdnBvcElLSEw5N2pabzhROXc3UU03YlBWQ0cwNDd6SVJlbDE3NHI1ZzV5TXBtZzZ2M1M4MzZTRnI3RGdPRFc1eHBuWERabk91Y29fU1ExcjBkUkp0NGh3MlNXY1FzN1R2VW9aNEtkSFZCY0ZiQ0RQOTM5LUtoR083SHdsUEhqOXdGa3NLUkdEMWFlc2YtUkREOXlRbzVNU0U4SnF2WFVoTUlnbzNxMllDeXVDMVF6Tkw1V3hUa2s?oc=5",
-        "date": "Sat, 04 Jul 2026 10:12:23 GMT",
-        "source": "Google News",
-        "company": "PAR",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
       },
       {
@@ -985,8 +1189,8 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Why Are PAR Technology (PAR) Shares Soaring Today - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSlRsMDFYZ2VVREhWR1kxeDBORlFGbUZoSjdFTElCZXhkRm1fbmxwYkpKSmtkNGhSbS1mM2xlcl9zdVBuUXBQdlRSVW1XR25Wa1VHa1VMUXhDVVRFVmVkTEVCQU5NeXRjVlVDQ3RQcFdTUzBoN0s5MXVhZ1dmMndXWFhjUGZ0dTJUVzRLZi02V3pHbmRWcml3SXlR?oc=5",
+        "headline": "Why Are PAR Technology (PAR) Shares Soaring Today - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLUdtdTNtTzVWRmJaUVkzQVN5MWQzVF9mRFRzbUlENE9WQm96TnFVYnRJM3JwNG5vRVM3VzBZeW5vd0hCMDZsUE5kNlpqWGxSRTU1M2pRYVFCWTM1VFpsdFcwV3lQdW1EdUU3cVh5YXFMN1NTRTA0WHgxaXBaVWNfcFlybHNPUGxsWHFadDJ1R1QzenZrRWNMckQ1NnhSMEJ5M3ZnNVphemh4MjR5?oc=5",
         "date": "Wed, 24 Jun 2026 07:00:00 GMT",
         "source": "Google News",
         "company": "PAR",
@@ -1008,6 +1212,16 @@
         "headline": "Innodata vs. PAR Technology: Which Tech Specialist's Stock Is a Better Buy in 2026? - The Motley Fool",
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdm1fb3oyNk5XU09rQWVDOWU0TzE2QTdMdElGOXVwNFBrSEdCNWJodGw3d2xzS3lybVRQOUtGR2wyOF9oU0pSeGFhYzhMMndxZE85VlpvZ0c4VjlrM3JLV0JsUk5FYU1oN2VrbzFUa044SldFUlVuVDhJZUNFQ3RkbVZETU95aENndVQxYWJqczZCbVNudWdpS3hQRkUtUVV2RHcxTUw2RENlY0xUa0kxUkdEUkNISV9QMTBxWmphQ1A5Sms1TG9CRjRwWFpXUQ?oc=5",
         "date": "Sat, 20 Jun 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "PAR",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Keith Pascal Bought 45% More Shares In PAR Technology - simplywall.st",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZHBaSEJ3RmpVX0tJVEpYcGlzZ2I0TjdDOXBhTVdDZGpidGRGVkpKcFV1UkFOUEVyNjVXUU9fcURObUlHMEhUSlZLbkV1NUxHMUpIVllnRFlabkoyXzBFQnZoTkl1bTBoR2FDOUwtNXhWSVE5U3lveFdPZk1mb2tkYTJlQ0dUUmhVMFNhUlAtVHpJbURFT2FaSG9tSkpzeGFkdm9ZaUJjd2N1Y2tRZnEtLWpoRm93QW5QNkYzTWp5a9IBxAFBVV95cUxOb09WdExuWExiM1VPdmt4VF9pZEhpRzRYeHRuUXQ4QnlVLXplRUZkS21Id1Z1a2ctdk1kOW1CQ3FJdFFHUkdLdUpfbmw0REZFNU9NYUJ6dTg5T2FOWUlsdXh3a3RxdnNKR0w0M3I5a3ZiTmpTZndYcW5sdDdkZ0RvWGdJNklhLWNwV05NSnFFRXc5OVhLNEJfRU0xbGx5V3psUm9NN0k5cHg1aEw4VWJJMGMxTzNjaTFEQ01HbUxlR1NYMzJ5?oc=5",
+        "date": "Wed, 17 Jun 2026 07:00:00 GMT",
         "source": "Google News",
         "company": "PAR",
         "type": "public",
@@ -1391,16 +1605,6 @@
     ],
     "Square": [
       {
-        "headline": "Square Terminal from Block Inc. - a compact workhorse for small US merchants - AD HOC NEWS",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUFI3WEUwb3l4b29NZEJXZ2IzenA3Y216ZnM2VXIzdWZJeGZUcFNHd3NhTGxodmZsOHFubFpNZEJ0QlB0aWc2VXBsQmt3NXpJS1E0SnJQd0Q2MUxJblFxdWxLRWRjZ01UMlZWei1UcFBxSUVSYWpxZ2ZLd1JySW10UnFhTnVHN3Z6Mm05bFFRcElFOFdxVGJxaHdPMDRSai11TkFxX2dTdlNjOUhNdGxaU1VLc3RUa25GT3h0TFlmQQ?oc=5",
-        "date": "Sun, 05 Jul 2026 11:36:00 GMT",
-        "source": "Google News",
-        "company": "Square",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
         "headline": "Square Card from Block Inc. - everyday spending tool built for US small businesses - AD HOC NEWS",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSy00ZjlVQld4Y3I5QXZ3bU9yVi1WRkZjZnJxc2JSUGZlUV80ZkFWaHRtclBVSW5ZQmhqdnVzRUkwTXc4WlE4bUdCWHB0WF9XWHdfV0xaWktfalRmTWdpS3VlY2hzTGVYVm91MWdFV3BZZHFKOVUxSU5jdlU5VkUwbjk3V1N0MXRGVWp0M241eEt5MVpxTms3a2JLN2dFZTlhWjVvMURQc0hGaHJvRUY3d0YtVzY4cHZINjJIVVlUclpTakhjWkE?oc=5",
         "date": "Fri, 03 Jul 2026 13:43:43 GMT",
@@ -1408,26 +1612,6 @@
         "company": "Square",
         "type": "public",
         "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Square Picks up Well-Known Restaurant Chain The Hat; 33% of C-Store Operators Manage Four or More POS Terminals - Digital Transactions",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOUi1mRjBSUGNHUGhfOUM0eXh5TVJUcjI5VWRpQUg0VVBsRE5DRzEyU1h1bFBEUVBJVlc0NmtXdW5qRHFUUHJnTEhUN3ZHcFFpYjdnVkx1TDRBRnJVQWNlWkwzYmJ6Y0Q4bzcyRTFHN0Z2NUtLUEFSTWJOYkdITlVwYWpPT3lINWFwc3lIN1UzTTdzYXV5MVFEc1U4R3lPM3J3bzBqMTcwMEdVN1RqN1FRaTk0OVE2OG5kZkdiQlpGcG45OGZMOGlUV0g1bnRlYThCcVY1ZWh5MFFjMU9ZdTNF?oc=5",
-        "date": "Wed, 20 May 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Square",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Block wins over skeptics as BofA raises estimates following post-restructuring rebound - Proactive financial news",
-        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPUGpteXFsOUJ0ejRrSTJKWjlOU2hVR1dUR3JxMzdXWUNvNHhpYS01SEpWeGYtNmFJR2FrTnlCejZlMDM0V3ItSHd2SVprWElPcHcyYjUxUWdDel9SVl9SakZSQUdFQUd1VDhldGF3ZkE1UXZEZjNpb3pLdG5JMFlhV0RKejRZSEh4SjVxTS1kSkY5c2M0azJVN2ZOVzhXVDJhdWFtQWl6N01hNGtjejlFc19CUWFCLXVNUzRwVWlkSnlhQzEtS3pfWWdvbHNSQ0pNczhhZmVvMHhVekZxQjBQVWR5cGdKbFg0TWFOSHR3?oc=5",
-        "date": "Mon, 11 May 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Square",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
       },
       {
@@ -1472,8 +1656,8 @@
       },
       {
         "headline": "Block set to deliver Q4 earnings beat, gross payment volume acceleration eyed - Proactive financial news",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdm0tOF9iRWUySHo3U1FSdHNiTlZaU21HeEs5M1R0LTFJUmVqTXhnMmM1SzFrVHVzVFc5Z3JxV2JTRER1NWZJQUpyXzltTUFlSWltLW53WVVTbkJGTXloRlk1ZDhYY0hjaTNzX3ZnWmN3RzhZT3lzeEVZeTh2MXY2bGRvRjBkb1Q4a1BfYUlsTW9sX1k2endPRFVzSlRxTFM4clNLN2g3N2Fjc2VvOUpkYUQxY0NHbjAwM1VlclNvbjZLWnZaejdFTVFvNnR2U0FsNHhyUVp2aFgwTlB6Q1hxT2hPa0o?oc=5",
-        "date": "Thu, 29 Jan 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOM2ZzaXVvQ3NmbjN0VVh6M2NjRmtMNjZWQlRfMnNadzhrTkthTkp2dkxNM0xyTXVIZjlSX0x3QWo5bDlLVmNvSnB0VDZPcUVmTU5CNDFEMG5EVWZYMXRraWdvR1d2eHlzRWttekVlaWRCR1BUNzkzOE5zMnNMZHY1cm9tMHkxRlcxTDVsR1M5dGpJRnIxbkpWTzdJeEc1c25tUGFac0ZVN2VtcW4yMnIxLXZhTGtEaUJXeVktMWFyT0VQVFl1NU1lM2tSUmtKNURNd0xpNTJZaHJuLXc5M0RGTA?oc=5",
+        "date": "Wed, 28 Jan 2026 08:00:00 GMT",
         "source": "Google News",
         "company": "Square",
         "type": "public",
@@ -1481,13 +1665,13 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Block, Inc. (XYZ) Faces Securities Class Action, Regulators Levy Cash App Fines Following Investigations Going Back to Hindenburg Report- Hagens Berman - PR Newswire",
-        "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQM05pMnk1bGRndDlvUGFXOHJzcFNxQWVEYjBhYUdSZGxGRUdtTDVieUxSajF6OXo4cm5TU3pkdldhM2VRd2tSRXFka3pWN2Uyc1A5MmtMTG9PcW4wNVNiSXNtcVlzNmdfR1p3X1hJQnhBenc5ZERxX1VMZDRjNHhYcHlEVXdmeTRqWDhpbDR2Mlo4ZnFDMUU2dm1OcVp4WVFlWjNlc0NjYjcyRDZDMk9TSFhDTlhuRXhCckNQWWlrdHVjcjVKNl9lb1BJU0V2bGc2MlEzc0FQTWYxUFFPTnlsUEwzeFgxSDNlWWFZeC16OWNQSkdQVFRXaUo0RlBMczZfT3BERTZ4eUVleEJERVkydnBvNlFZUGJQQ0Y0Rmcxa0RrZlRQRkNWTw?oc=5",
-        "date": "Fri, 07 Feb 2025 08:00:00 GMT",
+        "headline": "Block, Inc. (SQ): This Fintech Stock Is Riding the AI Wave Higher - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5XVEFKUzFmS1FDS1dxNjdNMDZ2T2dObjFFNnhuN0VjNDkyY3pTS0ZPUWNxbW8wbllXS0tzOUlKU3ZRVVBuamxfcVcyb3dkZ19EalRsQU05R1FuYlZTZXVkNjRyanJzdm9ZWVlOVTBQX3V4Z05NWFJCQzlzVDc?oc=5",
+        "date": "Fri, 18 Oct 2024 07:00:00 GMT",
         "source": "Google News",
         "company": "Square",
         "type": "public",
-        "emoji": "\u26a0\ufe0f",
+        "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
       },
       {
@@ -1498,6 +1682,16 @@
         "company": "Square",
         "type": "public",
         "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Block Inc. expands share repurchase program by $3 billion - Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZlZKd2RGQTltamYyTHUxS0RETlpoUlFNQjFYdG5ySXB2SXRiMDJVR0JRZFJaTkZzZFhEU090bjA2amRsSEdMeDVFcW53ZjlVUW56eGk0THFWeXlSbVVnNVRWeGd4NlYydlFtWEhpaEM5TmpGM1VsdGswVGFqSVM5YTZ4YmpBcjRtYTUtaDAxQXVxVFJ3WExpVjJpRWZqLVNGelBpV1RUeFFqa0Rob2lPSThR?oc=5",
+        "date": "Thu, 01 Aug 2024 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Square",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
       },
       {
@@ -1521,27 +1715,47 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Block to Announce Fourth Quarter and Full Year 2023 Results - Block",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMkhmNEc1cGhzWkR5RGFUWmdWSzN2RGVJaHR4LVVldmNGblZ3d3RGMnZicDVWbUQ4aXp4dlhVWUxCVmJNVTVYOTF3bDd4aVZNd3c1ekpZYVcxT09YcHBXVzhQRnJhTVNETlZpXzVoSlgzM181SjhsencyTmVaZmd4NDJmRDB6aTRyTkxfYg?oc=5",
-        "date": "Thu, 25 Jan 2024 08:00:00 GMT",
+        "headline": "Fintech giant Block Inc. confirms Atlanta layoffs - The Business Journals",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcHY0TlViYjllVnJuN1p0VjZSWV9KSXdPbjM1QndWN290VlpUUkJqZngtYnBVVnQ2Sm14bGpGeWc1aVhzVE5DaWQxcER0WTBSYWlaY2ZQQkE4LTN4by1HTW1fRjg2Z0lwWm9FMHlNOEtHZ1BWLWI3dEJnTlZMTW93VS1SdTIzdy12MmU3cXVtQ2xVeWlxMDlzaTBoYWN6Z3RGbHNrTFJBcw?oc=5",
+        "date": "Mon, 05 Feb 2024 08:00:00 GMT",
         "source": "Google News",
         "company": "Square",
         "type": "public",
-        "emoji": "\ud83d\udcc8",
+        "emoji": "\u26a0\ufe0f",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Self-Custody Bitcoin Wallet Bitkey, Built by Block, Inc., Launches Globally, Widening Access to True Financial Ownership - Business Wire",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQeDRDamYyVHF6X0E0Z3B2M0VOV0xWdEpkS193SWNiT3N0clVzLUNSZjlQY0Q0S2QyckVDNHhKTG0wMkRwUkRrSVhyMlRXNExLcENKakRxNnZYbHgxaTJKWWdzN0kzRllUYUYtc21XVExBMHEtU1lzakdjd2FHUVY1bTVKdVdRdmotY2xkU1VXZ1dSX3RHTmVrd0pDeVk2eDk0QUxBYUhQanhndkZFYkFWV0RVeVU4MVZ6dW5aRlN1YVc2eHFqeVhBMTFwUGlrOWZoMjFWbUdia041djg5c0w2Z3RLeDhuMkV2ckpYNklrVG9rbXZrTXZPY2pybTRrSDYxcXZN?oc=5",
+        "date": "Thu, 07 Dec 2023 08:00:00 GMT",
+        "source": "Google News",
+        "company": "Square",
+        "type": "public",
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Square for Restaurants: New Dedicated POS and Full Set of Tools Built for Today\u2019s Restaurants - totalfood.com",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbXRXaWcwQ2xjQUVmSnlFNlBhcTRaSHV3UFBycVFEaWVCNzkwdnVwME9jd2N1dW1GaFdhOElWX0dHYzBnSVNDMHczR1NMZExHOFZ0NDRYNnhZZGJFQVFORUZlaFZKV1NsMkttNm9BOC13cUh5VkgxaGlaTTRvSEZkaHVuZ0JTVVdYaEhyQ1Zua016WTRnR2VkdmZPbmRTaEJHZmlDU05lQ1UzeXJlTlhqMGtCVkw?oc=5",
+        "date": "Wed, 09 May 2018 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Square",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Square Launches Fully Integrated POS For Restaurants - PYMNTS.com",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaGVTNUJPZTAwQkpIRWpMUUN4Wkp6aXJMbGRLemxGTXRmRG8tc19ObEtJbGgwWjJnUC1XdEFzdjlrOVI4NEtXLS1xTHgxMmJTYXA5T3ZBWkVOcWxGZk5lY0k4SkFLSEZqdFJVS24tRTFFRHdncV9LbU1UMl95NkpaZ3JFMTVpTmhYZTE0VUlkVmI?oc=5",
+        "date": "Wed, 09 May 2018 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Square",
+        "type": "public",
+        "emoji": "\ud83e\udd1d",
         "content_type": "press_general"
       }
     ],
     "DoorDash": [
-      {
-        "headline": "DoorDash updates tech partner programme to support restaurant operations - MSN",
-        "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxOWjBodjdyQ0h1RUd2YWg5QjRtMVlEWml4OHpTZl9ZMFNPaGFUSWhZRzlhWnYtN0kwbVFEWVNXRXFUdEt2a254cVVRWHAycXJqVGNNSFpNMXQxOXhFdnBiR21na1c4dlZXdFFIbnpYWlV3ZmRyLWQyX0pDVkpkSVQyWTBwaWRqNnVJblcwOUNBNDZUam5TUFJoOTlfbW54dTd1VjNiWmRMYnR3Y2JWZjI3U0c0WTZQZFRqNnNfamZzWjFfNUpVOXRzX3M1YTByZUlOY3lpTmdtVE5maWZkV2tzMEhmbVJpa0VvbVlGU09fRy0xT3p1cHZaeHJwYWJvZk1wZ2lhYWlndGtRRjNFMWlMY0d4bEpsTGlRMEc2N3FEXzI5RVJjbWVKT2pVb1pKQkZmbWRBblFfSUNVNUxQeTNXR1NTc3F0VGJwYlZLLXFVYk0wellf?oc=5",
-        "date": "Thu, 02 Jul 2026 18:41:34 GMT",
-        "source": "Google News",
-        "company": "DoorDash",
-        "type": "public",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
       {
         "headline": "$2.50 Whopper Jr., $17.76 meals? See 4th of July food deals celebrating America 250 - The Commercial Appeal",
         "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSjgzYmtWdXlJVEp5UUVScUpCZnA2dUFGRVl4c1BaZzZENkZFT1M1WFdDXzEtb09JN2xROThkM2E3ZGZvUWtoMDc4Y2o0dXJKRUJMYTZPSUJMbHYtQllBWjEzR0JNUjVtclhVNkZ1Zk9yNU5pS2tlV0NxUDlBc09NVnJWZVhFNXZEQWdSVDNPcEdxc1BFTXEtZE92eXVrYmVFSTQzRGJ5bzVtLW43eVN0dU9QU1dqLWRiM21YUFUxRWMxLUJZUjJKUTM0TmFoQ2JCb2pRdkphNERaZ0tVSmc?oc=5",
@@ -1550,16 +1764,6 @@
         "company": "DoorDash",
         "type": "public",
         "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Credit Cards and Food Delivery: What Are the Rules on Rewards Rates? - NerdWallet",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNThaV2hkOVNTXzZ3eGxlMlpKNE1Ka29rdlBKVHI5SHE3ZVhpS1kwZjRlWTYtaktzQldhQ0pPdjJ4Y01QVVhwMWtGTUNuTThZVEtVTElmRE80VnJyS2M1bW1iQS04OHpjNjJ1ZXF1WGdidGExb2xlNmUzQmJQOUctSWFRTXctRGMzdzJOMTkzeXhBdXhYRVgwZFVtdklSVklpcGhNYmVCdy1PRnRlNGpxS0Fn?oc=5",
-        "date": "Thu, 25 Jun 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "DoorDash",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       },
       {
@@ -1595,16 +1799,6 @@
       {
         "headline": "DoorDash launches a chat-based restaurant search - Restaurant Business",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRnNleVZUcUZmRWF5dEh3UFZCLTBqb1kwNU1BUm0zSGhvY2RlQkN6Rl9JeDdiZ3RVNDMwNW1zSzVBZ3BuYVVXcU5mckw0VF8ydEUyZUpvejh1WjA5Wi10MV82SGpGbzVSdmNVT1NTQVo1dWE5NUUyRmRpN1B4UVZCQlphUWdsaXVIbkhhLWpQYmJTZXExejBNMm93?oc=5",
-        "date": "Thu, 11 Jun 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "DoorDash",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "DoorDash lets customers use photos, prompts to order food and book reservations in latest AI push - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5WZ0hadmFVbHkwZ2FmZGRHcGZ2b3FPcXdjOXhtN3lGNlRpZFMxak1idFlxUk00bHRXUGVXUGsyZ0QzZjltelo1X01NTGR2MUswZnZVQU1NcVp0Zl9tM1Zwdjd3X1IyaHF2Z3I3UnRhdUxHaFJ0QlJR0gF8QVVfeXFMTUdJMTRKR3MyelB1WHR0NWI4dHhfQ3pSV21RM29oeGlvczdnLVFWTllOSUE1VG5PUlpQa25QNUs4OVI3MVZYMWxBVjk0WHowbk9Qa1dpN2szeEUxLU0xT21Hd0hJdmlyU2lWZ1FxOW9vQk1sRks1WmRwM2tCNA?oc=5",
         "date": "Thu, 11 Jun 2026 07:00:00 GMT",
         "source": "Google News",
         "company": "DoorDash",
@@ -1673,6 +1867,16 @@
         "content_type": "press_general"
       },
       {
+        "headline": "DoorDash, City of Fremont Kick Off Restaurant Week with Inaugural Dot Delivery - DoorDash",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE53TjVVTmp2QlAzT3p1UFl2NlgtNVF5YjJ2U0phLUxPc2cxYkREa055SWllR0RwVDJxb2YwT1VhX3NReWFhRWNJcUYzazBiTlA2dDB0ODNKMjhwejMyMmg1R2s1c1duMUpON3F4VXI4QXdJMDBwZzJrX2JB?oc=5",
+        "date": "Fri, 06 Mar 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
         "headline": "DoorDash Reservations Expands to Chicago and Adds New Premier Restaurant Partners Nationwide - DoorDash",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBGdVRTOEN4QjdxR213UmRsSDRNM2tsZmMtaVliV0RUdlNTdWFTd3IxWk1UVE9QZ0V6VlBZUnpBZDBXSnlJT0VkZGd5WlpheWZnZG9DaHlXQi1EVURIYUhsN3ZXSDlRVXR2UlE?oc=5",
         "date": "Thu, 05 Mar 2026 08:00:00 GMT",
@@ -1686,6 +1890,26 @@
         "headline": "Restaurant reservation wars heat up as DoorDash enters the arena with Resy, OpenTable - CNBC",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOa0tlcF9MUmNUZTVJTWF0UHJUXzhOdUdqVjBYMWNjcFFYb2tTZm4yWFE3bUtIaDdrdUthWmNkOHdQZGJWVVV4UGgybGtIUUl3VUM2a0dwa1FDLWpmX1Z1RmVUNVVRcjU0eUQxQ2ZaNlhGLTJELWVoQjZub0JmRDgzMHhPUy1GcUZRZWcxQjhWaXpKQdIBlwFBVV95cUxONXV4MU40TVJHcTZydG1lZm44alVfVVB1eXJfYVNqNFR1VXkwY3pQdXFtUkFQSVZmTHFHdGU4SS1Ia3o4NFhTU3NqMXpvZU9IRks1dEMwZjRXZExYWXJCV3BONVdXbHZaTG1vUkFQY3owVVB4TnZlcDVBMkIxbG9zeWtZWlFjaXBrYlFDWVNiTmF6VGN3SXVn?oc=5",
         "date": "Wed, 25 Feb 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "DoorDash and the dilemma of affluence - Slow Boring",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9JODlHTmZxSnROTC1fcWJmclNuR1Y0V3dSTkJ3dzFoaGJNR0s3azBvcjJuS3p6Um1DWHdoaUZ3MEFjRlVfOTlyWi1BWmlSUlRtM2RIem9zMHF1aTRRc1JJSmJDRlFNTENZZzhqSm5MTW5sc2Fs?oc=5",
+        "date": "Mon, 09 Feb 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "DoorDash Launches In-App Restaurant Reservations with Exclusive Dining Experiences and Rewards For Every Booking - DoorDash",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQWx6dkpUTko4eDluT056X2N4Tm1UdFlnZHZmUFN0N0ozME5sbVduSllGU2JCSTZqU3FMZkxvajNYeTI0MFRwSWNmMTVMYWNzLWs2WlNPWDhfajM1eVBGWGNyWW1ZMHhsMWlTckJKSm5USm1paHVSbzlOeGYtN1ZLXw?oc=5",
+        "date": "Thu, 23 Oct 2025 07:00:00 GMT",
         "source": "Google News",
         "company": "DoorDash",
         "type": "public",
@@ -1957,19 +2181,19 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Red Lobster Renews Partnership with Restaurant Tech Platform Olo, Launches First-Party Catering - Seafoodnews",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcEdyaUs3czY1ajI5VnlUUjZqM3dPb0NlZlIzTlhYTmhVRy1hbzFiN3Ftd1FmZGM4eXZYYmJudzR1LWJsMU1OcUNXaGZubm5vSS1HTWQyQmJwWVNNbHVqR09vNHUyeml5Unpodm9JVmNPdUp5RS1WZWxFMkVsd1pIN1JtT1NKNGcyMlhSaE4xbDdBd1JNN2FsakZNXzhyYUNOcHlWNkl2dTFxZ2FXSUJrQUw5MXFrZTFBSnlzMVVaS3RfYlZMa2lmVU1QdkNnSm1yMXc?oc=5",
-        "date": "Wed, 25 Jun 2025 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Olo",
-        "type": "private",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
         "headline": "With 57% ownership in Olo Inc. (NYSE:OLO), institutional investors have a lot riding on the business - Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1zc3FzbDNGeGxWOUJpMFFYbk5TNnZUSHRVQmIteTl6SmdOakhGUVdfckhORHc5ZjhYZFZTU3NVSXFwSkYzcjdsZ0Z3S3RFTGlKSGhZX2liTG4zLVdZYy04M05qRk41UVctMF9GQjRuSHU5WDRNYUVacjNvZw?oc=5",
         "date": "Sun, 04 May 2025 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Olo",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Olo, ezCater team up to simplify catering menu management for restaurants - QSR Web",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVi1pRmhHRWpXWWFqc2d3VzZfTGFFVVNtbEw0d2FzOWpJWXlreHhmeFNaUlhjWE1UWDhJZXlHYXFyZmRNN1RlZFlGTHEzRFhBMWEzcVVEcG1ybW4wNGk0ektrM3VkMl9hR3F5dldRVmdBZG1hSDk4TVVfTU90VG9ENEhHNHlqUzJNYnRhUTM1LTdjeHd3aDdSYlI1alpnQ3RVVEF3?oc=5",
+        "date": "Fri, 08 Nov 2024 08:00:00 GMT",
         "source": "Google News",
         "company": "Olo",
         "type": "private",
@@ -2176,158 +2400,6 @@
         "company": "Paytronix",
         "type": "private",
         "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      }
-    ],
-    "Fiserv": [
-      {
-        "headline": "Paysafe and Fiserv Strengthen Partnership to Drive SMB Gr\u2026 - FF News",
-        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQRU5WZkJSd1VDQl9GQVhzQzdZWXJYNE5JbGRSWlc2VnM0X0xrdGpzbFFITHZraXpyYnpfWWQ2aTRqSlJ3YWtGbi1ZOEl0eWp4d0xzR1BTSzE5VUJpRlNmaWJDaVUzWmRtVFdCUHJzZHJqTENwQUdkb0ZGOGhwTEp1eXJKZTRMNU4xUlV3VXJmd1hxclN0NlJJMFVhOFpGVkFoWVFQOGhBanpRQ0xoamR6RVVib0plN3puNHBPU1lIcFI4OGZTN25KWGQxZnJaQ3kwclRncVB5MFhuVUpQVm1yekVVRjlBWUZJOEpUdDYxc2g4TjNuYXc?oc=5",
-        "date": "Tue, 23 Jun 2026 09:21:34 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Fiserv Investor Day Sets AI, Clover Roadmap to Revive Growth and Top $12 EPS - The Globe and Mail",
-        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOTEFiQTVNMkRnRnRvQ1lrNVlhd3RyMks4bF9nRVVqa3MwbUdlMk84bXVxTzVkazVRYng3NTBoV3B4Q29WNi03c2ZZXy1TNU5YSGxJWmRKWmtQeEExLVpSWEZVVXhUNFRoakpFWWtrby1RRUZwLVVWbTJFTFFqS0lWdnFQOWR5b0s3cWN4XzNFblpUc1JxSjJWSmhwZnRDRzdDS1d6TDJuYjhyYUxNbngyWFR2Ui1SRXhzUWxldHpYZGpOMEd5a0ZlaGVqd1paUnY2c2FqRGJYMEFxSFhZTkhDTEgzVTRwVUt4RlBIWlBNZHJEWE0?oc=5",
-        "date": "Sat, 16 May 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Fiserv FISV Q1 2026 Earnings Call Transcript - The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbndKZFlWdE96N0FyOXdQVmZlTmthY0NxdDFSVXlqMTZ5Vmh0bzBZNmV5ellqU05xcUFaTGlIbzhxS3ZwMl9kR01EZHgzTXdZUlI3R0JLeXRxcjVxODFoQ0M5SHRSRHZxVEo1Tk1CdVVPRVM5cXcxYU5rTDNBQ2FjM18ycDFVYTNlTmZhRkhrbVFhQ1pTQkU1WWdOSXhyeXE4YlgxLUhB?oc=5",
-        "date": "Tue, 05 May 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Fiserv and Western Alliance Bank Form Strategic Alliance to Power High-Impact Commerce Experiences for Clients - GlobeNewswire",
-        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNdHJ6T2liUjBXc1ZzRjlYTlBJSjhkd0NHcW1JZVAyWXFOUkVqWVRZN0NUSkxsRFh2S3FHOU43UkdOU2gtOFMyWDctb21mNUVIYXJvcWRxTjFTWHF3T01lVU9hSkg2YWV6VGowT3FMcjFOcWZpUmNpa2JpSTdnazZMYUhRWkc3TTl3TVlabE15YU54NkpQNHdyZlRlM05tUEJXZlphZFVJNFlYZC1jekNCNmJHMW9pQ09qUWVoMmZXSEM5TzdNVEgya2tXZkl5bGxva2thc1VfMlZrYi1EdFN4NHdHRks0VnBtWXAtTEgyb0RmODlReGd2T3BKNnVaeDJzb01YcTZOa29idkR1VGRZ?oc=5",
-        "date": "Tue, 17 Mar 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "The Top 5 Analyst Questions From Fiserv\u2019s Q4 Earnings Call - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNejlVSmRHQWwtQnZxcDBROG16VC15dHE0M2tveU5kSGEzb2QwNm14cE5ua0M3OU4taDZ3b19DUV8zQkxjVEJuRDNING9SbU5zSjBIX1k4MkRlanZzekctdDdyelVvbWVwQVdoTk9xNkVqcU1zVmxxYmJWMlRRR1RQUW5KMGRLbWxWSWpwazN5SzRlZ1dHUjZuTmtyTnhUdnAzR0YwYWNFeGJxNEE2MkpBWE5URW9WUEtEYVRF?oc=5",
-        "date": "Mon, 16 Feb 2026 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udce2",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Fiserv revamps core banking platforms with AI - FinAi News",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSkdGNFI5d2FyZ1Y1aGpvQ1o2UTczT29tQk4yc3hjMFZIS05XN2hPRG05WTZST1p5TXdYRHB6UlB1TGZRQU05TnZNN2JSaUdFMWRaaUJMQ01JRG14WkZ6aHBpMG00ZTJsYlFlYXo5bVlzSXFubUJGUUtlQ05UMFh0dUdB?oc=5",
-        "date": "Tue, 10 Feb 2026 22:57:44 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Fiserv expands Asia-Pacific footprint via new partnership with Sumitomo Mitsui Card Company - FX News Group",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOdXNKWi1kWWxkOTROMWxyZUJ6NlhBQ3pQallHZERENHpybGs1WUw2Y1VZZDlTNk5KblpKUlVSaEJIWUthTEZuNldnQ3RhMEVtWnlLQkVDRXNGaGZJUExHUnBNdHIxZkFnMG5GZ3FERFN5ekpTVjUtZXFaUVZQOFZWWldjNXJEbDk3bzVOUmo5NVNIeE1LS0ZUMHlPZVpnMTl6eE5vUjV2TWxVWnJyZGJOQUMwRUFkT2c0anVfNS16RlhzWm44ZFNOc05UU1VZbnd3X1E?oc=5",
-        "date": "Wed, 21 Jan 2026 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Fiserv doubles down on AI with Microsoft - Finextra Research",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaDd3UWhEU0h0NzlLekhqLVpDQ1lNS1A4N3pBOWxVV1U2MW5oRmlSN250d2hvUE83RWg2OEN6R3NPMmRFUzVLblo5OXJsc3ctV3lUQnM4WE5hOGZyVG1OcUZ5aUlVYzBZMTJFbXJ2NFNNa2pjQ01IVnRnVXowejdHVmJqcnRsV19aQmZV?oc=5",
-        "date": "Fri, 09 Jan 2026 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "How Investors Are Reacting To Fiserv (FISV) Embedding Biometric Payments Into Clover\u2019s Checkout Platform - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMk84ODFRWkRxSzZwTGh6elpYWjNGRmtaRmF2NXZURktKNTA5ejhjS01zeGN5WXFRYVpwSE8ybkJ6TnVfSGppWVpfVGJCSkhuTzdSN0VoX2lFc0xMSU5UXzRfRWhWbUpraWktcVY5RVlFLWpGb0F3M1h3YkdRbFg1T29Oa05pbGl5Q2hmcWZLaw?oc=5",
-        "date": "Thu, 08 Jan 2026 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Clover adds biometric payments with Wink alliance - Electronic Payments International",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQS2xENEhURUpaaEZSRDZsejF2eF9aanBCYm5VQmtIX1ZuMWVIYkxESlhfVlU5b1NHQzdPMzZlaEZGd1V4MFprTGQ5Z1hRWEd4bGpsZU96SExlYVk5a0RMZnZBcGNNVmNyU3ZtT2dMcFpIai1EVkZYclNtRnNJZEw1UlY2RTFpS2VFMXo5eQ?oc=5",
-        "date": "Thu, 08 Jan 2026 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Assessing Fiserv (FISV) Valuation After New Microsoft AI Collaboration And Clover Biometric Payments Integration - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZGVMbVdZVFZxejZNaThHc19ZMnFBZVZUX1ZPNGktRzRBYUw0eVN1cXFZblBrRlhlbjhOLUt1aHJVczd0bjd1NzJETjZtUVU1MFVGN2dLaXN4MlRsVklyQkUwN1piSVBoTnZJam11bzRRZU1GSlo4SzdKSDNUSkJSenFZai16cUxDVTExaXN4aVk?oc=5",
-        "date": "Thu, 08 Jan 2026 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Clover Adds Face and Palm Payments With Wink Partnership - PYMNTS.com",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORDJ3SHkxQ3V3bm9hbzVmUmhOcW93b2toUkp2UWxHa1lXOUtIQ1R4SlFQblFwYnRSblI4d29HaElBZ2pzZm45X2FCQndwdE5SUDlYODhvb3RqZUlINVN3QjlYdVNGWVJEOFJtaVB1R1NKdlpWWlpjMkEyNFJFcVkxeXRQX0t3Y1BzTjRSRkJ6VVBSdkhDMGEwR1M3U1E1WjFhR1JvX2FBOGxsS3JPcjF0ZQ?oc=5",
-        "date": "Wed, 07 Jan 2026 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Fiserv Collaborates with Visa to Accelerate Agentic Commerce - Business Wire",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeURWUFZKZ1hLSklHdEtiZXlfdFd2bDYwSlVzczA2c1V4TDVOR2dTLTdjcTlKSEhVQy1YRWlJcTFIaGZDMGg2YkJpLWMxdXNrakZxSGt6X09Xci1zT3gwMmtGdW1ucHkxNlp1bWRpNWRrQlJJMlNjOVpTNEFtN1l1NlZGcFdacGEwWlBxMVlLX2ROVnI3OGtQWHVsc1ZLbkg3MkVxS0dqWkNhY2VLUy0yTFlFRl81WUtO?oc=5",
-        "date": "Mon, 22 Dec 2025 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Bloomberg\u2019s Fiserv Story Missed the Mark \u2014 Hedgeye\u2019s Process Didn\u2019t - Hedgeye",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZko0cEZFSXpQYjVJNFA3WkQ3dV9KXzQ4cnJoMXhwa2RTTnZiSkdUTnNPX0w0eDU4NzlvZUNiSUVTblFsZTVlbkRZNlVBVjk1RnQ5R1dFUExHVkgwNlVla3BVdDR6bzhzMXYyUXBsWWJjd1lnTjFFMUktcWdtZnYya1dmZ1kzV0FlU1BPOEt5OHRFekFXWmNkMXNXRGFPTVExSUlmYk1rZE9sNDRUeEtVbQ?oc=5",
-        "date": "Mon, 03 Nov 2025 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Why Fiserv (FI) Stock Is Up Today - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOOVVGb085QjNqdTRIYmhNMXVKNkd5QUY2RjZxV1VaV3htR2YzQjFhNW5NeHVJYjFZdHJCZ0psd0cxZEZ3aFE1cDRrYjlNdnpGVXNSVkRxNFR2bG9aTGl6dHFFay1TdmlUc3NSdjFpQm5NSjNRMnoyeDJCNzZ1Z2lFWU9naW1ZWFVyZWZDOGFzcUczYjV0MTdJ?oc=5",
-        "date": "Fri, 31 Oct 2025 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
       }
     ],
@@ -3170,68 +3242,6 @@
         "date": "Thu, 15 Feb 2018 08:00:00 GMT",
         "source": "Google News",
         "company": "Snackpass",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      }
-    ],
-    "Thanx": [
-      {
-        "headline": "Thanx Integrates Loyalty Platform With Square POS System - PYMNTS.com",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcl9RaTlDWFJlTHM1ZDI4TDN4cGtjRTNfYkszeWZQM1pDUkRIREI3ZDhnVjM2U1V1d0J3T19yUFpuSWJTUGxnVHhHZkxTVXc4Z3c4aGFmOHE3dGV0RE56ck1RSWIwN0U4WGhHVWpSc1Z6TFRwa2xsT2RnY1BMS2kyNzh5YWV3RnQ5dXNXWC1JNnRxWkV0aTZDWEpoNDVRd1VOSWhxcURxV0ZJdEpTYmwtSTJGVkRYdw?oc=5",
-        "date": "Mon, 31 Mar 2025 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Thanx",
-        "type": "private",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "With new loyalty system, Thanx wants to bring restaurants into new era of rewards - Restaurant Business",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUTJrNjhjcl91RFg3UGdFRzlPajJaUzhGSU5BRjdmYmQwYlFmdTY1X1o5czRyLWdrNWFuNUI5QmdPTWU0US1nQmpwTW9JR3RyaEE3RmEwOENFcDd1bUN5VHlyWWRBY3F4NXBCdUxBQVNQVVlWRnFFbUpsOFpaeW5JQ0ZLUXEtUWtqWWw2ZG0yUW5MUWk0dkF0UjBQYXQzelp6UGJrbnF5VHFCaWZOd0wtb1pB?oc=5",
-        "date": "Tue, 25 Oct 2022 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Thanx",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Pincho, Hattie B\u2019s tapping Thanx hidden menu capability - QSR Web",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeFdzYXlBWDEzUFNNT3BHelJUaUtWTE5NWnVBTVMxVHlCWnFCYk5CSnpKQ0l2YlBRWmt6NmNuVUZrUWF2QkhuYVhoa1lIRXU0Ym1SdDlOcVU1Z3FVVEp2VXBSczlneTFEQms1MHp1Rllyei1QUWZpQXh3cnFDMVg1d0Fab2pya0pNYVE?oc=5",
-        "date": "Fri, 18 Mar 2022 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Thanx",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Revolution Partners with Thanx to Bridge Online and Mobile Food Purchases with Customer Engagement and Loyalty - RestaurantNews.com",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSTFJbUJtQ0NGTTJnc3VSZHN0OEt0eDFUaUphOEQ2VEZFTFNGSzI5anB4cmpBdUpFUHZVN093MlNwNXRSb0ZUZnVoNWc2OGUzdGdWbnRfenNjZTBZdkRWQ0tzLWc3cXcwMWdmM05INFlaNG5FVVRBLVpKM0ttSmticXhaUVRUSDlyQkJQU0EzbHB2c3dBNDJsS3M4UTRucUdqSGIyV3hsN3p1YVdFT1JDem81R0hCN1dwSHdfOVdHZ3ZvTHUzUjVKUl9xR19GSkFKQndlaGNUazdhcEIyN0xjSGU2Yw?oc=5",
-        "date": "Thu, 06 Sep 2018 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Thanx",
-        "type": "private",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Study finds 70% of retail and restaurant customers never make a return visit - PR Newswire",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNejZpekQzWk84dS1xTUI3dHhoRFB6T2VmMnpDQzBmVlhneVdHbVBKMTR0MDZKM1piRGl0eUh3a0E1ZTFVb2JsYS1HOEhtVEEzMGZNM2RuQ3psWTBCbVJ6QUpqTWpRR0ZBN0VnNmRKX0g1MTdkcjlKWlBZLXNUZjZGRmFTSllvZ2c5dFQ4aHI2QS1lT2dPOGR4bUtSZTI5NXlnWEJCaTlZLWtjQ2xFdVk4cERyRExuNjZ1TTNYVVpqV2pEak54MEs1WHZtWQ?oc=5",
-        "date": "Thu, 29 Jan 2015 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Thanx",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Here's Why Restaurants Hate the Holidays - Time Magazine",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJWHZkUC1NcXIxMFBXNGlsQldXQjRSeHhuUnBSLVZhbXMwOVVTcnRJTk9mTTdrSHlHZmtWRG1CbmpYWFJDQzdIX2tOOUpIUWFJaUtqVmRGQjM?oc=5",
-        "date": "Tue, 23 Dec 2014 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Thanx",
         "type": "private",
         "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
