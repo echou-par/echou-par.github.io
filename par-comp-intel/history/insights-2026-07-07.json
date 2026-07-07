@@ -2,7 +2,7 @@
   "date": "2026-07-07",
   "weekday": "Tuesday",
   "first_seen": "2026-07-07T05:45:06.440974+00:00",
-  "last_updated": "2026-07-07T15:58:58.003446+00:00",
+  "last_updated": "2026-07-07T16:56:00.574863+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Square Card from Block Inc. - everyday spending tool built for US small businesses - AD HOC NEWS\"",
@@ -16,7 +16,7 @@
       "first_detected": "2026-07-07T05:45:06.440974+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360\"",
       "sources": [
         {
           "title": "Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360",
@@ -38,7 +38,7 @@
       "first_detected": "2026-07-07T05:45:06.440974+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Deliverect and 5&5 partner to streamline restaurant digital ordering - Yahoo Finance\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 11 tracked partnership items this cycle. Latest: \"Deliverect and 5&5 partner to streamline restaurant digital ordering - Yahoo Finance\"",
       "sources": [
         {
           "title": "Deliverect and 5&5 partner to streamline restaurant digital ordering - Yahoo Finance",
@@ -46,14 +46,14 @@
           "source": "Google News"
         },
         {
+          "title": "Deliverect Partners with 5&5 to Help Restaurant Brands Scale Their Digital Ordering Ecosystem - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOcjh2eWV1SGthOWRwUTdDUVFrai1BX0s5bmt2dFBuWjJXUVdPLUF0aF9JSnNpWklseHloNlI4WGNYQy1Ubl9taWc2LVFFSDdVU1Z4OU95eWk4YncwTWFxaHlNTUpMcTFnVHBRVGh2ZnAtZzd4SjNSSHFpQVAzSHREcl9xLXJmSDNBUUlhejJPREpUYWc0NGd3QVk3YjRsQ1ZtYTd1SlBuNUw2TkMyd3BRUDFQUTRUYVJwUHdOVkRkU2hELXFxZGV6S3dwek9YZEl5emtBZmQ4SE5KSVVNdnB6aXJn?oc=5",
+          "source": "Google News"
+        },
+        {
           "title": "Deliverect, 5&5 partner to scale restaurant technology - QSR Web",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNnhvRDlXaGwxWFV1bXhYSVp2R283R0xQM2IwZ3NVX1hnelU4ZnBzcnY1VnFsQ19tVVpkMm4wVk5CdHRacmZ6b3loajJRVHhIRjQ2OW1Delo0U3N2YjhlTFNoeGZKdmowMkNuYmNtUTk1cTF2a0RFNW5UdXV3YlZLdlF2cUFqSDdCTU1NTVRuTFg1eWxDbWJOT0lR?oc=5",
           "source": "Google News - Restaurant Tech"
-        },
-        {
-          "title": "DoorDash: Integrate Your DoorDash Account with Deliverect - help.deliverect.com",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOb1VGRERrRy1paVBqRmk2NUJpZm10YWlPQk5kQnFWc3AtUjE2V29jOFdIQ1RnbmFRdlBRVmg3N3ZtTVNRLVdYREJaNXRyZHc1TkZFNmdjZm1sZ0VaY2tQS0lLUzdRSkFFSTRCd1N2YS1tSU5Yc1RYNnYzM0d2T0ItNVJEZGYyc0VNZFJmU0NJa1FFclBzV0ROZlZCcDFRbXNUcVhTbGMzaw?oc=5",
-          "source": "Google News (deliverect.com)"
         }
       ],
       "company": "Deliverect",
@@ -185,11 +185,11 @@
   "most_mentioned": [
     {
       "company": "Deliverect",
-      "count": 49
+      "count": 48
     },
     {
       "company": "SpotOn",
-      "count": 34
+      "count": 33
     },
     {
       "company": "Lightspeed",
@@ -198,6 +198,10 @@
     {
       "company": "DoorDash",
       "count": 28
+    },
+    {
+      "company": "Fiserv",
+      "count": 26
     },
     {
       "company": "TouchBistro",
@@ -209,10 +213,6 @@
     },
     {
       "company": "Olo",
-      "count": 26
-    },
-    {
-      "company": "Sparkfly",
       "count": 26
     }
   ]
