@@ -2,7 +2,7 @@
   "date": "2026-07-07",
   "weekday": "Tuesday",
   "first_seen": "2026-07-07T05:45:06.440974+00:00",
-  "last_updated": "2026-07-07T12:30:35.114782+00:00",
+  "last_updated": "2026-07-07T15:45:17.369972+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Square Card from Block Inc. - everyday spending tool built for US small businesses - AD HOC NEWS\"",
@@ -77,7 +77,7 @@
       "first_detected": "2026-07-07T05:45:06.440974+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Toast (NYSE: TOST) CRO sells shares to cover RSU tax obligations - Stock Titan\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Toast (NYSE: TOST) CRO sells shares to cover RSU tax obligations - Stock Titan\"",
       "sources": [
         {
           "title": "Toast (NYSE: TOST) CRO sells shares to cover RSU tax obligations - Stock Titan",
@@ -99,8 +99,13 @@
       "first_detected": "2026-07-07T05:45:06.440974+00:00"
     },
     {
-      "text": "Shift4 shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Shift4 Payments vs. PayPal: Which FinTech Stock Is a Better Buy in 2026? - AOL.com\"",
+      "text": "Shift4 shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Shift4 Payments Stock: A Dominant, Structurally Protected Niche (NYSE:FOUR) - Seeking Alpha\"",
       "sources": [
+        {
+          "title": "Shift4 Payments Stock: A Dominant, Structurally Protected Niche (NYSE:FOUR) - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOU00zTHFOOVpvckdMSHlheldENzRMRmlIYnRyZjhqLXc2TFY1NEpIMXVFN2FhY0k4WHVJcXpMZW1iNFB3aGtFbTRFQ29vczZ1ZW0wX19Wd1laZDlENE41eDNkOEFXb1BzS2dZVzY1eHFKdXBFZlEydWRqOFJlS2dyZGpwU18zLU9URGprMW5fYlBoZ1dGeGZZVlRQNmF5NWtFTWZHTmJuVmhyeFNfN000Ti1DNUNxWmdFVWE2VA?oc=5",
+          "source": "Google News"
+        },
         {
           "title": "Shift4 Payments vs. PayPal: Which FinTech Stock Is a Better Buy in 2026? - AOL.com",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSEFYR1FZSTZIT3NlU1ZoQzZxMUxzRzJRQXlSNlc4clVBaC1MbFNhQm52Mk5kUVo1eHRWMUZoNHVmemY5ak1TQzRKRWp0emZXY3hEZU4xWjljTDRWNTRNWlVhQzM0T1dIRWhkMElab0hMOF9GWmFvSF9VNXdoWXVPeXBR?oc=5",
@@ -109,11 +114,6 @@
         {
           "title": "Why is Shift4 Payments stock surging today? - Investing.com",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOazBCYTFTakFuNlFjTm9TYllrMGtacHhQWE9XbWpPZzRpZGhDRFdEcGZFSnpST2NhZFRzNnJoQ0x2eEJEYzRob3djb09mV1JyMDhqZmxWZE1qZXF3b3M1Uk5yU0loMFBkblRDM3hSbDMxb21RM2Q0YVBNbnlPS0JvSGNoVFllVHQ0Qk9yN1ItV0NBWGdNU2dIb3p2ZnRFRjFpZUo3WVNCRQ?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Shift4 Payments stock hits 52-week low at 40.55 USD - Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZ0cya21wX1VETDNuMlZyYzg2NHlBZy11UnFFak9RaXpybkdFQmFFYTI1WkVwbnlUaXpNbEpmVEZ6cmo0OHlMcGNUQUNjb3JhOUdIZ0wtMFh6NGlBMWZzU3VIVndzQjc1elRKai1wYWk3My1aUnpEa0M2THN0bW54Nm5uNGlCVm93aDdlX09zcFdHc0RZUEVjUzNMS2N2OXVzVy14V2RCWDNEZw?oc=5",
           "source": "Google News"
         }
       ],
@@ -184,12 +184,16 @@
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
-      "count": 19
-    },
-    {
       "company": "Global Payments",
       "count": 18
+    },
+    {
+      "company": "DoorDash",
+      "count": 18
+    },
+    {
+      "company": "SpotOn",
+      "count": 16
     },
     {
       "company": "TouchBistro",
@@ -200,15 +204,11 @@
       "count": 16
     },
     {
-      "company": "SpotOn",
-      "count": 15
+      "company": "Sparkfly",
+      "count": 16
     },
     {
-      "company": "PAR",
-      "count": 15
-    },
-    {
-      "company": "NCR Voyix",
+      "company": "Shift4",
       "count": 15
     },
     {
