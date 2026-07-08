@@ -2,7 +2,7 @@
   "date": "2026-07-07",
   "weekday": "Tuesday",
   "first_seen": "2026-07-07T05:45:06.440974+00:00",
-  "last_updated": "2026-07-07T23:08:26.597053+00:00",
+  "last_updated": "2026-07-08T01:02:01.513222+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Square Terminal from Block Inc. - a compact workhorse for small US merchants - AD HOC NEWS\"",
@@ -38,7 +38,7 @@
       "first_detected": "2026-07-07T05:45:06.440974+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Deliverect and 5&5 partner to streamline restaurant digital ordering - Yahoo Finance\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Deliverect and 5&5 partner to streamline restaurant digital ordering - Yahoo Finance\"",
       "sources": [
         {
           "title": "Deliverect and 5&5 partner to streamline restaurant digital ordering - Yahoo Finance",
@@ -46,14 +46,14 @@
           "source": "Google News"
         },
         {
-          "title": "Deliverect Partners with 5&5 to Help Restaurant Brands Scale Their Digital Ordering Ecosystem - PR Newswire",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOcjh2eWV1SGthOWRwUTdDUVFrai1BX0s5bmt2dFBuWjJXUVdPLUF0aF9JSnNpWklseHloNlI4WGNYQy1Ubl9taWc2LVFFSDdVU1Z4OU95eWk4YncwTWFxaHlNTUpMcTFnVHBRVGh2ZnAtZzd4SjNSSHFpQVAzSHREcl9xLXJmSDNBUUlhejJPREpUYWc0NGd3QVk3YjRsQ1ZtYTd1SlBuNUw2TkMyd3BRUDFQUTRUYVJwUHdOVkRkU2hELXFxZGV6S3dwek9YZEl5emtBZmQ4SE5KSVVNdnB6aXJn?oc=5",
-          "source": "Google News"
-        },
-        {
           "title": "Deliverect, 5&5 partner to scale restaurant technology - QSR Web",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNnhvRDlXaGwxWFV1bXhYSVp2R283R0xQM2IwZ3NVX1hnelU4ZnBzcnY1VnFsQ19tVVpkMm4wVk5CdHRacmZ6b3loajJRVHhIRjQ2OW1Delo0U3N2YjhlTFNoeGZKdmowMkNuYmNtUTk1cTF2a0RFNW5UdXV3YlZLdlF2cUFqSDdCTU1NTVRuTFg1eWxDbWJOT0lR?oc=5",
           "source": "Google News - Restaurant Tech"
+        },
+        {
+          "title": "ConverseNow, Deliverect partner to integrate Voice AI into restaurant management - QSR Web",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcU1QYm14UXNZMTNmZDV5cGVUMFFlV2NfbmV6TnkyNzlZcmxfNkhMMnM2eFlEYURMSkdBcDQ2WmJWejJXaWFNOExyOFRVdlJvMlhjaGJpb0hZSklYNFdmckdDM1o4WEVDR21qZjlZempNWmhzWHFWZklqUlpkVjlXaVR4QzhkSjdBWGNJT0VkQUpEeFM2SGxLSFhwLWNjNEFBS0s4TUFkaWZENzgw?oc=5",
+          "source": "Google News"
         }
       ],
       "company": "Deliverect",
@@ -77,7 +77,7 @@
       "first_detected": "2026-07-07T05:45:06.440974+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Form 144: 3,150 Class A shares proposed sale (TOST) - Stock Titan\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Form 144: 3,150 Class A shares proposed sale (TOST) - Stock Titan\"",
       "sources": [
         {
           "title": "Form 144: 3,150 Class A shares proposed sale (TOST) - Stock Titan",
@@ -212,6 +212,10 @@
   ],
   "most_mentioned": [
     {
+      "company": "Global Payments",
+      "count": 18
+    },
+    {
       "company": "DoorDash",
       "count": 18
     },
@@ -224,14 +228,6 @@
       "count": 16
     },
     {
-      "company": "TouchBistro",
-      "count": 16
-    },
-    {
-      "company": "Global Payments",
-      "count": 16
-    },
-    {
       "company": "Sparkfly",
       "count": 16
     },
@@ -241,6 +237,10 @@
     },
     {
       "company": "Shift4",
+      "count": 15
+    },
+    {
+      "company": "Fiserv",
       "count": 15
     }
   ]
