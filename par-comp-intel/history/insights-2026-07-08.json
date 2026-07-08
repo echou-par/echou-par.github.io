@@ -2,7 +2,7 @@
   "date": "2026-07-08",
   "weekday": "Wednesday",
   "first_seen": "2026-07-08T04:49:16.498297+00:00",
-  "last_updated": "2026-07-08T14:56:54.967263+00:00",
+  "last_updated": "2026-07-08T15:38:36.001203+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Square, Thanx appeared together in coverage \u2014 \"Thanx Announces Direct-to-POS First-Party Ordering Integration with Square\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-07-08T04:49:16.498297+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360\"",
       "sources": [
         {
           "title": "Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360",
@@ -49,7 +49,7 @@
       "first_detected": "2026-07-08T04:49:16.498297+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Deliverect and 5&5 partner to streamline restaurant digital ordering - Yahoo Finance\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 11 tracked partnership items this cycle. Latest: \"Deliverect and 5&5 partner to streamline restaurant digital ordering - Yahoo Finance\"",
       "sources": [
         {
           "title": "Deliverect and 5&5 partner to streamline restaurant digital ordering - Yahoo Finance",
@@ -88,7 +88,7 @@
       "first_detected": "2026-07-08T04:49:16.498297+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Form 144: 3,150 Class A shares proposed sale (TOST) - Stock Titan\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Form 144: 3,150 Class A shares proposed sale (TOST) - Stock Titan\"",
       "sources": [
         {
           "title": "Form 144: 3,150 Class A shares proposed sale (TOST) - Stock Titan",
@@ -134,36 +134,36 @@
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
-      "count": 18
+      "company": "Deliverect",
+      "count": 48
     },
     {
       "company": "SpotOn",
-      "count": 16
+      "count": 37
     },
     {
-      "company": "Olo",
-      "count": 16
+      "company": "Lightspeed",
+      "count": 33
+    },
+    {
+      "company": "DoorDash",
+      "count": 28
+    },
+    {
+      "company": "Global Payments",
+      "count": 26
     },
     {
       "company": "Sparkfly",
-      "count": 16
+      "count": 26
     },
     {
-      "company": "PAR",
-      "count": 15
+      "company": "Fiserv",
+      "count": 25
     },
     {
-      "company": "Square",
-      "count": 15
-    },
-    {
-      "company": "Shift4",
-      "count": 15
-    },
-    {
-      "company": "Uber Eats",
-      "count": 15
+      "company": "TouchBistro",
+      "count": 25
     }
   ]
 }
