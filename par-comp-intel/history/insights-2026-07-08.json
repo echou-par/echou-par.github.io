@@ -2,7 +2,7 @@
   "date": "2026-07-08",
   "weekday": "Wednesday",
   "first_seen": "2026-07-08T04:49:16.498297+00:00",
-  "last_updated": "2026-07-08T10:25:51.683370+00:00",
+  "last_updated": "2026-07-08T12:05:25.615556+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Square, Thanx appeared together in coverage \u2014 \"Thanx Announces Direct-to-POS First-Party Ordering Integration with Square\"",
@@ -88,7 +88,7 @@
       "first_detected": "2026-07-08T04:49:16.498297+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Form 144: 3,150 Class A shares proposed sale (TOST) - Stock Titan\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Form 144: 3,150 Class A shares proposed sale (TOST) - Stock Titan\"",
       "sources": [
         {
           "title": "Form 144: 3,150 Class A shares proposed sale (TOST) - Stock Titan",
@@ -110,7 +110,7 @@
       "first_detected": "2026-07-08T04:49:16.498297+00:00"
     },
     {
-      "text": "PAR shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Stephens Investment Management Group LLC Purchases 175,831 Shares of PAR Technology Corporation $PAR - MarketBeat\"",
+      "text": "PAR shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"Stephens Investment Management Group LLC Purchases 175,831 Shares of PAR Technology Corporation $PAR - MarketBeat\"",
       "sources": [
         {
           "title": "Stephens Investment Management Group LLC Purchases 175,831 Shares of PAR Technology Corporation $PAR - MarketBeat",
@@ -154,15 +154,15 @@
       "count": 16
     },
     {
+      "company": "PAR",
+      "count": 15
+    },
+    {
+      "company": "Square",
+      "count": 15
+    },
+    {
       "company": "Shift4",
-      "count": 15
-    },
-    {
-      "company": "Fiserv",
-      "count": 15
-    },
-    {
-      "company": "Uber Eats",
       "count": 15
     }
   ]
