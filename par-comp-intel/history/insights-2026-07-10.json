@@ -2,7 +2,7 @@
   "date": "2026-07-10",
   "weekday": "Friday",
   "first_seen": "2026-07-10T07:45:38.335428+00:00",
-  "last_updated": "2026-07-10T13:28:46.483893+00:00",
+  "last_updated": "2026-07-10T15:42:33.572203+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Square Terminal from Block Inc. - a compact workhorse for small US merchants - AD HOC NEWS\"",
@@ -16,7 +16,7 @@
       "first_detected": "2026-07-10T07:45:38.335428+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360\"",
       "sources": [
         {
           "title": "Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360",
@@ -38,7 +38,7 @@
       "first_detected": "2026-07-10T07:45:38.335428+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 5 tracked partnership items this cycle. Latest: \"Deliverect and 5&5 partner to streamline restaurant digital ordering - MSN\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Deliverect and 5&5 partner to streamline restaurant digital ordering - MSN\"",
       "sources": [
         {
           "title": "Deliverect and 5&5 partner to streamline restaurant digital ordering - MSN",
@@ -77,7 +77,7 @@
       "first_detected": "2026-07-10T07:45:38.335428+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Toast (NYSE: TOST) CRO sells 3,150 shares after option exercise - Stock Titan\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Toast (NYSE: TOST) CRO sells 3,150 shares after option exercise - Stock Titan\"",
       "sources": [
         {
           "title": "Toast (NYSE: TOST) CRO sells 3,150 shares after option exercise - Stock Titan",
@@ -99,7 +99,7 @@
       "first_detected": "2026-07-10T07:45:38.335428+00:00"
     },
     {
-      "text": "Shift4 shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"Shift4 Payments Inc (FOUR) Shares Surge 3.1% -- What GF Score of 71 Tells Investors - GuruFocus\"",
+      "text": "Shift4 shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Shift4 Payments Inc (FOUR) Shares Surge 3.1% -- What GF Score of 71 Tells Investors - GuruFocus\"",
       "sources": [
         {
           "title": "Shift4 Payments Inc (FOUR) Shares Surge 3.1% -- What GF Score of 71 Tells Investors - GuruFocus",
@@ -112,9 +112,9 @@
           "source": "Google News"
         },
         {
-          "title": "Shift4 Payments surges 6% on earnings beat, strong revenue By Investing.com - Investing.com Nigeria",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ2JRcFNKWGRHZTFVX1hScnM3Qk04N1BPQlhPYmtRTEEtVHVjY09RVXY1dkZaNlc3RlYzNWplQVdROXZqV3ZBS28wdjA4NGl3MEZSbFNTdmRYUkZaWWctVElQaW1YVXdVU2o0ZjByRHEwQzVBLUdRanhDTndZM3JZVmE5MVFTRUVlOGg1Q2VKSWswdXNGY1I1ZkNWSTRhT0RqV3BiSHNZQUplNUtu?oc=5",
-          "source": "Google News"
+          "title": "Why Retailers Shouldn\u2019t Miss Shift4 at NRF Europe 2025 - Shift4",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTFY3NDhtQWlLb0l5ZHdtU3JOaHNjYy1HSzFORHVGcjBaLWozQ3NXNjhNTEgwQUVwV25QeHRsaUliVUhLcm1WR2VNREJ0eHlQMV9JWkwwTWlFN2tXYmxELTl2bHJ5aW9mV1E4TzFtMjVRekxYNWk0cXRKYjEyQW1oNlZXLVBkQi14aWlrNw?oc=5",
+          "source": "Google News (shift4.com)"
         }
       ],
       "company": "Shift4",
@@ -145,36 +145,36 @@
   ],
   "most_mentioned": [
     {
-      "company": "Global Payments",
-      "count": 18
+      "company": "Deliverect",
+      "count": 49
+    },
+    {
+      "company": "Lightspeed",
+      "count": 34
+    },
+    {
+      "company": "SpotOn",
+      "count": 32
     },
     {
       "company": "DoorDash",
-      "count": 18
+      "count": 28
     },
     {
-      "company": "Fiserv",
-      "count": 16
+      "company": "Global Payments",
+      "count": 26
     },
     {
       "company": "Olo",
-      "count": 16
+      "count": 26
     },
     {
       "company": "Sparkfly",
-      "count": 16
+      "count": 26
     },
     {
       "company": "Toast",
-      "count": 15
-    },
-    {
-      "company": "Shift4",
-      "count": 15
-    },
-    {
-      "company": "PAR",
-      "count": 15
+      "count": 25
     }
   ]
 }
