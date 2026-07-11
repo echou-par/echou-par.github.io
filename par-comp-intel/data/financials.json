@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T06:20:38.964462+00:00",
+  "updated": "2026-07-11T08:21:32.727344+00:00",
   "tickers": {
     "PAR": {
       "ticker": "PAR",
@@ -1005,7 +1005,7 @@
       "gross_margin": 0.45078,
       "enterprise_value": 46785605632.0,
       "trailing_pe": 60.39063,
-      "forward_pe": 15.311934,
+      "forward_pe": 15.301598,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
@@ -1184,6 +1184,7 @@
           "grossProfit": 5592497000.0,
           "sellingGeneralAdministrative": 4120631000.0,
           "totalOperatingExpenses": 4120631000.0,
+          "operatingIncome": 1471866000.0,
           "ebit": 1909762000.0,
           "netIncome": 1400107000.0,
           "incomeBeforeTax": 1260119000.0
@@ -1195,6 +1196,7 @@
           "grossProfit": 5702499000.0,
           "sellingGeneralAdministrative": 4001133000.0,
           "totalOperatingExpenses": 4001133000.0,
+          "operatingIncome": 1701366000.0,
           "ebit": 2133192000.0,
           "netIncome": 1570365000.0,
           "incomeBeforeTax": 1530316000.0
@@ -1206,6 +1208,7 @@
           "grossProfit": 5311489000.0,
           "sellingGeneralAdministrative": 3859131000.0,
           "totalOperatingExpenses": 3859131000.0,
+          "operatingIncome": 1452358000.0,
           "ebit": 1426580000.0,
           "netIncome": 986233000.0,
           "incomeBeforeTax": 781662000.0

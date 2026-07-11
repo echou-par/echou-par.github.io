@@ -2,7 +2,7 @@
   "date": "2026-07-11",
   "weekday": "Saturday",
   "first_seen": "2026-07-11T06:20:38.964462+00:00",
-  "last_updated": "2026-07-11T06:20:38.964462+00:00",
+  "last_updated": "2026-07-11T08:21:32.727344+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Square Terminal from Block Inc. - a compact workhorse for small US merchants - ad-hoc-news.de\"",
@@ -77,7 +77,7 @@
       "first_detected": "2026-07-11T06:20:38.964462+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Toast (NYSE: TOST) CRO sells 3,150 shares after option exercise - Stock Titan\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Toast (NYSE: TOST) CRO sells 3,150 shares after option exercise - Stock Titan\"",
       "sources": [
         {
           "title": "Toast (NYSE: TOST) CRO sells 3,150 shares after option exercise - Stock Titan",
@@ -119,16 +119,60 @@
       ],
       "company": "Shift4",
       "first_detected": "2026-07-11T06:20:38.964462+00:00"
+    },
+    {
+      "text": "Deliverect shows concentrated partnership activity \u2014 5 tracked partnership items this cycle. Latest: \"Deliverect and 5&5 partner to streamline restaurant digital ordering - MSN\"",
+      "sources": [
+        {
+          "title": "Deliverect and 5&5 partner to streamline restaurant digital ordering - MSN",
+          "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxPZ3dKd1Q4N1BEc2dTcHp5ZmJyR3Z3N0pVazNFcXdtWE5SZlhCTXJpOUpxcVRfVFMza0puNnZQaTJBZE96Vll2aEhpWnA5QVNSRF9xdGJuMjJTdWVSc1kwTDVLZ0I0UmRENy0yaEsyaDE5a3BoallYNjhqdXphUWNnQlVVNmlpbDlNdnJfMVY4Rm4yUVRxb1lQZzVyRlY4bU83blJ4Y3NYX1NvclA2YjlEYTdPYmFBZi1uS2hhb3dGRWlvUGRHOVRidVdpdzFrekhENjJDMnQtWE11Y0xMTVFYd3Y4QUNPSDktcEZJaUMtWk1Gd1lRcGllV2ZrVkxrYk5JbWl6V2lMN2NVRE1WTFdaV0kybGZhUUpoNHhvV0cyMWFsR3FTX3FmbGZ3X3gtM2UyNmdrVlFiSTROZHRnVmo1dzI5U0VmRjhLemdCenF3ekdDNFY4ZlM2NEZsc1h2c3lmemRZ?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Deliverect, 5&5 partner to scale restaurant technology - QSR Web",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNnhvRDlXaGwxWFV1bXhYSVp2R283R0xQM2IwZ3NVX1hnelU4ZnBzcnY1VnFsQ19tVVpkMm4wVk5CdHRacmZ6b3loajJRVHhIRjQ2OW1Delo0U3N2YjhlTFNoeGZKdmowMkNuYmNtUTk1cTF2a0RFNW5UdXV3YlZLdlF2cUFqSDdCTU1NTVRuTFg1eWxDbWJOT0lR?oc=5",
+          "source": "Google News - Restaurant Tech"
+        },
+        {
+          "title": "Deliverect Partners with DataCandy to Connect Digital Ordering, Loyalty and Gift Cards Across Every Restaurant Channel - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNa1VJR2c5aThIZHVULVhzUEJOaXU2Tzd6V1RYNXRRTVFjRW9ta3J5OERHZHNMdFh2dk9VdjJmRnlfWmo2SC1Md3dkdTlyMGlFWTZRZ1pFZF9NRUxFZ3ZqeXpUaU9kTXVXY08yNW9BazBtVHp3RXh4NUhpMU0zanJuU0huanFqQjl6aFJ1WFBuajZSRl9PY19fVmQtS3V1TTh1cG1jczRzSlBmUnhKS0xyU2JFeWJPSG5GWHBfX1JMblg5M2NuU2RyRFpEWHhMdm5nZVV4WnhTUFVmQ25DTmtXR0M4NXJwZWV4bVVnMmxBdWlIQUgydVFEQXAzUGdCVE1tQUlv?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Deliverect",
+      "first_detected": "2026-07-11T08:21:32.727344+00:00"
+    },
+    {
+      "text": "PAR shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"PAR Technology Price Target Raised to $20.50/Share From $18.00 by Goldman Sachs - Moomoo\"",
+      "sources": [
+        {
+          "title": "PAR Technology Price Target Raised to $20.50/Share From $18.00 by Goldman Sachs - Moomoo",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZjVSWU01M1lfVVdjZTN3VXFtaWh6d3NCQXNFRk5ZQnJxZnRFdjNnb0VkOWFsMkp0RlVYcTRIZVV2aFhndmRVaUxqU1BpWGFVNlp5VlBjRlNZcVVHSkhOVnVUcS1CSmtETnRzQ3M0MmJBZXZnNnNWSlhiNDFDeGZWaVNLb3VFQUZqcEdsTTJkdlp3VTJHRTI1YjlrZGU?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "PAR Technology (NYSE:PAR) Stock Price Down 6.8% - What's Next? - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ0JpOU5GYU5YRWZFZVp4VlhpelAyY0ZYMDJhNHFXYWFsaDdKX3Fyc1RXVUIwQUZnUG13MDVtY0tvY1c5U21MTkdwUExtcHVRcFRsUjR0WmhqR0Y2c1ZrbWRVN3V1ZWR3YjVHX2NVVHNNc1dYNklRd3JJUUMzZ2VGalhPc1E4NURRMGxRUlo4NUljbHBzRi1KLTZaX1ZuMUxNSkM4TzE0dmF3Skk?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "SG Americas Securities LLC Cuts Stock Holdings in PAR Technology Corporation $PAR - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONExsdmViclpsOGc4eGNDc24xRkV0eEZRWExtLXlsSTFGV1Z3N21GdE8wZzBVa0tzZkZGQ3RZMFpWWGxkUVRpOHU0WS01MTU3aFNQMGxISWFYYlV1alRLTXI0Z0ZYRV9jTFo3VXQyY0NQRkFhUDVoaS1qcUEwbUlQT0ZpQW9peE5TRXdLMXFJLXBWczA5Tjdfb2twT2lYdmpXMmZSbVZHT2xtanBmZFlWUlBsdFRRVldDWmt0aTJOaHdidzlYUjkwM2JmcDJvR1hVdXo1MzVzaUM?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "PAR",
+      "first_detected": "2026-07-11T08:21:32.727344+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "Global Payments",
+      "company": "DoorDash",
       "count": 18
     },
     {
-      "company": "DoorDash",
-      "count": 18
+      "company": "Global Payments",
+      "count": 17
     },
     {
       "company": "TouchBistro",
@@ -136,6 +180,10 @@
     },
     {
       "company": "Toast",
+      "count": 16
+    },
+    {
+      "company": "Fiserv",
       "count": 16
     },
     {
@@ -148,10 +196,6 @@
     },
     {
       "company": "Deliverect",
-      "count": 15
-    },
-    {
-      "company": "Fiserv",
       "count": 15
     }
   ]
