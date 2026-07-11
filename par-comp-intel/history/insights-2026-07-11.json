@@ -2,7 +2,7 @@
   "date": "2026-07-11",
   "weekday": "Saturday",
   "first_seen": "2026-07-11T06:20:38.964462+00:00",
-  "last_updated": "2026-07-11T10:01:06.773733+00:00",
+  "last_updated": "2026-07-11T11:31:22.777387+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Square Terminal from Block Inc. - a compact workhorse for small US merchants - ad-hoc-news.de\"",
@@ -99,7 +99,7 @@
       "first_detected": "2026-07-11T06:20:38.964462+00:00"
     },
     {
-      "text": "Shift4 shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Shift4 Payments Inc (FOUR) Shares Surge 3.1% -- What GF Score of 71 Tells Investors - GuruFocus\"",
+      "text": "Shift4 shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"Shift4 Payments Inc (FOUR) Shares Surge 3.1% -- What GF Score of 71 Tells Investors - GuruFocus\"",
       "sources": [
         {
           "title": "Shift4 Payments Inc (FOUR) Shares Surge 3.1% -- What GF Score of 71 Tells Investors - GuruFocus",
@@ -143,7 +143,7 @@
       "first_detected": "2026-07-11T08:21:32.727344+00:00"
     },
     {
-      "text": "PAR shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"PAR Technology Price Target Raised to $20.50/Share From $18.00 by Goldman Sachs - Moomoo\"",
+      "text": "PAR shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"PAR Technology Price Target Raised to $20.50/Share From $18.00 by Goldman Sachs - Moomoo\"",
       "sources": [
         {
           "title": "PAR Technology Price Target Raised to $20.50/Share From $18.00 by Goldman Sachs - Moomoo",
@@ -167,15 +167,15 @@
   ],
   "most_mentioned": [
     {
-      "company": "Global Payments",
-      "count": 18
-    },
-    {
       "company": "DoorDash",
       "count": 18
     },
     {
-      "company": "Fiserv",
+      "company": "Global Payments",
+      "count": 17
+    },
+    {
+      "company": "TouchBistro",
       "count": 16
     },
     {
@@ -187,15 +187,15 @@
       "count": 15
     },
     {
-      "company": "TouchBistro",
-      "count": 15
-    },
-    {
       "company": "Toast",
       "count": 15
     },
     {
       "company": "Deliverect",
+      "count": 15
+    },
+    {
+      "company": "Fiserv",
       "count": 15
     }
   ]
