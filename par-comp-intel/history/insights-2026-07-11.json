@@ -2,7 +2,7 @@
   "date": "2026-07-11",
   "weekday": "Saturday",
   "first_seen": "2026-07-11T06:20:38.964462+00:00",
-  "last_updated": "2026-07-11T15:01:12.009588+00:00",
+  "last_updated": "2026-07-11T15:30:37.827047+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Square Terminal from Block Inc. - a compact workhorse for small US merchants - ad-hoc-news.de\"",
@@ -163,40 +163,56 @@
       ],
       "company": "PAR",
       "first_detected": "2026-07-11T08:21:32.727344+00:00"
+    },
+    {
+      "text": "PAR (PAR) stock declined 8.9% over the past week \u2014 material weekly move relative to broader cohort.",
+      "sources": [
+        {
+          "title": "PAR on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/PAR",
+          "source": "Yahoo Finance"
+        }
+      ],
+      "company": "PAR",
+      "first_detected": "2026-07-11T15:30:37.827047+00:00"
+    },
+    {
+      "text": "NCR Voyix (VYX) stock declined 8.0% over the past week \u2014 material weekly move relative to broader cohort.",
+      "sources": [
+        {
+          "title": "VYX on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/VYX",
+          "source": "Yahoo Finance"
+        }
+      ],
+      "company": "NCR Voyix",
+      "first_detected": "2026-07-11T15:30:37.827047+00:00"
+    },
+    {
+      "text": "Global Payments (GPN) leading revenue growth at +63.1% YoY \u2014 fastest grower among tracked public competitors.",
+      "sources": [
+        {
+          "title": "Global Payments financials on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/GPN/financials",
+          "source": "Yahoo Finance"
+        }
+      ],
+      "company": "Global Payments",
+      "first_detected": "2026-07-11T15:30:37.827047+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
-      "count": 18
-    },
-    {
-      "company": "Global Payments",
-      "count": 17
-    },
-    {
-      "company": "TouchBistro",
-      "count": 16
-    },
-    {
-      "company": "Olo",
-      "count": 16
-    },
-    {
-      "company": "Toast",
-      "count": 15
-    },
-    {
       "company": "Deliverect",
+      "count": 25
+    },
+    {
+      "company": "SpotOn",
       "count": 15
     },
     {
-      "company": "Fiserv",
-      "count": 15
-    },
-    {
-      "company": "Square",
-      "count": 15
+      "company": "Lightspeed",
+      "count": 10
     }
   ]
 }
