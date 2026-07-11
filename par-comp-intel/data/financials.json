@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T03:53:54.022142+00:00",
+  "updated": "2026-07-11T06:20:38.964462+00:00",
   "tickers": {
     "PAR": {
       "ticker": "PAR",
@@ -243,7 +243,6 @@
         {
           "endDate": "2025-12-31",
           "totalRevenue": 1633000000.0,
-          "costOfRevenue": 1210000000.0,
           "grossProfit": 423000000.0,
           "researchDevelopment": 97000000.0,
           "sellingGeneralAdministrative": 237000000.0,
@@ -285,7 +284,7 @@
           "endDate": "2025-12-31",
           "cash": 1353000000.0,
           "shortTermInvestments": 638000000.0,
-          "netReceivables": 103000000.0,
+          "netReceivables": 127000000.0,
           "totalCurrentAssets": 2669000000.0,
           "totalAssets": 3145000000.0,
           "totalCurrentLiabilities": 969000000.0,
@@ -847,7 +846,7 @@
       "gross_margin": 0.35099998,
       "enterprise_value": 9271702528.0,
       "trailing_pe": 56.45556,
-      "forward_pe": 7.5329876,
+      "forward_pe": 7.532016,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
@@ -1175,7 +1174,7 @@
       "ebitda_margin": 0.4427,
       "gross_margin": 0.67403,
       "enterprise_value": 39408402432.0,
-      "trailing_pe": 27.955883,
+      "trailing_pe": 27.352518,
       "forward_pe": 4.710456,
       "income_statement_annual": [
         {
@@ -1185,7 +1184,6 @@
           "grossProfit": 5592497000.0,
           "sellingGeneralAdministrative": 4120631000.0,
           "totalOperatingExpenses": 4120631000.0,
-          "operatingIncome": 1471866000.0,
           "ebit": 1909762000.0,
           "netIncome": 1400107000.0,
           "incomeBeforeTax": 1260119000.0
@@ -1197,7 +1195,6 @@
           "grossProfit": 5702499000.0,
           "sellingGeneralAdministrative": 4001133000.0,
           "totalOperatingExpenses": 4001133000.0,
-          "operatingIncome": 1701366000.0,
           "ebit": 2133192000.0,
           "netIncome": 1570365000.0,
           "incomeBeforeTax": 1530316000.0
@@ -1209,7 +1206,6 @@
           "grossProfit": 5311489000.0,
           "sellingGeneralAdministrative": 3859131000.0,
           "totalOperatingExpenses": 3859131000.0,
-          "operatingIncome": 1452358000.0,
           "ebit": 1426580000.0,
           "netIncome": 986233000.0,
           "incomeBeforeTax": 781662000.0
