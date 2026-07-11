@@ -2,7 +2,7 @@
   "date": "2026-07-10",
   "weekday": "Friday",
   "first_seen": "2026-07-10T07:45:38.335428+00:00",
-  "last_updated": "2026-07-11T00:04:26.354567+00:00",
+  "last_updated": "2026-07-11T03:53:54.022142+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Square Terminal from Block Inc. - a compact workhorse for small US merchants - ad-hoc-news.de\"",
@@ -77,7 +77,7 @@
       "first_detected": "2026-07-10T07:45:38.335428+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Toast (NYSE: TOST) CRO sells 3,150 shares after option exercise - Stock Titan\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Toast (NYSE: TOST) CRO sells 3,150 shares after option exercise - Stock Titan\"",
       "sources": [
         {
           "title": "Toast (NYSE: TOST) CRO sells 3,150 shares after option exercise - Stock Titan",
@@ -90,8 +90,8 @@
           "source": "Google News"
         },
         {
-          "title": "Toast (NYSE: TOST) CEO sells shares for RSU tax withholding after vesting - Stock Titan",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPS1RpbDRybEk5Mlk5RTVNSFBsV1RyWS1uNkxadG9MNkRwb3FSYlFUaVBCT0Y2dnJCVVVkNU1Rb0QxMlZ1RGdWeDdpdmFCUk43eFA4WldCUmc2aXk1S3J1T3E0N1FIUWhlTzVIa0dMc3hXR1FyU0d1RlRMTFJwcHNKVl85V3M0UHZzR3o2MmNibjdJTmJ4cndpd2xQYzBwdkROemtzOTRB?oc=5",
+          "title": "Toast (NYSE: TOST) CRO sells shares to cover RSU tax obligations - Stock Titan",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdlVoUlg5WUtuNFA4RGFaQVBkUG5NOXo1Rm9vbUVMdWo5RzFBMGNEeklqM2ZNNWVzZ1lRZ3N2QTJsQkRvUkhqMWllXzNIY0k0N0w4a1hIN0kzMElPU0NRMFNfNG9vQVljbmZxbElrZzRBdnNmZHJBX0V0aGtxb3NnOUdNVFJBRTFmOVQ1VFFWM1VlaXV0NHVHTlY4ZVc0Zk41cmVvZGxB?oc=5",
           "source": "Google News"
         }
       ],
@@ -99,7 +99,7 @@
       "first_detected": "2026-07-10T07:45:38.335428+00:00"
     },
     {
-      "text": "Shift4 shows concentrated financial/market activity \u2014 7 tracked financial/market items this cycle. Latest: \"Shift4 Payments Inc (FOUR) Shares Surge 3.1% -- What GF Score of 71 Tells Investors - GuruFocus\"",
+      "text": "Shift4 shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Shift4 Payments Inc (FOUR) Shares Surge 3.1% -- What GF Score of 71 Tells Investors - GuruFocus\"",
       "sources": [
         {
           "title": "Shift4 Payments Inc (FOUR) Shares Surge 3.1% -- What GF Score of 71 Tells Investors - GuruFocus",
@@ -112,8 +112,8 @@
           "source": "Google News"
         },
         {
-          "title": "Shift4 Announces Fifth Dividend Date for Mandatory Convertible Preferred Stock - Shift4",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQjc5Q2FJYV9fMlloQ0ptTmlrWEZ3ZUtZSF9rMkx4TWtuWHN0OGFBRjJSbk9mSGwyRGFrckJyTkFDZ1dpTnh5SEhFNHZFdzJnRlhycEY0dVVmSGExX0pSdFNOd0ZURWFLbDk4SG9QUFVlNjdHcnVfdnluNHF4YWVhT0J6cmM5YndtQ1BTaUsyYTlnbll3Z2IwYXhxNC1udEhuSTBWNEFGVHU3TUNuTE5rSmc4Z2RMbUdhZU1CeXlPaDlYUEZxSEhlaUtuVXphcGUzTnVPem5BMERDb2xweWc?oc=5",
+          "title": "Shift4 Payments surges 6% on earnings beat, strong revenue By Investing.com - Investing.com Nigeria",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ2JRcFNKWGRHZTFVX1hScnM3Qk04N1BPQlhPYmtRTEEtVHVjY09RVXY1dkZaNlc3RlYzNWplQVdROXZqV3ZBS28wdjA4NGl3MEZSbFNTdmRYUkZaWWctVElQaW1YVXdVU2o0ZjByRHEwQzVBLUdRanhDTndZM3JZVmE5MVFTRUVlOGg1Q2VKSWswdXNGY1I1ZkNWSTRhT0RqV3BiSHNZQUplNUtu?oc=5",
           "source": "Google News"
         }
       ],
@@ -179,10 +179,6 @@
       "count": 16
     },
     {
-      "company": "Fiserv",
-      "count": 16
-    },
-    {
       "company": "Olo",
       "count": 16
     },
@@ -196,6 +192,10 @@
     },
     {
       "company": "Shift4",
+      "count": 15
+    },
+    {
+      "company": "Deliverect",
       "count": 15
     }
   ]
