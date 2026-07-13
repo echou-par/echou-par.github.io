@@ -2,7 +2,7 @@
   "date": "2026-07-13",
   "weekday": "Monday",
   "first_seen": "2026-07-13T05:03:19.423127+00:00",
-  "last_updated": "2026-07-13T05:03:19.423127+00:00",
+  "last_updated": "2026-07-13T08:34:00.001655+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Square Terminal from Block Inc. - a compact workhorse for small US merchants - ad-hoc-news.de\"",
@@ -119,6 +119,28 @@
       ],
       "company": "Toast",
       "first_detected": "2026-07-13T05:03:19.423127+00:00"
+    },
+    {
+      "text": "PAR shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"3 Reasons to Sell PAR and 1 Stock to Buy Instead - FinancialContent\"",
+      "sources": [
+        {
+          "title": "3 Reasons to Sell PAR and 1 Stock to Buy Instead - FinancialContent",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNE1QazZ3T2M5dnlHN3B2Y3VkZU5vNlNTRHR3TEJpMUJhc0FZZUFoaDNMTkdyRkJ2MUlaeXhYREhhS3QtWk5kRDNtb0tZWTRzMHpremZNek1jNU05YTFwT0tfZHdwQjRUOWw2TWstVmk3Q1gxcXVJeW5tUWV4cW5OS0dObjF4dDJ5OEhURzZ4Yzd5T2Y1UVVPWW1TVVRRZzlKYTliaTVFZlMwa0tVejRn?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "PAR Technology Price Target Raised to $20.50/Share From $18.00 by Goldman Sachs - Moomoo",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZjVSWU01M1lfVVdjZTN3VXFtaWh6d3NCQXNFRk5ZQnJxZnRFdjNnb0VkOWFsMkp0RlVYcTRIZVV2aFhndmRVaUxqU1BpWGFVNlp5VlBjRlNZcVVHSkhOVnVUcS1CSmtETnRzQ3M0MmJBZXZnNnNWSlhiNDFDeGZWaVNLb3VFQUZqcEdsTTJkdlp3VTJHRTI1YjlrZGU?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "PAR Technology (NYSE:PAR) Stock Price Down 6.8% - What's Next? - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ0JpOU5GYU5YRWZFZVp4VlhpelAyY0ZYMDJhNHFXYWFsaDdKX3Fyc1RXVUIwQUZnUG13MDVtY0tvY1c5U21MTkdwUExtcHVRcFRsUjR0WmhqR0Y2c1ZrbWRVN3V1ZWR3YjVHX2NVVHNNc1dYNklRd3JJUUMzZ2VGalhPc1E4NURRMGxRUlo4NUljbHBzRi1KLTZaX1ZuMUxNSkM4TzE0dmF3Skk?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "PAR",
+      "first_detected": "2026-07-13T08:34:00.001655+00:00"
     }
   ],
   "most_mentioned": [
@@ -135,11 +157,11 @@
       "count": 16
     },
     {
-      "company": "Shift4",
+      "company": "NCR Voyix",
       "count": 15
     },
     {
-      "company": "Toast",
+      "company": "Shift4",
       "count": 15
     },
     {
