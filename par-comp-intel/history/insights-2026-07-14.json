@@ -2,7 +2,7 @@
   "date": "2026-07-14",
   "weekday": "Tuesday",
   "first_seen": "2026-07-14T04:10:54.407007+00:00",
-  "last_updated": "2026-07-14T15:56:26.258077+00:00",
+  "last_updated": "2026-07-14T16:23:12.036300+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Square Card from Block Inc. - everyday spending tool built for US small businesses - Ad Hoc News\"",
@@ -16,13 +16,8 @@
       "first_detected": "2026-07-14T04:10:54.407007+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Integration - help.sparkfly.com\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360\"",
       "sources": [
-        {
-          "title": "Integration - help.sparkfly.com",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5LYXIyVXFlNFZZbFBqZXItczN4R3gyY1JYVHpfakZISmNSdFBmbUY1b1IwaFIwT2F6UkNkUmQxeTJPM0cxLXRFdWl1UThXUWF3Vkdrams0MU5yV3p6RFZkSg?oc=5",
-          "source": "Google News (sparkfly.com)"
-        },
         {
           "title": "Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMHJDVWdfMUJ6dnhVVnFkLXM5VDhrNEV6eHBJMnlZdXhsQ3hORW85OE1Ea3FMNThaVzA2dDAwR2tBaHhzSmF5WVpIa2J2RnJrYVF4QW1qcWJiTWpGZ2xORi16bkktUVVRd0N1dWNoUVdVSWtuWUlrS1Rza1IyRl9GX1VwczdCdmRhdEhTNWxKcHN1MlVlY0dDSjBqN0E1S3FPTHFVcGNJRzB5NXN3Z05KWGl4NWc0alFGWGFqUlRfLWJmV2ZDbFd3RTRlbV9VQkJ2X1MzZEdxTXB6Y0RUajVOM08yNA?oc=5",
@@ -32,13 +27,18 @@
           "title": "Olo, Sparkfly Partner to Offer Real-Time Engagement Ecosystem - Food On Demand",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT19xSmo4QjRScDZMbjZFelZuUVZMTEJEb195a25BTVEtUXJRQXRoTHBjdHpnd0hobkZIZUkyYnQ3YThkbVBtZi1kTU81MEdwa3JvQ2R3OGEtRXBPaGUzNXIyYkNSQk53QjVDQ3hnYWVrZ0VnYjFHeXVnWWNvc3lpYldkQzVobmRXbE5nMVZNenhKWFhGaEpIaUxlNA?oc=5",
           "source": "Google News"
+        },
+        {
+          "title": "Sparkfly and Bojangles Partner to Transform Brand\u2019s Personalized Mobile App and Digital Dining Experience - Business Wire",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWWFlaWcyLVh4T2Zndi1uQ05aN0J5c0I3VGVUQ3F4Ni1IOXBxVV9RRC0teVk2WENWeFlsOHZhblNnNmE3Rm50cFpRTmFYLVV2aVViUFQxdkE1amd0cjRGanFjTWdHQngzU3JkX0lvRVk3dnpqRUt5Tkk5X0k1WFRjWkFoZlB4M1JXWTlic3dVTExQaHV4R1NUMjNRNmFlR0VNdGJGSXJvZV95TkpPVmZHOHo2LVhyRnZ1M0VkV2dyakZDT0NZeF9Ec2VZYUlVbnJ2c0RVMEQ5M3oyOXZFbGs3MHV6SmJSaDNaTDVpbklDbEcwQkE?oc=5",
+          "source": "Google News"
         }
       ],
       "company": "Sparkfly",
       "first_detected": "2026-07-14T04:10:54.407007+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Deliverect and 5&5 partner to streamline restaurant digital ordering - MSN\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 5 tracked partnership items this cycle. Latest: \"Deliverect and 5&5 partner to streamline restaurant digital ordering - MSN\"",
       "sources": [
         {
           "title": "Deliverect and 5&5 partner to streamline restaurant digital ordering - MSN",
@@ -145,36 +145,36 @@
   ],
   "most_mentioned": [
     {
-      "company": "Deliverect",
-      "count": 50
-    },
-    {
-      "company": "SpotOn",
-      "count": 34
-    },
-    {
-      "company": "Lightspeed",
-      "count": 33
-    },
-    {
       "company": "DoorDash",
-      "count": 29
+      "count": 19
     },
     {
       "company": "Global Payments",
-      "count": 27
+      "count": 17
     },
     {
       "company": "TouchBistro",
-      "count": 26
+      "count": 16
+    },
+    {
+      "company": "NCR Voyix",
+      "count": 16
+    },
+    {
+      "company": "SpotOn",
+      "count": 16
     },
     {
       "company": "Olo",
-      "count": 26
+      "count": 16
     },
     {
       "company": "Fiserv",
-      "count": 25
+      "count": 15
+    },
+    {
+      "company": "Deliverect",
+      "count": 15
     }
   ]
 }
