@@ -2,7 +2,7 @@
   "date": "2026-07-15",
   "weekday": "Wednesday",
   "first_seen": "2026-07-15T05:54:24.830435+00:00",
-  "last_updated": "2026-07-15T22:07:25.910510+00:00",
+  "last_updated": "2026-07-15T23:31:47.360863+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Square Card from Block Inc. - everyday spending tool built for US small businesses - Ad-hoc-news.de\"",
@@ -77,7 +77,7 @@
       "first_detected": "2026-07-15T05:54:24.830435+00:00"
     },
     {
-      "text": "PAR shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Jacksons Evolves Loyalty Rewards Across More Than 300 Locations - Stock Titan\"",
+      "text": "PAR shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"Jacksons Evolves Loyalty Rewards Across More Than 300 Locations - Stock Titan\"",
       "sources": [
         {
           "title": "Jacksons Evolves Loyalty Rewards Across More Than 300 Locations - Stock Titan",
@@ -187,10 +187,6 @@
       "count": 17
     },
     {
-      "company": "PAR",
-      "count": 16
-    },
-    {
       "company": "NCR Voyix",
       "count": 16
     },
@@ -203,11 +199,15 @@
       "count": 16
     },
     {
-      "company": "Fiserv",
+      "company": "Toast",
       "count": 15
     },
     {
-      "company": "SpotOn",
+      "company": "PAR",
+      "count": 15
+    },
+    {
+      "company": "Fiserv",
       "count": 15
     }
   ]
