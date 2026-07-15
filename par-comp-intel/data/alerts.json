@@ -1,33 +1,45 @@
 {
-  "updated": "2026-07-15T14:21:44.499451+00:00",
-  "total": 2,
+  "updated": "2026-07-15T15:04:31.644174+00:00",
+  "total": 3,
   "by_category": {
-    "stock_move": 2
+    "stock_move": 3
   },
   "alerts": [
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "Toast",
-      "headline": "Toast (TOST) stock up 7.7% over the past week",
+      "headline": "Toast (TOST) stock up 7.2% over the past week",
       "url": "https://finance.yahoo.com/quote/TOST",
       "source": "Yahoo Finance",
-      "date": "2026-07-15T14:21:44.499451+00:00",
+      "date": "2026-07-15T15:04:31.644174+00:00",
       "par_relevance": 3,
-      "note": "+7.7% 1W",
-      "detected_at": "2026-07-15T14:21:44.499451+00:00"
+      "note": "+7.2% 1W",
+      "detected_at": "2026-07-15T15:04:31.644174+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "medium",
+      "company": "Shift4",
+      "headline": "Shift4 (FOUR) stock up 8.8% over the past week",
+      "url": "https://finance.yahoo.com/quote/FOUR",
+      "source": "Yahoo Finance",
+      "date": "2026-07-15T15:04:31.644174+00:00",
+      "par_relevance": 3,
+      "note": "+8.8% 1W",
+      "detected_at": "2026-07-15T15:04:31.644174+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "Global Payments",
-      "headline": "Global Payments (GPN) stock up 8.1% over the past week",
+      "headline": "Global Payments (GPN) stock up 8.2% over the past week",
       "url": "https://finance.yahoo.com/quote/GPN",
       "source": "Yahoo Finance",
-      "date": "2026-07-15T14:21:44.499451+00:00",
+      "date": "2026-07-15T15:04:31.644174+00:00",
       "par_relevance": 3,
-      "note": "+8.1% 1W",
-      "detected_at": "2026-07-15T14:21:44.499451+00:00"
+      "note": "+8.2% 1W",
+      "detected_at": "2026-07-15T15:04:31.644174+00:00"
     }
   ]
 }
