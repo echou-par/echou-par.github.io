@@ -2,7 +2,7 @@
   "date": "2026-07-15",
   "weekday": "Wednesday",
   "first_seen": "2026-07-15T05:54:24.830435+00:00",
-  "last_updated": "2026-07-15T20:35:35.301714+00:00",
+  "last_updated": "2026-07-15T22:07:25.910510+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Square Card from Block Inc. - everyday spending tool built for US small businesses - Ad-hoc-news.de\"",
@@ -163,6 +163,18 @@
       ],
       "company": "Olo",
       "first_detected": "2026-07-15T12:02:09.269965+00:00"
+    },
+    {
+      "text": "Block (Square) (XYZ) stock gained 5.7% over the past week \u2014 material weekly move relative to broader cohort.",
+      "sources": [
+        {
+          "title": "XYZ on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/XYZ",
+          "source": "Yahoo Finance"
+        }
+      ],
+      "company": "Block (Square)",
+      "first_detected": "2026-07-15T22:07:25.910510+00:00"
     }
   ],
   "most_mentioned": [
