@@ -2,7 +2,7 @@
   "date": "2026-07-16",
   "weekday": "Thursday",
   "first_seen": "2026-07-16T05:59:58.425599+00:00",
-  "last_updated": "2026-07-16T17:47:18.185867+00:00",
+  "last_updated": "2026-07-16T19:22:10.691650+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -77,7 +77,7 @@
       "first_detected": "2026-07-16T05:59:58.425599+00:00"
     },
     {
-      "text": "Olo shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"Olo Inc (NYSE: OLO) Share Price, OLO Stock News, OLO Share Price & Updates - Kalkine\"",
+      "text": "Olo shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Olo Inc (NYSE: OLO) Share Price, OLO Stock News, OLO Share Price & Updates - Kalkine\"",
       "sources": [
         {
           "title": "Olo Inc (NYSE: OLO) Share Price, OLO Stock News, OLO Share Price & Updates - Kalkine",
@@ -107,13 +107,13 @@
           "source": "Google News"
         },
         {
-          "title": "Planned 2,000-share Class A sale by TOST (NYSE: TOST) filer - Stock Titan",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObHZjU3NRcXBPR1FjXzRrb0NLNEhuU1RBRVdNMlpCeFdUbTJSeWUxal9rSEdnV18tX0thTjBiY3RjMnVUMThSeXBudG5xY3pBckEzcHh0NlFTSzA5aUNJb3BheTI5amxxWUZqdkdheHZidjhkX0JIM0U0ZFZSdXVfTGVUSm9hQTltNDFwa3l6Zw?oc=5",
+          "title": "Toast, Inc. (TOST) CRO exercises options and sells 11,170 shares under plan - Stock Titan",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNT3p5eENMMGdydGFWVU1YR1lGbDEtTGpQdGgwQWNxOE9tLXMtbjNKVVBwSjBFM2NKNlE2NHpHcGtXR0l2U0pNWEd4S0FXMmJ4ampsRkZ2QUdVZzAyVDFZVWdGLXNNQWh5OS1mamplY2hBeTVuWEhtcm90NThyRkpOc0daLTV6TUlmRkEtODFWbDdTak43S2VkTUVxQTd5NFBEeGFoMGRR?oc=5",
           "source": "Google News"
         },
         {
-          "title": "Toast (NYSE: TOST) insider Jonathan Vassil plans sale of 9,170 Class A shares - Stock Titan",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcHFvNXBaQWhOUXdRdnlfR08zOEt6bHZ0dGQ2QjloSFJwQnRrUHVZZVM3ZjRMUnljQnlldUFKdDN1SWgwYWN0X0JlWTFlcFo0RmtUUkZHUW4teDM5TWFtY0owem5EMXJocndpeWJsdjN0MnFDUXltQ0RSeko5bERVWjVyeWtoanJROUo0M2t5bw?oc=5",
+          "title": "Planned 2,000-share Class A sale by TOST (NYSE: TOST) filer - Stock Titan",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObHZjU3NRcXBPR1FjXzRrb0NLNEhuU1RBRVdNMlpCeFdUbTJSeWUxal9rSEdnV18tX0thTjBiY3RjMnVUMThSeXBudG5xY3pBckEzcHh0NlFTSzA5aUNJb3BheTI5amxxWUZqdkdheHZidjhkX0JIM0U0ZFZSdXVfTGVUSm9hQTltNDFwa3l6Zw?oc=5",
           "source": "Google News"
         }
       ],
@@ -165,6 +165,10 @@
       "count": 17
     },
     {
+      "company": "Toast",
+      "count": 16
+    },
+    {
       "company": "PAR",
       "count": 16
     },
@@ -173,12 +177,8 @@
       "count": 16
     },
     {
-      "company": "Toast",
-      "count": 15
-    },
-    {
-      "company": "Uber Eats",
-      "count": 15
+      "company": "Olo",
+      "count": 16
     },
     {
       "company": "Fiserv",
