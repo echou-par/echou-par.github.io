@@ -2,7 +2,7 @@
   "date": "2026-07-16",
   "weekday": "Thursday",
   "first_seen": "2026-07-16T05:59:58.425599+00:00",
-  "last_updated": "2026-07-16T21:38:35.785037+00:00",
+  "last_updated": "2026-07-16T23:03:24.643000+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -121,7 +121,7 @@
       "first_detected": "2026-07-16T05:59:58.425599+00:00"
     },
     {
-      "text": "Block (Square) (XYZ) stock gained 5.7% over the past week \u2014 material weekly move relative to broader cohort.",
+      "text": "Block (Square) (XYZ) stock gained 5.5% over the past week \u2014 material weekly move relative to broader cohort.",
       "sources": [
         {
           "title": "XYZ on Yahoo Finance",
@@ -153,40 +153,31 @@
       ],
       "company": "Deliverect",
       "first_detected": "2026-07-16T15:15:43.957753+00:00"
+    },
+    {
+      "text": "Global Payments (GPN) stock gained 5.8% over the past week \u2014 material weekly move relative to broader cohort.",
+      "sources": [
+        {
+          "title": "GPN on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/GPN",
+          "source": "Yahoo Finance"
+        }
+      ],
+      "company": "Global Payments",
+      "first_detected": "2026-07-16T23:03:24.643000+00:00"
+    },
+    {
+      "text": "Global Payments (GPN) leading revenue growth at +63.1% YoY \u2014 fastest grower among tracked public competitors.",
+      "sources": [
+        {
+          "title": "Global Payments financials on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/GPN/financials",
+          "source": "Yahoo Finance"
+        }
+      ],
+      "company": "Global Payments",
+      "first_detected": "2026-07-16T23:03:24.643000+00:00"
     }
   ],
-  "most_mentioned": [
-    {
-      "company": "DoorDash",
-      "count": 20
-    },
-    {
-      "company": "Global Payments",
-      "count": 17
-    },
-    {
-      "company": "Toast",
-      "count": 16
-    },
-    {
-      "company": "PAR",
-      "count": 16
-    },
-    {
-      "company": "NCR Voyix",
-      "count": 16
-    },
-    {
-      "company": "Fiserv",
-      "count": 15
-    },
-    {
-      "company": "Uber Eats",
-      "count": 15
-    },
-    {
-      "company": "TouchBistro",
-      "count": 15
-    }
-  ]
+  "most_mentioned": []
 }
