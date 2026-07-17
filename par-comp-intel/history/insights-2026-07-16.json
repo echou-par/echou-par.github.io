@@ -2,7 +2,7 @@
   "date": "2026-07-16",
   "weekday": "Thursday",
   "first_seen": "2026-07-16T05:59:58.425599+00:00",
-  "last_updated": "2026-07-16T23:03:24.643000+00:00",
+  "last_updated": "2026-07-17T01:04:16.301685+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -133,7 +133,7 @@
       "first_detected": "2026-07-16T08:28:36.258100+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Deliverect Partners with 5&5 to Help Restaurant Brands Scale Their Digital Ordering Ecosystem - PR Newswire\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 5 tracked partnership items this cycle. Latest: \"Deliverect Partners with 5&5 to Help Restaurant Brands Scale Their Digital Ordering Ecosystem - PR Newswire\"",
       "sources": [
         {
           "title": "Deliverect Partners with 5&5 to Help Restaurant Brands Scale Their Digital Ordering Ecosystem - PR Newswire",
@@ -177,7 +177,57 @@
       ],
       "company": "Global Payments",
       "first_detected": "2026-07-16T23:03:24.643000+00:00"
+    },
+    {
+      "text": "Olo shows concentrated risk activity \u2014 2 tracked risk items this cycle. Latest: \"OLO INVESTOR REMINDER: Olo Inc. Shareholders are Reminded to Contact BFA Law about its Investigation into the Thoma Bravo Merger - TMX Newsf\"",
+      "sources": [
+        {
+          "title": "OLO INVESTOR REMINDER: Olo Inc. Shareholders are Reminded to Contact BFA Law about its Investigation into the Thoma Bravo Merger - TMX Newsfile",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPQ2hheUdGVkw4eVhXaFZHWmUtUWN4dUhYbEtrS0lwVEhZVElsZUZOUFFBZU5MZDVLSGhwSl9uSXRObnVxRFEydGN0NWpXcG0yVUhSek5KTnVnN3lRV2tSM3F3UnBSeUhreEdqOENOMXZxOHZwM05xdV9mNXlxWms4Z2FqdEtDZTJjcmsxc3d5OW9xRnUwR0dHNF8ySURHdFJTTEdDX09FQkhnaUhNWVZOaHk1elJYeHkyRU5kYTJHd1FDa1FfaTJGNWEwLTA1WmczUnBBREVCMTAwN1gyTmt1V04xbW96RUt0OEw2WjhnLXhQSUtNVXZfQ1FWVmczTFhH?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "OLO LAWSUIT ALERT: Levi & Korsinsky Notifies Olo Inc. Investors of a Class Action Lawsuit and Upcoming Deadline - TMX Newsfile",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNYTQtOWI5eHRzQmxuTFJqUlNrVGtvWElHT3ZYTHE3eVZjZ0pMYW93aHJsVXZLSWRHWWJva2JCS01fakJoNFBaYko4MVZYWGRWSWVOQXFDR0hYNHphQ2tuM1JFVjBGS1FIV0owZGtCLVFFdVhFR2tGaGhraldWWlQ0UmFFcUY1REtKZHB2cU1vV1ZuUk1DcVdrczZGRTljLU1fSGppemc2OW81ZkVQOElBNGtJTFFESEJtT3gzZUhxVzZ2R1dEMk1hT1hyRUV6ODhRdGxTMEFTN194T3FqVW4wUXlKSzQwXzQ?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Olo",
+      "first_detected": "2026-07-17T01:04:16.301685+00:00"
     }
   ],
-  "most_mentioned": []
+  "most_mentioned": [
+    {
+      "company": "DoorDash",
+      "count": 20
+    },
+    {
+      "company": "Global Payments",
+      "count": 17
+    },
+    {
+      "company": "Toast",
+      "count": 16
+    },
+    {
+      "company": "PAR",
+      "count": 16
+    },
+    {
+      "company": "NCR Voyix",
+      "count": 16
+    },
+    {
+      "company": "Olo",
+      "count": 16
+    },
+    {
+      "company": "Fiserv",
+      "count": 15
+    },
+    {
+      "company": "Uber Eats",
+      "count": 15
+    }
+  ]
 }
