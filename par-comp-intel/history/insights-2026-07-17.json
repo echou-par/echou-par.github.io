@@ -2,7 +2,7 @@
   "date": "2026-07-17",
   "weekday": "Friday",
   "first_seen": "2026-07-17T04:44:23.857475+00:00",
-  "last_updated": "2026-07-17T16:20:13.784772+00:00",
+  "last_updated": "2026-07-17T17:40:07.633382+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -141,6 +141,45 @@
       ],
       "company": "TalonOne",
       "first_detected": "2026-07-17T14:54:47.779951+00:00"
+    },
+    {
+      "text": "Olo shows concentrated risk activity \u2014 2 tracked risk items this cycle. Latest: \"OLO INVESTOR REMINDER: Olo Inc. Shareholders are Reminded to Contact BFA Law about its Investigation into the Thoma Bravo Merger - TMX Newsf\"",
+      "sources": [
+        {
+          "title": "OLO INVESTOR REMINDER: Olo Inc. Shareholders are Reminded to Contact BFA Law about its Investigation into the Thoma Bravo Merger - TMX Newsfile",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPQ2hheUdGVkw4eVhXaFZHWmUtUWN4dUhYbEtrS0lwVEhZVElsZUZOUFFBZU5MZDVLSGhwSl9uSXRObnVxRFEydGN0NWpXcG0yVUhSek5KTnVnN3lRV2tSM3F3UnBSeUhreEdqOENOMXZxOHZwM05xdV9mNXlxWms4Z2FqdEtDZTJjcmsxc3d5OW9xRnUwR0dHNF8ySURHdFJTTEdDX09FQkhnaUhNWVZOaHk1elJYeHkyRU5kYTJHd1FDa1FfaTJGNWEwLTA1WmczUnBBREVCMTAwN1gyTmt1V04xbW96RUt0OEw2WjhnLXhQSUtNVXZfQ1FWVmczTFhH?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "OLO LAWSUIT ALERT: Levi & Korsinsky Notifies Olo Inc. Investors of a Class Action Lawsuit and Upcoming Deadline - TMX Newsfile",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNYTQtOWI5eHRzQmxuTFJqUlNrVGtvWElHT3ZYTHE3eVZjZ0pMYW93aHJsVXZLSWRHWWJva2JCS01fakJoNFBaYko4MVZYWGRWSWVOQXFDR0hYNHphQ2tuM1JFVjBGS1FIV0owZGtCLVFFdVhFR2tGaGhraldWWlQ0UmFFcUY1REtKZHB2cU1vV1ZuUk1DcVdrczZGRTljLU1fSGppemc2OW81ZkVQOElBNGtJTFFESEJtT3gzZUhxVzZ2R1dEMk1hT1hyRUV6ODhRdGxTMEFTN194T3FqVW4wUXlKSzQwXzQ?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Olo",
+      "first_detected": "2026-07-17T17:40:07.633382+00:00"
+    },
+    {
+      "text": "Square shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"Block wins over skeptics as BofA raises estimates following post-restructuring rebound - Proactive financial news\"",
+      "sources": [
+        {
+          "title": "Block wins over skeptics as BofA raises estimates following post-restructuring rebound - Proactive financial news",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPUGpteXFsOUJ0ejRrSTJKWjlOU2hVR1dUR3JxMzdXWUNvNHhpYS01SEpWeGYtNmFJR2FrTnlCejZlMDM0V3ItSHd2SVprWElPcHcyYjUxUWdDel9SVl9SakZSQUdFQUd1VDhldGF3ZkE1UXZEZjNpb3pLdG5JMFlhV0RKejRZSEh4SjVxTS1kSkY5c2M0azJVN2ZOVzhXVDJhdWFtQWl6N01hNGtjejlFc19CUWFCLXVNUzRwVWlkSnlhQzEtS3pfWWdvbHNSQ0pNczhhZmVvMHhVekZxQjBQVWR5cGdKbFg0TWFOSHR3?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Block earnings beat driven by Cash App and Square strength - Proactive financial news",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPX2ZKVnBKRjZRTnZhUmJNdmQ3Vk8wbmpFeHVBSVJLUTBZekNHZEZSaV9nbDQ5NE9qM29reDN5bG1yZ0drSEh0U3lmVkZlc1F6Vlg0cWE5emNTWGtoam0tbm1RUXNzOFNYemxkU0c2VmViUFRpX3VaSlZBa3VUVFhUMTVLdF9oVlBQekJMcE5iY09MZ0dYNURiSlVURHZCMnFBb3dNOHRZX3Z6UjBFdDdIR2xYY2pLX2dIOExWZGxWVjhVeTl0YlRWVw?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Block Inc. Stock: Shares Rise Over 3% in Premarket Trading on April 30, 2026 - ad-hoc-news.de",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONFNRS054UXlkeWVxN0NtQjZWLUFuc2dQVE1zMHZQMDYtbVBMSXV0TUdzVTVjZEtzdU01TVN3RnEtb3g4ZHNBcTVyWUNLdi10WnRVeC10YzJiaWRkZDJ0aldxWHRQcmVXQVFNc1UxUW85bmZLZUtiMkRKSF9aTUUtU1NmU2hkOC1UTXQ1QmpxLU44TEJXU1hnRHhCZENUdTB6dmctRzlvWFlhYkNaTnh3aE9mWjVrcWo4NmR3VVFfc0tuZXc?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Square",
+      "first_detected": "2026-07-17T17:40:07.633382+00:00"
     }
   ],
   "most_mentioned": [
@@ -157,11 +196,11 @@
       "count": 17
     },
     {
-      "company": "NCR Voyix",
+      "company": "PAR",
       "count": 16
     },
     {
-      "company": "PAR",
+      "company": "NCR Voyix",
       "count": 16
     },
     {
