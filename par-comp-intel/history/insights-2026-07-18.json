@@ -2,7 +2,7 @@
   "date": "2026-07-18",
   "weekday": "Saturday",
   "first_seen": "2026-07-18T04:09:29.219941+00:00",
-  "last_updated": "2026-07-18T14:02:12.608837+00:00",
+  "last_updated": "2026-07-18T14:32:54.952088+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -16,8 +16,13 @@
       "first_detected": "2026-07-18T04:09:29.219941+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Integration - help.sparkfly.com\"",
       "sources": [
+        {
+          "title": "Integration - help.sparkfly.com",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5LYXIyVXFlNFZZbFBqZXItczN4R3gyY1JYVHpfakZISmNSdFBmbUY1b1IwaFIwT2F6UkNkUmQxeTJPM0cxLXRFdWl1UThXUWF3Vkdrams0MU5yV3p6RFZkSg?oc=5",
+          "source": "Google News (sparkfly.com)"
+        },
         {
           "title": "Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMHJDVWdfMUJ6dnhVVnFkLXM5VDhrNEV6eHBJMnlZdXhsQ3hORW85OE1Ea3FMNThaVzA2dDAwR2tBaHhzSmF5WVpIa2J2RnJrYVF4QW1qcWJiTWpGZ2xORi16bkktUVVRd0N1dWNoUVdVSWtuWUlrS1Rza1IyRl9GX1VwczdCdmRhdEhTNWxKcHN1MlVlY0dDSjBqN0E1S3FPTHFVcGNJRzB5NXN3Z05KWGl4NWc0alFGWGFqUlRfLWJmV2ZDbFd3RTRlbV9VQkJ2X1MzZEdxTXB6Y0RUajVOM08yNA?oc=5",
@@ -27,18 +32,13 @@
           "title": "Piada Italian Street Food Partners with Sparkfly to Launch Enhanced Loyalty Program - PRWeb",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbjhJcDBUOVpyMDhxN1FrajA2cUFEQ2RkaE8wQ2QyS2w5SjJFOXA0aDFLWTdwZ1VVV0xvOHRKR1RJZkEyeXpLOFhqcV9jRFozRFRrQTdhVk8zd0t2QzQ3RjdVOUtDbWR2QjlHa1duRTczOEtweGZXV1lRVmRaQ3BMNllvR01RNnNiNFNudWFGdDBET09sd3EzNF93b0ZveHg4X2RmWTJ6WlVVT0Fvb2pweGR3R2tydWhmR3o5d0dwa1IyQXEtMGdKNA?oc=5",
           "source": "Google News"
-        },
-        {
-          "title": "Olo, Sparkfly Partner to Offer Real-Time Engagement Ecosystem - Food On Demand",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT19xSmo4QjRScDZMbjZFelZuUVZMTEJEb195a25BTVEtUXJRQXRoTHBjdHpnd0hobkZIZUkyYnQ3YThkbVBtZi1kTU81MEdwa3JvQ2R3OGEtRXBPaGUzNXIyYkNSQk53QjVDQ3hnYWVrZ0VnYjFHeXVnWWNvc3lpYldkQzVobmRXbE5nMVZNenhKWFhGaEpIaUxlNA?oc=5",
-          "source": "Google News"
         }
       ],
       "company": "Sparkfly",
       "first_detected": "2026-07-18T04:09:29.219941+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 5 tracked partnership items this cycle. Latest: \"Deliverect Partners with 5&5 to Help Restaurant Brands Scale Their Digital Ordering Ecosystem - PR Newswire\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Deliverect Partners with 5&5 to Help Restaurant Brands Scale Their Digital Ordering Ecosystem - PR Newswire\"",
       "sources": [
         {
           "title": "Deliverect Partners with 5&5 to Help Restaurant Brands Scale Their Digital Ordering Ecosystem - PR Newswire",
@@ -77,7 +77,7 @@
       "first_detected": "2026-07-18T04:09:29.219941+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 7 tracked financial/market items this cycle. Latest: \"ETFs Investing in Toast, Inc. Class A Stocks - TradingView\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"ETFs Investing in Toast, Inc. Class A Stocks - TradingView\"",
       "sources": [
         {
           "title": "ETFs Investing in Toast, Inc. Class A Stocks - TradingView",
@@ -141,40 +141,62 @@
       ],
       "company": "Global Payments",
       "first_detected": "2026-07-18T06:29:18.244837+00:00"
+    },
+    {
+      "text": "TalonOne shows concentrated campaign activity \u2014 3 tracked campaign items this cycle. Latest: \"The brands escaping the discount trap - Campaign US\"",
+      "sources": [
+        {
+          "title": "The brands escaping the discount trap - Campaign US",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ibFZsSkRtLXdLNzlXVV9za3dFd29zMUJXYzdzWFgzS1lGMXFrREs3LUp1Zmhjaml1Mloyakk5cmdXQzFkamJVMmR6a3FrVzk5eGlGRnRUQ1NIek5GOC11Wnh5ZFp5ZHRlRzA3ZnlsMnhGSVprVVJWOFIzdThGNjA?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Campaign analytics - Talon.One docs",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBsd05ITEx4enNBV3MxNDZPbzVVT0stSWJ1dWFIM2l2SERHV2dLUVYwamRrS2duUTl0ZUxvTk9vTXhWMlNqeFAxTlBDSXdPbndMT0JRcDJhcU5pZ2g3R0hqMTRBZWc2SEJod01fR00xOUdpUQ?oc=5",
+          "source": "Google News (talon.one)"
+        },
+        {
+          "title": "Create a channel-specific coupon campaign - Talon.One docs",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYlZnZ2FEa2s4bnIycktfMlVIZ19XTG02YWFFUWp1bDdXSmlnSThKNElEVmlhQWtTSU9fbnRZbU5RdHlQcnlXZGtuX2VrZTBKVHV3ZWlOYUtVRFlQZEIwbm9uR0pIb2tra2VJUC1Jdk1MdmNfZ3liVG1WTDNZYTd4TGMzcGhPWEtTaGc?oc=5",
+          "source": "Google News (talon.one)"
+        }
+      ],
+      "company": "TalonOne",
+      "first_detected": "2026-07-18T14:32:54.952088+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
-      "count": 20
+      "company": "Deliverect",
+      "count": 50
     },
     {
-      "company": "Global Payments",
-      "count": 17
+      "company": "SpotOn",
+      "count": 35
+    },
+    {
+      "company": "Lightspeed",
+      "count": 32
+    },
+    {
+      "company": "DoorDash",
+      "count": 30
     },
     {
       "company": "NCR Voyix",
-      "count": 16
+      "count": 26
     },
     {
       "company": "Toast",
-      "count": 15
+      "count": 25
+    },
+    {
+      "company": "Global Payments",
+      "count": 25
     },
     {
       "company": "TouchBistro",
-      "count": 15
-    },
-    {
-      "company": "PAR",
-      "count": 15
-    },
-    {
-      "company": "Uber Eats",
-      "count": 15
-    },
-    {
-      "company": "Fiserv",
-      "count": 15
+      "count": 25
     }
   ]
 }
