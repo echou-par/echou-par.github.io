@@ -2,7 +2,7 @@
   "date": "2026-07-19",
   "weekday": "Sunday",
   "first_seen": "2026-07-19T04:51:56.426742+00:00",
-  "last_updated": "2026-07-19T14:06:36.249558+00:00",
+  "last_updated": "2026-07-19T14:36:00.978330+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -16,7 +16,7 @@
       "first_detected": "2026-07-19T04:51:56.426742+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360\"",
       "sources": [
         {
           "title": "Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360",
@@ -38,7 +38,7 @@
       "first_detected": "2026-07-19T04:51:56.426742+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 5 tracked partnership items this cycle. Latest: \"Deliverect Partners with 5&5 to Help Restaurant Brands Scale Their Digital Ordering Ecosystem - PR Newswire\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Deliverect Partners with 5&5 to Help Restaurant Brands Scale Their Digital Ordering Ecosystem - PR Newswire\"",
       "sources": [
         {
           "title": "Deliverect Partners with 5&5 to Help Restaurant Brands Scale Their Digital Ordering Ecosystem - PR Newswire",
@@ -119,40 +119,62 @@
       ],
       "company": "Global Payments",
       "first_detected": "2026-07-19T04:51:56.426742+00:00"
+    },
+    {
+      "text": "TalonOne shows concentrated campaign activity \u2014 3 tracked campaign items this cycle. Latest: \"The brands escaping the discount trap - Campaign US\"",
+      "sources": [
+        {
+          "title": "The brands escaping the discount trap - Campaign US",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ibFZsSkRtLXdLNzlXVV9za3dFd29zMUJXYzdzWFgzS1lGMXFrREs3LUp1Zmhjaml1Mloyakk5cmdXQzFkamJVMmR6a3FrVzk5eGlGRnRUQ1NIek5GOC11Wnh5ZFp5ZHRlRzA3ZnlsMnhGSVprVVJWOFIzdThGNjA?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Campaign analytics - Talon.One docs",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBsd05ITEx4enNBV3MxNDZPbzVVT0stSWJ1dWFIM2l2SERHV2dLUVYwamRrS2duUTl0ZUxvTk9vTXhWMlNqeFAxTlBDSXdPbndMT0JRcDJhcU5pZ2g3R0hqMTRBZWc2SEJod01fR00xOUdpUQ?oc=5",
+          "source": "Google News (talon.one)"
+        },
+        {
+          "title": "Create a channel-specific coupon campaign - Talon.One docs",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYlZnZ2FEa2s4bnIycktfMlVIZ19XTG02YWFFUWp1bDdXSmlnSThKNElEVmlhQWtTSU9fbnRZbU5RdHlQcnlXZGtuX2VrZTBKVHV3ZWlOYUtVRFlQZEIwbm9uR0pIb2tra2VJUC1Jdk1MdmNfZ3liVG1WTDNZYTd4TGMzcGhPWEtTaGc?oc=5",
+          "source": "Google News (talon.one)"
+        }
+      ],
+      "company": "TalonOne",
+      "first_detected": "2026-07-19T14:36:00.978330+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
-      "count": 20
-    },
-    {
-      "company": "NCR Voyix",
-      "count": 17
-    },
-    {
-      "company": "Global Payments",
-      "count": 17
+      "company": "Deliverect",
+      "count": 50
     },
     {
       "company": "SpotOn",
-      "count": 16
+      "count": 35
+    },
+    {
+      "company": "Lightspeed",
+      "count": 32
+    },
+    {
+      "company": "DoorDash",
+      "count": 30
+    },
+    {
+      "company": "NCR Voyix",
+      "count": 27
+    },
+    {
+      "company": "Global Payments",
+      "count": 26
+    },
+    {
+      "company": "Olo",
+      "count": 25
     },
     {
       "company": "Toast",
-      "count": 15
-    },
-    {
-      "company": "Uber Eats",
-      "count": 15
-    },
-    {
-      "company": "TouchBistro",
-      "count": 15
-    },
-    {
-      "company": "PAR",
-      "count": 15
+      "count": 25
     }
   ]
 }
