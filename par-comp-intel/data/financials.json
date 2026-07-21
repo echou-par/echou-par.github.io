@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T11:24:41.922742+00:00",
+  "updated": "2026-07-21T12:56:50.183186+00:00",
   "tickers": {
     "PAR": {
       "ticker": "PAR",
@@ -349,7 +349,7 @@
       "ebitda_margin": 0.091709994,
       "gross_margin": 0.51763,
       "enterprise_value": 80125550592.0,
-      "trailing_pe": 87.10599,
+      "trailing_pe": 89.160385,
       "forward_pe": 24.339493,
       "income_statement_annual": [
         {
@@ -1176,7 +1176,7 @@
       "gross_margin": 0.67403,
       "enterprise_value": 41139933184.0,
       "trailing_pe": 30.283089,
-      "forward_pe": 5.0982356,
+      "forward_pe": 5.107178,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
@@ -1495,47 +1495,7 @@
       "enterprise_value": 154298187776.0,
       "trailing_pe": 17.908188,
       "forward_pe": 16.208689,
-      "income_statement_annual": [
-        {
-          "endDate": "2025-12-31",
-          "totalRevenue": 52017000000.0,
-          "costOfRevenue": 31338000000.0,
-          "grossProfit": 20679000000.0,
-          "researchDevelopment": 3402000000.0,
-          "sellingGeneralAdministrative": 8139000000.0,
-          "totalOperatingExpenses": 15114000000.0,
-          "operatingIncome": 5565000000.0,
-          "ebit": 6240000000.0,
-          "netIncome": 10053000000.0,
-          "incomeBeforeTax": 5800000000.0
-        },
-        {
-          "endDate": "2024-12-31",
-          "totalRevenue": 43978000000.0,
-          "costOfRevenue": 26651000000.0,
-          "grossProfit": 17327000000.0,
-          "researchDevelopment": 3109000000.0,
-          "sellingGeneralAdministrative": 7976000000.0,
-          "totalOperatingExpenses": 14528000000.0,
-          "operatingIncome": 2799000000.0,
-          "ebit": 4648000000.0,
-          "netIncome": 9856000000.0,
-          "incomeBeforeTax": 4125000000.0
-        },
-        {
-          "endDate": "2023-12-31",
-          "totalRevenue": 37281000000.0,
-          "costOfRevenue": 22457000000.0,
-          "grossProfit": 14824000000.0,
-          "researchDevelopment": 3164000000.0,
-          "sellingGeneralAdministrative": 7038000000.0,
-          "totalOperatingExpenses": 13714000000.0,
-          "operatingIncome": 1110000000.0,
-          "ebit": 2954000000.0,
-          "netIncome": 1887000000.0,
-          "incomeBeforeTax": 2321000000.0
-        }
-      ],
+      "income_statement_annual": [],
       "income_statement_quarterly": [
         {
           "endDate": "2026-03-31",
