@@ -1,6 +1,392 @@
 {
-  "updated": "2026-07-21T12:56:50.183186+00:00",
+  "updated": "2026-07-21T15:10:37.533779+00:00",
   "companies": {
+    "Bikky": [
+      {
+        "headline": "Bikky Partners with Freddy\u2019s to Better Understand Guest Behavior",
+        "url": "https://www.qsrmagazine.com/news/bikky-partners-with-freddys-to-better-understand-guest-behavior/",
+        "date": "Tue, 21 Jul 2026 14:30:56 +0000",
+        "source": "QSR Magazine",
+        "type": "trade",
+        "company": "Bikky",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Diving deeper: Looking beyond sales for improved restaurant marketing - fastcasual.com",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSXhWWkRIcXNlNW5KdkxmUlBjTlNudXM2MkJCb1lTMkxKZlk0WjB0TDhHaldXN0swVldIWnUybHJaaHlzZjl3eWxvb2JVMmhTOFJQbVBRdW1OeWtNbkZZVXdSV3RaN3RrLUhnc3k1a0c4UGdVazJDYVkyOWtxNU9uYUdvZ1gyUnBEdVVQa01xQlpDaWFNeFBDcG45Nlg5TGRTc2FoeDJlU1o?oc=5",
+        "date": "Thu, 30 Apr 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Bikky",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Wyoming-Born Taco John's Taps Big Data To Challenge Taco Bell's Youth Market - Cowboy State Daily",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOUY3NkxrSG5fVDlqNUdHbVNzS0JQMXVQZzdjblRXRUNBM19QV3RKeG1ydi1yUHVfdDNDTEdJV0RjWHNzSzlrbmN2UlBrajNUdGR6ZUQ3Nl9kRzY5VnZEa2t2ZGNNY3ZQNzktLVJkNldrY2stdWJwSkI0WlBpa21iUThnTDVtMVBHYlhjcUxBLXRxNmVQUUYtVUZCd3FTMHBORWZaM1VMMVo4M0ozUmdfRXBwVzlhUQ?oc=5",
+        "date": "Sun, 23 Nov 2025 08:00:00 GMT",
+        "source": "Google News",
+        "company": "Bikky",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "With QSR Sales Down and Consumer Sentiment Falling, Brands Turn to Data for Answers - franchisetimes.com",
+        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQMG9wTFJHaEJmczAxUkFFRHF0UkxCdEZYWnJGcF9nc0dmMU1YVW1zVmVzZHRIRTNYb09aUHdjQjFRUUtqQXh4M2ctbzBuOWVNNGRYWlJoOTYzMDNvOUdyTDlGcW1iTnFPNkdjQmttSVBMckJIaW1xS0VWVVlsT3p5TmgwX3Bid0JCU2NyX2tSOG9KX3Eta2k0T2dqVjZUOVFVMmFuNWJEdzdLN3FycnVjM1I1NE83LVRRRWVjVW1rQ1prUjhKenlBU204YXZ3X3dXNEdJeG03TFVWdzN1b3IyYlBUWWt2VHgxd0tta3VUYndwSTVtdU5rakdJN0sxY2xqNm9oLUx3OG8yQQ?oc=5",
+        "date": "Thu, 13 Nov 2025 08:00:00 GMT",
+        "source": "Google News",
+        "company": "Bikky",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Abhinav Kapur, Co-Founder & CEO, Bikky - restfinance.com",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQX2lpeXFWVXcwUnZvanJSX2c1VHYybkxnWFk5RHR0V29KMDBEVjVDVnFISnFXNHd6ajV0SERIOGlKR1NIbmc1d3lEbEFuWGg2azRhMVZ1c19DejNYUkZVNDdUM1hmMXBfVG1yX3N1d3gteklGdUlQNGtSYlp5UWItbjZfbzRsVDJ6M3RVdHpfWTJaSnNoY1RYZnZwNk5OTFI4cVRvTURjX1BRTkpXeEM2Y3NfZ1VOUVdqR2tieC1iU1pSTHZ0SHA3Q3Izcw?oc=5",
+        "date": "Thu, 21 Aug 2025 08:21:48 GMT",
+        "source": "Google News",
+        "company": "Bikky",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Uber Eats Now Lets Users Create and Share Lists of Favorite Spots on App - Food On Demand",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZWEtRjZKLWUtaXZWQk10SFRLUGpnSGtRT1NLeHlKSDZyekppOXltVmx2RmNaU2ZjWFQ2UGoyMExzd2l6SUQtNlBocDR6T1pOTWhZbklvOVFMdFo0UTRrNTZwcWxpc0tjRXlQYnBsaHdUeS1PazZCQUJTVk93V3plVW9Fbk5XVklIRzRJY3AzYVk0MUFrRnc5MlpZM0w4QUpDSGRwVEo4QWJIUzQ?oc=5",
+        "date": "Wed, 23 Oct 2024 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Bikky",
+        "type": "private",
+        "emoji": "\ud83d\udce2",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Long John Silver\u2019s Partners with Leading Tech Innovators to Transform Customer Engagement - Business Wire",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbVVJNjNVNzlCRHJDY2NGLWUzQUNpSlUtYTN5X3FXejUya0pYYjZRXzA0UmhFa0Q2VlN3cXpWYXh4ODl5aEppcEVxek9vdnUtLVlnNUdpTHpfYjJQbURxWlBQMEhQWEwxZzVNV0FrSlJwbEJQajFMTmlZZWxuZW9MNXhZTUJvQWVPWmwycjFoNkJGYzg2b1p1YU5xVGdQRWVudDdJTkxuUjJzU0FYeGNRUFRPMENGWi02SVdzUTcxVnI3Y2UtSlN5WmdsQTBsQUF5cUlWdjVMUFhTQU03YUE?oc=5",
+        "date": "Tue, 25 Jun 2024 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Bikky",
+        "type": "private",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "MOD Pizza Is Diving Deeper Into the Customer Analytics Game - PMQ Pizza",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rV3p6R1AxakVha3l1b0RFVnlJa0NMQWxJV0pxUXZGd21paEh4SE43cVNMbFQzcDJaYkZHSjQtaGU1LWE0Q1dVeDlOdFJzNFBGSVBpTVlINUdoRnc1V3BhQzU3djBEc1RycFlvX2VfVldOYTJLSzl5cExBbUlobTQ?oc=5",
+        "date": "Tue, 16 Apr 2024 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Bikky",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Bojangles Joins Forces with Bikky for Digital Transformation - Food On Demand",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTk1BVTVDQzRBTFJDOFFOMTREUmY3LXJPMWNyQ3M0TFhqNnZqemxuc2kwT0t4SXA4Sy1NRTBMTkV4Y01tNkRkRTVTUjc4NXRRRFRUeGU3YkRaT1J5YmlZRXUyM25RZ2k0OGp2Q1M0dTVnUDhKbFJpYnVEQnJuNFY1U3lXVTFxRzR0Q2VSZ3JxelZSb1VXcjdBdUpvMA?oc=5",
+        "date": "Wed, 27 Mar 2024 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Bikky",
+        "type": "private",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Bikky Partners with NYC\u2019s Leading Restaurant Brands to Bolster Data and Marketing Capabilities - GlobeNewswire",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOVGpTN1NhZVlXckZkalAwSHYyMVQwaEQ1VklnVEF1TUJqd1VidDVmb1I5Z0p1TllPY2F4allKWEFrLWxFOFMxa2ZnV1FnVVpPd1F6eF9wOGI1WkZPQm5zZTdRSGhNVThyQzB1X0tSREZvYUFZVU1ZUHRUWmx6Ny1FSUdxZnRQQ1U3OHdLZkxtbnAtX0VjNWxlQW5aLUJrbGMwMDNnVDJoa3BRV3BOVFM1S3ZBX3BUYXNXMTFOQ1dkNFdqeGJFVnIzb3YzYXRDNkZNcTZVM01acHRna1dNZ3FBNExfOFlidjIwLVFXOFZsTTFSaWQwTW1keG5R?oc=5",
+        "date": "Tue, 13 Jun 2023 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Bikky",
+        "type": "private",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Restaurant customer data platform Bikky raises $5M - Restaurant Business",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdEhuNW5mRmM0a0VjZzVKRUZIM0UtMTlHeHJLOURYcUwtRE1sbzhVS1NMM25UYm5DUDEyZUVVLWJpY0VtOHRiVzRrVTY5Q2JhakVELUtvZE1HQkN2RlA5ZEQyQ1pidzBZZlJ2RnVyOVhobHI0RFFwX2xfTk93MGRVTm5hNVRjNl9oeDZVMmU2WFFVWVdPQ0Q0UEFuZGY1UQ?oc=5",
+        "date": "Mon, 12 Sep 2022 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Bikky",
+        "type": "private",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      }
+    ],
+    "Uber Eats": [
+      {
+        "headline": "Luton restaurant up for Uber Eats award - Luton Today",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWnBWMWVLcnc2VDlGZDIxUEEwSTJtTWhPVkRyZmw3SkVJcXF4U2hndnZWTVotaW02NE54RE52WWZwSUZPZDRYWlFlb2FPTGUydGdvZmhwNjNBVE9jUElRUnZQQXFhUFdwUlBvaENEeENvUnJuMXNpX29YR0xqYzhCMUxCRDAzSkJoU1lWV1llY1Jkdw?oc=5",
+        "date": "Tue, 21 Jul 2026 13:16:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Major restaurant chain launches on Uber Eats with Tokyo Drift-style stunt - The Sun",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbzFYSlZ3RU1hbVFvQ09pZU5LUF9zazNLTkVYX0xRT1JxVThZdVFXQ0NzRWhJUk5JZU1PWlMtNDVTd0FBZTBJRGxraUNORkJxQzg3ZE9BV0VuQk5jQy1BU0JqcXIyUVpWaTJBOFFuNVdLM2JFRl9LcEoyOUprUE9QMUtmSnRjSW5XWWFBdXBqZ205UmxkcEE?oc=5",
+        "date": "Mon, 20 Jul 2026 16:04:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Kingston restaurant in Uber Eats\u2019 Restaurant of the Year 2026 awards - Kingston Nub News",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSmxCWF8tNFhsSFNwRmlIU1RFTmVoakc0S3A2cGctNWhKU3BpclJ2U0pEZ0xucFBPcDdzZ3lnelNqRjR2cldjQ2Mwblp1TTJUOTNzcnZSWVduV2EzNTVuWWtDblhUbmV1MkpHOHFaWEMzUm1tWXZFNFlEU2pXWGI4WWt2OVF1S3JxRWR3WFBoYmd3V01oV0NjY0pKbEV3TW5WS3J4WHlmNl9VSjg0QzZ1Z3ZiZFFzVDA?oc=5",
+        "date": "Mon, 20 Jul 2026 12:18:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Need A Gaming Console Fast? GameStop Is Now Delivering Through Uber Eats - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRTdBNkE1ZlpUcmYyS1o3TlVXR0duZ1B0M2szSjAwNkpQVUFNQ29GYlZFTzZlNmNYZ3IxWHUxckhPSFRnbDNVdmhVaVR3dFRJMWdLbzNJVU1pa2lXeE1ranl5emd4b0xhVFpFeDJvTFd2YzhLM0JzY2RocXZaUTJDdE95amlvRFJLV1QyRkd1N2hqQzVLRFRPeThNOG5naDgtU1lMUWUxN2ZINGdmV0RRVVU1VjludWkzYW9mT3QzSS1na0FyZlVTc09rS2I?oc=5",
+        "date": "Wed, 15 Jul 2026 13:01:06 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Restaurant of the Year Awards 2026 - Uber",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8wY2tLVFBKZzMxVzBSRHBlVjViQTFGTVhXb05KUnZ3dkpheGE1MUMxY2o5akdWNFotcmllT0lsdHJpTkRMWVRLSkszWTktWU9GbmZlRVNvYTVwRktCd016S0l1dk1rR2t1emZxcmlGWW5ZZw?oc=5",
+        "date": "Wed, 01 Jul 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Uber Eats Bags C\u00f3rdoba with Oversized Restaurant Takeovers - Little Black Book | LBBOnline",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE85SENtU3U5VU15cWc4NU8taDBndTRrUUtLUUc2V0pEb1FXSThHMi1EUTdBdl9kV2F6U3dvM3FORTBuN1hJTWFHQi1Gai1PZGFVcE9yMVBoVm5FSXA5?oc=5",
+        "date": "Wed, 03 Jun 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "The reimagined Uber Eats Pro program: Coming soon to select cities in California - Uber",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBVbTZMX3NaVFRiOVhWb2gzTmlzT0FQVmVuc05CQkVza2dZLWdCdU1GdHlmcExUMjdTd3Y4RHVNZVpDYnhiQTMzMF9WRUxxTDdyZ0VIbTQ3WDVyUGJRdDZzNDZ5cWE5Yzht?oc=5",
+        "date": "Mon, 01 Jun 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Uber Eats quietly expands its robot delivery in Center City, restaurants say - Inquirer.com",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOODlId3lQOHlpOUc5TDVJd2puVVRMVmZiOE85Y0RSdmR2TnJpYXMxbDVKV1piYlRvdFFjVzNCX2did2JZcTJ2dS14d0FqV2dLQ3NJU3B2TmtCVTVSNXd4bEV5elhra2N3dXVkbGhpV2dKaWIzSHhfZENaX1h1SGc0SDlkbDNrczI2dGRvZA?oc=5",
+        "date": "Fri, 15 May 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "$188K in Delivery Fees Forced This Restaurant Owner to Ditch DoorDash and Uber Eats: 'That's Losses on Us' - entrepreneur.com",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSDBkYzhickw5eWptbDlkTXc1TDlHRFBjTkdBV25fSERUOVF2OXY5V0hHMXhQdEwxQXh1UDlaTjVNX2hIQW94bW5FNGVOSVdtYjlrSnl1RjlNNmZFQkNVelpOY0ZvczFBQmFKejlsRXdJY0RDNmh6eEVIdi1wQXJUd0ZNOEJfNzQ4WWtlVy1NVW4zUmo5Y28xdzBqQUpBLUNQVXcyUU16cTRRSGtQTUJLVkQ2V3VRd0hnWXBTQU1rYjBoSDlMZExobkMwa1pleGdvSVdLaFB3SXpQa0Fv?oc=5",
+        "date": "Tue, 28 Apr 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Next-Gen Restaurant Recommendation with Generative Modeling and Real-Time Features - Uber",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LZzJHeUdreENVT3N1TGZSRVJIcnFIQWs5TGFkd01zSXZDRE1WWEhoYzFCYmFhb3pwZ3V2UUkzbGkzME5wU21VTjJSYU11X2NzVUNyN3MzeVB3RjNWOWxMcG5OdnVWajJMQzdpTDh3R2FvcEd3VlE?oc=5",
+        "date": "Fri, 17 Apr 2026 09:01:02 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Why Rave Restaurant Group cut ties with Uber Eats - Restaurant Dive",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUmxaWTVpYTNKdVVNalJsNkhZMnNGcWpCMU1md19zbkZuWXVTNUV4Wms3X3BKamdyemxqbTVWeXl5VGY3T0xuM3c3Q3lnMmNpUXJrd19aVjdhaUI1Ul9QVFNDZE5uTmYxNWJQTjVoZlpVcVVkbXZzcUk3VnRhbHlpNk1TTkNfVzdxbGNWaG1wMFJzMjdETmxaX0Q4QW1jdlFHUE9IMEpBdFRHZlU?oc=5",
+        "date": "Wed, 01 Apr 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "The Dish: Delivery apps are squeezing restaurants, owners say. Your wallet may be next. - The Baltimore Banner",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOVc4V1V6QWp5SVRQVmV5VHFLVlZ0cWZQR3A2NGtTV19wd2o1c2UwQ3MxN2VxNzEyMGlBbG10NEoyYnhPcUVzMWp0aVZ4UFZHSmt3eGl3T05mckhMVXZfRlNqT3NOaUF2VG5waExTbnlDbl9jeTQwQVVYc29BLXZQUUY5ai1ZSHlGOWVqYmhpaDRkVjNHVTRKREtabUdfV0RxeEZhMGIzclZCaG0xQTdmMU5Wa3VDTUU?oc=5",
+        "date": "Wed, 25 Mar 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Pie Five owner cuts ties with Uber Eats after fee hike - Restaurant Business",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYkdyQVFkVkpGMHVnaGtHbGtfRi1rTWhaVm9CWjUzNzZsVE5la3RCQUhrOXVmMktmVzF5OXpZN253YnN5aXVILVdRNTNmOW16MGNnS2gtS3d1TXRJcnA2cEk3dmVwYTR6OXBydnFtc1JUYnRCSVNhcEI1bWYtM0o2Q09TQzNjVTA3YkhSbjJVQzBpSGo0YUkwZjYybDB4UQ?oc=5",
+        "date": "Tue, 17 Mar 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Uber Eats raises marketplace fees - Restaurant Dive",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNczNPeVhpaXlUY1R3bE1oS2t1ZElUSTBMNFR2S2xQaml3N0poVGh6TTBRQlBwZXMyRHliaDRfQUFta3dobk9YYTZNS0pVaDdSa00xSHZVSENlMnJtblZpaFA3VWVQajYzelNXTUFxMUlCMXVxRUVZbWdOVUw1Nm1OM3BKNGRPVDQ?oc=5",
+        "date": "Tue, 10 Mar 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Uber Eats is raising delivery fees for some restaurants - Restaurant Business",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVXlFRzZ0elNSQnhXckp3cjhEVU9zR1N0S1lOS2t2VUV4OVB4SXVQMlFpcnNMSmJSV2hfYmV4aGZ1QjVWVTBhczVDa1J4YkxFdi1TUjJwQkstM1h0NFhNU2xvajAxVnNfME5YWTMwMXNLLW5MSlFiMkphYUZyc0JCRFZjSWtlN2hOLUNRcDc4ZDc2TlFOUHAzcFlWNFU?oc=5",
+        "date": "Sun, 08 Mar 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      }
+    ],
+    "Lightspeed": [
+      {
+        "headline": "Lightspeed Commerce Advances Unified Commerce Vision with New AI, Payments, Fulfillment and Operations Innovations - AOL.com",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZW1JOHlWOHBoeHk3cG9KWHp2Z2R2OWg4ZTRUQUI0LURCZ2syZU9mU0dhMUotQUxUUWlOSWhZdnNydjlkNUl0NVYzSzM3SlZwWVRwQXpsNE5oQjlDRldTTGRENnJNd3E5dDdDdE9rNlZQYkVwOExtZWNnMmFWSXlQN0VfdG91Z0wyV3FiZGY5QmlUSnM?oc=5",
+        "date": "Tue, 21 Jul 2026 09:46:52 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "AI-Powered Retail Tool Expansions: Lightspeed Commerce Updates Its Retail-Focused\u2026 - Trend Hunter",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAwWHZhNzI2cmVLeDFWZEFlOU1xTXBLc0hfTVlvVmotUGRBV2tzbFNKcUJiZUpvMjQxek5qQ1RzZHVvZmZ1Nnl3cGRxa0Fqcm42UXB5ejVtc3h4TkI3SVctc0MyZVFaUQ?oc=5",
+        "date": "Sun, 19 Jul 2026 12:12:19 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Lightspeed Commerce Launches Innovations For Retail, Restaurant Platforms - Moomoo",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMHFmcUJibmVwYUxGT1hOUDZudTdQWVVqRkFwdURoLWxLWWIwbVVsRGt2RTB3Mkp4NXZnZzNNSGN4WGFsbzlMbDZzQXpvbEJjY3ExVkxhMmw2dWZ5b01Db2ZsY2hxQ3dRNVRaQ25OVFRJcEllYkxPaXllUzFKRGwtR2pVMEJtdUxzUFkxTk9qcjBfbnpsUEJCSkduV2hVcmx4emtyNXRsR3h5clVZNFBFRi11RXI?oc=5",
+        "date": "Sat, 18 Jul 2026 01:48:19 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Lightspeed Commerce Inc. Announces New Product Innovations Across Lightspeed Retail and Lightspeed Restaurant - marketscreener.com",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNMnJ4NWlyV0N4aEhxUUdtY3I4YXEyV2NOMTZVY0NTSDlfT1ByWVQxTm1GM2dqM2d5V21RTXJIX1NvQVJDWW5BNTViN2ExcEZfSnRlSDNxOHNrN0tZc0xqZ3pneTdzRTNiSF93ZW5yV0NmMTNNNHFFRjRVdHFvUkI4S1FQT2YwcWlCa3k2elVtXzJHUVhKWkR3RzgycUNmQmtVLWZ2Q2I0OFVqb3AycGppZjNQajZnOUFVem90MmRMdEZwenp6S2lRbkgtOUhFMi1LaVdYMGtKUnp1cjd5Z0tDRXhVNm41RWs?oc=5",
+        "date": "Fri, 17 Jul 2026 13:22:29 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Lightspeed Commerce launches new AI, payments, fulfillment, and operations tools (LSPD:NYSE) - Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNR2hubkxxRy1VaGdrR0JjdlZVNXcxbzJ3ekdtbHZKbV9NeS1FakJrRmV5TXN2MDFRWlJNeFRnMUM3dm0ycjVIUlVhek9mRFFFSm1ELXhSdGthUFRxamtxS2NrT2NLS05oMTJ1RHE0VmdSQ0FQWXctTmRpTVFQZTBmdXR4VEpHbS1PekJzR0pyYUpjNnlGYzktWDBabmlPc3BjVGsyaXBJNkIzQ1U1OXczTUhWWkQxUQ?oc=5",
+        "date": "Fri, 17 Jul 2026 13:18:36 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Lightspeed Commerce unveils AI and payment tools for retailers - Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPV2tBNUNZckFMQmxoQTdWOFNGU3FlVXZIREEyYlFQeVk2d1hsZDFwQVF5ODNVYjlkWG42c1I0ZDF4YW41bHFzaHFoVkZzM3V3bXctYXpxWENYcy1YMEYzNUtlUzZLVDl4UnJKU0hHRzFqN3Z3VUhaengwZ2VweWxCUHZrUTFWckZ4ci10UGF0WXhDSjlKbUVzOTJvWFJQcUV6TEQzaWxGeWZ0YUhWYUJqNmg4TDB2Y0Jra0Vr?oc=5",
+        "date": "Fri, 17 Jul 2026 12:25:40 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "How Lightspeed\u2019s Deeper Klaviyo Integration At Lightspeed Commerce (TSX:LSPD) Has Changed Its Investment Story - webull.com",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DQVBQYmxQWkxjaEdEUDlwLXR5blQxSHV2QnBiaEc3WXc0TVVaSjZ3UFRveTFKcTVWajVhZmdFX0Y2UDluQmNYTnZtRG01bnZiUGMxSGtpUk0?oc=5",
+        "date": "Sun, 12 Jul 2026 14:32:03 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Lightspeed Commerce Inc. (LSPD) Dips More Than Broader Market: What You Should Know - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVVkwamxIWEFZdmhrSHo1b21oUldrUW4zMjFtQV9ITEFZQ0tyTTNzN0ptQlZoV3ZZYkZhd1RBR2Y5Rnp0MVM0UXBXNkJTVjgxd1VVTGl6enJfSFRoNHA1bHhwX0JkMzNGNWloazJ3UkgxdkpwQmhaUWkzVkYtMDJRaXRDVlNJY085MTduaTRSNGFEdGlMdDZjQkt4UTRTcmc?oc=5",
+        "date": "Wed, 08 Jul 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Lightspeed Commerce Inc. (LSPD) Advances While Market Declines: Some Information for Investors - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNW4teXFIVnhQck1hZGFGODYyQ0FibHZRaEtZdXc0REpYQ1FkSzVtSGwwcDR5ZGgwQmU4REcwaGZ5NTVXOENkZnlNOWthME1KdXRXNFdwOTc1YkFUelFJR1F1YmlOLUVvaU1aMmQ0SzduaGRBNmk1U3JCa0xkQ3NLSGhsN1JQXzVDYWJjMEh6NDdZbnE1bTBHMzNOMGx4ZVlEUVNiUQ?oc=5",
+        "date": "Wed, 01 Jul 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\u26a0\ufe0f",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Lightspeed Commerce Inc. (LSPD) Suffers a Larger Drop Than the General Market: Key Insights - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVUVtbkZyX1c5TjNUeTExaVF0NklOUG1hNmJoOW83TjJKMUNSSDhaV05oenRrVWgwbDA1X2U4dUJSZ1VFZU9xTm4wMHdtUU0zTm53bWlVNFZWQXItOVVfNmpnNGZSZ2dxVmR2TG9VRGZoOUE1ajRydHRiaEM0ejBCTGVyOWJBbDZJLWFFTWxGOHBzeFVadmxQUk4zdDFNVUdydk5B?oc=5",
+        "date": "Thu, 25 Jun 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Lightspeed Commerce Inc. (LSPD) Stock Moves -2.43%: What You Should Know - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaUlObV82QTNoZ3VPak1GbTFpRkszU1lXYTJITzhvVTh5SFBzbGhfNndoVG9uTWszXy1Ib19Ec0lGcHdUSzBOVkFiaG14d3FHQjc5SnRkV0U3YWFNNkJ5QS04aHZKdGVxeHJuaHFLdWEwWTNuR3hOa2dTLU5oNHZMdFYwYmJ2YlBJY0ptRDd3aWk0LXlROTktSUlDOHBEOUpn?oc=5",
+        "date": "Fri, 05 Jun 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "CFO Corner: Asha Bakshani, Lightspeed Commerce - Global Finance Magazine",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQV0RQX1U0cnZGVUlvSHI2ckVvSzBpWDBnZC15UmN6RHhUZDItSVhGdHFGYkprNHpCLWhKYnplaW50YjRTbGwxLVdSaEhtY3JBaVRmWG0zcnNBUkFSV2FfdzlIeE13U2tOZ09adnE1VjAzd3hsc25Zd0tpbWdrSG1hZUtXeEMtMGdXYXl5Yg?oc=5",
+        "date": "Tue, 26 May 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      }
+    ],
     "TalonOne": [
       {
         "headline": "Adyen Names New Product Chief and Interim CFO After Talon.One and Orb Acquisitions - thekeyexecutives.com",
@@ -477,158 +863,6 @@
         "content_type": "press_general"
       }
     ],
-    "Uber Eats": [
-      {
-        "headline": "Major restaurant chain launches on Uber Eats with Tokyo Drift-style stunt - The Sun",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbzFYSlZ3RU1hbVFvQ09pZU5LUF9zazNLTkVYX0xRT1JxVThZdVFXQ0NzRWhJUk5JZU1PWlMtNDVTd0FBZTBJRGxraUNORkJxQzg3ZE9BV0VuQk5jQy1BU0JqcXIyUVpWaTJBOFFuNVdLM2JFRl9LcEoyOUprUE9QMUtmSnRjSW5XWWFBdXBqZ205UmxkcEE?oc=5",
-        "date": "Mon, 20 Jul 2026 16:04:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Kingston restaurant in Uber Eats\u2019 Restaurant of the Year 2026 awards - Kingston Nub News",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSmxCWF8tNFhsSFNwRmlIU1RFTmVoakc0S3A2cGctNWhKU3BpclJ2U0pEZ0xucFBPcDdzZ3lnelNqRjR2cldjQ2Mwblp1TTJUOTNzcnZSWVduV2EzNTVuWWtDblhUbmV1MkpHOHFaWEMzUm1tWXZFNFlEU2pXWGI4WWt2OVF1S3JxRWR3WFBoYmd3V01oV0NjY0pKbEV3TW5WS3J4WHlmNl9VSjg0QzZ1Z3ZiZFFzVDA?oc=5",
-        "date": "Mon, 20 Jul 2026 12:18:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Restaurant of the Year Awards 2026 - Uber",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8wY2tLVFBKZzMxVzBSRHBlVjViQTFGTVhXb05KUnZ3dkpheGE1MUMxY2o5akdWNFotcmllT0lsdHJpTkRMWVRLSkszWTktWU9GbmZlRVNvYTVwRktCd016S0l1dk1rR2t1emZxcmlGWW5ZZw?oc=5",
-        "date": "Wed, 01 Jul 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Uber Eats Bags C\u00f3rdoba with Oversized Restaurant Takeovers - Little Black Book | LBBOnline",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE85SENtU3U5VU15cWc4NU8taDBndTRrUUtLUUc2V0pEb1FXSThHMi1EUTdBdl9kV2F6U3dvM3FORTBuN1hJTWFHQi1Gai1PZGFVcE9yMVBoVm5FSXA5?oc=5",
-        "date": "Wed, 03 Jun 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "$188K in Delivery Fees Forced This Restaurant Owner to Ditch DoorDash and Uber Eats: 'That's Losses on Us' - entrepreneur.com",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSDBkYzhickw5eWptbDlkTXc1TDlHRFBjTkdBV25fSERUOVF2OXY5V0hHMXhQdEwxQXh1UDlaTjVNX2hIQW94bW5FNGVOSVdtYjlrSnl1RjlNNmZFQkNVelpOY0ZvczFBQmFKejlsRXdJY0RDNmh6eEVIdi1wQXJUd0ZNOEJfNzQ4WWtlVy1NVW4zUmo5Y28xdzBqQUpBLUNQVXcyUU16cTRRSGtQTUJLVkQ2V3VRd0hnWXBTQU1rYjBoSDlMZExobkMwa1pleGdvSVdLaFB3SXpQa0Fv?oc=5",
-        "date": "Tue, 28 Apr 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Next-Gen Restaurant Recommendation with Generative Modeling and Real-Time Features - Uber",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LZzJHeUdreENVT3N1TGZSRVJIcnFIQWs5TGFkd01zSXZDRE1WWEhoYzFCYmFhb3pwZ3V2UUkzbGkzME5wU21VTjJSYU11X2NzVUNyN3MzeVB3RjNWOWxMcG5OdnVWajJMQzdpTDh3R2FvcEd3VlE?oc=5",
-        "date": "Fri, 17 Apr 2026 09:01:02 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Why Rave Restaurant Group cut ties with Uber Eats - Restaurant Dive",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUmxaWTVpYTNKdVVNalJsNkhZMnNGcWpCMU1md19zbkZuWXVTNUV4Wms3X3BKamdyemxqbTVWeXl5VGY3T0xuM3c3Q3lnMmNpUXJrd19aVjdhaUI1Ul9QVFNDZE5uTmYxNWJQTjVoZlpVcVVkbXZzcUk3VnRhbHlpNk1TTkNfVzdxbGNWaG1wMFJzMjdETmxaX0Q4QW1jdlFHUE9IMEpBdFRHZlU?oc=5",
-        "date": "Wed, 01 Apr 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Get hungry Boston: the UberEATS app is here - Uber",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1BYVl5Z0JIVVBDSW1YUFdvU2lDdmc5MkRiMlFtZFNzalUxV182NmdkbGdITHdNcjB6WjZCME1FaWxFOXV3ZFNNQXQ0X1dKV0hxRk1wWjBod1Q2MmVNdFk5WGo2OWZTbjdQSjNJZA?oc=5",
-        "date": "Wed, 25 Mar 2026 11:55:57 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "The Dish: Delivery apps are squeezing restaurants, owners say. Your wallet may be next. - The Baltimore Banner",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOVc4V1V6QWp5SVRQVmV5VHFLVlZ0cWZQR3A2NGtTV19wd2o1c2UwQ3MxN2VxNzEyMGlBbG10NEoyYnhPcUVzMWp0aVZ4UFZHSmt3eGl3T05mckhMVXZfRlNqT3NOaUF2VG5waExTbnlDbl9jeTQwQVVYc29BLXZQUUY5ai1ZSHlGOWVqYmhpaDRkVjNHVTRKREtabUdfV0RxeEZhMGIzclZCaG0xQTdmMU5Wa3VDTUU?oc=5",
-        "date": "Wed, 25 Mar 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Pie Five owner cuts ties with Uber Eats after fee hike - Restaurant Business",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYkdyQVFkVkpGMHVnaGtHbGtfRi1rTWhaVm9CWjUzNzZsVE5la3RCQUhrOXVmMktmVzF5OXpZN253YnN5aXVILVdRNTNmOW16MGNnS2gtS3d1TXRJcnA2cEk3dmVwYTR6OXBydnFtc1JUYnRCSVNhcEI1bWYtM0o2Q09TQzNjVTA3YkhSbjJVQzBpSGo0YUkwZjYybDB4UQ?oc=5",
-        "date": "Tue, 17 Mar 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Uber Eats raises marketplace fees - Restaurant Dive",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNczNPeVhpaXlUY1R3bE1oS2t1ZElUSTBMNFR2S2xQaml3N0poVGh6TTBRQlBwZXMyRHliaDRfQUFta3dobk9YYTZNS0pVaDdSa00xSHZVSENlMnJtblZpaFA3VWVQajYzelNXTUFxMUlCMXVxRUVZbWdOVUw1Nm1OM3BKNGRPVDQ?oc=5",
-        "date": "Tue, 10 Mar 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Uber Eats is raising delivery fees for some restaurants - Restaurant Business",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVXlFRzZ0elNSQnhXckp3cjhEVU9zR1N0S1lOS2t2VUV4OVB4SXVQMlFpcnNMSmJSV2hfYmV4aGZ1QjVWVTBhczVDa1J4YkxFdi1TUjJwQkstM1h0NFhNU2xvajAxVnNfME5YWTMwMXNLLW5MSlFiMkphYUZyc0JCRFZjSWtlN2hOLUNRcDc4ZDc2TlFOUHAzcFlWNFU?oc=5",
-        "date": "Sun, 08 Mar 2026 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Everything to Know About Uber Eats for Restaurants - Business.com",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBWcDNnaE1yb1ozd1J4VDhYTXAzY3QwM0NMZTh3NXJCRVM5WFhhOG1TS3hSSE9QbGNKaFpwMTFCaHFIV3ZCSzNjTS1OU21McnpMWnlsUmpRNXNDWTVFXy10Q1EyS0FJWDVHSlNF?oc=5",
-        "date": "Tue, 13 Jan 2026 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Restaurants on the New Path to Purchase - Uber",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE41ckNVeVhESDlJSmN0UExUX2E0SjRucjgxMTR0UFByZDZhS2dLMFdoREs3RUtWY2tTT1F4OUlxRDZHRTBray01aHlVNkxnV2xmaTBUSkVReFBnY0M5Vmw4cU4wR1o2T21aRzVuOGtn?oc=5",
-        "date": "Thu, 11 Dec 2025 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Silver\u2019s Deli takes gold at Uber Eats Restaurant of the Year Awards 2025 - Uber",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBVdGJjRDNqXzVoRUJlSmhQUUhKZGRaNnlVZlpZeVVwcUZ3cTdYZXROQTdPa0pPV21keG1zcTdlT2dWUzlOdENSTXB4eG9ReGk5WmYzRWVsYjBXMG0zdmpYS3NfS0NaS2pnbjNuSGFMTHJ4NkFWeTlBajNyOA?oc=5",
-        "date": "Tue, 23 Sep 2025 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      }
-    ],
     "NCR Voyix": [
       {
         "headline": "NCR Voyix: Keep Watching From The Sidelines (NYSE:VYX) - Seeking Alpha",
@@ -751,16 +985,6 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Assessing NCR Voyix (VYX) Valuation After Q1 2026 Earnings Beat And Profitability Progress - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNa2U0V19rUVZxQnlsN3ZkZktvb1d1MldJWmRaSFdJb0tsQVBhVUFVN0FBMG1mN0l6MWtodHMxVjBRYm9OQXJJSWJnMk5KWWtseFNUWDZiWDRmQzVCUG1XWnBRT2hJQ1ZXZXVHRUhnYVlzZmstbm8zMTdwTFNuY1FfNEg1XzZmdU15UzcyMGt2SGFwMlUxc3ZwcGVheGVDNWM?oc=5",
-        "date": "Fri, 08 May 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
         "headline": "NCR Voyix Q1 Sees EPS Improvement on Strong Customer Engagement - Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONmJmN2Y3Y3FyVExFSmdMaURFM1Zxc3NLd0pZTi1LT1JKd1JsTk05VnBnMUQ4OWJZWUVydXNvMTZiVE4welBORDJKWGtBZ19DZGRGc3VsZUdhWlJudTFNR2xTd1NNWExmTmlaUVRxYkEyZndqSnc2cTFlTldCOWZjc2dlTEZDS01CM3FPcUZUNA?oc=5",
         "date": "Thu, 07 May 2026 07:00:00 GMT",
@@ -799,293 +1023,181 @@
         "company": "NCR Voyix",
         "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
+      },
+      {
+        "headline": "How The NCR Voyix (VYX) Story Is Shifting As Analysts Tighten Targets And Weigh Execution - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRnlzejQzNGg2MzBNVGRWYmI3OW8zeGd1alprOWJsbTdsWTBwMFQwUDhmYXl4aF9Fb0dRY1hyR01KZ2t4dDZCRG9oSmk3ckxUOWZTNXhvSXA2b2tUdEoyVVRKUzRNUklPMXRWZ1VZajF1VVZ5ajNhVWJzS1djd01VZlhBU0pXbEZ0S2dFcjFtdTBjY2FseU44ag?oc=5",
+        "date": "Mon, 13 Apr 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
       }
     ],
-    "Lightspeed": [
+    "PAR": [
       {
-        "headline": "AI-Powered Retail Tool Expansions - Trend Hunter",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9RVXl1Qm00OE5nODJhMkhDNmlxWFVWVWZnWjN4ZEVVYTktbzRyb240LXlBaDAtaFVXRU1nc3dIdzhsTU9mV0dvcW1RdXZpcWxwNEF6M1pfZDI4NHBjbC15NERKRW9BalNMMlhV0gFrQVVfeXFMT1FVeXVCbTQ4Tmc4MmEySEM2aXFYVVZVZmdaM3hkRVVhOS1vNHJvbjQteUFoMC1oVVdFTWdzd0h3OGxNT2ZXR29xbVF1dmlxbHA0QXozWl9kMjg0cGNsLXk0REpFb0FqU0wyWFU?oc=5",
-        "date": "Sun, 19 Jul 2026 10:46:52 GMT",
+        "headline": "Q1 Specialized Technology Earnings: Cognex (NASDAQ:CGNX) Earns Top Marks - StockStory",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTGN1aVF5TGs0cjRNVG9JXzBqa2s4R29MQ2JkT1FkOFZfZ0xfR0RjQmVIZE16QWNHbEdFS0pXamxsOHE5ODN1QUs4SUNoMTJwTXhsTmhycFI3Yjcwb2hPc21vRkxpS0YyRThFV2h2ZThJME9TVWNhb3JyaTJLaU5vLXFZeG9zZTVZdVdvUUFCTmVaLVJQelBUTTZvbmFraVNlVEZOUmhQX2VKRU8yVVMtajF6MlF5Q1ZHZ3JaczVIY0EwaGhqS1E?oc=5",
+        "date": "Mon, 20 Jul 2026 07:00:00 GMT",
         "source": "Google News",
-        "company": "Lightspeed",
+        "company": "PAR",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Specialized Technology Stocks Q1 Earnings: Cognex (NASDAQ:CGNX) Best of the Bunch - StockStory",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQR05TbnBPM05sMGIxSUlmcXhiQWs3RG81eTBsY1VKM2tRODk0SVcxalNtZ0FvMDNQTHhBbWh3UTNYOXg2dUU4bkR0VTNHMmxCOHk0MnZNOXpyQkNpZjItS1VUVzZ4Q2NVSjcxVmpBVERmZF9HdkpQYlJKZ2cySkN6cnZRWkhON1lZa1hMZmU3Q1FmN1B2MkNZSU9lLTlTSlhNSHNwZWljcGJnbTNSNlRKR1dUY0JyQ1FFOXM1S0VqTjZHby1MU25Ka05MTUwyMnhua3c?oc=5",
+        "date": "Sun, 19 Jul 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "PAR",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "US retailer Jacksons Food Stores taps PAR Technology PAR Retail solution for loyalty programme push - Retail Technology Innovation Hub",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOS0dMVnF1QlFRbVN1RTA5ZWlkOUFHSDk5WGhsWjQ3WEFNWUs1Nk92R3RJM2RINzJZXzFGN1FmcU82T25uMm5KMmhibU03X3pOM0FVOTRUSWVGcDVjek9KNDJZOG5CM0d2MjhWZ1Z2czNtandqUk5TX2dXRWEwTkpLYjFDdXpCaDZvSW5iRDNhcEg1OG1zMmNmYUlZMjlCbl9hcDNyT0RneWZ2Y0thRXdpYURwX3FpVXZnNHpkYTBaMUx0WXR1SUJkbS1QYUxWR2Ftc3VJU2RwU3BMVGpUckY2WUZ1bDExUQ?oc=5",
+        "date": "Thu, 16 Jul 2026 04:32:51 GMT",
+        "source": "Google News",
+        "company": "PAR",
         "type": "public",
         "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       },
       {
-        "headline": "Lightspeed Commerce Launches Innovations For Retail, Restaurant Platforms - Moomoo",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMHFmcUJibmVwYUxGT1hOUDZudTdQWVVqRkFwdURoLWxLWWIwbVVsRGt2RTB3Mkp4NXZnZzNNSGN4WGFsbzlMbDZzQXpvbEJjY3ExVkxhMmw2dWZ5b01Db2ZsY2hxQ3dRNVRaQ25OVFRJcEllYkxPaXllUzFKRGwtR2pVMEJtdUxzUFkxTk9qcjBfbnpsUEJCSkduV2hVcmx4emtyNXRsR3h5clVZNFBFRi11RXI?oc=5",
-        "date": "Sat, 18 Jul 2026 01:48:19 GMT",
+        "headline": "PAR Technology Corp (PAR) - MSN",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQnFkN1dYYnNWR1dhcUszNEZsTEk1Sy1TcjRfQ00tQ0N5SFpJS3R0RHBLUHZ0eTZiRHlzVVczS1ZDc3VjRFo0WVNJTGc0bVVoWEYtdVdhaHFPaV8wTGxBYWExblN6c0phUWhfZDM2bUduOTFzaFF2cGJSczZOUm9nZVRBbWoyVTg?oc=5",
+        "date": "Thu, 16 Jul 2026 03:37:02 GMT",
         "source": "Google News",
-        "company": "Lightspeed",
-        "type": "public",
-        "emoji": "\ud83d\ude80",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Lightspeed Commerce Inc. Announces New Product Innovations Across Lightspeed Retail and Lightspeed Restaurant - marketscreener.com",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNMnJ4NWlyV0N4aEhxUUdtY3I4YXEyV2NOMTZVY0NTSDlfT1ByWVQxTm1GM2dqM2d5V21RTXJIX1NvQVJDWW5BNTViN2ExcEZfSnRlSDNxOHNrN0tZc0xqZ3pneTdzRTNiSF93ZW5yV0NmMTNNNHFFRjRVdHFvUkI4S1FQT2YwcWlCa3k2elVtXzJHUVhKWkR3RzgycUNmQmtVLWZ2Q2I0OFVqb3AycGppZjNQajZnOUFVem90MmRMdEZwenp6S2lRbkgtOUhFMi1LaVdYMGtKUnp1cjd5Z0tDRXhVNm41RWs?oc=5",
-        "date": "Fri, 17 Jul 2026 13:22:29 GMT",
-        "source": "Google News",
-        "company": "Lightspeed",
-        "type": "public",
-        "emoji": "\ud83d\ude80",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Lightspeed Commerce launches new AI, payments, fulfillment, and operations tools (LSPD:NYSE) - Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNR2hubkxxRy1VaGdrR0JjdlZVNXcxbzJ3ekdtbHZKbV9NeS1FakJrRmV5TXN2MDFRWlJNeFRnMUM3dm0ycjVIUlVhek9mRFFFSm1ELXhSdGthUFRxamtxS2NrT2NLS05oMTJ1RHE0VmdSQ0FQWXctTmRpTVFQZTBmdXR4VEpHbS1PekJzR0pyYUpjNnlGYzktWDBabmlPc3BjVGsyaXBJNkIzQ1U1OXczTUhWWkQxUQ?oc=5",
-        "date": "Fri, 17 Jul 2026 13:18:36 GMT",
-        "source": "Google News",
-        "company": "Lightspeed",
+        "company": "PAR",
         "type": "public",
         "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       },
       {
-        "headline": "Lightspeed Commerce unveils AI and payment tools for retailers - Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPV2tBNUNZckFMQmxoQTdWOFNGU3FlVXZIREEyYlFQeVk2d1hsZDFwQVF5ODNVYjlkWG42c1I0ZDF4YW41bHFzaHFoVkZzM3V3bXctYXpxWENYcy1YMEYzNUtlUzZLVDl4UnJKU0hHRzFqN3Z3VUhaengwZ2VweWxCUHZrUTFWckZ4ci10UGF0WXhDSjlKbUVzOTJvWFJQcUV6TEQzaWxGeWZ0YUhWYUJqNmg4TDB2Y0Jra0Vr?oc=5",
-        "date": "Fri, 17 Jul 2026 12:25:40 GMT",
+        "headline": "PAR Technology Corporation Partners with Jacksons Food Stores fo - GuruFocus",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPb09jVFVwMFo2V1Awc3JXdmN4bEx3TlNHajlWb212RnAySDFuR3J3YWx3V3oyVjE3TXRqblVHMlRPU3l6bnpmVXI2eDdyQjN6TVNQWk5JUXZGandZal9pLWhkZVRLQ19TeWZIdmtXMTFfLTNyQXdvNThyR3NxbFpzdWhMblhyY3dBV0FLdTNpNk1aOVAzVlV6TE4tTWtlbFRFaXVxUEtKc0FLTHo2a3hwd2NBVGFXRUJmaU85YnlJbHFCRVgwSU4w?oc=5",
+        "date": "Wed, 15 Jul 2026 13:51:55 GMT",
         "source": "Google News",
-        "company": "Lightspeed",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Lightspeed Commerce Advances Unified Commerce Vision with New AI, Payments, Fulfillment and Operations Innovations - PR Newswire",
-        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPUTRBTnFQX1dtTm1PU1kyRDJkYUpKSjFIVDd5Y0tpcDhETXBhSkZEMDZKUU1vZ2JfWjl0b2t5NlFIRXh4WGdoMWJKOXdGRzZLV2ZXYVNtVnRkWUVOUEp6Rm82NU1tSWdsWkRLcGw4NjItSGE2Mmk0UGIwcU40QS1NNzVnS3pkZEpnY0ZEN0pvZWdjVEpaa0RKdGI2TG1DTFdaemVxbkVKeW5HLXNXUFJaM0RTRlc5WFdlSThRS2tCLUxubFQ5bUd5azBOMkJ1MmY3Y0pBZFBoRHI5aGJmLUQ3N2JJRHh3YTgwbTRSaWtMeEJ2cGh4R3dfcGVSYmo?oc=5",
-        "date": "Fri, 17 Jul 2026 12:00:00 GMT",
-        "source": "Google News",
-        "company": "Lightspeed",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "How Lightspeed\u2019s Deeper Klaviyo Integration At Lightspeed Commerce (TSX:LSPD) Has Changed Its Investment Story - webull.com",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DQVBQYmxQWkxjaEdEUDlwLXR5blQxSHV2QnBiaEc3WXc0TVVaSjZ3UFRveTFKcTVWajVhZmdFX0Y2UDluQmNYTnZtRG01bnZiUGMxSGtpUk0?oc=5",
-        "date": "Sun, 12 Jul 2026 14:32:03 GMT",
-        "source": "Google News",
-        "company": "Lightspeed",
+        "company": "PAR",
         "type": "public",
         "emoji": "\ud83e\udd1d",
         "content_type": "press_general"
       },
       {
-        "headline": "Lightspeed Commerce Inc. (LSPD) Dips More Than Broader Market: What You Should Know - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVVkwamxIWEFZdmhrSHo1b21oUldrUW4zMjFtQV9ITEFZQ0tyTTNzN0ptQlZoV3ZZYkZhd1RBR2Y5Rnp0MVM0UXBXNkJTVjgxd1VVTGl6enJfSFRoNHA1bHhwX0JkMzNGNWloazJ3UkgxdkpwQmhaUWkzVkYtMDJRaXRDVlNJY085MTduaTRSNGFEdGlMdDZjQkt4UTRTcmc?oc=5",
+        "headline": "PAR Technology Enhances Jacksons Food Stores' Loyalty Program - GuruFocus",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPemVwSHRCeFBQSlNST3V2bWJyZDZCUXdMQXVsdDIyalhTejhKTzU4alpLUzZDcmM5VHhGamVsSzAzUWFGUlJUX1lUX0l3SDlFRVBsNmxrdnpnYW5rdkQtUV9nYzNuLTNzd1FGd21SVDIxdmxfS0pfX3VHTFhGN2JiSU96SVRFUWpTNW02NGpyREZpMmMyRHZ4aFlPdFlPN1FFd0RrdnJDQjdRWUlIeWg4NUpaV0tBTlhJRjIxUlIwdEtORGEwZDM0c0VYRGJrZU5qbE1NTXdB?oc=5",
+        "date": "Wed, 15 Jul 2026 12:35:36 GMT",
+        "source": "Google News",
+        "company": "PAR",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Jacksons Food Stores Evolves \"Let\u2019s Go Rewards\" Program with PAR Technology - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOS3kxYUZyYVRCb3Z3LS12SHMxaG9wV1dHM21kWEM3RXBjaXFQZUVjQmhENzJDYkYxOUdXRWtwV0V4UkFLcjJ2R0hoNy11Z1p5alRkY3p0NlRwQVJYTGRJR2NPeG9RUG1RZGtGQ1NrYzd6c3dESzhyWW9kRC03SG5mVFc1b18zcmRTUFFDSklzX01rYkgxZG1RNw?oc=5",
+        "date": "Wed, 15 Jul 2026 11:30:00 GMT",
+        "source": "Google News",
+        "company": "PAR",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "PAR Technology Price Target Raised to $20.50/Share From $18.00 by Goldman Sachs - Moomoo",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZjVSWU01M1lfVVdjZTN3VXFtaWh6d3NCQXNFRk5ZQnJxZnRFdjNnb0VkOWFsMkp0RlVYcTRIZVV2aFhndmRVaUxqU1BpWGFVNlp5VlBjRlNZcVVHSkhOVnVUcS1CSmtETnRzQ3M0MmJBZXZnNnNWSlhiNDFDeGZWaVNLb3VFQUZqcEdsTTJkdlp3VTJHRTI1YjlrZGU?oc=5",
+        "date": "Thu, 09 Jul 2026 18:14:00 GMT",
+        "source": "Google News",
+        "company": "PAR",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Gold Star Chili Expands Partnership with PAR Technology to Fully Unified Platform - Business Wire",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQjJ5TldnNVFIQlZYR2REN1FRb1FUUXBuOUplanI4VnhmRUQ3X0F6N1lFQ2F4WEFoMTJ2MEJEOF9sa0E5WWFTTXR1NTVib29SQnlia3lCQnlhRUlJSFRiY2dqOTNfMUVBT05CeGk1b2EzYWFfR1JaQWI0Q3Q4b3hVOW1UMTF3YVZiSWdNT3pGb3dCdm9UUmF3ZkdkMGFpdWhHUUsxdThtdTc0Q3gybVVwd3RQT3Q3ZkkwbU5rYWxlUmpYcXNxbnhWWTlQLW9xYWQ2a2tQVQ?oc=5",
         "date": "Wed, 08 Jul 2026 07:00:00 GMT",
         "source": "Google News",
-        "company": "Lightspeed",
+        "company": "PAR",
         "type": "public",
-        "emoji": "\ud83d\udcf0",
+        "emoji": "\ud83e\udd1d",
         "content_type": "press_general"
       },
       {
-        "headline": "Lightspeed Commerce Inc. (LSPD) Advances While Market Declines: Some Information for Investors - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNW4teXFIVnhQck1hZGFGODYyQ0FibHZRaEtZdXc0REpYQ1FkSzVtSGwwcDR5ZGgwQmU4REcwaGZ5NTVXOENkZnlNOWthME1KdXRXNFdwOTc1YkFUelFJR1F1YmlOLUVvaU1aMmQ0SzduaGRBNmk1U3JCa0xkQ3NLSGhsN1JQXzVDYWJjMEh6NDdZbnE1bTBHMzNOMGx4ZVlEUVNiUQ?oc=5",
-        "date": "Wed, 01 Jul 2026 07:00:00 GMT",
+        "headline": "Arlo Technologies, HNI, and PAR Technology Shares Plummet, What You Need To Know - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ3Jmb3d2T0tobVVqYkdySkthUlR3eVhtVFRUVUhDLUo3djFQVVQyV0gxdzBtRVNIXy1ra3NSX3FZbjAxSEc3Y29xNXlxMU1sQWNobXhxeVl0WDAwM2RnVXJNOEdHWEkwM2t6LU9kRTRNTDZQYnNwQXQyVGM2bUNlV3FrWFp1c0kyU2xTWWs4c282UEVzRzRadHl2WjlGdGVYUzBN?oc=5",
+        "date": "Wed, 08 Jul 2026 07:00:00 GMT",
         "source": "Google News",
-        "company": "Lightspeed",
-        "type": "public",
-        "emoji": "\u26a0\ufe0f",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Lightspeed Commerce Inc. (LSPD) Suffers a Larger Drop Than the General Market: Key Insights - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVUVtbkZyX1c5TjNUeTExaVF0NklOUG1hNmJoOW83TjJKMUNSSDhaV05oenRrVWgwbDA1X2U4dUJSZ1VFZU9xTm4wMHdtUU0zTm53bWlVNFZWQXItOVVfNmpnNGZSZ2dxVmR2TG9VRGZoOUE1ajRydHRiaEM0ejBCTGVyOWJBbDZJLWFFTWxGOHBzeFVadmxQUk4zdDFNVUdydk5B?oc=5",
-        "date": "Thu, 25 Jun 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Lightspeed",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Lightspeed Commerce Inc. (LSPD) Surpasses Market Returns: Some Facts Worth Knowing - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOR1BRNU5MOENic2p3Nklna0lqajM4U2VsbmNzUmE4aGdKdHdUdEM2NE0xT1ZBa21DQVg3MFo1aFdsVmlieXQxM1dqcFc0cFVRbHF6bVBpRTdqNldhdUhnM0I3X1g2NDk2bHFIZVkyMHQ3Z3FDX2tRZXlFcmJzcnNjTHhOOTkxY1hVV1YwSzBiWFZrT3BDNW1zQzFPMS11azVEdkl5TGdB?oc=5",
-        "date": "Thu, 11 Jun 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Lightspeed",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Lightspeed Commerce Inc. (LSPD) Stock Moves -2.43%: What You Should Know - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaUlObV82QTNoZ3VPak1GbTFpRkszU1lXYTJITzhvVTh5SFBzbGhfNndoVG9uTWszXy1Ib19Ec0lGcHdUSzBOVkFiaG14d3FHQjc5SnRkV0U3YWFNNkJ5QS04aHZKdGVxeHJuaHFLdWEwWTNuR3hOa2dTLU5oNHZMdFYwYmJ2YlBJY0ptRDd3aWk0LXlROTktSUlDOHBEOUpn?oc=5",
-        "date": "Fri, 05 Jun 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Lightspeed",
+        "company": "PAR",
         "type": "public",
         "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
       },
       {
-        "headline": "CFO Corner: Asha Bakshani, Lightspeed Commerce - Global Finance Magazine",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQV0RQX1U0cnZGVUlvSHI2ckVvSzBpWDBnZC15UmN6RHhUZDItSVhGdHFGYkprNHpCLWhKYnplaW50YjRTbGwxLVdSaEhtY3JBaVRmWG0zcnNBUkFSV2FfdzlIeE13U2tOZ09adnE1VjAzd3hsc25Zd0tpbWdrSG1hZUtXeEMtMGdXYXl5Yg?oc=5",
-        "date": "Tue, 26 May 2026 07:00:00 GMT",
+        "headline": "Unpacking Q1 Earnings: PAR Technology (NYSE:PAR) In The Context Of Other Specialized Technology Stocks - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ2hNbHIwamotZE44b2RWYWtuS0RiaU5TeDljT0VlVlEtM29Nc19TN0kwZ0lueUY2X25mZG45RXJPajk1S2RyN3VoRi1aSVVTMmZHcGtDRWRGM0RhclZDMVlpa1lkSzRJREp4akowY19ZYzByUk1TeHhRRDFuZEtjQndHV3JuTU1GUHdfcWxzQXVCTU1kWGZFcTZhT1ZIZ1JDLTlV?oc=5",
+        "date": "Fri, 26 Jun 2026 07:00:00 GMT",
         "source": "Google News",
-        "company": "Lightspeed",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      }
-    ],
-    "Toast": [
-      {
-        "headline": "Toast (TOST) Could Be 11% Undervalued As New Markets And AI Tools Gain Focus - simplywall.st",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNR0xvb0YxOU8zanVQNUxhRmRZV0FMRFI2a2k0Y2NjcTZpSWxHNkI1bU1DUTU4UE1VZ1VweUJlN1cxMnV6Z2VXaGY2SUNYUTQyWDRDemhpR1kyN0dUT0x5MjA5OG1yV0V0Wi1RcmM0MGpHZmgzeUdqSm1sM3J2N05YWXBtZFpQUWZ5NXhpZ25oQU1sV1U3MTRUY3RhVWp2SjdrX2RZd296RzhveWNSb2xWc0oyZGwzN0NyUGNrRndJM2dLNmg3ZTFsNnB1MWdGaW9TUGfSAdcBQVVfeXFMTkVtMWJmbEVlV3A4RVN3TUxZMm1WejNoZ1puc1h3SElNLTdxZU1aMzJVZzJmZjV1WnVmNG04M194U0o0Wm5JWjZRdjdrczFOZVg4NUs4ell1NzJ1Mk5fT1BBMzZmM1BacGRHandjeHRhcUgySmx5MS10ZlZrLUlUVk5UUzE4T1cwVnQ0dzJ0dlNPcWhXbVlXbnU5QVhjTGd6TGY3elpHbUxzdlgwWXYwSTRkT3FqMjk4ZXBtOXpFOUlKMlRPVi1vM1lueDNhYUI0Z1RxTGx6QXc?oc=5",
-        "date": "Sat, 18 Jul 2026 13:07:30 GMT",
-        "source": "Google News",
-        "company": "Toast",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Toast, Inc. (TOST) Is a Trending Stock: Facts to Know Before Betting on It - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRHlOT3dIQjFBblQxem56OHFOaHJ6WXdMSUJwWUFqY3l2Mk8wekhqZUVsbHNFcmxTRUFncEZDV29tZEVENDQwMVRtd0RnQkQxdHpWYWs0M3lxQjhyaFJoZ0IwSlp1a0xTR2did2pXOThyMTNpcS1FUzdLRU9TN29VbG5Zc01tcTBDTF9IWGlueExseVZyMkpVN0p3?oc=5",
-        "date": "Thu, 16 Jul 2026 13:00:04 GMT",
-        "source": "Google News",
-        "company": "Toast",
+        "company": "PAR",
         "type": "public",
         "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
       },
       {
-        "headline": "Form 4 Toast Inc For: 15 July By Investing.com - Investing.com Nigeria",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTFNaeGpUVUxzcnVpREZBb2hyS0o4WUVoYWhLUDRWT2hMOVJsblk1OTdNYUZKT05FQWJqNUU2NWVuRnhJNTBRSndNRXVQSi1NUlBsSUx3Q21ka3VKOEFvS3hQNkZYWWZLb3Q4emdtcHNGYVFQMl8xOG15M0JMZFlORk5yVDUwUXJLdnNoV1NWV1RnbVU?oc=5",
-        "date": "Wed, 15 Jul 2026 21:19:16 GMT",
+        "headline": "Bolla Oil Selects PAR Technology to Power Its First Customer Loyalty Program - Business Wire",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMFVHVkpCVGMwYXE5ZGlYYzYwZm5pamVZMVA4S3FtRTRfazdiUTdTenMtNTdybU1YbDc5dTIxOWNQUEJaMGhYaFg1VTdFbkNDenQxVEtOMEREWWM1N3RQbFViWUlCclo3VDgxZXJmWlNjT0hDVHVqa3Jkd1B5eFFCOHlmeEJGZU93X1BVUUlVWWlNMi11UE50M1lMTTFqcXh2MjJtWDF6Y0xaVTJXbG5iQWFveEdTSE1iTWRiejhaZGRoWVExeGRseHRZZkE1QQ?oc=5",
+        "date": "Tue, 23 Jun 2026 07:00:00 GMT",
         "source": "Google News",
-        "company": "Toast",
+        "company": "PAR",
         "type": "public",
         "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       },
       {
-        "headline": "Toast, Inc. (TOST) CRO exercises options and sells 11,170 shares under plan - Stock Titan",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNT3p5eENMMGdydGFWVU1YR1lGbDEtTGpQdGgwQWNxOE9tLXMtbjNKVVBwSjBFM2NKNlE2NHpHcGtXR0l2U0pNWEd4S0FXMmJ4ampsRkZ2QUdVZzAyVDFZVWdGLXNNQWh5OS1mamplY2hBeTVuWEhtcm90NThyRkpOc0daLTV6TUlmRkEtODFWbDdTak43S2VkTUVxQTd5NFBEeGFoMGRR?oc=5",
-        "date": "Wed, 15 Jul 2026 20:42:55 GMT",
+        "headline": "Why PAR Technology Corporation (PAR) Is Back on JPMorgan\u2019s Radar - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPR1FocXVKSnhvUUtkY3NLNVhNS2NUdEpwZjkzbjJnU1dNcVVWMnFmeDFmazJrR0ZxamVCS2R4d1VwWEhiNGVxUVVyMW5IU3A0R3NONlhpdld4UXN4cTJiTVdUb2xIakZFaG5YV05Fb0RkN2FWNUIxYkdiNlRFRlh6LTFfX01LSXQ0SjFaYWRtc19BeGY4UTZjY09lVkU3TENf?oc=5",
+        "date": "Tue, 23 Jun 2026 07:00:00 GMT",
         "source": "Google News",
-        "company": "Toast",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Planned 2,000-share Class A sale by TOST (NYSE: TOST) filer - Stock Titan",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObHZjU3NRcXBPR1FjXzRrb0NLNEhuU1RBRVdNMlpCeFdUbTJSeWUxal9rSEdnV18tX0thTjBiY3RjMnVUMThSeXBudG5xY3pBckEzcHh0NlFTSzA5aUNJb3BheTI5amxxWUZqdkdheHZidjhkX0JIM0U0ZFZSdXVfTGVUSm9hQTltNDFwa3l6Zw?oc=5",
-        "date": "Tue, 14 Jul 2026 20:39:32 GMT",
-        "source": "Google News",
-        "company": "Toast",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Toast (NYSE: TOST) insider Jonathan Vassil plans sale of 9,170 Class A shares - Stock Titan",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcHFvNXBaQWhOUXdRdnlfR08zOEt6bHZ0dGQ2QjloSFJwQnRrUHVZZVM3ZjRMUnljQnlldUFKdDN1SWgwYWN0X0JlWTFlcFo0RmtUUkZHUW4teDM5TWFtY0owem5EMXJocndpeWJsdjN0MnFDUXltQ0RSeko5bERVWjVyeWtoanJROUo0M2t5bw?oc=5",
-        "date": "Mon, 13 Jul 2026 20:11:55 GMT",
-        "source": "Google News",
-        "company": "Toast",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Wells Fargo Reaffirms Their Buy Rating on Toast Inc (TOST) - The Globe and Mail",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRUdrMDBpM0kzQ2RLYndyZnlhUmJlT283UGpWWWRDZTlISGR2N1d4VFVCYWhRcU96dkJJMW9iMXNDd1VtSk1GNGNQZFpuU1NSZ0I4aXYwWGFGM3NBeEE1N2t3OGczTExvMFEyN1BTbF8wWjVOSjdEZlQ4T1phSkJsOGl4TEE4QlNoM3k1QjJKVzRMNUkyX09oZmpiZkhFWWloREtQZmRjUU9EYTVRR2swRzJRcUYya2Z3djU4THBrUTdCWHhoZUw1R0EzR2p4V1Z0VUkwU0xrVEQ?oc=5",
-        "date": "Fri, 10 Jul 2026 10:26:00 GMT",
-        "source": "Google News",
-        "company": "Toast",
+        "company": "PAR",
         "type": "public",
         "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       },
       {
-        "headline": "Toast (NYSE: TOST) CRO sells 3,150 shares after option exercise - Stock Titan",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOajdkcFMyOHZRWmM0emtZSlRYY1l0VGtyZGtIY2V2dXMwS25FUVc2ZGFlSEM1WVJxMkFEVkVmcXlUYXpYenRIbVBjYWxScWZSSnhuWEdWRTU1bjdQSy1ERl9jOURsY19oVzhpRHNULTlIc21sR09tTWE4Rk1zaHJ6XzU1RmUtSmF2Wm5YZ3phLXpLWnVBVWhYTXFJMnEwanlxR3NDanhB?oc=5",
-        "date": "Thu, 09 Jul 2026 07:00:00 GMT",
+        "headline": "PAR Technology (NYSE:PAR) Delivers Impressive Q1 CY2026, Stock Soars - StockStory",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYnBNdTBmVFE5X1c1MmNRWDRQWU9MSzJaeUtKU0gxOHcxM215YktYS01DR3FlQzVyekpLM0lJRnJ2aFlxUlZ3UW55NnNFc3h1dXZKWHFQaXBZSE5XOE93TW9RZXFtMHNtTm9leF9ZeVVnX0YxS1prZUEwNUxzZlpLX1Y4eW9qY2pXR2EyTWdFU0xfMHdkQUROaGc2TGphWVRzODZNbXVBQXE0Smx1ZkxkaHhhS1Fqbkh5aUtEeg?oc=5",
+        "date": "Thu, 07 May 2026 07:00:00 GMT",
         "source": "Google News",
-        "company": "Toast",
+        "company": "PAR",
         "type": "public",
         "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
       },
       {
-        "headline": "Investors Heavily Search Toast, Inc. (TOST): Here is What You Need to Know - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVFltSkgtRnE2amFubXBaR09MTHhDcTF4cDFqeE50TmZWNnJzenRoWFBHa05TMFZ3Z3JPY29BNndaUktmeUp5N0JQUm1vZEp3Ukp2S2FWQUZ6X2Z5RW9OQ2tmdV96UHdySGNjclhrMk1PVmJpRUI2Y1otYWtOWHNOQWR2S25HUWtvdlRrOVAzbXhEVHRJbUh5VWN3NU41VXZp?oc=5",
-        "date": "Thu, 02 Jul 2026 07:00:00 GMT",
+        "headline": "Par Tech faces investor pressure - Payments Dive",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE80ZHR3dF9WeVNYSk1iQnktdU9wNnc2bU84NTFzbmRZZk5xbjI4WW5VdTZJeWpYWENQemFGUGxuTkVYSHkzMEVpeGxFdnYzd0tQVDlPamd1VUlRNlN5cHJlWGRtaUxUVlM2X084VmxIdVBLOWJVeW9zRF92TGdRX2M?oc=5",
+        "date": "Mon, 09 Mar 2026 07:00:00 GMT",
         "source": "Google News",
-        "company": "Toast",
+        "company": "PAR",
         "type": "public",
         "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       },
       {
-        "headline": "Toast: This AI Opportunity Is Trading At A Steep Bargain (NYSE:TOST) - Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdUZNdlhMU21QMVVrekNMMVRxbG41Y2VOU1V3NXNiTzdBNWhrN2w3ZEU4SFNoWkNWeHhGYlNnRmt4c3RhNVJ3U2xFLWdqNUk5TnplUlljTjd5MFRrS3Q3clBJdTM5TnJ5M1dvSmc1M0R0UHc5RGtLRS1ZTkFETjZ3S0tITjBJc0Y1UW5GT0xGZ0FMb2JYYUhNcWZhS3g?oc=5",
-        "date": "Wed, 01 Jul 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Toast",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Is Toast, Inc. (TOST) A Good Stock To Buy Now? - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVllSMXQyZFNRRldJa21KSUJ6d2tBZnZhWE1fT01IN00zS2JDcWpYNHZJY21rOG9wMGZKRlpfWGNDNTBOVXF0MGx4bGhpT2tBR3lJZV8wSk5TMHllcHdIYmZoa25JWTh0TlhEOFNic2dYdTEwSTJ0SnNXMWJZcFhuUnc4cVppbTRtMFpXRlA3X1hWS1pF?oc=5",
-        "date": "Mon, 22 Jun 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Toast",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Q1 Rundown: Toast (NYSE:TOST) Vs Other Vertical Software Stocks - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZHNxbHhIamRMWW5obTVrd3ZfMGRyYk9nWHlFT00yMElXQ3JGa1lFaHdoNUY2aFRUTGRxSUdIcE9ZVWpkbzJMbkV1MG9nQlN3Z0dDU3BEMFdvdlJUOTlFTUhhdVNEVTUxdWFlcm1pWTFiRG5CQlRvd3BMUmdFNFJSU00tX0RJc0J3UXkzVjBrQ2YwNEM1Rmc?oc=5",
-        "date": "Fri, 19 Jun 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Toast",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Here is What to Know Beyond Why Toast, Inc. (TOST) is a Trending Stock - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOFRsOFVobG5PTHUtbFpOYlhkR2dCd0Z0RFAyOHU5YTNTMnJmQmxlZWZ3Y3hPeTVFY1dhNFJVb3laaWpDVmFjYTZMVnBYU19IUXJobmxDNElQU21mR0ZZamNBcm5QaWpra1Y2VzZ1Z3Z2RnhWMFpvRENkNVNiMVU2WmFBYl9kTzl0VlFNMUM5aWVEb05h?oc=5",
-        "date": "Wed, 17 Jun 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Toast",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Why Toast, Inc. (TOST) Could Be a Surprise Winner in Software - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZVV2QVRuVmFjMGdqVXp6eG45SFIwVnpadGZ3ZHBuRUpUT3BCdnhjaDQ1N1NPTkRZWjI4SVJMRTlhSjI5eEQ0Nm1TOVpOQWNwdkFyR1NjYlVSZV9EZllmT1k3bVZMQzlVSXA2Tk9YcWJXUXg4UXNnLV9sUlhaSFJlVWlxZzN4UnA2eDJacmRrczAwT3M?oc=5",
-        "date": "Tue, 05 May 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Toast",
-        "type": "public",
+        "headline": "PAR Technology Corporation Acquires Leading Loyalty Provider Punchh Inc. for $500MM, Becoming a Unified Commerce Cloud Platform for Enterprise Restaurants - Business Wire",
+        "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxObkp3Q3dpYUtWZTBMQ1lOMjhxajVEMXljLUxfNGMxT2tLOWhJcEpmSFhuOVp3a0FFelJxVjI3Uk9UQ0VsbG9xM0JGTlJVOXFZcUg1cXJQVmpTeFpleXFxcTdZaXNLTVNtUnpkSEdrUzRGb0pfYjYyR3pLNGxqVzk3VnlaNU5XckZHd043WVBNRDFKM0I5YkFtRVF0aXl0VjFnNm4xQjJseWtKRVM0TU9kRDg0TDUwM0tOc3k3MERIX2ZiZ05RVWZkbkNYcHB0YU1XT21MTGFaWFZsZjRTdlZIak9OaDh3X3ZPa2p1dy0xd3VmVUg1cm9QQjRKU2dvdXE2ZUtzMmJwVjFvcVoxQW1xTEp3bV92UUxEYUplTHdQSXYtSjd3Y0cxRVFUbFJsUzRESUdfTXNiUQ?oc=5",
+        "date": "Thu, 08 Apr 2021 07:00:00 GMT",
+        "source": "Google News - Restaurant M&A",
+        "type": "trade",
+        "company": "PAR",
         "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       }
     ],
     "Shift4": [
-      {
-        "headline": "FOUR Stock Pops As Founder Isaacman Loads Up Despite Analyst Doubts - Stocktwits",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUExRbGMzUDdBRTJxWmN2NWp5RWJsdzVQaFFXYzk4aW5hV3ZEMEM4ZGpGVGJRNzF6TlhfbWJfZUQ4bmM4OW9RR0RJc21vRkJNMDV3NXJva19mZUF5dXloQ21qUjBkWGpYOTZVamxiV3E5UngwUzRBTnJFWkd0dnVmMlhzRHByRGNyWFNXbDdBcERaUk9vYWE2VndsbVJveVkwMThoTzhYSUstTk1XTGNyUmpKSlB6eFFla2hXSGxkaE81eXpaY1FyU1Z2dw?oc=5",
-        "date": "Sat, 18 Jul 2026 06:16:10 GMT",
-        "source": "Google News",
-        "company": "Shift4",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
       {
         "headline": "Wasatch Advisors (FOUR) discloses 2.7% Class A stake in Shift4 Payments - Stock Titan",
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWHdlUkRqSHRTcUVraVBuQzREYkRuY1E1cGpKbFV5UkJldy0zRV9FNkh2ZGxLcHltSWRSd2F0LVRjTUtWWFF2MXhXa0pjU3l3bEVEUFJWeFcwc0Nhck45T0NaOVRVbl9uQTFkd245S3g3RjRULU9aakI0SEdCb214dkNlSkZrR2ZNdHdjdDBZM1JPV3NrdDRoWnQzUEw1anhQUTVMSnpOUXh3UFhVRnR4YWMwRjUwSnFhVzBONmlaV2c4NVFObEwxUDM3cw?oc=5",
@@ -1187,16 +1299,6 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Shift4\u2019s (NYSE:FOUR) Q1 CY2026: Beats On Revenue, Stock Jumps 13.1% - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdmg2UEZodjhhbDJHWXp2MlhPeEtkN0dIdWlCQmpORGJUWjJCTTJPSkhHODJwelgzNUlpaEFoQncyYUdieF9Ub3hjaTNSNldsWTlKWXhOc2ZfeXdib2pFUEZRNzQ5eDY1UzkyVDFINHhqYnU1WFQwRGdfVWhOYnhkRDFyeW5ybHpZRnpVQkJkektxV0l0Umc?oc=5",
-        "date": "Thu, 07 May 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Shift4",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
         "headline": "Chicago Fire FC Welcomes Shift4 to Elevate Matchday Commerce Experience - chicagofirefc.com",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcXpFdXRNa3Vlb3phQkpEbGFGcUEwbFMwbE04Q3ItZHZzbUo5WGZ5WWpadTltSXA5Vmt4a3Nld0tRMkFPTE1JTXp5VG1WbG5CSEkzSXZCS0xfclV4YnZlWjNUUUZGdU5vamlIVE9IeUNNeURqMS01ZUtycTAweWZQeGwyUzFVRDViSVdpVVJTdjk0bnBkSk1RRTJ5dUVaUWhWNi1kVUU0cUJEZw?oc=5",
         "date": "Thu, 09 Apr 2026 07:00:00 GMT",
@@ -1207,9 +1309,29 @@
         "content_type": "press_general"
       },
       {
+        "headline": "Shift4 Completes Previously Announced Acquisition of Worldline's North American Subsidiaries - Shift4",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQWHBZU2VXMDZ0OXBYcTc3RndrdU1kUHB1Z0hpRzdqMElTc0diZTZ2MEhMVGlWd0l1NUtOYzI5ZXY0WW16dk1GV1FTY1VraHE3X0NSSW5qbkhnVzg3aHZ2Tm9EQXBQUFdtWW1XX29VRjZzeWdBWmJmbmg2bkZJbk42UmY3R1BQNV9ubndlMm5KUnp3UGhwV2NsT0xua1VrdV9DVXhwWk80LWJIWXNPZWo4SGxuVXFHOEt1UzVmTVc1TlFGbkxnVVNGZWREQm1sYkFSQllaSmZ2MGtsUHBBYy1wcS1YcjQ2bVNlYW80RHZLSQ?oc=5",
+        "date": "Mon, 02 Mar 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "Shift4",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
         "headline": "Shift4 Announces Date of Fourth Quarter Earnings Results and Upcoming Investor Conference Participation - Shift4",
         "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOMnZJaDA4QTNMVE5jWWRYY1B3bG0ybFdHQU05N09OdmplWDFwSUNmeXFlNXFIU0tBZk9objFPZ1owOXZvWHE4S2lveUJGMy1sMkhyOG00Umw2TDJfY2U4cnBWdGhfUGhuTE1CV3hiS2VreU16V2JCbm9QSm5pdnV5aEpfdVd1b1JIbkF2cGhnZDRfSDFRYzVuUzhCT2NHZi0wSXNFTTZVUnBPU1I5eDhyckw0enNzNGtsbk1scHQ0T2dlR2FRUTZhZS1TYmI3MnRmYXNMdFc2ZndrM0h1LTI2VWxBRWdmR3NLd3VQeV84LTZ2X0pHOEt6YVlWVS1sUjQ?oc=5",
         "date": "Thu, 12 Feb 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "Shift4",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Shift4 Payments, Inc., Now a Single Share Class Company, Removing Super-Voting Stock, and Eliminating Tax Receivable Obligations to Founder - Shift4",
+        "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQcUtzbElfM1ZsTG9rekhXRXRfd09aOXY0RU5CR2pGYkhmZmdIa1hqQkFVXzFGLWUwZEcxX19lRXc0b1NzRnVzNXFEWmV0QXBTSmF3RlA0bUt3RE5GdVlNQ1lzSGxuRk1JNkJvSUZRV3Z5d2lJaDRpckJWRzBLMkpUZHE4VXl6cXgzZzhoWWJPdEY5WXZwUmt5dG9FQnY0SFhZYnRpVkpRQ1o4enlXX0pIN1AtMkhjVmhwMFVxY240c2lUSGJscXF0ZG40SkdVd2NEQk4tcVN1LVZXcHRWVTUtamlwdWZXSTJmQkNkMzVZUlYtQVY3YlhFSHJWNmZFbEROSk5mazRlR2dBYUgtTHc3Mk10ZjB2dTFNYW9VamxIcGhPdnE3Yl9meA?oc=5",
+        "date": "Mon, 09 Feb 2026 08:00:00 GMT",
         "source": "Google News",
         "company": "Shift4",
         "type": "public",
@@ -1369,165 +1491,145 @@
         "content_type": "press_general"
       }
     ],
-    "PAR": [
+    "Toast": [
       {
-        "headline": "US retailer Jacksons Food Stores taps PAR Technology PAR Retail solution for loyalty programme push - Retail Technology Innovation Hub",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOS0dMVnF1QlFRbVN1RTA5ZWlkOUFHSDk5WGhsWjQ3WEFNWUs1Nk92R3RJM2RINzJZXzFGN1FmcU82T25uMm5KMmhibU03X3pOM0FVOTRUSWVGcDVjek9KNDJZOG5CM0d2MjhWZ1Z2czNtandqUk5TX2dXRWEwTkpLYjFDdXpCaDZvSW5iRDNhcEg1OG1zMmNmYUlZMjlCbl9hcDNyT0RneWZ2Y0thRXdpYURwX3FpVXZnNHpkYTBaMUx0WXR1SUJkbS1QYUxWR2Ftc3VJU2RwU3BMVGpUckY2WUZ1bDExUQ?oc=5",
-        "date": "Thu, 16 Jul 2026 04:32:51 GMT",
+        "headline": "Toast, Inc. (TOST) Is a Trending Stock: Facts to Know Before Betting on It - Yahoo Finance Singapore",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTks2R3NKLVVnWHh4NERNRHNfRDhTMW12bVQ1N3RIeEd0TFZ0SWF2THlCTWpQeUxlWnBwYUZScEdLSVZEYllwUXVDT0hVU3k4enBDTHVOUEtLSkFSYzI4WTZoSkZLZGZHN0lkeXBMcFEtU3czc0RtcF9GMmtjVExFdjNLUzM?oc=5",
+        "date": "Thu, 16 Jul 2026 13:00:04 GMT",
         "source": "Google News",
-        "company": "PAR",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "PAR Technology Corp (PAR) - MSN",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQnFkN1dYYnNWR1dhcUszNEZsTEk1Sy1TcjRfQ00tQ0N5SFpJS3R0RHBLUHZ0eTZiRHlzVVczS1ZDc3VjRFo0WVNJTGc0bVVoWEYtdVdhaHFPaV8wTGxBYWExblN6c0phUWhfZDM2bUduOTFzaFF2cGJSczZOUm9nZVRBbWoyVTg?oc=5",
-        "date": "Thu, 16 Jul 2026 03:37:02 GMT",
-        "source": "Google News",
-        "company": "PAR",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "PAR Technology Corporation Partners with Jacksons Food Stores fo - GuruFocus",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPb09jVFVwMFo2V1Awc3JXdmN4bEx3TlNHajlWb212RnAySDFuR3J3YWx3V3oyVjE3TXRqblVHMlRPU3l6bnpmVXI2eDdyQjN6TVNQWk5JUXZGandZal9pLWhkZVRLQ19TeWZIdmtXMTFfLTNyQXdvNThyR3NxbFpzdWhMblhyY3dBV0FLdTNpNk1aOVAzVlV6TE4tTWtlbFRFaXVxUEtKc0FLTHo2a3hwd2NBVGFXRUJmaU85YnlJbHFCRVgwSU4w?oc=5",
-        "date": "Wed, 15 Jul 2026 13:51:55 GMT",
-        "source": "Google News",
-        "company": "PAR",
-        "type": "public",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "PAR Technology Enhances Jacksons Food Stores' Loyalty Program - GuruFocus",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPemVwSHRCeFBQSlNST3V2bWJyZDZCUXdMQXVsdDIyalhTejhKTzU4alpLUzZDcmM5VHhGamVsSzAzUWFGUlJUX1lUX0l3SDlFRVBsNmxrdnpnYW5rdkQtUV9nYzNuLTNzd1FGd21SVDIxdmxfS0pfX3VHTFhGN2JiSU96SVRFUWpTNW02NGpyREZpMmMyRHZ4aFlPdFlPN1FFd0RrdnJDQjdRWUlIeWg4NUpaV0tBTlhJRjIxUlIwdEtORGEwZDM0c0VYRGJrZU5qbE1NTXdB?oc=5",
-        "date": "Wed, 15 Jul 2026 12:35:36 GMT",
-        "source": "Google News",
-        "company": "PAR",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Jacksons Evolves Loyalty Rewards Across More Than 300 Locations - Stock Titan",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNVRwLXBSTzFzRlNTbVBSUkxfVXdYandlLWR0QjF5TDMxT0U0UzR4cWZUZVQwRkc3V2JWOVIta0tZYUR6dHRrMHI5T1E1MS1jVkhja25nSk40c1g0S1NBLWZsN3p6UnowazB0SExlclAxOXBoSUlEcUpTMUpzcG54cERQWV95YjVXbXNkRUlfZ04wZ1FSVU45eDFMYlYxQzhkZk9CWHRiLTJucmY4MWF4RGN1YmRxblU?oc=5",
-        "date": "Wed, 15 Jul 2026 11:30:00 GMT",
-        "source": "Google News",
-        "company": "PAR",
+        "company": "Toast",
         "type": "public",
         "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
       },
       {
-        "headline": "Arlo Technologies, HNI, and PAR Technology Shares Plummet, What You Need To Know - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ3Jmb3d2T0tobVVqYkdySkthUlR3eVhtVFRUVUhDLUo3djFQVVQyV0gxdzBtRVNIXy1ra3NSX3FZbjAxSEc3Y29xNXlxMU1sQWNobXhxeVl0WDAwM2RnVXJNOEdHWEkwM2t6LU9kRTRNTDZQYnNwQXQyVGM2bUNlV3FrWFp1c0kyU2xTWWs4c282UEVzRzRadHl2WjlGdGVYUzBN?oc=5",
-        "date": "Wed, 08 Jul 2026 07:00:00 GMT",
+        "headline": "Form 4 Toast Inc For: 15 July By Investing.com - Investing.com Nigeria",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTFNaeGpUVUxzcnVpREZBb2hyS0o4WUVoYWhLUDRWT2hMOVJsblk1OTdNYUZKT05FQWJqNUU2NWVuRnhJNTBRSndNRXVQSi1NUlBsSUx3Q21ka3VKOEFvS3hQNkZYWWZLb3Q4emdtcHNGYVFQMl8xOG15M0JMZFlORk5yVDUwUXJLdnNoV1NWV1RnbVU?oc=5",
+        "date": "Wed, 15 Jul 2026 21:19:16 GMT",
         "source": "Google News",
-        "company": "PAR",
+        "company": "Toast",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Toast, Inc. (TOST) CRO exercises options and sells 11,170 shares under plan - Stock Titan",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNT3p5eENMMGdydGFWVU1YR1lGbDEtTGpQdGgwQWNxOE9tLXMtbjNKVVBwSjBFM2NKNlE2NHpHcGtXR0l2U0pNWEd4S0FXMmJ4ampsRkZ2QUdVZzAyVDFZVWdGLXNNQWh5OS1mamplY2hBeTVuWEhtcm90NThyRkpOc0daLTV6TUlmRkEtODFWbDdTak43S2VkTUVxQTd5NFBEeGFoMGRR?oc=5",
+        "date": "Wed, 15 Jul 2026 20:42:55 GMT",
+        "source": "Google News",
+        "company": "Toast",
         "type": "public",
         "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
       },
       {
-        "headline": "Gold Star Chili Expands Partnership with PAR Technology to Fully Unified Platform - Business Wire",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQjJ5TldnNVFIQlZYR2REN1FRb1FUUXBuOUplanI4VnhmRUQ3X0F6N1lFQ2F4WEFoMTJ2MEJEOF9sa0E5WWFTTXR1NTVib29SQnlia3lCQnlhRUlJSFRiY2dqOTNfMUVBT05CeGk1b2EzYWFfR1JaQWI0Q3Q4b3hVOW1UMTF3YVZiSWdNT3pGb3dCdm9UUmF3ZkdkMGFpdWhHUUsxdThtdTc0Q3gybVVwd3RQT3Q3ZkkwbU5rYWxlUmpYcXNxbnhWWTlQLW9xYWQ2a2tQVQ?oc=5",
-        "date": "Wed, 08 Jul 2026 07:00:00 GMT",
+        "headline": "Planned 2,000-share Class A sale by TOST (NYSE: TOST) filer - Stock Titan",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObHZjU3NRcXBPR1FjXzRrb0NLNEhuU1RBRVdNMlpCeFdUbTJSeWUxal9rSEdnV18tX0thTjBiY3RjMnVUMThSeXBudG5xY3pBckEzcHh0NlFTSzA5aUNJb3BheTI5amxxWUZqdkdheHZidjhkX0JIM0U0ZFZSdXVfTGVUSm9hQTltNDFwa3l6Zw?oc=5",
+        "date": "Tue, 14 Jul 2026 20:39:32 GMT",
         "source": "Google News",
-        "company": "PAR",
+        "company": "Toast",
         "type": "public",
-        "emoji": "\ud83e\udd1d",
+        "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
       },
       {
-        "headline": "PAR Technology: The Platform Is Better, But Valuation Already Assumes A Lot (NYSE:PAR) - Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLUYxRmJXYi1jZjdDUE5xQWFVcHdvRzVqRXl1SW04RDBJQkJsY0NhdFpoX3ExNEo2UUxUN293V1ZoRmtUdFZOTE1YeW9tNVNFSnpnbEhMeUdHUHpubHVkXzQ5UUtpakJMbHpYOWdvMVlMa1dGaHBMZkNwdWl2QklVNDRIUExHdlFhZmxROGdic2pzZTk3NkpvbXJXY0V0MWFXM0VMMWZLV2NHdHFaWlU1bEhWbEc?oc=5",
+        "headline": "Toast (NYSE: TOST) insider Jonathan Vassil plans sale of 9,170 Class A shares - Stock Titan",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcHFvNXBaQWhOUXdRdnlfR08zOEt6bHZ0dGQ2QjloSFJwQnRrUHVZZVM3ZjRMUnljQnlldUFKdDN1SWgwYWN0X0JlWTFlcFo0RmtUUkZHUW4teDM5TWFtY0owem5EMXJocndpeWJsdjN0MnFDUXltQ0RSeko5bERVWjVyeWtoanJROUo0M2t5bw?oc=5",
+        "date": "Mon, 13 Jul 2026 20:11:55 GMT",
+        "source": "Google News",
+        "company": "Toast",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Wells Fargo Reaffirms Their Buy Rating on Toast Inc (TOST) - The Globe and Mail",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRUdrMDBpM0kzQ2RLYndyZnlhUmJlT283UGpWWWRDZTlISGR2N1d4VFVCYWhRcU96dkJJMW9iMXNDd1VtSk1GNGNQZFpuU1NSZ0I4aXYwWGFGM3NBeEE1N2t3OGczTExvMFEyN1BTbF8wWjVOSjdEZlQ4T1phSkJsOGl4TEE4QlNoM3k1QjJKVzRMNUkyX09oZmpiZkhFWWloREtQZmRjUU9EYTVRR2swRzJRcUYya2Z3djU4THBrUTdCWHhoZUw1R0EzR2p4V1Z0VUkwU0xrVEQ?oc=5",
+        "date": "Fri, 10 Jul 2026 10:26:00 GMT",
+        "source": "Google News",
+        "company": "Toast",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Toast (NYSE: TOST) CRO sells 3,150 shares after option exercise - Stock Titan",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOajdkcFMyOHZRWmM0emtZSlRYY1l0VGtyZGtIY2V2dXMwS25FUVc2ZGFlSEM1WVJxMkFEVkVmcXlUYXpYenRIbVBjYWxScWZSSnhuWEdWRTU1bjdQSy1ERl9jOURsY19oVzhpRHNULTlIc21sR09tTWE4Rk1zaHJ6XzU1RmUtSmF2Wm5YZ3phLXpLWnVBVWhYTXFJMnEwanlxR3NDanhB?oc=5",
+        "date": "Thu, 09 Jul 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Toast",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Investors Heavily Search Toast, Inc. (TOST): Here is What You Need to Know - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVFltSkgtRnE2amFubXBaR09MTHhDcTF4cDFqeE50TmZWNnJzenRoWFBHa05TMFZ3Z3JPY29BNndaUktmeUp5N0JQUm1vZEp3Ukp2S2FWQUZ6X2Z5RW9OQ2tmdV96UHdySGNjclhrMk1PVmJpRUI2Y1otYWtOWHNOQWR2S25HUWtvdlRrOVAzbXhEVHRJbUh5VWN3NU41VXZp?oc=5",
         "date": "Thu, 02 Jul 2026 07:00:00 GMT",
         "source": "Google News",
-        "company": "PAR",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Unpacking Q1 Earnings: PAR Technology (NYSE:PAR) In The Context Of Other Specialized Technology Stocks - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ2hNbHIwamotZE44b2RWYWtuS0RiaU5TeDljT0VlVlEtM29Nc19TN0kwZ0lueUY2X25mZG45RXJPajk1S2RyN3VoRi1aSVVTMmZHcGtDRWRGM0RhclZDMVlpa1lkSzRJREp4akowY19ZYzByUk1TeHhRRDFuZEtjQndHV3JuTU1GUHdfcWxzQXVCTU1kWGZFcTZhT1ZIZ1JDLTlV?oc=5",
-        "date": "Fri, 26 Jun 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "PAR",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Why Are PAR Technology (PAR) Shares Soaring Today - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSlRsMDFYZ2VVREhWR1kxeDBORlFGbUZoSjdFTElCZXhkRm1fbmxwYkpKSmtkNGhSbS1mM2xlcl9zdVBuUXBQdlRSVW1XR25Wa1VHa1VMUXhDVVRFVmVkTEVCQU5NeXRjVlVDQ3RQcFdTUzBoN0s5MXVhZ1dmMndXWFhjUGZ0dTJUVzRLZi02V3pHbmRWcml3SXlR?oc=5",
-        "date": "Wed, 24 Jun 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "PAR",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Why PAR Technology Corporation (PAR) Is Back on JPMorgan\u2019s Radar - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPR1FocXVKSnhvUUtkY3NLNVhNS2NUdEpwZjkzbjJnU1dNcVVWMnFmeDFmazJrR0ZxamVCS2R4d1VwWEhiNGVxUVVyMW5IU3A0R3NONlhpdld4UXN4cTJiTVdUb2xIakZFaG5YV05Fb0RkN2FWNUIxYkdiNlRFRlh6LTFfX01LSXQ0SjFaYWRtc19BeGY4UTZjY09lVkU3TENf?oc=5",
-        "date": "Tue, 23 Jun 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "PAR",
+        "company": "Toast",
         "type": "public",
         "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       },
       {
-        "headline": "Bolla Oil Selects PAR Technology to Power Its First Customer Loyalty Program - Business Wire",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMFVHVkpCVGMwYXE5ZGlYYzYwZm5pamVZMVA4S3FtRTRfazdiUTdTenMtNTdybU1YbDc5dTIxOWNQUEJaMGhYaFg1VTdFbkNDenQxVEtOMEREWWM1N3RQbFViWUlCclo3VDgxZXJmWlNjT0hDVHVqa3Jkd1B5eFFCOHlmeEJGZU93X1BVUUlVWWlNMi11UE50M1lMTTFqcXh2MjJtWDF6Y0xaVTJXbG5iQWFveEdTSE1iTWRiejhaZGRoWVExeGRseHRZZkE1QQ?oc=5",
-        "date": "Tue, 23 Jun 2026 07:00:00 GMT",
+        "headline": "Toast: This AI Opportunity Is Trading At A Steep Bargain (NYSE:TOST) - Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdUZNdlhMU21QMVVrekNMMVRxbG41Y2VOU1V3NXNiTzdBNWhrN2w3ZEU4SFNoWkNWeHhGYlNnRmt4c3RhNVJ3U2xFLWdqNUk5TnplUlljTjd5MFRrS3Q3clBJdTM5TnJ5M1dvSmc1M0R0UHc5RGtLRS1ZTkFETjZ3S0tITjBJc0Y1UW5GT0xGZ0FMb2JYYUhNcWZhS3g?oc=5",
+        "date": "Wed, 01 Jul 2026 07:00:00 GMT",
         "source": "Google News",
-        "company": "PAR",
+        "company": "Toast",
         "type": "public",
         "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       },
       {
-        "headline": "PAR Technology (NYSE:PAR) Delivers Impressive Q1 CY2026, Stock Soars - StockStory",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYnBNdTBmVFE5X1c1MmNRWDRQWU9MSzJaeUtKU0gxOHcxM215YktYS01DR3FlQzVyekpLM0lJRnJ2aFlxUlZ3UW55NnNFc3h1dXZKWHFQaXBZSE5XOE93TW9RZXFtMHNtTm9leF9ZeVVnX0YxS1prZUEwNUxzZlpLX1Y4eW9qY2pXR2EyTWdFU0xfMHdkQUROaGc2TGphWVRzODZNbXVBQXE0Smx1ZkxkaHhhS1Fqbkh5aUtEeg?oc=5",
-        "date": "Thu, 07 May 2026 07:00:00 GMT",
+        "headline": "Is Toast, Inc. (TOST) A Good Stock To Buy Now? - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVllSMXQyZFNRRldJa21KSUJ6d2tBZnZhWE1fT01IN00zS2JDcWpYNHZJY21rOG9wMGZKRlpfWGNDNTBOVXF0MGx4bGhpT2tBR3lJZV8wSk5TMHllcHdIYmZoa25JWTh0TlhEOFNic2dYdTEwSTJ0SnNXMWJZcFhuUnc4cVppbTRtMFpXRlA3X1hWS1pF?oc=5",
+        "date": "Mon, 22 Jun 2026 07:00:00 GMT",
         "source": "Google News",
-        "company": "PAR",
+        "company": "Toast",
         "type": "public",
         "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
       },
       {
-        "headline": "PAR Technology Corporation Announces First Quarter 2026 Results - Business Wire",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPemVzSmNxcUNOUEJES0N2LUV5WmRYU2h5WERMelVxWkNfMWlVNXhwZms3VXBENWo2amx0WlZOMDRZVm9XVW5IMEZoeWxWVm55VTFwSmQ4bURzYmhnbW53Y0RfaXZSZXJWNExWZzJTaVFVbnNJeHpycnl2M3V6MUlZZHNnMzhzRGYzQWFVc042eGhpRjFGZjdXMlFub00yeHRMdUV5aTFuRVRmVFByQV8weW1QVTcxdFFTajl4bQ?oc=5",
-        "date": "Thu, 07 May 2026 07:00:00 GMT",
+        "headline": "Q1 Rundown: Toast (NYSE:TOST) Vs Other Vertical Software Stocks - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZHNxbHhIamRMWW5obTVrd3ZfMGRyYk9nWHlFT00yMElXQ3JGa1lFaHdoNUY2aFRUTGRxSUdIcE9ZVWpkbzJMbkV1MG9nQlN3Z0dDU3BEMFdvdlJUOTlFTUhhdVNEVTUxdWFlcm1pWTFiRG5CQlRvd3BMUmdFNFJSU00tX0RJc0J3UXkzVjBrQ2YwNEM1Rmc?oc=5",
+        "date": "Fri, 19 Jun 2026 07:00:00 GMT",
         "source": "Google News",
-        "company": "PAR",
+        "company": "Toast",
         "type": "public",
         "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
       },
       {
-        "headline": "Par Tech faces investor pressure - Payments Dive",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE80ZHR3dF9WeVNYSk1iQnktdU9wNnc2bU84NTFzbmRZZk5xbjI4WW5VdTZJeWpYWENQemFGUGxuTkVYSHkzMEVpeGxFdnYzd0tQVDlPamd1VUlRNlN5cHJlWGRtaUxUVlM2X084VmxIdVBLOWJVeW9zRF92TGdRX2M?oc=5",
-        "date": "Mon, 09 Mar 2026 07:00:00 GMT",
+        "headline": "Here is What to Know Beyond Why Toast, Inc. (TOST) is a Trending Stock - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOFRsOFVobG5PTHUtbFpOYlhkR2dCd0Z0RFAyOHU5YTNTMnJmQmxlZWZ3Y3hPeTVFY1dhNFJVb3laaWpDVmFjYTZMVnBYU19IUXJobmxDNElQU21mR0ZZamNBcm5QaWpra1Y2VzZ1Z3Z2RnhWMFpvRENkNVNiMVU2WmFBYl9kTzl0VlFNMUM5aWVEb05h?oc=5",
+        "date": "Wed, 17 Jun 2026 07:00:00 GMT",
         "source": "Google News",
-        "company": "PAR",
+        "company": "Toast",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Why Toast, Inc. (TOST) Could Be a Surprise Winner in Software - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZVV2QVRuVmFjMGdqVXp6eG45SFIwVnpadGZ3ZHBuRUpUT3BCdnhjaDQ1N1NPTkRZWjI4SVJMRTlhSjI5eEQ0Nm1TOVpOQWNwdkFyR1NjYlVSZV9EZllmT1k3bVZMQzlVSXA2Tk9YcWJXUXg4UXNnLV9sUlhaSFJlVWlxZzN4UnA2eDJacmRrczAwT3M?oc=5",
+        "date": "Tue, 05 May 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Toast",
         "type": "public",
         "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       },
       {
-        "headline": "PAR Technology Corporation Acquires Leading Loyalty Provider Punchh Inc. for $500MM, Becoming a Unified Commerce Cloud Platform for Enterprise Restaurants - Business Wire",
-        "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxObkp3Q3dpYUtWZTBMQ1lOMjhxajVEMXljLUxfNGMxT2tLOWhJcEpmSFhuOVp3a0FFelJxVjI3Uk9UQ0VsbG9xM0JGTlJVOXFZcUg1cXJQVmpTeFpleXFxcTdZaXNLTVNtUnpkSEdrUzRGb0pfYjYyR3pLNGxqVzk3VnlaNU5XckZHd043WVBNRDFKM0I5YkFtRVF0aXl0VjFnNm4xQjJseWtKRVM0TU9kRDg0TDUwM0tOc3k3MERIX2ZiZ05RVWZkbkNYcHB0YU1XT21MTGFaWFZsZjRTdlZIak9OaDh3X3ZPa2p1dy0xd3VmVUg1cm9QQjRKU2dvdXE2ZUtzMmJwVjFvcVoxQW1xTEp3bV92UUxEYUplTHdQSXYtSjd3Y0cxRVFUbFJsUzRESUdfTXNiUQ?oc=5",
-        "date": "Thu, 08 Apr 2021 07:00:00 GMT",
-        "source": "Google News - Restaurant M&A",
-        "type": "trade",
-        "company": "PAR",
-        "emoji": "\ud83d\udcf0",
+        "headline": "Toast Inc. (NYSE:TOST): A Growth Stock at a Technical Turning Point - ChartMill",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUTVXQk9zbExYVF8wR0xhR0dwUlBtRUpUN3REbDB1cVJxSVNrWXVVRmVDQjdEQ1ROTzYtSkg3TWdYdGdjVDdlRGdRYkdONllEcFdtZk84c1RSd0R5YkIyZE9NVGs2MzhmblZRMThxQlowczRzWm15YWMwYzNGUmFBWHRHSlU3eWRGQWsyeC1yOHVRR0ZfY0FOeEhhekNscmFYUllWYnFoQmVBN1VMR19RU2wwM3A?oc=5",
+        "date": "Thu, 16 Apr 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Toast",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
       }
     ],
@@ -1738,9 +1840,9 @@
         "headline": "OMERS takes nine-figure loss as TouchBistro sold to Constellation Software for $100-million - The Globe and Mail",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQemg1RWpEaFh1TGlyV2V3NW1TYWIwLUdocG81ekRMdFdSbWxULVJlMzlMWGVTd3FKV1lqU0FPbXJjeDNNYmk4S25IaFBHWEdLM21ZV2lZNS1OcEdtcDNZckloeEdpeWJIbnNRY21nVmE5TjhxQ1FzN0JkSG5GV19DNjgyWm9IaEtKVHR5RldFWTR1UjRtRlZMT0tVT0NjcEtrQ2xhV0tXYkhPT2hNWnNxYXNHTTVGZw?oc=5",
         "date": "Sat, 11 Jul 2026 07:00:00 GMT",
-        "source": "Google News - POS Industry",
-        "type": "trade",
+        "source": "Google News",
         "company": "TouchBistro",
+        "type": "private",
         "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
       },
@@ -1768,16 +1870,6 @@
         "headline": "Toronto is about to have a record-breaking patio season and here\u2019s why - Daily Hive",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9rcUcxVFItNGZrSXRlRmJUbTE1YVB0aEpJSE42Sk02MFVQOUt0c3lEQkxBaDFaMm0wVEN1Q0c2ZEN2LVNJckdZNHIzYXVzRmU1QmZSdTM5R0xqeXZrbFJ4MEV4WWExblNIN3NTT3Vn?oc=5",
         "date": "Thu, 11 Jun 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "TouchBistro",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "TouchBistro Unveils 2026 Patio Season Guide - foodserviceandhospitality.com",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQzZFYjJXU3lkTWNONUV6eWt0ekRBUGN5RWhRb281ajlJbVd3a0FBbWZUc3V1UTVWUnRPZ2JOSE9GVE9xV0tXcS1OQ3p0b19rOFFpUFhaalA1NzVDbmp0cVVGakd0Y3g1QzRsdlBTR2FiMGZqZHVieHIyel9zT0xlelZma2ZZLV8zWmFhRl9aaw?oc=5",
-        "date": "Tue, 26 May 2026 07:00:00 GMT",
         "source": "Google News",
         "company": "TouchBistro",
         "type": "private",
@@ -1882,6 +1974,16 @@
         "type": "trade",
         "company": "TouchBistro",
         "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "TouchBistro and Chase Introduce the Next Generation of Payment Technology for Restaurants - Chase Media Center",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KelBuY0J5Wk11WTlNc2c3cWtLWllKbVdfZ1d6RFp0dHNycGR5bndTMy1ldmZHRzRNWFBQQmdhN1I0RjRTbkdXV0I1R2EwYk04OGpGaXNWc1ZhZkdLVlJCUWtkbXZUMHlBQk9MOHVxM0NmejFNcXl4ZVlpVi1HN0U?oc=5",
+        "date": "Tue, 06 Mar 2018 08:00:00 GMT",
+        "source": "Google News",
+        "company": "TouchBistro",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       }
     ],
@@ -2483,108 +2585,6 @@
         "content_type": "press_general"
       }
     ],
-    "Bikky": [
-      {
-        "headline": "Diving deeper: Looking beyond sales for improved restaurant marketing - fastcasual.com",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSXhWWkRIcXNlNW5KdkxmUlBjTlNudXM2MkJCb1lTMkxKZlk0WjB0TDhHaldXN0swVldIWnUybHJaaHlzZjl3eWxvb2JVMmhTOFJQbVBRdW1OeWtNbkZZVXdSV3RaN3RrLUhnc3k1a0c4UGdVazJDYVkyOWtxNU9uYUdvZ1gyUnBEdVVQa01xQlpDaWFNeFBDcG45Nlg5TGRTc2FoeDJlU1o?oc=5",
-        "date": "Thu, 30 Apr 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Bikky",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Wyoming-Born Taco John's Taps Big Data To Challenge Taco Bell's Youth Market - Cowboy State Daily",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOUY3NkxrSG5fVDlqNUdHbVNzS0JQMXVQZzdjblRXRUNBM19QV3RKeG1ydi1yUHVfdDNDTEdJV0RjWHNzSzlrbmN2UlBrajNUdGR6ZUQ3Nl9kRzY5VnZEa2t2ZGNNY3ZQNzktLVJkNldrY2stdWJwSkI0WlBpa21iUThnTDVtMVBHYlhjcUxBLXRxNmVQUUYtVUZCd3FTMHBORWZaM1VMMVo4M0ozUmdfRXBwVzlhUQ?oc=5",
-        "date": "Sun, 23 Nov 2025 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Bikky",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "With QSR Sales Down and Consumer Sentiment Falling, Brands Turn to Data for Answers - franchisetimes.com",
-        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQMG9wTFJHaEJmczAxUkFFRHF0UkxCdEZYWnJGcF9nc0dmMU1YVW1zVmVzZHRIRTNYb09aUHdjQjFRUUtqQXh4M2ctbzBuOWVNNGRYWlJoOTYzMDNvOUdyTDlGcW1iTnFPNkdjQmttSVBMckJIaW1xS0VWVVlsT3p5TmgwX3Bid0JCU2NyX2tSOG9KX3Eta2k0T2dqVjZUOVFVMmFuNWJEdzdLN3FycnVjM1I1NE83LVRRRWVjVW1rQ1prUjhKenlBU204YXZ3X3dXNEdJeG03TFVWdzN1b3IyYlBUWWt2VHgxd0tta3VUYndwSTVtdU5rakdJN0sxY2xqNm9oLUx3OG8yQQ?oc=5",
-        "date": "Thu, 13 Nov 2025 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Bikky",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Abhinav Kapur, Co-Founder & CEO, Bikky - restfinance.com",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQX2lpeXFWVXcwUnZvanJSX2c1VHYybkxnWFk5RHR0V29KMDBEVjVDVnFISnFXNHd6ajV0SERIOGlKR1NIbmc1d3lEbEFuWGg2azRhMVZ1c19DejNYUkZVNDdUM1hmMXBfVG1yX3N1d3gteklGdUlQNGtSYlp5UWItbjZfbzRsVDJ6M3RVdHpfWTJaSnNoY1RYZnZwNk5OTFI4cVRvTURjX1BRTkpXeEM2Y3NfZ1VOUVdqR2tieC1iU1pSTHZ0SHA3Q3Izcw?oc=5",
-        "date": "Thu, 21 Aug 2025 08:21:48 GMT",
-        "source": "Google News",
-        "company": "Bikky",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Uber Eats Now Lets Users Create and Share Lists of Favorite Spots on App - Food On Demand",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZWEtRjZKLWUtaXZWQk10SFRLUGpnSGtRT1NLeHlKSDZyekppOXltVmx2RmNaU2ZjWFQ2UGoyMExzd2l6SUQtNlBocDR6T1pOTWhZbklvOVFMdFo0UTRrNTZwcWxpc0tjRXlQYnBsaHdUeS1PazZCQUJTVk93V3plVW9Fbk5XVklIRzRJY3AzYVk0MUFrRnc5MlpZM0w4QUpDSGRwVEo4QWJIUzQ?oc=5",
-        "date": "Wed, 23 Oct 2024 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Bikky",
-        "type": "private",
-        "emoji": "\ud83d\udce2",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Long John Silver\u2019s Partners with Leading Tech Innovators to Transform Customer Engagement - Business Wire",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbVVJNjNVNzlCRHJDY2NGLWUzQUNpSlUtYTN5X3FXejUya0pYYjZRXzA0UmhFa0Q2VlN3cXpWYXh4ODl5aEppcEVxek9vdnUtLVlnNUdpTHpfYjJQbURxWlBQMEhQWEwxZzVNV0FrSlJwbEJQajFMTmlZZWxuZW9MNXhZTUJvQWVPWmwycjFoNkJGYzg2b1p1YU5xVGdQRWVudDdJTkxuUjJzU0FYeGNRUFRPMENGWi02SVdzUTcxVnI3Y2UtSlN5WmdsQTBsQUF5cUlWdjVMUFhTQU03YUE?oc=5",
-        "date": "Tue, 25 Jun 2024 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Bikky",
-        "type": "private",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "MOD Pizza Is Diving Deeper Into the Customer Analytics Game - PMQ Pizza",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rV3p6R1AxakVha3l1b0RFVnlJa0NMQWxJV0pxUXZGd21paEh4SE43cVNMbFQzcDJaYkZHSjQtaGU1LWE0Q1dVeDlOdFJzNFBGSVBpTVlINUdoRnc1V3BhQzU3djBEc1RycFlvX2VfVldOYTJLSzl5cExBbUlobTQ?oc=5",
-        "date": "Tue, 16 Apr 2024 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Bikky",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Bojangles Joins Forces with Bikky for Digital Transformation - Food On Demand",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTk1BVTVDQzRBTFJDOFFOMTREUmY3LXJPMWNyQ3M0TFhqNnZqemxuc2kwT0t4SXA4Sy1NRTBMTkV4Y01tNkRkRTVTUjc4NXRRRFRUeGU3YkRaT1J5YmlZRXUyM25RZ2k0OGp2Q1M0dTVnUDhKbFJpYnVEQnJuNFY1U3lXVTFxRzR0Q2VSZ3JxelZSb1VXcjdBdUpvMA?oc=5",
-        "date": "Wed, 27 Mar 2024 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Bikky",
-        "type": "private",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Bikky Partners with NYC\u2019s Leading Restaurant Brands to Bolster Data and Marketing Capabilities - GlobeNewswire",
-        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOVGpTN1NhZVlXckZkalAwSHYyMVQwaEQ1VklnVEF1TUJqd1VidDVmb1I5Z0p1TllPY2F4allKWEFrLWxFOFMxa2ZnV1FnVVpPd1F6eF9wOGI1WkZPQm5zZTdRSGhNVThyQzB1X0tSREZvYUFZVU1ZUHRUWmx6Ny1FSUdxZnRQQ1U3OHdLZkxtbnAtX0VjNWxlQW5aLUJrbGMwMDNnVDJoa3BRV3BOVFM1S3ZBX3BUYXNXMTFOQ1dkNFdqeGJFVnIzb3YzYXRDNkZNcTZVM01acHRna1dNZ3FBNExfOFlidjIwLVFXOFZsTTFSaWQwTW1keG5R?oc=5",
-        "date": "Tue, 13 Jun 2023 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Bikky",
-        "type": "private",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Restaurant customer data platform Bikky raises $5M - Restaurant Business",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdEhuNW5mRmM0a0VjZzVKRUZIM0UtMTlHeHJLOURYcUwtRE1sbzhVS1NMM25UYm5DUDEyZUVVLWJpY0VtOHRiVzRrVTY5Q2JhakVELUtvZE1HQkN2RlA5ZEQyQ1pidzBZZlJ2RnVyOVhobHI0RFFwX2xfTk93MGRVTm5hNVRjNl9oeDZVMmU2WFFVWVdPQ0Q0UEFuZGY1UQ?oc=5",
-        "date": "Mon, 12 Sep 2022 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Bikky",
-        "type": "private",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      }
-    ],
     "Tillster": [
       {
         "headline": "Fast-food, fast-casual restaurants losing dining ground to convenience and grocery stores - Supermarket News",
@@ -3116,8 +3116,8 @@
       },
       {
         "headline": "Sharing smoothies, making bread - Yale Alumni Magazine",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBrdlpCWHQ5OXBvQjlFQjVBTmdSWDJadXZvTTE1TUFFSW05ck9ZMENFR25wNmlJX0dhMTdCeldNU0hDd1VxZ1NpbW91VGVnX24wS1R6ZmZDTDhYWlpBb3lua2ZPQXA?oc=5",
-        "date": "Mon, 13 Jun 2022 06:07:05 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5IenN4VnZRaHF0M2RnZjFDREZLN2wzVGJ6NGM1dGEyU3BfZ0l3REtqbXhGQWRCUmtDY1RxanFFN25nUUE1MFRSdGd3UWNueHZNc1o0NWZDdGhpSElLeGY0RXc4Sk1LQ2o1enc?oc=5",
+        "date": "Fri, 24 Nov 2023 14:08:59 GMT",
         "source": "Google News",
         "company": "Snackpass",
         "type": "private",
