@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T10:01:47.492927+00:00",
+  "updated": "2026-07-22T12:12:39.633369+00:00",
   "tickers": {
     "PAR": {
       "ticker": "PAR",
@@ -243,6 +243,7 @@
         {
           "endDate": "2025-12-31",
           "totalRevenue": 1633000000.0,
+          "costOfRevenue": 1210000000.0,
           "grossProfit": 423000000.0,
           "researchDevelopment": 97000000.0,
           "sellingGeneralAdministrative": 237000000.0,
@@ -284,7 +285,7 @@
           "endDate": "2025-12-31",
           "cash": 1353000000.0,
           "shortTermInvestments": 638000000.0,
-          "netReceivables": 127000000.0,
+          "netReceivables": 103000000.0,
           "totalCurrentAssets": 2669000000.0,
           "totalAssets": 3145000000.0,
           "totalCurrentLiabilities": 969000000.0,
@@ -517,7 +518,7 @@
       "ebitda_margin": 0.09399,
       "gross_margin": 0.2417,
       "enterprise_value": 2388188928.0,
-      "trailing_pe": 29.407406,
+      "trailing_pe": 28.357143,
       "forward_pe": 8.129665,
       "income_statement_annual": [
         {
@@ -845,7 +846,7 @@
       "ebitda_margin": 0.19111,
       "gross_margin": 0.35099998,
       "enterprise_value": 9136843776.0,
-      "trailing_pe": 58.464287,
+      "trailing_pe": 56.448277,
       "forward_pe": 7.2800097,
       "income_statement_annual": [
         {
@@ -1004,7 +1005,7 @@
       "ebitda_margin": 0.06437,
       "gross_margin": 0.45078,
       "enterprise_value": 48618762240.0,
-      "trailing_pe": 62.310078,
+      "trailing_pe": 62.796875,
       "forward_pe": 15.899231,
       "income_statement_annual": [
         {
@@ -1492,7 +1493,7 @@
       "ebitda_margin": 0.13076,
       "gross_margin": 0.39635,
       "enterprise_value": 153036111872.0,
-      "trailing_pe": 17.932331,
+      "trailing_pe": 17.754343,
       "forward_pe": 16.077171,
       "income_statement_annual": [
         {
