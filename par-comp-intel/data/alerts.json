@@ -1,6 +1,21 @@
 {
-  "updated": "2026-07-22T12:12:39.633369+00:00",
-  "total": 0,
-  "by_category": {},
-  "alerts": []
+  "updated": "2026-07-22T14:35:19.438990+00:00",
+  "total": 1,
+  "by_category": {
+    "stock_move": 1
+  },
+  "alerts": [
+    {
+      "category": "stock_move",
+      "severity": "medium",
+      "company": "PAR",
+      "headline": "PAR (PAR) stock down 9.2% over the past week",
+      "url": "https://finance.yahoo.com/quote/PAR",
+      "source": "Yahoo Finance",
+      "date": "2026-07-22T14:35:19.438990+00:00",
+      "par_relevance": 3,
+      "note": "-9.2% 1W",
+      "detected_at": "2026-07-22T14:35:19.438990+00:00"
+    }
+  ]
 }

@@ -2,7 +2,7 @@
   "date": "2026-07-22",
   "weekday": "Wednesday",
   "first_seen": "2026-07-22T04:25:26.327393+00:00",
-  "last_updated": "2026-07-22T12:12:39.633369+00:00",
+  "last_updated": "2026-07-22T14:35:19.438990+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -71,7 +71,7 @@
       "first_detected": "2026-07-22T04:25:26.327393+00:00"
     },
     {
-      "text": "Global Payments shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Global Payments (NYSE:GPN) Shares Gap Up - Time to Buy? - MarketBeat\"",
+      "text": "Global Payments shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Global Payments (NYSE:GPN) Shares Gap Up - Time to Buy? - MarketBeat\"",
       "sources": [
         {
           "title": "Global Payments (NYSE:GPN) Shares Gap Up - Time to Buy? - MarketBeat",
@@ -147,15 +147,32 @@
       ],
       "company": "Toast",
       "first_detected": "2026-07-22T07:14:38.068286+00:00"
+    },
+    {
+      "text": "PAR (PAR) stock declined 9.2% over the past week \u2014 material weekly move relative to broader cohort.",
+      "sources": [
+        {
+          "title": "Q1 Specialized Technology Earnings: Cognex (NASDAQ:CGNX) Earns Top Marks - StockStory",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTGN1aVF5TGs0cjRNVG9JXzBqa2s4R29MQ2JkT1FkOFZfZ0xfR0RjQmVIZE16QWNHbEdFS0pXamxsOHE5ODN1QUs4SUNoMTJwTXhsTmhycFI3Yjcwb2hPc21vRkxpS0YyRThFV2h2ZThJME9TVWNhb3JyaTJLaU5vLXFZeG9zZTVZdVdvUUFCTmVaLVJQelBUTTZvbmFraVNlVEZOUmhQX2VKRU8yVVMtajF6MlF5Q1ZHZ3JaczVIY0EwaGhqS1E?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Specialized Technology Stocks Q1 Earnings: Cognex (NASDAQ:CGNX) Best of the Bunch - StockStory",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQR05TbnBPM05sMGIxSUlmcXhiQWs3RG81eTBsY1VKM2tRODk0SVcxalNtZ0FvMDNQTHhBbWh3UTNYOXg2dUU4bkR0VTNHMmxCOHk0MnZNOXpyQkNpZjItS1VUVzZ4Q2NVSjcxVmpBVERmZF9HdkpQYlJKZ2cySkN6cnZRWkhON1lZa1hMZmU3Q1FmN1B2MkNZSU9lLTlTSlhNSHNwZWljcGJnbTNSNlRKR1dUY0JyQ1FFOXM1S0VqTjZHby1MU25Ka05MTUwyMnhua3c?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "PAR",
+      "first_detected": "2026-07-22T14:35:19.438990+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "Global Payments",
+      "company": "DoorDash",
       "count": 19
     },
     {
-      "company": "DoorDash",
+      "company": "Global Payments",
       "count": 19
     },
     {
@@ -179,7 +196,7 @@
       "count": 15
     },
     {
-      "company": "Paytronix",
+      "company": "SpotOn",
       "count": 15
     }
   ]
