@@ -2,7 +2,7 @@
   "date": "2026-07-23",
   "weekday": "Thursday",
   "first_seen": "2026-07-23T06:35:54.000820+00:00",
-  "last_updated": "2026-07-23T15:28:51.468189+00:00",
+  "last_updated": "2026-07-23T15:33:13.486811+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-07-23T06:35:54.000820+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360\"",
       "sources": [
         {
           "title": "Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360",
@@ -71,7 +71,7 @@
       "first_detected": "2026-07-23T06:35:54.000820+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 13 tracked financial/market items this cycle. Latest: \"Can Toast (TOST) Stay Cheap If Earnings Still Look Pricey? - simplywall.st\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 12 tracked financial/market items this cycle. Latest: \"Can Toast (TOST) Stay Cheap If Earnings Still Look Pricey? - simplywall.st\"",
       "sources": [
         {
           "title": "Can Toast (TOST) Stay Cheap If Earnings Still Look Pricey? - simplywall.st",
@@ -132,7 +132,7 @@
       "first_detected": "2026-07-23T06:35:54.000820+00:00"
     },
     {
-      "text": "PAR shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"Q1 Specialized Technology Earnings: Cognex (NASDAQ:CGNX) Earns Top Marks - StockStory\"",
+      "text": "PAR shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Q1 Specialized Technology Earnings: Cognex (NASDAQ:CGNX) Earns Top Marks - StockStory\"",
       "sources": [
         {
           "title": "Q1 Specialized Technology Earnings: Cognex (NASDAQ:CGNX) Earns Top Marks - StockStory",
@@ -154,7 +154,7 @@
       "first_detected": "2026-07-23T11:27:20.436355+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Deliverect and SoundHound AI partner to automat... - Pluang\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Deliverect and SoundHound AI partner to automat... - Pluang\"",
       "sources": [
         {
           "title": "Deliverect and SoundHound AI partner to automat... - Pluang",
@@ -218,40 +218,57 @@
       ],
       "company": "Shift4",
       "first_detected": "2026-07-23T15:28:51.468189+00:00"
+    },
+    {
+      "text": "NCR Voyix (VYX) stock declined 10.2% over the past week \u2014 material weekly move relative to broader cohort.",
+      "sources": [
+        {
+          "title": "NCR Voyix: Keep Watching From The Sidelines (Rating Upgrade) - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPM2pCMmpsYzdBdXdIWUJrbE16N1NMSjVhMFNRNTZmMmt2SDJzdS1rVFdKM1JQZ0pmN0R0X2FfdTZiakRvWi1qZDE1MkpFZDloZk5OY0dtajM3MXNGeU4zNlBZZWFhNzFzcHN4QmE3SDZEdUx4dDR6dEUxY0dJX2lZcGhvNDNCUQ?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "NCRRP5153816 Bond Coupon Profile \u2014 Rate & Payments - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5UdDlHQjVIU1hmazNidzNCc19oek1KejNhV243dExzdTdFVl9IM0RGZm1jRHZTbGlZTzB5cTlQblhoNXN6ZEcydTV6VGpfQ0Zyc2ZYNG9YS3BxUU5sOGdjRDJMeVhveUtMc25vdWNCRWxELUthNEFFU2Nn?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "NCR Voyix",
+      "first_detected": "2026-07-23T15:33:13.486811+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "Deliverect",
-      "count": 49
-    },
-    {
-      "company": "SpotOn",
-      "count": 33
-    },
-    {
-      "company": "Lightspeed",
-      "count": 32
-    },
-    {
       "company": "DoorDash",
-      "count": 29
+      "count": 19
     },
     {
       "company": "Global Payments",
-      "count": 28
-    },
-    {
-      "company": "Toast",
-      "count": 26
+      "count": 18
     },
     {
       "company": "NCR Voyix",
-      "count": 26
+      "count": 17
+    },
+    {
+      "company": "Toast",
+      "count": 16
     },
     {
       "company": "TouchBistro",
-      "count": 26
+      "count": 16
+    },
+    {
+      "company": "Olo",
+      "count": 16
+    },
+    {
+      "company": "Fiserv",
+      "count": 15
+    },
+    {
+      "company": "SpotOn",
+      "count": 15
     }
   ]
 }
