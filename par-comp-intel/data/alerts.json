@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-23T17:37:45.644542+00:00",
+  "updated": "2026-07-23T19:35:19.398564+00:00",
   "total": 3,
   "by_category": {
     "stock_move": 3
@@ -8,38 +8,38 @@
     {
       "category": "stock_move",
       "severity": "medium",
-      "company": "NCR Voyix",
-      "headline": "NCR Voyix (VYX) stock down 9.4% over the past week",
-      "url": "https://finance.yahoo.com/quote/VYX",
+      "company": "Lightspeed",
+      "headline": "Lightspeed (LSPD) stock down 8.0% over the past week",
+      "url": "https://finance.yahoo.com/quote/LSPD",
       "source": "Yahoo Finance",
-      "date": "2026-07-23T17:37:45.644542+00:00",
+      "date": "2026-07-23T19:35:19.398564+00:00",
       "par_relevance": 3,
-      "note": "-9.4% 1W",
-      "detected_at": "2026-07-23T17:37:45.644542+00:00"
+      "note": "-8.0% 1W",
+      "detected_at": "2026-07-23T19:35:19.398564+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
-      "company": "Lightspeed",
-      "headline": "Lightspeed (LSPD) stock down 8.5% over the past week",
-      "url": "https://finance.yahoo.com/quote/LSPD",
+      "company": "Shift4",
+      "headline": "Shift4 (FOUR) stock down 7.8% over the past week",
+      "url": "https://finance.yahoo.com/quote/FOUR",
       "source": "Yahoo Finance",
-      "date": "2026-07-23T17:37:45.644542+00:00",
+      "date": "2026-07-23T19:35:19.398564+00:00",
       "par_relevance": 3,
-      "note": "-8.5% 1W",
-      "detected_at": "2026-07-23T17:37:45.644542+00:00"
+      "note": "-7.8% 1W",
+      "detected_at": "2026-07-23T19:35:19.398564+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "DoorDash",
-      "headline": "DoorDash (DASH) stock down 7.4% over the past week",
+      "headline": "DoorDash (DASH) stock down 7.9% over the past week",
       "url": "https://finance.yahoo.com/quote/DASH",
       "source": "Yahoo Finance",
-      "date": "2026-07-23T17:37:45.644542+00:00",
+      "date": "2026-07-23T19:35:19.398564+00:00",
       "par_relevance": 2,
-      "note": "-7.4% 1W",
-      "detected_at": "2026-07-23T17:37:45.644542+00:00"
+      "note": "-7.9% 1W",
+      "detected_at": "2026-07-23T19:35:19.398564+00:00"
     }
   ]
 }
