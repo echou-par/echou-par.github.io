@@ -2,7 +2,7 @@
   "date": "2026-07-24",
   "weekday": "Friday",
   "first_seen": "2026-07-24T06:32:17.468487+00:00",
-  "last_updated": "2026-07-24T15:10:39.588749+00:00",
+  "last_updated": "2026-07-24T15:13:44.082123+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -16,7 +16,7 @@
       "first_detected": "2026-07-24T06:32:17.468487+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360\"",
       "sources": [
         {
           "title": "Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360",
@@ -38,7 +38,7 @@
       "first_detected": "2026-07-24T06:32:17.468487+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Deliverect and SoundHound AI partner to automate restaurant voice orders - Verdict Food Service\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 5 tracked partnership items this cycle. Latest: \"Deliverect and SoundHound AI partner to automate restaurant voice orders - Verdict Food Service\"",
       "sources": [
         {
           "title": "Deliverect and SoundHound AI partner to automate restaurant voice orders - Verdict Food Service",
@@ -60,7 +60,7 @@
       "first_detected": "2026-07-24T06:32:17.468487+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Toast, Inc. (TOST) Is a Trending Stock: Facts to Know Before Betting on It - Yahoo Finance\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Toast, Inc. (TOST) Is a Trending Stock: Facts to Know Before Betting on It - Yahoo Finance\"",
       "sources": [
         {
           "title": "Toast, Inc. (TOST) Is a Trending Stock: Facts to Know Before Betting on It - Yahoo Finance",
@@ -185,40 +185,57 @@
       ],
       "company": "TalonOne",
       "first_detected": "2026-07-24T15:10:39.588749+00:00"
+    },
+    {
+      "text": "DoorDash (DASH) stock declined 9.5% over the past week \u2014 material weekly move relative to broader cohort.",
+      "sources": [
+        {
+          "title": "Credit Cards and Food Delivery: What Are the Rules on Rewards Rates? - NerdWallet",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNThaV2hkOVNTXzZ3eGxlMlpKNE1Ka29rdlBKVHI5SHE3ZVhpS1kwZjRlWTYtaktzQldhQ0pPdjJ4Y01QVVhwMWtGTUNuTThZVEtVTElmRE80VnJyS2M1bW1iQS04OHpjNjJ1ZXF1WGdidGExb2xlNmUzQmJQOUctSWFRTXctRGMzdzJOMTkzeXhBdXhYRVgwZFVtdklSVklpcGhNYmVCdy1PRnRlNGpxS0Fn?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Household Goods Show Stability as Restaurant Prices Keep Rising: DoorDash's Q2 State of Local Commerce Update - DoorDash",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBoMklWY3lDQTI0ZFdaSWYwRW9mNzJhWWFFTEttZ3BQNzN0Y3NLWkYyMG9HcjdXRkN1bmtST2Z1OHJyaEREWVJQT1RUM1M5NUpnZ2ZOeVV1VmdBT1FWUkRUSVptQUNLLXJrOXBDVw?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "DoorDash",
+      "first_detected": "2026-07-24T15:13:44.082123+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "Deliverect",
-      "count": 49
-    },
-    {
-      "company": "Lightspeed",
-      "count": 33
-    },
-    {
-      "company": "SpotOn",
-      "count": 33
+      "company": "Global Payments",
+      "count": 19
     },
     {
       "company": "DoorDash",
-      "count": 29
+      "count": 18
     },
     {
       "company": "NCR Voyix",
-      "count": 27
-    },
-    {
-      "company": "Global Payments",
-      "count": 26
+      "count": 17
     },
     {
       "company": "TouchBistro",
-      "count": 26
+      "count": 16
     },
     {
       "company": "Olo",
-      "count": 26
+      "count": 16
+    },
+    {
+      "company": "PAR",
+      "count": 15
+    },
+    {
+      "company": "Fiserv",
+      "count": 15
+    },
+    {
+      "company": "Uber Eats",
+      "count": 15
     }
   ]
 }
