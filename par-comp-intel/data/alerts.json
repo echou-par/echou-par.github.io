@@ -1,70 +1,21 @@
 {
-  "updated": "2026-07-25T20:59:54.927875+00:00",
-  "total": 5,
+  "updated": "2026-07-25T22:03:48.222083+00:00",
+  "total": 1,
   "by_category": {
-    "analyst_downgrade": 1,
-    "stock_move": 4
+    "stock_move": 1
   },
   "alerts": [
-    {
-      "category": "analyst_downgrade",
-      "severity": "high",
-      "company": "Lightspeed",
-      "headline": "CIBC Maintains Lightspeed POS(LSPD.US) With Buy Rating, Cuts Target Price to $17.73 - Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxON1hkYWdmaDVCYzVwVzJpOWY0aUpqajAwczVjdlpyVDJOVEpkUHl3WjRBOFRHOWhLbWJyb2JsbkRKOVhmY3RUNGYyMTZTLVM1VW1XdlE4dzB4WGxnYksyQ3pQWHoyZ0F1eVpYY3BnRHYxd3NBT0tzY1VqdHgtbGdHOTZPdzJrNmVfSERaamhrRmlIY1IzMzJCeTVOdWE1WEVoMlpzb1NoRDFQaG1Yd3F2MQ?oc=5",
-      "source": "Google News",
-      "date": "Sat, 25 Jul 2026 02:56:21 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-07-25T20:59:54.927875+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "medium",
-      "company": "Toast",
-      "headline": "Toast (TOST) stock down 7.9% over the past week",
-      "url": "https://finance.yahoo.com/quote/TOST",
-      "source": "Yahoo Finance",
-      "date": "2026-07-25T20:59:54.927875+00:00",
-      "par_relevance": 3,
-      "note": "-7.9% 1W",
-      "detected_at": "2026-07-25T20:59:54.927875+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "medium",
-      "company": "Lightspeed",
-      "headline": "Lightspeed (LSPD) stock down 7.7% over the past week",
-      "url": "https://finance.yahoo.com/quote/LSPD",
-      "source": "Yahoo Finance",
-      "date": "2026-07-25T20:59:54.927875+00:00",
-      "par_relevance": 3,
-      "note": "-7.7% 1W",
-      "detected_at": "2026-07-25T20:59:54.927875+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "medium",
-      "company": "Shift4",
-      "headline": "Shift4 (FOUR) stock down 8.9% over the past week",
-      "url": "https://finance.yahoo.com/quote/FOUR",
-      "source": "Yahoo Finance",
-      "date": "2026-07-25T20:59:54.927875+00:00",
-      "par_relevance": 3,
-      "note": "-8.9% 1W",
-      "detected_at": "2026-07-25T20:59:54.927875+00:00"
-    },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "DoorDash",
-      "headline": "DoorDash (DASH) stock down 10.2% over the past week",
+      "headline": "DoorDash (DASH) stock down 8.5% over the past week",
       "url": "https://finance.yahoo.com/quote/DASH",
       "source": "Yahoo Finance",
-      "date": "2026-07-25T20:59:54.927875+00:00",
+      "date": "2026-07-25T22:03:48.222083+00:00",
       "par_relevance": 2,
-      "note": "-10.2% 1W",
-      "detected_at": "2026-07-25T20:59:54.927875+00:00"
+      "note": "-8.5% 1W",
+      "detected_at": "2026-07-25T22:03:48.222083+00:00"
     }
   ]
 }
