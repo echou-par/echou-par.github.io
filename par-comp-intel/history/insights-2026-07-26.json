@@ -2,7 +2,7 @@
   "date": "2026-07-26",
   "weekday": "Sunday",
   "first_seen": "2026-07-26T06:41:54.948910+00:00",
-  "last_updated": "2026-07-26T15:38:25.885320+00:00",
+  "last_updated": "2026-07-26T16:07:20.705222+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -16,7 +16,7 @@
       "first_detected": "2026-07-26T06:41:54.948910+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Deliverect and SoundHound AI partner to automate restaurant voice orders - Verdict Food Service\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Deliverect and SoundHound AI partner to automate restaurant voice orders - Verdict Food Service\"",
       "sources": [
         {
           "title": "Deliverect and SoundHound AI partner to automate restaurant voice orders - Verdict Food Service",
@@ -38,7 +38,7 @@
       "first_detected": "2026-07-26T06:41:54.948910+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Costa Vida Drives Fresh Customer Engagement Through Sparkfly Partnership - The Wise Marketer\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Costa Vida Drives Fresh Customer Engagement Through Sparkfly Partnership - The Wise Marketer\"",
       "sources": [
         {
           "title": "Costa Vida Drives Fresh Customer Engagement Through Sparkfly Partnership - The Wise Marketer",
@@ -60,7 +60,7 @@
       "first_detected": "2026-07-26T06:41:54.948910+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 12 tracked financial/market items this cycle. Latest: \"Toast\u2019s Earnings Focus and All\u2011in\u2011One Restaurant Platform Could Be A Game Changer For Toast (TOST) - simplywall.st\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Toast\u2019s Earnings Focus and All\u2011in\u2011One Restaurant Platform Could Be A Game Changer For Toast (TOST) - simplywall.st\"",
       "sources": [
         {
           "title": "Toast\u2019s Earnings Focus and All\u2011in\u2011One Restaurant Platform Could Be A Game Changer For Toast (TOST) - simplywall.st",
@@ -158,40 +158,57 @@
       ],
       "company": "Shift4",
       "first_detected": "2026-07-26T14:46:27.202467+00:00"
+    },
+    {
+      "text": "DoorDash (DASH) stock declined 10.2% over the past week \u2014 material weekly move relative to broader cohort.",
+      "sources": [
+        {
+          "title": "The Keg Is Now Available for Delivery Exclusively on DoorDash - Business Wire",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVVNZb2QzRGVuOFVvMURrQ05tZXNGSVJ3OVBDZDgxXzdadFpXc2U2TTlrb1BwaE12VTZVQnNNN283dEJnMHpoWl95dmRnZzN0SExYcXBHeDhpS3hhbnoybVRlaTB3dnBkSjFrTTlSYlFYZVlFaDY5UTFYNUVBcG1QZDBFVnY0WVdaUV9iV0pUU2tPV29KY3gtQ1lITWFpNTU0QlRUMFpnVEFGV282TDNUOXBZSHZlSm1iM0E?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Credit Cards and Food Delivery: What Are the Rules on Rewards Rates? - NerdWallet",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNThaV2hkOVNTXzZ3eGxlMlpKNE1Ka29rdlBKVHI5SHE3ZVhpS1kwZjRlWTYtaktzQldhQ0pPdjJ4Y01QVVhwMWtGTUNuTThZVEtVTElmRE80VnJyS2M1bW1iQS04OHpjNjJ1ZXF1WGdidGExb2xlNmUzQmJQOUctSWFRTXctRGMzdzJOMTkzeXhBdXhYRVgwZFVtdklSVklpcGhNYmVCdy1PRnRlNGpxS0Fn?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "DoorDash",
+      "first_detected": "2026-07-26T16:07:20.705222+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "Deliverect",
-      "count": 48
-    },
-    {
-      "company": "SpotOn",
-      "count": 34
-    },
-    {
-      "company": "Lightspeed",
-      "count": 33
+      "company": "Global Payments",
+      "count": 19
     },
     {
       "company": "DoorDash",
-      "count": 28
+      "count": 18
     },
     {
       "company": "NCR Voyix",
-      "count": 27
-    },
-    {
-      "company": "Global Payments",
-      "count": 27
+      "count": 17
     },
     {
       "company": "TouchBistro",
-      "count": 26
+      "count": 16
     },
     {
       "company": "Olo",
-      "count": 26
+      "count": 16
+    },
+    {
+      "company": "Sparkfly",
+      "count": 16
+    },
+    {
+      "company": "Toast",
+      "count": 15
+    },
+    {
+      "company": "Fiserv",
+      "count": 15
     }
   ]
 }
