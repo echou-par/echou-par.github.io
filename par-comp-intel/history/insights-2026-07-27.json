@@ -2,7 +2,7 @@
   "date": "2026-07-27",
   "weekday": "Monday",
   "first_seen": "2026-07-27T07:39:12.865689+00:00",
-  "last_updated": "2026-07-27T18:57:37.741742+00:00",
+  "last_updated": "2026-07-27T20:39:06.213635+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Square Card from Block Inc. - everyday spending tool built for US small businesses - Ad-hoc-news.de\"",
@@ -169,6 +169,18 @@
         }
       ],
       "first_detected": "2026-07-27T18:57:37.741742+00:00"
+    },
+    {
+      "text": "Risk signal \u2014 Square: \"Block stock surges post layoffs, raising AI alarm bells - KRON4\"",
+      "sources": [
+        {
+          "title": "Block stock surges post layoffs, raising AI alarm bells - KRON4",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUzRVSUMwUXppZUZOQ2phdGlra1RRbWdLM3ZCcWJkeFBVNG9UcnIyQ2VrX1hKRHpuY0cxODVDSzc1eU1qeEYxVXBORzhJMk5EY0xmWmR1Z2hYd0FkZVNQajRBTGItZUFmYjV5aDh0eEEzNXZPR255NnBxNUFDb1V2Y2RMNnEzWmhFS3dqQTR0R3FWU09Kc2NVNjNlUGfSAaIBQVVfeXFMTW84Q0hqZ29SbERjSkdXak9NaXR5dEZ2VkRULUVBSzNET1lJc2RCZ2tPUlVBdnE3YjRXTUtuQ0JLZ3NnU1p2UW03N0NEQlc3aUVyMGhLTTI0RkdoaTFsTXdFUDhkSTl0YVRJSmxEWE5vc0FMT0JONkFaX3gySVZzUzRwS2pLQTk0Um9uT0NkRkZmbHpfb2RQR2VRVGlBRHR6M2tR?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Square",
+      "first_detected": "2026-07-27T20:39:06.213635+00:00"
     }
   ],
   "most_mentioned": [
@@ -197,11 +209,11 @@
       "count": 15
     },
     {
-      "company": "Shift4",
+      "company": "Toast",
       "count": 15
     },
     {
-      "company": "Toast",
+      "company": "Deliverect",
       "count": 15
     }
   ]
