@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28T06:09:52.311412+00:00",
+  "updated": "2026-07-28T09:18:32.662773+00:00",
   "tickers": {
     "PAR": {
       "ticker": "PAR",
@@ -243,7 +243,6 @@
         {
           "endDate": "2025-12-31",
           "totalRevenue": 1633000000.0,
-          "costOfRevenue": 1210000000.0,
           "grossProfit": 423000000.0,
           "researchDevelopment": 97000000.0,
           "sellingGeneralAdministrative": 237000000.0,
@@ -285,7 +284,7 @@
           "endDate": "2025-12-31",
           "cash": 1353000000.0,
           "shortTermInvestments": 638000000.0,
-          "netReceivables": 103000000.0,
+          "netReceivables": 127000000.0,
           "totalCurrentAssets": 2669000000.0,
           "totalAssets": 3145000000.0,
           "totalCurrentLiabilities": 969000000.0,
@@ -847,7 +846,7 @@
       "gross_margin": 0.35099998,
       "enterprise_value": 9205066752.0,
       "trailing_pe": 57.436783,
-      "forward_pe": 7.421853,
+      "forward_pe": 7.421368,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
@@ -1167,7 +1166,7 @@
       "ticker": "GPN",
       "company": "Global Payments",
       "price": 84.06,
-      "market_cap": null,
+      "market_cap": 22994067456.0,
       "ttm_revenue": 8855241728.0,
       "ttm_ebitda": 3920230912.0,
       "ttm_gross_profit": 5968721920.0,
@@ -1175,7 +1174,7 @@
       "ebitda_margin": 0.4427,
       "gross_margin": 0.67403,
       "enterprise_value": 41602224128.0,
-      "trailing_pe": 30.904411,
+      "trailing_pe": 29.80851,
       "forward_pe": 5.2131815,
       "income_statement_annual": [
         {
@@ -1493,7 +1492,7 @@
       "ebitda_margin": 0.13076,
       "gross_margin": 0.39635,
       "enterprise_value": 146176147456.0,
-      "trailing_pe": 16.918114,
+      "trailing_pe": 16.35012,
       "forward_pe": 15.415713,
       "income_statement_annual": [
         {
