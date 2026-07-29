@@ -2,7 +2,7 @@
   "date": "2026-07-29",
   "weekday": "Wednesday",
   "first_seen": "2026-07-29T06:37:38.114390+00:00",
-  "last_updated": "2026-07-29T15:24:12.163406+00:00",
+  "last_updated": "2026-07-29T16:01:30.187208+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -157,12 +157,12 @@
           "source": "Google News"
         },
         {
-          "title": "Campaign analytics - Talon.One docs",
+          "title": "Campaign analytics - docs.talon.one",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBsd05ITEx4enNBV3MxNDZPbzVVT0stSWJ1dWFIM2l2SERHV2dLUVYwamRrS2duUTl0ZUxvTk9vTXhWMlNqeFAxTlBDSXdPbndMT0JRcDJhcU5pZ2g3R0hqMTRBZWc2SEJod01fR00xOUdpUQ?oc=5",
           "source": "Google News (talon.one)"
         },
         {
-          "title": "Create a channel-specific coupon campaign - Talon.One docs",
+          "title": "Create a channel-specific coupon campaign - docs.talon.one",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYlZnZ2FEa2s4bnIycktfMlVIZ19XTG02YWFFUWp1bDdXSmlnSThKNElEVmlhQWtTSU9fbnRZbU5RdHlQcnlXZGtuX2VrZTBKVHV3ZWlOYUtVRFlQZEIwbm9uR0pIb2tra2VJUC1Jdk1MdmNfZ3liVG1WTDNZYTd4TGMzcGhPWEtTaGc?oc=5",
           "source": "Google News (talon.one)"
         }
@@ -186,6 +186,28 @@
       ],
       "company": "Square",
       "first_detected": "2026-07-29T15:24:12.163406+00:00"
+    },
+    {
+      "text": "Lightspeed shows concentrated financial/market activity \u2014 7 tracked financial/market items this cycle. Latest: \"Lightspeed Commerce earnings on deck after AI product blitz - Investing.com\"",
+      "sources": [
+        {
+          "title": "Lightspeed Commerce earnings on deck after AI product blitz - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaVRPRFUwMWMtNWhHajJWR1hOeVN5c3I2WmZLNFlhWVpxOFc5SkJ6VEdUMndDa1pOdS14dE9nb2dFMGhScnhjNXJwZ0VsdkJ5dFhJalU4QXhyNTl6M1hlWS1FdkxnOEFCVXZuUzJvb1FTaDBHdEFhZ01ZM01xdlBlYlN6Sy02ckZ2S3lEY1lTdTF0TF85eGZ4c3dpVGhkaTZacDJtaHJkMGRKREJSUVBjSmxtTXlOSTk5YVhidA?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Lightspeed Commerce Inc expected to post earnings of 14 cents a share - Earnings Preview - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOVHl5Z2VEYWJPYm02aVk1ZUZfaEtYR1ZXanJBNkJTMWVYc1hET2V4QVVVOXZ4R3lNNzF1ai1OdUh0Sy1BbDl6dGZSU0pxZjlUbkRybzJhdHlqM2loZU40YzdKWENTbDdUY0pSNmhZLXdhZkZhcTJjWFlWR19KR0JJXzVNbjlEaUtLaXRDQWtvdUVxRTFwcFIxaUNPY3NEemZ3Mk5OT1JXdHMwd0ZoWm5DVjVtX2xRTjd2UzVVNm9zS2Z4VWpNQkxZd0lKYURDSEdkVWRFZW5nQzRPVTVIVFZoUHVTRVRDT0FhMmlVag?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Ahead of Lightspeed POS (LSPD) Q1 Earnings: Get Ready With Wall Street Estimates for Key Metrics - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcnZBUVVUd3Q1WDNUR3FXV0M1aEw5RlBjcElwaWdUYlVzbWFucXJOWXNpSXV6azdzUUxNWVZBMGRyR0szXzhBT2FjdDhXaU1kZlpmcTdCdGEyd1dxTGhzMlUxQ0lwdTVxUEJrMHdCb2t0dkR5UzB3bDFJa0tBeUtMUVJVOWM1TXJwRy1vRVZzalZqLU40WXZqeg?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Lightspeed",
+      "first_detected": "2026-07-29T16:01:30.187208+00:00"
     }
   ],
   "most_mentioned": [
@@ -199,11 +221,15 @@
     },
     {
       "company": "SpotOn",
-      "count": 31
+      "count": 30
     },
     {
       "company": "DoorDash",
       "count": 27
+    },
+    {
+      "company": "Global Payments",
+      "count": 26
     },
     {
       "company": "Olo",
@@ -212,10 +238,6 @@
     {
       "company": "Sparkfly",
       "count": 26
-    },
-    {
-      "company": "Global Payments",
-      "count": 25
     },
     {
       "company": "NCR Voyix",
