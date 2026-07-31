@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T10:08:01.459149+00:00",
+  "updated": "2026-07-31T12:29:22.546577+00:00",
   "tickers": {
     "PAR": {
       "ticker": "PAR",
@@ -183,7 +183,7 @@
       "ebitda_margin": 0.06516,
       "gross_margin": 0.26357,
       "enterprise_value": 17300000768.0,
-      "trailing_pe": 48.308823,
+      "trailing_pe": 49.029846,
       "forward_pe": 19.46632,
       "income_statement_annual": [
         {
@@ -243,7 +243,6 @@
         {
           "endDate": "2025-12-31",
           "totalRevenue": 1633000000.0,
-          "costOfRevenue": 1210000000.0,
           "grossProfit": 423000000.0,
           "researchDevelopment": 97000000.0,
           "sellingGeneralAdministrative": 237000000.0,
@@ -285,7 +284,7 @@
           "endDate": "2025-12-31",
           "cash": 1353000000.0,
           "shortTermInvestments": 638000000.0,
-          "netReceivables": 103000000.0,
+          "netReceivables": 127000000.0,
           "totalCurrentAssets": 2669000000.0,
           "totalAssets": 3145000000.0,
           "totalCurrentLiabilities": 969000000.0,
@@ -677,13 +676,13 @@
       "company": "Lightspeed",
       "price": 9.66,
       "market_cap": 1249033984.0,
-      "ttm_revenue": 1227046016.0,
-      "ttm_ebitda": -39660000.0,
-      "ttm_gross_profit": 526921984.0,
-      "revenue_growth_yoy": 0.147,
-      "ebitda_margin": -0.03232,
-      "gross_margin": 0.42942002,
-      "enterprise_value": 1083282944.0,
+      "ttm_revenue": 1244807936.0,
+      "ttm_ebitda": -36776000.0,
+      "ttm_gross_profit": 536408000.0,
+      "revenue_growth_yoy": 0.058,
+      "ebitda_margin": -0.02954,
+      "gross_margin": 0.43092,
+      "enterprise_value": 982880512.0,
       "trailing_pe": null,
       "forward_pe": 10.587345,
       "income_statement_annual": [
@@ -846,7 +845,7 @@
       "ebitda_margin": 0.19111,
       "gross_margin": 0.35099998,
       "enterprise_value": 9503342592.0,
-      "trailing_pe": 64.73494,
+      "trailing_pe": 61.75862,
       "forward_pe": 7.9797897,
       "income_statement_annual": [
         {
@@ -1005,7 +1004,7 @@
       "ebitda_margin": 0.06437,
       "gross_margin": 0.45078,
       "enterprise_value": 49934110720.0,
-      "trailing_pe": 64.023254,
+      "trailing_pe": 64.52344,
       "forward_pe": 16.284801,
       "income_statement_annual": [
         {
@@ -1167,7 +1166,7 @@
       "ticker": "GPN",
       "company": "Global Payments",
       "price": 86.84,
-      "market_cap": null,
+      "market_cap": 23754518528.0,
       "ttm_revenue": 8855241728.0,
       "ttm_ebitda": 3920230912.0,
       "ttm_gross_profit": 5968721920.0,
@@ -1175,7 +1174,7 @@
       "ebitda_margin": 0.4427,
       "gross_margin": 0.67403,
       "enterprise_value": 42362671104.0,
-      "trailing_pe": 32.52434,
+      "trailing_pe": 31.92647,
       "forward_pe": 5.38559,
       "income_statement_annual": [
         {
