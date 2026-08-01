@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T11:43:58.251630+00:00",
+  "updated": "2026-08-01T13:42:22.799637+00:00",
   "tickers": {
     "PAR": {
       "ticker": "PAR",
@@ -183,7 +183,7 @@
       "ebitda_margin": 0.06516,
       "gross_margin": 0.26357,
       "enterprise_value": 16963600384.0,
-      "trailing_pe": 48.89394,
+      "trailing_pe": 48.164177,
       "forward_pe": 19.122623,
       "income_statement_annual": [
         {
@@ -243,6 +243,7 @@
         {
           "endDate": "2025-12-31",
           "totalRevenue": 1633000000.0,
+          "costOfRevenue": 1210000000.0,
           "grossProfit": 423000000.0,
           "researchDevelopment": 97000000.0,
           "sellingGeneralAdministrative": 237000000.0,
@@ -284,7 +285,7 @@
           "endDate": "2025-12-31",
           "cash": 1353000000.0,
           "shortTermInvestments": 638000000.0,
-          "netReceivables": 127000000.0,
+          "netReceivables": 103000000.0,
           "totalCurrentAssets": 2669000000.0,
           "totalAssets": 3145000000.0,
           "totalCurrentLiabilities": 969000000.0,
@@ -348,7 +349,7 @@
       "ebitda_margin": 0.091709994,
       "gross_margin": 0.51763,
       "enterprise_value": 83236585472.0,
-      "trailing_pe": 93.40953,
+      "trailing_pe": 92.528305,
       "forward_pe": 25.319561,
       "income_statement_annual": [
         {
@@ -684,7 +685,7 @@
       "gross_margin": 0.43092,
       "enterprise_value": 955028864.0,
       "trailing_pe": null,
-      "forward_pe": 11.0935545,
+      "forward_pe": 11.042904,
       "income_statement_annual": [
         {
           "endDate": "2026-03-31",
@@ -1166,7 +1167,7 @@
       "ticker": "GPN",
       "company": "Global Payments",
       "price": 84.08,
-      "market_cap": 22999539712.0,
+      "market_cap": null,
       "ttm_revenue": 8855241728.0,
       "ttm_ebitda": 3920230912.0,
       "ttm_gross_profit": 5968721920.0,
@@ -1174,7 +1175,7 @@
       "ebitda_margin": 0.4427,
       "gross_margin": 0.67403,
       "enterprise_value": 41607692288.0,
-      "trailing_pe": 31.969582,
+      "trailing_pe": 30.911764,
       "forward_pe": 5.214422,
       "income_statement_annual": [
         {
