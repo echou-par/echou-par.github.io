@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T10:05:00.271720+00:00",
+  "updated": "2026-08-01T11:43:58.251630+00:00",
   "tickers": {
     "PAR": {
       "ticker": "PAR",
@@ -243,7 +243,6 @@
         {
           "endDate": "2025-12-31",
           "totalRevenue": 1633000000.0,
-          "costOfRevenue": 1210000000.0,
           "grossProfit": 423000000.0,
           "researchDevelopment": 97000000.0,
           "sellingGeneralAdministrative": 237000000.0,
@@ -285,7 +284,7 @@
           "endDate": "2025-12-31",
           "cash": 1353000000.0,
           "shortTermInvestments": 638000000.0,
-          "netReceivables": 103000000.0,
+          "netReceivables": 127000000.0,
           "totalCurrentAssets": 2669000000.0,
           "totalAssets": 3145000000.0,
           "totalCurrentLiabilities": 969000000.0,
@@ -683,9 +682,9 @@
       "revenue_growth_yoy": 0.058,
       "ebitda_margin": -0.02954,
       "gross_margin": 0.43092,
-      "enterprise_value": 1045073280.0,
+      "enterprise_value": 955028864.0,
       "trailing_pe": null,
-      "forward_pe": 11.094771,
+      "forward_pe": 11.0935545,
       "income_statement_annual": [
         {
           "endDate": "2026-03-31",
@@ -846,7 +845,7 @@
       "ebitda_margin": 0.19111,
       "gross_margin": 0.35099998,
       "enterprise_value": 9445433344.0,
-      "trailing_pe": 61.627907,
+      "trailing_pe": 60.91954,
       "forward_pe": 7.8713727,
       "income_statement_annual": [
         {
@@ -1167,7 +1166,7 @@
       "ticker": "GPN",
       "company": "Global Payments",
       "price": 84.08,
-      "market_cap": null,
+      "market_cap": 22999539712.0,
       "ttm_revenue": 8855241728.0,
       "ttm_ebitda": 3920230912.0,
       "ttm_gross_profit": 5968721920.0,
@@ -1334,7 +1333,7 @@
       "ebitda_margin": 0.24457088667614985,
       "gross_margin": 0.5805595068752963,
       "enterprise_value": null,
-      "trailing_pe": 9.173469,
+      "trailing_pe": 9.142372,
       "forward_pe": 6.037285,
       "income_statement_annual": [
         {
