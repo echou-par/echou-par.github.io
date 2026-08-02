@@ -2,7 +2,7 @@
   "date": "2026-08-02",
   "weekday": "Sunday",
   "first_seen": "2026-08-02T04:05:24.960880+00:00",
-  "last_updated": "2026-08-02T09:34:39.867259+00:00",
+  "last_updated": "2026-08-02T11:21:08.188848+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-08-02T04:05:24.960880+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Deliverect and SoundHound AI partner to automate restaurant voice orders - Yahoo Tech\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Deliverect and SoundHound AI partner to automate restaurant voice orders - Yahoo Tech\"",
       "sources": [
         {
           "title": "Deliverect and SoundHound AI partner to automate restaurant voice orders - Yahoo Tech",
@@ -134,16 +134,24 @@
   ],
   "most_mentioned": [
     {
+      "company": "DoorDash",
+      "count": 18
+    },
+    {
       "company": "Toast",
       "count": 18
     },
     {
-      "company": "DoorDash",
+      "company": "Global Payments",
       "count": 17
     },
     {
-      "company": "Global Payments",
-      "count": 17
+      "company": "NCR Voyix",
+      "count": 16
+    },
+    {
+      "company": "Sparkfly",
+      "count": 16
     },
     {
       "company": "Uber Eats",
@@ -154,15 +162,7 @@
       "count": 15
     },
     {
-      "company": "NCR Voyix",
-      "count": 15
-    },
-    {
       "company": "Fiserv",
-      "count": 15
-    },
-    {
-      "company": "TouchBistro",
       "count": 15
     }
   ]
