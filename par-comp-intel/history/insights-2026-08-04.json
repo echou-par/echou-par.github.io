@@ -2,7 +2,7 @@
   "date": "2026-08-04",
   "weekday": "Tuesday",
   "first_seen": "2026-08-04T06:11:40.789148+00:00",
-  "last_updated": "2026-08-04T06:11:40.789148+00:00",
+  "last_updated": "2026-08-04T09:22:24.411887+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -118,52 +118,43 @@
       "text": "Lightspeed (LSPD) stock declined 5.7% over the past week \u2014 material weekly move relative to broader cohort.",
       "sources": [
         {
-          "title": "Bank of America Securities Remains a Sell on Lightspeed POS Inc (LSPD) - The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQMmVCYkRDaFAtNER4RUhseGNHcjhZTnJSZGFGZUtxZkhXRlYxVUx6TEt5aGRYMzhNcEtITmRNbENpTjdWc1JkN1RfTXlBc1hVT0xUcnQtSzJvVHhnTWFOV1pRYzhCRDdQemg0c09iVkx3TFRESng0T1U4M2wyaW5vRU9VU0l0VWFPNVJNcjE1SE50YlhoTXI4Nnp2VUl1Z2hrZ3NtdG9SZ1hkY0g1RlFsWVFQQnhIWlNSLUttdFVJNURTcFJYcUNkSlBYZWIxZWpCUkhlTEZmMFZCRnNGNXdzVlVJcmc4UTh2ajAw?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Will Profitability Gains, Buybacks and Meta Tie-Up Change Lightspeed Commerce's (TSX:LSPD) Narrative - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNU0tWMWNWZGtCckNfZ2RScVVQaFRDblRRanU1UXQ0eUVfa3FnNC01cFc0d2t6TTNHYTBUWVVVTHd5ckFmekZKalZhZHJfdEk2YloxcVE5UlJXMGVEUnhPTTZsX3dxMUhhSlNzVUlTd0k4eDBUQW91TnNvampEM3hCbDJSMHBtQzhNaEJRWnZqbHlmMVVvUWhqRTl5Tmp1VkdpVlRpbg?oc=5",
-          "source": "Google News"
+          "title": "LSPD on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/LSPD",
+          "source": "Yahoo Finance"
         }
       ],
       "company": "Lightspeed",
       "first_detected": "2026-08-04T06:11:40.789148+00:00"
+    },
+    {
+      "text": "Risk signal \u2014 Uber Eats: \"Why the Uber Eats Priority Fee Lawsuit Is Really About Delivery Technology\"",
+      "sources": [
+        {
+          "title": "Why the Uber Eats Priority Fee Lawsuit Is Really About Delivery Technology",
+          "url": "https://restauranttechnologynews.com/2026/08/why-the-uber-eats-priority-fee-lawsuit-is-really-about-delivery-technology/",
+          "source": "Restaurant Technology News"
+        }
+      ],
+      "company": "Uber Eats",
+      "first_detected": "2026-08-04T09:22:24.411887+00:00"
+    },
+    {
+      "text": "Global Payments (GPN) leading revenue growth at +63.1% YoY \u2014 fastest grower among tracked public competitors.",
+      "sources": [
+        {
+          "title": "Global Payments financials on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/GPN/financials",
+          "source": "Yahoo Finance"
+        }
+      ],
+      "company": "Global Payments",
+      "first_detected": "2026-08-04T09:22:24.411887+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "Global Payments",
-      "count": 17
-    },
-    {
-      "company": "DoorDash",
-      "count": 16
-    },
-    {
       "company": "Uber Eats",
-      "count": 16
-    },
-    {
-      "company": "NCR Voyix",
-      "count": 15
-    },
-    {
-      "company": "PAR",
-      "count": 15
-    },
-    {
-      "company": "Toast",
-      "count": 15
-    },
-    {
-      "company": "Shift4",
-      "count": 15
-    },
-    {
-      "company": "Lightspeed",
-      "count": 15
+      "count": 1
     }
   ]
 }
