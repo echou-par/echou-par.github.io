@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T20:37:06.431691+00:00",
+  "updated": "2026-08-04T22:17:54.085960+00:00",
   "tickers": {
     "PAR": {
       "ticker": "PAR",
@@ -45,15 +45,15 @@
         {
           "endDate": "2023-12-31",
           "totalRevenue": 276714000.0,
-          "costOfRevenue": 187268000.0,
-          "grossProfit": 89446000.0,
+          "costOfRevenue": 317513000.0,
+          "grossProfit": 98310000.0,
           "researchDevelopment": 58356000.0,
-          "sellingGeneralAdministrative": 110652000.0,
+          "sellingGeneralAdministrative": 107505000.0,
           "totalOperatingExpenses": 170866000.0,
           "operatingIncome": -81420000.0,
           "ebit": -72840000.0,
           "netIncome": -69752000.0,
-          "incomeBeforeTax": -79771000.0
+          "incomeBeforeTax": -67764000.0
         }
       ],
       "income_statement_quarterly": [
@@ -243,7 +243,6 @@
         {
           "endDate": "2025-12-31",
           "totalRevenue": 1633000000.0,
-          "costOfRevenue": 1210000000.0,
           "grossProfit": 423000000.0,
           "researchDevelopment": 97000000.0,
           "sellingGeneralAdministrative": 237000000.0,
@@ -285,7 +284,7 @@
           "endDate": "2025-12-31",
           "cash": 1353000000.0,
           "shortTermInvestments": 638000000.0,
-          "netReceivables": 103000000.0,
+          "netReceivables": 127000000.0,
           "totalCurrentAssets": 2669000000.0,
           "totalAssets": 3145000000.0,
           "totalCurrentLiabilities": 969000000.0,
@@ -518,7 +517,7 @@
       "ebitda_margin": 0.09399,
       "gross_margin": 0.2417,
       "enterprise_value": 2484654080.0,
-      "trailing_pe": 31.714287,
+      "trailing_pe": 30.620691,
       "forward_pe": 9.061224,
       "income_statement_annual": [
         {
@@ -685,7 +684,7 @@
       "gross_margin": 0.43092,
       "enterprise_value": 975716800.0,
       "trailing_pe": null,
-      "forward_pe": 11.341415,
+      "forward_pe": 11.376638,
       "income_statement_annual": [
         {
           "endDate": "2026-03-31",
@@ -1006,7 +1005,7 @@
       "gross_margin": 0.45078,
       "enterprise_value": 49636519936.0,
       "trailing_pe": 66.125,
-      "forward_pe": 16.70713,
+      "forward_pe": 16.703405,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
@@ -1167,7 +1166,7 @@
       "ticker": "GPN",
       "company": "Global Payments",
       "price": 88.25,
-      "market_cap": null,
+      "market_cap": 24140216320.0,
       "ttm_revenue": 8855241728.0,
       "ttm_ebitda": 3920230912.0,
       "ttm_gross_profit": 5968721920.0,
