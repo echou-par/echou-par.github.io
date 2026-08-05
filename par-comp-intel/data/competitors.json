@@ -1,163 +1,51 @@
 {
-  "updated": "2026-08-05T11:37:27.515329+00:00",
+  "updated": "2026-08-05T14:23:42.695814+00:00",
   "companies": {
-    "NCR Voyix": [
-      {
-        "headline": "Earnings Flash (VYX) NCR Voyix Corporation Reports Q2 Revenue $523.0M, vs. FactSet Est of $516.9M - marketscreener.com",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUTNORkkzcG9taXNfZ1VTeXppWHdUZVRydG05ZXI2eVU1OEgwRzRzRGc5MkJSZjhFNGN3WFpiVlJHa2ZUUFdoZnQtSW9LWThfNXZUYUxYR0lrbU84ajg0ZUo4bVc0Umx4Q0JwY1YzS1NFQ04tOHdpV2piS1U0ZG9HRzdDSHpkUTEwVmxmWm0tWEUxR2VSeEtya3FWeUdReTg1cVFYX2ZSblZ1NkM1YXExSWZLRFVvam1STEUzRmtHSldKang1OVpaYnVCc2FNUHlGMWI5UW13LTg3X0ZX?oc=5",
-        "date": "Wed, 05 Aug 2026 10:59:38 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "NCR VOYIX ($VYX) Releases Q2 2026 Earnings - Quiver Quantitative",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdEJ3UjVGTDdzRkdFMWVMbTc1ZUdVLXJhRFlJNjlLdW14ZWJrOEppblIyb0diUGQyOGhHcHhlOUZXc2M4U3pxcmk4WFZfd21ZNk9QaE5DcUFGU3gxUFZhYkhEUWhoZkR5dGNRZUNlOTRjVFlHbXhQa1JzUVNaMmlzRzNIbzZOZEFx?oc=5",
-        "date": "Wed, 05 Aug 2026 10:55:00 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "NCR Voyix Q2 2026 earnings show recurring growth behind the hardware transition - TradingKey",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPbUhUcGItdm8ybG9fR1gxeEpZTmswNEpMZVU1UjRKa1BOekw2OUo4c1dfbTdZblA1YXRmMWYwYzMxSzRybkRLSTJpQ1lvTXA2b0k2WWlwU1h3NTdKX3BqTUZtYWZzcHlRQW4wekNB?oc=5",
-        "date": "Wed, 05 Aug 2026 10:51:33 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "NCR Voyix: Q2 Earnings Snapshot - The Rome News-Tribune",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWUF5THhiZlZkNWNRRFgtUS1ZZmg2bmlYUkdSbm9zYVZFRnN1dzVqazVsV0NLQzJxR1hkTEI5VDB1TXl6akhfQ3BtMXp4bGx3eVVGRWcteHpBYjByTWRBS0E0elhHLWdXeTFFcjVnUWY3dUNabG5LdzhYalh3OGxlQzkwS21pZ2VUY3ZXLThqdFBjSjNOcTlUd0pPeXRkbGxuRnlodDM1ellScFhQLTJSWEJjQzVZb0NaREZSSHY4ZlI?oc=5",
-        "date": "Wed, 05 Aug 2026 10:41:11 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "NCR Voyix Reports Second Quarter 2026 Results - Business Wire",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQ3dOZ2ZHZ192QW1YUnQxUkpfb3RPTURsQU9Yc182TWJzTXJBVDZrRmo0S2U4REMwX1V4dHJDVDlMakoxdjkxSnNhZFBvY0RuTEdwY2IzZHFSbXp2TWlLSURyakUyZm5UVHE1enN5RGFjNmR2SWlEeFhzVVR0UVp3eXNTb1VIeWVXaTlHa0lTUjZiSUFDVURFZEw0MXljcGRNaUVndw?oc=5",
-        "date": "Wed, 05 Aug 2026 10:30:00 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "NCR Voyix (VYX) CFO Webb-Walsh reports 58,011-share tax withholding - Stock Titan",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRm14QXZDTDU2eXRDUDI4MFFfb0Z1WS1UNHBIM3ZSSUJieHBfel9wR0hmTm84dVRUbGFwbXI3dWdoRTY4YUdzNlVSRkx6dVBmVENqcVYteXk4THpUdzdyWXFHd21hVnJlRWlCYTQ0SHl6NlpCYzNjS1E0NzA0ZFZXaHFIb0R4YmlXM2N5U0lmQVQ0bHpuQU1zLW8wLXVEOW5BUzZFOTVCbDhFUWM?oc=5",
-        "date": "Tue, 04 Aug 2026 20:02:28 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "NCR Voyix faces earnings test as revenue slide continues By Investing.com - Investing.com Nigeria",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNG1TWTAwa1Zxb1ZVanVZSHJmQlR5NlJMMWJnd0tyM3Z2enNscHd2eWJyLTQ0d1pYS21IMkY0QUMyZXFfUHZqdjE3cHdRcWNxN2ZTdi1oRHc3Wk5qZ3ZZZ3BEMUhSVmYwWTBtR0xLUlNOdWE3bTFHTUxveU5hNTFRcy1XYVZNRjJMRUpneW9qcTcxQVludHhfcGxnMzVTWUI2bGhadE5mTDk0U3VP?oc=5",
-        "date": "Tue, 04 Aug 2026 17:25:55 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "NCRRP5031649 Bond Risk Profile - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9aN3BaWWc4UGhFS2lrNlk1NG5OUXQtRy1aRXZxb2t2ZGFDWGc0ekZXVzE1eDJ0eEFCY2ZyYVNGT1RsdmVISUZUdXhIekdjRFpKLXdxc0FVc1FZYlRtUFhPa3lBRXFJM25adWV4NHRXZ0Q0TV9IMzcwYQ?oc=5",
-        "date": "Tue, 04 Aug 2026 11:27:27 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\u26a0\ufe0f",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Is NCR Voyix (VYX) Undervalued Or Is Its SaaS Shift Already Priced In? - simplywall.st",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeTVwdHh5ZjZyMFFWU3hnYmJkQlBnODJQNzdxYXh1cjlLeklZLWJKM3BJRklZclVDQlZiVzVzMDZCWUZqLTdJNkxlbE1DcFhkU19iRDJZRGpJNVBycHFaNThld1ZrZk44cERBVlZVdWkyMG9fSXloU3Viem90eHkycEIxQ1JsbnVLUmcyUldCWlE5WlZaSjZ0Y25ENEU4R0JuVTRZU2RyNDJhbTlnY0tnSXpOc21XbjJGWDlidlZsNWl4czjSAcgBQVVfeXFMUFQ2NW9DYzBsdlI2Uzg2dC1QQXMyaWNFZ19jRlNValpHZWx1ZldHaWYzSktIRVZjSWszd1lpcWczNzFoTDZsS3hWZlA1TGFDc3pmZDV6WXl2MTZWOGpsaDZRNDJqb1poY2llbjlXNTkxbG9LQ0NMV1N2SUJpaTVZV1M5a2JsWW1LbzdIMGg2VnRYSnYtUUtvZ21pTkdLWnVKSFE5ZUZqVTJ6eXFEcFY0ek9mSmw1YllyX2dEcDV6akxCZVYta0NVWWc?oc=5",
-        "date": "Tue, 04 Aug 2026 01:31:25 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Edgestream Partners L.P. Sells 215,798 Shares of NCR Voyix Corporation $VYX - MarketBeat",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbFp6c3E2R18xZS04blp3WDE2YkpVNnlmN281cUNGNGRHN3Z6cThfaWpsbHpZYVZ5LURobTdrRnpvZThaMUpUSU81TjU4SG1OTzhFQnl1aG4tM3ItWmx0czlwcXRCYW1lNnJhU2ZmNGZUMnQzOGlLSlJwSVpKdTJYTGFPUWdkRTdSa25tc0EzRmRsWmFlQnFNVnE4c3lDTUt2aXV0c1JnbjBaQ0xFQXJ3WkM2RTlXTVNGSXFNSW93cmRjQzV0b1MwLXJDemQ?oc=5",
-        "date": "Mon, 03 Aug 2026 08:09:02 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "NCR Voyix Corporation - Encyclopedia Britannica",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1YTGdWVGtWS3JUSkV6MXZad2FlLUduWjk2eTA1WklJTU1JN28xOXJBTTdnTUlJMjN3OHk5TEhMcm9admxydVZ0N2FUc2Juc1VidGdRTTBXWi01RV9LNFI4NzloUUE?oc=5",
-        "date": "Thu, 30 Jul 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Press Release: NCR Voyix to Release Second Quarter Earnings Results - Moomoo",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMXNESFNKSFNxSWx1emZrMFh6SUF1UjlSMlN0R0lYTFVWaTNfd3IxNW5pSU1ERXllNXBVY1JQZ1FPTjRTRWF6UHY4VER4WGlvNzNVdVBNd09NV2JDQ2FoeGJZdXBrdWVNaV9BUDZkeTgtMm1WaGNjcXlzdU5ER2FMNW5ZcjFraGZUemtQUU8zZmZ6ZndNUE96QTkySlkyMjJ0UFQxdjFuWVBoc2M4?oc=5",
-        "date": "Mon, 27 Jul 2026 13:10:00 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "NCR Voyix: Keep Watching From The Sidelines (Rating Upgrade) - Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPM2pCMmpsYzdBdXdIWUJrbE16N1NMSjVhMFNRNTZmMmt2SDJzdS1rVFdKM1JQZ0pmN0R0X2FfdTZiakRvWi1qZDE1MkpFZDloZk5OY0dtajM3MXNGeU4zNlBZZWFhNzFzcHN4QmE3SDZEdUx4dDR6dEUxY0dJX2lZcGhvNDNCUQ?oc=5",
-        "date": "Mon, 20 Jul 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Pizza Ranch selects NCR Voyix to power next-gen restaurant operations - Pizza Marketplace",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZHFBNjV0SUpFanJOdzg0V1FtSlM0MTBWbGZnSW15ckxzczNZSzFkeHptYVlHaWVuTmlwR004bEhyWmNMNzhjZmY0NzRaSV9yUkRrX195Y2luRWNkNzVoZTNDOFppcjJfc2d1UmxEMmhLRTFOdjkxWENWTUNDdi05VmR5SW5iMGxnZWlRMzF1UHVsVkVGWW9yeXJxZFd2SkFRWThmTkJwQUMzbUNU?oc=5",
-        "date": "Wed, 08 Jul 2026 11:34:38 GMT",
-        "source": "Google News - POS Industry",
-        "type": "trade",
-        "company": "NCR Voyix",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "NCR Voyix (VYX) Surges 5.7%: Is This an Indication of Further Gains? - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeFRYQ3Z4Vmc5UVZ5UmhQblhiWEVLNmNOY2tab1dBOUV1WHpSVTZpQjVYY0pCWXYwSnp2RFJOclZFR1BvWEcyS2VtaFA3MHBhR1Z0UEpKRlBLeXFYY2lqR3Jma0ZDQmgycXczM3lFX0xucG04c2Nad0JVMGpKNFdmaENINUZaczYxcUpkdkVVb3Y?oc=5",
-        "date": "Mon, 29 Jun 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      }
-    ],
     "Toast": [
+      {
+        "headline": "Toast Inc. (TOST) PT Raised to $39 at Piper Sandler - StreetInsider",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObWZDaG42a05SckRXcXRFaW5xS1dRWldqMW1vVlFlZDBJQW1lVEVLWnBQcFE3RnVmTk9oTUxXNV95OF9Zd1dxQ0xqbllHbHhYNnp1RzV2eDJJQ05xYzVHdWRrUGFsRmRma3dLdURwMFROMDFRYTlDM19odWVJeEU0X3lKZnoyQ1k3RFJiQ3pVTjFwWnhHeXFrU1dSZm5vUFF5RTBPalJMbXo0elFGcjREWDRSWWZjTzBJNXc?oc=5",
+        "date": "Wed, 05 Aug 2026 13:44:05 GMT",
+        "source": "Google News",
+        "company": "Toast",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Toast Inc. (TOST) PT Raised to $36 at RBC Capital - StreetInsider",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWEhTYjF4bU9lSXVMMW51bmdaYV9SSWFHOHBieVFRZ0pZSTE2dG5oSVVpak9UOE5ZR09zY1F6STF3TVZSdHdRM3AyclozLVhSaXB5SXNkWlB3ZzN4ckpkMGNFUUhiYVR1bXN2a2NBclJfTmQxaTlvQU9CdUJWdzctRHAxMGxoRzlzOF8tcjg0ZGhhckVQWTdLRUF2NVJGMWlaUHNyUlJUSjFxVVRDSnRwbXo4aUVFNjg?oc=5",
+        "date": "Wed, 05 Aug 2026 13:21:57 GMT",
+        "source": "Google News",
+        "company": "Toast",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
       {
         "headline": "Toast: Earnings Edge Expectations, Long-Term Value Is More Obvious (NYSE:TOST) - Seeking Alpha",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaGZMajhlX2RQOTROekw2MUVqcFJqWkZjNGsya01ZS285UnowTVZFVVlLbmE3cjhXMlVmMV9DSWZrNXpTZ3BQbF9WTUFnc3J5b3IwU3NMek1VNlVzdmlySTFCanVqV1k3RXhlbFEtdkJVQlE0Z0xFQ0RfX2JmQS1zaENiYzZWWkdCUTJmM0ZBZGpobFJVVjYySWkxMTJ5Q2tPYUNKWk1RcFI?oc=5",
         "date": "Wed, 05 Aug 2026 10:38:47 GMT",
+        "source": "Google News",
+        "company": "Toast",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "TOAST, INC. : KBW RAISES TARGET PRICE TO $35 FROM $30 - Bitget",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9qcEZBT25ocWxFVXlCbnk5aFdpd0F5Mm5NV2g2NjBIT0p0NVM1UGp5bjVfYU05TUZqcFRUOWRvVVM3ZmlFMi1UTDRfMENLXzhMTjJUX19uNFk4RGhacVhMQ2ZmVdIBY0FVX3lxTE9qcEZBT25ocWxFVXlCbnk5aFdpd0F5Mm5NV2g2NjBIT0p0NVM1UGp5bjVfYU05TUZqcFRUOWRvVVM3ZmlFMi1UTDRfMENLXzhMTjJUX19uNFk4RGhacVhMQ2ZmVQ?oc=5",
+        "date": "Wed, 05 Aug 2026 06:12:25 GMT",
+        "source": "Google News",
+        "company": "Toast",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "TOAST, INC. : PIPER SANDLER RAISES TARGET PRICE TO $39 FROM $32 - Bitget",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9tRUdvbk84Z2pkZTJMd25Id0Q4V0tsZWNEUjctY1ZaRElEbHJ1YTk2WTRxQ1NvM3NtWTUySG1GX05wLXJGRjZyU1JOd0hJNERFaUdyamRIWm5RVHZVdHZPQldKb9IBY0FVX3lxTE9tRUdvbk84Z2pkZTJMd25Id0Q4V0tsZWNEUjctY1ZaRElEbHJ1YTk2WTRxQ1NvM3NtWTUySG1GX05wLXJGRjZyU1JOd0hJNERFaUdyamRIWm5RVHZVdHZPQldKbw?oc=5",
+        "date": "Wed, 05 Aug 2026 05:30:53 GMT",
         "source": "Google News",
         "company": "Toast",
         "type": "public",
@@ -215,16 +103,6 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Toast to Report Q2 Earnings: What Should Investors Do? - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMkxoNGJQRUk4ZTNWQS0yVFdGZjVTbVozZlhBTTZxT2pTUzNiTjN0SWkzUnU3ekF3aWFOQlVNc2tBNFBPbXYyaHgtLXpZOWg0QUNhZ1MyelNKX2xjalZBSWkzUFN5Tk1UaXFDNm5PcGxGQS1FVmtFc2JTamJ2ZDNlNVVyZUZTR0tHcmdwSkwxM0ZkR2FQZlNkT183MFdrc004YXhMRU40Unl1blBt?oc=5",
-        "date": "Mon, 03 Aug 2026 19:06:00 GMT",
-        "source": "Google News",
-        "company": "Toast",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
         "headline": "Toast (NYSE: TOST) insider Jonathan Vassil plans 14,280-share Class A stock sale - Stock Titan",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRmptRnNuUXlrZTE5MV9rOHI1Y1FuVmlfNU1na1JSRzNVLUY2YmM0T181MDUyWUxTVXgyaFBZemVJTDhkN2s0UUtDNWt1c3dEc1YzNVVfVS0wTDFVaVVWQXFMYUF4dlE0SVUweWFWSU1JWF90SXpFdlVoeC1ZVkpVTjk4dlJCN1JkV21nSmJ5SQ?oc=5",
         "date": "Mon, 03 Aug 2026 16:58:55 GMT",
@@ -245,16 +123,6 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Toast Inc. Class A (TOST) Stock Price | Live Quotes & Charts | NYSE - StocksToTrade",
-        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5objV1QkZScjdIRjJZbmFVVzdXdlROOW9jQi1FN3ctSzFiYzhTQW9rNzhXejd2T0FnVXJrTkJmRGxYcFBZUjd1VGc3c0R0UQ?oc=5",
-        "date": "Sat, 01 Aug 2026 00:42:00 GMT",
-        "source": "Google News",
-        "company": "Toast",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
         "headline": "Toast (TOST) Stock Looks Fair On Fair Value But Rich On Earnings - simplywall.st",
         "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVWNxUnYwUWlSNkhUWHlaeEJHd1ZqNGJVMHcxTE10c0p6SmpCeF8tcmNIQmU4VWtxZk9yYV81ajROQ0pkR1BOaVJGSGYxaHhENGlOMzc1ZnJpQjM1YWlCTzRHTVloNWFQdW9mV21nbFhRU0FsemdnZkhzNzJ4Q2xYVkpsSU9vZGNaS1RhY2NQT1hUWUVNUk12M2hGWThBZlp0VnNseGpxVnIzYndQMGV4UGhDLTV3WTZRazNDX3o4SDBpU2wtU1dMOG8xdXpiV0ItMFHSAdcBQVVfeXFMT3otdWhUNnVDcUVIbWpSUjBGRHhFcVQ1ZFZxb2wwVjhfeWp5OFVPUTRxMk5qcHJOVmpMZkFLRE5nT2FiTUVZazl5Z2FBanB0SlFTUTJ3ZjV3czJ4X1c4NDRHVFVwYjdNeUxIcFplMkUzYkhzTmRIZm03LXdRdEFmemFrWlNsX2lMWVhNa2k1VHNtWnA0MnRYLUlYY2RJMlRKcjV2bC1wSmJnbktaek5EQ2w0ODlBbzZoWElDemxqRnV0emZWS2drMEw3UWNBMUtoSUdva0M2elU?oc=5",
         "date": "Fri, 31 Jul 2026 13:46:22 GMT",
@@ -262,16 +130,6 @@
         "company": "Toast",
         "type": "public",
         "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Toast (TOST) Could Be 23% Undervalued As AI And Expansion Plans Draw Attention - simplywall.st",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxON0hZLXk0Q2kwcS0xR2FkN0hCMzh2ampJcVhlaXlFZ2xwa3p0Z05qdkNnOHZRczVfX0JDYlczcXBkQ1NUUHZSd3MzbkxMUDFWNEJxREdIZ3VsRHJxTkFFTGREM2VqOTNYWFNzZ1dLbnQ3UzBfWFhSQ00tblZQTWo4RXZXbWpVVkJLTE1NSzVBbXF3Qk9Vd1lha3k3X1M4R0N4UERMUDBfWENDM2ZVaVgtLU1fQ2kzemJRTHE0RjNadk1xYjRiR3JWc1BNVFM4RDJ6dXfSAdcBQVVfeXFMTTgzLUpRaDhyRE1RcUpDLUFjMWJaUEs0ZVo5RGJUaEczQWZzczQ3aDNOOVNKU3NHLXJxVmlCbTA0bkxUMFJMc0xSSzVFWnVSN2ZNUXR4bzZnUVcxRDVzTXVrNXhmUUc3Vkp0MmZfcmpKaWkyUVFlQml2OV9sdFNtYjdfZFBjYXQzZWN6TkpGaUdYMWt4dmxUdDZyUmVqdmhtQlRJa3pvYjBzWDk3Y0pUZGZTX19UWUhjYUoyQWRvSlVUSGRrenhUd2xUTThERkdzWWw0aTZYdmM?oc=5",
-        "date": "Thu, 30 Jul 2026 12:44:32 GMT",
-        "source": "Google News",
-        "company": "Toast",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       },
       {
@@ -293,23 +151,165 @@
         "type": "public",
         "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
-      },
+      }
+    ],
+    "NCR Voyix": [
       {
-        "headline": "Toast, Inc. (TOST) Is a Trending Stock: Facts to Know Before Betting on It - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRHlOT3dIQjFBblQxem56OHFOaHJ6WXdMSUJwWUFqY3l2Mk8wekhqZUVsbHNFcmxTRUFncEZDV29tZEVENDQwMVRtd0RnQkQxdHpWYWs0M3lxQjhyaFJoZ0IwSlp1a0xTR2did2pXOThyMTNpcS1FUzdLRU9TN29VbG5Zc01tcTBDTF9IWGlueExseVZyMkpVN0p3?oc=5",
-        "date": "Thu, 16 Jul 2026 07:00:00 GMT",
+        "headline": "NCR Voyix Corporation Reports Earnings Results for the Second Quarter and Six Months Ended June 30, 2026 - marketscreener.com",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNWUFiQmZtVTdTY0JPRk9mQWxFd0VuQnVQcS00NFZnOUJBNkFfbmRPb3BPZGwwSHV5a3NuT1dzTDk2U0YzY2ZsRGVXdzRzUDBqNGxDV19TUFhnSy1JOHJXU1NVcVFxS3lxaW1zamVfRjl3dklPNG56NE5Wd0FSV0dOUmVaMWROY2dIYk84YmM5WkZ2ZjNBVWJKclNUcFU2TTVxVngtVmVycHJFQ3lDU2hDQTVzQzdrMVNFUFlROWZSb2lpRlhoTWgxYlhNWmZFS0lKVXg3aXFtUTJnVy1VaGFtb2l1OUI1dw?oc=5",
+        "date": "Wed, 05 Aug 2026 12:40:49 GMT",
         "source": "Google News",
-        "company": "Toast",
+        "company": "NCR Voyix",
         "type": "public",
         "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Earnings Flash (VYX) NCR Voyix Corporation Reports Q2 Revenue $523.0M, vs. FactSet Est of $516.9M - marketscreener.com",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUTNORkkzcG9taXNfZ1VTeXppWHdUZVRydG05ZXI2eVU1OEgwRzRzRGc5MkJSZjhFNGN3WFpiVlJHa2ZUUFdoZnQtSW9LWThfNXZUYUxYR0lrbU84ajg0ZUo4bVc0Umx4Q0JwY1YzS1NFQ04tOHdpV2piS1U0ZG9HRzdDSHpkUTEwVmxmWm0tWEUxR2VSeEtya3FWeUdReTg1cVFYX2ZSblZ1NkM1YXExSWZLRFVvam1STEUzRmtHSldKang1OVpaYnVCc2FNUHlGMWI5UW13LTg3X0ZX?oc=5",
+        "date": "Wed, 05 Aug 2026 10:59:38 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "NCR VOYIX ($VYX) Releases Q2 2026 Earnings - Quiver Quantitative",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdEJ3UjVGTDdzRkdFMWVMbTc1ZUdVLXJhRFlJNjlLdW14ZWJrOEppblIyb0diUGQyOGhHcHhlOUZXc2M4U3pxcmk4WFZfd21ZNk9QaE5DcUFGU3gxUFZhYkhEUWhoZkR5dGNRZUNlOTRjVFlHbXhQa1JzUVNaMmlzRzNIbzZOZEFx?oc=5",
+        "date": "Wed, 05 Aug 2026 10:55:00 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "NCR Voyix Q2 2026 earnings show recurring growth behind the hardware transition - TradingKey",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPbUhUcGItdm8ybG9fR1gxeEpZTmswNEpMZVU1UjRKa1BOekw2OUo4c1dfbTdZblA1YXRmMWYwYzMxSzRybkRLSTJpQ1lvTXA2b0k2WWlwU1h3NTdKX3BqTUZtYWZzcHlRQW4wekNB?oc=5",
+        "date": "Wed, 05 Aug 2026 10:51:33 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "NCR Voyix Q2 profit beats on platform expansion - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRWxRUDN1Q3NLa0hqTHBSRDFCQjgyNlpZVXpLNkNDaElPMzJYd3hYWGV2MkotRUtPSjFoWmpZdjIwQW16VElILWIzSmswRW9ITlVfUzhGaG9FeFZfYzJTXzhXWXRsM3VjWHd4NzB1V2kxUFFaY3RTRHlHa3lXOW8zS3VwNlBzZDNJa0Z2TmgwckhHWWhNSy1pdTJLVWpPRTV6SXNGSHFWbXItajVzamx4cXZwbmZfN25W?oc=5",
+        "date": "Wed, 05 Aug 2026 10:47:17 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "NCR Voyix: Q2 Earnings Snapshot - The Rome News-Tribune",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWUF5THhiZlZkNWNRRFgtUS1ZZmg2bmlYUkdSbm9zYVZFRnN1dzVqazVsV0NLQzJxR1hkTEI5VDB1TXl6akhfQ3BtMXp4bGx3eVVGRWcteHpBYjByTWRBS0E0elhHLWdXeTFFcjVnUWY3dUNabG5LdzhYalh3OGxlQzkwS21pZ2VUY3ZXLThqdFBjSjNOcTlUd0pPeXRkbGxuRnlodDM1ellScFhQLTJSWEJjQzVZb0NaREZSSHY4ZlI?oc=5",
+        "date": "Wed, 05 Aug 2026 10:41:11 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "NCR Voyix Reports Second Quarter 2026 Results - Business Wire",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQ3dOZ2ZHZ192QW1YUnQxUkpfb3RPTURsQU9Yc182TWJzTXJBVDZrRmo0S2U4REMwX1V4dHJDVDlMakoxdjkxSnNhZFBvY0RuTEdwY2IzZHFSbXp2TWlLSURyakUyZm5UVHE1enN5RGFjNmR2SWlEeFhzVVR0UVp3eXNTb1VIeWVXaTlHa0lTUjZiSUFDVURFZEw0MXljcGRNaUVndw?oc=5",
+        "date": "Wed, 05 Aug 2026 10:30:00 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "NCR Voyix (VYX) CFO Webb-Walsh reports 58,011-share tax withholding - Stock Titan",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRm14QXZDTDU2eXRDUDI4MFFfb0Z1WS1UNHBIM3ZSSUJieHBfel9wR0hmTm84dVRUbGFwbXI3dWdoRTY4YUdzNlVSRkx6dVBmVENqcVYteXk4THpUdzdyWXFHd21hVnJlRWlCYTQ0SHl6NlpCYzNjS1E0NzA0ZFZXaHFIb0R4YmlXM2N5U0lmQVQ0bHpuQU1zLW8wLXVEOW5BUzZFOTVCbDhFUWM?oc=5",
+        "date": "Tue, 04 Aug 2026 20:02:28 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "NCR Voyix faces earnings test as revenue slide continues By Investing.com - Investing.com Nigeria",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNG1TWTAwa1Zxb1ZVanVZSHJmQlR5NlJMMWJnd0tyM3Z2enNscHd2eWJyLTQ0d1pYS21IMkY0QUMyZXFfUHZqdjE3cHdRcWNxN2ZTdi1oRHc3Wk5qZ3ZZZ3BEMUhSVmYwWTBtR0xLUlNOdWE3bTFHTUxveU5hNTFRcy1XYVZNRjJMRUpneW9qcTcxQVludHhfcGxnMzVTWUI2bGhadE5mTDk0U3VP?oc=5",
+        "date": "Tue, 04 Aug 2026 17:25:55 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Is NCR Voyix (VYX) Undervalued Or Is Its SaaS Shift Already Priced In? - simplywall.st",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeTVwdHh5ZjZyMFFWU3hnYmJkQlBnODJQNzdxYXh1cjlLeklZLWJKM3BJRklZclVDQlZiVzVzMDZCWUZqLTdJNkxlbE1DcFhkU19iRDJZRGpJNVBycHFaNThld1ZrZk44cERBVlZVdWkyMG9fSXloU3Viem90eHkycEIxQ1JsbnVLUmcyUldCWlE5WlZaSjZ0Y25ENEU4R0JuVTRZU2RyNDJhbTlnY0tnSXpOc21XbjJGWDlidlZsNWl4czjSAcgBQVVfeXFMUFQ2NW9DYzBsdlI2Uzg2dC1QQXMyaWNFZ19jRlNValpHZWx1ZldHaWYzSktIRVZjSWszd1lpcWczNzFoTDZsS3hWZlA1TGFDc3pmZDV6WXl2MTZWOGpsaDZRNDJqb1poY2llbjlXNTkxbG9LQ0NMV1N2SUJpaTVZV1M5a2JsWW1LbzdIMGg2VnRYSnYtUUtvZ21pTkdLWnVKSFE5ZUZqVTJ6eXFEcFY0ek9mSmw1YllyX2dEcDV6akxCZVYta0NVWWc?oc=5",
+        "date": "Tue, 04 Aug 2026 01:31:25 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Edgestream Partners L.P. Sells 215,798 Shares of NCR Voyix Corporation $VYX - MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbFp6c3E2R18xZS04blp3WDE2YkpVNnlmN281cUNGNGRHN3Z6cThfaWpsbHpZYVZ5LURobTdrRnpvZThaMUpUSU81TjU4SG1OTzhFQnl1aG4tM3ItWmx0czlwcXRCYW1lNnJhU2ZmNGZUMnQzOGlLSlJwSVpKdTJYTGFPUWdkRTdSa25tc0EzRmRsWmFlQnFNVnE4c3lDTUt2aXV0c1JnbjBaQ0xFQXJ3WkM2RTlXTVNGSXFNSW93cmRjQzV0b1MwLXJDemQ?oc=5",
+        "date": "Mon, 03 Aug 2026 08:09:02 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "NCR Voyix Corporation - Encyclopedia Britannica",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1YTGdWVGtWS3JUSkV6MXZad2FlLUduWjk2eTA1WklJTU1JN28xOXJBTTdnTUlJMjN3OHk5TEhMcm9admxydVZ0N2FUc2Juc1VidGdRTTBXWi01RV9LNFI4NzloUUE?oc=5",
+        "date": "Thu, 30 Jul 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Press Release: NCR Voyix to Release Second Quarter Earnings Results - Moomoo",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMXNESFNKSFNxSWx1emZrMFh6SUF1UjlSMlN0R0lYTFVWaTNfd3IxNW5pSU1ERXllNXBVY1JQZ1FPTjRTRWF6UHY4VER4WGlvNzNVdVBNd09NV2JDQ2FoeGJZdXBrdWVNaV9BUDZkeTgtMm1WaGNjcXlzdU5ER2FMNW5ZcjFraGZUemtQUU8zZmZ6ZndNUE96QTkySlkyMjJ0UFQxdjFuWVBoc2M4?oc=5",
+        "date": "Mon, 27 Jul 2026 13:10:00 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "NCR Voyix: Keep Watching From The Sidelines (Rating Upgrade) - Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPM2pCMmpsYzdBdXdIWUJrbE16N1NMSjVhMFNRNTZmMmt2SDJzdS1rVFdKM1JQZ0pmN0R0X2FfdTZiakRvWi1qZDE1MkpFZDloZk5OY0dtajM3MXNGeU4zNlBZZWFhNzFzcHN4QmE3SDZEdUx4dDR6dEUxY0dJX2lZcGhvNDNCUQ?oc=5",
+        "date": "Mon, 20 Jul 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Pizza Ranch Selects NCR Voyix to Power Next-Generation Restaurant Operations Across Its System - Business Wire",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNQWpzSHFwWHo0WGxjQ2RYT3VJQUFBQTIzSHYtQ2hzOHNramNubzdkWnlkQTF0a1ZESFZ2d20yTi05aXFOVW9iVklFT0N2RlNqZ05UdnotUTFKNnluOXdqZk9iMkhiMTBWWU5qaElzQjI4ck9CSzAxd2tWWF93bHBLM3FQQXM3NXJMbEtXV2c3dFkyZXRMVkhvbC1sQV8zbTQtOS1LOWdHdDM3RHA1SzR4WDI0NmowUGFHTmlFRk0xUzkxOXdCSzZtejNRYXkzZ2lKUzJVWmFTVjJDbEFCQk9SVVJUZU1UQQ?oc=5",
+        "date": "Tue, 07 Jul 2026 07:00:00 GMT",
+        "source": "Google News - POS Industry",
+        "type": "trade",
+        "company": "NCR Voyix",
+        "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       }
     ],
     "Global Payments": [
       {
         "headline": "Is Global Payments (GPN) Fully Priced Following Its August 5 Earnings Date? - simplywall.st",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNVi1uZTdHdlBOVUtQZ0NXX3YyMVpxQVZiZGZTTEpfZTNxcmxyeVVpeEtraV81MktlZVBOaTJyWWR3elI4SkVzMFdMVi1TYlJKRWlQejVWOU95UXRGS3cyY0wzMkhiRnZTWm1EMzN4SWw0Z0J4dXBxLU10cFdZR1k1UGNlTFZqZVd4TFdrMlhpeXQ5YnZNV1Z5UE1PUy1IaWVLUGF1UFZVVjBIdHZ1eUgtMEJCUmRnSkxqQTN5Z09JWmxMMWE2VmxUX053VFJCTWNoRzRyMnpJNjV5eW5VbTJiSG95UdIB4wFBVV95cUxNVi1uZTdHdlBOVUtQZ0NXX3YyMVpxQVZiZGZTTEpfZTNxcmxyeVVpeEtraV81MktlZVBOaTJyWWR3elI4SkVzMFdMVi1TYlJKRWlQejVWOU95UXRGS3cyY0wzMkhiRnZTWm1EMzN4SWw0Z0J4dXBxLU10cFdZR1k1UGNlTFZqZVd4TFdrMlhpeXQ5YnZNV1Z5UE1PUy1IaWVLUGF1UFZVVjBIdHZ1eUgtMEJCUmRnSkxqQTN5Z09JWmxMMWE2VmxUX053VFJCTWNoRzRyMnpJNjV5eW5VbTJiSG95UQ?oc=5",
-        "date": "Wed, 05 Aug 2026 08:03:22 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNaG5UajNDc2VuRktiQ1ZqZllLeWdHTmtTOFo0Si1kWHBOV1ZDenJZNkRUQU1hRHlnb3hnMmhsbFRyNU1lRk91dGVleFYxWkJ6Y3dTWWNjdFMyXzdaTGlCV0swR1pZampfRmUwcHI5REozeGp5UVRjRHY3d1lPeWh3T0IzTEFKbktfbGt3bG4ybllYZUsxSEliTWQ2VDc3cV8ycVBHU05oQXN4OTVIbU4zelNyem1haEdFNVg2b2VQQWI2dEt6bV9JYW9SS0ZNNkI0bWxUcHYxYkp1LXhRMWfSAeMBQVVfeXFMTVYtbmU3R3ZQTlVLUGdDV192MjFacUFWYmRmU0xKX2UzcXJscnlVaXhLa2lfNTJLZWVQTmkycllkd3pSOEpFczBXTFYtU2JSSkVpUHo1VjlPeVF0Rkt3MmNMMzJIYkZ2U1ptRDMzeElsNGdCeHVwcS1NdHBXWUdZNVBjZUxWamVXeExXazJYaXl0OWJ2TVdWeVBNT1MtSGllS1BhdVBWVVYwSHR2dXlILTBCQlJkZ0pMakEzeWdPSVpsTDFhNlZsVF9Od1RSQk1jaEc0cjJ6STY1eXluVW0yYkhveVE?oc=5",
+        "date": "Wed, 05 Aug 2026 07:49:23 GMT",
         "source": "Google News",
         "company": "Global Payments",
         "type": "public",
@@ -397,6 +397,16 @@
         "content_type": "press_general"
       },
       {
+        "headline": "Global Payments (NYSE:GPN) Upgraded at Barclays - MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPN2dVOGd5emFOeWFzMGduMnBvLTl4Z1JjcEFaX1JkWENZdU5aNW9ZV0wzbExTa0h1QW00OFJlR25QdlRBaXU0d2NNOW9mdW5YcE1CWE1IY1pzYnRNa1FSRmxPd2FDLUt5LWdvQ1hncEhNcktTSkJTYzIxVkhmRlRkc0pVbko0alNDS1lWVGhybXJzRGF4SXNxdUhsb19pLXM?oc=5",
+        "date": "Fri, 10 Jul 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Global Payments",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
         "headline": "Global Payments (GPN) \u2013 Among Billionaire Larry Robbins\u2019 10 Dividend Stock Picks - Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQlZlQXFaWVgtRnZmWWZ6R1BMNjJBTVdVTmlsbm92M2pQUkZxckVZd1hYd0dFcTUteFo2bU0taWtrLXBDelAyM3JJRWZhcnUyd3RnZVV3cGp4WExfejVIODV1ZUZsOWx2MGt4VUNGc1ZuLUxrSGFETVFJSWJDNlBrWUJ4R3R0U3ZLXzdkT21tVi04ZXNmeW5QM1NQMDZ3b2IxRE0teQ?oc=5",
         "date": "Sun, 14 Jun 2026 07:00:00 GMT",
@@ -414,16 +424,6 @@
         "company": "Global Payments",
         "type": "public",
         "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Global Payments AI POS Push Tests Restaurant Growth And Margin Story - simplywall.st",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQa214TjVOcWNkR2I2dnFJS1NDT3FZb3pqUEpzZkxqQmFYbVY2Q0pRVndfTnVMdUdoXzlseXplMFFTV1BOTlRySDZNZC1ndnFsQ2xHQkdZM3V5SF9JN1FjV1FRTTNLbmxzazBteEVzenR3T2NRaEVFcnlENFBXdmRqbTdwWlY1UmE5X1AyeVo4elF0VHVEYllZOHh3dS0xN2VpUnA0eThIeEZGbUo4cWp1eldkSmllMWQzWmVQenFoQ1c4c2FkSHZTXzhfSmJnSVdwc28wazFvY1Y4Szlfb0HSAeMBQVVfeXFMTXBfR3hSUUoxTW1ZOWhGVUREZlNPMU9NTTBfRElRS1dwczlrTVBXZXgtZXNTVGRMZ1VsdGlPZGJwMklLb1R0UHF4OTA2NzdCa0w0TktYMld5MXlMRXlfY0Zrc0drUTBVR21xQm0wWEhEWUZGU05DLS1NZXlmaTFEdHVjSGNsZnJlcVItS1kzbFNYdU9yTkJBbGZzR1R5SWN4WHVKNjZUZW1BWjFWWEFON0dCRUszTHpGXzRfM1lUeklUVjVtNTVSTjJzN2hDcEtHVTNMVFJWZ3FyTjVqMWxkR1FNTkU?oc=5",
-        "date": "Sat, 16 May 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Global Payments",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       },
       {
@@ -447,16 +447,6 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Global Payments (GPN) Gets Market Perform Rating from BMO Capital - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaXJmN2JlTFFtdDRsanFJUENnTW1YR244NDFrSTkwdFlXNS1kcUM1NUtTcjJHTW51QlF4UE1pNFZkWFV1ME9KQTR6cTdGWUEzaUg2SHI0UE50U2lwUnVNR1U3bDdUdmZmX3FJN1c4Z3ZZcDVOVHc4TGN4QVRDRmxpZXh5RFVCU1I4R0J6cUdhVlF2Vzl2b1VsQ3hDc1E?oc=5",
-        "date": "Sun, 26 Apr 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Global Payments",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
         "headline": "Gen Z Driving the Shift from Cards to Digital Wallets, New Research from Global Payments Suggests - Business Wire",
         "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOcVpOZ0lPb0RULUpWdFJmT1FOM252WXFDWW9HOFNfaVRDWkhXaWluOWJISks3M3RmWXE0WTl0cW5OaFg0R1ZiUW1EVms3Nlo5ZEd2OTdYbV9Zb3Fhcm91eE03WGEyZjI0Rjk4cXJxZWNneEU1NDhHclMzc05RRjQ3ZUVGTXNkcV9RSGQ2NE5oYTZxbWhQOEFzYTNtenJ2dlVSZUE1MnpDaXQ3NVJOZUJLeHR2R2Qyc1JPX1VPVDBXNmtZNzlicnBGaGJMY0I1UGFiQkFlNmtnSUVyaUFib09QU3JrRmp4cWVS?oc=5",
         "date": "Tue, 31 Mar 2026 07:00:00 GMT",
@@ -464,6 +454,16 @@
         "company": "Global Payments",
         "type": "public",
         "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Global Payments Governance Clash And Valuation Gap Draw Investor Attention - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYnFvNFN0X1ZLZDFWUXZhc19RWFdXbEtrTWQyZjR0NU9SLUw5bVVocTRnOHlfd1F2N0pGVXJtcVJKUDFjeDIzcFZYY09QNmplREFrS2NLdjBFY2xlWEVBaXQ3RUkxcTU0MS0tT2RzTXB3NGlTUnlINTFwZW5qZGdrLUFwOUFVVzFhWmdTZExqVDFpVWdReWVfWDU2bEVNUWFIM195dnhjTjBsc1k?oc=5",
+        "date": "Sun, 22 Mar 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Global Payments",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
       }
     ],
@@ -631,7 +631,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "You Can Now Land New York\u2019s Toughest Restaurant Reservations Through DoorDash - variety.com",
+        "headline": "You Can Now Land New York\u2019s Toughest Restaurant Reservations Through DoorDash - Variety",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMERNVE1tRnMtajVJSnBRdFpsQ0FWcS1NQUEwSE5ldkM1dldtdmtLM2ZTM252SzlCemVjYXlPalZ5aHpwdXFIU182X3J4VkgxdFctOWdGUmlKRjhwVk9KX2w2d1dkUDR1b2dwMmZqZlc2QlVITUZhX1VsNGdJWGxoaUFHWTVXTHhVQzJ4aDhNRmh3c2czOTctQU1CMzBPQ3JnUVRR?oc=5",
         "date": "Fri, 31 Jul 2026 20:44:00 GMT",
         "source": "Google News",
@@ -1088,8 +1088,8 @@
     "Shift4": [
       {
         "headline": "Shift4 Payments (FOUR) Expanded Shift4 One Abroad, Is The Upside Already Priced In? - simplywall.st",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTlRyS0hsX0hkRmEzRGJ1OUZydXl5WEd4QkEwRG9iXzUzRlRkejF5X0NPRDlvNlpuS1Nqd3FjRzdzcFZNM19vLXNqRFF3RkFIdnJCUHEwU18wTUFncXpXN3hsaHg5QXFtRWNKdjB6NURiM2ppRExyb1ZUdl91NGJ0c1lyeWVGLWJISkl3TnRETVNSdVZHcTFKLVdIYlhteGw3VTFvbTBocUR6c3p6d1lMLVUtc0tuTlVZVkhtOEpLcEg3UnZxYzBvRHZJQjVFVlZ4NmVGMU1EeE1pRjFwQ2w5cjVFbXLSAeQBQVVfeXFMTk5UcktIbF9IZEZhM0RidTlGcnV5eVhHeEJBMERvYl81M0ZUZHoxeV9DT0Q5bzZabktTandxY0c3c3BWTTNfby1zakRRd0ZBSHZyQlBxMFNfME1BZ3F6Vzd4bGh4OUFxbUVjSnYwejVEYjNqaURMcm9WVHZfdTRidHNZcnllRi1iSEpJd050RE1TUnVWR3ExSi1XSGJYbXhsN1Uxb20waHFEenN6endZTC1VLXNLbk5VWVZIbThKS3BIN1J2cWMwb0R2SUI1RVZWeDZlRjFNRHhNaUYxcENsOXI1RW1y?oc=5",
-        "date": "Tue, 04 Aug 2026 13:36:03 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPUW5QdmxRbVNkN292N0NnUVMwQV82UEpadnNsLWpua3FPVWRIeDAxMjBaQUgtOGxOMnhzejFCT3NMclgtWjl4ZTdkQ1d0OWdCNTFVejRRT1RKd2lSVzBYVHJPSTZZcFExSzMxdVg3d2RMTHFPek9UWWJVOTh0cldDOUJwcEkySlZ6cEZaUjJvZDVoLTVlTzVHSUF1bU9QeVk5TkZEMTA5UktjWW5PTXFkaE1kS21uRkx4QVlWYUZpNUpMdHg5ZHl1TWd0cm1Oakk4TTNYMFFHd3FsUHdsTzJ30gHkAUFVX3lxTE5OVHJLSGxfSGRGYTNEYnU5RnJ1eXlYR3hCQTBEb2JfNTNGVGR6MXlfQ09EOW82Wm5LU2p3cWNHN3NwVk0zX28tc2pEUXdGQUh2ckJQcTBTXzBNQWdxelc3eGxoeDlBcW1FY0p2MHo1RGIzamlETHJvVlR2X3U0YnRzWXJ5ZUYtYkhKSXdOdERNU1J1VkdxMUotV0hiWG14bDdVMW9tMGhxRHpzenp3WUwtVS1zS25OVVlWSG04SktwSDdSdnFjMG9EdklCNUVWVng2ZUYxTUR4TWlGMXBDbDlyNUVtcg?oc=5",
+        "date": "Tue, 04 Aug 2026 06:15:41 GMT",
         "source": "Google News",
         "company": "Shift4",
         "type": "public",
@@ -1389,6 +1389,158 @@
         "content_type": "press_general"
       }
     ],
+    "Fiserv": [
+      {
+        "headline": "Fiserv (FISV) Q4 2025 Earnings Call Transcript - Fortune",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0zOUFkSXAwR2FLaGEzY3BNRGhSNUduQXdHZUxHMFhGWEhaZWZOQ3dRY3pRX3FPT0F2ckk3Q3JyRTB3LWtobEFaZG1DYnhtY2FLT2p1eFI0bm9TSGZSWm9vUnJB?oc=5",
+        "date": "Fri, 31 Jul 2026 19:44:14 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv: When Self-Inflicted Pain Creates Value (NASDAQ:FISV) - Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNR015X1JUbEVjRXNkMmZwMXpzdDZKbFJ1TmxUX1R2WTh1cHJPZTJKVnB5LUx1eXpfWngxTGoxSkVvWDd2ZDdnVThNdUxiYkg0MHVBMlY5V3duTUpfM0NYUV9GWmRyWWhWQUdEZzZBXzNJWjJ5dmNZWVc5MHlOZGJpbUlEZGpoYWxZMHpsYlZFQQ?oc=5",
+        "date": "Wed, 22 Jul 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "TD Bank Group offers Fiserv's Clover to Canadian businesses (TD:NYSE) - Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRUNuY3NhY0toWFgzMTlRMEd3UWFhd1VTeDZZbDFQRldkVDFPbTVUWS1EUDR2RVgtMHNybFRPalJkVHFNUnRobjNjMEQtMDRKWUVpQ214SFY1S1BBZVJWSmx5VkRSc1Y1MGhYdDFRY3RJbkk2SC1DaVVIMlFvaS1qaTlzck02ZGNab0cxSENURXVoVWpvNkp1azB2X2g?oc=5",
+        "date": "Mon, 13 Jul 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Toronto Dominion Bank (TSX:TD) Launches Clover In Canada With Fiserv - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVm9pQmFHMmZ5Y3JCLUhpcThVdjJyNnRVbDF2Z0dtZG5qbkYzUVgtM25iNHBkWExpb1dwZWYxVTlCRzRLbWVwS01xMVkyVl9KcFplTmRndDFJcnBnY3JhQXhVajB6UG5JSS15SjJpMEVYMDJlczF5YUNhVlRiRjVWemR1XzcyYTg2MHVqdkFGdExSLVlOOElGTw?oc=5",
+        "date": "Mon, 13 Jul 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv CEO exits after rocky year - Payments Dive",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObnQxUFhWS3Zod1BJVDhLa0RjWDdjQWhvY1o1OFdjWHFONnJ0OHRyWWFyLTY1RlViOGxHV19ZNnJpUjdzNXVJNmJWVDczWnhyOHBFTUo5WTZNOUFzOFREMkF5X184eFU2MG5lbW5ETFY1bjFpUFY2b2xVZ3d4a0lJVg?oc=5",
+        "date": "Mon, 15 Jun 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Is Clover Becoming a Bigger Challenge for Fiserv (FISV)? - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNHJCRHBaNFRXTmRBMExFcWh0X212Q0lIZW0yZzhkWURCSEJjYTltZjFZclV1eUZWQzNNZXlsakQ3OENNRHZnbDFvQlR5ckxSTUZrSEg0bm9UbWVfY0dEN0ppdjFFLWtzV180Mm1wQ1VNdXpUdV84ZXdjWnd1bVk2Q3VtWGlaLWdGY2h3YUxLbFFZd1laWGd6S0VLZjV4NDhUbWRfZGFNSQ?oc=5",
+        "date": "Tue, 02 Jun 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv CEO Says AI, Clover Can Help Restore Predictable Growth After Tough Year - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZTNEVW54UV9vMmFYVFc4LTBWWFJURTc0dy1weFBNSGFiOTBST2ppdlNaX3lzbkNpZGlqbGYwZXhNOE5ZQjFIQ2ppWERBTHNtckwyZWMxcUlQRkQtM2l5ZXNoZGp5RklpTWdPSXp5WkVCblp0M0d4OEFlcTZINVl3VmdGb3hVOW95ZkpPOVc4aWtZbHk4U3RKZldmRFlTMzA2SlVRcHhxMUc4RFVFOGJ1Z2tZY1FLcUFibUhhOWhCenJ1YWwxY1B6MDVPczFFdkhpZFZ3YS1B?oc=5",
+        "date": "Fri, 29 May 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv seeks better days ahead - Payments Dive",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE95eUdxVmw2eFBWYWMxcjZheEVEVlRTbE1VM2N4aVRuYkVrcUJJRTRvTGE1Yk5wNFI0bkRtSWhmYUpKck9uX0NQTG9OZ01vUWttYl9VaU9YQ3llUlgwdlZfYXQ4RDhmQnBqX1JQeU5mOW91MU81dENYMGFUU3E?oc=5",
+        "date": "Thu, 14 May 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv Expands Clover\u2019s Restaurant Portfolio with New Fine Dining Solution, Clover Reserve Powered by Tabit - GlobeNewswire",
+        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPc0ZLQWlldFZoTE9Ud2xXRW85ci1QYngtaVE5Y1o3am9pdHFCczZYc193NTJPZnl2dHBZclptQ2g0RUdXdFYyaFlvTmR6YXZPa1dWVlF5SkV3NGM5ajJqQzZtMVp2czE2Z1lmSjNlYVNoUm1pTjlLUEd1LWtjV0NyRHMtVTUtNEViSGtDVmZ5SXVYQ0x5T01XbVNPT19zNzU4bzl6SDlrWXlOZkItSjhjazZ0cGFQd2p6T3JkZDJveXByYjd1anJFTjhSa3VybFdQaDVxbk5za2ZpbnRYOU5uQ01Db095VktNd1JLNUFaNXBRRU13dTBXRm5tUFdhazQyUkpNeFlNOE9PUQ?oc=5",
+        "date": "Tue, 12 May 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv Expands Global Manufacturing Footprint with New Clover Facility in Brazil - GlobeNewswire",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNWFBpemZXVlJWY2VaZ0toeXVLa0d6TnQ5RmhDT1JfRTRCN2U5c1p2OUVnZHFScTRKRW5LcmIyc2p4cV9sUFpTcm44QjN3d29IcHRaNkh6WThtLUhWWFJsOWhzdWdwaUdualkyQ0VIWl93SnA3WUFGaGxZTFZsZV9VazM4TjRtTkJNMVZhWVBzQnZLYjRHaS1QRW1qMGs0dWRvT0VrTUNRQzJkZklqZ2FfMlNpTHd5bFI3eTNsS0lhWFRTUnpMY082Szd0dUhubEUzLTdkSFZOMjJvWGNxZXhBaDg3eC1Idzg?oc=5",
+        "date": "Thu, 07 May 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv Has Crashed 75% From Its Peak: Can it Recover in 2026? - TIKR.com",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWkZEc0RpM0FRNFNtRS15SEFTcEs3aUdDTkVJRGJicERCTGRCTklTQzdlRnZrUlJlZTd0M0FNTWlMMzhsVUxvU2NCWU5SbTRadmF0ZHREZVZaRWRIbTVDRGlwaGtkVnZaTGppLWFTS2o0SmlSX2hPd1piSUlCT2F3eFZwLW1aQ1hzS3VwNg?oc=5",
+        "date": "Tue, 31 Mar 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv and Western Alliance Bank Form Strategic Alliance to Power High-Impact Commerce Experiences for Clients - Fiserv",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNLTM4OTVFdTM5N3NCU25BZzhjUlhHVFFsbGhEeEVqdkFMbmF0Rnh6WTU0ZUlCWnE0d01UdkxTa1Q3a2hGUG1MT3VNQzBsVXBFRGN1ZDJDZmhGNjFrYjhMam5ETk93T0JTaGZWTFdCV3hQVVBRazkzemZpYTYzOWlpZjVtVW53QUxWTGdRc2o3bFhxSlBuVHl2aFBPNVpUWHN0c2ZTQjNwaXJfZHRtN1BlNlNMYXg4eDJCUGJseVFjaG1QWlEx?oc=5",
+        "date": "Tue, 17 Mar 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv Reports Fourth Quarter and Full Year 2025 Results - Fiserv",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYVdEOGlzLVI4R2YyY3FVMjFzY3cxMlZkU1JyQmdtY1V1Z2ppMXFzOXkzZWxvNjJySEo3S1NEb1BLNURBbWE5OFRldlRYdFBhYlBYSUVTcTNKMVlzUWY0Q3R5QV9QR21zQWRoek9IMEJZUGxCSms2VnZYWUw1MV9ZUGhCeWFpbHhiYWtJRXMxM2hLX0lOaXJzQXhNVTlYYWNYbVBxTlZSdENnQ1daeldGVGlkMWJwTzFuUy1mbA?oc=5",
+        "date": "Tue, 10 Feb 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv\u2019s Clover commerce platform to integrate Wink\u2019s multimodal biometrics - Biometric Update",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWUxwLUh0c3dMQzdPSl82VEpRZ2RXemF2a3Zqbm5mckNfNGozVWpNcWxZZ0xvRWFFYVdsRS0wVFZrcHJPNWtXaW15djY3YTQyWnFmMkU4VEZneWZGNXFGVHNBaDFCcWZFMXJNY1VsYnpxNVlLTWxUdTRibFRPX1JyeW54SGpPYWZZUk9MWHJIVXVrXzVLTnVfZ2ZYVHhsTUZtdEVtTWJVNHcxVGY4dDJzb1BB?oc=5",
+        "date": "Fri, 09 Jan 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv\u2019s Clover adopts biometrics - Payments Dive",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BTzdPYmFUdVhWam1LX0p0dmY0ZW96dWdWNFFidUpkR3o3MW5rU3hweXFPcVN0SnlwZ3FQb0RRYTFTOVJiT0xuc1ZoWm5DazJlcm10MHNWd01PeDBKZ2VfdTV3bnlWNVhWVkRGdE11LXBTUkZqS0J1UENRSzhMWXc?oc=5",
+        "date": "Wed, 07 Jan 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      }
+    ],
     "TouchBistro": [
       {
         "headline": "InKind lands more funding, Qu adds payments, and TouchBistro sold - Nation\u2019s Restaurant News",
@@ -1428,6 +1580,16 @@
         "company": "TouchBistro",
         "type": "private",
         "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Constellation's Harris acquires TouchBistro after startup raised $319M - Dealroom",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQy02TmZ4TzBJNzZlejFCOTVjd0xKQl80SHRzMlFaLXdfS1JIelUwMWZIb0JqdGgyVUtGQzAtMURLUVZoY2diSmt3YnF6WFlrd1EwSGNCQkpLbGhaUW9ERG0zN1VZLU84V0VEY1lkVG9GLXgzZV9faWpSelNGOV9pSEZVU1RTakdva0FJd3UtbVZveElPUXdCaGtRczFYMWtfOUZxajVR?oc=5",
+        "date": "Sat, 11 Jul 2026 01:49:52 GMT",
+        "source": "Google News",
+        "company": "TouchBistro",
+        "type": "private",
+        "emoji": "\ud83e\udd1d",
         "content_type": "press_general"
       },
       {
@@ -1539,16 +1701,6 @@
         "company": "TouchBistro",
         "emoji": "\ud83d\ude80",
         "content_type": "press_general"
-      },
-      {
-        "headline": "TouchBistro and Chase Introduce the Next Generation of Payment Technology for Restaurants - Chase Media Center",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KelBuY0J5Wk11WTlNc2c3cWtLWllKbVdfZ1d6RFp0dHNycGR5bndTMy1ldmZHRzRNWFBQQmdhN1I0RjRTbkdXV0I1R2EwYk04OGpGaXNWc1ZhZkdLVlJCUWtkbXZUMHlBQk9MOHVxM0NmejFNcXl4ZVlpVi1HN0U?oc=5",
-        "date": "Tue, 06 Mar 2018 08:00:00 GMT",
-        "source": "Google News",
-        "company": "TouchBistro",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
       }
     ],
     "Olo": [
@@ -1560,6 +1712,16 @@
         "company": "Olo",
         "type": "private",
         "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Olo Investor Sues For Records On $2B Thoma Bravo Deal - Law360",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOamlWZGR2OGJ0bm9sb2VHbVVqdkdwZEUyTDh1c0RGN1ROcUZ0SVg2by03bk1PTkdtcS1PdUVzLXliUHZLY09lc0c4Q3NuUVBwYlFuclZfVElKOHZvQTJYTi1CUXpBckh5NmpGRXJmZkU2ZVZOS2JxV1NUWGpONjVFc3pJM1VTb1BoXzhOblltR0pfcVZvdkZn0gFWQVVfeXFMUFhVZkdRelI2Y3o5SzFhM0JFNzFwNVp1bTZYSEVqY1RJVHJjbTF2NkgybVZUOVNZZzZmYmhScnpDSUVZcE1fRUV4cmUtNFQtSTRGQVFEenc?oc=5",
+        "date": "Wed, 24 Sep 2025 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Olo",
+        "type": "private",
+        "emoji": "\ud83e\udd1d",
         "content_type": "press_general"
       },
       {
@@ -1633,7 +1795,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Raine Group, Olo Inc. Board Sued by Investor Over Stock Buybacks - news.bloomberglaw.com",
+        "headline": "Raine Group, Olo Inc. Board Sued by Investor Over Stock Buybacks - Bloomberg Law News",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQT05fSWFsUkhNYUprZzRtbWs0TkdXNDR6dVVFaU1rb08ycnh4My02cng2VWFobVpxWHBDQXcxRlowNGpUQUxlRU1wdUZwT0NCQ1pzTzVROEpBS3FJeWd4VWltT0JHUW80U0hNSHRnb2daSzhvQXFjaTVqeExBUldLUjNYS1ZHZldBaFBja19uQkpDdDJPV0lMbC1aX0g?oc=5",
         "date": "Thu, 16 May 2024 07:00:00 GMT",
         "source": "Google News",
@@ -1660,16 +1822,6 @@
         "company": "Olo",
         "type": "private",
         "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Olo Class Action: Levi & Korsinsky Reminds Olo Inc. Investors of the Pending Class Action Lawsuit with a Lead Plaintiff Deadline of November 28, 2022 - OLO - TMX Newsfile",
-        "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNMmhCaWdVelZESUZEVEFvTWhPLWd0cHg4R1lPZFN6a0JOYXNJWk02Z0RiYXY5SmRhR3N3Mkt3YXBVc19iakRaZUlsLW5RRzdDVGQ3ZnFBZFBzSnI5bC14Y0NHV2lfdjVyQ1pWMHlLUGRmSlFJdktvX3BVbGM4dmJLWjRrX0paVTE5UmhOMFdZUlZtdTdIdWgzZW9QVXNuZmYybWRtb1daVE5JUzVERUlmWHJtZVRkV1BYZzc0YmlwTHJJdERQZzRDU1FDMGZvdjRva3dVTUI5VVBaWnF4R3RpVU5oZzFBMHBvRU5fSFVWRGRxVmpNdXNyeWF3bkFrLVJEdnRRVkJkYVhFSTFFeVdfUUpld3Z2UlBIblVRU05n?oc=5",
-        "date": "Sun, 23 Oct 2022 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Olo",
-        "type": "private",
-        "emoji": "\u26a0\ufe0f",
         "content_type": "press_general"
       },
       {
@@ -2029,7 +2181,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Wyoming-Born Taco John's Taps Big Data To Challenge Taco Bell's Youth Market - cowboystatedaily.com",
+        "headline": "Wyoming-Born Taco John's Taps Big Data To Challenge Taco Bell's Youth Market - Cowboy State Daily",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOUY3NkxrSG5fVDlqNUdHbVNzS0JQMXVQZzdjblRXRUNBM19QV3RKeG1ydi1yUHVfdDNDTEdJV0RjWHNzSzlrbmN2UlBrajNUdGR6ZUQ3Nl9kRzY5VnZEa2t2ZGNNY3ZQNzktLVJkNldrY2stdWJwSkI0WlBpa21iUThnTDVtMVBHYlhjcUxBLXRxNmVQUUYtVUZCd3FTMHBORWZaM1VMMVo4M0ozUmdfRXBwVzlhUQ?oc=5",
         "date": "Sun, 23 Nov 2025 08:00:00 GMT",
         "source": "Google News",
@@ -2096,158 +2248,6 @@
         "company": "Bikky",
         "type": "private",
         "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      }
-    ],
-    "Fiserv": [
-      {
-        "headline": "Fiserv: When Self-Inflicted Pain Creates Value (NASDAQ:FISV) - Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNR015X1JUbEVjRXNkMmZwMXpzdDZKbFJ1TmxUX1R2WTh1cHJPZTJKVnB5LUx1eXpfWngxTGoxSkVvWDd2ZDdnVThNdUxiYkg0MHVBMlY5V3duTUpfM0NYUV9GWmRyWWhWQUdEZzZBXzNJWjJ5dmNZWVc5MHlOZGJpbUlEZGpoYWxZMHpsYlZFQQ?oc=5",
-        "date": "Wed, 22 Jul 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "TD Bank Group offers Fiserv's Clover to Canadian businesses (TD:NYSE) - Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRUNuY3NhY0toWFgzMTlRMEd3UWFhd1VTeDZZbDFQRldkVDFPbTVUWS1EUDR2RVgtMHNybFRPalJkVHFNUnRobjNjMEQtMDRKWUVpQ214SFY1S1BBZVJWSmx5VkRSc1Y1MGhYdDFRY3RJbkk2SC1DaVVIMlFvaS1qaTlzck02ZGNab0cxSENURXVoVWpvNkp1azB2X2g?oc=5",
-        "date": "Mon, 13 Jul 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Toronto Dominion Bank (TSX:TD) Launches Clover In Canada With Fiserv - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVm9pQmFHMmZ5Y3JCLUhpcThVdjJyNnRVbDF2Z0dtZG5qbkYzUVgtM25iNHBkWExpb1dwZWYxVTlCRzRLbWVwS01xMVkyVl9KcFplTmRndDFJcnBnY3JhQXhVajB6UG5JSS15SjJpMEVYMDJlczF5YUNhVlRiRjVWemR1XzcyYTg2MHVqdkFGdExSLVlOOElGTw?oc=5",
-        "date": "Mon, 13 Jul 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\ude80",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Fiserv CEO exits after rocky year - Payments Dive",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObnQxUFhWS3Zod1BJVDhLa0RjWDdjQWhvY1o1OFdjWHFONnJ0OHRyWWFyLTY1RlViOGxHV19ZNnJpUjdzNXVJNmJWVDczWnhyOHBFTUo5WTZNOUFzOFREMkF5X184eFU2MG5lbW5ETFY1bjFpUFY2b2xVZ3d4a0lJVg?oc=5",
-        "date": "Mon, 15 Jun 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Is Clover Becoming a Bigger Challenge for Fiserv (FISV)? - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNHJCRHBaNFRXTmRBMExFcWh0X212Q0lIZW0yZzhkWURCSEJjYTltZjFZclV1eUZWQzNNZXlsakQ3OENNRHZnbDFvQlR5ckxSTUZrSEg0bm9UbWVfY0dEN0ppdjFFLWtzV180Mm1wQ1VNdXpUdV84ZXdjWnd1bVk2Q3VtWGlaLWdGY2h3YUxLbFFZd1laWGd6S0VLZjV4NDhUbWRfZGFNSQ?oc=5",
-        "date": "Tue, 02 Jun 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Fiserv CEO Says AI, Clover Can Help Restore Predictable Growth After Tough Year - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZTNEVW54UV9vMmFYVFc4LTBWWFJURTc0dy1weFBNSGFiOTBST2ppdlNaX3lzbkNpZGlqbGYwZXhNOE5ZQjFIQ2ppWERBTHNtckwyZWMxcUlQRkQtM2l5ZXNoZGp5RklpTWdPSXp5WkVCblp0M0d4OEFlcTZINVl3VmdGb3hVOW95ZkpPOVc4aWtZbHk4U3RKZldmRFlTMzA2SlVRcHhxMUc4RFVFOGJ1Z2tZY1FLcUFibUhhOWhCenJ1YWwxY1B6MDVPczFFdkhpZFZ3YS1B?oc=5",
-        "date": "Fri, 29 May 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Fiserv seeks better days ahead - Payments Dive",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE95eUdxVmw2eFBWYWMxcjZheEVEVlRTbE1VM2N4aVRuYkVrcUJJRTRvTGE1Yk5wNFI0bkRtSWhmYUpKck9uX0NQTG9OZ01vUWttYl9VaU9YQ3llUlgwdlZfYXQ4RDhmQnBqX1JQeU5mOW91MU81dENYMGFUU3E?oc=5",
-        "date": "Thu, 14 May 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Fiserv Expands Clover\u2019s Restaurant Portfolio with New Fine Dining Solution, Clover Reserve Powered by Tabit - GlobeNewswire",
-        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPc0ZLQWlldFZoTE9Ud2xXRW85ci1QYngtaVE5Y1o3am9pdHFCczZYc193NTJPZnl2dHBZclptQ2g0RUdXdFYyaFlvTmR6YXZPa1dWVlF5SkV3NGM5ajJqQzZtMVp2czE2Z1lmSjNlYVNoUm1pTjlLUEd1LWtjV0NyRHMtVTUtNEViSGtDVmZ5SXVYQ0x5T01XbVNPT19zNzU4bzl6SDlrWXlOZkItSjhjazZ0cGFQd2p6T3JkZDJveXByYjd1anJFTjhSa3VybFdQaDVxbk5za2ZpbnRYOU5uQ01Db095VktNd1JLNUFaNXBRRU13dTBXRm5tUFdhazQyUkpNeFlNOE9PUQ?oc=5",
-        "date": "Tue, 12 May 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Fiserv Expands Global Manufacturing Footprint with New Clover Facility in Brazil - GlobeNewswire",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNWFBpemZXVlJWY2VaZ0toeXVLa0d6TnQ5RmhDT1JfRTRCN2U5c1p2OUVnZHFScTRKRW5LcmIyc2p4cV9sUFpTcm44QjN3d29IcHRaNkh6WThtLUhWWFJsOWhzdWdwaUdualkyQ0VIWl93SnA3WUFGaGxZTFZsZV9VazM4TjRtTkJNMVZhWVBzQnZLYjRHaS1QRW1qMGs0dWRvT0VrTUNRQzJkZklqZ2FfMlNpTHd5bFI3eTNsS0lhWFRTUnpMY082Szd0dUhubEUzLTdkSFZOMjJvWGNxZXhBaDg3eC1Idzg?oc=5",
-        "date": "Thu, 07 May 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Fiserv Has Crashed 75% From Its Peak: Can it Recover in 2026? - TIKR.com",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWkZEc0RpM0FRNFNtRS15SEFTcEs3aUdDTkVJRGJicERCTGRCTklTQzdlRnZrUlJlZTd0M0FNTWlMMzhsVUxvU2NCWU5SbTRadmF0ZHREZVZaRWRIbTVDRGlwaGtkVnZaTGppLWFTS2o0SmlSX2hPd1piSUlCT2F3eFZwLW1aQ1hzS3VwNg?oc=5",
-        "date": "Tue, 31 Mar 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Fiserv and Western Alliance Bank Form Strategic Alliance to Power High-Impact Commerce Experiences for Clients - Fiserv",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNLTM4OTVFdTM5N3NCU25BZzhjUlhHVFFsbGhEeEVqdkFMbmF0Rnh6WTU0ZUlCWnE0d01UdkxTa1Q3a2hGUG1MT3VNQzBsVXBFRGN1ZDJDZmhGNjFrYjhMam5ETk93T0JTaGZWTFdCV3hQVVBRazkzemZpYTYzOWlpZjVtVW53QUxWTGdRc2o3bFhxSlBuVHl2aFBPNVpUWHN0c2ZTQjNwaXJfZHRtN1BlNlNMYXg4eDJCUGJseVFjaG1QWlEx?oc=5",
-        "date": "Tue, 17 Mar 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Fiserv Reports Fourth Quarter and Full Year 2025 Results - Fiserv",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYVdEOGlzLVI4R2YyY3FVMjFzY3cxMlZkU1JyQmdtY1V1Z2ppMXFzOXkzZWxvNjJySEo3S1NEb1BLNURBbWE5OFRldlRYdFBhYlBYSUVTcTNKMVlzUWY0Q3R5QV9QR21zQWRoek9IMEJZUGxCSms2VnZYWUw1MV9ZUGhCeWFpbHhiYWtJRXMxM2hLX0lOaXJzQXhNVTlYYWNYbVBxTlZSdENnQ1daeldGVGlkMWJwTzFuUy1mbA?oc=5",
-        "date": "Tue, 10 Feb 2026 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Fiserv extends Clover to Japan with Sumitomo Mitsui - FinTech Futures",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPM0EzZnphaGZhcWgta21JOGpoYVFnZzRFUnZoa2YzeGxURXhUdG5VRk9sUDVCT2R2M0JPc0haYjBRcWc4RlI1blN0ZTkxRU1oVGRtR3c3UzV1NEFVSUt6MkYwSWlscE51T2h6eThOdXRVVDI5SWg5SWNDWGNKbXNkYXY3Qks4QUY0LVRxcDN1Zi1CQm1QczgwazJUNW1VR3RPSmdZ?oc=5",
-        "date": "Thu, 22 Jan 2026 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Fiserv\u2019s Clover commerce platform to integrate Wink\u2019s multimodal biometrics - Biometric Update",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWUxwLUh0c3dMQzdPSl82VEpRZ2RXemF2a3Zqbm5mckNfNGozVWpNcWxZZ0xvRWFFYVdsRS0wVFZrcHJPNWtXaW15djY3YTQyWnFmMkU4VEZneWZGNXFGVHNBaDFCcWZFMXJNY1VsYnpxNVlLTWxUdTRibFRPX1JyeW54SGpPYWZZUk9MWHJIVXVrXzVLTnVfZ2ZYVHhsTUZtdEVtTWJVNHcxVGY4dDJzb1BB?oc=5",
-        "date": "Fri, 09 Jan 2026 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Fiserv\u2019s Clover adopts biometrics - Payments Dive",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BTzdPYmFUdVhWam1LX0p0dmY0ZW96dWdWNFFidUpkR3o3MW5rU3hweXFPcVN0SnlwZ3FQb0RRYTFTOVJiT0xuc1ZoWm5DazJlcm10MHNWd01PeDBKZ2VfdTV3bnlWNVhWVkRGdE11LXBTUkZqS0J1UENRSzhMWXc?oc=5",
-        "date": "Wed, 07 Jan 2026 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       }
     ],
@@ -2343,7 +2343,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Adyen to buy German loyalty platform in first-ever acquisition - americanbanker.com",
+        "headline": "Adyen to buy German loyalty platform in first-ever acquisition - American Banker",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeW5HUnRXN3cwSVo4RF9vXy10ZjdqeHRBOVJROHRyY2ZGTVZRbndaYlJkMkc1V3FSREp6QU5YYkZmZ0p2eWlwNG10LXdwNnRnRUpPb2ZkM2VoZnJFWHlDaVpvc0l5NjR5bjBXNnFpbnJNWUJzN204bUZFUUhuaGJXeTBzYVVKTTlGcU1PTWxpLTNOQ29jVTViYQ?oc=5",
         "date": "Fri, 24 Apr 2026 07:00:00 GMT",
         "source": "Google News",
@@ -2395,7 +2395,7 @@
     ],
     "ItsaCheckmate": [
       {
-        "headline": "Kelsey Johnson Named One of QSR\u2019s 25 Young Restaurant Leaders to Watch - PMQ Pizza",
+        "headline": "Kelsey Johnson Named One of QSR\u2019s 25 Young Restaurant Leaders to Watch - pmq.com",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRUlwdzM0SnhuV2I2bkFoRDlNSnNDbWVCenVUNzVXNzUxRzlJUk1VZ0NCU1ZzVEYwTFJKeG96c29LNWxYLUI0Y19wYlJOVnItNGZucnN2N0hJZENSQkFwZUtEUVE5Ym9vN3lrc1Q2RUdxb2pJUWRrSjlSZ3dvZnM1ZDVmcUU2ZTh2OTZTOG45MnhtNURP?oc=5",
         "date": "Wed, 03 Jun 2026 07:00:00 GMT",
         "source": "Google News",
@@ -2567,7 +2567,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Block shares surge on workforce reduction, in-line fourth quarter earnings - proactiveinvestors.com.au",
+        "headline": "Block shares surge on workforce reduction, in-line fourth quarter earnings - Proactive financial news",
         "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVFE0WWJUMndXWnMwdklNSHF3UkhIdHAxc1VXNGYtU3RhSHpmM3Z1RUZlNDRWdTNkTG9wWFlsV3hOZldHMWlZN051WkpoSy1YWHpVTE43YThWd203dXZoRzRmR2ZwemlqR1FDRDRuaVZueTNRbUtPX3dSNWVXRHFWTGVwc3VXMVJnUGQyVGVCLTZ5V2R2YTNHVXJVZG1qTXV2OGtTdVA4SHJTR2M4OE9UdHQ1VUNUeUxMSkNUcjM4VWZ0ZE1TdVNHc2ZwcmNGZFFEYmtkM1o4anBVT0R5dFR5bA?oc=5",
         "date": "Sat, 28 Feb 2026 08:00:00 GMT",
         "source": "Google News",
@@ -2577,13 +2577,23 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Block set to deliver Q4 earnings beat, gross payment volume acceleration eyed - proactiveinvestors.com.au",
+        "headline": "Block set to deliver Q4 earnings beat, gross payment volume acceleration eyed - Proactive financial news",
         "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdm0tOF9iRWUySHo3U1FSdHNiTlZaU21HeEs5M1R0LTFJUmVqTXhnMmM1SzFrVHVzVFc5Z3JxV2JTRER1NWZJQUpyXzltTUFlSWltLW53WVVTbkJGTXloRlk1ZDhYY0hjaTNzX3ZnWmN3RzhZT3lzeEVZeTh2MXY2bGRvRjBkb1Q4a1BfYUlsTW9sX1k2endPRFVzSlRxTFM4clNLN2g3N2Fjc2VvOUpkYUQxY0NHbjAwM1VlclNvbjZLWnZaejdFTVFvNnR2U0FsNHhyUVp2aFgwTlB6Q1hxT2hPa0o?oc=5",
         "date": "Thu, 29 Jan 2026 08:00:00 GMT",
         "source": "Google News",
         "company": "Square",
         "type": "public",
         "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Square for Restaurants Review 2026: Features & Pricing - NerdWallet",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTU1Fdkd1aGhOc0E5dEkycFpHWGNpUDdad0RlSjEySTFUT2h5TjlfS3p4QWg5dzRpQnJKb0VaaXBtZzRYaXVrVVVEVXFZYUpwMHpyX09rMVFZTl9IX0RCbVVVRU5KZm5fMEUzQXc5eU1neUllOC1KTmlwQ3UwMnE2Tw?oc=5",
+        "date": "Thu, 02 Oct 2025 04:14:10 GMT",
+        "source": "Google News",
+        "company": "Square",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       },
       {
@@ -2627,16 +2637,6 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Block, Inc. (SQ): This Fintech Stock Is Riding the AI Wave Higher - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5XVEFKUzFmS1FDS1dxNjdNMDZ2T2dObjFFNnhuN0VjNDkyY3pTS0ZPUWNxbW8wbllXS0tzOUlKU3ZRVVBuamxfcVcyb3dkZ19EalRsQU05R1FuYlZTZXVkNjRyanJzdm9ZWVlOVTBQX3V4Z05NWFJCQzlzVDc?oc=5",
-        "date": "Fri, 18 Oct 2024 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Square",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
         "headline": "With 63% ownership, Block, Inc. (NYSE:SQ) boasts of strong institutional backing - Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBvUk5hbmZnNWZNRTVkQmlqcGY0S1c1S21PTEJpanBaMGd1MU1URVk5T3JQTFg4OHVvSmQwdWkyUWlkQjBYQTBrTk5iUTI5VTRiOGFBbXRIS1l6MVlSY0pkb0FWel9Gam1KZ2FDYTNFNXhKWlpyZGVsVVBsMGY1QQ?oc=5",
         "date": "Thu, 29 Aug 2024 07:00:00 GMT",
@@ -2667,13 +2667,13 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Increase F&B sales with tableside ordering - Restaurant Dive",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQXZWYnBTa2pUd29RM2JOTFZpVHBocDVsRnZ2dGo0RlpjbHU3ckwweVB1VFRYVXlMZkkxMktMSWF3Q2lHN1AyU1dwbmdvZHVrSjAwWXE0c3BvdE9BczZoRHY4eGpwSkZtM0RLT19rV3Y2NjZXbmZjdloyYkNaVS0wUlA0RmhDY212Nm9sejBkVQ?oc=5",
-        "date": "Mon, 24 Oct 2022 07:00:00 GMT",
+        "headline": "Block, Inc. (NYSE:SQ) is largely controlled by institutional shareholders who own 66% of the company - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5OcElpalRibXRtM090N3c1OXNnMDFUMU5naC1JVC1LZ01LYUh6aFlReUhzTDdhSmt1VGlEM2VUUmNLUjhKS2ZTWEJvTEl5UGdhU0pJSW9CUzJPMUlTZVRKWkRFUFRUcVZlVnlJNmM2Q081bVExandZZ1JaOA?oc=5",
+        "date": "Mon, 24 Jul 2023 07:00:00 GMT",
         "source": "Google News",
         "company": "Square",
         "type": "public",
-        "emoji": "\ud83d\udcf0",
+        "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
       },
       {
@@ -2736,16 +2736,6 @@
         "company": "Tillster",
         "type": "private",
         "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Report: Restaurant Loyalty on the Decline, and Guess Where Many Customers Are Going Instead? - PMQ Pizza",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdnU1TTNYUlhfSXBmM3ZaS1JtUEItX2JtOFNQcU9rdjhXazBhUUNYUTJFcl9PTFByV2JVZHBnLUY5c3ItRjVSTVpuWGQ1SFZSMnB5T1N3dThoZDRLNEFrWC1xT3R1ajZWZk9VMHZFb1UwRFRVRDFld2hNZDktdTh3OXphTElrWXl0UGdLQ19QWGlxT0hZeW1uNGo2ZnhlRXd2Vzl4a1pEajMxRTdJOE9F?oc=5",
-        "date": "Mon, 20 Apr 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Tillster",
-        "type": "private",
-        "emoji": "\u26a0\ufe0f",
         "content_type": "press_general"
       },
       {
@@ -2891,7 +2881,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Standard International Launches the Manner in New York - hospitalitydesign.com",
+        "headline": "Standard International Launches the Manner in New York - Hospitality Design",
         "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVmtiSldlZVpuRU12SXFsSTA2QWdUcHgyVjlxWVhNc1pDM1lYRGtEdWhuVDF1LUt0NnQ4eGZBdFFtNHJlVmJ2aUY5N3RIMXQwSm1ramhCYmpKMG9HZk12ZmhGbWdoYVZxcGo4c09EZkxUa0hWWUpVNWE3elRERTQtLUhaM0wzUk8xbDF0NA?oc=5",
         "date": "Tue, 24 Sep 2024 07:00:00 GMT",
         "source": "Google News",
@@ -3033,6 +3023,16 @@
         "content_type": "press_general"
       },
       {
+        "headline": "Bojangles streamlines mobile customer experience - Chain Store Age",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE44czZsZk9Ra05TVmM1VFVzNFQ0YS03aklZeTEyRW8yWElfOTZkVy1ITGM3NGUzZGhmOV9XVE4tVEJBVThRNTQtcUxtZFY3YXdLd3p5SC01SG5MSkZ5enNsX3lLcXVrd2h4XzcyRE0xS09WbEZ5MVkzeUhmVm1CYjA?oc=5",
+        "date": "Tue, 12 Apr 2022 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Sparkfly",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
         "headline": "Sparkfly Selected to Transform Customer Engagement Systems for Round Table Pizza - Business Wire",
         "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOOGNSZG43cVA0bWxYb1RRYWNJWE5MdlhUT3lCMnFrWHhKVjZMTm1rdTRrcTVjZEdja1llTHc2UzBBS2lTNTVqQnZfRTlralhxQ1hGSXVuN0RBOEVPa2FmZVI2ajFYbXN6TU5jRG9jYVZ1SnBQZzktNUNlRWVaWmhzMy1YYk1YeW4xLWdoNFlTekJEWWRUcjB2YUhmY1JoREdTSUhBVnZTS1hjaVh2TWhSOWNwM1ZGUnQ4NGVOTW5qNlJNekpxSXVwOUlBa3hmaTVHeFJj?oc=5",
         "date": "Tue, 01 Feb 2022 08:00:00 GMT",
@@ -3059,16 +3059,6 @@
         "source": "Google News - Restaurant Loyalty",
         "type": "trade",
         "company": "Sparkfly",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Sparkfly Partners with Vibes to Offer Deeper Insights on Mobile Campaigns, Consumer Engagement Strategies - Business Wire",
-        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRlNudDROS056VFJkZFNudll4eWVLS2pLblpTeElQLU01aExSWE5OMTZtdm4tc0Jld2ZrcGlFS1BvRlhJbC1rVmJ0VDF5UmZzZVFEYVdlckk3RVpRV0ZaSHRuTkw5RzduVmhVN3EwM0lGMjkwOGRqTUpINDYwcVJpaHdtaXhmOTk0eWdxUEdCRld6eUlvSkZMT0JwTklpdGJxMG4xdDdWLU9DZFhUM1RqRGlsSnJ2dU1HUUNEX1JYWUpXWmtXTXFjYjVfMkJzaEswU195SEd5N1hFRmgzQWYwR2lSSVJKWjFzWVZZXzBpMEtrWFE?oc=5",
-        "date": "Wed, 16 Jun 2021 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Sparkfly",
-        "type": "private",
         "emoji": "\ud83e\udd1d",
         "content_type": "press_general"
       },
@@ -3337,7 +3327,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Snackpass founder shares wisdom - yaledailynews.com",
+        "headline": "Snackpass founder shares wisdom - Yale Daily News",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1yeDU2RFJRT0JRRDVXdzEzMVhKa2hLTjBpVW1PLVJxN2t1ODdhOTkzYUF2Z2pRaHQyQy01c29adXlicmtiUno2aG9JM1gwZ0dPelpoN01zUHJUY2hpakZ1YkpzakJEYjFMOTI3bGs2SVdrSEVD?oc=5",
         "date": "Wed, 15 Nov 2017 08:00:00 GMT",
         "source": "Google News",
