@@ -1,45 +1,33 @@
 {
-  "updated": "2026-08-07T12:11:04.302177+00:00",
-  "total": 3,
+  "updated": "2026-08-07T13:51:13.199793+00:00",
+  "total": 2,
   "by_category": {
-    "stock_move": 3
+    "stock_move": 2
   },
   "alerts": [
     {
       "category": "stock_move",
       "severity": "high",
       "company": "Shift4",
-      "headline": "Shift4 (FOUR) stock down 18.2% over the past week",
+      "headline": "Shift4 (FOUR) stock down 20.8% over the past week",
       "url": "https://finance.yahoo.com/quote/FOUR",
       "source": "Yahoo Finance",
-      "date": "2026-08-07T12:11:04.302177+00:00",
+      "date": "2026-08-07T13:51:13.199793+00:00",
       "par_relevance": 3,
-      "note": "-18.2% 1W",
-      "detected_at": "2026-08-07T12:11:04.302177+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "medium",
-      "company": "Toast",
-      "headline": "Toast (TOST) stock up 7.6% over the past week",
-      "url": "https://finance.yahoo.com/quote/TOST",
-      "source": "Yahoo Finance",
-      "date": "2026-08-07T12:11:04.302177+00:00",
-      "par_relevance": 3,
-      "note": "+7.6% 1W",
-      "detected_at": "2026-08-07T12:11:04.302177+00:00"
+      "note": "-20.8% 1W",
+      "detected_at": "2026-08-07T13:51:13.199793+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "DoorDash",
-      "headline": "DoorDash (DASH) stock up 8.7% over the past week",
+      "headline": "DoorDash (DASH) stock up 8.3% over the past week",
       "url": "https://finance.yahoo.com/quote/DASH",
       "source": "Yahoo Finance",
-      "date": "2026-08-07T12:11:04.302177+00:00",
+      "date": "2026-08-07T13:51:13.199793+00:00",
       "par_relevance": 2,
-      "note": "+8.7% 1W",
-      "detected_at": "2026-08-07T12:11:04.302177+00:00"
+      "note": "+8.3% 1W",
+      "detected_at": "2026-08-07T13:51:13.199793+00:00"
     }
   ]
 }
