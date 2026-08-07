@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07T22:44:11.983835+00:00",
+  "updated": "2026-08-07T23:39:02.643818+00:00",
   "tickers": {
     "PAR": {
       "ticker": "PAR",
@@ -14,7 +14,7 @@
       "gross_margin": 0.43674,
       "enterprise_value": 1062151936.0,
       "trailing_pe": null,
-      "forward_pe": 14.628337,
+      "forward_pe": 11.787989,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
@@ -341,16 +341,16 @@
       "ticker": "DASH",
       "company": "DoorDash",
       "price": 216.26,
-      "market_cap": 93704511488.0,
+      "market_cap": 94228529152.0,
       "ttm_revenue": 15891000320.0,
       "ttm_ebitda": 1436000000.0,
       "ttm_gross_profit": 8298999808.0,
       "revenue_growth_yoy": 0.356,
       "ebitda_margin": 0.09037,
       "gross_margin": 0.52225,
-      "enterprise_value": 90373627904.0,
+      "enterprise_value": 91673518080.0,
       "trailing_pe": 112.635414,
-      "forward_pe": 27.33389,
+      "forward_pe": 27.913988,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
@@ -1050,6 +1050,19 @@
       ],
       "income_statement_quarterly": [
         {
+          "endDate": "2026-06-30",
+          "totalRevenue": 6617687000.0,
+          "costOfRevenue": 3451606000.0,
+          "grossProfit": 3166081000.0,
+          "researchDevelopment": 608660000.0,
+          "sellingGeneralAdministrative": 1490824000.0,
+          "totalOperatingExpenses": 2133761000.0,
+          "operatingIncome": 1032320000.0,
+          "ebit": 1032320000.0,
+          "netIncome": 88517000.0,
+          "incomeBeforeTax": 301476000.0
+        },
+        {
           "endDate": "2026-03-31",
           "totalRevenue": 6056847000.0,
           "costOfRevenue": 3147608000.0,
@@ -1087,19 +1100,6 @@
           "ebit": 772895000.0,
           "netIncome": 461544000.0,
           "incomeBeforeTax": 601526000.0
-        },
-        {
-          "endDate": "2025-06-30",
-          "totalRevenue": 6054457000.0,
-          "costOfRevenue": 3517927000.0,
-          "grossProfit": 2536530000.0,
-          "researchDevelopment": 725288000.0,
-          "sellingGeneralAdministrative": 998968000.0,
-          "totalOperatingExpenses": 1758147000.0,
-          "operatingIncome": 778383000.0,
-          "ebit": 778383000.0,
-          "netIncome": 538458000.0,
-          "incomeBeforeTax": 659382000.0
         }
       ],
       "balance_sheet_annual": [
@@ -1134,6 +1134,20 @@
       ],
       "balance_sheet_quarterly": [
         {
+          "endDate": "2026-06-30",
+          "cash": 11957609000.0,
+          "shortTermInvestments": 310845000.0,
+          "netReceivables": 4057807000.0,
+          "totalCurrentAssets": 23144875000.0,
+          "totalAssets": 39156667000.0,
+          "totalCurrentLiabilities": 10478501000.0,
+          "longTermDebt": 6310125000.0,
+          "totalLiab": 17145350000.0,
+          "totalStockholderEquity": 22047075000.0,
+          "goodWill": 11966996000.0,
+          "intangibleAssets": 1200262000.0
+        },
+        {
           "endDate": "2026-03-31",
           "cash": 12799537000.0,
           "shortTermInvestments": 462611000.0,
@@ -1146,20 +1160,6 @@
           "totalStockholderEquity": 21715338000.0,
           "goodWill": 11956264000.0,
           "intangibleAssets": 1245784000.0
-        },
-        {
-          "endDate": "2025-12-31",
-          "cash": 11335916000.0,
-          "shortTermInvestments": 628013000.0,
-          "netReceivables": 4268512000.0,
-          "totalCurrentAssets": 22856880000.0,
-          "totalAssets": 39549887000.0,
-          "totalCurrentLiabilities": 10384460000.0,
-          "longTermDebt": 6613700000.0,
-          "totalLiab": 17380005000.0,
-          "totalStockholderEquity": 22204278000.0,
-          "goodWill": 11849018000.0,
-          "intangibleAssets": 1281670000.0
         }
       ]
     },
@@ -1326,7 +1326,7 @@
       "gross_margin": 0.5805595068752963,
       "enterprise_value": null,
       "trailing_pe": 10.04023,
-      "forward_pe": 6.287271,
+      "forward_pe": 6.297341,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
