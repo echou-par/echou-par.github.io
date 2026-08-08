@@ -2,7 +2,7 @@
   "date": "2026-08-08",
   "weekday": "Saturday",
   "first_seen": "2026-08-08T05:04:02.085828+00:00",
-  "last_updated": "2026-08-08T08:50:27.766327+00:00",
+  "last_updated": "2026-08-08T09:44:41.694144+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -88,21 +88,21 @@
       "first_detected": "2026-08-08T05:04:02.085828+00:00"
     },
     {
-      "text": "PAR shows concentrated financial/market activity \u2014 14 tracked financial/market items this cycle. Latest: \"PAR Technology Corporation Stock 12\u2011Month Price Target Cut to $25.19, Implies 47% Upside - TradingView\"",
+      "text": "PAR shows concentrated financial/market activity \u2014 14 tracked financial/market items this cycle. Latest: \"PAR Technology Corporation Stock 12\u2011Month Price Target Cut to $25.19, Implies 47% Upside - tradingview.com\"",
       "sources": [
         {
-          "title": "PAR Technology Corporation Stock 12\u2011Month Price Target Cut to $25.19, Implies 47% Upside - TradingView",
+          "title": "PAR Technology Corporation Stock 12\u2011Month Price Target Cut to $25.19, Implies 47% Upside - tradingview.com",
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxONEFRZ1ZMNGN2QjZ0azFWcjJaTldncTBFTzJBUWdFLU0wTldtVkZFdnhXU1BtMG1wcnJCYzFZTVNReGs5ZDVGM0Nwd2YzakNQVGNTX1RnbDJ4c1NabkNqTjNjZVZSMnQyT1BKT3RabUt3LU5odGFJUXgwTjBuWktCY2dTc0dZcExHN18xanZURWRBbGJPbW9xVUV5TEtja3RmM3NqZUVLdVVNMnVGT1lBQUh4Y0J2RmlMRnZfbG5Mb0J1QnRlbVJYZlpqZ01xU2xoNUQ5ODRvVEF4RVQ3ZFA5Tw?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Aug 06 (Reuters) - PAR Technology Q2 Revenue - moomoo.com",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONHo1ZGppTC1USVBuWi1Oc1FXN3JWNl9temRwUmd2VlJmT0FzZ2MtSlM0VmNYeUhEZ2tvYVlqSjZDeG15clJkblNJV21adFdqUlRuOTVGZF9Ic2trSkI5dXFfQXpGd29sUFRNaU5HeVNWbjB1NUN5clMwQ0d0QVN4amVGd1ZEVGVLVEw3Rl9udVVVUlRpWkpJQmRkaHhHN3A1OTliX3NBdDNEVHR1MnhtSw?oc=5",
           "source": "Google News"
         },
         {
           "title": "PAR Technology earnings beat by $0.07, revenue topped estimates - Investing.com",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeG1DRVBjbWZvenBrQjNTNzg4d0ZvdWpzckVkRnpjbEtLUEVkN2J0UkRUblNXdnV6dEFHOHM5SFJDaTJIOUpnRE9oTEo3S1gwRmtNTVJ1dmkybWlORC1xM3kwVFVfWVF6eTZwRUZkWlRiOGd0dks1VE9FZVBGTVV6bGNfeEpTVU5LWUhnRm9UcDlXOFQzcURpVGwwemlKSzVsTnB0cmprcXJVN1JU?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "PAR Technology Corp (PAR) (Q2 2026) Earnings Call Highlights: Record Revenue and Raised ... - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYlFMRU91aE5xX1lZY0xKYW1HLUwyRE5fbWxhVnBJVGNqV1lLWWFVVkhfQldJaGZyenZTZ3ZQT1R4RnFBR2VxUGFqTFh3bmNhc05aNWZTNUNWdW9RT1RJVHNtOFRzZy03VDdKeE9wQmJwSVpKTXFZNTdqcFFEWkVOdHpHSEF5MDh5ZnFweVFnNjZxd0ZLaGc?oc=5",
           "source": "Google News"
         }
       ],
@@ -123,7 +123,7 @@
           "source": "Google News"
         },
         {
-          "title": "Why Shift4 (FOUR) Stock Is Trading Lower Today - TradingView",
+          "title": "Why Shift4 (FOUR) Stock Is Trading Lower Today - tradingview.com",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTGJRMXdfSF9ucGoySk8yTExTajdSeEFSSUlwTURTUmlLMllBV0tueTh5MmpIUXhha0ZPZjV6TFVQc2ZLQTN0TDJ5SnBBd21ZN0dHUWtYQTJZaHZ0OVd1bHczaEgwYks3dy0tN25zZ2VPZFJRNjVORS1MTjBQdnZmNnVQYUlRa3gyYldCamFkZlZVdjlJQVBfUjhzVS1DRkVqNW5PUkxKWkY?oc=5",
           "source": "Google News"
         }
@@ -161,6 +161,10 @@
       "count": 16
     },
     {
+      "company": "Olo",
+      "count": 16
+    },
+    {
       "company": "Shift4",
       "count": 15
     },
@@ -170,10 +174,6 @@
     },
     {
       "company": "Toast",
-      "count": 15
-    },
-    {
-      "company": "Fiserv",
       "count": 15
     }
   ]
