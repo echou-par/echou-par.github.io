@@ -1,18 +1,18 @@
 {
-  "updated": "2026-08-08T11:34:37.129721+00:00",
+  "updated": "2026-08-08T13:01:29.456036+00:00",
   "tickers": {
     "PAR": {
       "ticker": "PAR",
       "company": "PAR",
       "price": 17.81,
       "market_cap": 734594816.0,
-      "ttm_revenue": 475660992.0,
-      "ttm_ebitda": -38459000.0,
-      "ttm_gross_profit": 207740000.0,
-      "revenue_growth_yoy": 0.194,
-      "ebitda_margin": -0.08085,
-      "gross_margin": 0.43674,
-      "enterprise_value": 1062151936.0,
+      "ttm_revenue": 496667008.0,
+      "ttm_ebitda": -27765000.0,
+      "ttm_gross_profit": 213664000.0,
+      "revenue_growth_yoy": 0.187,
+      "ebitda_margin": -0.0559,
+      "gross_margin": 0.4302,
+      "enterprise_value": 1090263808.0,
       "trailing_pe": null,
       "forward_pe": 11.787989,
       "income_statement_annual": [
@@ -341,7 +341,7 @@
       "ticker": "DASH",
       "company": "DoorDash",
       "price": 216.26,
-      "market_cap": 93704511488.0,
+      "market_cap": 94228529152.0,
       "ttm_revenue": 15891000320.0,
       "ttm_ebitda": 1436000000.0,
       "ttm_gross_profit": 8298999808.0,
@@ -350,7 +350,7 @@
       "gross_margin": 0.52225,
       "enterprise_value": 91673518080.0,
       "trailing_pe": 110.90256,
-      "forward_pe": 27.33389,
+      "forward_pe": 27.19034,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
@@ -1484,7 +1484,7 @@
       "ebitda_margin": 0.13533,
       "gross_margin": 0.40752,
       "enterprise_value": 163655860224.0,
-      "trailing_pe": 15.46804,
+      "trailing_pe": 16.451754,
       "forward_pe": 17.145586,
       "income_statement_annual": [
         {
