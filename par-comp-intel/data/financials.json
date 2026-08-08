@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T06:08:13.988753+00:00",
+  "updated": "2026-08-08T07:30:50.832009+00:00",
   "tickers": {
     "PAR": {
       "ticker": "PAR",
@@ -14,7 +14,7 @@
       "gross_margin": 0.43674,
       "enterprise_value": 1062151936.0,
       "trailing_pe": null,
-      "forward_pe": 11.787989,
+      "forward_pe": 14.628337,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
@@ -285,7 +285,7 @@
           "endDate": "2025-12-31",
           "cash": 1353000000.0,
           "shortTermInvestments": 638000000.0,
-          "netReceivables": 103000000.0,
+          "netReceivables": 127000000.0,
           "totalCurrentAssets": 2669000000.0,
           "totalAssets": 3145000000.0,
           "totalCurrentLiabilities": 969000000.0,
@@ -341,7 +341,7 @@
       "ticker": "DASH",
       "company": "DoorDash",
       "price": 216.26,
-      "market_cap": 94228529152.0,
+      "market_cap": 93704511488.0,
       "ttm_revenue": 15891000320.0,
       "ttm_ebitda": 1436000000.0,
       "ttm_gross_profit": 8298999808.0,
@@ -350,7 +350,7 @@
       "gross_margin": 0.52225,
       "enterprise_value": 91673518080.0,
       "trailing_pe": 110.90256,
-      "forward_pe": 27.913988,
+      "forward_pe": 27.33389,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
@@ -394,6 +394,19 @@
       ],
       "income_statement_quarterly": [
         {
+          "endDate": "2026-06-30",
+          "totalRevenue": 4454000000.0,
+          "costOfRevenue": 2107000000.0,
+          "grossProfit": 2347000000.0,
+          "researchDevelopment": 535000000.0,
+          "sellingGeneralAdministrative": 1359000000.0,
+          "totalOperatingExpenses": 2189000000.0,
+          "operatingIncome": 158000000.0,
+          "ebit": 158000000.0,
+          "netIncome": 200000000.0,
+          "incomeBeforeTax": 207000000.0
+        },
+        {
           "endDate": "2026-03-31",
           "totalRevenue": 4036000000.0,
           "costOfRevenue": 1992000000.0,
@@ -431,19 +444,6 @@
           "ebit": 259000000.0,
           "netIncome": 244000000.0,
           "incomeBeforeTax": 248000000.0
-        },
-        {
-          "endDate": "2025-06-30",
-          "totalRevenue": 3284000000.0,
-          "costOfRevenue": 1616000000.0,
-          "grossProfit": 1668000000.0,
-          "researchDevelopment": 351000000.0,
-          "sellingGeneralAdministrative": 995000000.0,
-          "totalOperatingExpenses": 1505000000.0,
-          "operatingIncome": 163000000.0,
-          "ebit": 163000000.0,
-          "netIncome": 285000000.0,
-          "incomeBeforeTax": 271000000.0
         }
       ],
       "balance_sheet_annual": [
@@ -477,6 +477,20 @@
       ],
       "balance_sheet_quarterly": [
         {
+          "endDate": "2026-06-30",
+          "cash": 4424000000.0,
+          "shortTermInvestments": 923000000.0,
+          "netReceivables": 1100000000.0,
+          "totalCurrentAssets": 8416000000.0,
+          "totalAssets": 19561000000.0,
+          "totalCurrentLiabilities": 6152000000.0,
+          "longTermDebt": 2727000000.0,
+          "totalLiab": 9629000000.0,
+          "totalStockholderEquity": 9921000000.0,
+          "goodWill": 5495000000.0,
+          "intangibleAssets": 2005000000.0
+        },
+        {
           "endDate": "2026-03-31",
           "cash": 4575000000.0,
           "shortTermInvestments": 958000000.0,
@@ -489,20 +503,6 @@
           "totalStockholderEquity": 10198000000.0,
           "goodWill": 5499000000.0,
           "intangibleAssets": 2118000000.0
-        },
-        {
-          "endDate": "2025-12-31",
-          "cash": 4378000000.0,
-          "shortTermInvestments": 1128000000.0,
-          "netReceivables": 1108000000.0,
-          "totalCurrentAssets": 8643000000.0,
-          "totalAssets": 19659000000.0,
-          "totalCurrentLiabilities": 6147000000.0,
-          "longTermDebt": 2724000000.0,
-          "totalLiab": 9613000000.0,
-          "totalStockholderEquity": 10033000000.0,
-          "goodWill": 5519000000.0,
-          "intangibleAssets": 2260000000.0
         }
       ]
     },
