@@ -2,7 +2,7 @@
   "date": "2026-08-08",
   "weekday": "Saturday",
   "first_seen": "2026-08-08T05:04:02.085828+00:00",
-  "last_updated": "2026-08-08T18:47:51.945175+00:00",
+  "last_updated": "2026-08-08T19:35:35.267468+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -115,7 +115,7 @@
       "first_detected": "2026-08-08T05:04:02.085828+00:00"
     },
     {
-      "text": "Shift4 shows concentrated financial/market activity \u2014 13 tracked financial/market items this cycle. Latest: \"Shift4 Payments Q2 Earnings Call Highlights - MarketBeat\"",
+      "text": "Shift4 shows concentrated financial/market activity \u2014 12 tracked financial/market items this cycle. Latest: \"Shift4 Payments Q2 Earnings Call Highlights - MarketBeat\"",
       "sources": [
         {
           "title": "Shift4 Payments Q2 Earnings Call Highlights - MarketBeat",
@@ -216,6 +216,10 @@
   ],
   "most_mentioned": [
     {
+      "company": "Toast",
+      "count": 19
+    },
+    {
       "company": "Global Payments",
       "count": 17
     },
@@ -241,10 +245,6 @@
     },
     {
       "company": "Lightspeed",
-      "count": 15
-    },
-    {
-      "company": "PAR",
       "count": 15
     }
   ]

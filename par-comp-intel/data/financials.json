@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T18:47:51.945175+00:00",
+  "updated": "2026-08-08T19:35:35.267468+00:00",
   "tickers": {
     "PAR": {
       "ticker": "PAR",
@@ -256,6 +256,7 @@
         {
           "endDate": "2025-12-31",
           "totalRevenue": 1633000000.0,
+          "costOfRevenue": 1210000000.0,
           "grossProfit": 423000000.0,
           "researchDevelopment": 97000000.0,
           "sellingGeneralAdministrative": 237000000.0,
@@ -340,7 +341,7 @@
       "ticker": "DASH",
       "company": "DoorDash",
       "price": 216.26,
-      "market_cap": 93704511488.0,
+      "market_cap": 94228529152.0,
       "ttm_revenue": 15891000320.0,
       "ttm_ebitda": 1436000000.0,
       "ttm_gross_profit": 8298999808.0,
@@ -1484,7 +1485,7 @@
       "gross_margin": 0.40752,
       "enterprise_value": 163655860224.0,
       "trailing_pe": 16.451754,
-      "forward_pe": 17.145586,
+      "forward_pe": 17.052557,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
