@@ -1,23 +1,10 @@
 {
-  "updated": "2026-08-08T07:30:50.832009+00:00",
-  "total": 3,
+  "updated": "2026-08-08T08:50:27.766327+00:00",
+  "total": 2,
   "by_category": {
-    "analyst_downgrade": 1,
     "stock_move": 2
   },
   "alerts": [
-    {
-      "category": "analyst_downgrade",
-      "severity": "high",
-      "company": "Shift4",
-      "headline": "Shift4 Payments (NYSE:FOUR) Shares Down 6.7% After Analyst Downgrade - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcGhNRXFyRENDa0dEZDBkUVFzdGZGc1dGSjNUSGFvUktUdDktQ2xWNEZvMkZmNFZUX2RZVXZ6SXVOMUtVc0FIWVIxUmdCX2dSZUI1QmttVUZISmszb1NjQWRVTEZ1TjdpU19VNWJFMk05V0hBR1JQelJ0VlhySm9kd3B4aVhVcHhxOXZ4V0hJRGxWZnZkdGRlNWRkeXpsUy15R1MwM2ZqeWktMms0dVRCMlg5aE1McURZ?oc=5",
-      "source": "Google News",
-      "date": "Fri, 07 Aug 2026 16:32:10 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-08-08T07:30:50.832009+00:00"
-    },
     {
       "category": "stock_move",
       "severity": "high",
@@ -25,10 +12,10 @@
       "headline": "Shift4 (FOUR) stock down 24.0% over the past week",
       "url": "https://finance.yahoo.com/quote/FOUR",
       "source": "Yahoo Finance",
-      "date": "2026-08-08T07:30:50.832009+00:00",
+      "date": "2026-08-08T08:50:27.766327+00:00",
       "par_relevance": 3,
       "note": "-24.0% 1W",
-      "detected_at": "2026-08-08T07:30:50.832009+00:00"
+      "detected_at": "2026-08-08T08:50:27.766327+00:00"
     },
     {
       "category": "stock_move",
@@ -37,10 +24,10 @@
       "headline": "DoorDash (DASH) stock up 7.9% over the past week",
       "url": "https://finance.yahoo.com/quote/DASH",
       "source": "Yahoo Finance",
-      "date": "2026-08-08T07:30:50.832009+00:00",
+      "date": "2026-08-08T08:50:27.766327+00:00",
       "par_relevance": 2,
       "note": "+7.9% 1W",
-      "detected_at": "2026-08-08T07:30:50.832009+00:00"
+      "detected_at": "2026-08-08T08:50:27.766327+00:00"
     }
   ]
 }
