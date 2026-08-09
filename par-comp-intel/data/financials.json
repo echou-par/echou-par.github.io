@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-09T06:24:18.960195+00:00",
+  "updated": "2026-08-09T07:35:07.778795+00:00",
   "tickers": {
     "PAR": {
       "ticker": "PAR",
@@ -14,7 +14,7 @@
       "gross_margin": 0.4302,
       "enterprise_value": 1090263808.0,
       "trailing_pe": null,
-      "forward_pe": 11.787989,
+      "forward_pe": 11.828777,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
@@ -341,7 +341,7 @@
       "ticker": "DASH",
       "company": "DoorDash",
       "price": 216.26,
-      "market_cap": 93704511488.0,
+      "market_cap": 94228529152.0,
       "ttm_revenue": 15891000320.0,
       "ttm_ebitda": 1436000000.0,
       "ttm_gross_profit": 8298999808.0,
@@ -1318,12 +1318,12 @@
       "company": "Fiserv",
       "price": 52.41,
       "market_cap": 27869894656.0,
-      "ttm_revenue": 21090000000.0,
-      "ttm_ebitda": 5158000000.0,
-      "ttm_gross_profit": 12244000000.0,
+      "ttm_revenue": 20866000000.0,
+      "ttm_ebitda": 4468000000.0,
+      "ttm_gross_profit": 11731000000.0,
       "revenue_growth_yoy": 0.03602854908095424,
-      "ebitda_margin": 0.24457088667614985,
-      "gross_margin": 0.5805595068752963,
+      "ebitda_margin": 0.21412824690884694,
+      "gross_margin": 0.5622064602702962,
       "enterprise_value": null,
       "trailing_pe": 10.04023,
       "forward_pe": 6.297341,
@@ -1367,6 +1367,18 @@
       ],
       "income_statement_quarterly": [
         {
+          "endDate": "2026-06-30",
+          "totalRevenue": 5292000000.0,
+          "costOfRevenue": 2395000000.0,
+          "grossProfit": 2897000000.0,
+          "sellingGeneralAdministrative": 1888000000.0,
+          "totalOperatingExpenses": 1888000000.0,
+          "operatingIncome": 1009000000.0,
+          "ebit": 1151000000.0,
+          "netIncome": 627000000.0,
+          "incomeBeforeTax": 775000000.0
+        },
+        {
           "endDate": "2026-03-31",
           "totalRevenue": 5027000000.0,
           "costOfRevenue": 2307000000.0,
@@ -1401,18 +1413,6 @@
           "ebit": 1396000000.0,
           "netIncome": 792000000.0,
           "incomeBeforeTax": 964000000.0
-        },
-        {
-          "endDate": "2025-06-30",
-          "totalRevenue": 5516000000.0,
-          "costOfRevenue": 2106000000.0,
-          "grossProfit": 3410000000.0,
-          "sellingGeneralAdministrative": 1711000000.0,
-          "totalOperatingExpenses": 1711000000.0,
-          "operatingIncome": 1699000000.0,
-          "ebit": 1668000000.0,
-          "netIncome": 1026000000.0,
-          "incomeBeforeTax": 1292000000.0
         }
       ],
       "balance_sheet_annual": [
@@ -1445,6 +1445,19 @@
       ],
       "balance_sheet_quarterly": [
         {
+          "endDate": "2026-06-30",
+          "cash": 245000000.0,
+          "netReceivables": 3909000000.0,
+          "totalCurrentAssets": 25364000000.0,
+          "totalAssets": 80886000000.0,
+          "totalCurrentLiabilities": 24307000000.0,
+          "longTermDebt": 24944000000.0,
+          "totalLiab": 53960000000.0,
+          "totalStockholderEquity": 26904000000.0,
+          "goodWill": 37524000000.0,
+          "intangibleAssets": 9712000000.0
+        },
+        {
           "endDate": "2026-03-31",
           "cash": 335000000.0,
           "netReceivables": 3882000000.0,
@@ -1456,19 +1469,6 @@
           "totalStockholderEquity": 26201000000.0,
           "goodWill": 37602000000.0,
           "intangibleAssets": 9982000000.0
-        },
-        {
-          "endDate": "2025-12-31",
-          "cash": 798000000.0,
-          "netReceivables": 3981000000.0,
-          "totalCurrentAssets": 24654000000.0,
-          "totalAssets": 80133000000.0,
-          "totalCurrentLiabilities": 23890000000.0,
-          "longTermDebt": 26123000000.0,
-          "totalLiab": 54324000000.0,
-          "totalStockholderEquity": 25792000000.0,
-          "goodWill": 37703000000.0,
-          "intangibleAssets": 10161000000.0
         }
       ]
     },
