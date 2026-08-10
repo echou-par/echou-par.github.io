@@ -2,7 +2,7 @@
   "date": "2026-08-10",
   "weekday": "Monday",
   "first_seen": "2026-08-10T04:14:35.560327+00:00",
-  "last_updated": "2026-08-10T19:34:14.554460+00:00",
+  "last_updated": "2026-08-10T20:51:20.247877+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -202,40 +202,60 @@
       ],
       "company": "TalonOne",
       "first_detected": "2026-08-10T14:33:39.810469+00:00"
+    },
+    {
+      "text": "Shift4 (FOUR) stock declined 22.4% over the past week \u2014 material weekly move relative to broader cohort.",
+      "sources": [
+        {
+          "title": "FOUR on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/FOUR",
+          "source": "Yahoo Finance"
+        }
+      ],
+      "company": "Shift4",
+      "first_detected": "2026-08-10T20:51:20.247877+00:00"
+    },
+    {
+      "text": "NCR Voyix (VYX) stock declined 10.7% over the past week \u2014 material weekly move relative to broader cohort.",
+      "sources": [
+        {
+          "title": "VYX on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/VYX",
+          "source": "Yahoo Finance"
+        }
+      ],
+      "company": "NCR Voyix",
+      "first_detected": "2026-08-10T20:51:20.247877+00:00"
+    },
+    {
+      "text": "Risk signal \u2014 Uber Eats: \"Why the Uber Eats Priority Fee Lawsuit Is Really About Delivery Technology\"",
+      "sources": [
+        {
+          "title": "Why the Uber Eats Priority Fee Lawsuit Is Really About Delivery Technology",
+          "url": "https://restauranttechnologynews.com/2026/08/why-the-uber-eats-priority-fee-lawsuit-is-really-about-delivery-technology/",
+          "source": "Restaurant Technology News"
+        }
+      ],
+      "company": "Uber Eats",
+      "first_detected": "2026-08-10T20:51:20.247877+00:00"
+    },
+    {
+      "text": "Global Payments (GPN) leading revenue growth at +68.6% YoY \u2014 fastest grower among tracked public competitors.",
+      "sources": [
+        {
+          "title": "Global Payments financials on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/GPN/financials",
+          "source": "Yahoo Finance"
+        }
+      ],
+      "company": "Global Payments",
+      "first_detected": "2026-08-10T20:51:20.247877+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
-      "count": 16
-    },
-    {
-      "company": "Global Payments",
-      "count": 16
-    },
-    {
-      "company": "Olo",
-      "count": 16
-    },
-    {
-      "company": "TouchBistro",
-      "count": 16
-    },
-    {
-      "company": "NCR Voyix",
-      "count": 15
-    },
-    {
-      "company": "Shift4",
-      "count": 15
-    },
-    {
-      "company": "Toast",
-      "count": 15
-    },
-    {
-      "company": "Lightspeed",
-      "count": 15
+      "company": "Uber Eats",
+      "count": 1
     }
   ]
 }
