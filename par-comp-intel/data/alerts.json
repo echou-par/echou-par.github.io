@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11T15:08:19.670543+00:00",
+  "updated": "2026-08-11T15:28:41.068153+00:00",
   "total": 2,
   "by_category": {
     "stock_move": 2
@@ -9,25 +9,25 @@
       "category": "stock_move",
       "severity": "high",
       "company": "NCR Voyix",
-      "headline": "NCR Voyix (VYX) stock down 15.4% over the past week",
+      "headline": "NCR Voyix (VYX) stock down 15.7% over the past week",
       "url": "https://finance.yahoo.com/quote/VYX",
       "source": "Yahoo Finance",
-      "date": "2026-08-11T15:08:19.670543+00:00",
+      "date": "2026-08-11T15:28:41.068153+00:00",
       "par_relevance": 3,
-      "note": "-15.4% 1W",
-      "detected_at": "2026-08-11T15:08:19.670543+00:00"
+      "note": "-15.7% 1W",
+      "detected_at": "2026-08-11T15:28:41.068153+00:00"
     },
     {
       "category": "stock_move",
       "severity": "high",
       "company": "Shift4",
-      "headline": "Shift4 (FOUR) stock down 20.7% over the past week",
+      "headline": "Shift4 (FOUR) stock down 21.2% over the past week",
       "url": "https://finance.yahoo.com/quote/FOUR",
       "source": "Yahoo Finance",
-      "date": "2026-08-11T15:08:19.670543+00:00",
+      "date": "2026-08-11T15:28:41.068153+00:00",
       "par_relevance": 3,
-      "note": "-20.7% 1W",
-      "detected_at": "2026-08-11T15:08:19.670543+00:00"
+      "note": "-21.2% 1W",
+      "detected_at": "2026-08-11T15:28:41.068153+00:00"
     }
   ]
 }
