@@ -2,7 +2,7 @@
   "date": "2026-08-12",
   "weekday": "Wednesday",
   "first_seen": "2026-08-12T04:24:30.213399+00:00",
-  "last_updated": "2026-08-12T20:09:57.194529+00:00",
+  "last_updated": "2026-08-12T21:22:26.902457+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -288,40 +288,24 @@
       ],
       "company": "TalonOne",
       "first_detected": "2026-08-12T14:33:34.691333+00:00"
+    },
+    {
+      "text": "Uber (UBER) stock gained 6.9% over the past week \u2014 material weekly move relative to broader cohort.",
+      "sources": [
+        {
+          "title": "UBER on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/UBER",
+          "source": "Yahoo Finance"
+        }
+      ],
+      "company": "Uber",
+      "first_detected": "2026-08-12T21:22:26.902457+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
-      "count": 16
-    },
-    {
-      "company": "TouchBistro",
-      "count": 16
-    },
-    {
-      "company": "Sparkfly",
-      "count": 16
-    },
-    {
-      "company": "Shift4",
-      "count": 15
-    },
-    {
-      "company": "Toast",
-      "count": 15
-    },
-    {
-      "company": "Global Payments",
-      "count": 15
-    },
-    {
-      "company": "Fiserv",
-      "count": 15
-    },
-    {
-      "company": "NCR Voyix",
-      "count": 15
+      "company": "Uber Eats",
+      "count": 1
     }
   ]
 }
