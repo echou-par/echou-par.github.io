@@ -1,6 +1,21 @@
 {
-  "updated": "2026-08-12T21:22:26.902457+00:00",
-  "total": 0,
-  "by_category": {},
-  "alerts": []
+  "updated": "2026-08-12T22:19:33.551974+00:00",
+  "total": 1,
+  "by_category": {
+    "guidance_cut": 1
+  },
+  "alerts": [
+    {
+      "category": "guidance_cut",
+      "severity": "high",
+      "company": "Shift4",
+      "headline": "Shift4 Payments (FOUR) Could Be 26% Undervalued On Cut Guidance - simplywall.st",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNTkNmSkFiQVMyNmV5ckpVczVwZkhNNjhzaTYzbGthTU1lYmU2VXdidVZWSy1WSnJBckt5YUtrZmRRZ2J3QTNwRnplODgxSnhxbWlGLTBMbGpZb2lsWHpTNHpTbHNsUHVOd3huRk9KcjRBREg5bjFvNG9oYVF3S01WYmRFVC1pNnVGVm1sbHRYVDllQ01mLXRuVXdtUkVPQ3pWVXMwcDhrNlJ0cm4yUmJ6VTc1a2dPbTZlOGN4TUtZSjAtdHdLcmFheFdkMXpCRXRHVUhGb1M4SFNIX09uamZj0gHkAUFVX3lxTE8zbkxKLVd6UUE1SVN2TktoVTN0VFB0UUlJZGpIRmd2dXBPZ01kNDVKczMtM1NCUHRtNEt3aGQwUDZvVGZncko1T290SjJVUGoyRU55THJzM21DZDJ2NE5hQTVfZ3I1ckhBbGxJU2tWMkVwSTN3SEFKQ3Fzb0pqUzlsMk8waS1BcjNEbVNXWmYwazJ4NVFFRDIxU05vZlppMnNHc2hwWlZKTnN1RW9tYkRIUEVUaW9SWDhCMHU2dTJacGRpS0NGeFVKOHYzd1hfSmdVZ1lKd0Zfd1dYQk1sTXJTc19wNg?oc=5",
+      "source": "Google News",
+      "date": "Wed, 12 Aug 2026 15:39:52 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-08-12T22:19:33.551974+00:00"
+    }
+  ]
 }
