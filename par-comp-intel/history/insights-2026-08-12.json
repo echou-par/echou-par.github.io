@@ -2,7 +2,7 @@
   "date": "2026-08-12",
   "weekday": "Wednesday",
   "first_seen": "2026-08-12T04:24:30.213399+00:00",
-  "last_updated": "2026-08-12T10:36:14.359758+00:00",
+  "last_updated": "2026-08-12T11:52:59.691624+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -88,7 +88,7 @@
       "first_detected": "2026-08-12T04:24:30.213399+00:00"
     },
     {
-      "text": "NCR Voyix shows concentrated financial/market activity \u2014 13 tracked financial/market items this cycle. Latest: \"First Trust Advisors LP Buys New Shares in NCR Voyix Corporation $VYX - MarketBeat\"",
+      "text": "NCR Voyix shows concentrated financial/market activity \u2014 12 tracked financial/market items this cycle. Latest: \"First Trust Advisors LP Buys New Shares in NCR Voyix Corporation $VYX - MarketBeat\"",
       "sources": [
         {
           "title": "First Trust Advisors LP Buys New Shares in NCR Voyix Corporation $VYX - MarketBeat",
@@ -123,7 +123,7 @@
           "source": "Google News"
         },
         {
-          "title": "Why Shift4 (FOUR) Stock Is Trading Lower Today - Yahoo Finance",
+          "title": "Why Shift4 (FOUR) Stock Is Trading Lower Today - finance.yahoo.com",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVTFoaWxkeUd3YVIwRGlZM2VjWm8wUTM5anRwbXFKcExMUEhGN3lIcUJjVGhzV3FUTUdNNHRJdnlCRnRuckZPSkRWYkhSQUhwMlhKeWVWd3Jza0o0UElISjdFWUhVWjVtZUEzVkd0b05scnVpYzZKZERYRE5YSTJSY1hXNVBLWG54elhZVTd0SzFBTEZEOThWQzRR?oc=5",
           "source": "Google News"
         }
@@ -248,8 +248,36 @@
   ],
   "most_mentioned": [
     {
-      "company": "Uber Eats",
-      "count": 1
+      "company": "DoorDash",
+      "count": 17
+    },
+    {
+      "company": "Global Payments",
+      "count": 16
+    },
+    {
+      "company": "TouchBistro",
+      "count": 16
+    },
+    {
+      "company": "Sparkfly",
+      "count": 16
+    },
+    {
+      "company": "Shift4",
+      "count": 15
+    },
+    {
+      "company": "Fiserv",
+      "count": 15
+    },
+    {
+      "company": "Lightspeed",
+      "count": 15
+    },
+    {
+      "company": "Paytronix",
+      "count": 15
     }
   ]
 }
