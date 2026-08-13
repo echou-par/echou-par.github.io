@@ -2,7 +2,7 @@
   "date": "2026-08-13",
   "weekday": "Thursday",
   "first_seen": "2026-08-13T05:18:58.378307+00:00",
-  "last_updated": "2026-08-13T11:22:08.999204+00:00",
+  "last_updated": "2026-08-13T12:25:28.295034+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -88,10 +88,10 @@
       "first_detected": "2026-08-13T05:18:58.378307+00:00"
     },
     {
-      "text": "NCR Voyix shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"NCR Voyix Corporation (VYX) Stock Forecasts - finance.yahoo.com\"",
+      "text": "NCR Voyix shows concentrated financial/market activity \u2014 12 tracked financial/market items this cycle. Latest: \"NCR Voyix Corporation (VYX) Stock Forecasts - Yahoo Finance\"",
       "sources": [
         {
-          "title": "NCR Voyix Corporation (VYX) Stock Forecasts - finance.yahoo.com",
+          "title": "NCR Voyix Corporation (VYX) Stock Forecasts - Yahoo Finance",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPS2NIWHVINXFmdkJfbVpDMlFzcGYzQUhEb2MzMzJvOC1uYnF5elY5eDMtVUl5RUtNV1JJbmRER0JnTlh1MHM3d2poZGR2WlZzN2pNWk9JdDNSZWFhQzRrYU93QXhRTzJ0SHlfcUpwdl8zQ2dHTGNFSGhIUnY0UEVUUUZhUTJ3Zm9SN2tnak5ZOA?oc=5",
           "source": "Google News"
         },
@@ -110,7 +110,7 @@
       "first_detected": "2026-08-13T05:18:58.378307+00:00"
     },
     {
-      "text": "PAR shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"PAR Technology Corporation $PAR Shares Sold by Bank of New York Mellon Corp - MarketBeat\"",
+      "text": "PAR shows concentrated financial/market activity \u2014 12 tracked financial/market items this cycle. Latest: \"PAR Technology Corporation $PAR Shares Sold by Bank of New York Mellon Corp - MarketBeat\"",
       "sources": [
         {
           "title": "PAR Technology Corporation $PAR Shares Sold by Bank of New York Mellon Corp - MarketBeat",
@@ -123,7 +123,7 @@
           "source": "Google News"
         },
         {
-          "title": "PAR Technology Q2 Earnings Call Highlights - finance.yahoo.com",
+          "title": "PAR Technology Q2 Earnings Call Highlights - Yahoo Finance",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVFdXRXdnVHpnZXkxR1ViWXVhRzZaa1lYZzdtUzFBa1ZHS2J3eExEOGdkQXlSY0E3NWhsTXNaQ2hfVVdVWUlxSDN2aWZBa3F1eVdQTFctZnhSZnU5bDNyY3JRU0M4Nl9pTGdOdFRINmxSZWVoSUtwTTdKRXhrY3pZRDY4Y3ZweEh0dEtURDE2QTNfdEJhaHRHX0lEbko?oc=5",
           "source": "Google News"
         }
@@ -146,10 +146,6 @@
   ],
   "most_mentioned": [
     {
-      "company": "Global Payments",
-      "count": 16
-    },
-    {
       "company": "DoorDash",
       "count": 16
     },
@@ -166,15 +162,19 @@
       "count": 15
     },
     {
-      "company": "Toast",
-      "count": 15
-    },
-    {
       "company": "Fiserv",
       "count": 15
     },
     {
-      "company": "Paytronix",
+      "company": "Toast",
+      "count": 15
+    },
+    {
+      "company": "Global Payments",
+      "count": 15
+    },
+    {
+      "company": "Lightspeed",
       "count": 15
     }
   ]
