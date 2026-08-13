@@ -2,7 +2,7 @@
   "date": "2026-08-13",
   "weekday": "Thursday",
   "first_seen": "2026-08-13T05:18:58.378307+00:00",
-  "last_updated": "2026-08-13T13:59:47.267833+00:00",
+  "last_updated": "2026-08-13T14:34:22.741388+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-08-13T05:18:58.378307+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -88,7 +88,7 @@
       "first_detected": "2026-08-13T05:18:58.378307+00:00"
     },
     {
-      "text": "NCR Voyix shows concentrated financial/market activity \u2014 13 tracked financial/market items this cycle. Latest: \"NCR Voyix Corporation (VYX) Stock Forecasts - Yahoo Finance\"",
+      "text": "NCR Voyix shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"NCR Voyix Corporation (VYX) Stock Forecasts - Yahoo Finance\"",
       "sources": [
         {
           "title": "NCR Voyix Corporation (VYX) Stock Forecasts - Yahoo Finance",
@@ -96,7 +96,7 @@
           "source": "Google News"
         },
         {
-          "title": "NCR Voyix Corp (VYX) CEO James G. Kelly moves 113,753 shares into family gift trust - stocktitan.net",
+          "title": "NCR Voyix Corp (VYX) CEO James G. Kelly moves 113,753 shares into family gift trust - Stock Titan",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRzBXQ1hPSTZKdWhxX3p3OTdIUFg0aDNPSDRmMTJLdTZSdjBlQXg1c3FYQTFxUEtCMzJUNmZwMmUtdjJtMVdRR1A5b1EwYmgyR2RhSkZVN05fb25uOVUxZGZLMUxNN2pyNXcyOHBrbkhuMDd6Z1pHLXRhYWN5cW5ZSk5tNlJWMmJoSkFvaThXWEpiZWYzd1RWcU9mY1lnUmhJSWdHUmdrOXZtdzQ?oc=5",
           "source": "Google News"
         },
@@ -144,7 +144,7 @@
       "first_detected": "2026-08-13T06:58:31.145072+00:00"
     },
     {
-      "text": "Shift4 (FOUR) stock gained 15.0% over the past week \u2014 material weekly move relative to broader cohort.",
+      "text": "Shift4 (FOUR) stock gained 12.8% over the past week \u2014 material weekly move relative to broader cohort.",
       "sources": [
         {
           "title": "Shift4 Payments (FOUR) Q2 2026 Earnings Call Transcript - The Globe and Mail",
@@ -159,40 +159,106 @@
       ],
       "company": "Shift4",
       "first_detected": "2026-08-13T13:59:47.267833+00:00"
+    },
+    {
+      "text": "Cross-competitor event: SpotOn, Toast appeared together in coverage \u2014 \"SpotOn vs Toast Comparison\"",
+      "sources": [
+        {
+          "title": "SpotOn vs Toast Comparison",
+          "url": "https://www.spoton.com/blog/real-users-prefer-spoton-vs-toast-competitors/",
+          "source": "SpotOn blog"
+        }
+      ],
+      "first_detected": "2026-08-13T14:34:22.741388+00:00"
+    },
+    {
+      "text": "Cross-competitor event: SpotOn, Square appeared together in coverage \u2014 \"SpotOn vs Square POS Comparison\"",
+      "sources": [
+        {
+          "title": "SpotOn vs Square POS Comparison",
+          "url": "https://www.spoton.com/blog/small-businesses-prefer-spoton-vs-square-competitors/",
+          "source": "SpotOn blog"
+        }
+      ],
+      "first_detected": "2026-08-13T14:34:22.741388+00:00"
+    },
+    {
+      "text": "Deliverect shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Deliverect and SoundHound AI partner to automate restaurant voice orders - Verdict Food Service\"",
+      "sources": [
+        {
+          "title": "Deliverect and SoundHound AI partner to automate restaurant voice orders - Verdict Food Service",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYjFQa1NlNkdwemFFNVJTYUlEV3h4THlBbHlDRThma3hNU0p2UGhGSDlhT2puQ1JYUVpuNm5aWG9lTjE5T1RFQjl2YzJoVXB6Wk1LZkZITWNLNlYyZW1mLWpoSTRWRHo5V3Y1elJXVFFvN280SkVoVm1UTFFCUU1ZRmZodzdPYk1FbktPalY3aVE5UTRZNHd4RjBSb1pIWmNzUGlicTdGQ3NQLTdLN3ZjNEU2OA?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Deliverect and SoundHound AI Partner to Turn Voice Into a Fully Automated Ordering Channel for Restaurants - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPNFRiTlB5dXg4WDN6RTAwdVpDQ1Rpc1k2Wl9TR09HTnJKRnBrQk15OFdFUVppdVVfUUJiZTYxa3BuZS00cUVLMzVqdXNTQlV0Tkk1Yi1IalNQZjAyYlUyNGhhd2JadElMZnA0M1hfWmVTOEcza3g5VS10S2xjWm5xSVFCOTdmcG9vX3FkU1RWTk15UGJneU5fQ1daMG5vLXNybWJZekFtMm5PRHBObDI0YTd4NUdqWlJHOG5VLXR5ZS10UXlHSG9JZzNPMEhzREZfMl9NVjhySldZWmtZeVFaa0pVSGZHa1BXWHdJbmcyV1h1eGts?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Deliverect Partners with 5&5 to Help Restaurant Brands Scale Their Digital Ordering Ecosystem - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOcjh2eWV1SGthOWRwUTdDUVFrai1BX0s5bmt2dFBuWjJXUVdPLUF0aF9JSnNpWklseHloNlI4WGNYQy1Ubl9taWc2LVFFSDdVU1Z4OU95eWk4YncwTWFxaHlNTUpMcTFnVHBRVGh2ZnAtZzd4SjNSSHFpQVAzSHREcl9xLXJmSDNBUUlhejJPREpUYWc0NGd3QVk3YjRsQ1ZtYTd1SlBuNUw2TkMyd3BRUDFQUTRUYVJwUHdOVkRkU2hELXFxZGV6S3dwek9YZEl5emtBZmQ4SE5KSVVNdnB6aXJn?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Deliverect",
+      "first_detected": "2026-08-13T14:34:22.741388+00:00"
+    },
+    {
+      "text": "Toast shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Arkfeld Wealth Strategies L.L.C. Raises Stock Holdings in Toast, Inc. $TOST - MarketBeat\"",
+      "sources": [
+        {
+          "title": "Arkfeld Wealth Strategies L.L.C. Raises Stock Holdings in Toast, Inc. $TOST - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYVYtTVZGVHczVVlsR3JZYTctVXBnZVdjd2h0VEdxbzExVUhTUHVBbXctbVp0Q1B6dkNQclZMMndIcHp4b3Bvc2ZESlVKdU9uZ0lMYVZaUUJwQ3JsWG93eHhKUDk5Z3E0eXVxYTY3ZE9tR28xSENoV0kzaVRjSnBFN3ZiTGU4REMwa0d5eVgzSVdVLTY3TjJ1Ul9CMWpSbS1mdl94VE9mQ29uMERkMXhHU3FSV3d1bEhRbXBseVhGelA3bDhuVGREQ0l3?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Insider Selling: Toast (NYSE:TOST) CFO Sells 5,761 Shares of Stock - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOY2VFWmluX3lYY3RrN3EwNUxIMGIzV0xOTFhVUzBOY0xWU3R0SFNQTTZIak5WYmhSZkpDR1lnRVdyOXgyUk95MS1PVlB1aGFSSEZ0SWh1ZFlPQTcyTS0za3dhNnVIYzBZN0ZKVE1YVHNFekg2TDhCM0ljT1lqanE0NGQ4X1BBbmxkUTlIR1FYZjFyYzVacGUxcDNfeVQ3blJTUy1SVll2eHdobnh2V3VGWXhqRWQ4QQ?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Toast (NYSE:TOST) CFO Elena Gomez Sells 2,163 Shares of Stock - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRTVKVW04S2FRTXUwWXNPUkZaMG5xODdrSGpuZVBlcGxnSTltMWgzSy1ZMVlIZ0lSS3pDakdEaUVqV2NVTGphRFBPNGtncWhwUHBNakNScVM2djRWbW45Q2lyVm12YU95YkpLYi1uVEhMbWd1R21taE1zTkRTMTl6Q2F4dS1SWlVqQmsteXRXeF9zUzNVY2E1NFljc0JqYTV1ZEVZMS1Ma1IzNnBVVTE0SQ?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Toast",
+      "first_detected": "2026-08-13T14:34:22.741388+00:00"
     }
   ],
   "most_mentioned": [
     {
+      "company": "Deliverect",
+      "count": 47
+    },
+    {
+      "company": "Lightspeed",
+      "count": 35
+    },
+    {
+      "company": "SpotOn",
+      "count": 33
+    },
+    {
       "company": "DoorDash",
-      "count": 16
+      "count": 26
     },
     {
       "company": "TouchBistro",
-      "count": 16
+      "count": 26
     },
     {
       "company": "Sparkfly",
-      "count": 16
+      "count": 26
     },
     {
       "company": "Shift4",
-      "count": 15
-    },
-    {
-      "company": "Toast",
-      "count": 15
-    },
-    {
-      "company": "Global Payments",
-      "count": 15
-    },
-    {
-      "company": "PAR",
-      "count": 15
+      "count": 25
     },
     {
       "company": "Fiserv",
-      "count": 15
+      "count": 25
     }
   ]
 }
