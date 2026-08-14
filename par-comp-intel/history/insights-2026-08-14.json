@@ -2,7 +2,7 @@
   "date": "2026-08-14",
   "weekday": "Friday",
   "first_seen": "2026-08-14T05:16:12.365096+00:00",
-  "last_updated": "2026-08-14T05:16:12.365096+00:00",
+  "last_updated": "2026-08-14T06:55:13.518241+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -93,7 +93,7 @@
       "first_detected": "2026-08-14T05:16:12.365096+00:00"
     },
     {
-      "text": "PAR shows concentrated financial/market activity \u2014 12 tracked financial/market items this cycle. Latest: \"Narinder Singh Acquires 11,518 Shares of PAR Technology (NYSE:PAR) Stock - MarketBeat\"",
+      "text": "PAR shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Narinder Singh Acquires 11,518 Shares of PAR Technology (NYSE:PAR) Stock - MarketBeat\"",
       "sources": [
         {
           "title": "Narinder Singh Acquires 11,518 Shares of PAR Technology (NYSE:PAR) Stock - MarketBeat",
@@ -135,13 +135,20 @@
       ],
       "company": "Toast",
       "first_detected": "2026-08-14T05:16:12.365096+00:00"
+    },
+    {
+      "text": "Cross-competitor event: Paytronix, Square appeared together in coverage \u2014 \"Tavern in the Square with Paytronix Spikes Insider Loyalty Program Registrations by 86% - GlobeNewswire\"",
+      "sources": [
+        {
+          "title": "Tavern in the Square with Paytronix Spikes Insider Loyalty Program Registrations by 86% - GlobeNewswire",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOOXF5TEtON1o4SGpTcW12OEJ4MEt0d3NZMXlCSGJ0LUdEb3UxbjV0c3JnUDl3WERiMk1YbXFNLUxUSW41MkRxenJLUzhKQXBXV1FwemFUUnJQUDF4aVZ2MnFYQ1cyWERjMy1GenU5ZWIxODl4Mjd5N0hQMGE4TlVhVjRfLXplV3oxNzlzTEo4Zy1md2V0d1MwWlhnQVVqNlFpZkl5TWJXVGlOb2lOaV9FbXdXTUZCNTU2QjJWbDREWGRrSDFtWFlKaWhEcjg0eV9JZzB5NzBwTVctMnA3NU1DS3Y4QUpOWnptVnZXRi1tQQ?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "first_detected": "2026-08-14T06:55:13.518241+00:00"
     }
   ],
   "most_mentioned": [
-    {
-      "company": "Toast",
-      "count": 16
-    },
     {
       "company": "Global Payments",
       "count": 16
@@ -168,6 +175,10 @@
     },
     {
       "company": "Lightspeed",
+      "count": 15
+    },
+    {
+      "company": "Paytronix",
       "count": 15
     }
   ]
