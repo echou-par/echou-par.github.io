@@ -1,301 +1,159 @@
 {
-  "updated": "2026-08-14T20:36:14.464325+00:00",
+  "updated": "2026-08-14T21:30:36.596868+00:00",
   "companies": {
-    "Shift4": [
+    "PAR": [
       {
-        "headline": "Shift4 Payments (NYSE:FOUR) Trading Down 4.7% - What's Next? - MarketBeat",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPY2JNcEszMlZrNHh5TExVMkRLUE1nLUFWbGRMS0RVM3lDQnJsVUFpMW9CWVRPc2k5bzdIc1REWlYxV3FESkxQUDNXYWZXdFZUNU5ZQk9Dd0FKeVdpaVZNSVBMVnQ2U1NVR19QMWFvMGN4OXVNWXN4QTFBYlRKbk93VXkzanZYYTJDMjZHNG5NM1c1NG84UUhtNkNnSnBkUG0yR083VTVXbjM?oc=5",
-        "date": "Fri, 14 Aug 2026 17:47:27 GMT",
+        "headline": "PAR TECHNOLOGY CORP SEC Filing (Aug 14, 2026) - Stock Titan",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTXd3RlFEajhfclBsb0R2SFJ4SVNJN2hfNlRJTktscTh5dXNFYmVZblNfS0R5V0MweVlFZnc5VzJ5cFdaZDVRWGJFbDVma2dCd2ZnLW9iT1VLbTJTVzJISlhDakd1VUNkZTE1cGh3ZTBmMTJqUU9Xb3FBVVU5ODVPVlFpMDVBNElCUUNQWGM1OEpENjZFaGtWbG8wUQ?oc=5",
+        "date": "Fri, 14 Aug 2026 20:39:11 GMT",
         "source": "Google News",
-        "company": "Shift4",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Is Shift4 (FOUR) Balancing Growth and Dilution as Travel Headwinds Hit Its 2026 Outlook? - simplywall.st",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQM3o3bEF1T2sxT1B5d1RsT29zOVk3SHBReGFxZ3dzaHR5QkNtSlJ4UVJ2MFY2ZHVaVkc1V25TVXpEWVV1WU95djRpNDdCcUJsbkVJS1dNQlF0ZHd2WjhIMzNHWEdQTUVQRUtJT2lvX1BYWjBfT3VqY3QyNTNkNWY2cHlweXlyWXg2Z1pYRFFSQUxidGd0WGtKV1VOWnBRdWc4dklqZzF5RmRvQW9TX2FaWW16OV9ZMzA1dGpOdEE5WjBoVkNuRHNXZ0dUQm9aRV9HbzlxcjRYM0M2Szl1Yzdn0gHkAUFVX3lxTE1ZSE05OGxYNDlyZ2xBdHJZbFdWeVA3S3dEcWtOVGdCbldFN2RYaHFTckJLeUhiTEhlY01uZkktUHhJZ1dDNnhXR2JScS1fSV80X21TZVZMNUZrUThnLXNJODVfSTVyeFpCa0w1MjF1SnZxaDdpZG5Xa2RwX2U3dkdxalpPUmpITDNxUUp2cUUwS0RZVl9FTWdvTE5nNFpKYm9CWHkzV194bXpMLTZZdWlrSzVIbkI4cl8xSWpsTWhQdkZzOG5aczJ4Tlo3RmdNWXpQT3pwcjBTLTczMHRzTW9ZYkRYcg?oc=5",
-        "date": "Thu, 13 Aug 2026 21:39:00 GMT",
-        "source": "Google News",
-        "company": "Shift4",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Shift4 Payments (NYSE:FOUR) Trading Up 8.5% - Time to Buy? - MarketBeat",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYWRPS191RGFNem9jWjBaTDB4MmhGRVN1MUloTWxlQ01QRnRUdGV3ai01bnd5Yjk1ZGpGRW90TEZDb0htM0t2NE9XcFNIY0RVd1JTNUpwaTF2em1TMnp1Q2NrMURETk8za0dSbE81Snl5M01QckxPNGRfd3JaYUNkMWMtdE9faE5HWi0xaE1pRWNQd1lsMzRnVDNXNGRwLVZWVUZ2Wk1RNA?oc=5",
-        "date": "Thu, 13 Aug 2026 17:24:40 GMT",
-        "source": "Google News",
-        "company": "Shift4",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Middle East conflict sullies otherwise sunny Shift4 earnings report - WFMZ.com",
-        "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQajBhdWtja2dkekhKaDNrMXBQSGhLQkZrOXRDR0NQeGdDRVhRdUNNd3V3dEhMTnY2SGtPay1BcXdUTEprRmpIcC1vQ3lqQUg5UFFINXF3b0hJakFVUWhQYURjQlFmaXJwZDlhbXl6RUg3WEVCUDBpNHh2MHNLWHA3aHB1dTc5MUc5WG4yT09oTk9CbEFyX2xSZnV3X2MxRk5iQW4yZnZhRTFZaHQ1YmlTT0dtVkRPNFNPOE1FTU9JQW9KRFZyYjI1NGZ6aks5WHZTNXB6UktfeV9Gekw1QzVMZ0FqaTRjbkg5NDBsdjlRbklnak92WnJQSTFUdHg0U3daMHdCdXNndWRISVU4OTNfbmxmeGRqNmw2ZWNRa3NqU1VEYmFm?oc=5",
-        "date": "Thu, 13 Aug 2026 15:15:00 GMT",
-        "source": "Google News",
-        "company": "Shift4",
+        "company": "PAR",
         "type": "public",
         "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
       },
       {
-        "headline": "Shift4 Payments Jumps 5.7% After DA Davidson Maintains Buy - AlphaStreet",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZEEtYW1vS0FGenVKTjQ1R1dBV1AwQVYxbFVzam9xbjczR0F5WUZQd0tQb096cVdEZDdQUXlDVnNMNXhiOTF5RDF3a2wxdDdGV0oxYXN0dW1Vd0NWS25nQzQ3VktWSmtUQXNZVTVEZGhJSERPVVhmNG5XNkhCWVFwWjc2TV9XblpHSjJEWlhzOGZ1ZzZTNVHSAZYBQVVfeXFMTWRBLWFtb0tBRnp1Sk40NUdXQVdQMEFWMWxVc2pvcW43M0dBeVlGUHdLUG9PenFXRGQ3UFF5Q1ZzTDV4YjkxeUQxd2tsMXQ3RldKMWFzdHVtVXdDVktuZ0M0N1ZLVkprVEFzWVU1RGRoSUhET1VYZjRuVzZIQllRcFo3Nk1fV25aR0oyRFpYczhmdWc2UzVR?oc=5",
-        "date": "Thu, 13 Aug 2026 15:00:11 GMT",
+        "headline": "Newtyn Management (PAR) discloses 5.5% beneficial stake in Par Technology - Stock Titan",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZV8xT2REb3NNMHNtQXY3TUJuU0RDUkF4YThJQ3c1Mjg2bzhpQ054MHRJTUREQW4yU29OOVh4akwzYVNoLUhsTU1Sb0FiQm9lSWFnaDRVZi1ybmNENGZVSDdCUC01Nzg3bVdVdGZTSGpWaXluSUc3WDVfUExWN3dMSEdKajByLU9aSF8ybmtBZ1pUbnFtdDloelkxaU9oUFVheVRLQU5BQWV1Z1JhM2NUT0EwQVpzNmRrbVhMVWIxdWlORFQ2MTl2Z2l3?oc=5",
+        "date": "Fri, 14 Aug 2026 20:22:24 GMT",
         "source": "Google News",
-        "company": "Shift4",
+        "company": "PAR",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Narinder Singh Acquires 11,518 Shares of PAR Technology (NYSE:PAR) Stock - MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPS2Y0Vy1OdklaVjNzV3dWaUNyQUN2YXl0dVlTMkNyYWVseDNkOFZRWmdnSmFIVnI0U1c4WmVrU1lJRTJKbEdLVFlmM0ZlTkFnTnpSYWgxM2FGNTdvbGdEZjJnMEdKNnhIeTFqWkQ0azZ6NlozRTUxQlpRbTZmU2dIYWdRU1NGckV2Z0ZhVTdYYmI2MC0wNlVXdzBENGlqLWlsNm1rZU5VVTk3RHdzNFhHMXRCbU02dlVNOHVVS2M3MA?oc=5",
+        "date": "Thu, 13 Aug 2026 21:23:55 GMT",
+        "source": "Google News",
+        "company": "PAR",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "PAR Technology (PAR) director acquires stock in open-market trade at $17.36 - Stock Titan",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYmc4N2xzNDZZZUdZRGZGOGhDNmNON05GR0swMTRhb18tbGlMSDVBRm1Nd1oyUDNYS0tsdmpTY0lwVkl3cE1SSVAtZm1RNkF2dWgybFRORnR0Z19pSlhTNjNXUXRVV2N0WkQydzNhci1fbWg0WUY4YUdPTmM5dU0xaTVndjJaV3pMM3ZlWDJMLWhUNmtEV2xPVzVIM3FKcy1XcURvbWhzejBfdWV3emJBazhn?oc=5",
+        "date": "Thu, 13 Aug 2026 20:43:47 GMT",
+        "source": "Google News",
+        "company": "PAR",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "PAR Technology Corporation $PAR Shares Sold by Bank of New York Mellon Corp - MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNGZJOWtRUFd5anFpc2lFUF9JUlRLb2pmZmdMcW9uUzNPeXF4M015X2RYV2Z6b25LbWJVT1B6Q2VaWE56MEFUMlZRQU1lZjZ4YWdVMUFsOUpqU2FDb1VUeFVXSUtxc3RjeFFZb0lucDhvSUJrOGhHaHpzeE1kel9vMU1QaTNUdmdiTjl1dm11RndpX3BrcUxwcmNGbFdzQmpIQVdiU08xYmZ5SUxFQ05yRXZvcEFndXFJcGM0d2F0dms0eGhQeVJCczdtQVBzaU1L?oc=5",
+        "date": "Wed, 12 Aug 2026 07:11:37 GMT",
+        "source": "Google News",
+        "company": "PAR",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Dimensional Fund Advisors LP Decreases Stock Holdings in PAR Technology Corporation $PAR - MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPNDBxOFNUOEZtYktOUjVEcUZiNVduVzhRclJGMC1jb1hOWmE2LUpoUjkteDIxUy1Ra1RaWlZzRllEYUwwZU0zRTlQbnQzM19ZaTBhczNjNVpvTEVGcFdBV3NfWmpsNnpYeUF2cFhPbGVxOUVSeFhrWFM3OTJocXJpQkQ2WnlCd2Z4d2FNSndWMUEwRHVSX3lCSWxxenBJUlo4Vmx6V3M3cXhURGg0LUtCOHZwMkJlVDZCUFVobnBFMXZIVnFHc3hsM3Z1SUoxcEh0dEp0WWlLNFRndU5jNGxjYnZn?oc=5",
+        "date": "Mon, 10 Aug 2026 07:48:27 GMT",
+        "source": "Google News",
+        "company": "PAR",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "PAR Technology Corporation (NYSE:PAR) Just Reported, And Analysts Assigned A US$25.31 Price Target - simplywall.st",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPLWtXUVFWR1JKYVgwNHJtZ21MbldSZ3VrQ3dwRkJpbU5HVS16d0JMdHdZN0l2bFFlS2oxZkJpcndmR1ktbXdSWk55WXN2V2VlQldmaFFRSmJlNk1xTlRLeTBYWDY2akFEX2hNUHZ3N2VUaENBc0wzZFFRRlJWVU1WemkzMUhSN19zQ3l4blY3ZWYzQU1OR3pnUnJkYjkwRjgwVlFkZUZMQU5WSDNjTkZUQ0hXM29qY0VKTmV2bXV6dXBCVXVCSlB2SmVR0gHPAUFVX3lxTE1mejJQcTV4TGtkejF3V1pqNHczQnhKTmgxZTlPUExwdVM2eVR3dzBNaGg1MmY5d2dMR01tQndoY1U3eFRfVXlkQU40Tm5ITmd5QU40YWpXenhnN1JTMG44T2ZJZ1FDb0JIdnc5dDBGRnlUMHFPREE3RGZ0T1VqZ2lfQWVqcnhMZ1U5QWdQeHlxRklvd3dJX1JxdHlsWXdMUkJET0lGVjZzZ2VOa2t6X1hQTWNxWTlpYUxPTlBpQzYxVTA0empYZG1qaFVfRF8ybw?oc=5",
+        "date": "Sun, 09 Aug 2026 12:53:20 GMT",
+        "source": "Google News",
+        "company": "PAR",
         "type": "public",
         "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       },
       {
-        "headline": "Shift4 Payments (FOUR) Q2 2026 Earnings Call Transcript - The Globe and Mail",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOHMtX3dOV0liWUkzWkxjNjNqSTJCZm50bG5La0V3VE9CcndTZVhLbkxiTENpbl9EM3V5V0padmZfQmx3RFpCWjZEdG91ZVBLTlhrbVdFQS11WnQ1cHlZM3ZPUWVnY2pLM1NPWmxMZm9DZnNKWVFJT3BRbW5FZ2g5OTNSMEIxQUc3VlRhTHd5amVpbDctb19Dc2MyTUJ2OHF6Uk5Ec1lLSktqLUQ5OHJGWDhtMlZyYmpMU0M4WHNSOG1PTE9aS3VUMnJSMG5hVG0xODdUaUZ3?oc=5",
-        "date": "Thu, 13 Aug 2026 13:03:26 GMT",
+        "headline": "PAR Technology Q2 Earnings Call Highlights - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVFdXRXdnVHpnZXkxR1ViWXVhRzZaa1lYZzdtUzFBa1ZHS2J3eExEOGdkQXlSY0E3NWhsTXNaQ2hfVVdVWUlxSDN2aWZBa3F1eVdQTFctZnhSZnU5bDNyY3JRU0M4Nl9pTGdOdFRINmxSZWVoSUtwTTdKRXhrY3pZRDY4Y3ZweEh0dEtURDE2QTNfdEJhaHRHX0lEbko?oc=5",
+        "date": "Sun, 09 Aug 2026 00:03:00 GMT",
         "source": "Google News",
-        "company": "Shift4",
+        "company": "PAR",
         "type": "public",
         "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
       },
       {
-        "headline": "Shift4\u2019s Q2 Earnings Call: Our Top 5 Analyst Questions - StockStory",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZ1Z1VDh2QjZ1ODhRRjdTcUNfME1oNjZ2dW5iTldXSFZBQlo3blJpVVZkUlM4OFdlTEJScnhERmpKSE1rWUs0alA0UTJZclRSS08tVy1maW8zNDlpU3JvSjJObERsbG9PbFlJOFg5SmZzTklqOGJyeGd6b0hfbHp2TElfSlpCWXBRalVOUFpCNUdyTVNkNzZQOWh3UnRHZlRIWkVQTlNVNVhaUG1ZQjJzOEJxNVc?oc=5",
-        "date": "Thu, 13 Aug 2026 08:48:30 GMT",
+        "headline": "PAR Technology (PAR) Stock Jumps On EBITDA Progress As Losses Linger - simplywall.st",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNWF2YnpKRVA3cEdfcXc3WGhhRWFqNTI5WWxaejN4dHgzRl9hc2RIaENHaF9ELU9RZS0zaXBpUU1kTFNyd2xDdWdFNDNIZW5GNUJTVHJac0dYM1p2eTh5MU01MWgyQjdpUngxcEVELTVlbkYxYUVILTFCdEhRdTBmMFV5VnVZQlJRQWNMM3BkVnFFaXNrNUlWdGxKYWJ1M2Z0d0VvS0g3T1pna3ZTNXRmV3VMSlBkazBXSUF6ekoybkVfdXRyTW00Q9IBzgFBVV95cUxNeG1lQk96NjRrNlBlc05ZQVVrbW9RSll6ZG5IcU82WmxmZFVpX1gySmdVRzlPcGIzOUtlZHNKVV83VDVFOVp1ZnVIZlNFWXYyblJybGZ4TzVxNHFZSGVvZ0tMeEwtdW9FS2ZOdGNIbU5wM20zekZ0RDE2Ty1IMTdFbk5GUEhNRHpScHlWU0c1R1kxSF9IZGI1YkFaT2tieVpBWE9IOE56azhwaGU5WmZMTUdqamtSdVpUTFV6SUxOcXE0U1pYdWlMR0tQaUpKdw?oc=5",
+        "date": "Sat, 08 Aug 2026 06:40:13 GMT",
         "source": "Google News",
-        "company": "Shift4",
-        "type": "public",
-        "emoji": "\ud83d\udce2",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "New Orleans Saints announce roster moves - New Orleans Saints | NewOrleansSaints.com",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZTVNNkhjX21hR2lxZG5WQTdtRXE2WVNlQy1yM0xXQ2lDbW1QTGdUTFM1Mmw2MnVlOU05a2lULXQyNEc0YXE2Zk9PZ1E0OTZfajEwNkZGVzViSWhGTWJyNks4U2hXMEdIUEU5U0Z4Z2thZE5BYW83VHlpd1BaNU44QVNZVmVBQ3JSNXRLN2ZyenlveVhFNVo1OEwwN0dfbF9xb1ZxUw?oc=5",
-        "date": "Thu, 13 Aug 2026 01:31:04 GMT",
-        "source": "Google News",
-        "company": "Shift4",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Shift4 Payments (FOUR) Could Be 26% Undervalued On Cut Guidance - simplywall.st",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNTkNmSkFiQVMyNmV5ckpVczVwZkhNNjhzaTYzbGthTU1lYmU2VXdidVZWSy1WSnJBckt5YUtrZmRRZ2J3QTNwRnplODgxSnhxbWlGLTBMbGpZb2lsWHpTNHpTbHNsUHVOd3huRk9KcjRBREg5bjFvNG9oYVF3S01WYmRFVC1pNnVGVm1sbHRYVDllQ01mLXRuVXdtUkVPQ3pWVXMwcDhrNlJ0cm4yUmJ6VTc1a2dPbTZlOGN4TUtZSjAtdHdLcmFheFdkMXpCRXRHVUhGb1M4SFNIX09uamZj0gHkAUFVX3lxTE8zbkxKLVd6UUE1SVN2TktoVTN0VFB0UUlJZGpIRmd2dXBPZ01kNDVKczMtM1NCUHRtNEt3aGQwUDZvVGZncko1T290SjJVUGoyRU55THJzM21DZDJ2NE5hQTVfZ3I1ckhBbGxJU2tWMkVwSTN3SEFKQ3Fzb0pqUzlsMk8waS1BcjNEbVNXWmYwazJ4NVFFRDIxU05vZlppMnNHc2hwWlZKTnN1RW9tYkRIUEVUaW9SWDhCMHU2dTJacGRpS0NGeFVKOHYzd1hfSmdVZ1lKd0Zfd1dYQk1sTXJTc19wNg?oc=5",
-        "date": "Wed, 12 Aug 2026 15:39:52 GMT",
-        "source": "Google News",
-        "company": "Shift4",
+        "company": "PAR",
         "type": "public",
         "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
       },
       {
-        "headline": "Shift4 at 2026 SIG Annual Virtual Fintech Investor Conference: growth stays strong By Investing.com - Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOcFZtRmVDcWFJWHhaWUlycU1JNVRtN0pMNmdLUHExUV95THRHYXpkVXZZZW4tVkVNVHRfcDEtTVVoSzhtR2FsVGNubDNBMVN6OVppWlB2cmxDWXFaQVRtTktHQkFWbUJjRXhlazBqUEtqZ2pkRm9SdkVFRFpnYnhyRm5STFg5U1Y2YllkdFJibEZDM1IyLWhod010aTNOWENoNUlqVWJZMVBBSXFqUlhIdWdnaTc5RllkdDJ2N2FTaHZZendiVHN3M2Z0aU9JcldrWF8yU0p3NW1ZZGVsRlE?oc=5",
-        "date": "Wed, 12 Aug 2026 14:58:00 GMT",
+        "headline": "PAR Technology (NYSE:PAR) Delivers Strong Q2 CY2026 Numbers, Full-Year Outlook Exceeds Expectations - StockStory",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTEpKQjN6OEhlbWs3ajFnNy1vMHEwVXF5TklkXzczN2dDZld3OFhHRFJRZ3B2b1R5dm9xUnpPc0lIZlZRcVM0QVhfelJVcGFMRGFuOEN3eXhGM3laSTdsbXN5R3JYdHNKa3ZvaFJEY2hqbldHRDIxQzQ5NHE0ZEpGeDZIcTUxUmVsRDlFOE51WHdiT0lPYmdaZlhDUTNBZUdydmxXX2pNX0xNdVBnTnJhS2w3MjFmRnlrMEpscXl3aDBZX2xJRVBpVFFKMGtHUmlMSktLSHd5bkFISm9LaWhnLXRxTDJWdw?oc=5",
+        "date": "Thu, 06 Aug 2026 21:18:33 GMT",
         "source": "Google News",
-        "company": "Shift4",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Shift4 racked by Iran turmoil - Payments Dive",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9waXFjZmtCc3FveWdtbHJNMnNkdi1OZER0WGtIUHZreEo5OWF4Yndyd1NERHo1QUNidThsNUFUWlpUS25fVl9mYXNjaFRCRXZoUkxmWUxaQ3JoS3ZubENhem4tNmctUzRfMmY0UDZGSHVhQjJyR1NtQmZDOA?oc=5",
-        "date": "Tue, 11 Aug 2026 14:48:14 GMT",
-        "source": "Google News",
-        "company": "Shift4",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Shift4 Payments Stock Drops as Weak Full-Year Revenue Guidance Overshadows Q2 Earnings Beat - tikr.com",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRTFiMTUycUNpbTdwb3FsQ3RJVUZLLThTSlI0WUFHR0c4TXd2QzZra0U2YWdyLXJJR2xTQXdabS1RZHVJbkdJa1A4QjVFY1E2NnRQbERwVDlXNWNXZl9KZVhNV083N1hSSmY3TUNfbHdLdXdtLV9OeldIdXlBbzJrUG44ZHF6eXRwU2VaNA?oc=5",
-        "date": "Tue, 11 Aug 2026 11:59:38 GMT",
-        "source": "Google News",
-        "company": "Shift4",
+        "company": "PAR",
         "type": "public",
         "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
       },
       {
-        "headline": "Why Shift4 (FOUR) Stock Is Trading Lower Today - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVTFoaWxkeUd3YVIwRGlZM2VjWm8wUTM5anRwbXFKcExMUEhGN3lIcUJjVGhzV3FUTUdNNHRJdnlCRnRuckZPSkRWYkhSQUhwMlhKeWVWd3Jza0o0UElISjdFWUhVWjVtZUEzVkd0b05scnVpYzZKZERYRE5YSTJSY1hXNVBLWG54elhZVTd0SzFBTEZEOThWQzRR?oc=5",
-        "date": "Tue, 11 Aug 2026 02:29:00 GMT",
+        "headline": "PAR Technology: Q2 Earnings Snapshot - KHOU",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTnNmZko3WVJkNFBmV0JudWd4aDQzb0lhODkwYUdJQ2g3ZjhpeHl1Q3Q1NDYyamlnVmFENkpIUDFGVWN3WEdUUnJPNEJQV0tZRzBkODR2NGpCeFZPcktHYng0Vk5wM0RVbHA0REkxQ2VnWlo4dEZWYXVHRWpiNXRBX0lDalNVNHp1LWpsMThmTml1dWxLanRSOUlkUTlPQXMtS1hwd29OMTVoeVVDdWhnN25xa1A3OHlYd2tqSHg3d1pFbkRxOTBSN1dqMmRNUQ?oc=5",
+        "date": "Thu, 06 Aug 2026 20:42:00 GMT",
         "source": "Google News",
-        "company": "Shift4",
+        "company": "PAR",
         "type": "public",
         "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
       },
       {
-        "headline": "Shift4's Global Blues Create Another Strong Buying Opportunity - Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdi1VZ1gxTmtibWpwWFZEcmJObHBLOXdTTnhPZWZwLU02dUotaTlUY094NDB0Ym4xZVNBUkg1MzRwTmNuTlE1TUJlbEtZZXdveEZlTFVUNmc5Y00wR1EyMlQtSjhzUFo3MzFYRzdoUmwzVFg3dTBjcjBkY2dOdnhlZHhrRkpfY1ZNNGdtWnFYQTlta3hDMVA2N2h4ZzhZVlI3dVZGVHBBbUg5VEU?oc=5",
-        "date": "Mon, 10 Aug 2026 12:30:00 GMT",
+        "headline": "PAR Technology Corporation Announces Second Quarter 2026 Results - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbm5VNGdadk1MNFZFSjBtdEE5UWNkdVBCSlQ1cEl4bFFOSmIzYmJVV0NIakxYdERNRjFId0tTUFhCS3g1TklGZ3kwV015RE1sOUFDeGNUTHhBQmNiUU56NERHOERZYUw4clQ3aGs0Q2IxMHNqNmhpNmwxcDB3bEd5S2V2U205VWNqcUpTQTRtQWlYYWh1ckNjbXdiZmVzTzA4VzFtb1pRcE4tcU01?oc=5",
+        "date": "Thu, 06 Aug 2026 07:00:00 GMT",
         "source": "Google News",
-        "company": "Shift4",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Has Shift4 Payments (FOUR) Fallen Far Enough To Be A Bargain? - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYVpwSmZrbXFJcG9QSkZCakRHRkhyeUN0YVNSVmx0b3V1bS12TmpnTlAwMVF5M2Vrems1dU9VN0xoRkNvbGxvYWIxR0hoV0wyZ0w3aHQxbTJQNlFZQUlQWmRDZTI1ZkVSNUxoMkRKN0tyVktiWlkxSmhRRVhtbkdZeG1JcEh2VE5vTi1KRjhBcDNSaUtYTzRRM0F6czU?oc=5",
-        "date": "Sat, 08 Aug 2026 03:17:00 GMT",
-        "source": "Google News",
-        "company": "Shift4",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      }
-    ],
-    "NCR Voyix": [
-      {
-        "headline": "NCR Voyix downgraded to Hold due to slow produc... - Pluang",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeHFhWFpUd2o5NkU5Z0IxTVhWWHZBQzIwS0NsU2szV01UYUVMeDJvNGU5VWhCWFJyWFZUQm1HcWtCaWdTTlVpZEdseExNU1FJd21fSGNJMDE0OWZiVmM1ZFhKalRJZFRhS2Zzdmh4UmFlU1luMTdTeVdEUzRTTGRLMUFWVGlmOUpkMFBqaXBGWlk5UQ?oc=5",
-        "date": "Fri, 14 Aug 2026 14:56:56 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\u26a0\ufe0f",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "NCR Voyix: Employee Numbers, Potential AI Impact - Houston, We Have A Problem (NYSE:VYX) - Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaWJKTUlFN0ZGUnBhclVFay1QQ3Q5VDZPUXVrMUhzWVg5eUhKc1N5NDNUSDMxVlloX2xwVHFzQkMtcTBXR0NzbW1sdDdlZlFXUFI5dm9iWE93NzQwaTVaV2cyZ2JuQnJ4LUk4NWZ5M3VlNUVST3JIZzh6bDlrVTdKcEJaUE80R2xCOXdLbHhRWlpxMUNOWlVIN3BValdLaFRZSVZxclpvYXZncTUtSXRsVVZSYw?oc=5",
-        "date": "Fri, 14 Aug 2026 14:39:41 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Wall Street Analysts Believe NCR Voyix (VYX) Could Rally 52.65%: Here's is How to Trade - zacks.com",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZjJUSDhpaHp1aTU4dXlxUExnWlprM2drSFNlUTRpeFFDSDRrNUlQaGhxYkk4NHBJWFB0MHBsd1pjZ0ptalBiRWFUNHViRGNKYnZwbm9qc2xWbUc4OE5zUWxSNmtjYUx2WGR4NWowV0lfcmJ0RUdSVTBaemFIbVl6eGpJeE1tTnlYbTZROUduS0dXZUpzZFkwZ0w1d2NqeXhrMThtcVFTLTM5VENtRU5pTlNZeDFFeFZabHlzZ01hUQ?oc=5",
-        "date": "Fri, 14 Aug 2026 14:23:39 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Greenhouse entities report 17.5% NCR Voyix Corp (VYX) stake in Schedule 13G/A - Stock Titan",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUVNIbHVneDB0azAwTGhmT29tOWpZbHVRZmxGUTFRM0ktRGpxUFpRbjByYW5jYWNNN1g0aDJsdjJSWTg0U3lQVXJKaU9nczJISGZ6WnJEbWdxOGlwYnljemlVZ2szQmZqVm56SkU1Qy05SjNRWlNqSHlDLXVUMjF0UnNiNTVQaUxESC1XVlZjVGMxSS1JckZhTkd4dG5zUWoxVWR4Y2diZEE5eW1wY2FVUG1RV1RqSzhOVi1nOVQxRTExSzVGUXI0?oc=5",
-        "date": "Fri, 14 Aug 2026 13:01:39 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
+        "company": "PAR",
         "type": "public",
         "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
       },
       {
-        "headline": "Commerce Platform Deployments - Trend Hunter",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB1c3p2bjh1U2Y2eDcwdUJQdXdQNkthQm5NSGZGNXFlSDI1Z01hSC1SZjQ3aW5KYi1oekpWOXk5QUk2VmJFcmx5d2hZVFZLdmRXaDViTS16UlV5OU5F0gFcQVVfeXFMUHVzenZuOHVTZjZ4NzB1QlB1d1A2S2FCbk1IZkY1cWVIMjVnTWFILVJmNDdpbkpiLWh6SlY5eTlBSTZWYkVybHl3aFlUVkt2ZFdoNWJNLXpSVXk5TkU?oc=5",
-        "date": "Fri, 14 Aug 2026 08:54:57 GMT",
+        "headline": "PAR Technology (PAR) To Report Earnings Tomorrow: Here Is What To Expect - StockStory",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYlZOeWdZY01NUkVKVE83c0l4R1dMeU04N0wzaXhSbDZUcVIwdlFBOC1Fd1AyXzdqS2s5Y0NDVjd2OEFxUTJZcXJYS1E3eUVDVmhEQmJMX05YN3ZDZ3pISXlTS0tkRUl1eExPYlBsQ2QwY1U3T20wRFVYbGRraXRLNzU3STJpLUhKa1hzUHdObllBSW14M3BTOW9JeFJLaV9hM1VXX2QzNTFuenlNS19iTU05LTNDRDdYR2xwT2NUS3FRNm96Q3c?oc=5",
+        "date": "Wed, 05 Aug 2026 04:23:01 GMT",
         "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "NCR Voyix (VYX) Holds Guidance On Earnings As The Undervalued Case Stays Alive - simplywall.st",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNb2NMYmUtbTFDczYzVEFEUUlPaTlIVW1pTnZ0bnRJNXpybFgtZ29DRE5RSTFBMjIxQWo3bUNVVDBCb2VDMDZpRW1mLV91aHM3cEZPLS1vbkkzMjhubHU4di16TmNDU3UwUmk1b3F0VGI4TnJ1ay1NRUxnZDdLb2VYU2czclI5MkM3R3JkcFJJSVdCVmV6MmdNNDVncnRIOWU4dGFuUFJMVjJuSFdla0prdFg1cHdrbW1NR1ZncmVGU09RUdIBxwFBVV95cUxPclYzdm9Iek10SHBjQnhwLTU1LThWWGR6NDRINDM5TGF4MmtvaFNCYnFmOE5DR21pLWtiT3ltUHVYZmxITUlHS0VQRG90RGVrbzIyRmc2THVCdnh1T2dpR0dvMnc0OGxxUWk5SHI3aDhkTWZDUi0xdWlhOUNLZEE5NmlxRVgtZ3V3OGdORnJIM1gybGJKX1lRbWROMDRMTXFWaE55Y3B4cGcycXltVHhZbTRWU2V4Z29ndE1SMmpuM2NKV05md0Zr?oc=5",
-        "date": "Fri, 14 Aug 2026 06:50:31 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
+        "company": "PAR",
         "type": "public",
         "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
       },
       {
-        "headline": "AS Watson to Deploy NCR Voyix\u2019s Voyix Commerce Platform in Europe and Asia - citybiz",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVXE1aG5BOU15eTlTUVVTVnpfN0VSSXcwcEZtanVob0FZYkFRQjk2SUZkcGNkejNHVkZheHEyOE9tX2ZUdzhPeWR0TjFHZ0VKNUZZWUJ0VTJTa1ZZd0ZPT3pWZGZmS0sxTmxCR0ZYQV9KOWJkNmJqQ3NfN2tIby1QVVpraVl5cXhiY1BVWDJEU0kwVTZWS0FuQmVGZ3Zxd0hTWXFBM2JCLUJxNU5HdUZWcw?oc=5",
-        "date": "Thu, 13 Aug 2026 21:38:31 GMT",
+        "headline": "PAR Technology Corporation Revenue Breakdown \u2013 NYSE:PAR - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5PU18xSzhjclZMOG82QXROS1puR1pGbURUTktLZ0owczZfUnNRT0pqT2FVNExOZ0RRRXFuaHYta3VXYTB2U2N3QndBWC1ZV01xdmp5Wmc5cmZ6YkJUeWlUWFFUaDBRWldLcDM3ekNlSXlYMVU?oc=5",
+        "date": "Sat, 01 Aug 2026 06:34:59 GMT",
         "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "AS Watson Expands Partnership With NCR Voyix Through Global Voyix Commerce Platform Agreement - Business Wire",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQOE9uTVhxNmRZV2pBZldWM05kSFM5WEV0Q0FteVN4YUpBZGl5WDlVeXZ3QzdjR21pTzR0QUpxMVE2Qy1rZ0F6ekVRTWtjeUJXOFZNYzMyS3I0ODJvVVNiOTFzN09fRU5xcWlVeElmNC10MVJRSTh4SlJEcjFZUTJ1NGNMQ2RVa05jSU9RRkpHLXo2OXREd0F6OUlIX0I2R2dNODdkM0lPVHV2Q0JXc0c3enZ1cjZCV0ctWUgyQ1pKdXhKMkk1dDJreUNOM3ZiRnZpZUdQQWFkT2xTdTRFRlFzUk1hX1k?oc=5",
-        "date": "Thu, 13 Aug 2026 21:11:00 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "NCR Voyix Corp (VYX) CEO James G. Kelly moves 113,753 shares into family gift trust - Stock Titan",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRzBXQ1hPSTZKdWhxX3p3OTdIUFg0aDNPSDRmMTJLdTZSdjBlQXg1c3FYQTFxUEtCMzJUNmZwMmUtdjJtMVdRR1A5b1EwYmgyR2RhSkZVN05fb25uOVUxZGZLMUxNN2pyNXcyOHBrbkhuMDd6Z1pHLXRhYWN5cW5ZSk5tNlJWMmJoSkFvaThXWEpiZWYzd1RWcU9mY1lnUmhJSWdHUmdrOXZtdzQ?oc=5",
-        "date": "Wed, 12 Aug 2026 20:27:50 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "First Trust Advisors LP Buys New Shares in NCR Voyix Corporation $VYX - MarketBeat",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQ0JUQmc4elRrTWtYak10aU8wSmFCX2Z3dV9NLWNUbXNpUzZwTjh5VXo2ODhoaUF3LVF1eUdYSVZXMUNzTDJkbEt2TjFCSG00anNDOF9RMjFrN3VTbmNtNWZqU3E1S0xGbWFPcjliLUFzWE9tODQ3QUY4cE5sVndOVDRMUUtRSVhROU5mMEZpU0NlRndBZ1BjRXJvLTJRY3VPLXpXMDNzZlkzX2hEWXlRT285NlhrTk1KdWVXZDZUZWh5djhiT0VXRw?oc=5",
-        "date": "Tue, 11 Aug 2026 07:32:59 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "NCR Voyix (VYX) EVP Nicholas Mackay reports initial stock and RSU positions - Stock Titan",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNWN0NVJLVjRMYngxVk5GdVhfUEFvM2tYTDZNWVl5cWwzby0tbWRWNHc1QTJzN3ZhOFNfMFNPWDBGSHp0X2hEUEdqV2I2MHlpdnJlOC1mbWF4TEJ5ZUpiZW10Q2NlWFFwckEyYkVMYWQ4NWZMbFJCYmcyblE5c2ZjNzFRcTVRdkhuYjZFSUZrYnN6RlJFOUpoTFZmTTJQWjBVVTNEMzlaWFdfQ3ZCSnVDUVpHWmdzeExSM04wSmtwVmNvZw?oc=5",
-        "date": "Mon, 10 Aug 2026 20:03:28 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "How Investors May Respond To NCR Voyix (VYX) Holding 2026 Guidance Amid Soft Q2 And Heavy Buybacks - simplywall.st",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOajVBTU8zVl80WmpISEk4dzliV2F1ZHdfZjJzb2h5bzZUNzZtSVR2RHE0czJpYW5aVjNjYmVhSWVNeGtkRHZpcjZiRW9zV2pPREUwLWFiNUViUUFfSnowNHh5ZGFXVThKTms2MzdwOEM4aVRHSlVocUVFci1vYkdfX2d0SW9iMnZpUWxEY1B1eEZOMU9NMFRjY18yd090MzBtdjZRbDRrV29tM1lpQlJreFhWbUs1N2JBeVdWeV9PalRLeTDSAcgBQVVfeXFMT0VDbFhiTDA4UnAzNTB2ZXZRMDI2VDduZkhBdHhQU081YzJId1o2WE9EQTBRSVNNZFJIYW82dVJRc0MxNEU2ejFGamNVdVFOSVNxZm1qWFRGMlZua1JmU1JHMDRKZGw1UDBseFZrU2RKcVZwNFNaSEdHTHFFVk9ham43Mm5JY0lmMGJnTjlvRGhZR19IMUpYbFBubU5wdGNaaVJvSFhZVmZ5bjVWb3p0VVI4em10Q052Q0JfdHA3bjVIY29kaGc4Q2I?oc=5",
-        "date": "Mon, 10 Aug 2026 19:31:14 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "NCR Voyix Q2 Earnings Call Highlights - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVTZSVF95eldSWXEtMzQxTFQ5QUQzbS12NHczMlVteTdVRnR0d0x5NlY2dF84WEJuQVRUV21HTEdnSDhwUENqbVVfV3RLOGUteTd1RDEyQ3dOVWU3QjFwZFlDLU1Sb2tqZ3p1ZTU1Y20zUjRQTDN0alpvVmZ3TC1pdmR4MTBNNVQ5UDFXWEFMcXJZZlFVT1E?oc=5",
-        "date": "Sun, 09 Aug 2026 15:04:20 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "NCR Voyix to Release Second Quarter Earnings Results - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQXzM4Sno4NVIybGF2bXFsRDdKTkRNbW5Kbk1CbVpwWG9adGRqMHUwd0c5R0RoRjBnaXNTcWdWdjNONnhoNVlsYVdqRGJmTkFiLTNDRlN3TmR6YVVucFFsWGZlWU1DMVJBUHA2amRmUi1JMFVnLURKN1g3bFptUm5QaENoZ2NsRTRMbF83cGs3MGxDX1hxM2pPNUVrUHJpdw?oc=5",
-        "date": "Mon, 27 Jul 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
+        "company": "PAR",
         "type": "public",
         "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
       }
     ],
     "DoorDash": [
+      {
+        "headline": "Arrest made in DoorDash vehicle theft from Clute fast-food restaurant - thefacts.com",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNT2FpQ0FvdEdUZUxrOHlvUE5LMTAxb1NVRHZuclFNeTUxejVUa2VPblpmWHM1bXlvTW1ZaWNhWXVaRWVUZG9hZkZBcjZNazhtVjFJaEhoemJWc0d3LXM3cFFsS3FIQW41Vm8ycDRzSG9feklTSXMxeW83THZscjNXS1k5aGgxVlBFa2tlczZNRGlkeHNBeVhQaXc2U1FHTTE4LVA1Rkh2SWMyazJ2TUdONVdtbURWRnlpdk95dmtJUlVPQi14ODB4ZmlpQ3JtdVJqaVlveWN5dWpackY3M1E?oc=5",
+        "date": "Fri, 14 Aug 2026 20:18:00 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
       {
         "headline": "Mother of slain DoorDash driver sues Popeyes over fatal Kansas City shooting - KCTV",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQVlvY2s2MnhRUHl1aW81UnhHTG9VdHZ6T2JoNE5TUF96c2FjWl9weUFuRmZCa19aMnJoSV85cUQtWmtlSUcyRUs1ZnBVd3B5M0Y0V2lxXy1uU3k5MEw5TVJqVG1DeklQU21lUzVRSWt0T1Mzcm16azVjdlBnV3BMbk1oOW9feFcwZWhrQ3ZLYThiZFNxUmlESzhGdk1xY1YtZ29tOFhMaVpaLVnSAb8BQVVfeXFMT3liYnZaUzBvc2FPRmZGSGkxVjlYRFZVbk5EYTBaaE8tQW1GZHhFeVVLdWgtZmlCRV9jWVRic2o3aGRDVXZxZzJWQWRjOFk1U1owREE3eVJ0eF95TUlVX09CeFdhWWNCNDAyV3JpVjFDbHNIQm5FeDRhRXFvaG45VVVnTzBOWVNuWXhPb1JyeTVrLXMwdnlHcU9iMHpyYXZGYWdoZVlJcmpBbzI1U25DWlVfa0lrY1owSENORVdnMzA?oc=5",
@@ -337,7 +195,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "DoorDash Flavor Fest expands restaurant discounts to Florida cities - Sarasota Herald-Tribune",
+        "headline": "DoorDash Flavor Fest expands restaurant discounts to Florida cities - heraldtribune.com",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMUNEdXc0Ulkxb0w1NWtKX0NqZWVmazlwUXQ5QVlMSjY0Wk1oeWo0VlJMRnVEaHFEbjk3Yl9BeVFITXhxWGNXV281VUNoSG5CMEVqZGVENVVzNzE3NUdzNnlsbkl4cVllNWFDTEJ5ZWE5bVBqVllkc0NWUGxGTkJnSVN4YUYwa2dNcVVmVk1KZWJ4WXkzQjhzYV9DSjVmUkhoUHlBanN2SFZvbVFZVEY1em1VMXhpeDBlUzduMTBR?oc=5",
         "date": "Thu, 06 Aug 2026 19:55:00 GMT",
         "source": "Google News",
@@ -427,9 +285,9 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Restaurant reservation wars heat up as DoorDash enters the arena with Resy, OpenTable - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOa0tlcF9MUmNUZTVJTWF0UHJUXzhOdUdqVjBYMWNjcFFYb2tTZm4yWFE3bUtIaDdrdUthWmNkOHdQZGJWVVV4UGgybGtIUUl3VUM2a0dwa1FDLWpmX1Z1RmVUNVVRcjU0eUQxQ2ZaNlhGLTJELWVoQjZub0JmRDgzMHhPUy1GcUZRZWcxQjhWaXpKQdIBlwFBVV95cUxONXV4MU40TVJHcTZydG1lZm44alVfVVB1eXJfYVNqNFR1VXkwY3pQdXFtUkFQSVZmTHFHdGU4SS1Ia3o4NFhTU3NqMXpvZU9IRks1dEMwZjRXZExYWXJCV3BONVdXbHZaTG1vUkFQY3owVVB4TnZlcDVBMkIxbG9zeWtZWlFjaXBrYlFDWVNiTmF6VGN3SXVn?oc=5",
-        "date": "Wed, 25 Feb 2026 08:00:00 GMT",
+        "headline": "DoorDash and the dilemma of affluence - Slow Boring",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9JODlHTmZxSnROTC1fcWJmclNuR1Y0V3dSTkJ3dzFoaGJNR0s3azBvcjJuS3p6Um1DWHdoaUZ3MEFjRlVfOTlyWi1BWmlSUlRtM2RIem9zMHF1aTRRc1JJSmJDRlFNTENZZzhqSm5MTW5sc2Fs?oc=5",
+        "date": "Mon, 09 Feb 2026 08:00:00 GMT",
         "source": "Google News",
         "company": "DoorDash",
         "type": "public",
@@ -437,13 +295,13 @@
         "content_type": "press_general"
       },
       {
-        "headline": "DoorDash and the dilemma of affluence - slowboring.com",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9JODlHTmZxSnROTC1fcWJmclNuR1Y0V3dSTkJ3dzFoaGJNR0s3azBvcjJuS3p6Um1DWHdoaUZ3MEFjRlVfOTlyWi1BWmlSUlRtM2RIem9zMHF1aTRRc1JJSmJDRlFNTENZZzhqSm5MTW5sc2Fs?oc=5",
-        "date": "Mon, 09 Feb 2026 08:00:00 GMT",
-        "source": "Google News",
+        "headline": "DoorDash announces commerce platform expansion with new tools - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZi1qWGpWSlRaYlFxZ05KZmRLUm5WaGlfRC1HVG1TQlRFNGFKUUR2SHh2bDhPeXdsNlVrelhybmJ2TlBtN0QxZnFQN3lSRUFLUHh0VGxzMDNzeEtNMTZDRG1EN2dfS2tzdnRmcl81UlphZXBFT1hGOWxGendnZGxaZnpDbzNOeDZPN0ZtMkRZVXpseGVWYmJn?oc=5",
+        "date": "Thu, 21 Aug 2025 07:00:00 GMT",
+        "source": "Google News - Restaurant Loyalty",
+        "type": "trade",
         "company": "DoorDash",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
+        "emoji": "\ud83d\ude80",
         "content_type": "press_general"
       },
       {
@@ -457,9 +315,455 @@
         "content_type": "press_general"
       }
     ],
+    "Shift4": [
+      {
+        "headline": "Durable Capital Partners (FOUR) reports 4.42M-share, 5.6% holding in Shift4 - Stock Titan",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUFN5Rm1URGJxUEdNV2YydGxyZHVwZlpmb180ZjUxMTZfbmhWSW5QRFZMYVI3VjRaWkswc1BDblNReEdlYzhXNnNxUHp0Vjc5ams2YVhTOU1NUnhXejJzR29GdUc1ZEhERW56Z1c2c3c5UGVldTdlbnl0MEctUHZXV1Q1SUlReXQ1QWtlQmxLN29OQ25lSVZmYk5KYVFEU1VKc0JNeHF6czdHRVloMm5mSFAyMzI4UGhpeEltZVhsY24wcnZiSzdWMVVIMA?oc=5",
+        "date": "Fri, 14 Aug 2026 20:09:25 GMT",
+        "source": "Google News",
+        "company": "Shift4",
+        "type": "public",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Shift4 Payments (NYSE:FOUR) Trading Down 4.7% - What's Next? - MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPY2JNcEszMlZrNHh5TExVMkRLUE1nLUFWbGRMS0RVM3lDQnJsVUFpMW9CWVRPc2k5bzdIc1REWlYxV3FESkxQUDNXYWZXdFZUNU5ZQk9Dd0FKeVdpaVZNSVBMVnQ2U1NVR19QMWFvMGN4OXVNWXN4QTFBYlRKbk93VXkzanZYYTJDMjZHNG5NM1c1NG84UUhtNkNnSnBkUG0yR083VTVXbjM?oc=5",
+        "date": "Fri, 14 Aug 2026 17:47:27 GMT",
+        "source": "Google News",
+        "company": "Shift4",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Is Shift4 (FOUR) Balancing Growth and Dilution as Travel Headwinds Hit Its 2026 Outlook? - simplywall.st",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNWUhNOThsWDQ5cmdsQXRyWWxXVnlQN0t3RHFrTlRnQm5XRTdkWGhxU3JCS3lIYkxIZWNNbmZJLVB4SWdXQzZ4V0diUnEtX0lfNF9tU2VWTDVGa1E4Zy1zSTg1X0k1cnhaQmtMNTIxdUp2cWg3aWRuV2tkcF9lN3ZHcWpaT1JqSEwzcVFKdnFFMEtEWVZfRU1nb0xOZzRaSmJvQlh5M1dfeG16TC02WXVpa0s1SG5COHJfMUlqbE1oUHZGczhuWnMyeE5aN0ZnTVl6UE96cHIwUy03MzB0c01vWWJEWHLSAeQBQVVfeXFMTVlITTk4bFg0OXJnbEF0cllsV1Z5UDdLd0Rxa05UZ0JuV0U3ZFhocVNyQkt5SGJMSGVjTW5mSS1QeElnV0M2eFdHYlJxLV9JXzRfbVNlVkw1RmtROGctc0k4NV9JNXJ4WkJrTDUyMXVKdnFoN2lkbldrZHBfZTd2R3FqWk9SakhMM3FRSnZxRTBLRFlWX0VNZ29MTmc0Wkpib0JYeTNXX3htekwtNll1aWtLNUhuQjhyXzFJamxNaFB2RnM4blpzMnhOWjdGZ01ZelBPenByMFMtNzMwdHNNb1liRFhy?oc=5",
+        "date": "Thu, 13 Aug 2026 21:39:01 GMT",
+        "source": "Google News",
+        "company": "Shift4",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Shift4 Payments (NYSE:FOUR) Trading Up 8.5% - Time to Buy? - MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYWRPS191RGFNem9jWjBaTDB4MmhGRVN1MUloTWxlQ01QRnRUdGV3ai01bnd5Yjk1ZGpGRW90TEZDb0htM0t2NE9XcFNIY0RVd1JTNUpwaTF2em1TMnp1Q2NrMURETk8za0dSbE81Snl5M01QckxPNGRfd3JaYUNkMWMtdE9faE5HWi0xaE1pRWNQd1lsMzRnVDNXNGRwLVZWVUZ2Wk1RNA?oc=5",
+        "date": "Thu, 13 Aug 2026 17:24:40 GMT",
+        "source": "Google News",
+        "company": "Shift4",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Middle East conflict sullies otherwise sunny Shift4 earnings report - WFMZ.com",
+        "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQajBhdWtja2dkekhKaDNrMXBQSGhLQkZrOXRDR0NQeGdDRVhRdUNNd3V3dEhMTnY2SGtPay1BcXdUTEprRmpIcC1vQ3lqQUg5UFFINXF3b0hJakFVUWhQYURjQlFmaXJwZDlhbXl6RUg3WEVCUDBpNHh2MHNLWHA3aHB1dTc5MUc5WG4yT09oTk9CbEFyX2xSZnV3X2MxRk5iQW4yZnZhRTFZaHQ1YmlTT0dtVkRPNFNPOE1FTU9JQW9KRFZyYjI1NGZ6aks5WHZTNXB6UktfeV9Gekw1QzVMZ0FqaTRjbkg5NDBsdjlRbklnak92WnJQSTFUdHg0U3daMHdCdXNndWRISVU4OTNfbmxmeGRqNmw2ZWNRa3NqU1VEYmFm?oc=5",
+        "date": "Thu, 13 Aug 2026 15:15:00 GMT",
+        "source": "Google News",
+        "company": "Shift4",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Shift4 Payments Jumps 5.7% After DA Davidson Maintains Buy - AlphaStreet",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZEEtYW1vS0FGenVKTjQ1R1dBV1AwQVYxbFVzam9xbjczR0F5WUZQd0tQb096cVdEZDdQUXlDVnNMNXhiOTF5RDF3a2wxdDdGV0oxYXN0dW1Vd0NWS25nQzQ3VktWSmtUQXNZVTVEZGhJSERPVVhmNG5XNkhCWVFwWjc2TV9XblpHSjJEWlhzOGZ1ZzZTNVHSAZYBQVVfeXFMTWRBLWFtb0tBRnp1Sk40NUdXQVdQMEFWMWxVc2pvcW43M0dBeVlGUHdLUG9PenFXRGQ3UFF5Q1ZzTDV4YjkxeUQxd2tsMXQ3RldKMWFzdHVtVXdDVktuZ0M0N1ZLVkprVEFzWVU1RGRoSUhET1VYZjRuVzZIQllRcFo3Nk1fV25aR0oyRFpYczhmdWc2UzVR?oc=5",
+        "date": "Thu, 13 Aug 2026 15:00:11 GMT",
+        "source": "Google News",
+        "company": "Shift4",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Shift4\u2019s Q2 Earnings Call: Our Top 5 Analyst Questions - StockStory",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZ1Z1VDh2QjZ1ODhRRjdTcUNfME1oNjZ2dW5iTldXSFZBQlo3blJpVVZkUlM4OFdlTEJScnhERmpKSE1rWUs0alA0UTJZclRSS08tVy1maW8zNDlpU3JvSjJObERsbG9PbFlJOFg5SmZzTklqOGJyeGd6b0hfbHp2TElfSlpCWXBRalVOUFpCNUdyTVNkNzZQOWh3UnRHZlRIWkVQTlNVNVhaUG1ZQjJzOEJxNVc?oc=5",
+        "date": "Thu, 13 Aug 2026 08:48:30 GMT",
+        "source": "Google News",
+        "company": "Shift4",
+        "type": "public",
+        "emoji": "\ud83d\udce2",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "New Orleans Saints announce roster moves - neworleanssaints.com",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZTVNNkhjX21hR2lxZG5WQTdtRXE2WVNlQy1yM0xXQ2lDbW1QTGdUTFM1Mmw2MnVlOU05a2lULXQyNEc0YXE2Zk9PZ1E0OTZfajEwNkZGVzViSWhGTWJyNks4U2hXMEdIUEU5U0Z4Z2thZE5BYW83VHlpd1BaNU44QVNZVmVBQ3JSNXRLN2ZyenlveVhFNVo1OEwwN0dfbF9xb1ZxUw?oc=5",
+        "date": "Thu, 13 Aug 2026 01:31:04 GMT",
+        "source": "Google News",
+        "company": "Shift4",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Shift4 Payments (FOUR) Could Be 26% Undervalued On Cut Guidance - simplywall.st",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNTkNmSkFiQVMyNmV5ckpVczVwZkhNNjhzaTYzbGthTU1lYmU2VXdidVZWSy1WSnJBckt5YUtrZmRRZ2J3QTNwRnplODgxSnhxbWlGLTBMbGpZb2lsWHpTNHpTbHNsUHVOd3huRk9KcjRBREg5bjFvNG9oYVF3S01WYmRFVC1pNnVGVm1sbHRYVDllQ01mLXRuVXdtUkVPQ3pWVXMwcDhrNlJ0cm4yUmJ6VTc1a2dPbTZlOGN4TUtZSjAtdHdLcmFheFdkMXpCRXRHVUhGb1M4SFNIX09uamZj0gHkAUFVX3lxTE8zbkxKLVd6UUE1SVN2TktoVTN0VFB0UUlJZGpIRmd2dXBPZ01kNDVKczMtM1NCUHRtNEt3aGQwUDZvVGZncko1T290SjJVUGoyRU55THJzM21DZDJ2NE5hQTVfZ3I1ckhBbGxJU2tWMkVwSTN3SEFKQ3Fzb0pqUzlsMk8waS1BcjNEbVNXWmYwazJ4NVFFRDIxU05vZlppMnNHc2hwWlZKTnN1RW9tYkRIUEVUaW9SWDhCMHU2dTJacGRpS0NGeFVKOHYzd1hfSmdVZ1lKd0Zfd1dYQk1sTXJTc19wNg?oc=5",
+        "date": "Wed, 12 Aug 2026 15:39:52 GMT",
+        "source": "Google News",
+        "company": "Shift4",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Shift4 at 2026 SIG Annual Virtual Fintech Investor Conference: growth stays strong By Investing.com - Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOcFZtRmVDcWFJWHhaWUlycU1JNVRtN0pMNmdLUHExUV95THRHYXpkVXZZZW4tVkVNVHRfcDEtTVVoSzhtR2FsVGNubDNBMVN6OVppWlB2cmxDWXFaQVRtTktHQkFWbUJjRXhlazBqUEtqZ2pkRm9SdkVFRFpnYnhyRm5STFg5U1Y2YllkdFJibEZDM1IyLWhod010aTNOWENoNUlqVWJZMVBBSXFqUlhIdWdnaTc5RllkdDJ2N2FTaHZZendiVHN3M2Z0aU9JcldrWF8yU0p3NW1ZZGVsRlE?oc=5",
+        "date": "Wed, 12 Aug 2026 14:58:00 GMT",
+        "source": "Google News",
+        "company": "Shift4",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Shift4 racked by Iran turmoil - Payments Dive",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9waXFjZmtCc3FveWdtbHJNMnNkdi1OZER0WGtIUHZreEo5OWF4Yndyd1NERHo1QUNidThsNUFUWlpUS25fVl9mYXNjaFRCRXZoUkxmWUxaQ3JoS3ZubENhem4tNmctUzRfMmY0UDZGSHVhQjJyR1NtQmZDOA?oc=5",
+        "date": "Tue, 11 Aug 2026 14:48:14 GMT",
+        "source": "Google News",
+        "company": "Shift4",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Shift4 Payments Stock Drops as Weak Full-Year Revenue Guidance Overshadows Q2 Earnings Beat - tikr.com",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRTFiMTUycUNpbTdwb3FsQ3RJVUZLLThTSlI0WUFHR0c4TXd2QzZra0U2YWdyLXJJR2xTQXdabS1RZHVJbkdJa1A4QjVFY1E2NnRQbERwVDlXNWNXZl9KZVhNV083N1hSSmY3TUNfbHdLdXdtLV9OeldIdXlBbzJrUG44ZHF6eXRwU2VaNA?oc=5",
+        "date": "Tue, 11 Aug 2026 11:59:38 GMT",
+        "source": "Google News",
+        "company": "Shift4",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Why Shift4 (FOUR) Stock Is Trading Lower Today - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVTFoaWxkeUd3YVIwRGlZM2VjWm8wUTM5anRwbXFKcExMUEhGN3lIcUJjVGhzV3FUTUdNNHRJdnlCRnRuckZPSkRWYkhSQUhwMlhKeWVWd3Jza0o0UElISjdFWUhVWjVtZUEzVkd0b05scnVpYzZKZERYRE5YSTJSY1hXNVBLWG54elhZVTd0SzFBTEZEOThWQzRR?oc=5",
+        "date": "Tue, 11 Aug 2026 02:29:00 GMT",
+        "source": "Google News",
+        "company": "Shift4",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Shift4's Global Blues Create Another Strong Buying Opportunity - Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdi1VZ1gxTmtibWpwWFZEcmJObHBLOXdTTnhPZWZwLU02dUotaTlUY094NDB0Ym4xZVNBUkg1MzRwTmNuTlE1TUJlbEtZZXdveEZlTFVUNmc5Y00wR1EyMlQtSjhzUFo3MzFYRzdoUmwzVFg3dTBjcjBkY2dOdnhlZHhrRkpfY1ZNNGdtWnFYQTlta3hDMVA2N2h4ZzhZVlI3dVZGVHBBbUg5VEU?oc=5",
+        "date": "Mon, 10 Aug 2026 12:30:00 GMT",
+        "source": "Google News",
+        "company": "Shift4",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Has Shift4 Payments (FOUR) Fallen Far Enough To Be A Bargain? - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYVpwSmZrbXFJcG9QSkZCakRHRkhyeUN0YVNSVmx0b3V1bS12TmpnTlAwMVF5M2Vrems1dU9VN0xoRkNvbGxvYWIxR0hoV0wyZ0w3aHQxbTJQNlFZQUlQWmRDZTI1ZkVSNUxoMkRKN0tyVktiWlkxSmhRRVhtbkdZeG1JcEh2VE5vTi1KRjhBcDNSaUtYTzRRM0F6czU?oc=5",
+        "date": "Sat, 08 Aug 2026 03:17:00 GMT",
+        "source": "Google News",
+        "company": "Shift4",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      }
+    ],
+    "NCR Voyix": [
+      {
+        "headline": "NCR Voyix (VYX) EVP & President, Restaurants, sells 12,750 shares - Stock Titan",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRVRrMjVINzRZeVc4TmJId18wTkJ6eWltLThuekYzQzRnQU50VVpqMWdoR0U2T19qMWZmRTdySzRmZmJhN0NycGJEdFd2dnVvNmZvbUZGanBSS2xBZlcyc3d6Vm9Sb3dtd24xN0F6cUhJQU9LaHpBcmdMLVFpaGIyN01vemFJcGZBV0tISGtFVWtjaXNMM2RUZUR5S1MzbjRoMVAyd1d0NWpzME0?oc=5",
+        "date": "Fri, 14 Aug 2026 20:08:07 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "NCR Voyix downgraded to Hold due to slow produc... - Pluang",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeHFhWFpUd2o5NkU5Z0IxTVhWWHZBQzIwS0NsU2szV01UYUVMeDJvNGU5VWhCWFJyWFZUQm1HcWtCaWdTTlVpZEdseExNU1FJd21fSGNJMDE0OWZiVmM1ZFhKalRJZFRhS2Zzdmh4UmFlU1luMTdTeVdEUzRTTGRLMUFWVGlmOUpkMFBqaXBGWlk5UQ?oc=5",
+        "date": "Fri, 14 Aug 2026 14:56:56 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\u26a0\ufe0f",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "NCR Voyix: Employee Numbers, Potential AI Impact - Houston, We Have A Problem (NYSE:VYX) - Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaWJKTUlFN0ZGUnBhclVFay1QQ3Q5VDZPUXVrMUhzWVg5eUhKc1N5NDNUSDMxVlloX2xwVHFzQkMtcTBXR0NzbW1sdDdlZlFXUFI5dm9iWE93NzQwaTVaV2cyZ2JuQnJ4LUk4NWZ5M3VlNUVST3JIZzh6bDlrVTdKcEJaUE80R2xCOXdLbHhRWlpxMUNOWlVIN3BValdLaFRZSVZxclpvYXZncTUtSXRsVVZSYw?oc=5",
+        "date": "Fri, 14 Aug 2026 14:39:41 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Wall Street Analysts Believe NCR Voyix (VYX) Could Rally 52.65%: Here's is How to Trade - Zacks Investment Research",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZjJUSDhpaHp1aTU4dXlxUExnWlprM2drSFNlUTRpeFFDSDRrNUlQaGhxYkk4NHBJWFB0MHBsd1pjZ0ptalBiRWFUNHViRGNKYnZwbm9qc2xWbUc4OE5zUWxSNmtjYUx2WGR4NWowV0lfcmJ0RUdSVTBaemFIbVl6eGpJeE1tTnlYbTZROUduS0dXZUpzZFkwZ0w1d2NqeXhrMThtcVFTLTM5VENtRU5pTlNZeDFFeFZabHlzZ01hUQ?oc=5",
+        "date": "Fri, 14 Aug 2026 14:23:39 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Greenhouse entities report 17.5% NCR Voyix Corp (VYX) stake in Schedule 13G/A - Stock Titan",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUVNIbHVneDB0azAwTGhmT29tOWpZbHVRZmxGUTFRM0ktRGpxUFpRbjByYW5jYWNNN1g0aDJsdjJSWTg0U3lQVXJKaU9nczJISGZ6WnJEbWdxOGlwYnljemlVZ2szQmZqVm56SkU1Qy05SjNRWlNqSHlDLXVUMjF0UnNiNTVQaUxESC1XVlZjVGMxSS1JckZhTkd4dG5zUWoxVWR4Y2diZEE5eW1wY2FVUG1RV1RqSzhOVi1nOVQxRTExSzVGUXI0?oc=5",
+        "date": "Fri, 14 Aug 2026 13:01:39 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Commerce Platform Deployments - trendhunter.com",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB1c3p2bjh1U2Y2eDcwdUJQdXdQNkthQm5NSGZGNXFlSDI1Z01hSC1SZjQ3aW5KYi1oekpWOXk5QUk2VmJFcmx5d2hZVFZLdmRXaDViTS16UlV5OU5F0gFcQVVfeXFMUHVzenZuOHVTZjZ4NzB1QlB1d1A2S2FCbk1IZkY1cWVIMjVnTWFILVJmNDdpbkpiLWh6SlY5eTlBSTZWYkVybHl3aFlUVkt2ZFdoNWJNLXpSVXk5TkU?oc=5",
+        "date": "Fri, 14 Aug 2026 08:54:57 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "NCR Voyix (VYX) Holds Guidance On Earnings As The Undervalued Case Stays Alive - simplywall.st",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNb2NMYmUtbTFDczYzVEFEUUlPaTlIVW1pTnZ0bnRJNXpybFgtZ29DRE5RSTFBMjIxQWo3bUNVVDBCb2VDMDZpRW1mLV91aHM3cEZPLS1vbkkzMjhubHU4di16TmNDU3UwUmk1b3F0VGI4TnJ1ay1NRUxnZDdLb2VYU2czclI5MkM3R3JkcFJJSVdCVmV6MmdNNDVncnRIOWU4dGFuUFJMVjJuSFdla0prdFg1cHdrbW1NR1ZncmVGU09RUdIBxwFBVV95cUxPclYzdm9Iek10SHBjQnhwLTU1LThWWGR6NDRINDM5TGF4MmtvaFNCYnFmOE5DR21pLWtiT3ltUHVYZmxITUlHS0VQRG90RGVrbzIyRmc2THVCdnh1T2dpR0dvMnc0OGxxUWk5SHI3aDhkTWZDUi0xdWlhOUNLZEE5NmlxRVgtZ3V3OGdORnJIM1gybGJKX1lRbWROMDRMTXFWaE55Y3B4cGcycXltVHhZbTRWU2V4Z29ndE1SMmpuM2NKV05md0Zr?oc=5",
+        "date": "Fri, 14 Aug 2026 06:50:31 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "AS Watson to Deploy NCR Voyix\u2019s Voyix Commerce Platform in Europe and Asia - citybiz",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVXE1aG5BOU15eTlTUVVTVnpfN0VSSXcwcEZtanVob0FZYkFRQjk2SUZkcGNkejNHVkZheHEyOE9tX2ZUdzhPeWR0TjFHZ0VKNUZZWUJ0VTJTa1ZZd0ZPT3pWZGZmS0sxTmxCR0ZYQV9KOWJkNmJqQ3NfN2tIby1QVVpraVl5cXhiY1BVWDJEU0kwVTZWS0FuQmVGZ3Zxd0hTWXFBM2JCLUJxNU5HdUZWcw?oc=5",
+        "date": "Thu, 13 Aug 2026 21:38:31 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "NCR Voyix secures multi-year deal with AS Watson for retail tech - Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTTRxTW56V0x0UlNXUGt2ZXpmbExlTlJaQ0xfMjdDbmMzUThQRHRGM0kwUkMwOUJaWENZVDMyQVAya3B4Zi1JOGM2NzV0MXlwV1c1QkxqYzdRT1hmUnB0cU1HLXVoYnZJdU4zVk5BYzlBMlAtZDBnVHFTMDk3eGwzc0ZhUnFXYlE1MUJkVDFMNmJhZU5qaVRFMFlBRHRLZGNDUzhwcW5uSFk4NHA4akc4NXZ1aVZIUzBEVEU5ag?oc=5",
+        "date": "Thu, 13 Aug 2026 21:37:49 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "AS Watson Expands Partnership With NCR Voyix Through Global Voyix Commerce Platform Agreement - Business Wire",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQOE9uTVhxNmRZV2pBZldWM05kSFM5WEV0Q0FteVN4YUpBZGl5WDlVeXZ3QzdjR21pTzR0QUpxMVE2Qy1rZ0F6ekVRTWtjeUJXOFZNYzMyS3I0ODJvVVNiOTFzN09fRU5xcWlVeElmNC10MVJRSTh4SlJEcjFZUTJ1NGNMQ2RVa05jSU9RRkpHLXo2OXREd0F6OUlIX0I2R2dNODdkM0lPVHV2Q0JXc0c3enZ1cjZCV0ctWUgyQ1pKdXhKMkk1dDJreUNOM3ZiRnZpZUdQQWFkT2xTdTRFRlFzUk1hX1k?oc=5",
+        "date": "Thu, 13 Aug 2026 21:11:00 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "First Trust Advisors LP Buys New Shares in NCR Voyix Corporation $VYX - MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQ0JUQmc4elRrTWtYak10aU8wSmFCX2Z3dV9NLWNUbXNpUzZwTjh5VXo2ODhoaUF3LVF1eUdYSVZXMUNzTDJkbEt2TjFCSG00anNDOF9RMjFrN3VTbmNtNWZqU3E1S0xGbWFPcjliLUFzWE9tODQ3QUY4cE5sVndOVDRMUUtRSVhROU5mMEZpU0NlRndBZ1BjRXJvLTJRY3VPLXpXMDNzZlkzX2hEWXlRT285NlhrTk1KdWVXZDZUZWh5djhiT0VXRw?oc=5",
+        "date": "Tue, 11 Aug 2026 07:32:59 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "How Investors May Respond To NCR Voyix (VYX) Holding 2026 Guidance Amid Soft Q2 And Heavy Buybacks - simplywall.st",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOajVBTU8zVl80WmpISEk4dzliV2F1ZHdfZjJzb2h5bzZUNzZtSVR2RHE0czJpYW5aVjNjYmVhSWVNeGtkRHZpcjZiRW9zV2pPREUwLWFiNUViUUFfSnowNHh5ZGFXVThKTms2MzdwOEM4aVRHSlVocUVFci1vYkdfX2d0SW9iMnZpUWxEY1B1eEZOMU9NMFRjY18yd090MzBtdjZRbDRrV29tM1lpQlJreFhWbUs1N2JBeVdWeV9PalRLeTDSAcgBQVVfeXFMT0VDbFhiTDA4UnAzNTB2ZXZRMDI2VDduZkhBdHhQU081YzJId1o2WE9EQTBRSVNNZFJIYW82dVJRc0MxNEU2ejFGamNVdVFOSVNxZm1qWFRGMlZua1JmU1JHMDRKZGw1UDBseFZrU2RKcVZwNFNaSEdHTHFFVk9ham43Mm5JY0lmMGJnTjlvRGhZR19IMUpYbFBubU5wdGNaaVJvSFhZVmZ5bjVWb3p0VVI4em10Q052Q0JfdHA3bjVIY29kaGc4Q2I?oc=5",
+        "date": "Mon, 10 Aug 2026 19:31:14 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "NCR Voyix Q2 Earnings Call Highlights - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVTZSVF95eldSWXEtMzQxTFQ5QUQzbS12NHczMlVteTdVRnR0d0x5NlY2dF84WEJuQVRUV21HTEdnSDhwUENqbVVfV3RLOGUteTd1RDEyQ3dOVWU3QjFwZFlDLU1Sb2tqZ3p1ZTU1Y20zUjRQTDN0alpvVmZ3TC1pdmR4MTBNNVQ5UDFXWEFMcXJZZlFVT1E?oc=5",
+        "date": "Sun, 09 Aug 2026 15:04:20 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "NCR Voyix to Release Second Quarter Earnings Results - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQXzM4Sno4NVIybGF2bXFsRDdKTkRNbW5Kbk1CbVpwWG9adGRqMHUwd0c5R0RoRjBnaXNTcWdWdjNONnhoNVlsYVdqRGJmTkFiLTNDRlN3TmR6YVVucFFsWGZlWU1DMVJBUHA2amRmUi1JMFVnLURKN1g3bFptUm5QaENoZ2NsRTRMbF83cGs3MGxDX1hxM2pPNUVrUHJpdw?oc=5",
+        "date": "Mon, 27 Jul 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      }
+    ],
+    "Lightspeed": [
+      {
+        "headline": "Why Is Lightspeed Commerce Falling 4.25%? Investors Weigh Strong Q1 Results Against Valuation, Guidance and Growth Expectations - kalkine.ca",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQTnZYVVNrMkNLTlFnZV8yNnFXcVRZNUJtWGZsODJLSUFCeGhuNGVRWXJubTN5RHFPSWRXd1JvMXNVdE5tUVZlcTcwUkxIT0lkMENvYWZHMW52WEVrUDNnRzVELUw2TjJhYUJoN1BVaXYxQTA1ekFwYWp2YTNlc2RuWEdwMjlRUVFPR09PVTA2UjVVdE1IandNZkZRTXpTdEpxWEhSc1l6Rzg2bkV6ZkJscHFCQWNaQ3NONkxyd0RQTjhsYUYxR2ptMmpnWU1uOURKYVlUZURnQWZvM1p2XzdYWUZEOGNYYjFEVl84ZUVHSQ?oc=5",
+        "date": "Fri, 14 Aug 2026 18:15:00 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Lightspeed Commerce Stock Regains Bullish Momentum as Green Session Signals Recovery Potential and Improving Investor Confidence - kalkine.ca",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOM0c0c0FlOUREaWJpQWR3NDVwbEdEUWQ0aWszamZpR0FFb1FudjZReXcxRHVkdXlneEFWZmlya0x0dUlQcEJBaXUtbmJBNWZaT2FxWWgwcjVVb3JIclVpaXExUTlaaG5YcGxpSkxWcVcxT0pHdGFWR1BsT3VfYXZ3bWZjaXUwX3NFajJoOXlMc1J1OXk4aTJNLU5hRlFTOHdXMGtTdEVmUk9OWTZybGJSYUx1WXhxQ0VycF9zTmFmbFlVcW01SnVqdVlQaWUyOHdEbmxhdkVvSmVkVzMtYmFOWkpIVF9HOXpHOVNydURNeWEyTDhOaWc?oc=5",
+        "date": "Fri, 14 Aug 2026 13:32:00 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Lightspeed Commerce Inc. $LSPD Shares Sold by Dimensional Fund Advisors LP - MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNb2FrTFY5eV9mMUFyakNpaERmSk5DYXgxUzhoVE8yT0s3SDhTR2Fub2hkblFlazN0ZXNjVnZTaFMwMWRLMTVka3U3TTdqYnBmT0FnU1l1NzI2Q09XZWhGQkdxUTVWZjRVUVpoUzFQN0NFZjI3TF9WdGVjMmFhQWxSMFZfZkpQd1lFQ2FNVzItMWJGenFBZVhORGJZVmoza0hCUGR4TVpVcnp5M1RkSEkxSi1JemJ5YmJnRDR1Y0MwbU5PUFVCaVptWDFRM2FJdw?oc=5",
+        "date": "Sun, 09 Aug 2026 07:33:24 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Lightspeed Commerce Number of Employees 2026 | Employee Count & Headcount Data - Revelio Labs",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LT1d2RGVVQlVLT3RDNXdGSUdwRHI2OVRkOEtuNjlqZDZVVW0zRFQyajdGSWp0ZmMyZml1NklXUk5JNkVyc3UzX1RlZWJpcjY4SDlOV0NTNzNnbmVxMEpRZ1ZTUkFjbThra29yWXNwTXhHclU0b2c?oc=5",
+        "date": "Sun, 09 Aug 2026 04:22:05 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Is Lightspeed Commerce (TSX:LSPD) Undervalued On Stronger Earnings And Steady Guidance? - simplywall.st",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQa19MYkxTVFR5NEt4bXBBaTMxOFFsTUllVTVlLV9RbUJrblBPVU1tZ3BJYlROQkxGZ1BwV0xfRmNpQlgzaEZNdmxZOXNLUW5KUWNqdkxhU3pERDBZX3ZITlJScWxkTzhHQ05oSm9CVUJvT1BrT28zdzBhZk9IRXBacjd0WVA5T0hQd3FReVVxR3VES1N4YzRaSjRxUlVkQkpTQWhDckl3NTVaYl9iU0FTR0pqWkV5YWx0X1FfckxRUGVSMzhNUk9HSy1uV3EwTzAtb01jWG5wTEJWZ9IB3wFBVV95cUxPQ1ZIX2xBdEtHVTVRZE1OQ0ZKTFJzTUFnSktsNU9ITHREX2NZMDlQenlCbVFYcXdUSlFsdDNYNDlSRV93TWxFTzNvaVA5a1hUX0FOTnpEQjBHTTFsalMtWHpTbTJhZElxSTV4N0NZVUliT2h1NFAwU0UzR3VnUzRWelNSUXl3eVVDa1BKQWRIdjZQRm5fdXZid2owdUg4cW9LR1FqNnRVd01xbndYelVVYkFqMmZmWWhhQlFoMUhqR0VHajVQa19QX2k0V2FTWUdpSmdHUXA0VTNoaVBNUF9r?oc=5",
+        "date": "Sat, 08 Aug 2026 12:38:27 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Lightspeed Commerce (TSX:LSPD) After Earnings And Buyback The Undervalued Case Gets Another Look - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOenR0YVZwVF9ITGRIblVNaHhMazJ1SG9qMFFvd1ZuaEY1endIOFpGR1JFaEk3WWxUQmMybTgtR09ySjdTcDZZc0VMRjB6NmxhdkVIR3lpTHdzZUdDQkk2NEJGZzhZTDZVVHNqQWdRdXM2U2NQaUZvX0VYbEd2RnhZZ0dqSUFjbHRsWENGdVZiMWZzRFNmYVhXeUpDcGlDRlhrLXlPWQ?oc=5",
+        "date": "Sat, 08 Aug 2026 10:08:28 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Renaissance Technologies LLC Has $3.65 Million Position in Lightspeed Commerce Inc. $LSPD - MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcDYwdVRlbUZXakFRTU1mNnJmYldMWk5kMzdraTJLN3BTVVNkTXhpVnU4VTdSeFE3WjI3akZJanAxUmpTTFV3Sy1vTDl5SnJUQ2RGdHhVQnk5aVFKNXhWaFZVODFjMEhsWkxZbWtFMVZkd1ZBb3dPTE5rMWhvNnJCa29NOTdOb3hxNGx3U2JIQ0JOUU1iaXUxUzB6bEdzTUI4b0p0cUJod1ZDV3NRZHB4ZmFfSmZOZGtveWhGc2pUQTlsN2xPa0JqX0xqY1owb284TE9uR1d3eWYwV3FoVGdj?oc=5",
+        "date": "Sat, 08 Aug 2026 09:15:48 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Lightspeed Shows Progress But I Await Sustained Improvement (NYSE:LSPD) - Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYldWMTZ5NXNBVGQ3M0stR1pBZmo4ekdTeWRHWW4tMmhRLUNYbzVoUFY3QUlvVDYxNWNZZ01xeURrSHBydE53YmRBV1F0ckRCcmxUVmF3Qml5UDFpN0RVaGZyVmxtZmQ2eEVTbnMzWVdNSVpnbW5RVmF6SEswa3pBUnA2NmJGU0FCVWh4NVFXbm9WTnJHTGs5VVpCemlCMm1rZU5nc29B?oc=5",
+        "date": "Fri, 07 Aug 2026 08:14:17 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Lightspeed Commerce Q1 Earnings Call Highlights - MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQ2w2Rk1IVWlCVE5aVmRibmt3Z1c0WHYwUy0xcEJhUE1rczl4cFp6VjVJa2hWYzl1Z3N5U1pUaWdBYlpLRU8ybFhxM1RPdnpReWN2Z3RsRUpJTDJDRFp4bHRJdFFtcElKdUc0Y2JTSXVXWTBJVmZMZEJLckhnUXB4el90S29CQjExdVJCQUxXcXhBU0xvSjJySDdLajhoX2NaWWJz?oc=5",
+        "date": "Fri, 31 Jul 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Lightspeed Commerce Shareholders Back Board, Pay Plan as Transformation Gains Momentum - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQZWlvaF9RQXEyQmt5aGFibW1qbGNoVE5YTllJdHNqNUVVVGZITFluYzl3M3F0aHVEaW8tWWNBM3lvQUVraWt2aEd4cGhRa05HWlc1RnFlU1FDVGZLV19iUmpPZy1OWGRORVN5MC1BSGVDdWY4UG8wRWFTMTVQOTJpVVctX0pXam1mU21mcVZOdWZJRng0RE44Y2lyOTRCSTlBSUI0NU9NV01UUDJyM240VzN5QWM4THg2Q1ZkYkRZLUpqUGZXelBpQ2JuaWpqR3JFQ1B4NHJDRk1sTFB4LXc?oc=5",
+        "date": "Thu, 30 Jul 2026 17:04:26 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Lightspeed Commerce Inc. (LSPD) Tops Q1 Earnings and Revenue Estimates - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNHVwXzFVQ29ndy1DWjVJYmR5NGZobHkzWFNwcHdEMDh5eFdDR3QtelduXzNxbWVod1lxdDlnTV9feXZUZjFzU28tekRUNXRjQWFiWkd0OW8wOW0zMnRIanM5ZWVtbHdDSnlQRFdzMnNJVWVXRE1KeXp6d0R4SlFmQXVCaWF1UXhKa3pjRlYyTjQwT2JSSnhEVWNTZW1HZWs?oc=5",
+        "date": "Thu, 30 Jul 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Lightspeed Commerce Inc expected to post earnings of 12 cents a share - Earnings Preview - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQkZCRkFYOWJCWDh4bERVOUZMVG9wSFp3eFQ5a0IxUkV3SW1XRGU1dk1yeTk3WUVDWW85OEt3MGZpVkpKTnVQWmJmWXk1MXV3UW9tUi1NSk53S3pSYnl4aG1NZVVhZlBlYkk1V0tXVzhEVWtEdVlRTE92RTJLb0FpVXNKMnpaXzhpRHliZ19aREJWTHhxZzdEM1hWWFhtQXhuZmVYNHZaaEwwSmo1bjNiU3ppZG02LU5SVHhYNFZWSEVqcUZzNmVVR1JxcnloNXU1NTZwYTJkRVhpWmVHeUJVQzFUMDBBLWtVb1NlcQ?oc=5",
+        "date": "Tue, 28 Jul 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Ahead of Lightspeed POS (LSPD) Q1 Earnings: Get Ready With Wall Street Estimates for Key Metrics - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcnZBUVVUd3Q1WDNUR3FXV0M1aEw5RlBjcElwaWdUYlVzbWFucXJOWXNpSXV6azdzUUxNWVZBMGRyR0szXzhBT2FjdDhXaU1kZlpmcTdCdGEyd1dxTGhzMlUxQ0lwdTVxUEJrMHdCb2t0dkR5UzB3bDFJa0tBeUtMUVJVOWM1TXJwRy1vRVZzalZqLU40WXZqeg?oc=5",
+        "date": "Mon, 27 Jul 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Lightspeed Commerce Integrates with Meta Conversions API to Help Retailers Measure In-Store Sales From Digital Ads - PR Newswire",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNZE5EcDlvWWczX19Fc2cyMFdkNVNiNVhPT0tuaktPRGtGM0hCbWlFamVTVEVDR1dja2M2aTNyRHViTFZtaTU2clFLcC1VNzE4ZUI2MVJGYktNT1lRamVMMGhWRWtzbHF0dUs3SllpVHlteVFTNlVKYkdsYWI0OE9hUVZSRzZXVEFpM3RXa05QQllMOXJqb0x4bkNlV3lKRURxXzVtMnhKTndncmhlTzluMlIyR2lDUjAtZloyZ0U4NkdaeGJRNTI2RTZKS3dNQm9YeTBYb21tYlZWNmxabmxmTzZVNVZxa0RUZnE3bUc4VV9mOVNFaWt5d0xycmZ0aDg?oc=5",
+        "date": "Fri, 24 Jul 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Lightspeed Commerce Advances Unified Commerce Vision with New AI, Payments, Fulfillment and Operations Innovations - PR Newswire",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPUTRBTnFQX1dtTm1PU1kyRDJkYUpKSjFIVDd5Y0tpcDhETXBhSkZEMDZKUU1vZ2JfWjl0b2t5NlFIRXh4WGdoMWJKOXdGRzZLV2ZXYVNtVnRkWUVOUEp6Rm82NU1tSWdsWkRLcGw4NjItSGE2Mmk0UGIwcU40QS1NNzVnS3pkZEpnY0ZEN0pvZWdjVEpaa0RKdGI2TG1DTFdaemVxbkVKeW5HLXNXUFJaM0RTRlc5WFdlSThRS2tCLUxubFQ5bUd5azBOMkJ1MmY3Y0pBZFBoRHI5aGJmLUQ3N2JJRHh3YTgwbTRSaWtMeEJ2cGh4R3dfcGVSYmo?oc=5",
+        "date": "Fri, 17 Jul 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      }
+    ],
     "Global Payments": [
       {
-        "headline": "Global Payments (NYSE:GPN): What\u2019s Behind the Share Move? - Kalkine Media",
+        "headline": "Global Payments (NYSE:GPN): What\u2019s Behind the Share Move? - kalkinemedia.com",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVWpNUFpLcnZXQ3pYUGpPZmFNek1KdGpHWFNORmZ6T0ZZaFZEVG5GeE1GTF96emZyN1RsYUhMOHpNTHdwNzYxWmVSZzNxcVNIS0ZvQTRQVld1RHpCY3ZyTFRqZlVZTVFFMWQyM1ExVkpyWEtEakdicmk3Tm1sZTVtRDJQQ3NsSEI4eU5WRHRIZm44TVdJUDQ5bW9KeEhTUQ?oc=5",
         "date": "Fri, 14 Aug 2026 14:29:00 GMT",
         "source": "Google News",
@@ -589,7 +893,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Global Payments Strengthens Restaurant Operations With Connected POS, Payments and Commerce Technology - Restaurant Technology News",
+        "headline": "Global Payments Strengthens Restaurant Operations With Connected POS, Payments and Commerce Technology - restauranttechnologynews.com",
         "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPeXFPTV9fOVZsaDI3ckJadjhZX0FMSXZ3Yk5CdXJtUU1SRmZvbTNxMjFBbm9vQk5mLW8zaGE0ZEhLZC1haGJLb2EzQ1lHRk5VZ3A2MjQ5RDZZTmdzYUJjaGU2b1Q5TVAzVHhIZGFESUpabHpXc0VFa0NiMjB4YUZRYlZNanVERjNiY0VsVF9ONVAwLWdPZEVtb25Bb2tWdmxVeUlIdWYxTmRDRTRIWHFsMWxoLUlMaXplLW56WW9uOHVMeXhCTTk5LTJGNGx3SWY3RTJlU3BDUGRtQ1lhVUxEbw?oc=5",
         "date": "Sun, 28 Jun 2026 07:00:00 GMT",
         "source": "Google News - Restaurant Tech",
@@ -619,158 +923,6 @@
         "content_type": "press_general"
       }
     ],
-    "Lightspeed": [
-      {
-        "headline": "Lightspeed Commerce Stock Regains Bullish Momentum as Green Session Signals Recovery Potential and Improving Investor Confidence - kalkine.ca",
-        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOM0c0c0FlOUREaWJpQWR3NDVwbEdEUWQ0aWszamZpR0FFb1FudjZReXcxRHVkdXlneEFWZmlya0x0dUlQcEJBaXUtbmJBNWZaT2FxWWgwcjVVb3JIclVpaXExUTlaaG5YcGxpSkxWcVcxT0pHdGFWR1BsT3VfYXZ3bWZjaXUwX3NFajJoOXlMc1J1OXk4aTJNLU5hRlFTOHdXMGtTdEVmUk9OWTZybGJSYUx1WXhxQ0VycF9zTmFmbFlVcW01SnVqdVlQaWUyOHdEbmxhdkVvSmVkVzMtYmFOWkpIVF9HOXpHOVNydURNeWEyTDhOaWc?oc=5",
-        "date": "Fri, 14 Aug 2026 13:32:00 GMT",
-        "source": "Google News",
-        "company": "Lightspeed",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Lightspeed Commerce Inc. $LSPD Shares Sold by Dimensional Fund Advisors LP - MarketBeat",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNb2FrTFY5eV9mMUFyakNpaERmSk5DYXgxUzhoVE8yT0s3SDhTR2Fub2hkblFlazN0ZXNjVnZTaFMwMWRLMTVka3U3TTdqYnBmT0FnU1l1NzI2Q09XZWhGQkdxUTVWZjRVUVpoUzFQN0NFZjI3TF9WdGVjMmFhQWxSMFZfZkpQd1lFQ2FNVzItMWJGenFBZVhORGJZVmoza0hCUGR4TVpVcnp5M1RkSEkxSi1JemJ5YmJnRDR1Y0MwbU5PUFVCaVptWDFRM2FJdw?oc=5",
-        "date": "Sun, 09 Aug 2026 07:33:24 GMT",
-        "source": "Google News",
-        "company": "Lightspeed",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Lightspeed Commerce Number of Employees 2026 | Employee Count & Headcount Data - Revelio Labs",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LT1d2RGVVQlVLT3RDNXdGSUdwRHI2OVRkOEtuNjlqZDZVVW0zRFQyajdGSWp0ZmMyZml1NklXUk5JNkVyc3UzX1RlZWJpcjY4SDlOV0NTNzNnbmVxMEpRZ1ZTUkFjbThra29yWXNwTXhHclU0b2c?oc=5",
-        "date": "Sun, 09 Aug 2026 04:22:05 GMT",
-        "source": "Google News",
-        "company": "Lightspeed",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Is Lightspeed Commerce (TSX:LSPD) Undervalued On Stronger Earnings And Steady Guidance? - simplywall.st",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQa19MYkxTVFR5NEt4bXBBaTMxOFFsTUllVTVlLV9RbUJrblBPVU1tZ3BJYlROQkxGZ1BwV0xfRmNpQlgzaEZNdmxZOXNLUW5KUWNqdkxhU3pERDBZX3ZITlJScWxkTzhHQ05oSm9CVUJvT1BrT28zdzBhZk9IRXBacjd0WVA5T0hQd3FReVVxR3VES1N4YzRaSjRxUlVkQkpTQWhDckl3NTVaYl9iU0FTR0pqWkV5YWx0X1FfckxRUGVSMzhNUk9HSy1uV3EwTzAtb01jWG5wTEJWZ9IB3wFBVV95cUxPQ1ZIX2xBdEtHVTVRZE1OQ0ZKTFJzTUFnSktsNU9ITHREX2NZMDlQenlCbVFYcXdUSlFsdDNYNDlSRV93TWxFTzNvaVA5a1hUX0FOTnpEQjBHTTFsalMtWHpTbTJhZElxSTV4N0NZVUliT2h1NFAwU0UzR3VnUzRWelNSUXl3eVVDa1BKQWRIdjZQRm5fdXZid2owdUg4cW9LR1FqNnRVd01xbndYelVVYkFqMmZmWWhhQlFoMUhqR0VHajVQa19QX2k0V2FTWUdpSmdHUXA0VTNoaVBNUF9r?oc=5",
-        "date": "Sat, 08 Aug 2026 12:38:27 GMT",
-        "source": "Google News",
-        "company": "Lightspeed",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Lightspeed Commerce (TSX:LSPD) After Earnings And Buyback The Undervalued Case Gets Another Look - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOenR0YVZwVF9ITGRIblVNaHhMazJ1SG9qMFFvd1ZuaEY1endIOFpGR1JFaEk3WWxUQmMybTgtR09ySjdTcDZZc0VMRjB6NmxhdkVIR3lpTHdzZUdDQkk2NEJGZzhZTDZVVHNqQWdRdXM2U2NQaUZvX0VYbEd2RnhZZ0dqSUFjbHRsWENGdVZiMWZzRFNmYVhXeUpDcGlDRlhrLXlPWQ?oc=5",
-        "date": "Sat, 08 Aug 2026 10:08:28 GMT",
-        "source": "Google News",
-        "company": "Lightspeed",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Renaissance Technologies LLC Has $3.65 Million Position in Lightspeed Commerce Inc. $LSPD - MarketBeat",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcDYwdVRlbUZXakFRTU1mNnJmYldMWk5kMzdraTJLN3BTVVNkTXhpVnU4VTdSeFE3WjI3akZJanAxUmpTTFV3Sy1vTDl5SnJUQ2RGdHhVQnk5aVFKNXhWaFZVODFjMEhsWkxZbWtFMVZkd1ZBb3dPTE5rMWhvNnJCa29NOTdOb3hxNGx3U2JIQ0JOUU1iaXUxUzB6bEdzTUI4b0p0cUJod1ZDV3NRZHB4ZmFfSmZOZGtveWhGc2pUQTlsN2xPa0JqX0xqY1owb284TE9uR1d3eWYwV3FoVGdj?oc=5",
-        "date": "Sat, 08 Aug 2026 09:15:48 GMT",
-        "source": "Google News",
-        "company": "Lightspeed",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Lightspeed Shows Progress But I Await Sustained Improvement (NYSE:LSPD) - Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYldWMTZ5NXNBVGQ3M0stR1pBZmo4ekdTeWRHWW4tMmhRLUNYbzVoUFY3QUlvVDYxNWNZZ01xeURrSHBydE53YmRBV1F0ckRCcmxUVmF3Qml5UDFpN0RVaGZyVmxtZmQ2eEVTbnMzWVdNSVpnbW5RVmF6SEswa3pBUnA2NmJGU0FCVWh4NVFXbm9WTnJHTGs5VVpCemlCMm1rZU5nc29B?oc=5",
-        "date": "Fri, 07 Aug 2026 08:14:17 GMT",
-        "source": "Google News",
-        "company": "Lightspeed",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Lightspeed Commerce Q1 Earnings Call Highlights - MarketBeat",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQ2w2Rk1IVWlCVE5aVmRibmt3Z1c0WHYwUy0xcEJhUE1rczl4cFp6VjVJa2hWYzl1Z3N5U1pUaWdBYlpLRU8ybFhxM1RPdnpReWN2Z3RsRUpJTDJDRFp4bHRJdFFtcElKdUc0Y2JTSXVXWTBJVmZMZEJLckhnUXB4el90S29CQjExdVJCQUxXcXhBU0xvSjJySDdLajhoX2NaWWJz?oc=5",
-        "date": "Fri, 31 Jul 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Lightspeed",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Lightspeed Commerce Shareholders Back Board, Pay Plan as Transformation Gains Momentum - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQZWlvaF9RQXEyQmt5aGFibW1qbGNoVE5YTllJdHNqNUVVVGZITFluYzl3M3F0aHVEaW8tWWNBM3lvQUVraWt2aEd4cGhRa05HWlc1RnFlU1FDVGZLV19iUmpPZy1OWGRORVN5MC1BSGVDdWY4UG8wRWFTMTVQOTJpVVctX0pXam1mU21mcVZOdWZJRng0RE44Y2lyOTRCSTlBSUI0NU9NV01UUDJyM240VzN5QWM4THg2Q1ZkYkRZLUpqUGZXelBpQ2JuaWpqR3JFQ1B4NHJDRk1sTFB4LXc?oc=5",
-        "date": "Thu, 30 Jul 2026 17:04:26 GMT",
-        "source": "Google News",
-        "company": "Lightspeed",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Lightspeed Commerce Inc. (LSPD) Tops Q1 Earnings and Revenue Estimates - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNHVwXzFVQ29ndy1DWjVJYmR5NGZobHkzWFNwcHdEMDh5eFdDR3QtelduXzNxbWVod1lxdDlnTV9feXZUZjFzU28tekRUNXRjQWFiWkd0OW8wOW0zMnRIanM5ZWVtbHdDSnlQRFdzMnNJVWVXRE1KeXp6d0R4SlFmQXVCaWF1UXhKa3pjRlYyTjQwT2JSSnhEVWNTZW1HZWs?oc=5",
-        "date": "Thu, 30 Jul 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Lightspeed",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Compared to Estimates, Lightspeed POS (LSPD) Q1 Earnings: A Look at Key Metrics - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOM25xYTdyXzQ3Q3hWLXNoa3AwY29UdWpkT1ZsMlQwaHI4UG5XQmlHSGJUSHQ0Zm1ST253N3FKYzdFZHZHdl9jeGItSDFOaVF0akRvcEhCbnNueWxvQWhlNVRLRXN3NEl0Q0FTaHdtY1ZUQlE4OGVJekNuQUVOejUxZi13RXRsV040TllmQXRPdHVTNW1YMXJqS1FtT0xNdmpYOEJFN3hR?oc=5",
-        "date": "Thu, 30 Jul 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Lightspeed",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Lightspeed Commerce Inc expected to post earnings of 12 cents a share - Earnings Preview - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQkZCRkFYOWJCWDh4bERVOUZMVG9wSFp3eFQ5a0IxUkV3SW1XRGU1dk1yeTk3WUVDWW85OEt3MGZpVkpKTnVQWmJmWXk1MXV3UW9tUi1NSk53S3pSYnl4aG1NZVVhZlBlYkk1V0tXVzhEVWtEdVlRTE92RTJLb0FpVXNKMnpaXzhpRHliZ19aREJWTHhxZzdEM1hWWFhtQXhuZmVYNHZaaEwwSmo1bjNiU3ppZG02LU5SVHhYNFZWSEVqcUZzNmVVR1JxcnloNXU1NTZwYTJkRVhpWmVHeUJVQzFUMDBBLWtVb1NlcQ?oc=5",
-        "date": "Tue, 28 Jul 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Lightspeed",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Ahead of Lightspeed POS (LSPD) Q1 Earnings: Get Ready With Wall Street Estimates for Key Metrics - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcnZBUVVUd3Q1WDNUR3FXV0M1aEw5RlBjcElwaWdUYlVzbWFucXJOWXNpSXV6azdzUUxNWVZBMGRyR0szXzhBT2FjdDhXaU1kZlpmcTdCdGEyd1dxTGhzMlUxQ0lwdTVxUEJrMHdCb2t0dkR5UzB3bDFJa0tBeUtMUVJVOWM1TXJwRy1vRVZzalZqLU40WXZqeg?oc=5",
-        "date": "Mon, 27 Jul 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Lightspeed",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Lightspeed Commerce Integrates with Meta Conversions API to Help Retailers Measure In-Store Sales From Digital Ads - PR Newswire",
-        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNZE5EcDlvWWczX19Fc2cyMFdkNVNiNVhPT0tuaktPRGtGM0hCbWlFamVTVEVDR1dja2M2aTNyRHViTFZtaTU2clFLcC1VNzE4ZUI2MVJGYktNT1lRamVMMGhWRWtzbHF0dUs3SllpVHlteVFTNlVKYkdsYWI0OE9hUVZSRzZXVEFpM3RXa05QQllMOXJqb0x4bkNlV3lKRURxXzVtMnhKTndncmhlTzluMlIyR2lDUjAtZloyZ0U4NkdaeGJRNTI2RTZKS3dNQm9YeTBYb21tYlZWNmxabmxmTzZVNVZxa0RUZnE3bUc4VV9mOVNFaWt5d0xycmZ0aDg?oc=5",
-        "date": "Fri, 24 Jul 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Lightspeed",
-        "type": "public",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Lightspeed Commerce Advances Unified Commerce Vision with New AI, Payments, Fulfillment and Operations Innovations - PR Newswire",
-        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPUTRBTnFQX1dtTm1PU1kyRDJkYUpKSjFIVDd5Y0tpcDhETXBhSkZEMDZKUU1vZ2JfWjl0b2t5NlFIRXh4WGdoMWJKOXdGRzZLV2ZXYVNtVnRkWUVOUEp6Rm82NU1tSWdsWkRLcGw4NjItSGE2Mmk0UGIwcU40QS1NNzVnS3pkZEpnY0ZEN0pvZWdjVEpaa0RKdGI2TG1DTFdaemVxbkVKeW5HLXNXUFJaM0RTRlc5WFdlSThRS2tCLUxubFQ5bUd5azBOMkJ1MmY3Y0pBZFBoRHI5aGJmLUQ3N2JJRHh3YTgwbTRSaWtMeEJ2cGh4R3dfcGVSYmo?oc=5",
-        "date": "Fri, 17 Jul 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Lightspeed",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      }
-    ],
     "TalonOne": [
       {
         "headline": "Key facts: Adyen NV (ADYEN) jumps 16.4%; completes Talon.One and Orb deals - TradingView",
@@ -783,9 +935,9 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Unpacked: How agentic AI is reshaping the consumer journey - glossy.co",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdldEdFRTcnczdnRuNk11ZGpTUEtRcF9sZ3FqaE9WT0hQMGV1akpDVmNtRk5FdVItaXZvczVidkduMUNrYUNOTkRYX1RXenBVUnRkbWprbkpwTVhRM0VPU3lfWWs3RjQ0QjBHWGdVMnU0cmpYVE1lcHNjNmZBaTJaanFoQXY3eDg2cUlFVm1JQWdMS2RQ?oc=5",
-        "date": "Tue, 21 Jul 2026 07:00:00 GMT",
+        "headline": "Unpacked: How agentic AI is reshaping the consumer journey - modernretail.co",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRDduUEVoUFA1RXFfQWx6ZU5zM2xVUEVtM1psdHA2LW9XU3VkSzJpN1Foa1ZZaXF2aUdxWmRYSjM5NWwzSmpfT2dJU2lKMDNkY2xuRFRTeUV4X3hiYUgzTWRCbDVQdXl1NUZwZHlYcVFEalZoMUszb2QxVnlfSHZkSnJNUHZwLXNXVk16OUZqdVlJVGlkeFBBTEJKRDI?oc=5",
+        "date": "Tue, 28 Jul 2026 22:00:19 GMT",
         "source": "Google News",
         "company": "TalonOne",
         "type": "private",
@@ -833,7 +985,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Adyen to acquire loyalty platform Talon.One for \u20ac750m - fintechfutures.com",
+        "headline": "Adyen to acquire loyalty platform Talon.One for \u20ac750m - FinTech Futures",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1TOUVSak9kT0E1YjJURVdCOUZfLVV5UFc3VVpmZXc1YUpzQmZCR1VJTVR4azJWZVFZRGNGel9wVHJrZldTWGdZYzZlRnBZSnAxaDUxX1Y0ZzAwRjh0U3g4RzNWaGUycW9zZ2tBMmttRVFjbVhWa1NrZDZB?oc=5",
         "date": "Mon, 27 Apr 2026 07:00:00 GMT",
         "source": "Google News",
@@ -873,7 +1025,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Adyen to buy German loyalty platform in first-ever acquisition - americanbanker.com",
+        "headline": "Adyen to buy German loyalty platform in first-ever acquisition - American Banker",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeW5HUnRXN3cwSVo4RF9vXy10ZjdqeHRBOVJROHRyY2ZGTVZRbndaYlJkMkc1V3FSREp6QU5YYkZmZ0p2eWlwNG10LXdwNnRnRUpPb2ZkM2VoZnJFWHlDaVpvc0l5NjR5bjBXNnFpbnJNWUJzN204bUZFUUhuaGJXeTBzYVVKTTlGcU1PTWxpLTNOQ29jVTViYQ?oc=5",
         "date": "Fri, 24 Apr 2026 07:00:00 GMT",
         "source": "Google News",
@@ -1053,137 +1205,25 @@
         "type": "public",
         "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
-      }
-    ],
-    "PAR": [
-      {
-        "headline": "Narinder Singh Acquires 11,518 Shares of PAR Technology (NYSE:PAR) Stock - MarketBeat",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPS2Y0Vy1OdklaVjNzV3dWaUNyQUN2YXl0dVlTMkNyYWVseDNkOFZRWmdnSmFIVnI0U1c4WmVrU1lJRTJKbEdLVFlmM0ZlTkFnTnpSYWgxM2FGNTdvbGdEZjJnMEdKNnhIeTFqWkQ0azZ6NlozRTUxQlpRbTZmU2dIYWdRU1NGckV2Z0ZhVTdYYmI2MC0wNlVXdzBENGlqLWlsNm1rZU5VVTk3RHdzNFhHMXRCbU02dlVNOHVVS2M3MA?oc=5",
-        "date": "Thu, 13 Aug 2026 21:23:55 GMT",
-        "source": "Google News",
-        "company": "PAR",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
       },
       {
-        "headline": "PAR Technology (PAR) director acquires stock in open-market trade at $17.36 - Stock Titan",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYmc4N2xzNDZZZUdZRGZGOGhDNmNON05GR0swMTRhb18tbGlMSDVBRm1Nd1oyUDNYS0tsdmpTY0lwVkl3cE1SSVAtZm1RNkF2dWgybFRORnR0Z19pSlhTNjNXUXRVV2N0WkQydzNhci1fbWg0WUY4YUdPTmM5dU0xaTVndjJaV3pMM3ZlWDJMLWhUNmtEV2xPVzVIM3FKcy1XcURvbWhzejBfdWV3emJBazhn?oc=5",
-        "date": "Thu, 13 Aug 2026 20:43:47 GMT",
-        "source": "Google News",
-        "company": "PAR",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "PAR Technology Corporation $PAR Shares Sold by Bank of New York Mellon Corp - MarketBeat",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNGZJOWtRUFd5anFpc2lFUF9JUlRLb2pmZmdMcW9uUzNPeXF4M015X2RYV2Z6b25LbWJVT1B6Q2VaWE56MEFUMlZRQU1lZjZ4YWdVMUFsOUpqU2FDb1VUeFVXSUtxc3RjeFFZb0lucDhvSUJrOGhHaHpzeE1kel9vMU1QaTNUdmdiTjl1dm11RndpX3BrcUxwcmNGbFdzQmpIQVdiU08xYmZ5SUxFQ05yRXZvcEFndXFJcGM0d2F0dms0eGhQeVJCczdtQVBzaU1L?oc=5",
-        "date": "Wed, 12 Aug 2026 07:11:37 GMT",
-        "source": "Google News",
-        "company": "PAR",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Dimensional Fund Advisors LP Decreases Stock Holdings in PAR Technology Corporation $PAR - MarketBeat",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPNDBxOFNUOEZtYktOUjVEcUZiNVduVzhRclJGMC1jb1hOWmE2LUpoUjkteDIxUy1Ra1RaWlZzRllEYUwwZU0zRTlQbnQzM19ZaTBhczNjNVpvTEVGcFdBV3NfWmpsNnpYeUF2cFhPbGVxOUVSeFhrWFM3OTJocXJpQkQ2WnlCd2Z4d2FNSndWMUEwRHVSX3lCSWxxenBJUlo4Vmx6V3M3cXhURGg0LUtCOHZwMkJlVDZCUFVobnBFMXZIVnFHc3hsM3Z1SUoxcEh0dEp0WWlLNFRndU5jNGxjYnZn?oc=5",
-        "date": "Mon, 10 Aug 2026 07:48:27 GMT",
-        "source": "Google News",
-        "company": "PAR",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "PAR Technology Corporation (NYSE:PAR) Just Reported, And Analysts Assigned A US$25.31 Price Target - simplywall.st",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPLWtXUVFWR1JKYVgwNHJtZ21MbldSZ3VrQ3dwRkJpbU5HVS16d0JMdHdZN0l2bFFlS2oxZkJpcndmR1ktbXdSWk55WXN2V2VlQldmaFFRSmJlNk1xTlRLeTBYWDY2akFEX2hNUHZ3N2VUaENBc0wzZFFRRlJWVU1WemkzMUhSN19zQ3l4blY3ZWYzQU1OR3pnUnJkYjkwRjgwVlFkZUZMQU5WSDNjTkZUQ0hXM29qY0VKTmV2bXV6dXBCVXVCSlB2SmVR0gHPAUFVX3lxTE1mejJQcTV4TGtkejF3V1pqNHczQnhKTmgxZTlPUExwdVM2eVR3dzBNaGg1MmY5d2dMR01tQndoY1U3eFRfVXlkQU40Tm5ITmd5QU40YWpXenhnN1JTMG44T2ZJZ1FDb0JIdnc5dDBGRnlUMHFPREE3RGZ0T1VqZ2lfQWVqcnhMZ1U5QWdQeHlxRklvd3dJX1JxdHlsWXdMUkJET0lGVjZzZ2VOa2t6X1hQTWNxWTlpYUxPTlBpQzYxVTA0empYZG1qaFVfRF8ybw?oc=5",
-        "date": "Sun, 09 Aug 2026 12:53:20 GMT",
-        "source": "Google News",
-        "company": "PAR",
-        "type": "public",
+        "headline": "Restaurant Pitch Deck: Complete Guide to Securing Investment in 2025 - pos.toasttab.com",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Ldm5Mcm5WdU5SaTlsdm1id0lTanRieXJ3c2lWajVkUmw1enZZdjZXRmJCUGFkS3pldTR0LVItQ2dydnZ6aVpyVTJielhvOFlzZEpIaWdxakJ6RkV5cGRyTVVQSHFIQThib2hXRm1ZN2M?oc=5",
+        "date": "Sun, 21 Sep 2025 07:00:00 GMT",
+        "source": "Google News - Restaurant M&A",
+        "type": "trade",
+        "company": "Toast",
         "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       },
       {
-        "headline": "PAR Technology Q2 Earnings Call Highlights - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVFdXRXdnVHpnZXkxR1ViWXVhRzZaa1lYZzdtUzFBa1ZHS2J3eExEOGdkQXlSY0E3NWhsTXNaQ2hfVVdVWUlxSDN2aWZBa3F1eVdQTFctZnhSZnU5bDNyY3JRU0M4Nl9pTGdOdFRINmxSZWVoSUtwTTdKRXhrY3pZRDY4Y3ZweEh0dEtURDE2QTNfdEJhaHRHX0lEbko?oc=5",
-        "date": "Sun, 09 Aug 2026 00:03:00 GMT",
-        "source": "Google News",
-        "company": "PAR",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "PAR Technology (PAR) Stock Jumps On EBITDA Progress As Losses Linger - simplywall.st",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNWF2YnpKRVA3cEdfcXc3WGhhRWFqNTI5WWxaejN4dHgzRl9hc2RIaENHaF9ELU9RZS0zaXBpUU1kTFNyd2xDdWdFNDNIZW5GNUJTVHJac0dYM1p2eTh5MU01MWgyQjdpUngxcEVELTVlbkYxYUVILTFCdEhRdTBmMFV5VnVZQlJRQWNMM3BkVnFFaXNrNUlWdGxKYWJ1M2Z0d0VvS0g3T1pna3ZTNXRmV3VMSlBkazBXSUF6ekoybkVfdXRyTW00Q9IBzgFBVV95cUxNeG1lQk96NjRrNlBlc05ZQVVrbW9RSll6ZG5IcU82WmxmZFVpX1gySmdVRzlPcGIzOUtlZHNKVV83VDVFOVp1ZnVIZlNFWXYyblJybGZ4TzVxNHFZSGVvZ0tMeEwtdW9FS2ZOdGNIbU5wM20zekZ0RDE2Ty1IMTdFbk5GUEhNRHpScHlWU0c1R1kxSF9IZGI1YkFaT2tieVpBWE9IOE56azhwaGU5WmZMTUdqamtSdVpUTFV6SUxOcXE0U1pYdWlMR0tQaUpKdw?oc=5",
-        "date": "Sat, 08 Aug 2026 06:40:13 GMT",
-        "source": "Google News",
-        "company": "PAR",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "PAR Technology (NYSE:PAR) Delivers Strong Q2 CY2026 Numbers, Full-Year Outlook Exceeds Expectations - StockStory",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTEpKQjN6OEhlbWs3ajFnNy1vMHEwVXF5TklkXzczN2dDZld3OFhHRFJRZ3B2b1R5dm9xUnpPc0lIZlZRcVM0QVhfelJVcGFMRGFuOEN3eXhGM3laSTdsbXN5R3JYdHNKa3ZvaFJEY2hqbldHRDIxQzQ5NHE0ZEpGeDZIcTUxUmVsRDlFOE51WHdiT0lPYmdaZlhDUTNBZUdydmxXX2pNX0xNdVBnTnJhS2w3MjFmRnlrMEpscXl3aDBZX2xJRVBpVFFKMGtHUmlMSktLSHd5bkFISm9LaWhnLXRxTDJWdw?oc=5",
-        "date": "Thu, 06 Aug 2026 21:18:33 GMT",
-        "source": "Google News",
-        "company": "PAR",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "PAR Technology: Q2 Earnings Snapshot - khou.com",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTnNmZko3WVJkNFBmV0JudWd4aDQzb0lhODkwYUdJQ2g3ZjhpeHl1Q3Q1NDYyamlnVmFENkpIUDFGVWN3WEdUUnJPNEJQV0tZRzBkODR2NGpCeFZPcktHYng0Vk5wM0RVbHA0REkxQ2VnWlo4dEZWYXVHRWpiNXRBX0lDalNVNHp1LWpsMThmTml1dWxLanRSOUlkUTlPQXMtS1hwd29OMTVoeVVDdWhnN25xa1A3OHlYd2tqSHg3d1pFbkRxOTBSN1dqMmRNUQ?oc=5",
-        "date": "Thu, 06 Aug 2026 20:42:00 GMT",
-        "source": "Google News",
-        "company": "PAR",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "PAR Technology Corporation Announces Second Quarter 2026 Results - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbm5VNGdadk1MNFZFSjBtdEE5UWNkdVBCSlQ1cEl4bFFOSmIzYmJVV0NIakxYdERNRjFId0tTUFhCS3g1TklGZ3kwV015RE1sOUFDeGNUTHhBQmNiUU56NERHOERZYUw4clQ3aGs0Q2IxMHNqNmhpNmwxcDB3bEd5S2V2U205VWNqcUpTQTRtQWlYYWh1ckNjbXdiZmVzTzA4VzFtb1pRcE4tcU01?oc=5",
-        "date": "Thu, 06 Aug 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "PAR",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "PAR Technology (PAR) Surpasses Q2 Earnings and Revenue Estimates - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVlZINGlaVzBaWEJPc1RIOEN2bWNoSHR5ZDhVRGtJX0N5VjlRcEZMdk9CdDJRWld3eWhKbHZ5YXBycnc4ZEViaEtDaVZRQVRGQkNXOUptQ2hpWU5WaF94eTFjdjRXSWRfSmdqeXdleGJPbmd0ZDBaSXJpV1hmeVYyMmhWWjlwMDZCLXpGRzhfeENTWDJjd2g3RnR4U2o?oc=5",
-        "date": "Thu, 06 Aug 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "PAR",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "PAR Technology (PAR) To Report Earnings Tomorrow: Here Is What To Expect - StockStory",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYlZOeWdZY01NUkVKVE83c0l4R1dMeU04N0wzaXhSbDZUcVIwdlFBOC1Fd1AyXzdqS2s5Y0NDVjd2OEFxUTJZcXJYS1E3eUVDVmhEQmJMX05YN3ZDZ3pISXlTS0tkRUl1eExPYlBsQ2QwY1U3T20wRFVYbGRraXRLNzU3STJpLUhKa1hzUHdObllBSW14M3BTOW9JeFJLaV9hM1VXX2QzNTFuenlNS19iTU05LTNDRDdYR2xwT2NUS3FRNm96Q3c?oc=5",
-        "date": "Wed, 05 Aug 2026 04:23:01 GMT",
-        "source": "Google News",
-        "company": "PAR",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "PAR Technology Corporation Revenue Breakdown \u2013 NYSE:PAR - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5PU18xSzhjclZMOG82QXROS1puR1pGbURUTktLZ0owczZfUnNRT0pqT2FVNExOZ0RRRXFuaHYta3VXYTB2U2N3QndBWC1ZV01xdmp5Wmc5cmZ6YkJUeWlUWFFUaDBRWldLcDM3ekNlSXlYMVU?oc=5",
-        "date": "Sat, 01 Aug 2026 06:34:59 GMT",
-        "source": "Google News",
-        "company": "PAR",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
+        "headline": "Restaurant Trends Report: Where Restaurant Sales are Sizzling and Fizzling This Summer - pos.toasttab.com",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBvYVlnZk5JNjA4LXM5dXp1blZrcmxOVXgweUF0RnBUYVZYMVc0TUJzT3VrTHowS1hfNHBWTnBVVmF5ajdpX1I3WktTcWZ4aVFrZFdCRTZ5bGd5SUFzQ1YzalNPQkFGNGxLQkNF?oc=5",
+        "date": "Tue, 12 Aug 2025 07:00:00 GMT",
+        "source": "Google News - Restaurant M&A",
+        "type": "trade",
+        "company": "Toast",
+        "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       }
     ],
@@ -1219,7 +1259,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "FI Stock Disaster \u2014 Fiserv Just Shattered Wall Street\u2019s Trust! | What Really Happened Vfl Wolfsburg Vs Bayern Munich Standings (RKl9yOGBBk) - Mshale",
+        "headline": "FI Stock Disaster \u2014 Fiserv Just Shattered Wall Street\u2019s Trust! | What Really Happened Vfl Wolfsburg Vs Bayern Munich Standings (RRKl9yOGBB) - Mshale",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1zVEVpTXY0cGJMaVBRVkVlSmRJZmlOUWM0c3AyUWRrRGdpWWxBRng3VG5ZaHMyOUplbVNkMFZmTzRmMm9MSVBqTzEtellGTF9BOTktN3JsY2JzTWM?oc=5",
         "date": "Thu, 13 Aug 2026 00:15:31 GMT",
         "source": "Google News",
@@ -1381,7 +1421,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Why the Uber Eats Priority Fee Lawsuit Is Really About Delivery Technology | - Restaurant Technology News",
+        "headline": "Why the Uber Eats Priority Fee Lawsuit Is Really About Delivery Technology | - restauranttechnologynews.com",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOc3g2RnBzZHBFUjZsS0l0LVpnZXdMOU94WERRYVU0Z1RIV05vdy1ZZmJBMExpNUdGTUtENWpIWktvMUlWYlVUbFE4dGVRM0tXNWJyUmNZc2V4TU4wRWI5M2dRbTBBTTNRUmR3T2dLR0hid3hZYkVqWUdUV0RIQnlJUzk5bGQ5VXNYMXFvTjd5RENYZFA3cWxEbDRjTzUwc25TN1J6R1h5bm5mVXM4NHlqVmtQUFBzMXYxWTRSMA?oc=5",
         "date": "Sat, 01 Aug 2026 10:12:38 GMT",
         "source": "Google News",
@@ -1675,7 +1715,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "TouchBistro Gives Restaurants a More Connected Way to Manage POS, Payments, Operations and Guest Engagement - Restaurant Technology News",
+        "headline": "TouchBistro Gives Restaurants a More Connected Way to Manage POS, Payments, Operations and Guest Engagement - restauranttechnologynews.com",
         "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPODRjQ2lYa0ZzaU9yWkI0TFVOSVA1ZUNmYkFyZUxaUnlPVnk2RzMwd2RiN19teU9VNDZRbFI1Z2lxTGM1Qm5zcThfRDg3SFBsanZwOG01OXJzQnBpcm9HVThKQVEwN3lWYVpYQ1ZGSXpYeU94ZTlGQWt1cmgxNExqLWNGNDNhVmhmMGNPZ0hMWGFmMnhqOWdfMEw1SG1ST0tXdTdZb25sdndIdnk2bUppelhMaEZsN0lNdTRyZXhlNGpkajZpNi1IeXNHOGRwMVl2a0JJNVlyU1dTVzZOOUNkOEp3bVJxZw?oc=5",
         "date": "Tue, 30 Jun 2026 13:13:33 GMT",
         "source": "Google News - POS Industry",
@@ -1797,7 +1837,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "SpotOn Gives Restaurants a Smarter Path to Profitability With Connected POS, Operations and Practical AI - Restaurant Technology News",
+        "headline": "SpotOn Gives Restaurants a Smarter Path to Profitability With Connected POS, Operations and Practical AI - restauranttechnologynews.com",
         "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQNm1QOVFkVENOblJNa3FTTlhZWFY1UE9Ga0FTUkpKS1c4QlNOeGcyZXJLeGNfUVpGbm9wTWVKbkdITGZfRkZhSWdNa3F2SDNoUTVZM1E4QUl4ZjJDZXJjX1ZKVFRXNGtsZTFGUC1CSnJCVjBKMUZWOGFIaGJoWFlBeC1jaFNzLUY1TEFQMDRtVmstY2ZENW5yWngxbWtDOXNGbUU4S1JzRXUteHBOTEdKcldBYUZwVmNWRDQwdnZRTGZBbFJNU2hjaWFkR2RMa3YtcmtZamdnc1BQU09xdjZXWE53TQ?oc=5",
         "date": "Mon, 29 Jun 2026 08:44:49 GMT",
         "source": "Google News",
@@ -1917,7 +1957,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "SpotOn Named #1 Restaurant POS System in G2's Winter Report Highlighting User Satisfaction and Growing Market Presence - fb101.com",
+        "headline": "SpotOn Named #1 Restaurant POS System in G2's Winter Report Highlighting User Satisfaction and Growing Market Presence - Food & Beverage Magazine",
         "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTjYtZjQ4cGZoNi1Zb2lTcThjbW9WeGhLSm5qRjBJcUtZYUJBcS1QN2VFTjI0TFJUNXQwaUdkSmFHZmdBWnRETDFaSm1FTFRnb3JmM2ZpcktxYWNJSkpfZVdNWnZndkhNZk5fNGdoVWtkNVJsZXk4OE5nVUJJQ1lHYWRfNTVUOWUzbHF6ZnF3d1VBeVFqNFFQek81Qmxia2kzeTF3Ymg0aFVkck5JdkhVUlotZGU3d2NxU2hfaGtWcWRoS1c1TjlHc3dUT0dHNFdhcTB2eg?oc=5",
         "date": "Wed, 05 Feb 2025 08:00:00 GMT",
         "source": "Google News",
@@ -2009,7 +2049,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Deliverect Launches AI Agents and Smart Assistants to Boost Restaurant Sales and Protect Digital Revenue - Restaurant Technology News",
+        "headline": "Deliverect Launches AI Agents and Smart Assistants to Boost Restaurant Sales and Protect Digital Revenue - restauranttechnologynews.com",
         "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQUjNKWW9XR1owSDBOSHV1S2JsYzN1MkFGRXZzOUh3dng2WVZKbU1tamVtRy1pZjZyajYxUk5YZ1dXNjdxRXlSUkVveGRUQzhYSWc5ektkOEJIck1hbU9aWXc3cElBTS13ejdxRDRuSU9SaUZTNzhBeWJPYjVhaldGR0dnbmVuQlExWU5TdWZRNnlFa2d5eWdzQkRaUXlPTjFpdUJETDk0dnVnZWJIeHBZMVFXcWduekVHdXN3WUFsaTdtRGhIQWJUOG0zS2tIcUpuT3A0QVAyZHE4c0xuMnN6SkRqRTE?oc=5",
         "date": "Thu, 09 Apr 2026 08:03:11 GMT",
         "source": "Google News",
@@ -2193,7 +2233,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "AI-Powered Digital Menu Boards - Trend Hunter",
+        "headline": "AI-Powered Digital Menu Boards - trendhunter.com",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBIRm40Q0M2NXdLLTFnazloVmRXdjZqN2tvMnFRMkdOZ0ZqZFZXSElZM0U2UmhyMHpPcjc2VThJS3M5d2ZhcnRrV3hsalhOZExybEZxdG5MTkxMbkg3T1ZiRWhsNTFjRFZ1c3Zta0tSQU5nM3M?oc=5",
         "date": "Thu, 11 Sep 2025 07:00:00 GMT",
         "source": "Google News",
@@ -2223,7 +2263,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Checkmate Raises $10 Million in Series B Funding Led by Tiger Global to Scale the Adoption of its Restaurant Voice AI and Kiosk Solutions - PRWeb",
+        "headline": "Checkmate Raises $10 Million in Series B Funding Led by Tiger Global to Scale the Adoption of its Restaurant Voice AI and Kiosk Solutions - prweb.com",
         "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOSHRJdUw4Zl9yaEFoV3pKd2hsVy1KRFliSU9QeGhsMndxTXMtSzR6MkZuLVpRUTRPdVQzaExfZ1hHRVRtVE1JZENLeWljbWphc2l6UndCWHAyWVBJSlRNT2MtUkxNNVhIUFQxM0FMOFRlU3lLTlNvNGU5SXdwRk5mVmxmVjlZeUgxSkxDZ1RzOVpTRWVCdUM5LXJWODZGN0xBUWN0eU5LcHI1Vk9mTkNUdzQzTExCWGh3ZDM3VXZpQmhBVm9OWl9SWjU5cER3N3FjdE11c2hfU05qcEc2TGZsV1Q3akxod0JMNHFCU0xVbzhMVXIwU1g0ZGpsNU5xQ2VYMTcwUXlkNVI1VF91UUhn?oc=5",
         "date": "Wed, 23 Oct 2024 07:00:00 GMT",
         "source": "Google News",
@@ -2243,7 +2283,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Checkmate acquires VoiceBite, giving restaurants an integrated voice AI solution for phone ordering, drive-thru, and whatever comes next - PRWeb",
+        "headline": "Checkmate acquires VoiceBite, giving restaurants an integrated voice AI solution for phone ordering, drive-thru, and whatever comes next - prweb.com",
         "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOUUJvQ0VSWnZ6MVBYQ1FFZWFJRF82OFBMQ3BTbUZ0d2NkaVQzQ2czbk9MMTFDRlBkUmd1ZjRSSTF3V0ptalE3NGJoRm5pdGlzWEF3Y1FCN3p1SWdoTi1Ha3lHRFV6ZFNMZzM5aDVpWWtCeEN6QXUzT3NZOXVOYnBlc0RIbkR1VHhDUGl5d2NpMVpDUDdoM2VZUjJyb3dZd3pIU0t6QXdhZk1tRjZ0azBETjhOV2dHZEU1dlZOY2RHYzljTnBhN1ZxeGYyYzh3T2NWYS1uLW1FOVFkc28wdmhsM3lVTzNMMkNvV1gxTzlUbzdaOUY1T1NVZkdyQ0NQV2R5MmdzU2swbG9RMEU?oc=5",
         "date": "Wed, 08 May 2024 07:00:00 GMT",
         "source": "Google News",
@@ -2325,9 +2365,9 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Block shares surge on workforce reduction, in-line fourth quarter earnings - Proactive financial news",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVFE0WWJUMndXWnMwdklNSHF3UkhIdHAxc1VXNGYtU3RhSHpmM3Z1RUZlNDRWdTNkTG9wWFlsV3hOZldHMWlZN051WkpoSy1YWHpVTE43YThWd203dXZoRzRmR2ZwemlqR1FDRDRuaVZueTNRbUtPX3dSNWVXRHFWTGVwc3VXMVJnUGQyVGVCLTZ5V2R2YTNHVXJVZG1qTXV2OGtTdVA4SHJTR2M4OE9UdHQ1VUNUeUxMSkNUcjM4VWZ0ZE1TdVNHc2ZwcmNGZFFEYmtkM1o4anBVT0R5dFR5bA?oc=5",
-        "date": "Sat, 28 Feb 2026 08:00:00 GMT",
+        "headline": "Block shares surge on workforce reduction, in-line fourth quarter earnings - Proactive Investors",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNT3Jld0tNWjkxNld2SDhWOTZoUFlFcGxGX3J1UEhZOTdOQmxaQUNDb2dhNl9qcUZkX2pPQ3M4UkVyT0czUUlGeUN1VXVKdVVNRWNYTmdEWWc4NUY0MUIxZDVaWnk1SWFZZGNvS1pXdG5vQnVnajdUYnlWdmNKYjRETGlqX29tLUJ6X3UzWjNxNERva3RRc01OSjlGSUNMZHMzS2dJejNYVEhMXzMxODZHbU12RGtlb2Q5M2RDV2xnU0dTTDRLaVBOaFlxUlAtdG5jb2hCSE13dlBHUDhmTW5Z?oc=5",
+        "date": "Fri, 27 Feb 2026 08:00:00 GMT",
         "source": "Google News",
         "company": "Square",
         "type": "public",
@@ -2527,7 +2567,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Tillster: 61% of users want more restaurant kiosks - customerexperiencedive.com",
+        "headline": "Tillster: 61% of users want more restaurant kiosks - Customer Experience Dive",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQ3ZsX2JNU2ZFRXpfQV9EdThhcDF0WFFZRWFLQ2Y2a1NscEVqS2U4UjhwTGhoMDdjbm03Q1FiZEhoNGwtWkpUVVlpNWhSdzdURzBUS0VlMG9GdGEyTDgyNEQ5R19oRFlPbG9CY3RHV0QwMU82cWszc01sNGFsWVBObmFBbWwyc0wzVm5RZWpsbi01WVFaaGROeWc5aXdMVG1BVWprSEJFZUp2bURxVDZ1MHZLV1Mwa0p5QnEtLWJBeWM?oc=5",
         "date": "Wed, 16 Apr 2025 07:00:00 GMT",
         "source": "Google News",
@@ -2619,7 +2659,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Inside the Otter and Sloane\u2019s, Alex Stupak\u2019s New Seafood Restaurant and Cocktail Bar in New York - Robb Report",
+        "headline": "Inside the Otter and Sloane\u2019s, Alex Stupak\u2019s New Seafood Restaurant and Cocktail Bar in New York - robbreport.com",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMV8zNUhrQUYxMGNOSFJ5SnJ4S2RyUW5rSUxYbVNvOW42SjR4V2xsOWtmNWlJMmg1ZmFLSzhWaVllV09QS3hXamdBeFZzalBreDN5bEJtSm9fbWlIQUY3Q085aFNhYjEtVXJZRXpPRGpVdkRYeEh6VEdrVFF5dlp5b211aVpPeFNfN0E?oc=5",
         "date": "Tue, 24 Sep 2024 07:00:00 GMT",
         "source": "Google News",
@@ -2669,7 +2709,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "West Asheville's Lucky Otter restaurant to close at end of the year - citizen-times.com",
+        "headline": "West Asheville's Lucky Otter restaurant to close at end of the year - The Asheville Citizen Times",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeDIwQkdMc3JIRURjNU9HY1RELVJ0aXN6SVQyOHZCdGtfZkktRkdRSGZNZ2NlUFdLbGVoUFhHenBSWWs3WVpoOGVKSi01RHNPVURETEdEYnhBeWNwaDRYaFdYcU1zSEI4TWloMjhRUXYtSEZ2VlU3YmpRcUR1eWpYOU41YjRlMHhub0NnbU1ncVdTaWtpSDVUTDZmdmlLWHd2S1Rna25PSkItUlljV2tJUU1LQnJTNmtNOVpudm9Kdw?oc=5",
         "date": "Tue, 26 Dec 2017 08:00:00 GMT",
         "source": "Google News",
@@ -2701,7 +2741,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360",
+        "headline": "Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - loyalty360.org",
         "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMHJDVWdfMUJ6dnhVVnFkLXM5VDhrNEV6eHBJMnlZdXhsQ3hORW85OE1Ea3FMNThaVzA2dDAwR2tBaHhzSmF5WVpIa2J2RnJrYVF4QW1qcWJiTWpGZ2xORi16bkktUVVRd0N1dWNoUVdVSWtuWUlrS1Rza1IyRl9GX1VwczdCdmRhdEhTNWxKcHN1MlVlY0dDSjBqN0E1S3FPTHFVcGNJRzB5NXN3Z05KWGl4NWc0alFGWGFqUlRfLWJmV2ZDbFd3RTRlbV9VQkJ2X1MzZEdxTXB6Y0RUajVOM08yNA?oc=5",
         "date": "Tue, 15 Oct 2024 07:00:00 GMT",
         "source": "Google News",
@@ -2711,7 +2751,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Piada Italian Street Food Partners with Sparkfly to Launch Enhanced Loyalty Program - PRWeb",
+        "headline": "Piada Italian Street Food Partners with Sparkfly to Launch Enhanced Loyalty Program - prweb.com",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbjhJcDBUOVpyMDhxN1FrajA2cUFEQ2RkaE8wQ2QyS2w5SjJFOXA0aDFLWTdwZ1VVV0xvOHRKR1RJZkEyeXpLOFhqcV9jRFozRFRrQTdhVk8zd0t2QzQ3RjdVOUtDbWR2QjlHa1duRTczOEtweGZXV1lRVmRaQ3BMNllvR01RNnNiNFNudWFGdDBET09sd3EzNF93b0ZveHg4X2RmWTJ6WlVVT0Fvb2pweGR3R2tydWhmR3o5d0dwa1IyQXEtMGdKNA?oc=5",
         "date": "Tue, 24 Sep 2024 07:00:00 GMT",
         "source": "Google News",
@@ -2945,6 +2985,16 @@
         "content_type": "press_general"
       },
       {
+        "headline": "Thoma Bravo: $2 Billion Acquisition Of Olo Completed - Pulse 2.0",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9kc2U2NTZLRW4yczJLZnFscmdudGpZY0ZndDFXcmsxRkxtV3I2c0d1SEZlR240ZV90aDVwVWZWVVEtSGozWEFxZE1yQVhYNGRHRUM2aHM2QnByU1J0aTBQWU5ZVm5nMk01UE9CSkRiSnJ1YlBIbUlTX2tR0gF_QVVfeXFMTmpqZVNoZWhlYmh1dXBTVDVQOXUyNUVPLXZQSzZMNnNPdUYxdmprRXNqdG5nYmFDcHEwLUh0aFNtVk5JaVdRY0MzaVliZFN2Sk94bU5FeTY0R3ZZc0pLd3kteDljQVF0ZXRsYURLM3BpQW1oSFlvenpZbnZQMTdOUQ?oc=5",
+        "date": "Mon, 15 Sep 2025 07:00:00 GMT",
+        "source": "Google News - Restaurant M&A",
+        "type": "trade",
+        "company": "Olo",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
         "headline": "Thoma Bravo completes $2 billion acquisition of restaurant tech company - The Business Journals",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQR0RkZjdwblg4R1RPV1JJVDRwaTNkOFhwZVlvellSYjBjOVVaWkR2MGVka1diMG03R1FrLWUyeDcwNlp4WlRWQUx5SEpRblMwdEtvakNKTS0yLVQwa2h6ajhoYmFpUzZaeUZVTWFQWWZhV1pjU3J2VzRfZlpJa2tmUXJJNjlvNkx1eXVXQXhKMFliaC1Oa0xDbTR2RGpZZjVDMkhpN3UxMA?oc=5",
         "date": "Mon, 15 Sep 2025 07:00:00 GMT",
@@ -3015,7 +3065,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Raine Group, Olo Inc. Board Sued by Investor Over Stock Buybacks - news.bloomberglaw.com",
+        "headline": "Raine Group, Olo Inc. Board Sued by Investor Over Stock Buybacks - Bloomberg Law News",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQT05fSWFsUkhNYUprZzRtbWs0TkdXNDR6dVVFaU1rb08ycnh4My02cng2VWFobVpxWHBDQXcxRlowNGpUQUxlRU1wdUZwT0NCQ1pzTzVROEpBS3FJeWd4VWltT0JHUW80U0hNSHRnb2daSzhvQXFjaTVqeExBUldLUjNYS1ZHZldBaFBja19uQkpDdDJPV0lMbC1aX0g?oc=5",
         "date": "Thu, 16 May 2024 07:00:00 GMT",
         "source": "Google News",
@@ -3035,7 +3085,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Olo Class Action: Levi & Korsinsky Reminds Olo Inc. Investors of the Pending Class Action Lawsuit with a Lead Plaintiff Deadline of November 28, 2022 - OLO - newsfilecorp.com",
+        "headline": "Olo Class Action: Levi & Korsinsky Reminds Olo Inc. Investors of the Pending Class Action Lawsuit with a Lead Plaintiff Deadline of November 28, 2022 - OLO - TMX Newsfile",
         "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNMmhCaWdVelZESUZEVEFvTWhPLWd0cHg4R1lPZFN6a0JOYXNJWk02Z0RiYXY5SmRhR3N3Mkt3YXBVc19iakRaZUlsLW5RRzdDVGQ3ZnFBZFBzSnI5bC14Y0NHV2lfdjVyQ1pWMHlLUGRmSlFJdktvX3BVbGM4dmJLWjRrX0paVTE5UmhOMFdZUlZtdTdIdWgzZW9QVXNuZmYybWRtb1daVE5JUzVERUlmWHJtZVRkV1BYZzc0YmlwTHJJdERQZzRDU1FDMGZvdjRva3dVTUI5VVBaWnF4R3RpVU5oZzFBMHBvRU5fSFVWRGRxVmpNdXNyeWF3bkFrLVJEdnRRVkJkYVhFSTFFeVdfUUpld3Z2UlBIblVRU05n?oc=5",
         "date": "Sun, 23 Oct 2022 07:00:00 GMT",
         "source": "Google News",
@@ -3127,7 +3177,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Here's Why Restaurants Hate the Holidays - Time Magazine",
+        "headline": "Here's Why Restaurants Hate the Holidays - time.com",
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJWHZkUC1NcXIxMFBXNGlsQldXQjRSeHhuUnBSLVZhbXMwOVVTcnRJTk9mTTdrSHlHZmtWRG1CbmpYWFJDQzdIX2tOOUpIUWFJaUtqVmRGQjM?oc=5",
         "date": "Tue, 23 Dec 2014 08:00:00 GMT",
         "source": "Google News",
@@ -3151,7 +3201,7 @@
     ],
     "Snackpass": [
       {
-        "headline": "Sharing smoothies, making bread - Yale Alumni Magazine",
+        "headline": "Sharing smoothies, making bread - yalealumnimagazine.org",
         "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBrdlpCWHQ5OXBvQjlFQjVBTmdSWDJadXZvTTE1TUFFSW05ck9ZMENFR25wNmlJX0dhMTdCeldNU0hDd1VxZ1NpbW91VGVnX24wS1R6ZmZDTDhYWlpBb3lua2ZPQXA?oc=5",
         "date": "Mon, 13 Jun 2022 06:07:05 GMT",
         "source": "Google News",
