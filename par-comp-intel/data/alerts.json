@@ -1,23 +1,10 @@
 {
-  "updated": "2026-08-15T21:48:43.386651+00:00",
-  "total": 2,
+  "updated": "2026-08-15T22:28:49.574342+00:00",
+  "total": 1,
   "by_category": {
-    "guidance_cut": 1,
     "stock_move": 1
   },
   "alerts": [
-    {
-      "category": "guidance_cut",
-      "severity": "high",
-      "company": "Shift4",
-      "headline": "Shift4 Payments (FOUR) Could Be 26% Undervalued On Cut Guidance - Sahm",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQU043SDR3WHhUeVdRMEE4N0pnTXI1NWFYSUlSQVFFYVVtUzh6clM5QXBVNDZVMk5nbUVZSVlYVjRlQU45dm9sQ2drV1RNYWZHRmxpa3Itc1UtNXg1WmdBTDJJcTE4dThFQ2xyLVUxTkxHQ3ZCekpEUGh3bXdtX19FTmltb2RCTkx3d3dibEFCYlV0cHFmMWc4UnFZWlVLbmlPU1pMOFBRN2RDdWdjc0hDRnBB?oc=5",
-      "source": "Google News",
-      "date": "Thu, 13 Aug 2026 23:32:27 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-08-15T21:48:43.386651+00:00"
-    },
     {
       "category": "stock_move",
       "severity": "medium",
@@ -25,10 +12,10 @@
       "headline": "Global Payments (GPN) stock up 8.0% over the past week",
       "url": "https://finance.yahoo.com/quote/GPN",
       "source": "Yahoo Finance",
-      "date": "2026-08-15T21:48:43.386651+00:00",
+      "date": "2026-08-15T22:28:49.574342+00:00",
       "par_relevance": 3,
       "note": "+8.0% 1W",
-      "detected_at": "2026-08-15T21:48:43.386651+00:00"
+      "detected_at": "2026-08-15T22:28:49.574342+00:00"
     }
   ]
 }
