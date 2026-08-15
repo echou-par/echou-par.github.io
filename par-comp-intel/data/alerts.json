@@ -1,10 +1,23 @@
 {
-  "updated": "2026-08-15T14:28:39.641738+00:00",
-  "total": 1,
+  "updated": "2026-08-15T14:48:31.790284+00:00",
+  "total": 2,
   "by_category": {
+    "guidance_cut": 1,
     "stock_move": 1
   },
   "alerts": [
+    {
+      "category": "guidance_cut",
+      "severity": "high",
+      "company": "Shift4",
+      "headline": "Shift4 Payments (FOUR) Could Be 26% Undervalued On Cut Guidance - simplywall.st",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNTkNmSkFiQVMyNmV5ckpVczVwZkhNNjhzaTYzbGthTU1lYmU2VXdidVZWSy1WSnJBckt5YUtrZmRRZ2J3QTNwRnplODgxSnhxbWlGLTBMbGpZb2lsWHpTNHpTbHNsUHVOd3huRk9KcjRBREg5bjFvNG9oYVF3S01WYmRFVC1pNnVGVm1sbHRYVDllQ01mLXRuVXdtUkVPQ3pWVXMwcDhrNlJ0cm4yUmJ6VTc1a2dPbTZlOGN4TUtZSjAtdHdLcmFheFdkMXpCRXRHVUhGb1M4SFNIX09uamZj0gHkAUFVX3lxTE8zbkxKLVd6UUE1SVN2TktoVTN0VFB0UUlJZGpIRmd2dXBPZ01kNDVKczMtM1NCUHRtNEt3aGQwUDZvVGZncko1T290SjJVUGoyRU55THJzM21DZDJ2NE5hQTVfZ3I1ckhBbGxJU2tWMkVwSTN3SEFKQ3Fzb0pqUzlsMk8waS1BcjNEbVNXWmYwazJ4NVFFRDIxU05vZlppMnNHc2hwWlZKTnN1RW9tYkRIUEVUaW9SWDhCMHU2dTJacGRpS0NGeFVKOHYzd1hfSmdVZ1lKd0Zfd1dYQk1sTXJTc19wNg?oc=5",
+      "source": "Google News",
+      "date": "Wed, 12 Aug 2026 15:39:52 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-08-15T14:48:31.790284+00:00"
+    },
     {
       "category": "stock_move",
       "severity": "medium",
@@ -12,10 +25,10 @@
       "headline": "Global Payments (GPN) stock up 8.0% over the past week",
       "url": "https://finance.yahoo.com/quote/GPN",
       "source": "Yahoo Finance",
-      "date": "2026-08-15T14:28:39.641738+00:00",
+      "date": "2026-08-15T14:48:31.790284+00:00",
       "par_relevance": 3,
       "note": "+8.0% 1W",
-      "detected_at": "2026-08-15T14:28:39.641738+00:00"
+      "detected_at": "2026-08-15T14:48:31.790284+00:00"
     }
   ]
 }
