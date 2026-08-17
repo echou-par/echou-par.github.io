@@ -1,11 +1,13 @@
 {
-  "updated": "2026-08-17T13:57:13.434360+00:00",
+  "updated": "2026-08-17T14:34:14.828771+00:00",
   "financials_count": 10,
-  "news_count": 621,
+  "news_count": 326,
   "highlights_count": 10,
-  "alert_count": 0,
-  "alerts_by_category": {},
-  "per_competitor_count": 27,
+  "alert_count": 2,
+  "alerts_by_category": {
+    "stock_move": 2
+  },
+  "per_competitor_count": 25,
   "public_companies_with_news": 10,
-  "private_companies_with_news": 17
+  "private_companies_with_news": 15
 }
