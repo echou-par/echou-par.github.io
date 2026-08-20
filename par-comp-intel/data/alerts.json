@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T13:00:48.952639+00:00",
+  "updated": "2026-08-20T14:04:30.407972+00:00",
   "total": 1,
   "by_category": {
     "stock_move": 1
@@ -8,14 +8,14 @@
     {
       "category": "stock_move",
       "severity": "medium",
-      "company": "NCR Voyix",
-      "headline": "NCR Voyix (VYX) stock down 10.0% over the past week",
-      "url": "https://finance.yahoo.com/quote/VYX",
+      "company": "Shift4",
+      "headline": "Shift4 (FOUR) stock up 7.4% over the past week",
+      "url": "https://finance.yahoo.com/quote/FOUR",
       "source": "Yahoo Finance",
-      "date": "2026-08-20T13:00:48.952639+00:00",
+      "date": "2026-08-20T14:04:30.407972+00:00",
       "par_relevance": 3,
-      "note": "-10.0% 1W",
-      "detected_at": "2026-08-20T13:00:48.952639+00:00"
+      "note": "+7.4% 1W",
+      "detected_at": "2026-08-20T14:04:30.407972+00:00"
     }
   ]
 }
