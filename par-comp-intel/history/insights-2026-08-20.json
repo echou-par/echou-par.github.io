@@ -2,7 +2,7 @@
   "date": "2026-08-20",
   "weekday": "Thursday",
   "first_seen": "2026-08-20T04:09:11.147189+00:00",
-  "last_updated": "2026-08-20T07:00:02.466435+00:00",
+  "last_updated": "2026-08-20T07:51:25.885430+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -179,16 +179,34 @@
       ],
       "company": "Sparkfly",
       "first_detected": "2026-08-20T07:00:02.466435+00:00"
+    },
+    {
+      "text": "Toast shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Toast Inc (TOST) Stock Up 3.4% and Still Undervalued -- GF Score: 84/100 - GuruFocus\"",
+      "sources": [
+        {
+          "title": "Toast Inc (TOST) Stock Up 3.4% and Still Undervalued -- GF Score: 84/100 - GuruFocus",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMzhsR2dTWDF5XzBETlhVQTRoMmNaaVdpUXZGem03YkJLUzZDWWdMeGY5XzdRUnVQU0g4SE44Tk9RZUVkbTBYRXBmeG1mX2dFNUdXZWVqemkzYzdoNEJhc1djc0RSSXNwSF9QcmtyanZWVXM4NmFWZWlreTZRNlBnS1pRVExvd01YWUx5a2FsdFpDYmRWdHFXUjc3WXdVOVhYZ0w5Nw?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Toast (TOST) CRO Jonathan Vassil sells 13,797 shares after option exercises - Stock Titan",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUGFhRHhjMXRVQ0NQRlZhUEVxYWw5RjNFS1ZYMlBUckgzNVROVUM3LUdKREZYNUlGY0dnb2k2d3M2UFRnTDNFTTMzR193dzRtMUVzR2F3RnE1RWlJNlp5Y3hSc21iZkJMS01zd0RwSjc3TjJOS0JHOHVJWjBRN3dJSE5hZlRmdEFTX0UydjB6VVdnTkxDYWZsLVdKczRKV04ybXdDbE9R?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Arkfeld Wealth Strategies L.L.C. Raises Stock Holdings in Toast, Inc. $TOST - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYVYtTVZGVHczVVlsR3JZYTctVXBnZVdjd2h0VEdxbzExVUhTUHVBbXctbVp0Q1B6dkNQclZMMndIcHp4b3Bvc2ZESlVKdU9uZ0lMYVZaUUJwQ3JsWG93eHhKUDk5Z3E0eXVxYTY3ZE9tR28xSENoV0kzaVRjSnBFN3ZiTGU4REMwa0d5eVgzSVdVLTY3TjJ1Ul9CMWpSbS1mdl94VE9mQ29uMERkMXhHU3FSV3d1bEhRbXBseVhGelA3bDhuVGREQ0l3?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Toast",
+      "first_detected": "2026-08-20T07:51:25.885430+00:00"
     }
   ],
   "most_mentioned": [
     {
       "company": "DoorDash",
       "count": 19
-    },
-    {
-      "company": "Toast",
-      "count": 16
     },
     {
       "company": "Sparkfly",
@@ -203,15 +221,19 @@
       "count": 15
     },
     {
-      "company": "Global Payments",
-      "count": 15
-    },
-    {
       "company": "Fiserv",
       "count": 15
     },
     {
       "company": "ItsaCheckmate",
+      "count": 15
+    },
+    {
+      "company": "Paytronix",
+      "count": 15
+    },
+    {
+      "company": "TouchBistro",
       "count": 15
     }
   ]
