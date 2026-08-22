@@ -2,7 +2,7 @@
   "date": "2026-08-22",
   "weekday": "Saturday",
   "first_seen": "2026-08-22T04:39:32.101869+00:00",
-  "last_updated": "2026-08-22T04:39:32.101869+00:00",
+  "last_updated": "2026-08-22T05:33:12.660732+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -135,6 +135,17 @@
       ],
       "company": "Shift4",
       "first_detected": "2026-08-22T04:39:32.101869+00:00"
+    },
+    {
+      "text": "Cross-competitor event: Square, TouchBistro appeared together in coverage \u2014 \"TouchBistro vs Square: Pricing, Costs & User Experience Rated - tech.co\"",
+      "sources": [
+        {
+          "title": "TouchBistro vs Square: Pricing, Costs & User Experience Rated - tech.co",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE54Q09MaDNONDNhWml0bXJicW9LMzhWdHVFOFBuRUgwdlJCVmc1cDBsNkhhQVdmT0xydlp1anRJLTZ4c3RFVFp4R3Q3WkpqZlU0MFZyV3dlX0hZTHZT?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "first_detected": "2026-08-22T05:33:12.660732+00:00"
     }
   ],
   "most_mentioned": [
@@ -167,7 +178,7 @@
       "count": 15
     },
     {
-      "company": "Uber Eats",
+      "company": "ItsaCheckmate",
       "count": 15
     }
   ]
