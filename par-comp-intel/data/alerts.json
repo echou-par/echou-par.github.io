@@ -1,21 +1,21 @@
 {
-  "updated": "2026-08-24T13:02:15.503560+00:00",
+  "updated": "2026-08-24T14:07:31.649341+00:00",
   "total": 1,
   "by_category": {
-    "stock_move": 1
+    "analyst_downgrade": 1
   },
   "alerts": [
     {
-      "category": "stock_move",
-      "severity": "medium",
-      "company": "Shift4",
-      "headline": "Shift4 (FOUR) stock up 8.1% over the past week",
-      "url": "https://finance.yahoo.com/quote/FOUR",
-      "source": "Yahoo Finance",
-      "date": "2026-08-24T13:02:15.503560+00:00",
+      "category": "analyst_downgrade",
+      "severity": "high",
+      "company": "Toast",
+      "headline": "Hershey Company Upgraded, Toast, Inc. Downgraded: Updated Rankings on Top Blue-Chip Stocks - InvestorPlace",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOT0RHbFJIM3d4ZmJDVzBfM3A3aThkRVVKbDN3SGhlUy1VVTZ3VXN6R1cwX0F1TjZJR0JHcXN6Q3B1eG94ZGhOMUV3ZDRnZHhoZmQtOTV0M3BDZC1ZZ3pDV2lOcmhzcXJyemZQSUtDczZFWnNRbW5UM0ZaRDk0c3dHSkRhZ19MaWtRVDln?oc=5",
+      "source": "Google News",
+      "date": "Mon, 24 Aug 2026 00:04:58 GMT",
       "par_relevance": 3,
-      "note": "+8.1% 1W",
-      "detected_at": "2026-08-24T13:02:15.503560+00:00"
+      "note": null,
+      "detected_at": "2026-08-24T14:07:31.649341+00:00"
     }
   ]
 }
