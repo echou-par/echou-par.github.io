@@ -2,7 +2,7 @@
   "date": "2026-08-24",
   "weekday": "Monday",
   "first_seen": "2026-08-24T04:22:42.018801+00:00",
-  "last_updated": "2026-08-24T09:55:32.802412+00:00",
+  "last_updated": "2026-08-24T10:43:04.716609+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -135,6 +135,17 @@
       ],
       "company": "Toast",
       "first_detected": "2026-08-24T04:22:42.018801+00:00"
+    },
+    {
+      "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"$188K in Delivery Fees Forced This Restaurant Owner to Ditch DoorDash and Uber Eats: 'That's Losses on Us' - entrepreneur.com\"",
+      "sources": [
+        {
+          "title": "$188K in Delivery Fees Forced This Restaurant Owner to Ditch DoorDash and Uber Eats: 'That's Losses on Us' - entrepreneur.com",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSDBkYzhickw5eWptbDlkTXc1TDlHRFBjTkdBV25fSERUOVF2OXY5V0hHMXhQdEwxQXh1UDlaTjVNX2hIQW94bW5FNGVOSVdtYjlrSnl1RjlNNmZFQkNVelpOY0ZvczFBQmFKejlsRXdJY0RDNmh6eEVIdi1wQXJUd0ZNOEJfNzQ4WWtlVy1NVW4zUmo5Y28xdzBqQUpBLUNQVXcyUU16cTRRSGtQTUJLVkQ2V3VRd0hnWXBTQU1rYjBoSDlMZExobkMwa1pleGdvSVdLaFB3SXpQa0Fv?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "first_detected": "2026-08-24T10:43:04.716609+00:00"
     }
   ],
   "most_mentioned": [
@@ -151,6 +162,10 @@
       "count": 16
     },
     {
+      "company": "Uber Eats",
+      "count": 16
+    },
+    {
       "company": "TouchBistro",
       "count": 16
     },
@@ -164,10 +179,6 @@
     },
     {
       "company": "Lightspeed",
-      "count": 15
-    },
-    {
-      "company": "Fiserv",
       "count": 15
     }
   ]
