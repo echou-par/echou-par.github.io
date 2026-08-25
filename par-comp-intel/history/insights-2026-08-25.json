@@ -2,7 +2,7 @@
   "date": "2026-08-25",
   "weekday": "Tuesday",
   "first_seen": "2026-08-25T04:09:57.235006+00:00",
-  "last_updated": "2026-08-25T14:09:41.009021+00:00",
+  "last_updated": "2026-08-25T14:21:15.955845+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"DoorDash, Uber Eats and Instacart Are Thriving as Consumers Cut Back Elsewhere: DASH CFO Explains Why - TradingView\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-08-25T04:09:57.235006+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Deliverect and Bounteous Forge Global Partnership to Advance Branded Digital Ordering - Nation\u2019s Restaurant News\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Deliverect and Bounteous Forge Global Partnership to Advance Branded Digital Ordering - Nation\u2019s Restaurant News\"",
       "sources": [
         {
           "title": "Deliverect and Bounteous Forge Global Partnership to Advance Branded Digital Ordering - Nation\u2019s Restaurant News",
@@ -49,7 +49,7 @@
       "first_detected": "2026-08-25T04:09:57.235006+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -110,7 +110,7 @@
       "first_detected": "2026-08-25T04:09:57.235006+00:00"
     },
     {
-      "text": "Shift4 shows concentrated financial/market activity \u2014 12 tracked financial/market items this cycle. Latest: \"Wells Fargo upgrades Shift4 Payments stock rating on improved outlook - Investing.com\"",
+      "text": "Shift4 shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Wells Fargo upgrades Shift4 Payments stock rating on improved outlook - Investing.com\"",
       "sources": [
         {
           "title": "Wells Fargo upgrades Shift4 Payments stock rating on improved outlook - Investing.com",
@@ -189,36 +189,36 @@
   ],
   "most_mentioned": [
     {
-      "company": "Deliverect",
-      "count": 49
-    },
-    {
-      "company": "Lightspeed",
-      "count": 34
-    },
-    {
-      "company": "SpotOn",
-      "count": 29
-    },
-    {
       "company": "DoorDash",
-      "count": 29
-    },
-    {
-      "company": "TouchBistro",
-      "count": 26
-    },
-    {
-      "company": "Sparkfly",
-      "count": 26
+      "count": 19
     },
     {
       "company": "Global Payments",
-      "count": 25
+      "count": 16
+    },
+    {
+      "company": "TouchBistro",
+      "count": 16
+    },
+    {
+      "company": "Sparkfly",
+      "count": 16
+    },
+    {
+      "company": "SpotOn",
+      "count": 15
+    },
+    {
+      "company": "Shift4",
+      "count": 15
+    },
+    {
+      "company": "Deliverect",
+      "count": 15
     },
     {
       "company": "Fiserv",
-      "count": 25
+      "count": 15
     }
   ]
 }
