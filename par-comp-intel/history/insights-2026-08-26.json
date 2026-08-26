@@ -2,7 +2,7 @@
   "date": "2026-08-26",
   "weekday": "Wednesday",
   "first_seen": "2026-08-26T04:11:13.562148+00:00",
-  "last_updated": "2026-08-26T13:08:45.093421+00:00",
+  "last_updated": "2026-08-26T14:08:55.724062+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"DoorDash, Uber Eats and Instacart Are Thriving as Consumers Cut Back Elsewhere: DASH CFO Explains Why - TradingView\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-08-26T04:11:13.562148+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Deliverect and Bounteous Partner to Expand First-Party Digital Ordering for Restaurant Brands\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 11 tracked partnership items this cycle. Latest: \"Deliverect and Bounteous Partner to Expand First-Party Digital Ordering for Restaurant Brands\"",
       "sources": [
         {
           "title": "Deliverect and Bounteous Partner to Expand First-Party Digital Ordering for Restaurant Brands",
@@ -49,7 +49,7 @@
       "first_detected": "2026-08-26T04:11:13.562148+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -110,7 +110,7 @@
       "first_detected": "2026-08-26T04:11:13.562148+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Toast (NYSE: TOST) CRO sells 85,280 shares at $36.34 - Stock Titan\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Toast (NYSE: TOST) CRO sells 85,280 shares at $36.34 - Stock Titan\"",
       "sources": [
         {
           "title": "Toast (NYSE: TOST) CRO sells 85,280 shares at $36.34 - Stock Titan",
@@ -147,40 +147,73 @@
       ],
       "company": "NCR Voyix",
       "first_detected": "2026-08-26T10:06:57.271325+00:00"
+    },
+    {
+      "text": "Cross-competitor event: SpotOn, Toast appeared together in coverage \u2014 \"SpotOn vs Toast Comparison\"",
+      "sources": [
+        {
+          "title": "SpotOn vs Toast Comparison",
+          "url": "https://www.spoton.com/blog/real-users-prefer-spoton-vs-toast-competitors/",
+          "source": "SpotOn blog"
+        }
+      ],
+      "first_detected": "2026-08-26T14:08:55.724062+00:00"
+    },
+    {
+      "text": "TalonOne shows concentrated campaign activity \u2014 4 tracked campaign items this cycle. Latest: \"The brands escaping the discount trap - Campaign US\"",
+      "sources": [
+        {
+          "title": "The brands escaping the discount trap - Campaign US",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ibFZsSkRtLXdLNzlXVV9za3dFd29zMUJXYzdzWFgzS1lGMXFrREs3LUp1Zmhjaml1Mloyakk5cmdXQzFkamJVMmR6a3FrVzk5eGlGRnRUQ1NIek5GOC11Wnh5ZFp5ZHRlRzA3ZnlsMnhGSVprVVJWOFIzdThGNjA?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Incentive engines: Top 7 platforms compared for 2026 - Talon.One",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBFV2dCUVp6M094WWIwcjU3TEFfM1FLd3Q2TmFjVG5MbnBZdGI5clVjeVh4VTBZWWIxdVNteVpmbUYwVW5uWXFHdW9tRnVPT0F1MDRpcVRGaFB1a1BJOHBxUFB3?oc=5",
+          "source": "Google News (talon.one)"
+        },
+        {
+          "title": "Campaign analytics - Talon.One docs",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBsd05ITEx4enNBV3MxNDZPbzVVT0stSWJ1dWFIM2l2SERHV2dLUVYwamRrS2duUTl0ZUxvTk9vTXhWMlNqeFAxTlBDSXdPbndMT0JRcDJhcU5pZ2g3R0hqMTRBZWc2SEJod01fR00xOUdpUQ?oc=5",
+          "source": "Google News (talon.one)"
+        }
+      ],
+      "company": "TalonOne",
+      "first_detected": "2026-08-26T14:08:55.724062+00:00"
     }
   ],
   "most_mentioned": [
     {
+      "company": "Deliverect",
+      "count": 49
+    },
+    {
+      "company": "Lightspeed",
+      "count": 33
+    },
+    {
+      "company": "SpotOn",
+      "count": 30
+    },
+    {
       "company": "DoorDash",
-      "count": 18
+      "count": 28
     },
     {
       "company": "TouchBistro",
-      "count": 16
+      "count": 26
     },
     {
       "company": "Sparkfly",
-      "count": 16
-    },
-    {
-      "company": "Shift4",
-      "count": 15
-    },
-    {
-      "company": "Uber Eats",
-      "count": 15
+      "count": 26
     },
     {
       "company": "Olo",
-      "count": 15
+      "count": 25
     },
     {
       "company": "Fiserv",
-      "count": 15
-    },
-    {
-      "company": "Global Payments",
-      "count": 15
+      "count": 25
     }
   ]
 }
