@@ -2,7 +2,7 @@
   "date": "2026-08-26",
   "weekday": "Wednesday",
   "first_seen": "2026-08-26T04:11:13.562148+00:00",
-  "last_updated": "2026-08-26T14:19:56.251270+00:00",
+  "last_updated": "2026-08-26T15:59:51.438612+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"DoorDash, Uber Eats and Instacart Are Thriving as Consumers Cut Back Elsewhere: DASH CFO Explains Why - TradingView\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-08-26T04:11:13.562148+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Deliverect and Bounteous Partner to Expand First-Party Digital Ordering for Restaurant Brands\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 11 tracked partnership items this cycle. Latest: \"Deliverect and Bounteous Partner to Expand First-Party Digital Ordering for Restaurant Brands\"",
       "sources": [
         {
           "title": "Deliverect and Bounteous Partner to Expand First-Party Digital Ordering for Restaurant Brands",
@@ -49,7 +49,7 @@
       "first_detected": "2026-08-26T04:11:13.562148+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -110,7 +110,7 @@
       "first_detected": "2026-08-26T04:11:13.562148+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Toast (NYSE: TOST) CRO sells 85,280 shares at $36.34 - Stock Titan\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Toast (NYSE: TOST) CRO sells 85,280 shares at $36.34 - Stock Titan\"",
       "sources": [
         {
           "title": "Toast (NYSE: TOST) CRO sells 85,280 shares at $36.34 - Stock Titan",
@@ -184,36 +184,36 @@
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
-      "count": 18
+      "company": "Deliverect",
+      "count": 49
     },
     {
-      "company": "TouchBistro",
-      "count": 16
-    },
-    {
-      "company": "Sparkfly",
-      "count": 16
-    },
-    {
-      "company": "Uber Eats",
-      "count": 15
-    },
-    {
-      "company": "Olo",
-      "count": 15
-    },
-    {
-      "company": "Fiserv",
-      "count": 15
-    },
-    {
-      "company": "Global Payments",
-      "count": 15
+      "company": "Lightspeed",
+      "count": 32
     },
     {
       "company": "SpotOn",
-      "count": 15
+      "count": 31
+    },
+    {
+      "company": "DoorDash",
+      "count": 28
+    },
+    {
+      "company": "TouchBistro",
+      "count": 26
+    },
+    {
+      "company": "Sparkfly",
+      "count": 26
+    },
+    {
+      "company": "Olo",
+      "count": 25
+    },
+    {
+      "company": "Fiserv",
+      "count": 25
     }
   ]
 }
