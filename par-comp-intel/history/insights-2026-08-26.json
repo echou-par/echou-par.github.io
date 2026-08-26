@@ -2,7 +2,7 @@
   "date": "2026-08-26",
   "weekday": "Wednesday",
   "first_seen": "2026-08-26T04:11:13.562148+00:00",
-  "last_updated": "2026-08-26T11:57:50.367084+00:00",
+  "last_updated": "2026-08-26T13:08:45.093421+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"DoorDash, Uber Eats and Instacart Are Thriving as Consumers Cut Back Elsewhere: DASH CFO Explains Why - TradingView\"",
@@ -88,8 +88,13 @@
       "first_detected": "2026-08-26T04:11:13.562148+00:00"
     },
     {
-      "text": "Shift4 shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Shift4 (FOUR) Stock Is Up, What You Need To Know - StockStory\"",
+      "text": "Shift4 shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Shift4 and Bar Rescue's Jon Taffer Name Talisa's on Main Winner of 2026 Rescue Mission \u2013 Company Announcement - Financial Times\"",
       "sources": [
+        {
+          "title": "Shift4 and Bar Rescue's Jon Taffer Name Talisa's on Main Winner of 2026 Rescue Mission \u2013 Company Announcement - Financial Times",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVWM0RHpibVBFNDdNTU5fb0VNV3NEU3dRWllnWVNNSTMwbFRncnFNSGJnWE5STy1TYlJaazMzc01YZmNfalRaQUU0YnVVQ0w3Z0NkWVExRXpYTFRiU1FaMlZKZEZzdUphdUtFWWtwdlhST3B3N1hQMnkzMTJuWmxkbUc3MmE4ZlZzdHUxWlpfYVEtTFZHNDFmWFVLS2ZFSzgxS29aVHVn?oc=5",
+          "source": "Google News"
+        },
         {
           "title": "Shift4 (FOUR) Stock Is Up, What You Need To Know - StockStory",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSHFFck1qNUc4SEtYYURaaEduM3BoTVJoUkZ5MnpEcm1UQjRfYTVpYVdfZWh1QXp2ckdCellKTE8wM3dnNHB1WkxaQVJuakxnaURHYU9ZUXN5VWMzbGxUNW11NWlqV3cxZHJVbm5vOWV0dl9Gd2VtQmxnYUE3X21LMzhtY2pnWVpwcl94UUlMRkx6Nk9yczBMWElkQWRwWDJ0ZU9Bb25tSlRLaFE?oc=5",
@@ -98,11 +103,6 @@
         {
           "title": "Wells Fargo upgrades Shift4 Payments stock rating on improved outlook - Investing.com",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOblp2cHpKdkJJbUhRcjZTVEhQbzdoOG9xZTVDUndoZmNON3hla2JJQUhjWnhYRGFzNjZZWE1sd3ZKNVZKd0ZEbFVWWXRQTFc3OF9fNDcyanZjZTRfbjU0UU9OeTVGRXFmUXJpM1hHZEpFQjV4NmxXVDVjcVNnV1lLTjdadjdWMUpNVlo1YXFEXzZRdE1DVWhNMlhQNjlkMktYQmRGYkNPS1ZLQzd4NW9FMEJpWi12NDNjTWs4SFZNclE4U2FzVV9CQQ?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Shift4 Payments Shares Climb After Wells Fargo Upgrades Stock - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbnJ5RFZTZWQ0aWo2VFZCN2Q5dWh6VUljNVI5QlpISGZwSVNJbE5FRVJhUXozZE92bWI3dTJ3elF2YWFmZFlzaTNBYnBZajBXVXZQLTExS1NrNWxFMWh6TmhxVENWaTd5TWdJWW9NZDVrZjBlOUIwRHNSaWhVdjlYTzBVZnZTV25tRDQzOXpSSkQ3Y2daRFdLa3hCenA1Q2Qt?oc=5",
           "source": "Google News"
         }
       ],
@@ -152,7 +152,7 @@
   "most_mentioned": [
     {
       "company": "DoorDash",
-      "count": 19
+      "count": 18
     },
     {
       "company": "TouchBistro",
@@ -163,6 +163,14 @@
       "count": 16
     },
     {
+      "company": "Shift4",
+      "count": 15
+    },
+    {
+      "company": "Uber Eats",
+      "count": 15
+    },
+    {
       "company": "Olo",
       "count": 15
     },
@@ -171,15 +179,7 @@
       "count": 15
     },
     {
-      "company": "Shift4",
-      "count": 15
-    },
-    {
       "company": "Global Payments",
-      "count": 15
-    },
-    {
-      "company": "SpotOn",
       "count": 15
     }
   ]
