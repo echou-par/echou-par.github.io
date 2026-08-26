@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T09:19:50.148384+00:00",
+  "updated": "2026-08-26T10:06:57.271325+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"DoorDash, Uber Eats and Instacart Are Thriving as Consumers Cut Back Elsewhere: DASH CFO Explains Why - TradingView\"",
@@ -64,22 +64,6 @@
       "company": "Sparkfly"
     },
     {
-      "text": "Fiserv shows concentrated risk activity \u2014 2 tracked risk items this cycle. Latest: \"Lawsuit Update: Investors in Fiserv, Inc. (NYSE: FI) shares should contact the Shareholders Foundation - Morningstar\"",
-      "sources": [
-        {
-          "title": "Lawsuit Update: Investors in Fiserv, Inc. (NYSE: FI) shares should contact the Shareholders Foundation - Morningstar",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQa2wzeWFNVXFTYnU4Qmt2V3UxU29XYmE4X3M4YWhZYWVOaFp2VFRhSTNkZmhOQ0R1WnAyQ1o2S0Y1ZXp4X3poY2Y1WjV6Qlo4NE1kV2M1TGl1QlJOMnpkWlJmREpqSHh5dXk4SDJPZzRwb2FDQlo2U2RhVGhwRUpyMWZ2TUJ3ckVZR3hiYjAweGhhdU5VQ1N6QnE4UEluNFRzNDRjenQ2b1RVbUQ1MGEyTFNPdHo3Zk5taEhzbFRQcHFuTENYVHlqa3VYcFRFVmwxYXFzN2ZQYzJVWWJGb3kyaHhaN3FMcUFVTVN5c1d3?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Fiserv seeks investor lawsuit dismissal - Payments Dive",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPb0ZiYXJRWHBsdlhzTDJTVGlQTVdySDAwWU5YU1RWWGdBNmc5UjJKWHRHV0puU0htaGpuUEFrRXJEeXFtd2lISVEyOUhGREFURWh2OFAwUWtrRTBBbUNVeW1jV0d5MTBWbnF3cEZOYzFKRUhwMnJUTTd5M3dfQ3B0dEdxM0J3WlNoaDJsZ3QtVmFPR0RTOFVVb1pZRkZLMlExNjFpV2hCV2Q?oc=5",
-          "source": "Google News"
-        }
-      ],
-      "company": "Fiserv"
-    },
-    {
       "text": "Shift4 shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Shift4 (FOUR) Stock Is Up, What You Need To Know - StockStory\"",
       "sources": [
         {
@@ -120,20 +104,28 @@
         }
       ],
       "company": "Toast"
+    },
+    {
+      "text": "NCR Voyix (VYX) stock gained 6.4% over the past week \u2014 material weekly move relative to broader cohort.",
+      "sources": [
+        {
+          "title": "VYX Stock Price and Chart \u2014 NYSE:VYX - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1LQ05kM0ViMWFZMVl5b2tyXzBxaTBhdjRuWGJ6ZU5fYlJhZi1IVVN5VUpNc3lNZFFEb2dDWEpfQldEZlZOU3BYaWl2YU1seWphU01NM2pja1o?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Do Options Traders Know Something About NCR Voyix Stock We Don't? - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPX1NzeWlWNGptcDZlb0RHU2JXNDBmZjY0VnZraHRVOHF5QUg4aGlGUHR3ZjZ1S2hFem9Rd09zbnRMczFOUzBsbjE0dXZZX0pVSDlYc0NSQkZNY1hCRzdWSHN3TXVLQmN5aG92N1FpZGFvTF81N0JoOXEtTlhuTXlVbXVuQWlwdFBmU3NtaXBKR0xkZTZKMk5SaVlWUXExWTQ1Ymc?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "NCR Voyix"
     }
   ],
   "most_mentioned": [
     {
       "company": "DoorDash",
       "count": 19
-    },
-    {
-      "company": "Shift4",
-      "count": 16
-    },
-    {
-      "company": "SpotOn",
-      "count": 16
     },
     {
       "company": "TouchBistro",
@@ -152,7 +144,15 @@
       "count": 15
     },
     {
-      "company": "Deliverect",
+      "company": "Shift4",
+      "count": 15
+    },
+    {
+      "company": "Global Payments",
+      "count": 15
+    },
+    {
+      "company": "SpotOn",
       "count": 15
     }
   ]

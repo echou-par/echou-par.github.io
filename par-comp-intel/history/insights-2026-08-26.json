@@ -2,7 +2,7 @@
   "date": "2026-08-26",
   "weekday": "Wednesday",
   "first_seen": "2026-08-26T04:11:13.562148+00:00",
-  "last_updated": "2026-08-26T09:19:50.148384+00:00",
+  "last_updated": "2026-08-26T10:06:57.271325+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"DoorDash, Uber Eats and Instacart Are Thriving as Consumers Cut Back Elsewhere: DASH CFO Explains Why - TradingView\"",
@@ -130,20 +130,29 @@
       ],
       "company": "Toast",
       "first_detected": "2026-08-26T04:11:13.562148+00:00"
+    },
+    {
+      "text": "NCR Voyix (VYX) stock gained 6.4% over the past week \u2014 material weekly move relative to broader cohort.",
+      "sources": [
+        {
+          "title": "VYX Stock Price and Chart \u2014 NYSE:VYX - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1LQ05kM0ViMWFZMVl5b2tyXzBxaTBhdjRuWGJ6ZU5fYlJhZi1IVVN5VUpNc3lNZFFEb2dDWEpfQldEZlZOU3BYaWl2YU1seWphU01NM2pja1o?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Do Options Traders Know Something About NCR Voyix Stock We Don't? - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPX1NzeWlWNGptcDZlb0RHU2JXNDBmZjY0VnZraHRVOHF5QUg4aGlGUHR3ZjZ1S2hFem9Rd09zbnRMczFOUzBsbjE0dXZZX0pVSDlYc0NSQkZNY1hCRzdWSHN3TXVLQmN5aG92N1FpZGFvTF81N0JoOXEtTlhuTXlVbXVuQWlwdFBmU3NtaXBKR0xkZTZKMk5SaVlWUXExWTQ1Ymc?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "NCR Voyix",
+      "first_detected": "2026-08-26T10:06:57.271325+00:00"
     }
   ],
   "most_mentioned": [
     {
       "company": "DoorDash",
       "count": 19
-    },
-    {
-      "company": "Shift4",
-      "count": 16
-    },
-    {
-      "company": "SpotOn",
-      "count": 16
     },
     {
       "company": "TouchBistro",
@@ -162,7 +171,15 @@
       "count": 15
     },
     {
-      "company": "Deliverect",
+      "company": "Shift4",
+      "count": 15
+    },
+    {
+      "company": "Global Payments",
+      "count": 15
+    },
+    {
+      "company": "SpotOn",
       "count": 15
     }
   ]
