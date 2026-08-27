@@ -2,7 +2,7 @@
   "date": "2026-08-27",
   "weekday": "Thursday",
   "first_seen": "2026-08-27T11:05:26.498480+00:00",
-  "last_updated": "2026-08-27T11:05:26.498480+00:00",
+  "last_updated": "2026-08-27T21:07:10.863896+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-08-27T11:05:26.498480+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Deliverect and Bounteous Partner to Expand First-Party Digital Ordering for Restaurant Brands\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Deliverect and Bounteous Partner to Expand First-Party Digital Ordering for Restaurant Brands\"",
       "sources": [
         {
           "title": "Deliverect and Bounteous Partner to Expand First-Party Digital Ordering for Restaurant Brands",
@@ -130,6 +130,45 @@
       ],
       "company": "Shift4",
       "first_detected": "2026-08-27T11:05:26.498480+00:00"
+    },
+    {
+      "text": "PAR shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"Palogic Value Management L.P. Purchases Shares of 69,109 PAR Technology Corporation $PAR - MarketBeat\"",
+      "sources": [
+        {
+          "title": "Palogic Value Management L.P. Purchases Shares of 69,109 PAR Technology Corporation $PAR - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQeGhRc2pta2VkOFVKU2thUkhfaXBaQ0NXbUpEZTYwMVFLMmVWWXdPaTh5MlBmQWd6RGppZ1FHYTdDUEZJRXMydEw2b21wSjRXdWd3dGpFY2tZWm5SN3JERFhQd2xIdHB0ZU03MmhWVGNMQnBnakVaVG5HcjFhRVdTajNRbGluRGFFakg4SnpqQmZJNGt5OVdnb18xV3JXbzkyakZFaklMbjNGYnluNW00ekVtaE4yWUpPQzFJMjExaW5SRk1oeFNnYURDWDJ2REJCS20xdk9hUGVBM1hhbnc?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "ABS Investment Management LLC Purchases New Stake in PAR Technology Corporation $PAR - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOU3ltZmNLVGNpTjJyOUdJNDNRZDlQMXctbVdpUktlMXdQSlNjbEF5OVBNbDQ4aGM3UmZYQnFCWnkxRDBCbE1mRVRVWHU0Q3liSlVJZEVVZGtUMmUwRTYwVDhna3JaMmhnRHRMRVpHNVdLTVNmWURjSG5XSlJkR1ZrZ1Zjby1xZURvbnppNEZrQzF1UHc3Z0lvMjVmSW5OQVFzSUdsYlJhUkoxYldEVVZ0TmFtVGpnZm4yUGp0M0owLWJfSjdQbmdZckEzTmo1cWpWV3VLaGVXS3Q4aG1y?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "392,907 Shares in PAR Technology Corporation $PAR Bought by Visionary Wealth Advisors - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObXVra0pYcngyZ05pVmt0ci1XUjVQNFY3X1FhLUxYby0wd0R2RDhTUWlWX1R5bVY4MGx3QzI4WjNrTzhUTG5oQXB0c05IOXY2aWNkV3I2SFVMODNfYlk3Y0JCbENCT3R1V2lBQjBqVGJLRFN5NFV4dGJnTTVtT01waDdCeGpmOUswR21RYjZVSktSZ0NjQlNHZFFWb2huNHNaWjE0ZWE5NUlCUmJHYXBEakNWS1BRRWtYaVZHWUJOcWVycUljUGk4bzR0bldxa0VySVVieVlRUWllaGRK?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "PAR",
+      "first_detected": "2026-08-27T21:07:10.863896+00:00"
+    },
+    {
+      "text": "NCR Voyix (VYX) stock gained 16.1% over the past week \u2014 material weekly move relative to broader cohort.",
+      "sources": [
+        {
+          "title": "VYX Stock Price and Chart \u2014 NYSE:VYX - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1LQ05kM0ViMWFZMVl5b2tyXzBxaTBhdjRuWGJ6ZU5fYlJhZi1IVVN5VUpNc3lNZFFEb2dDWEpfQldEZlZOU3BYaWl2YU1seWphU01NM2pja1o?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Do Options Traders Know Something About NCR Voyix Stock We Don't? - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPX1NzeWlWNGptcDZlb0RHU2JXNDBmZjY0VnZraHRVOHF5QUg4aGlGUHR3ZjZ1S2hFem9Rd09zbnRMczFOUzBsbjE0dXZZX0pVSDlYc0NSQkZNY1hCRzdWSHN3TXVLQmN5aG92N1FpZGFvTF81N0JoOXEtTlhuTXlVbXVuQWlwdFBmU3NtaXBKR0xkZTZKMk5SaVlWUXExWTQ1Ymc?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "NCR Voyix",
+      "first_detected": "2026-08-27T21:07:10.863896+00:00"
     }
   ],
   "most_mentioned": [
@@ -150,7 +189,7 @@
       "count": 15
     },
     {
-      "company": "Olo",
+      "company": "Global Payments",
       "count": 15
     },
     {
