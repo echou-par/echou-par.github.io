@@ -2,7 +2,7 @@
   "date": "2026-08-28",
   "weekday": "Friday",
   "first_seen": "2026-08-28T05:34:33.042958+00:00",
-  "last_updated": "2026-08-28T18:28:55.722167+00:00",
+  "last_updated": "2026-08-28T23:05:29.257453+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-08-28T05:34:33.042958+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Deliverect and Bounteous Partner to Expand First-Party Digital Ordering for Restaurant Brands\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Deliverect and Bounteous Partner to Expand First-Party Digital Ordering for Restaurant Brands\"",
       "sources": [
         {
           "title": "Deliverect and Bounteous Partner to Expand First-Party Digital Ordering for Restaurant Brands",
@@ -49,7 +49,7 @@
       "first_detected": "2026-08-28T05:34:33.042958+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -132,7 +132,7 @@
       "first_detected": "2026-08-28T05:34:33.042958+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"TOST Stock Quote Price and Forecast - CNN\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"TOST Stock Quote Price and Forecast - CNN\"",
       "sources": [
         {
           "title": "TOST Stock Quote Price and Forecast - CNN",
@@ -152,40 +152,106 @@
       ],
       "company": "Toast",
       "first_detected": "2026-08-28T18:28:55.722167+00:00"
+    },
+    {
+      "text": "Cross-competitor event: SpotOn, Toast appeared together in coverage \u2014 \"SpotOn vs Toast Comparison\"",
+      "sources": [
+        {
+          "title": "SpotOn vs Toast Comparison",
+          "url": "https://www.spoton.com/blog/real-users-prefer-spoton-vs-toast-competitors/",
+          "source": "SpotOn blog"
+        }
+      ],
+      "first_detected": "2026-08-28T23:05:29.257453+00:00"
+    },
+    {
+      "text": "Cross-competitor event: SpotOn, Square appeared together in coverage \u2014 \"SpotOn vs Square POS Comparison\"",
+      "sources": [
+        {
+          "title": "SpotOn vs Square POS Comparison",
+          "url": "https://www.spoton.com/blog/small-businesses-prefer-spoton-vs-square-competitors/",
+          "source": "SpotOn blog"
+        }
+      ],
+      "first_detected": "2026-08-28T23:05:29.257453+00:00"
+    },
+    {
+      "text": "TalonOne shows concentrated campaign activity \u2014 4 tracked campaign items this cycle. Latest: \"Ex-Pinterest exec Visha Kudhail joins Talon.One - Campaign\"",
+      "sources": [
+        {
+          "title": "Ex-Pinterest exec Visha Kudhail joins Talon.One - Campaign",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUDdId0ZqYjFIMTFnekJDOXNLSUN2ZWNCa2NkTlFXM3RFU05DcUJwZnpIYzVXdTRpYUM0NGRBQXY5bzJXTnFTVkhQTDZ6bXlpNFE0MFdackUyVkhSTURRaU92aDJvN0NDQ0laN2UzVm9EeTVyN3VJRVQ4ZFUxeWphUmJDcFpmRF9la0Z2ZG9ISE9OM1BncnJ5ZA?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Incentive engines: Top 7 platforms compared for 2026 - Talon.One",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBFV2dCUVp6M094WWIwcjU3TEFfM1FLd3Q2TmFjVG5MbnBZdGI5clVjeVh4VTBZWWIxdVNteVpmbUYwVW5uWXFHdW9tRnVPT0F1MDRpcVRGaFB1a1BJOHBxUFB3?oc=5",
+          "source": "Google News (talon.one)"
+        },
+        {
+          "title": "Campaign analytics - Talon.One docs",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBsd05ITEx4enNBV3MxNDZPbzVVT0stSWJ1dWFIM2l2SERHV2dLUVYwamRrS2duUTl0ZUxvTk9vTXhWMlNqeFAxTlBDSXdPbndMT0JRcDJhcU5pZ2g3R0hqMTRBZWc2SEJod01fR00xOUdpUQ?oc=5",
+          "source": "Google News (talon.one)"
+        }
+      ],
+      "company": "TalonOne",
+      "first_detected": "2026-08-28T23:05:29.257453+00:00"
+    },
+    {
+      "text": "PAR shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"Palogic Value Management L.P. Purchases Shares of 69,109 PAR Technology Corporation $PAR - MarketBeat\"",
+      "sources": [
+        {
+          "title": "Palogic Value Management L.P. Purchases Shares of 69,109 PAR Technology Corporation $PAR - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQeGhRc2pta2VkOFVKU2thUkhfaXBaQ0NXbUpEZTYwMVFLMmVWWXdPaTh5MlBmQWd6RGppZ1FHYTdDUEZJRXMydEw2b21wSjRXdWd3dGpFY2tZWm5SN3JERFhQd2xIdHB0ZU03MmhWVGNMQnBnakVaVG5HcjFhRVdTajNRbGluRGFFakg4SnpqQmZJNGt5OVdnb18xV3JXbzkyakZFaklMbjNGYnluNW00ekVtaE4yWUpPQzFJMjExaW5SRk1oeFNnYURDWDJ2REJCS20xdk9hUGVBM1hhbnc?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "ABS Investment Management LLC Purchases New Stake in PAR Technology Corporation $PAR - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOU3ltZmNLVGNpTjJyOUdJNDNRZDlQMXctbVdpUktlMXdQSlNjbEF5OVBNbDQ4aGM3UmZYQnFCWnkxRDBCbE1mRVRVWHU0Q3liSlVJZEVVZGtUMmUwRTYwVDhna3JaMmhnRHRMRVpHNVdLTVNmWURjSG5XSlJkR1ZrZ1Zjby1xZURvbnppNEZrQzF1UHc3Z0lvMjVmSW5OQVFzSUdsYlJhUkoxYldEVVZ0TmFtVGpnZm4yUGp0M0owLWJfSjdQbmdZckEzTmo1cWpWV3VLaGVXS3Q4aG1y?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "392,907 Shares in PAR Technology Corporation $PAR Bought by Visionary Wealth Advisors - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObXVra0pYcngyZ05pVmt0ci1XUjVQNFY3X1FhLUxYby0wd0R2RDhTUWlWX1R5bVY4MGx3QzI4WjNrTzhUTG5oQXB0c05IOXY2aWNkV3I2SFVMODNfYlk3Y0JCbENCT3R1V2lBQjBqVGJLRFN5NFV4dGJnTTVtT01waDdCeGpmOUswR21RYjZVSktSZ0NjQlNHZFFWb2huNHNaWjE0ZWE5NUlCUmJHYXBEakNWS1BRRWtYaVZHWUJOcWVycUljUGk4bzR0bldxa0VySVVieVlRUWllaGRK?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "PAR",
+      "first_detected": "2026-08-28T23:05:29.257453+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
-      "count": 18
-    },
-    {
-      "company": "TouchBistro",
-      "count": 16
-    },
-    {
-      "company": "Sparkfly",
-      "count": 16
-    },
-    {
-      "company": "Global Payments",
-      "count": 15
-    },
-    {
-      "company": "Toast",
-      "count": 15
+      "company": "Deliverect",
+      "count": 49
     },
     {
       "company": "SpotOn",
-      "count": 15
+      "count": 34
     },
     {
-      "company": "Fiserv",
-      "count": 15
+      "company": "Lightspeed",
+      "count": 32
     },
     {
-      "company": "Deliverect",
-      "count": 15
+      "company": "DoorDash",
+      "count": 28
+    },
+    {
+      "company": "TouchBistro",
+      "count": 26
+    },
+    {
+      "company": "Sparkfly",
+      "count": 26
+    },
+    {
+      "company": "Paytronix",
+      "count": 25
+    },
+    {
+      "company": "Toast",
+      "count": 25
     }
   ]
 }
