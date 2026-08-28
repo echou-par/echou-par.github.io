@@ -2,7 +2,7 @@
   "date": "2026-08-28",
   "weekday": "Friday",
   "first_seen": "2026-08-28T05:34:33.042958+00:00",
-  "last_updated": "2026-08-28T05:34:33.042958+00:00",
+  "last_updated": "2026-08-28T18:28:55.722167+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -115,7 +115,7 @@
       "first_detected": "2026-08-28T05:34:33.042958+00:00"
     },
     {
-      "text": "NCR Voyix (VYX) stock gained 16.1% over the past week \u2014 material weekly move relative to broader cohort.",
+      "text": "NCR Voyix (VYX) stock gained 12.6% over the past week \u2014 material weekly move relative to broader cohort.",
       "sources": [
         {
           "title": "VYX Stock Price and Chart \u2014 NYSE:VYX - TradingView",
@@ -130,6 +130,28 @@
       ],
       "company": "NCR Voyix",
       "first_detected": "2026-08-28T05:34:33.042958+00:00"
+    },
+    {
+      "text": "Toast shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"TOST Stock Quote Price and Forecast - CNN\"",
+      "sources": [
+        {
+          "title": "TOST Stock Quote Price and Forecast - CNN",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5pYTV5XzdiZGNzNzQtSzZ4QWk3RFRLZ0hhTGE2Zkx4NHBJaVRscndYNXVOc1luamFXZnBYU051ZjAtTDhIQUJMYTFmYWRtVFJJ?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Analysts Are Neutral on Top Technology Stocks: Elastic (ESTC), Toast Inc (TOST) - The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPY3hVRXBJd1I4dUVfald4QmxFVDRfWFVCdkpzTU41YTZ3VG9EeVRpTTR3SFZLLXEwTWhXOEw5U204cklzQ28yZjNGWl9OQXNlY3ZUT1YxR2lhazZyRDMzbzF4OEsxQWRtSGdCWHhaLUdNRjhvcnp6UjIycl8ybUw1czk2ZmVVcG1xSlFoNXpFeWEwWlRWa2VVZGpzSTBSY1liTjZKMFk4cExVNlJtLUtMbU1vMWVmbVMzeXdNR2JGekxkYWRqazJyY0N3OXBaZTFoa3Q4UFFkVXVzSWpPbzAwdkhGRnVVRUNXQXRKVW1mYw?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Toast (NYSE: TOST) CRO sells 85,280 shares at $36.34 - Stock Titan",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTEM4NDlWX0RNXzZ6bXlKV0JMTDVoMC1HcnhhWGZ6QjJHbV9TbmpwQ2M3aVJnM3dBWnoxWVNKTHJGSUdFQUtXRXEwb19FSTY1LWdtR19lUjFCY2k0YUw2MGE5eTJzekgxOFRxQ0NrdU5Ia3hIbW9rRTA3X0ZiYUs0a210N3ZCVFNhZERTcDM5eHFXSHluQ3c3X04xQThfc3plUlhpOXlB?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Toast",
+      "first_detected": "2026-08-28T18:28:55.722167+00:00"
     }
   ],
   "most_mentioned": [
@@ -150,6 +172,10 @@
       "count": 15
     },
     {
+      "company": "Toast",
+      "count": 15
+    },
+    {
       "company": "SpotOn",
       "count": 15
     },
@@ -159,10 +185,6 @@
     },
     {
       "company": "Deliverect",
-      "count": 15
-    },
-    {
-      "company": "Snackpass",
       "count": 15
     }
   ]
