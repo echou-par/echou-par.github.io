@@ -2,7 +2,7 @@
   "date": "2026-08-29",
   "weekday": "Saturday",
   "first_seen": "2026-08-29T08:53:14.753145+00:00",
-  "last_updated": "2026-08-29T17:50:28.995088+00:00",
+  "last_updated": "2026-08-29T20:48:17.772132+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-08-29T08:53:14.753145+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Deliverect and Bounteous Partner to Expand First-Party Digital Ordering for Restaurant Brands\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Deliverect and Bounteous Partner to Expand First-Party Digital Ordering for Restaurant Brands\"",
       "sources": [
         {
           "title": "Deliverect and Bounteous Partner to Expand First-Party Digital Ordering for Restaurant Brands",
@@ -213,6 +213,23 @@
       ],
       "company": "Shift4",
       "first_detected": "2026-08-29T17:50:28.995088+00:00"
+    },
+    {
+      "text": "Fiserv shows concentrated risk activity \u2014 2 tracked risk items this cycle. Latest: \"Lawsuit Update: Investors in Fiserv, Inc. (NYSE: FI) shares should contact the Shareholders Foundation - Morningstar\"",
+      "sources": [
+        {
+          "title": "Lawsuit Update: Investors in Fiserv, Inc. (NYSE: FI) shares should contact the Shareholders Foundation - Morningstar",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQa2wzeWFNVXFTYnU4Qmt2V3UxU29XYmE4X3M4YWhZYWVOaFp2VFRhSTNkZmhOQ0R1WnAyQ1o2S0Y1ZXp4X3poY2Y1WjV6Qlo4NE1kV2M1TGl1QlJOMnpkWlJmREpqSHh5dXk4SDJPZzRwb2FDQlo2U2RhVGhwRUpyMWZ2TUJ3ckVZR3hiYjAweGhhdU5VQ1N6QnE4UEluNFRzNDRjenQ2b1RVbUQ1MGEyTFNPdHo3Zk5taEhzbFRQcHFuTENYVHlqa3VYcFRFVmwxYXFzN2ZQYzJVWWJGb3kyaHhaN3FMcUFVTVN5c1d3?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Fiserv seeks investor lawsuit dismissal - Payments Dive",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPb0ZiYXJRWHBsdlhzTDJTVGlQTVdySDAwWU5YU1RWWGdBNmc5UjJKWHRHV0puU0htaGpuUEFrRXJEeXFtd2lISVEyOUhGREFURWh2OFAwUWtrRTBBbUNVeW1jV0d5MTBWbnF3cEZOYzFKRUhwMnJUTTd5M3dfQ3B0dEdxM0J3WlNoaDJsZ3QtVmFPR0RTOFVVb1pZRkZLMlExNjFpV2hCV2Q?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Fiserv",
+      "first_detected": "2026-08-29T20:48:17.772132+00:00"
     }
   ],
   "most_mentioned": [
