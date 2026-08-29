@@ -2,7 +2,7 @@
   "date": "2026-08-28",
   "weekday": "Friday",
   "first_seen": "2026-08-28T05:34:33.042958+00:00",
-  "last_updated": "2026-08-28T23:37:17.859918+00:00",
+  "last_updated": "2026-08-29T01:53:28.759558+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-08-28T05:34:33.042958+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Deliverect and Bounteous Partner to Expand First-Party Digital Ordering for Restaurant Brands\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Deliverect and Bounteous Partner to Expand First-Party Digital Ordering for Restaurant Brands\"",
       "sources": [
         {
           "title": "Deliverect and Bounteous Partner to Expand First-Party Digital Ordering for Restaurant Brands",
@@ -49,7 +49,7 @@
       "first_detected": "2026-08-28T05:34:33.042958+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -115,7 +115,7 @@
       "first_detected": "2026-08-28T05:34:33.042958+00:00"
     },
     {
-      "text": "NCR Voyix (VYX) stock gained 12.6% over the past week \u2014 material weekly move relative to broader cohort.",
+      "text": "NCR Voyix (VYX) stock gained 10.3% over the past week \u2014 material weekly move relative to broader cohort.",
       "sources": [
         {
           "title": "VYX Stock Price and Chart \u2014 NYSE:VYX - TradingView",
@@ -132,10 +132,10 @@
       "first_detected": "2026-08-28T05:34:33.042958+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"TOST Stock Quote Price and Forecast - CNN\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"symbol__ Stock Quote Price and Forecast - CNN\"",
       "sources": [
         {
-          "title": "TOST Stock Quote Price and Forecast - CNN",
+          "title": "symbol__ Stock Quote Price and Forecast - CNN",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5pYTV5XzdiZGNzNzQtSzZ4QWk3RFRLZ0hhTGE2Zkx4NHBJaVRscndYNXVOc1luamFXZnBYU051ZjAtTDhIQUJMYTFmYWRtVFJJ?oc=5",
           "source": "Google News"
         },
@@ -222,36 +222,36 @@
   ],
   "most_mentioned": [
     {
-      "company": "Deliverect",
-      "count": 49
-    },
-    {
-      "company": "SpotOn",
-      "count": 34
-    },
-    {
-      "company": "Lightspeed",
-      "count": 32
-    },
-    {
       "company": "DoorDash",
-      "count": 28
+      "count": 18
     },
     {
       "company": "TouchBistro",
-      "count": 26
+      "count": 16
     },
     {
       "company": "Sparkfly",
-      "count": 26
-    },
-    {
-      "company": "Paytronix",
-      "count": 25
+      "count": 16
     },
     {
       "company": "Toast",
-      "count": 25
+      "count": 15
+    },
+    {
+      "company": "SpotOn",
+      "count": 15
+    },
+    {
+      "company": "Fiserv",
+      "count": 15
+    },
+    {
+      "company": "Deliverect",
+      "count": 15
+    },
+    {
+      "company": "NCR Voyix",
+      "count": 15
     }
   ]
 }
