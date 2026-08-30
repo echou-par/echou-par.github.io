@@ -2,7 +2,7 @@
   "date": "2026-08-29",
   "weekday": "Saturday",
   "first_seen": "2026-08-29T08:53:14.753145+00:00",
-  "last_updated": "2026-08-29T23:11:14.490779+00:00",
+  "last_updated": "2026-08-30T01:33:44.927924+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -176,8 +176,13 @@
       "first_detected": "2026-08-29T17:14:33.183605+00:00"
     },
     {
-      "text": "Olo shows concentrated risk activity \u2014 2 tracked risk items this cycle. Latest: \"Olo Inc. Officers and Directors Under Investigation for Alleged False Statements - Schubert Jonckheer & Kolbe\"",
+      "text": "Olo shows concentrated risk activity \u2014 3 tracked risk items this cycle. Latest: \"OLO INVESTOR REMINDER: Olo Inc. Shareholders are Reminded to Contact BFA Law about its Investigation into the Thoma Bravo Merger - TMX Newsf\"",
       "sources": [
+        {
+          "title": "OLO INVESTOR REMINDER: Olo Inc. Shareholders are Reminded to Contact BFA Law about its Investigation into the Thoma Bravo Merger - TMX Newsfile",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPQ2hheUdGVkw4eVhXaFZHWmUtUWN4dUhYbEtrS0lwVEhZVElsZUZOUFFBZU5MZDVLSGhwSl9uSXRObnVxRFEydGN0NWpXcG0yVUhSek5KTnVnN3lRV2tSM3F3UnBSeUhreEdqOENOMXZxOHZwM05xdV9mNXlxWms4Z2FqdEtDZTJjcmsxc3d5OW9xRnUwR0dHNF8ySURHdFJTTEdDX09FQkhnaUhNWVZOaHk1elJYeHkyRU5kYTJHd1FDa1FfaTJGNWEwLTA1WmczUnBBREVCMTAwN1gyTmt1V04xbW96RUt0OEw2WjhnLXhQSUtNVXZfQ1FWVmczTFhH?oc=5",
+          "source": "Google News"
+        },
         {
           "title": "Olo Inc. Officers and Directors Under Investigation for Alleged False Statements - Schubert Jonckheer & Kolbe",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE94aC1lUmFKSGZXX09hS3JwTTBRX2hDOGVuTjZacnpVUms0SmhMcXU3NzA2ZGVVWk5hVmpQeFN0X0xqNnJ6MUZ2Qm14S0ZaUkhtT0g4NjZB?oc=5",
@@ -238,10 +243,6 @@
       "count": 18
     },
     {
-      "company": "Deliverect",
-      "count": 16
-    },
-    {
       "company": "TouchBistro",
       "count": 16
     },
@@ -254,15 +255,19 @@
       "count": 15
     },
     {
-      "company": "Toast",
-      "count": 15
-    },
-    {
       "company": "NCR Voyix",
       "count": 15
     },
     {
       "company": "SpotOn",
+      "count": 15
+    },
+    {
+      "company": "Fiserv",
+      "count": 15
+    },
+    {
+      "company": "Deliverect",
       "count": 15
     }
   ]
