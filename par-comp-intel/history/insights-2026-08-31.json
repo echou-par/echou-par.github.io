@@ -1,5 +1,8 @@
 {
-  "updated": "2026-08-31T05:04:10.002147+00:00",
+  "date": "2026-08-31",
+  "weekday": "Monday",
+  "first_seen": "2026-08-31T05:04:10.002147+00:00",
+  "last_updated": "2026-08-31T05:04:10.002147+00:00",
   "insights": [
     {
       "text": "NCR Voyix (VYX) stock gained 10.3% over the past week \u2014 material weekly move relative to broader cohort.",
@@ -10,7 +13,8 @@
           "source": "Yahoo Finance"
         }
       ],
-      "company": "NCR Voyix"
+      "company": "NCR Voyix",
+      "first_detected": "2026-08-31T05:04:10.002147+00:00"
     },
     {
       "text": "Shift4 (FOUR) stock declined 8.4% over the past week \u2014 material weekly move relative to broader cohort.",
@@ -21,7 +25,8 @@
           "source": "Yahoo Finance"
         }
       ],
-      "company": "Shift4"
+      "company": "Shift4",
+      "first_detected": "2026-08-31T05:04:10.002147+00:00"
     },
     {
       "text": "Global Payments (GPN) leading revenue growth at +68.6% YoY \u2014 fastest grower among tracked public competitors.",
@@ -32,7 +37,8 @@
           "source": "Yahoo Finance"
         }
       ],
-      "company": "Global Payments"
+      "company": "Global Payments",
+      "first_detected": "2026-08-31T05:04:10.002147+00:00"
     }
   ],
   "most_mentioned": [
