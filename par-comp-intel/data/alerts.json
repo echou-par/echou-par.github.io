@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T19:32:16.697997+00:00",
+  "updated": "2026-08-31T20:16:02.498193+00:00",
   "total": 2,
   "by_category": {
     "stock_move": 2
@@ -9,25 +9,25 @@
       "category": "stock_move",
       "severity": "medium",
       "company": "Toast",
-      "headline": "Toast (TOST) stock down 7.0% over the past week",
+      "headline": "Toast (TOST) stock down 7.4% over the past week",
       "url": "https://finance.yahoo.com/quote/TOST",
       "source": "Yahoo Finance",
-      "date": "2026-08-31T19:32:16.697997+00:00",
+      "date": "2026-08-31T20:16:02.498193+00:00",
       "par_relevance": 3,
-      "note": "-7.0% 1W",
-      "detected_at": "2026-08-31T19:32:16.697997+00:00"
+      "note": "-7.4% 1W",
+      "detected_at": "2026-08-31T20:16:02.498193+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "Shift4",
-      "headline": "Shift4 (FOUR) stock down 11.7% over the past week",
+      "headline": "Shift4 (FOUR) stock down 11.9% over the past week",
       "url": "https://finance.yahoo.com/quote/FOUR",
       "source": "Yahoo Finance",
-      "date": "2026-08-31T19:32:16.697997+00:00",
+      "date": "2026-08-31T20:16:02.498193+00:00",
       "par_relevance": 3,
-      "note": "-11.7% 1W",
-      "detected_at": "2026-08-31T19:32:16.697997+00:00"
+      "note": "-11.9% 1W",
+      "detected_at": "2026-08-31T20:16:02.498193+00:00"
     }
   ]
 }
