@@ -2,7 +2,7 @@
   "date": "2026-08-31",
   "weekday": "Monday",
   "first_seen": "2026-08-31T05:04:10.002147+00:00",
-  "last_updated": "2026-08-31T19:02:25.291718+00:00",
+  "last_updated": "2026-08-31T19:32:16.697997+00:00",
   "insights": [
     {
       "text": "NCR Voyix (VYX) stock gained 10.3% over the past week \u2014 material weekly move relative to broader cohort.",
@@ -63,8 +63,13 @@
       "first_detected": "2026-08-31T11:46:41.224216+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Deliverect and Bounteous Partner to Expand First-Party Digital Ordering for Restaurant Brands\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 11 tracked partnership items this cycle. Latest: \"DoorDash: Integration Overview - help.deliverect.com\"",
       "sources": [
+        {
+          "title": "DoorDash: Integration Overview - help.deliverect.com",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxON242ZnoxdFNnMll6OERMakRkSFhMUEdBS01Hc0NxVDBXVWJJVHBYZnQ1MmR4WUV1X1N3Z0R4Y1MxMGR3UFRldVZuMFF2VUFwcXgzelFDd1E0cE00eWx0d2JXYU9vX0lJREJ5SlIySkxEOF9IbVlldklSYTBPMk52NVRVNA?oc=5",
+          "source": "Google News (deliverect.com)"
+        },
         {
           "title": "Deliverect and Bounteous Partner to Expand First-Party Digital Ordering for Restaurant Brands",
           "url": "https://restauranttechnologynews.com/2026/08/deliverect-and-bounteous-partner-to-expand-first-party-digital-ordering-for-restaurant-brands/",
@@ -74,18 +79,13 @@
           "title": "Deliverect and Bounteous Forge Global Partnership to Advance Branded Digital Ordering - PR Newswire",
           "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQUF4MHU4TjNEVWFtTENweTJzaC04OWItdmZXOXkyUUFEczRMVzk1NlpyX0YyY3pFdEFOMUhTZ1Iyc1l5aGY2S3g1Wi1NTE5CNWFiTUFhN182aFFrTG5Vd3FWVEFzaUFoazR3YlFYSEVOQ0xJTjdDZ2dmTWVfcEoyeDhzWXRiMlR3WHZUTVU5ZTUzNVliSmw1cVhjY1hLOHNvY2szSHkyczJlRDdVdkhzaEJOazJUR0dGbk1tOTV2b2JBN0cyRm5KV3Jnb0J0bFJpZXh5ZEZjbWQ?oc=5",
           "source": "Google News"
-        },
-        {
-          "title": "Deliverect and Bounteous Announces Partnership to Integrate Their Platforms - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNLUJuMFcyV0tiNU9yN3FJOUhsaXVEcEkzSVJvVXY1MHpWZHhYUW5FeUt1RkNkWFJWT2V3aFFOMlNpOWVudDY4OG05LVUyYTZXZFZiS0x4YUhWTThsNkFOaVh2N0czWFhxMnJ4NUFoVjlDQ2dGbWFSSGdQVVY0WG9wUFZWWEgwVkc1WXUyVGxseGttN2RLMDRHWUdRTGxaX2M4Zzdlbzd1aUVjTVliQzhhRlAtUFVJMWs?oc=5",
-          "source": "Google News"
         }
       ],
       "company": "Deliverect",
       "first_detected": "2026-08-31T11:46:41.224216+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -161,40 +161,84 @@
       ],
       "company": "Shift4",
       "first_detected": "2026-08-31T11:46:41.224216+00:00"
+    },
+    {
+      "text": "Cross-competitor event: Deliverect, DoorDash appeared together in coverage \u2014 \"DoorDash: Integration Overview - help.deliverect.com\"",
+      "sources": [
+        {
+          "title": "DoorDash: Integration Overview - help.deliverect.com",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxON242ZnoxdFNnMll6OERMakRkSFhMUEdBS01Hc0NxVDBXVWJJVHBYZnQ1MmR4WUV1X1N3Z0R4Y1MxMGR3UFRldVZuMFF2VUFwcXgzelFDd1E0cE00eWx0d2JXYU9vX0lJREJ5SlIySkxEOF9IbVlldklSYTBPMk52NVRVNA?oc=5",
+          "source": "Google News (deliverect.com)"
+        }
+      ],
+      "first_detected": "2026-08-31T19:32:16.697997+00:00"
+    },
+    {
+      "text": "Cross-competitor event: SpotOn, Toast appeared together in coverage \u2014 \"SpotOn vs Toast Comparison\"",
+      "sources": [
+        {
+          "title": "SpotOn vs Toast Comparison",
+          "url": "https://www.spoton.com/blog/real-users-prefer-spoton-vs-toast-competitors/",
+          "source": "SpotOn blog"
+        }
+      ],
+      "first_detected": "2026-08-31T19:32:16.697997+00:00"
+    },
+    {
+      "text": "TalonOne shows concentrated campaign activity \u2014 4 tracked campaign items this cycle. Latest: \"Ex-Pinterest exec Visha Kudhail joins Talon.One - Campaign\"",
+      "sources": [
+        {
+          "title": "Ex-Pinterest exec Visha Kudhail joins Talon.One - Campaign",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUDdId0ZqYjFIMTFnekJDOXNLSUN2ZWNCa2NkTlFXM3RFU05DcUJwZnpIYzVXdTRpYUM0NGRBQXY5bzJXTnFTVkhQTDZ6bXlpNFE0MFdackUyVkhSTURRaU92aDJvN0NDQ0laN2UzVm9EeTVyN3VJRVQ4ZFUxeWphUmJDcFpmRF9la0Z2ZG9ISE9OM1BncnJ5ZA?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Incentive engines: Top 7 platforms compared for 2026 - Talon.One",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBFV2dCUVp6M094WWIwcjU3TEFfM1FLd3Q2TmFjVG5MbnBZdGI5clVjeVh4VTBZWWIxdVNteVpmbUYwVW5uWXFHdW9tRnVPT0F1MDRpcVRGaFB1a1BJOHBxUFB3?oc=5",
+          "source": "Google News (talon.one)"
+        },
+        {
+          "title": "Campaign analytics - docs.talon.one",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBsd05ITEx4enNBV3MxNDZPbzVVT0stSWJ1dWFIM2l2SERHV2dLUVYwamRrS2duUTl0ZUxvTk9vTXhWMlNqeFAxTlBDSXdPbndMT0JRcDJhcU5pZ2g3R0hqMTRBZWc2SEJod01fR00xOUdpUQ?oc=5",
+          "source": "Google News (talon.one)"
+        }
+      ],
+      "company": "TalonOne",
+      "first_detected": "2026-08-31T19:32:16.697997+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
-      "count": 18
-    },
-    {
-      "company": "Toast",
-      "count": 16
-    },
-    {
-      "company": "NCR Voyix",
-      "count": 16
-    },
-    {
-      "company": "Sparkfly",
-      "count": 16
-    },
-    {
-      "company": "Lightspeed",
-      "count": 15
-    },
-    {
-      "company": "Shift4",
-      "count": 15
-    },
-    {
-      "company": "Global Payments",
-      "count": 15
+      "company": "Deliverect",
+      "count": 50
     },
     {
       "company": "SpotOn",
-      "count": 15
+      "count": 35
+    },
+    {
+      "company": "Lightspeed",
+      "count": 35
+    },
+    {
+      "company": "DoorDash",
+      "count": 28
+    },
+    {
+      "company": "NCR Voyix",
+      "count": 26
+    },
+    {
+      "company": "Sparkfly",
+      "count": 26
+    },
+    {
+      "company": "Global Payments",
+      "count": 25
+    },
+    {
+      "company": "Paytronix",
+      "count": 25
     }
   ]
 }
