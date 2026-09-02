@@ -1,10 +1,23 @@
 {
-  "updated": "2026-09-02T05:39:03.636594+00:00",
-  "total": 2,
+  "updated": "2026-09-02T11:03:12.091543+00:00",
+  "total": 3,
   "by_category": {
+    "analyst_downgrade": 1,
     "stock_move": 2
   },
   "alerts": [
+    {
+      "category": "analyst_downgrade",
+      "severity": "high",
+      "company": "Toast",
+      "headline": "BNP Paribas Exane Downgrades Toast Inc. (TOST) to Neutral - StreetInsider",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPX1Z3ajUzclBRRG85M2FabkVPN2FMTUxRSS03Y19vRHhpempZZktESFVvd3h0M2h6RGdDM1QwWDFNWWc0TGhZMzlrZ2VscC1aRTdxWEhUZEladXpZemF1RE9tWjltN1VOcWlEa0pUcTdxaElPdWF0VS1ncVBYa0lBWWVvMzAtTkxsVlFVS0RRR1FNYWNqMUtLcUtKLWN0aVlpMGc1LWQwWXV0QmFkR0t4VFU1OWNSN2ZJWmVBaEE0Yw?oc=5",
+      "source": "Google News",
+      "date": "Wed, 02 Sep 2026 08:00:12 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-09-02T11:03:12.091543+00:00"
+    },
     {
       "category": "stock_move",
       "severity": "medium",
@@ -12,10 +25,10 @@
       "headline": "Toast (TOST) stock down 9.1% over the past week",
       "url": "https://finance.yahoo.com/quote/TOST",
       "source": "Yahoo Finance",
-      "date": "2026-09-02T05:39:03.636594+00:00",
+      "date": "2026-09-02T11:03:12.091543+00:00",
       "par_relevance": 3,
       "note": "-9.1% 1W",
-      "detected_at": "2026-09-02T05:39:03.636594+00:00"
+      "detected_at": "2026-09-02T11:03:12.091543+00:00"
     },
     {
       "category": "stock_move",
@@ -24,10 +37,10 @@
       "headline": "Shift4 (FOUR) stock down 11.2% over the past week",
       "url": "https://finance.yahoo.com/quote/FOUR",
       "source": "Yahoo Finance",
-      "date": "2026-09-02T05:39:03.636594+00:00",
+      "date": "2026-09-02T11:03:12.091543+00:00",
       "par_relevance": 3,
       "note": "-11.2% 1W",
-      "detected_at": "2026-09-02T05:39:03.636594+00:00"
+      "detected_at": "2026-09-02T11:03:12.091543+00:00"
     }
   ]
 }
