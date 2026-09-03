@@ -1,6 +1,21 @@
 {
-  "updated": "2026-09-03T17:45:28.002149+00:00",
-  "total": 0,
-  "by_category": {},
-  "alerts": []
+  "updated": "2026-09-03T17:57:35.371884+00:00",
+  "total": 1,
+  "by_category": {
+    "analyst_downgrade": 1
+  },
+  "alerts": [
+    {
+      "category": "analyst_downgrade",
+      "severity": "high",
+      "company": "Toast",
+      "headline": "BNP Paribas Exane Downgrades Toast Inc. (TOST) to Neutral - StreetInsider",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPX1Z3ajUzclBRRG85M2FabkVPN2FMTUxRSS03Y19vRHhpempZZktESFVvd3h0M2h6RGdDM1QwWDFNWWc0TGhZMzlrZ2VscC1aRTdxWEhUZEladXpZemF1RE9tWjltN1VOcWlEa0pUcTdxaElPdWF0VS1ncVBYa0lBWWVvMzAtTkxsVlFVS0RRR1FNYWNqMUtLcUtKLWN0aVlpMGc1LWQwWXV0QmFkR0t4VFU1OWNSN2ZJWmVBaEE0Yw?oc=5",
+      "source": "Google News",
+      "date": "Wed, 02 Sep 2026 09:03:54 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-09-03T17:57:35.371884+00:00"
+    }
+  ]
 }
