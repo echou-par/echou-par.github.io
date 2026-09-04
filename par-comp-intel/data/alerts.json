@@ -1,58 +1,45 @@
 {
-  "updated": "2026-09-04T19:04:19.330817+00:00",
-  "total": 4,
+  "updated": "2026-09-04T21:43:12.497427+00:00",
+  "total": 3,
   "by_category": {
-    "analyst_downgrade": 1,
     "stock_move": 3
   },
   "alerts": [
     {
-      "category": "analyst_downgrade",
-      "severity": "high",
-      "company": "Toast",
-      "headline": "BNP Paribas Exane Downgrades Toast Inc. (TOST) to Neutral - StreetInsider",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPX1Z3ajUzclBRRG85M2FabkVPN2FMTUxRSS03Y19vRHhpempZZktESFVvd3h0M2h6RGdDM1QwWDFNWWc0TGhZMzlrZ2VscC1aRTdxWEhUZEladXpZemF1RE9tWjltN1VOcWlEa0pUcTdxaElPdWF0VS1ncVBYa0lBWWVvMzAtTkxsVlFVS0RRR1FNYWNqMUtLcUtKLWN0aVlpMGc1LWQwWXV0QmFkR0t4VFU1OWNSN2ZJWmVBaEE0Yw?oc=5",
-      "source": "Google News",
-      "date": "Wed, 02 Sep 2026 09:03:54 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-09-04T19:04:19.330817+00:00"
-    },
-    {
       "category": "stock_move",
       "severity": "medium",
       "company": "NCR Voyix",
-      "headline": "NCR Voyix (VYX) stock up 9.4% over the past week",
+      "headline": "NCR Voyix (VYX) stock up 9.1% over the past week",
       "url": "https://finance.yahoo.com/quote/VYX",
       "source": "Yahoo Finance",
-      "date": "2026-09-04T19:04:19.330817+00:00",
+      "date": "2026-09-04T21:43:12.497427+00:00",
       "par_relevance": 3,
-      "note": "+9.4% 1W",
-      "detected_at": "2026-09-04T19:04:19.330817+00:00"
+      "note": "+9.1% 1W",
+      "detected_at": "2026-09-04T21:43:12.497427+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "Shift4",
-      "headline": "Shift4 (FOUR) stock up 8.9% over the past week",
+      "headline": "Shift4 (FOUR) stock up 8.7% over the past week",
       "url": "https://finance.yahoo.com/quote/FOUR",
       "source": "Yahoo Finance",
-      "date": "2026-09-04T19:04:19.330817+00:00",
+      "date": "2026-09-04T21:43:12.497427+00:00",
       "par_relevance": 3,
-      "note": "+8.9% 1W",
-      "detected_at": "2026-09-04T19:04:19.330817+00:00"
+      "note": "+8.7% 1W",
+      "detected_at": "2026-09-04T21:43:12.497427+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "DoorDash",
-      "headline": "DoorDash (DASH) stock down 7.9% over the past week",
+      "headline": "DoorDash (DASH) stock down 8.6% over the past week",
       "url": "https://finance.yahoo.com/quote/DASH",
       "source": "Yahoo Finance",
-      "date": "2026-09-04T19:04:19.330817+00:00",
+      "date": "2026-09-04T21:43:12.497427+00:00",
       "par_relevance": 2,
-      "note": "-7.9% 1W",
-      "detected_at": "2026-09-04T19:04:19.330817+00:00"
+      "note": "-8.6% 1W",
+      "detected_at": "2026-09-04T21:43:12.497427+00:00"
     }
   ]
 }
