@@ -2,7 +2,7 @@
   "date": "2026-09-06",
   "weekday": "Sunday",
   "first_seen": "2026-09-06T05:43:41.621452+00:00",
-  "last_updated": "2026-09-06T10:42:29.408683+00:00",
+  "last_updated": "2026-09-06T14:03:40.699644+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"Why Walmart is moving in on DoorDash, Uber Eats delivery action, starting with donuts, coffee and sandwiches - CNBC\"",
@@ -16,7 +16,7 @@
       "first_detected": "2026-09-06T05:43:41.621452+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Deliverect and Bounteous Partner to Expand First-Party Digital Ordering for Restaurant Brands\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Deliverect and Bounteous Partner to Expand First-Party Digital Ordering for Restaurant Brands\"",
       "sources": [
         {
           "title": "Deliverect and Bounteous Partner to Expand First-Party Digital Ordering for Restaurant Brands",
@@ -144,6 +144,10 @@
       "count": 18
     },
     {
+      "company": "Toast",
+      "count": 16
+    },
+    {
       "company": "Global Payments",
       "count": 16
     },
@@ -160,15 +164,11 @@
       "count": 15
     },
     {
-      "company": "Toast",
-      "count": 15
-    },
-    {
-      "company": "Lightspeed",
-      "count": 15
-    },
-    {
       "company": "Fiserv",
+      "count": 15
+    },
+    {
+      "company": "SpotOn",
       "count": 15
     }
   ]
