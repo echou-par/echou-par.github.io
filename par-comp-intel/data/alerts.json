@@ -1,34 +1,21 @@
 {
-  "updated": "2026-09-08T17:17:55.082121+00:00",
-  "total": 2,
+  "updated": "2026-09-08T18:00:11.265166+00:00",
+  "total": 1,
   "by_category": {
-    "analyst_downgrade": 1,
     "stock_move": 1
   },
   "alerts": [
     {
-      "category": "analyst_downgrade",
-      "severity": "high",
-      "company": "Toast",
-      "headline": "BNP Paribas Exane Downgrades Toast Inc. (TOST) to Neutral - StreetInsider",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPX1Z3ajUzclBRRG85M2FabkVPN2FMTUxRSS03Y19vRHhpempZZktESFVvd3h0M2h6RGdDM1QwWDFNWWc0TGhZMzlrZ2VscC1aRTdxWEhUZEladXpZemF1RE9tWjltN1VOcWlEa0pUcTdxaElPdWF0VS1ncVBYa0lBWWVvMzAtTkxsVlFVS0RRR1FNYWNqMUtLcUtKLWN0aVlpMGc1LWQwWXV0QmFkR0t4VFU1OWNSN2ZJWmVBaEE0Yw?oc=5",
-      "source": "Google News",
-      "date": "Wed, 02 Sep 2026 09:03:54 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-09-08T17:17:55.082121+00:00"
-    },
-    {
       "category": "stock_move",
       "severity": "medium",
       "company": "DoorDash",
-      "headline": "DoorDash (DASH) stock down 11.2% over the past week",
+      "headline": "DoorDash (DASH) stock down 10.6% over the past week",
       "url": "https://finance.yahoo.com/quote/DASH",
       "source": "Yahoo Finance",
-      "date": "2026-09-08T17:17:55.082121+00:00",
+      "date": "2026-09-08T18:00:11.265166+00:00",
       "par_relevance": 2,
-      "note": "-11.2% 1W",
-      "detected_at": "2026-09-08T17:17:55.082121+00:00"
+      "note": "-10.6% 1W",
+      "detected_at": "2026-09-08T18:00:11.265166+00:00"
     }
   ]
 }
