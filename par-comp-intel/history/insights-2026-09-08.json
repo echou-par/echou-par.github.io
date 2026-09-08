@@ -2,7 +2,7 @@
   "date": "2026-09-08",
   "weekday": "Tuesday",
   "first_seen": "2026-09-08T06:26:44.413900+00:00",
-  "last_updated": "2026-09-08T11:39:46.536858+00:00",
+  "last_updated": "2026-09-08T16:27:01.091272+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"Why Walmart is moving in on DoorDash, Uber Eats delivery action, starting with donuts, coffee and sandwiches - CNBC\"",
@@ -60,10 +60,10 @@
       "first_detected": "2026-09-08T06:26:44.413900+00:00"
     },
     {
-      "text": "Olo shows concentrated risk activity \u2014 3 tracked risk items this cycle. Latest: \"OLO INVESTOR REMINDER: Olo Inc. Shareholders are Reminded to Contact BFA Law about its Investigation into the Thoma Bravo Merger - newsfilec\"",
+      "text": "Olo shows concentrated risk activity \u2014 3 tracked risk items this cycle. Latest: \"OLO INVESTOR REMINDER: Olo Inc. Shareholders are Reminded to Contact BFA Law about its Investigation into the Thoma Bravo Merger - TMX Newsf\"",
       "sources": [
         {
-          "title": "OLO INVESTOR REMINDER: Olo Inc. Shareholders are Reminded to Contact BFA Law about its Investigation into the Thoma Bravo Merger - newsfilecorp.com",
+          "title": "OLO INVESTOR REMINDER: Olo Inc. Shareholders are Reminded to Contact BFA Law about its Investigation into the Thoma Bravo Merger - TMX Newsfile",
           "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPQ2hheUdGVkw4eVhXaFZHWmUtUWN4dUhYbEtrS0lwVEhZVElsZUZOUFFBZU5MZDVLSGhwSl9uSXRObnVxRFEydGN0NWpXcG0yVUhSek5KTnVnN3lRV2tSM3F3UnBSeUhreEdqOENOMXZxOHZwM05xdV9mNXlxWms4Z2FqdEtDZTJjcmsxc3d5OW9xRnUwR0dHNF8ySURHdFJTTEdDX09FQkhnaUhNWVZOaHk1elJYeHkyRU5kYTJHd1FDa1FfaTJGNWEwLTA1WmczUnBBREVCMTAwN1gyTmt1V04xbW96RUt0OEw2WjhnLXhQSUtNVXZfQ1FWVmczTFhH?oc=5",
           "source": "Google News"
         },
@@ -82,7 +82,7 @@
       "first_detected": "2026-09-08T06:26:44.413900+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Why Could Rates Matter for Toast (NYSE:TOST) in Midcap Stocks? - Kalkine Media\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Why Could Rates Matter for Toast (NYSE:TOST) in Midcap Stocks? - Kalkine Media\"",
       "sources": [
         {
           "title": "Why Could Rates Matter for Toast (NYSE:TOST) in Midcap Stocks? - Kalkine Media",
@@ -124,6 +124,23 @@
       ],
       "company": "Square",
       "first_detected": "2026-09-08T06:26:44.413900+00:00"
+    },
+    {
+      "text": "Fiserv shows concentrated risk activity \u2014 2 tracked risk items this cycle. Latest: \"Lawsuit Update: Investors in Fiserv, Inc. (NYSE: FI) shares should contact the Shareholders Foundation - Morningstar\"",
+      "sources": [
+        {
+          "title": "Lawsuit Update: Investors in Fiserv, Inc. (NYSE: FI) shares should contact the Shareholders Foundation - Morningstar",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQa2wzeWFNVXFTYnU4Qmt2V3UxU29XYmE4X3M4YWhZYWVOaFp2VFRhSTNkZmhOQ0R1WnAyQ1o2S0Y1ZXp4X3poY2Y1WjV6Qlo4NE1kV2M1TGl1QlJOMnpkWlJmREpqSHh5dXk4SDJPZzRwb2FDQlo2U2RhVGhwRUpyMWZ2TUJ3ckVZR3hiYjAweGhhdU5VQ1N6QnE4UEluNFRzNDRjenQ2b1RVbUQ1MGEyTFNPdHo3Zk5taEhzbFRQcHFuTENYVHlqa3VYcFRFVmwxYXFzN2ZQYzJVWWJGb3kyaHhaN3FMcUFVTVN5c1d3?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Lawsuit alleges Fiserv misled investors about C... - Pluang",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZ2NqcHdacWFlbGVVME0yUk5FbXg3NFlhb0R2RU1iVXRObHM0WjZOWlZ4MFR6QjVkTWlyUTY4a1ZZbktCX1IwRUtJcF9yNC1VQWhzS1R5bjZKYWZyLTJ5c3RhNDNxeVJmeDZRVFZDY2h4QmphTHRRcHlBTVNIMDFlSg?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Fiserv",
+      "first_detected": "2026-09-08T16:27:01.091272+00:00"
     }
   ],
   "most_mentioned": [
@@ -144,7 +161,11 @@
       "count": 16
     },
     {
-      "company": "NCR Voyix",
+      "company": "PAR",
+      "count": 15
+    },
+    {
+      "company": "SpotOn",
       "count": 15
     },
     {
@@ -152,11 +173,7 @@
       "count": 15
     },
     {
-      "company": "Fiserv",
-      "count": 15
-    },
-    {
-      "company": "Lightspeed",
+      "company": "NCR Voyix",
       "count": 15
     }
   ]
