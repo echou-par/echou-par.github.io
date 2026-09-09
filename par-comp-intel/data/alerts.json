@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-09T17:55:01.226420+00:00",
-  "total": 2,
+  "updated": "2026-09-09T18:48:38.817129+00:00",
+  "total": 1,
   "by_category": {
-    "stock_move": 2
+    "stock_move": 1
   },
   "alerts": [
     {
@@ -12,22 +12,10 @@
       "headline": "DoorDash (DASH) stock down 12.5% over the past week",
       "url": "https://finance.yahoo.com/quote/DASH",
       "source": "Yahoo Finance",
-      "date": "2026-09-09T17:55:01.226420+00:00",
+      "date": "2026-09-09T18:48:38.817129+00:00",
       "par_relevance": 2,
       "note": "-12.5% 1W",
-      "detected_at": "2026-09-09T17:55:01.226420+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "medium",
-      "company": "NCR Voyix",
-      "headline": "NCR Voyix (VYX) stock down 7.0% over the past week",
-      "url": "https://finance.yahoo.com/quote/VYX",
-      "source": "Yahoo Finance",
-      "date": "2026-09-09T17:55:01.226420+00:00",
-      "par_relevance": 3,
-      "note": "-7.0% 1W",
-      "detected_at": "2026-09-09T17:55:01.226420+00:00"
+      "detected_at": "2026-09-09T18:48:38.817129+00:00"
     }
   ]
 }
