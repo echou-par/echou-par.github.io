@@ -1,57 +1,21 @@
 {
-  "updated": "2026-09-11T12:07:44.604512+00:00",
-  "total": 4,
+  "updated": "2026-09-11T16:41:54.445824+00:00",
+  "total": 1,
   "by_category": {
-    "stock_move": 4
+    "stock_move": 1
   },
   "alerts": [
     {
       "category": "stock_move",
       "severity": "medium",
-      "company": "NCR Voyix",
-      "headline": "NCR Voyix (VYX) stock down 9.9% over the past week",
-      "url": "https://finance.yahoo.com/quote/VYX",
+      "company": "PAR",
+      "headline": "PAR (PAR) stock down 10.8% over the past week",
+      "url": "https://finance.yahoo.com/quote/PAR",
       "source": "Yahoo Finance",
-      "date": "2026-09-11T12:07:44.604512+00:00",
+      "date": "2026-09-11T16:41:54.445824+00:00",
       "par_relevance": 3,
-      "note": "-9.9% 1W",
-      "detected_at": "2026-09-11T12:07:44.604512+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "medium",
-      "company": "Lightspeed",
-      "headline": "Lightspeed (LSPD) stock down 7.7% over the past week",
-      "url": "https://finance.yahoo.com/quote/LSPD",
-      "source": "Yahoo Finance",
-      "date": "2026-09-11T12:07:44.604512+00:00",
-      "par_relevance": 3,
-      "note": "-7.7% 1W",
-      "detected_at": "2026-09-11T12:07:44.604512+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "medium",
-      "company": "Fiserv",
-      "headline": "Fiserv (FISV) stock down 7.2% over the past week",
-      "url": "https://finance.yahoo.com/quote/FISV",
-      "source": "Yahoo Finance",
-      "date": "2026-09-11T12:07:44.604512+00:00",
-      "par_relevance": 3,
-      "note": "-7.2% 1W",
-      "detected_at": "2026-09-11T12:07:44.604512+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "medium",
-      "company": "DoorDash",
-      "headline": "DoorDash (DASH) stock down 9.4% over the past week",
-      "url": "https://finance.yahoo.com/quote/DASH",
-      "source": "Yahoo Finance",
-      "date": "2026-09-11T12:07:44.604512+00:00",
-      "par_relevance": 2,
-      "note": "-9.4% 1W",
-      "detected_at": "2026-09-11T12:07:44.604512+00:00"
+      "note": "-10.8% 1W",
+      "detected_at": "2026-09-11T16:41:54.445824+00:00"
     }
   ]
 }
