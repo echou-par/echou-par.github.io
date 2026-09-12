@@ -1,21 +1,57 @@
 {
-  "updated": "2026-09-11T21:52:57.823680+00:00",
-  "total": 1,
+  "updated": "2026-09-12T00:02:48.652747+00:00",
+  "total": 4,
   "by_category": {
-    "stock_move": 1
+    "stock_move": 4
   },
   "alerts": [
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "PAR",
-      "headline": "PAR (PAR) stock down 8.9% over the past week",
+      "headline": "PAR (PAR) stock down 10.9% over the past week",
       "url": "https://finance.yahoo.com/quote/PAR",
       "source": "Yahoo Finance",
-      "date": "2026-09-11T21:52:57.823680+00:00",
+      "date": "2026-09-12T00:02:48.652747+00:00",
       "par_relevance": 3,
-      "note": "-8.9% 1W",
-      "detected_at": "2026-09-11T21:52:57.823680+00:00"
+      "note": "-10.9% 1W",
+      "detected_at": "2026-09-12T00:02:48.652747+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "medium",
+      "company": "NCR Voyix",
+      "headline": "NCR Voyix (VYX) stock down 11.7% over the past week",
+      "url": "https://finance.yahoo.com/quote/VYX",
+      "source": "Yahoo Finance",
+      "date": "2026-09-12T00:02:48.652747+00:00",
+      "par_relevance": 3,
+      "note": "-11.7% 1W",
+      "detected_at": "2026-09-12T00:02:48.652747+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "medium",
+      "company": "Lightspeed",
+      "headline": "Lightspeed (LSPD) stock down 7.1% over the past week",
+      "url": "https://finance.yahoo.com/quote/LSPD",
+      "source": "Yahoo Finance",
+      "date": "2026-09-12T00:02:48.652747+00:00",
+      "par_relevance": 3,
+      "note": "-7.1% 1W",
+      "detected_at": "2026-09-12T00:02:48.652747+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "medium",
+      "company": "Fiserv",
+      "headline": "Fiserv (FISV) stock down 7.7% over the past week",
+      "url": "https://finance.yahoo.com/quote/FISV",
+      "source": "Yahoo Finance",
+      "date": "2026-09-12T00:02:48.652747+00:00",
+      "par_relevance": 3,
+      "note": "-7.7% 1W",
+      "detected_at": "2026-09-12T00:02:48.652747+00:00"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "date": "2026-09-11",
   "weekday": "Friday",
   "first_seen": "2026-09-11T06:33:17.144908+00:00",
-  "last_updated": "2026-09-11T21:52:57.823680+00:00",
+  "last_updated": "2026-09-12T00:02:48.652747+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Deliverect, Thanx appeared together in coverage \u2014 \"The Big Greek Caf\u00e9 Taps Deliverect and Thanx to Power Digital Ordering and Loyalty Across U.S. Locations - Restaurant Technology News\"",
@@ -127,10 +127,10 @@
       "first_detected": "2026-09-11T06:33:17.144908+00:00"
     },
     {
-      "text": "NCR Voyix shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"NCR Voyix Corporation Stock Short Interest Rises to 38.59% - quiverquant.com\"",
+      "text": "NCR Voyix shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"NCR Voyix Corporation Stock Short Interest Rises to 38.59% - Quiver Quantitative\"",
       "sources": [
         {
-          "title": "NCR Voyix Corporation Stock Short Interest Rises to 38.59% - quiverquant.com",
+          "title": "NCR Voyix Corporation Stock Short Interest Rises to 38.59% - Quiver Quantitative",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYmV3NVVIUjNURkxUVnMyQjJRMlpkQzRiaUJFLVR4RHctN29mXzZzbVBYcjVKcEgyakg4Z3VUVzVFUFI4UlhTX0Q2cG9LMnNnbnpnRHdEdTllNU0xTGs3X2s1UHc3SVJrZERZTGxKS055YTlYaHphX2VQTl8taXQwWHJRWUpXdEdkazVwbzdBRko2SVBEWXFCcg?oc=5",
           "source": "Google News"
         },
@@ -218,7 +218,15 @@
   "most_mentioned": [
     {
       "company": "DoorDash",
-      "count": 19
+      "count": 18
+    },
+    {
+      "company": "Toast",
+      "count": 18
+    },
+    {
+      "company": "Global Payments",
+      "count": 16
     },
     {
       "company": "TouchBistro",
@@ -229,23 +237,15 @@
       "count": 16
     },
     {
+      "company": "Lightspeed",
+      "count": 15
+    },
+    {
       "company": "Shift4",
       "count": 15
     },
     {
       "company": "Paytronix",
-      "count": 15
-    },
-    {
-      "company": "Lightspeed",
-      "count": 15
-    },
-    {
-      "company": "Global Payments",
-      "count": 15
-    },
-    {
-      "company": "SpotOn",
       "count": 15
     }
   ]
