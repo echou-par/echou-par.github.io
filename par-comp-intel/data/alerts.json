@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T10:55:37.356549+00:00",
+  "updated": "2026-09-14T16:54:56.036789+00:00",
   "total": 1,
   "by_category": {
     "stock_move": 1
@@ -8,14 +8,14 @@
     {
       "category": "stock_move",
       "severity": "medium",
-      "company": "PAR",
-      "headline": "PAR (PAR) stock down 8.9% over the past week",
-      "url": "https://finance.yahoo.com/quote/PAR",
+      "company": "Shift4",
+      "headline": "Shift4 (FOUR) stock up 9.1% over the past week",
+      "url": "https://finance.yahoo.com/quote/FOUR",
       "source": "Yahoo Finance",
-      "date": "2026-09-14T10:55:37.356549+00:00",
+      "date": "2026-09-14T16:54:56.036789+00:00",
       "par_relevance": 3,
-      "note": "-8.9% 1W",
-      "detected_at": "2026-09-14T10:55:37.356549+00:00"
+      "note": "+9.1% 1W",
+      "detected_at": "2026-09-14T16:54:56.036789+00:00"
     }
   ]
 }
