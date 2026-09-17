@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T18:26:02.188192+00:00",
+  "updated": "2026-09-17T20:08:04.045660+00:00",
   "total": 3,
   "by_category": {
     "stock_move": 3
@@ -8,38 +8,38 @@
     {
       "category": "stock_move",
       "severity": "high",
-      "company": "PAR",
-      "headline": "PAR (PAR) stock down 12.2% over the past week",
-      "url": "https://finance.yahoo.com/quote/PAR",
+      "company": "NCR Voyix",
+      "headline": "NCR Voyix (VYX) stock down 18.7% over the past week",
+      "url": "https://finance.yahoo.com/quote/VYX",
       "source": "Yahoo Finance",
-      "date": "2026-09-17T18:26:02.188192+00:00",
+      "date": "2026-09-17T20:08:04.045660+00:00",
       "par_relevance": 3,
-      "note": "-12.2% 1W",
-      "detected_at": "2026-09-17T18:26:02.188192+00:00"
+      "note": "-18.7% 1W",
+      "detected_at": "2026-09-17T20:08:04.045660+00:00"
     },
     {
       "category": "stock_move",
-      "severity": "high",
-      "company": "NCR Voyix",
-      "headline": "NCR Voyix (VYX) stock down 18.6% over the past week",
-      "url": "https://finance.yahoo.com/quote/VYX",
+      "severity": "medium",
+      "company": "PAR",
+      "headline": "PAR (PAR) stock down 11.2% over the past week",
+      "url": "https://finance.yahoo.com/quote/PAR",
       "source": "Yahoo Finance",
-      "date": "2026-09-17T18:26:02.188192+00:00",
+      "date": "2026-09-17T20:08:04.045660+00:00",
       "par_relevance": 3,
-      "note": "-18.6% 1W",
-      "detected_at": "2026-09-17T18:26:02.188192+00:00"
+      "note": "-11.2% 1W",
+      "detected_at": "2026-09-17T20:08:04.045660+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "Shift4",
-      "headline": "Shift4 (FOUR) stock down 7.4% over the past week",
+      "headline": "Shift4 (FOUR) stock down 8.2% over the past week",
       "url": "https://finance.yahoo.com/quote/FOUR",
       "source": "Yahoo Finance",
-      "date": "2026-09-17T18:26:02.188192+00:00",
+      "date": "2026-09-17T20:08:04.045660+00:00",
       "par_relevance": 3,
-      "note": "-7.4% 1W",
-      "detected_at": "2026-09-17T18:26:02.188192+00:00"
+      "note": "-8.2% 1W",
+      "detected_at": "2026-09-17T20:08:04.045660+00:00"
     }
   ]
 }
