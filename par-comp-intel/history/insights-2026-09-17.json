@@ -2,7 +2,7 @@
   "date": "2026-09-17",
   "weekday": "Thursday",
   "first_seen": "2026-09-17T05:58:19.154494+00:00",
-  "last_updated": "2026-09-17T11:31:32.604179+00:00",
+  "last_updated": "2026-09-17T16:44:29.892502+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"Walmart Just Declared War on DoorDash and Uber Eats, But Winning Won't Be Easy for 1 Simple Reason - Barchart.com\"",
@@ -57,7 +57,7 @@
           "source": "Google News"
         },
         {
-          "title": "Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - Loyalty360",
+          "title": "Piada Italian Street Food Revamps Loyalty Program, Introduces Tiered Rewards System Through Partners - loyalty360.org",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMHJDVWdfMUJ6dnhVVnFkLXM5VDhrNEV6eHBJMnlZdXhsQ3hORW85OE1Ea3FMNThaVzA2dDAwR2tBaHhzSmF5WVpIa2J2RnJrYVF4QW1qcWJiTWpGZ2xORi16bkktUVVRd0N1dWNoUVdVSWtuWUlrS1Rza1IyRl9GX1VwczdCdmRhdEhTNWxKcHN1MlVlY0dDSjBqN0E1S3FPTHFVcGNJRzB5NXN3Z05KWGl4NWc0alFGWGFqUlRfLWJmV2ZDbFd3RTRlbV9VQkJ2X1MzZEdxTXB6Y0RUajVOM08yNA?oc=5",
           "source": "Google News"
         },
@@ -157,12 +157,29 @@
       ],
       "company": "PAR",
       "first_detected": "2026-09-17T11:31:32.604179+00:00"
+    },
+    {
+      "text": "Fiserv shows concentrated risk activity \u2014 2 tracked risk items this cycle. Latest: \"Lawsuit Update: Investors in Fiserv, Inc. (NYSE: FI) shares should contact the Shareholders Foundation - Morningstar\"",
+      "sources": [
+        {
+          "title": "Lawsuit Update: Investors in Fiserv, Inc. (NYSE: FI) shares should contact the Shareholders Foundation - Morningstar",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQa2wzeWFNVXFTYnU4Qmt2V3UxU29XYmE4X3M4YWhZYWVOaFp2VFRhSTNkZmhOQ0R1WnAyQ1o2S0Y1ZXp4X3poY2Y1WjV6Qlo4NE1kV2M1TGl1QlJOMnpkWlJmREpqSHh5dXk4SDJPZzRwb2FDQlo2U2RhVGhwRUpyMWZ2TUJ3ckVZR3hiYjAweGhhdU5VQ1N6QnE4UEluNFRzNDRjenQ2b1RVbUQ1MGEyTFNPdHo3Zk5taEhzbFRQcHFuTENYVHlqa3VYcFRFVmwxYXFzN2ZQYzJVWWJGb3kyaHhaN3FMcUFVTVN5c1d3?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Lawsuit alleges Fiserv misled investors about C... - Pluang",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZ2NqcHdacWFlbGVVME0yUk5FbXg3NFlhb0R2RU1iVXRObHM0WjZOWlZ4MFR6QjVkTWlyUTY4a1ZZbktCX1IwRUtJcF9yNC1VQWhzS1R5bjZKYWZyLTJ5c3RhNDNxeVJmeDZRVFZDY2h4QmphTHRRcHlBTVNIMDFlSg?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Fiserv",
+      "first_detected": "2026-09-17T16:44:29.892502+00:00"
     }
   ],
   "most_mentioned": [
     {
       "company": "DoorDash",
-      "count": 19
+      "count": 20
     },
     {
       "company": "Global Payments",
@@ -189,7 +206,7 @@
       "count": 15
     },
     {
-      "company": "Snackpass",
+      "company": "TalonOne",
       "count": 15
     }
   ]
