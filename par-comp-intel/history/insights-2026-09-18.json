@@ -2,7 +2,7 @@
   "date": "2026-09-18",
   "weekday": "Friday",
   "first_seen": "2026-09-18T06:28:58.247239+00:00",
-  "last_updated": "2026-09-18T19:07:18.674550+00:00",
+  "last_updated": "2026-09-18T21:47:23.907717+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"Walmart Just Declared War on DoorDash and Uber Eats, But Winning Won't Be Easy for 1 Simple Reason - Barchart.com\"",
@@ -93,7 +93,7 @@
       "first_detected": "2026-09-18T06:28:58.247239+00:00"
     },
     {
-      "text": "Square shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Block wins over skeptics as BofA raises estimates following post-restructuring rebound - Proactive Investors\"",
+      "text": "Square shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Block wins over skeptics as BofA raises estimates following post-restructuring rebound - Proactive Investors\"",
       "sources": [
         {
           "title": "Block wins over skeptics as BofA raises estimates following post-restructuring rebound - Proactive Investors",
@@ -101,7 +101,7 @@
           "source": "Google News"
         },
         {
-          "title": "Block earnings beat driven by Cash App and Square strength - Proactive financial news",
+          "title": "Block earnings beat driven by Cash App and Square strength - proactiveinvestors.com",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPX2ZKVnBKRjZRTnZhUmJNdmQ3Vk8wbmpFeHVBSVJLUTBZekNHZEZSaV9nbDQ5NE9qM29reDN5bG1yZ0drSEh0U3lmVkZlc1F6Vlg0cWE5emNTWGtoam0tbm1RUXNzOFNYemxkU0c2VmViUFRpX3VaSlZBa3VUVFhUMTVLdF9oVlBQekJMcE5iY09MZ0dYNURiSlVURHZCMnFBb3dNOHRZX3Z6UjBFdDdIR2xYY2pLX2dIOExWZGxWVjhVeTl0YlRWVw?oc=5",
           "source": "Google News"
         },
@@ -262,15 +262,7 @@
       "count": 19
     },
     {
-      "company": "NCR Voyix",
-      "count": 16
-    },
-    {
       "company": "Global Payments",
-      "count": 16
-    },
-    {
-      "company": "TouchBistro",
       "count": 16
     },
     {
@@ -282,11 +274,19 @@
       "count": 15
     },
     {
+      "company": "NCR Voyix",
+      "count": 15
+    },
+    {
       "company": "Paytronix",
       "count": 15
     },
     {
       "company": "Fiserv",
+      "count": 15
+    },
+    {
+      "company": "ItsaCheckmate",
       "count": 15
     }
   ]
