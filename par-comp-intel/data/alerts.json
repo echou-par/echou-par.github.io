@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T17:46:48.217056+00:00",
+  "updated": "2026-09-18T19:07:18.674550+00:00",
   "total": 4,
   "by_category": {
     "stock_move": 4
@@ -12,46 +12,46 @@
       "headline": "PAR (PAR) stock down 15.0% over the past week",
       "url": "https://finance.yahoo.com/quote/PAR",
       "source": "Yahoo Finance",
-      "date": "2026-09-18T17:46:48.217056+00:00",
+      "date": "2026-09-18T19:07:18.674550+00:00",
       "par_relevance": 3,
       "note": "-15.0% 1W",
-      "detected_at": "2026-09-18T17:46:48.217056+00:00"
+      "detected_at": "2026-09-18T19:07:18.674550+00:00"
     },
     {
       "category": "stock_move",
       "severity": "high",
       "company": "NCR Voyix",
-      "headline": "NCR Voyix (VYX) stock down 17.0% over the past week",
+      "headline": "NCR Voyix (VYX) stock down 17.9% over the past week",
       "url": "https://finance.yahoo.com/quote/VYX",
       "source": "Yahoo Finance",
-      "date": "2026-09-18T17:46:48.217056+00:00",
+      "date": "2026-09-18T19:07:18.674550+00:00",
       "par_relevance": 3,
-      "note": "-17.0% 1W",
-      "detected_at": "2026-09-18T17:46:48.217056+00:00"
+      "note": "-17.9% 1W",
+      "detected_at": "2026-09-18T19:07:18.674550+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "high",
+      "company": "Shift4",
+      "headline": "Shift4 (FOUR) stock down 12.4% over the past week",
+      "url": "https://finance.yahoo.com/quote/FOUR",
+      "source": "Yahoo Finance",
+      "date": "2026-09-18T19:07:18.674550+00:00",
+      "par_relevance": 3,
+      "note": "-12.4% 1W",
+      "detected_at": "2026-09-18T19:07:18.674550+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "Toast",
-      "headline": "Toast (TOST) stock down 9.7% over the past week",
+      "headline": "Toast (TOST) stock down 10.4% over the past week",
       "url": "https://finance.yahoo.com/quote/TOST",
       "source": "Yahoo Finance",
-      "date": "2026-09-18T17:46:48.217056+00:00",
+      "date": "2026-09-18T19:07:18.674550+00:00",
       "par_relevance": 3,
-      "note": "-9.7% 1W",
-      "detected_at": "2026-09-18T17:46:48.217056+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "medium",
-      "company": "Shift4",
-      "headline": "Shift4 (FOUR) stock down 10.7% over the past week",
-      "url": "https://finance.yahoo.com/quote/FOUR",
-      "source": "Yahoo Finance",
-      "date": "2026-09-18T17:46:48.217056+00:00",
-      "par_relevance": 3,
-      "note": "-10.7% 1W",
-      "detected_at": "2026-09-18T17:46:48.217056+00:00"
+      "note": "-10.4% 1W",
+      "detected_at": "2026-09-18T19:07:18.674550+00:00"
     }
   ]
 }
