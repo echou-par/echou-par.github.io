@@ -2,7 +2,7 @@
   "date": "2026-09-22",
   "weekday": "Tuesday",
   "first_seen": "2026-09-22T07:35:21.826165+00:00",
-  "last_updated": "2026-09-22T17:40:04.524317+00:00",
+  "last_updated": "2026-09-22T17:43:44.142729+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Deliverect, Thanx appeared together in coverage \u2014 \"The Big Greek Caf\u00e9 Taps Deliverect and Thanx to Power Digital Ordering and Loyalty Across U.S. Locations\"",
@@ -168,40 +168,48 @@
       ],
       "company": "TalonOne",
       "first_detected": "2026-09-22T17:40:04.524317+00:00"
+    },
+    {
+      "text": "Shift4 (FOUR) stock declined 8.1% over the past week \u2014 material weekly move relative to broader cohort.",
+      "sources": [
+        {
+          "title": "FOUR on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/FOUR",
+          "source": "Yahoo Finance"
+        }
+      ],
+      "company": "Shift4",
+      "first_detected": "2026-09-22T17:43:44.142729+00:00"
+    },
+    {
+      "text": "Fiserv (FISV) stock declined 6.0% over the past week \u2014 material weekly move relative to broader cohort.",
+      "sources": [
+        {
+          "title": "FISV on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/FISV",
+          "source": "Yahoo Finance"
+        }
+      ],
+      "company": "Fiserv",
+      "first_detected": "2026-09-22T17:43:44.142729+00:00"
+    },
+    {
+      "text": "Global Payments (GPN) leading revenue growth at +68.6% YoY \u2014 fastest grower among tracked public competitors.",
+      "sources": [
+        {
+          "title": "Global Payments financials on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/GPN/financials",
+          "source": "Yahoo Finance"
+        }
+      ],
+      "company": "Global Payments",
+      "first_detected": "2026-09-22T17:43:44.142729+00:00"
     }
   ],
   "most_mentioned": [
     {
       "company": "Deliverect",
-      "count": 50
-    },
-    {
-      "company": "Lightspeed",
-      "count": 33
-    },
-    {
-      "company": "SpotOn",
-      "count": 32
-    },
-    {
-      "company": "DoorDash",
-      "count": 29
-    },
-    {
-      "company": "NCR Voyix",
-      "count": 26
-    },
-    {
-      "company": "Sparkfly",
-      "count": 26
-    },
-    {
-      "company": "Global Payments",
-      "count": 25
-    },
-    {
-      "company": "Paytronix",
-      "count": 25
+      "count": 2
     }
   ]
 }
