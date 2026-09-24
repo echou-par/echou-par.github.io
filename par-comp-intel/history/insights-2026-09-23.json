@@ -2,7 +2,7 @@
   "date": "2026-09-23",
   "weekday": "Wednesday",
   "first_seen": "2026-09-23T04:23:18.460691+00:00",
-  "last_updated": "2026-09-23T22:09:56.354910+00:00",
+  "last_updated": "2026-09-24T00:47:18.569055+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Deliverect, Thanx appeared together in coverage \u2014 \"The Big Greek Cafe partners with Deliverect, Thanx to streamline digital ordering - QSR Web\"",
@@ -94,7 +94,7 @@
       "first_detected": "2026-09-23T04:23:18.460691+00:00"
     },
     {
-      "text": "NCR Voyix shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"NCR Voyix (VYX) Revenue Fell On Hardware Exit, Is It Still 41% Below Fair Value? - simplywall.st\"",
+      "text": "NCR Voyix shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"NCR Voyix (VYX) Revenue Fell On Hardware Exit, Is It Still 41% Below Fair Value? - simplywall.st\"",
       "sources": [
         {
           "title": "NCR Voyix (VYX) Revenue Fell On Hardware Exit, Is It Still 41% Below Fair Value? - simplywall.st",
@@ -116,7 +116,7 @@
       "first_detected": "2026-09-23T04:23:18.460691+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"Toast, Inc. (TOST) Is a Trending Stock: Facts to Know Before Betting on It - Yahoo Finance\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Toast, Inc. (TOST) Is a Trending Stock: Facts to Know Before Betting on It - Yahoo Finance\"",
       "sources": [
         {
           "title": "Toast, Inc. (TOST) Is a Trending Stock: Facts to Know Before Betting on It - Yahoo Finance",
@@ -182,10 +182,10 @@
       "first_detected": "2026-09-23T17:52:54.164691+00:00"
     },
     {
-      "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"Walmart Just Declared War on DoorDash and Uber Eats, But Winning Won't Be Easy for 1 Simple Reason - Barchart.com\"",
+      "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"Walmart Just Declared War on DoorDash and Uber Eats, But Winning Won't Be Easy for 1 Simple Reason - barchart.com\"",
       "sources": [
         {
-          "title": "Walmart Just Declared War on DoorDash and Uber Eats, But Winning Won't Be Easy for 1 Simple Reason - Barchart.com",
+          "title": "Walmart Just Declared War on DoorDash and Uber Eats, But Winning Won't Be Easy for 1 Simple Reason - barchart.com",
           "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQLTd4MFFpbkVEZUNjUXppQ09Na1lEblFORmdPY05HZVhaTl9zVkFvRXhiODNzQWRQUFFXODVRQUd0aGNZaGlvU2xaakNROUp1eVBmNmVvM0lBSER4aUVaQmV3ZWVVSjR3Q1gyUGo4U2NqT3RtNndRRXNNUTU0eWV2b2hXRW8wYml0MzF6QnF3bWQ0QUYtRE9VT3BUUER0Yzd4bWFHVEgtOTk0Vmd3RGxtSGFYcjBtV2dXc3J0czhqX3hQM3l4cS00cmVzUC1OLXBWS0NSZVZxeXc?oc=5",
           "source": "Google News"
         }
@@ -203,6 +203,10 @@
       "count": 16
     },
     {
+      "company": "Global Payments",
+      "count": 16
+    },
+    {
       "company": "NCR Voyix",
       "count": 16
     },
@@ -211,19 +215,15 @@
       "count": 16
     },
     {
+      "company": "PAR",
+      "count": 15
+    },
+    {
       "company": "Fiserv",
       "count": 15
     },
     {
       "company": "Deliverect",
-      "count": 15
-    },
-    {
-      "company": "ItsaCheckmate",
-      "count": 15
-    },
-    {
-      "company": "Global Payments",
       "count": 15
     }
   ]
