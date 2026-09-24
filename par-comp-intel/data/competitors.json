@@ -1,6 +1,482 @@
 {
-  "updated": "2026-09-24T11:37:10.385741+00:00",
+  "updated": "2026-09-24T16:57:17.312075+00:00",
   "companies": {
+    "DoorDash": [
+      {
+        "headline": "DoorDash Agrees to $131.5 Million Settlement Over Worker Pay",
+        "url": "https://www.qsrmagazine.com/story/doordash-agrees-to-131-5-million-settlement-over-worker-pay/",
+        "date": "Thu, 24 Sep 2026 14:26:44 +0000",
+        "source": "QSR Magazine",
+        "type": "trade",
+        "company": "DoorDash",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "DoorDash reaches $131.5M settlement with NYC over courier pay - Nation\u2019s Restaurant News",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMk1jaVJ3T01DSFRLdGNPZjVwQnNOcVVDUV9QblluOVcyVWYzaTZReVZfY2NpMHM4Uy03T2wwZWJIQlhFQkw0cnlIbmp4aUdEVTc0VHVsakNkV1JlR2tTazd1cUhldTBob0hlQ2p6LWVfdUpnay03LWtEUTUtOVhDbnFvN0d0MHdZZ25pd09tdUxUaVQzbDYxaHF5cVlqdExjTkhmZg?oc=5",
+        "date": "Tue, 22 Sep 2026 22:15:47 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Credit Cards and Food Delivery: What Are the Rules on Rewards Rates? - NerdWallet",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNThaV2hkOVNTXzZ3eGxlMlpKNE1Ka29rdlBKVHI5SHE3ZVhpS1kwZjRlWTYtaktzQldhQ0pPdjJ4Y01QVVhwMWtGTUNuTThZVEtVTElmRE80VnJyS2M1bW1iQS04OHpjNjJ1ZXF1WGdidGExb2xlNmUzQmJQOUctSWFRTXctRGMzdzJOMTkzeXhBdXhYRVgwZFVtdklSVklpcGhNYmVCdy1PRnRlNGpxS0Fn?oc=5",
+        "date": "Tue, 22 Sep 2026 16:08:27 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Making the DoorDash/Wonder deal make sense - Restaurant Business Magazine",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQTFUVTV4WElqRXNCMTk1d09TM3hVTElvVjhXOFJmcm1zX2VOSDA5VThaaElDSDdZbWhWaVZIajljTHkya2hZcjBnT1hUS3lqbmZzVE5GNEd6NVNiU0VpWDc1VkozUlJ6Sjl6QkN2ZGdMamNVTEEtakV1M0NtYWIzMWxFTXBPcHdPVWFOVE1B?oc=5",
+        "date": "Mon, 21 Sep 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Sauce helps restaurants ditch DoorDash's 30% commission - calcalistech.com",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BeFA4c0pMZHF0Rk5QbGNIeXVlallPVVRUc3NwcElLRFF6YWxHRWFJQjVXZVhWTVBaenNfRkFvTU1hZ1I4RThyeDBWSkNfT0ZGcVFwak13aVJOTFBRZmxhQnJOMDNBaEk?oc=5",
+        "date": "Sun, 20 Sep 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Grubhub Campus Dining acquisition gives DoorDash campus presence - Campus ID News",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNEFZXy1MaVpJRUxmaWRISGJPSVZlZlV6Y0doSGpPMUhMczcwNWZFa2lsdjB3Vy1QUFctZFlpWFpISjRSb1FpRGxKaFpwQ1BtdVVnWHRhNl9rel8tUm55ejd2WkxMSmhVaEdnZFlwVmVBbFp5X2RaMjlDLTg5WTBOMnVKZ0ZoOGZZMlpKeDE3WGV2SndqOW13UU1B?oc=5",
+        "date": "Fri, 18 Sep 2026 16:52:21 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "DoorDash buys Grubhub campus unit for $300M - Restaurant Dive",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRnhXNGNIelRxbkVZeGlZcWllYW1kMGUtS0VPXzlZVnVMODlMNHhYaWFFQnlXTG80a0M3UDQ1bkpyaVdHWHlfWEoxeWlJVzh5MXJEQ0hmQzRZc3NvSThsbUptbnZlanU3V25qcTJ4R0wycGhEcGpFcDFpMWVWYXJ6Vkw5akNJVldSWkQ5dVNTWUxWSFhETWJTZmg5TWtFLVFlVHItdlN3?oc=5",
+        "date": "Tue, 15 Sep 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "DoorDash invests $125M in Wonder as part of strategic partnership - Nation\u2019s Restaurant News",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSnZQcGw5RWotbXJub3E0Nm5yN0VvY0RHZDNNeVp4UVVZbG54RzR1MWxaY2FCRE5CcV9hb09QdFBTaTVqMV9FamlSeG9yUXAyV2gxeDRjb09JMGU3VjhxWmxnY0wwdDhEOUpTVlBCUVd3NWRTYjZNaUZSNU03UzlieHg0VkFRU2xrUVo4TW1raWJPcTlXM2U2N0pNbmxsSW9jZlNJdjhiYzVzQQ?oc=5",
+        "date": "Tue, 15 Sep 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Why Walmart is moving in on DoorDash, Uber Eats delivery action, starting with donuts, coffee and sandwiches - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNenNvT2xaSjVjWG1QMzk2UFI2X2xfX0pQU0NyOVQ2Nk5Ccm1BRXVuWDVYQ3pERVk0eTZkdW5TMEV0aXcxRFF2dW0xY2d6X2ltWmxwVDh3ODNLbUZpWmk0Nk9XRWVCaUIySFpOMVczWlJaU3liUmJmcW9lUTZnNGlUSkQ1alN1TUNTdFRfTUgtZ9IBlAFBVV95cUxPR21DOTRJRHFUUjk3SnA3S3VqZllLZDBVLXFMcWM0Q2I3STZCOHp1Qm0ySGRUR3lQSzh4RmVlSXhwSU5YOTc5U2F5MlVsQUsxNDZwZGRHZjY5dHdLcGxDdGtGdlUyVnNZX1R3VmJJZGhPS3IybWxvZFd2OWtySms5QXlTM0FEdUkyVjNUYV9ZX0lPclZu?oc=5",
+        "date": "Sat, 05 Sep 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "CT Restaurant Makes DoorDash's List Of Top Burger And Hot Dog Spots - Patch",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOek8yMmk3ZWo3MkxaX2k5a2Q4V1I5dFk3dkhTZ1ZSN0doVnhoSjh6NDY5dHNkcTFxM1ZBWlRrTjNNREFQaFF1R1dkaERRYWNmRDZ1NDJ4U1p3dkxnY2tFNlFVN1laVlJ3RHp3R1ZqcWcxMHZoVlBkN29ycjZkVVI3WDRmZnF4dTNJZmk4M2loRkpfNXp4OUk4ZUxXUzBkVFJV?oc=5",
+        "date": "Thu, 03 Sep 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83d\udce2",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Household Goods Show Stability as Restaurant Prices Keep Rising: DoorDash's Q2 State of Local Commerce Update - DoorDash",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBoMklWY3lDQTI0ZFdaSWYwRW9mNzJhWWFFTEttZ3BQNzN0Y3NLWkYyMG9HcjdXRkN1bmtST2Z1OHJyaEREWVJQT1RUM1M5NUpnZ2ZOeVV1VmdBT1FWUkRUSVptQUNLLXJrOXBDVw?oc=5",
+        "date": "Wed, 08 Jul 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "DoorDash Inc. (DASH) Shows How Local Commerce Can Expand Beyond Restaurant Delivery - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQVR2TlVhVnc1azkyQkxITktERG5iQmxrUmJGc0ZoUkxGZlZoeTEzZkRXNEdFWDNwMGhtRnh3aVVsZFZieG52ZGk0MDB5UEdBVUx1REVOSThlWTktSzM4RnhjNTRFWER4bWw3aVdaSmJ2ejU5U0JGWUNLWllwb1RodVB6OHloYnpJNXBuSUExNE1PZ3RudThiWktB?oc=5",
+        "date": "Sun, 14 Jun 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "From the Doorstep to the Dining Room: New DoorDash Survey Data Reveals the Full Picture of the Modern Restaurant Guest - DoorDash",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRF8zWmlkSU5zdnZPajRLOEhMT19ycktKdlpKSnNwQlhZNWIzaG96dVh2WWg5Y2o0ZllkbUdwOHhSQUItaWxoWlVDcmd2UzQ5aTBCSzBUQ3h2ZnRlaWltYmdHMGptNFNSWGpXaDJNVWZsNEsxY0tWQm5lbW8yWTM3ODVjZzBqZGl0bGltSGl3?oc=5",
+        "date": "Mon, 18 May 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "DoorDash Could Expand into Payments with Restaurant POS Launch - PaymentsJournal",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVzRKTVpBcUsyOXBjZjZqdy1ROXVOOWdNRGtYUXFQREpaU0VQWTFnWnB4TzVBYkRpaTBPMFpQZXFpdm5DMnIwV3FNdXg0eXdDUG1nbnFfT1g4Y0IxdmE4b2lMNW5wLXdzb2oyeHhLTWxKMFNfZHZRQWk5YmdfZGF3dkJrMGc1YlY0eGhMWUNoV1lYMmluUkY4czBnc9IBoAFBVV95cUxNSmZIVkFJZTY2TmFPTDJsMlZOU0tOU0VaUTNMWG56OTlQSDVSczRxRFRSSUxaRy1rYi1RcEhUb2s2VXhEaWxRZGJ2dE5rN3lKYkU1MHJIWm9qbmpRdThiUlhCa0FsUnFQSGZGNWtDS0QyZGh6MEczeDJsM3oxQnRQNUNrT0lYVklRT2ctTUh3dXJ5SmVQY2tYLTRGMzRVMk1t?oc=5",
+        "date": "Wed, 13 May 2026 07:00:00 GMT",
+        "source": "Google News - Restaurant Tech",
+        "type": "trade",
+        "company": "DoorDash",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "You Can Now Snag That Hot Restaurant Reservation \u2026 on DoorDash? - foodandwine.com",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5xUlpVWWJJLWFrdG84Mm03cWlET2VXbkxub3pIaWlLTjFKWVdGeVR1S19abGxwNkxTdkFCaVQtOHViVFA1ZmdUNzlRLTlYd1dBSDh6T2xFR0JTNWxVdlpUdlZKdFlYVzJfcDY1OUpYN3Y2cldxX0tLag?oc=5",
+        "date": "Thu, 09 Apr 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Restaurant reservation wars heat up as DoorDash enters the arena with Resy, OpenTable - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOa0tlcF9MUmNUZTVJTWF0UHJUXzhOdUdqVjBYMWNjcFFYb2tTZm4yWFE3bUtIaDdrdUthWmNkOHdQZGJWVVV4UGgybGtIUUl3VUM2a0dwa1FDLWpmX1Z1RmVUNVVRcjU0eUQxQ2ZaNlhGLTJELWVoQjZub0JmRDgzMHhPUy1GcUZRZWcxQjhWaXpKQdIBlwFBVV95cUxONXV4MU40TVJHcTZydG1lZm44alVfVVB1eXJfYVNqNFR1VXkwY3pQdXFtUkFQSVZmTHFHdGU4SS1Ia3o4NFhTU3NqMXpvZU9IRks1dEMwZjRXZExYWXJCV3BONVdXbHZaTG1vUkFQY3owVVB4TnZlcDVBMkIxbG9zeWtZWlFjaXBrYlFDWVNiTmF6VGN3SXVn?oc=5",
+        "date": "Wed, 25 Feb 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "DoorDash",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "DoorDash announces commerce platform expansion with new tools - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZi1qWGpWSlRaYlFxZ05KZmRLUm5WaGlfRC1HVG1TQlRFNGFKUUR2SHh2bDhPeXdsNlVrelhybmJ2TlBtN0QxZnFQN3lSRUFLUHh0VGxzMDNzeEtNMTZDRG1EN2dfS2tzdnRmcl81UlphZXBFT1hGOWxGendnZGxaZnpDbzNOeDZPN0ZtMkRZVXpseGVWYmJn?oc=5",
+        "date": "Thu, 21 Aug 2025 07:00:00 GMT",
+        "source": "Google News - Restaurant Loyalty",
+        "type": "trade",
+        "company": "DoorDash",
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "DoorDash Puts Loyalty at the Center of Its New Restaurant Tools - Food On Demand",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSmtNb20xbTVoMVRaYzVlUWc2bjlHdlZSdlZDYmJZZnIyNWYyOXFIRElqX1BNRXJIV2ZRUVFENVdiOXdGcXZYT3NDMjAzR2QybUk1ZWtQZ0VfX2RORU9sa09WdFRjS01wUnBEcmQ2THRfamlZekh6ZmZWVXlhQ2hTTXhkOGNhWk1KaWp0MjlrZXhyaXNUYmRKTWZYRDdRZWs?oc=5",
+        "date": "Wed, 20 Aug 2025 07:00:00 GMT",
+        "source": "Google News - Restaurant Loyalty",
+        "type": "trade",
+        "company": "DoorDash",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "DoorDash Adds Tiered Membership Packages to Commerce Platform for Restaurants - PYMNTS.com",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVnVFbW9vVkZPX3ZzcmU3RUN5czVzTk5fWU5DWkxabE1WbFVpMkYwZFdzdHRscU9MbkE0ZU03cU40WEwtTUl1VmJNZndwQVNwdF9ydFdMaVNTM2pOUU1CcVRoWGkyS0RicUJhbUJQWVZNdC1hMjFhc29yTUxHd2pBd3I1N1N1VnVOLS1FdzNkc3ZzejRpX0tibHFUUy01SFQyZF9EN29NT1RTMTgyYVhjeFIzbjh3UmNnOUJxb08zZEltR0tkeWJj?oc=5",
+        "date": "Wed, 20 Aug 2025 07:00:00 GMT",
+        "source": "Google News - Restaurant Loyalty",
+        "type": "trade",
+        "company": "DoorDash",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      }
+    ],
+    "Uber Eats": [
+      {
+        "headline": "Top national prize for Korean barbecue restaurant in Coventry - BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5UM0V6MHkzOFpKZWRNeW44ZXdHejdDUnRGM2s2MkUwRHhIa3BUUTF6TmpRekpXYVB4ZkxnQ012RkhBZEZ2UjNWMXdIT0hyVWxRYlJ2bV94aTZKLWM?oc=5",
+        "date": "Thu, 24 Sep 2026 14:16:11 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Houston\u2019s Aga\u2019s Leads Uber Eats To-Go Orders Among Single-Location Restaurants (Exclusive) - people.com",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPT1d3WndFTkRjZW9ZRXR3Y0x3SHdlcU9uNGNoUTNsOVd1UzREOC1pdXJqSi1uSHREMnFKdXRKdmpxS3cxX1NqVk9Lc2FlTGxKNnJHUktHVWRZQ1pxWjZuTld5Y3ZTV1NlbTZxZ09Vd3ZEdjF1ZDJCNTJ6Y3JETkR4eFdXWTZGRDRZNWRrbDNhNnVkZkh5UW9rSjJId29MVnB4RDRxcjNpbTFpY2VEalJrSUEzSQ?oc=5",
+        "date": "Wed, 23 Sep 2026 14:23:17 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Restaurant News Bites: The Busiest Uber Eats Restaurant in the World, the Disappearing Tamale, A-List Restaurants, and More! - RestaurantNews.com",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbWt3dmNzdV9oWUg2OXRNb2RHcXNobEpsdXJzZGxqcU1SLTVTa0ZHSE1jRjZyU3ktbk9HRElwN3lMYmtSNWxwRDU0akxwMWdoUW5IZ2tKVkVzYkhxS0gzbzhJMnpXamJOaGJnQ0hjdmdkaWE1anlhX1dWT0VWeThLazFJOFJ4bWQ3THdiS1cwbzZNZlN2T2tMbFdqb3FtME1rVlYyOEFJUlh2MWFiSXJ0UG44dXNHczdQaC1zWFdBQ244SjM2WGtmS2tZWVNCTjNCNkZDS0ctYnVhWUtNRmgtU2N6T0VNN3NFVDVsWUFDVQ?oc=5",
+        "date": "Wed, 23 Sep 2026 12:00:24 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Top Uber Eats Promo Codes for September 2026 - WIRED",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8wTWVCcGdsenYzTDhFYkwtaEV0eGhqMTlBeUFzSVdPYWNiQlJxQ3dfMFlJMkJMOTJuNDRRNlNwT2VQazh6Q2NFQm5DTk1aaVpRT3JHSXlxUTI5UlYzWXc?oc=5",
+        "date": "Wed, 23 Sep 2026 05:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Is This Houston Strip-Mall Joint the World\u2019s Busiest Restaurant? - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNEpPbzctZ1JrblVLS2s4eWlweTFkaWdtZElQLWsxQzlvX3lWNTVlS01oMVpBemwxN1NWUGNRXzZHR0x1OTIzLWgzbGlEVlRYVGp2ZS0yRngzNUVSRDUtcnA3YUhKWmtycTNnLXlDQkhsdWVjajdrZHM5TklfQkQ4ZlhQRUp4NnlWWWo1VGFwZXBINEdsT1E?oc=5",
+        "date": "Tue, 22 Sep 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "This Houston eatery is officially the number one most-ordered on Uber Eats worldwide - Secret Houston",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBzSXp5a1lnUS1zV1ZrNTVwSERKcmdMY3JxT0FKYnlhZmFMMmMxMmhSTUFXMW43RUZXVVJvVUoxV2pEd3EwRzFfM0FmZTRkQjJ4QmpDYW01ZUp1SU5RTGFqUA?oc=5",
+        "date": "Sat, 19 Sep 2026 11:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "This Houston Restaurant Is No. 1 in the World on Uber Eats With 2,000 Takeout Meals a Day - Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONFlDWk95N1RSSUZyLXpMbVZPS1ZuLThaeG45VXpGR1gtYzdxSUNwVEc0Ujdubkk2WEduc1hiX2paaTJvR2ZBM3lZWE1RdlZSNVZGOWxWVUpHcGNFM1Rubk1xOEVWZUIyal9ldHZXV2JBbXhONjRWbmxjRXZWMWdabmthcEJMV2YwamFIWnh3?oc=5",
+        "date": "Sun, 30 Aug 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "This Houston-area restaurant is No. 1 in the world for Uber Eats orders - Houston Chronicle",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcVIzdFZEdTVLT2VSUEp4VU91R2djUDExWG54ZjZkckNtSEFEb244QzEwS3p3WHNneWwzUlNqOXZYRDlEbkVJenJIX1M5N3R2LUNUOFpPdFZzSjlGdk1QY2Q5X0gzOVFBWFhjNHlrZWVkSGRsRWRxV3p5RkFjTFhsRklDWV9OdERSNldaR1Y4cnBvMEVsWS11OA?oc=5",
+        "date": "Fri, 28 Aug 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Smarter Tools for Restaurants to Help Them Thrive - Uber",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB0eFMwX25xdjJKcnhLMk5adllPeGVCZGt0UUt5XzdfRThWVWFEMW5mOU9LcXpwcU5DTTJzX1FuOC1QcGZfRWlwc0VESHpNcDRsQjRCOWRGalhKMUdDUlhQNmVQTQ?oc=5",
+        "date": "Wed, 26 Aug 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Seattle Restaurant Owner Receives $40,000 from Uber Eats Following Months of Outstanding Payments - people.com",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRmI3elhCdFo3S0pOMGVjSl9hQlpLcENRQjJuT1BjZ0pvMUlKdG9QdG1QX29UZ1d0Z1V0X21lRWotTVdsUVRmTWlJaDMzeEJSNEE0SmZJNHRmdzNlY3VFdzV2T1QwR0lqSG9lYlFwNnMwZEdZQXJKQi1KQ1ZrWDI5WDdnYTNHcDJKOGR0WnNCNWpBT3dtc1FsUHZkY0N4dnRpUGtxWEZEaGQ0WVYwWVVYNUlSNXY4UVZOLU03QmtYS3lDQzl6V0E?oc=5",
+        "date": "Tue, 11 Aug 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Next-Gen Restaurant Recommendation with Generative Modeling and Real-Time Features - Uber",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LZzJHeUdreENVT3N1TGZSRVJIcnFIQWs5TGFkd01zSXZDRE1WWEhoYzFCYmFhb3pwZ3V2UUkzbGkzME5wU21VTjJSYU11X2NzVUNyN3MzeVB3RjNWOWxMcG5OdnVWajJMQzdpTDh3R2FvcEd3VlE?oc=5",
+        "date": "Fri, 17 Apr 2026 09:01:02 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Uber Eats raises marketplace fees - Restaurant Dive",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNczNPeVhpaXlUY1R3bE1oS2t1ZElUSTBMNFR2S2xQaml3N0poVGh6TTBRQlBwZXMyRHliaDRfQUFta3dobk9YYTZNS0pVaDdSa00xSHZVSENlMnJtblZpaFA3VWVQajYzelNXTUFxMUlCMXVxRUVZbWdOVUw1Nm1OM3BKNGRPVDQ?oc=5",
+        "date": "Tue, 10 Mar 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Uber Eats is raising delivery fees for some restaurants - Restaurant Business Magazine",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVXlFRzZ0elNSQnhXckp3cjhEVU9zR1N0S1lOS2t2VUV4OVB4SXVQMlFpcnNMSmJSV2hfYmV4aGZ1QjVWVTBhczVDa1J4YkxFdi1TUjJwQkstM1h0NFhNU2xvajAxVnNfME5YWTMwMXNLLW5MSlFiMkphYUZyc0JCRFZjSWtlN2hOLUNRcDc4ZDc2TlFOUHAzcFlWNFU?oc=5",
+        "date": "Sun, 08 Mar 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "Uber Eats",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      }
+    ],
+    "Fiserv": [
+      {
+        "headline": "Fiserv Trending on New CFL Deal, Unresolved $15 Billion Debit Network Talk - benzinga.com",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSVRQNFFCUktKUXVCRWNpTHU5Q3ZpeUFIWENIQllHVmhJbS1TWVhGNVExTVNLei0yb196dnNlUGY0Tl9EeWJKZV9ESmVOZkxMWGEwNEF4RVpHV1hXNm80WVJCTEpURk5EQTdyczhQaWF6WU8yd2hzdHpkR1hIOTZUeklONFZ6bXA3dGUxeFRraHlRdnpRVUFOYU9kVGx1VWszTUliZlgweHhmZkwwbFE0VWZJZEdHbWV4N3hfTldPZlFaQXBDNkdCYllaX2tLZw?oc=5",
+        "date": "Thu, 24 Sep 2026 12:19:48 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv (FISV) Could Be 62% Undervalued Following Its Clover Venue Win - simplywall.st",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTV91bWVzWlg0Smx2N2lCTWJmaWFkOE8wZ0V0TkJHa3JEUFlMNk9jNXFPeEdUUzJBc2F4QnhtN0IwejBTaE96OW9RdkxLODNHMHA5V2RSR0R5VGNYZ2pINHpDY0lTT0Nkc01NdXVpU2ZGanlyNzlMXzN2dUxvekladjdSd2pybDFiZVNMRGt2X1hIS3E1TU51UkpEekU0LW1lbmRlbEo4X2xjWjV3MjBnLWNLdmI2cy1TNkZEME5OT29uX0Q3ZXVQM1ZweVZjSFYzZ0ZiRzFn0gHbAUFVX3lxTE9HNzZ0T05rRExmWmlHR2p2blZZZnFSTGprR0NJcVpHVGJBLTZ2S2F3bXd2Vksyd1FxNUdXRktvZ1Iwc19UNTdyb3h5dkcyNVJyYzhNU1p0aWd2UDRqMmo5LWRCdWZRaVpzTTZ1Y2s3aWE4bGxxR0JjSWtRbDhOS2JTcGZwWk5Jbld0WURRanRoZDZWV3NzTW9oOFBPbllBblgzU1hlYW1wa01YS0lUMWxMQ1B0bkoyMVlhdVhZQTdrc2VhbFBDV3Z0ckpMSEg1VEtibDlna2s2RzJqOA?oc=5",
+        "date": "Wed, 23 Sep 2026 23:44:30 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Track Rabbit And Fiserv Clock Event Wins - Digital Transactions",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSU94R21nTG9oa3Z5Z3dwVUE2SDF1RDljRU9Ebm9GUEU3YTdFX0x3RWdLUVAxX3p4NkFyanM3Y1pWajgxNmVqb2NRdGhYRS1vRHRzZlRXLWpCVlZxZjcyQk9UdWVsRHdrUGVHMDR5UmE4Z1BYRkF1akRaZ0NrZzdUUTA3WQ?oc=5",
+        "date": "Wed, 23 Sep 2026 14:55:30 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv (FI) Lands Canadian Stadium Commerce Deal With A CFL Team - simplywall.st",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWjRhRGY1bFRhTm51NXZ6WkQxV0JJUTJONE5tMVU0YlVGeTUtcXJod0sxbWt0WW1KNFNRVmYyRkF4OERQTXZQQlRnRGRjTS1YZFc5YTJwUHVYV0I2NDRiLU14NmM3QUlOczBFVDhNMUROY1VJMWdNSWNtRnpYT2gtbFBDd3lEZ3JWMm01UXNtNE1EMTNZbURpcVpGSVdaWlpWMjk4dXJFM1Y3cEZvRDdmVjFZVHNudEQ5NXFzVHd2UTA3VEFjd2JHMEtHQTNpWE96VDk5YmFjenE4UnPSAdsBQVVfeXFMT1o0YURmNWxUYU5udTV2elpEMVdCSVEyTjRObTFVNGJVRnk1LXFyaHdLMW1rdFltSjRTUVZmMkZBeDhEUE12UEJUZ0RkY00tWGRXOWEycFB1WFdCNjQ0Yi1NeDZjN0FJTnMwRVQ4TTFETmNVSTFnTUljbUZ6WE9oLWxQQ3d5RGdyVjJtNVFzbTRNRDEzWW1EaXFaRklXWlpaVjI5OHVyRTNWN3BGb0Q3ZlYxWVRzbnREOTVxc1R3dlEwN1RBY3diRzBLR0EzaVhPelQ5OWJhY3pxOFJz?oc=5",
+        "date": "Tue, 22 Sep 2026 22:39:52 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "A payment system now supports six of nine Canadian football venues. Winnipeg's Blue Bombers are the latest. - Stock Titan",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcmZVRXpURWVQMkROdkxpTEcwZFBYN0N4MGY3R0g5SEJaQ3RONWh5TlFMX0NuV1F0c1lUZUIxWHZya0M5MzVjdk5rdkJjTi05SzhmekhtTGZ6U2p0NTBreW5udnN5VDJTRFNFMXFjTDJnMDFlWDBKaGkxNldBNDdfNF94YWVEVVdyV251NXZSU1lRWnJiQjMwUUI3MXVWa3dvRTVQZkRGTFBGeTRndXc?oc=5",
+        "date": "Tue, 22 Sep 2026 12:44:23 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv Expands Clover Footprint in Canadian Sports and Entertainment - GlobeNewswire",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOS20tREVDZF9XcW1DVFp4cFlvMWZ5dlVpeTY0Z0pyWEloYXNQWVpYZ05XZ3RtaU81U0xHRW5FWDRkTnpDcWZIa0EwRnhHd1BjVno1enJVcTc4aWI2WU5QVXhzd3UzdDhxXzd3Z0pRcWwwUHhTVzJmWWpiT1JNVUg0VTVRQkhuY2lXaHQwWVdnaEpsZlhHZ1hoSXN5cnhpWDdEX2tiMGFOSXRpM0NCT0JxVjVTVEt5TlljOHVIY29ZUzNaNjdDekNVM0lkemNlejZEamM1N2tpSFhOMnM?oc=5",
+        "date": "Tue, 22 Sep 2026 12:30:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Can Genius Emerge as a Key Growth Driver for Global Payments? - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQLVVYQm1ZNHdSV1ZNWmhSb3lzU25zY1drMWp1Z3VXaHNjTEdxU0l6Znk4Qi1ScEliejVVRkdVZVlQemNpMDA1NkI3QXJDVmZ5TFNYcW9SUF93c0txTnFydVhOM1lJWE5DTGpmQmF4aWlubUg1UWo1MWRqTTRzRXAxbTFWT2NsUGVmZEpGaTVmUmNxc3JLRlFnZFBhOUduNGRpUC1jX0ZUXzdLd29VNFJxQmpSbmxYU1U?oc=5",
+        "date": "Mon, 21 Sep 2026 13:13:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv (FISV) Q4 2025 Earnings Call Transcript - Fortune",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0zOUFkSXAwR2FLaGEzY3BNRGhSNUduQXdHZUxHMFhGWEhaZWZOQ3dRY3pRX3FPT0F2ckk3Q3JyRTB3LWtobEFaZG1DYnhtY2FLT2p1eFI0bm9TSGZSWm9vUnJB?oc=5",
+        "date": "Sat, 19 Sep 2026 06:49:35 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv Targets Turnaround With Project Elevate, AI and Clover Growth - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOd2lfclZ4Vl9UcEs1VmxqV2ZQaFVvMVJZOEhvNVl5MEJhYVhIRW1JOENBMWZ3UWRKZWJ3NGw0X3pYcVI0VVdEWGdKUDIyallWVmJLUjgyZlNmckpXajZXeXpEMWFTbndVaUdnYzcyVEJQZE5DYXFoTEJqMUVSRThFZm16RGE3eVBlYUVEaDJ4Z3hqTk1tVDdyanlVWWI2TElBMlUxMXF3SVU?oc=5",
+        "date": "Tue, 15 Sep 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv: Potential Asset Sales, Activists, And Clover Outweigh Missteps (NASDAQ:FISV) - Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdmF3ajFMOThkTlByR1lTNWZZdXFHMjhzVnpqSHZLdDEzLTBwTXV0OE1vLUFMTkRhN3FRaFhPZXlsVEhid0lYOFBTSjYtcUJqR09kWjdqX2p0bFJsZEEyeGhTVi1PdS1fV3J1S1ZzOGozRTl5RElDVDNqdG8tRnB6OFhpLXhrNHN1ZTNsVmJnNThJZFZkTV9RMmRKOXE5RnNuVkZ0V2EwY2V3ZXNi?oc=5",
+        "date": "Tue, 25 Aug 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv flags Clover revenue drop - Payments Dive",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ITUhOTGFLZnNxYWhEa0lMZHdscFRmTVpkNlRmalg5bkRjUWpac3B2amxrem51R0o3VVZVNXIycDNDZURnb3Yxb3AyTEVlSnV5SHZReXFHMzNfZFJjVmd4X0pHNjZKTlhQRWVmck50ZlpNN2g0UzJ2d2JoblBjck0?oc=5",
+        "date": "Thu, 06 Aug 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Is Clover Becoming a Bigger Challenge for Fiserv (FISV)? - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNHJCRHBaNFRXTmRBMExFcWh0X212Q0lIZW0yZzhkWURCSEJjYTltZjFZclV1eUZWQzNNZXlsakQ3OENNRHZnbDFvQlR5ckxSTUZrSEg0bm9UbWVfY0dEN0ppdjFFLWtzV180Mm1wQ1VNdXpUdV84ZXdjWnd1bVk2Q3VtWGlaLWdGY2h3YUxLbFFZd1laWGd6S0VLZjV4NDhUbWRfZGFNSQ?oc=5",
+        "date": "Tue, 02 Jun 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv Expands Clover\u2019s Restaurant Portfolio with New Fine Dining Solution, Clover Reserve Powered by Tabit - Fiserv",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVi15dl9YR09jWmpCV0VsUXBWRWJGdW1QYTBMclVYQ3VpRGMwLWhMTmN6VkZDMmFRUTF0Z0JIaS0tUW5PY1EyVU13bmczUHl4RlVReGhjY0lYQ0N2OG42bEU4TVFrWEUxY29iVkpXZFJFUnJ4V1VTQjlmVWREVHZBXzFBVFdVOGZPbllMSkg0aHRGZGZ5RUxzUTBoMDN0X0V1VjJQVGlOT2piZkVLOFoxdXA5YmR2eTZ0VFBpenJpS2s?oc=5",
+        "date": "Tue, 12 May 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Fiserv and Sumitomo Mitsui Introduce Clover Suite of Products, Enabling Digital Commerce for Millions of Merchants - Fiserv",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPekI2d2c2b3dNQ0M4dy02WS1kNmxfbDdZLUJiRTNxTjA3UnFZWWk3TDdaLTYxdHZlbU0xZ1VWMkNSdXM5czUyZzd3LS13aXc5YWxuby1RVjRjdGJqNzQ4X2UySWt4a19VX1FtSXhOMjFxZXMtUTE5aVhMTjFGTDZjWUR3US0xUFB4Sy13cGhwUmxaVWlZYXhIWkVFeURZT2kwdGdMcUMzdUpjN0hKaHQybzhYejBCaEZiUURFQlkyVQ?oc=5",
+        "date": "Wed, 21 Jan 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Clover Introduces Identity-Based Payments to Transform Everyday Transactions - Fiserv",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU056TDVZVGl6Y2NrSmNRS3A0TVBLV2ZHOXFQZHFfRldHM0xGX0Y1eFFfTDF6ZGphM3hpaURVM2lydzhiQlhOUk5YdV8wTkswbFVHY0pEektMMjRhd3gyUjJteW96WWxwT2EzQVpNQ1RTLThXeVZLdVh6NVFzc1ZDNERoVm1TNk5OeHlSa1h1bHZpTzRoUUhvbTFKRENGVHpXVEVNaVlJQVVBNGVJU0tuREx6cVlzZVpYd1A5cnhPWEdIdw?oc=5",
+        "date": "Wed, 07 Jan 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "Fiserv",
+        "type": "public",
+        "emoji": "\ud83d\ude80",
+        "content_type": "press_general"
+      }
+    ],
     "Shift4": [
       {
         "headline": "Mizuho cuts Shift4 Payments stock price target on revenue outlook - Investing.com",
@@ -15,7 +491,7 @@
       {
         "headline": "Shift4 Payments (FOUR) PT Lowered to $46 at Mizuho - StreetInsider",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOa19CcHRIeTlwYWF0d0Z2QmNJR3lkZ1VfUnJicFp6T211SDFYVzg0WHYyMXV0SFhSS0lvYjBjZmNpSmh2OXJza3h2a05qeVNPa3Jxd3J6QWpfM04zZGtSLTFrWF90REpaWHVmUm5qVTRiRkNDYjJCeEJydThzckx0VHFPWWdQMWE2UW5VOWNDV3FGMGxzR010eFpFbzEwMUtOLWxPV0VmOWpfUl9mV2Jrem9lUjQyc09W?oc=5",
-        "date": "Thu, 24 Sep 2026 09:11:29 GMT",
+        "date": "Thu, 24 Sep 2026 09:21:10 GMT",
         "source": "Google News",
         "company": "Shift4",
         "type": "public",
@@ -43,19 +519,9 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Shift4 Payments, Inc. (FOUR) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5HT2wteGRTQmxialNIMjlRbGpTSHhmQWJCcmMwZzZqcG1oMUoyV2FuSVhTY2VTYTNxLW5iV2pYZFN2Q19qVVQyb1gtcWtjQm12cHc?oc=5",
-        "date": "Wed, 23 Sep 2026 12:41:28 GMT",
-        "source": "Google News",
-        "company": "Shift4",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Shift4 Payments, Inc. (FOUR) latest stock news and headlines - Yahoo Finance UK",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8tS1pmbzRFalV2ZG5INThLbm5tZkNvVFM5UTJ4VGEwbXdoWWFtSnZDTjVvdUdKd18zdUdJZ2lGYlRBamNTUmZRSm0wLWlvV19XQlRQY29vZkw?oc=5",
-        "date": "Tue, 22 Sep 2026 10:50:22 GMT",
+        "headline": "Shift4 Payments, Inc. (FOUR-PA) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2QkN2M3FJSzlxWGFtVWYyajdjUGNKZHk3aWNLUkJ2LXp0VUJUdVdZWWVQZDlkMnFBX1JoWjBqcVRxS3V6NHV5Qmpyd0lPTVVnTUk2OElR?oc=5",
+        "date": "Wed, 23 Sep 2026 16:20:57 GMT",
         "source": "Google News",
         "company": "Shift4",
         "type": "public",
@@ -155,16 +621,6 @@
         "content_type": "press_general"
       },
       {
-        "headline": "NCR Voyix Corporation (VYX) Stock Forecasts - Yahoo! Finance Canada",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQ0ZUVjdhVWNhOGlxOHVKV1JGcEpZemZkMGhUVVFMaGdFVzREbDZQQXN1RU9FMG1XeDNjOVBhRU45MGNiWjlJUWRvUXJXN3VuNjNVNTRIdjhNbVRuYU1vOXFCZm80VkhKUkRNNG03VnRpSzg2aG92Rlc0dVlMTVgyNXFHdUR1R2ZjR0l5WElHN0RmR2c?oc=5",
-        "date": "Thu, 24 Sep 2026 02:43:23 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
         "headline": "Veritas Capital acquires NCR Voyix Digital Banking as Candescent for $2.45B - Dealroom",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWERpRHF5SkRFajF5OVhtWkg3R3BNYWw2bHZuc3pfSFY5NHdfNTliNHNSX0JaT1FKa1YxSXdrZ3VaX0I5UGFkUm5BUjFObHE4SWxqQ1RPbWdjVDVORXB0WUprQVpMMHRjU1BTb0VkR3o3Y3h0MjF0aTZKdFJqd1NfUkhiN1BneVMxOW9OZG8yVVB4UFRBZU50YnI1WmQwOE9YMDBTcnFqbGg4dkJp?oc=5",
         "date": "Sun, 20 Sep 2026 01:18:51 GMT",
@@ -172,16 +628,6 @@
         "company": "NCR Voyix",
         "type": "public",
         "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "NCR Voyix Corporation | Company, History, & Facts - Britannica",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1YTGdWVGtWS3JUSkV6MXZad2FlLUduWjk2eTA1WklJTU1JN28xOXJBTTdnTUlJMjN3OHk5TEhMcm9admxydVZ0N2FUc2Juc1VidGdRTTBXWi01RV9LNFI4NzloUUE?oc=5",
-        "date": "Thu, 17 Sep 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "NCR Voyix",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       },
       {
@@ -255,6 +701,16 @@
         "content_type": "press_general"
       },
       {
+        "headline": "How AS Watson\u2019s Expanded Commerce Deal Could Shape NCR Voyix\u2019s (VYX) Retail Tech Narrative - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNGxGazF0c1A3VmJOUERTemIybGVkMmNyRUJjMUtITkJmRG4xUUhpNWhBZ1NnZzVFbC0yelk0MU85MjZjZnhXNEtXbWdreXB5eDR3WmpUbVlKY0lVX21MWTRiWklNd1lpVGhfOHFWVHBnMFdScXE2Tmt2bDAtYnI4eEdyRkRNYlhiSXlhUURaWWRGVWs4b3lRdWpVX0dteXh3cEE?oc=5",
+        "date": "Sat, 15 Aug 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
         "headline": "NCR Voyix (VYX) Stock Looks Stretched As It Lands A Retail Platform Deal - Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMnU5c2xWT1VfOFgxVWI5aWluVjVucUZkMWpRcE1rQ1JWZlF6S0xydm9WY1FyMVg1Q0ZNX2s0dkpnaUViVnRfeTR0blA3aU12VS1zNWoxV0s1ekUzby1HSU1XVWxnYTZEeWJUajVoYjZtV2tUREtzUjlNN3NZcl9od3E2R0Z3WWNlMzBGYlBiUWhKM1JH?oc=5",
         "date": "Fri, 14 Aug 2026 07:00:00 GMT",
@@ -262,6 +718,16 @@
         "company": "NCR Voyix",
         "type": "public",
         "emoji": "\ud83e\udd1d",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "NCR Voyix Q2 Earnings Call Highlights - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVTZSVF95eldSWXEtMzQxTFQ5QUQzbS12NHczMlVteTdVRnR0d0x5NlY2dF84WEJuQVRUV21HTEdnSDhwUENqbVVfV3RLOGUteTd1RDEyQ3dOVWU3QjFwZFlDLU1Sb2tqZ3p1ZTU1Y20zUjRQTDN0alpvVmZ3TC1pdmR4MTBNNVQ5UDFXWEFMcXJZZlFVT1E?oc=5",
+        "date": "Sun, 09 Aug 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "NCR Voyix",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
         "content_type": "press_general"
       },
       {
@@ -314,16 +780,6 @@
         "type": "trade",
         "company": "Olo",
         "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Scooter\u2019s Coffee Taps Olo to Power Digital Ordering",
-        "url": "https://www.qsrmagazine.com/news/scooters-coffee-taps-olo-to-power-digital-ordering/",
-        "date": "Wed, 23 Sep 2026 14:11:41 +0000",
-        "source": "QSR Magazine",
-        "type": "trade",
-        "company": "Olo",
-        "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       },
       {
@@ -489,17 +945,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Top 3 Canadian Growth Stocks To Watch In September 2026 - simplywall.st",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUVdJYXdDclRWcFZHU1BEUldWZ1F5bDk4XzZTc3lXeDhXUjNORkxfTTZlYndpUUJMbVBiZ2dDT1BGS1V6OEl6djkyMzU1UEpHalBEb09VWEZENlVaeVJBY0xRbWNjN1hRUkVydDZxSWF0SXFsVXJ2a3JTaWs0bjEtQWJZa0dhX24zd3ROZTJGN290YVpUVGpuQU95eE9BV0VPZTExX295WkJPWkxudzdDODhXNnJ3QnZmWWNMRklhNHlwRTZBTDdpYXJybjJCTWxyemJ3dHF5UHjSAdgBQVVfeXFMTVFXSWF3Q3JUVnBWR1NQRFJXVmdReWw5OF82U3N5V3g4V1IzTkZMX002ZWJ3aVFCTG1QYmdnQ09QRktVejhJenY5MjM1NVBKR2pQRG9PVVhGRDZVWnlSQWNMUW1jYzdYUVJFcnQ2cUlhdElxbFVydmtyU2lrNG4xLUFiWWtHYV9uM3d0TmUyRjdvdGFaVFRqbkFPeXhPQVdFT2UxMV9veVpCT1pMbnc3Qzg4VzZyd0J2ZlljTEZJYTR5cEU2QUw3aWFycm4yQk1scnpid3RxeVB4?oc=5",
-        "date": "Wed, 23 Sep 2026 00:48:37 GMT",
-        "source": "Google News",
-        "company": "Lightspeed",
-        "type": "public",
-        "emoji": "\ud83d\udce2",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Why Is Lightspeed Commerce (TSX:LSPD) in Focus This Week? - Kalkine Media",
+        "headline": "Why Is Lightspeed Commerce (TSX:LSPD) in Focus This Week? - kalkinemedia.com",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaEZoVHlKV3ZlWEc4TDdyYk9oZU5QZ2hpT0xxazlaWjZkZjgwcnRVNy05dld4N3VkbmMyZVpSSHAwa3NtYWdGeW10bUZaU21rNzFBZzhyajBEbDJqUVpiN1FTNlFlWE0zZzc4T1ptVlN3OVlEWlRnalRzMWlGS2R3cW11Q3pKSTdRTmNrRGVBUWtmLTJLQ0t4Y3lrOA?oc=5",
         "date": "Wed, 23 Sep 2026 00:04:00 GMT",
         "source": "Google News",
@@ -509,7 +955,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Lightspeed Commerce (TSX:LSPD): Innovation Accelerates Retail Platform Evolution - Kalkine Media",
+        "headline": "Lightspeed Commerce (TSX:LSPD): Innovation Accelerates Retail Platform Evolution - kalkinemedia.com",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUTcxS0V5akZsLU8zWlptRUpRa0Jzc1h5cGdoQURTcHNpOUlFN3VtWWF0RVo2MzFLRmM3aUlkeW9FMXV4RXY2eHc2ZWdvX0RYT0VJbFFnQ3dzMllsUGdPM0drR1FRc3I0enhtTWN3cEVkaHUwX2VHQl9qamVYNEc2MFJvU2N1YXJ0NzNaSEdnNlhEMG9yVm42SlA4MWxmMG1nNjM4MlJWUHRoYmVnOW5DdFRtcGIwS3JublE?oc=5",
         "date": "Tue, 22 Sep 2026 23:19:00 GMT",
         "source": "Google News",
@@ -529,7 +975,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Why Is Lightspeed Commerce (TSX:LSPD) A Founder-Led Stock Now? - Kalkine Media",
+        "headline": "Why Is Lightspeed Commerce (TSX:LSPD) A Founder-Led Stock Now? - kalkinemedia.com",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbkV0a1F0cFRmaDk0NEg1bTdzQi1BUFJuMnRPTzJrMEZOTmtiSVFOZzRoZnAxR2FBRkVZY2I2LWExZDM5bGMxcnk1OG5mZnBNY0NQSlQxWkhEOUFvRTVLRTRiVVViYUtheG1TUUMxSldOQ01Wc0M3dmdlWG5oTXg5b3czbnZNbkNUSEdoTHdUY1FKaHFrRFBTQXNMNXlkaFBBazFhc3VBSQ?oc=5",
         "date": "Tue, 22 Sep 2026 16:08:00 GMT",
         "source": "Google News",
@@ -619,6 +1065,16 @@
         "content_type": "press_general"
       },
       {
+        "headline": "Compared to Estimates, Lightspeed POS (LSPD) Q1 Earnings: A Look at Key Metrics - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOM25xYTdyXzQ3Q3hWLXNoa3AwY29UdWpkT1ZsMlQwaHI4UG5XQmlHSGJUSHQ0Zm1ST253N3FKYzdFZHZHdl9jeGItSDFOaVF0akRvcEhCbnNueWxvQWhlNVRLRXN3NEl0Q0FTaHdtY1ZUQlE4OGVJekNuQUVOejUxZi13RXRsV040TllmQXRPdHVTNW1YMXJqS1FtT0xNdmpYOEJFN3hR?oc=5",
+        "date": "Thu, 30 Jul 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Lightspeed",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
         "headline": "Lightspeed Commerce Inc. (LSPD) Stock Dips While Market Gains: Key Facts - Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQWlERDZtLXppUElMSnVWT2xOdmRiNFRseUVZak55MTNCQXJ5TUtUVnZhMzRkWWhPSW5KUUQwajFUdTlSZWZFUDRCUjZXQ1RzZUlfZ09hemRyTHpkcmlaaWRVYUZ6TjV6ajdPTXUzOU5kYk1fS0ZLOHh5TS1hbkRfMldfb3MyM3NxSjVYTWdKYkx4dmNVcVp5MVNBZUMxc1V6?oc=5",
         "date": "Tue, 21 Jul 2026 07:00:00 GMT",
@@ -653,7 +1109,7 @@
       {
         "headline": "Toast, Inc. (TOST) Stock Price, News, Quote & History - Yahoo! Finance Canada",
         "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9PQUZBcTNPTWxGYk1ZcFlNMkhJOEN1U0ZCMXMxMndSbmI4TFJiXzBlcHA4YVppbHptNFNQa1p5cDN3UmZ5NGRWTlRJbUNWb3ZzMVE?oc=5",
-        "date": "Wed, 23 Sep 2026 14:10:03 GMT",
+        "date": "Wed, 23 Sep 2026 16:35:32 GMT",
         "source": "Google News",
         "company": "Toast",
         "type": "public",
@@ -668,16 +1124,6 @@
         "company": "Toast",
         "type": "public",
         "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Kung Fu Tea Picks Toast to Power Peak Volume at Over 300 Locations - Toast",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBRSEo3MkttcmgyTTdmMnVHeGFnXzdfcEtJNnlLYUw0U1JFaGJyXzl4dEg0VEV2Y1B4QTllakdwYWZuNTB6VUpEQV9BZXl6RmtLSEpnYWh1MjRTX3RKU0llV1pMQQ?oc=5",
-        "date": "Wed, 16 Sep 2026 16:36:57 GMT",
-        "source": "Google News",
-        "company": "Toast",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       },
       {
@@ -703,6 +1149,16 @@
       {
         "headline": "Toast (NYSE:TOST) Surprises With Q2 CY2026 Sales - StockStory",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQ0VQZjV1NmsxTFFWVkN1OVZ5RDFJYzE0dXk3SEhfUFg5X0RBQjJ6YjNqc05FSUN1aTRzbEs1YXo4YXVBUURpLWw5T1pHUEdMYVdJVUxHajN3ZG83cFVGUHppYWtwdmpsZ2xmSmhHNlRkNWw1UnBhck0yYU9KRjd5ZGpXSUNpMDVkWkhfLThoT2Z4SXhiSmx3ZV95cFlLRHFCaF83d3kzaw?oc=5",
+        "date": "Tue, 04 Aug 2026 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Toast",
+        "type": "public",
+        "emoji": "\ud83d\udcc8",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "Toast Inc (TOST) (Q2 2026) Earnings Call Highlights: Record Location Adds and AI Momentum Drive ... - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWWc3TDUyRHMxNlpoZ2FubG40OGJhYll0VllyQUhpM1JSblc3S2VpM2Zhb3ZzVUVhUEJNY1JYS0RLeUpZWVpNQ0ZFOTYtUUNFV2s0WWV3SmQ1VE4tNy1mdnlwd1dqa1MzSER4RDdtSDVRODZVWVk3czE1UVFrcFpvTkNvYUx4eld4VVRNX0hzamk?oc=5",
         "date": "Tue, 04 Aug 2026 07:00:00 GMT",
         "source": "Google News",
         "company": "Toast",
@@ -913,290 +1369,6 @@
         "content_type": "press_general"
       }
     ],
-    "Fiserv": [
-      {
-        "headline": "Fiserv (FISV) Could Be 62% Undervalued Following Its Clover Venue Win - simplywall.st",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTV91bWVzWlg0Smx2N2lCTWJmaWFkOE8wZ0V0TkJHa3JEUFlMNk9jNXFPeEdUUzJBc2F4QnhtN0IwejBTaE96OW9RdkxLODNHMHA5V2RSR0R5VGNYZ2pINHpDY0lTT0Nkc01NdXVpU2ZGanlyNzlMXzN2dUxvekladjdSd2pybDFiZVNMRGt2X1hIS3E1TU51UkpEekU0LW1lbmRlbEo4X2xjWjV3MjBnLWNLdmI2cy1TNkZEME5OT29uX0Q3ZXVQM1ZweVZjSFYzZ0ZiRzFn0gHbAUFVX3lxTE9HNzZ0T05rRExmWmlHR2p2blZZZnFSTGprR0NJcVpHVGJBLTZ2S2F3bXd2Vksyd1FxNUdXRktvZ1Iwc19UNTdyb3h5dkcyNVJyYzhNU1p0aWd2UDRqMmo5LWRCdWZRaVpzTTZ1Y2s3aWE4bGxxR0JjSWtRbDhOS2JTcGZwWk5Jbld0WURRanRoZDZWV3NzTW9oOFBPbllBblgzU1hlYW1wa01YS0lUMWxMQ1B0bkoyMVlhdVhZQTdrc2VhbFBDV3Z0ckpMSEg1VEtibDlna2s2RzJqOA?oc=5",
-        "date": "Wed, 23 Sep 2026 23:44:30 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Track Rabbit And Fiserv Clock Event Wins - Digital Transactions",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSU94R21nTG9oa3Z5Z3dwVUE2SDF1RDljRU9Ebm9GUEU3YTdFX0x3RWdLUVAxX3p4NkFyanM3Y1pWajgxNmVqb2NRdGhYRS1vRHRzZlRXLWpCVlZxZjcyQk9UdWVsRHdrUGVHMDR5UmE4Z1BYRkF1akRaZ0NrZzdUUTA3WQ?oc=5",
-        "date": "Wed, 23 Sep 2026 14:55:30 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Fiserv (FI) Lands Canadian Stadium Commerce Deal With A CFL Team - simplywall.st",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWjRhRGY1bFRhTm51NXZ6WkQxV0JJUTJONE5tMVU0YlVGeTUtcXJod0sxbWt0WW1KNFNRVmYyRkF4OERQTXZQQlRnRGRjTS1YZFc5YTJwUHVYV0I2NDRiLU14NmM3QUlOczBFVDhNMUROY1VJMWdNSWNtRnpYT2gtbFBDd3lEZ3JWMm01UXNtNE1EMTNZbURpcVpGSVdaWlpWMjk4dXJFM1Y3cEZvRDdmVjFZVHNudEQ5NXFzVHd2UTA3VEFjd2JHMEtHQTNpWE96VDk5YmFjenE4UnPSAdsBQVVfeXFMT1o0YURmNWxUYU5udTV2elpEMVdCSVEyTjRObTFVNGJVRnk1LXFyaHdLMW1rdFltSjRTUVZmMkZBeDhEUE12UEJUZ0RkY00tWGRXOWEycFB1WFdCNjQ0Yi1NeDZjN0FJTnMwRVQ4TTFETmNVSTFnTUljbUZ6WE9oLWxQQ3d5RGdyVjJtNVFzbTRNRDEzWW1EaXFaRklXWlpaVjI5OHVyRTNWN3BGb0Q3ZlYxWVRzbnREOTVxc1R3dlEwN1RBY3diRzBLR0EzaVhPelQ5OWJhY3pxOFJz?oc=5",
-        "date": "Tue, 22 Sep 2026 22:39:52 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "A payment system now supports six of nine Canadian football venues. Winnipeg's Blue Bombers are the latest. - Stock Titan",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcmZVRXpURWVQMkROdkxpTEcwZFBYN0N4MGY3R0g5SEJaQ3RONWh5TlFMX0NuV1F0c1lUZUIxWHZya0M5MzVjdk5rdkJjTi05SzhmekhtTGZ6U2p0NTBreW5udnN5VDJTRFNFMXFjTDJnMDFlWDBKaGkxNldBNDdfNF94YWVEVVdyV251NXZSU1lRWnJiQjMwUUI3MXVWa3dvRTVQZkRGTFBGeTRndXc?oc=5",
-        "date": "Tue, 22 Sep 2026 12:44:23 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Fiserv Expands Clover Footprint in Canadian Sports and Entertainment - GlobeNewswire",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOS20tREVDZF9XcW1DVFp4cFlvMWZ5dlVpeTY0Z0pyWEloYXNQWVpYZ05XZ3RtaU81U0xHRW5FWDRkTnpDcWZIa0EwRnhHd1BjVno1enJVcTc4aWI2WU5QVXhzd3UzdDhxXzd3Z0pRcWwwUHhTVzJmWWpiT1JNVUg0VTVRQkhuY2lXaHQwWVdnaEpsZlhHZ1hoSXN5cnhpWDdEX2tiMGFOSXRpM0NCT0JxVjVTVEt5TlljOHVIY29ZUzNaNjdDekNVM0lkemNlejZEamM1N2tpSFhOMnM?oc=5",
-        "date": "Tue, 22 Sep 2026 12:30:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Can Genius Emerge as a Key Growth Driver for Global Payments? - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQLVVYQm1ZNHdSV1ZNWmhSb3lzU25zY1drMWp1Z3VXaHNjTEdxU0l6Znk4Qi1ScEliejVVRkdVZVlQemNpMDA1NkI3QXJDVmZ5TFNYcW9SUF93c0txTnFydVhOM1lJWE5DTGpmQmF4aWlubUg1UWo1MWRqTTRzRXAxbTFWT2NsUGVmZEpGaTVmUmNxc3JLRlFnZFBhOUduNGRpUC1jX0ZUXzdLd29VNFJxQmpSbmxYU1U?oc=5",
-        "date": "Mon, 21 Sep 2026 13:13:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Fiserv (FISV) Q4 2025 Earnings Call Transcript - Fortune",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0zOUFkSXAwR2FLaGEzY3BNRGhSNUduQXdHZUxHMFhGWEhaZWZOQ3dRY3pRX3FPT0F2ckk3Q3JyRTB3LWtobEFaZG1DYnhtY2FLT2p1eFI0bm9TSGZSWm9vUnJB?oc=5",
-        "date": "Sat, 19 Sep 2026 06:49:35 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Fiserv Targets Turnaround With Project Elevate, AI and Clover Growth - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOd2lfclZ4Vl9UcEs1VmxqV2ZQaFVvMVJZOEhvNVl5MEJhYVhIRW1JOENBMWZ3UWRKZWJ3NGw0X3pYcVI0VVdEWGdKUDIyallWVmJLUjgyZlNmckpXajZXeXpEMWFTbndVaUdnYzcyVEJQZE5DYXFoTEJqMUVSRThFZm16RGE3eVBlYUVEaDJ4Z3hqTk1tVDdyanlVWWI2TElBMlUxMXF3SVU?oc=5",
-        "date": "Tue, 15 Sep 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Fiserv: Potential Asset Sales, Activists, And Clover Outweigh Missteps (NASDAQ:FISV) - Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdmF3ajFMOThkTlByR1lTNWZZdXFHMjhzVnpqSHZLdDEzLTBwTXV0OE1vLUFMTkRhN3FRaFhPZXlsVEhid0lYOFBTSjYtcUJqR09kWjdqX2p0bFJsZEEyeGhTVi1PdS1fV3J1S1ZzOGozRTl5RElDVDNqdG8tRnB6OFhpLXhrNHN1ZTNsVmJnNThJZFZkTV9RMmRKOXE5RnNuVkZ0V2EwY2V3ZXNi?oc=5",
-        "date": "Tue, 25 Aug 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Fiserv flags Clover revenue drop - Payments Dive",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ITUhOTGFLZnNxYWhEa0lMZHdscFRmTVpkNlRmalg5bkRjUWpac3B2amxrem51R0o3VVZVNXIycDNDZURnb3Yxb3AyTEVlSnV5SHZReXFHMzNfZFJjVmd4X0pHNjZKTlhQRWVmck50ZlpNN2g0UzJ2d2JoblBjck0?oc=5",
-        "date": "Thu, 06 Aug 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Toronto Dominion Bank (TSX:TD) Launches Clover In Canada With Fiserv - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVm9pQmFHMmZ5Y3JCLUhpcThVdjJyNnRVbDF2Z0dtZG5qbkYzUVgtM25iNHBkWExpb1dwZWYxVTlCRzRLbWVwS01xMVkyVl9KcFplTmRndDFJcnBnY3JhQXhVajB6UG5JSS15SjJpMEVYMDJlczF5YUNhVlRiRjVWemR1XzcyYTg2MHVqdkFGdExSLVlOOElGTw?oc=5",
-        "date": "Mon, 13 Jul 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\ude80",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Is Clover Becoming a Bigger Challenge for Fiserv (FISV)? - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNHJCRHBaNFRXTmRBMExFcWh0X212Q0lIZW0yZzhkWURCSEJjYTltZjFZclV1eUZWQzNNZXlsakQ3OENNRHZnbDFvQlR5ckxSTUZrSEg0bm9UbWVfY0dEN0ppdjFFLWtzV180Mm1wQ1VNdXpUdV84ZXdjWnd1bVk2Q3VtWGlaLWdGY2h3YUxLbFFZd1laWGd6S0VLZjV4NDhUbWRfZGFNSQ?oc=5",
-        "date": "Tue, 02 Jun 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Fiserv Expands Clover\u2019s Restaurant Portfolio with New Fine Dining Solution, Clover Reserve Powered by Tabit - Fiserv",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVi15dl9YR09jWmpCV0VsUXBWRWJGdW1QYTBMclVYQ3VpRGMwLWhMTmN6VkZDMmFRUTF0Z0JIaS0tUW5PY1EyVU13bmczUHl4RlVReGhjY0lYQ0N2OG42bEU4TVFrWEUxY29iVkpXZFJFUnJ4V1VTQjlmVWREVHZBXzFBVFdVOGZPbllMSkg0aHRGZGZ5RUxzUTBoMDN0X0V1VjJQVGlOT2piZkVLOFoxdXA5YmR2eTZ0VFBpenJpS2s?oc=5",
-        "date": "Tue, 12 May 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Fiserv and Sumitomo Mitsui Introduce Clover Suite of Products, Enabling Digital Commerce for Millions of Merchants - Fiserv",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPekI2d2c2b3dNQ0M4dy02WS1kNmxfbDdZLUJiRTNxTjA3UnFZWWk3TDdaLTYxdHZlbU0xZ1VWMkNSdXM5czUyZzd3LS13aXc5YWxuby1RVjRjdGJqNzQ4X2UySWt4a19VX1FtSXhOMjFxZXMtUTE5aVhMTjFGTDZjWUR3US0xUFB4Sy13cGhwUmxaVWlZYXhIWkVFeURZT2kwdGdMcUMzdUpjN0hKaHQybzhYejBCaEZiUURFQlkyVQ?oc=5",
-        "date": "Wed, 21 Jan 2026 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Clover Introduces Identity-Based Payments to Transform Everyday Transactions - Fiserv",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU056TDVZVGl6Y2NrSmNRS3A0TVBLV2ZHOXFQZHFfRldHM0xGX0Y1eFFfTDF6ZGphM3hpaURVM2lydzhiQlhOUk5YdV8wTkswbFVHY0pEektMMjRhd3gyUjJteW96WWxwT2EzQVpNQ1RTLThXeVZLdVh6NVFzc1ZDNERoVm1TNk5OeHlSa1h1bHZpTzRoUUhvbTFKRENGVHpXVEVNaVlJQVVBNGVJU0tuREx6cVlzZVpYd1A5cnhPWEdIdw?oc=5",
-        "date": "Wed, 07 Jan 2026 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Fiserv",
-        "type": "public",
-        "emoji": "\ud83d\ude80",
-        "content_type": "press_general"
-      }
-    ],
-    "Uber Eats": [
-      {
-        "headline": "Houston\u2019s Aga\u2019s Leads Uber Eats To-Go Orders Among Single-Location Restaurants (Exclusive) - People.com",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPT1d3WndFTkRjZW9ZRXR3Y0x3SHdlcU9uNGNoUTNsOVd1UzREOC1pdXJqSi1uSHREMnFKdXRKdmpxS3cxX1NqVk9Lc2FlTGxKNnJHUktHVWRZQ1pxWjZuTld5Y3ZTV1NlbTZxZ09Vd3ZEdjF1ZDJCNTJ6Y3JETkR4eFdXWTZGRDRZNWRrbDNhNnVkZkh5UW9rSjJId29MVnB4RDRxcjNpbTFpY2VEalJrSUEzSQ?oc=5",
-        "date": "Wed, 23 Sep 2026 14:23:17 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Restaurant News Bites: The Busiest Uber Eats Restaurant in the World, the Disappearing Tamale, A-List Restaurants, and More! - RestaurantNews.com",
-        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbWt3dmNzdV9oWUg2OXRNb2RHcXNobEpsdXJzZGxqcU1SLTVTa0ZHSE1jRjZyU3ktbk9HRElwN3lMYmtSNWxwRDU0akxwMWdoUW5IZ2tKVkVzYkhxS0gzbzhJMnpXamJOaGJnQ0hjdmdkaWE1anlhX1dWT0VWeThLazFJOFJ4bWQ3THdiS1cwbzZNZlN2T2tMbFdqb3FtME1rVlYyOEFJUlh2MWFiSXJ0UG44dXNHczdQaC1zWFdBQ244SjM2WGtmS2tZWVNCTjNCNkZDS0ctYnVhWUtNRmgtU2N6T0VNN3NFVDVsWUFDVQ?oc=5",
-        "date": "Wed, 23 Sep 2026 12:00:24 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Top Uber Eats Promo Codes for September 2026 - WIRED",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8wTWVCcGdsenYzTDhFYkwtaEV0eGhqMTlBeUFzSVdPYWNiQlJxQ3dfMFlJMkJMOTJuNDRRNlNwT2VQazh6Q2NFQm5DTk1aaVpRT3JHSXlxUTI5UlYzWXc?oc=5",
-        "date": "Wed, 23 Sep 2026 05:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "This Houston eatery is officially the number one most-ordered on Uber Eats worldwide - Secret Houston",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBzSXp5a1lnUS1zV1ZrNTVwSERKcmdMY3JxT0FKYnlhZmFMMmMxMmhSTUFXMW43RUZXVVJvVUoxV2pEd3EwRzFfM0FmZTRkQjJ4QmpDYW01ZUp1SU5RTGFqUA?oc=5",
-        "date": "Sat, 19 Sep 2026 11:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "This Houston Restaurant Is No. 1 in the World on Uber Eats With 2,000 Takeout Meals a Day - Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONFlDWk95N1RSSUZyLXpMbVZPS1ZuLThaeG45VXpGR1gtYzdxSUNwVEc0Ujdubkk2WEduc1hiX2paaTJvR2ZBM3lZWE1RdlZSNVZGOWxWVUpHcGNFM1Rubk1xOEVWZUIyal9ldHZXV2JBbXhONjRWbmxjRXZWMWdabmthcEJMV2YwamFIWnh3?oc=5",
-        "date": "Sun, 30 Aug 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "This Houston-area restaurant is No. 1 in the world for Uber Eats orders - Houston Chronicle",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcVIzdFZEdTVLT2VSUEp4VU91R2djUDExWG54ZjZkckNtSEFEb244QzEwS3p3WHNneWwzUlNqOXZYRDlEbkVJenJIX1M5N3R2LUNUOFpPdFZzSjlGdk1QY2Q5X0gzOVFBWFhjNHlrZWVkSGRsRWRxV3p5RkFjTFhsRklDWV9OdERSNldaR1Y4cnBvMEVsWS11OA?oc=5",
-        "date": "Fri, 28 Aug 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Smarter Tools for Restaurants to Help Them Thrive - Uber",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB0eFMwX25xdjJKcnhLMk5adllPeGVCZGt0UUt5XzdfRThWVWFEMW5mOU9LcXpwcU5DTTJzX1FuOC1QcGZfRWlwc0VESHpNcDRsQjRCOWRGalhKMUdDUlhQNmVQTQ?oc=5",
-        "date": "Wed, 26 Aug 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Seattle Restaurant Owner Receives $40,000 from Uber Eats Following Months of Outstanding Payments - People.com",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRmI3elhCdFo3S0pOMGVjSl9hQlpLcENRQjJuT1BjZ0pvMUlKdG9QdG1QX29UZ1d0Z1V0X21lRWotTVdsUVRmTWlJaDMzeEJSNEE0SmZJNHRmdzNlY3VFdzV2T1QwR0lqSG9lYlFwNnMwZEdZQXJKQi1KQ1ZrWDI5WDdnYTNHcDJKOGR0WnNCNWpBT3dtc1FsUHZkY0N4dnRpUGtxWEZEaGQ0WVYwWVVYNUlSNXY4UVZOLU03QmtYS3lDQzl6V0E?oc=5",
-        "date": "Tue, 11 Aug 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Next-Gen Restaurant Recommendation with Generative Modeling and Real-Time Features - Uber",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LZzJHeUdreENVT3N1TGZSRVJIcnFIQWs5TGFkd01zSXZDRE1WWEhoYzFCYmFhb3pwZ3V2UUkzbGkzME5wU21VTjJSYU11X2NzVUNyN3MzeVB3RjNWOWxMcG5OdnVWajJMQzdpTDh3R2FvcEd3VlE?oc=5",
-        "date": "Fri, 17 Apr 2026 09:01:02 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Why Rave Restaurant Group cut ties with Uber Eats - Restaurant Dive",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUmxaWTVpYTNKdVVNalJsNkhZMnNGcWpCMU1md19zbkZuWXVTNUV4Wms3X3BKamdyemxqbTVWeXl5VGY3T0xuM3c3Q3lnMmNpUXJrd19aVjdhaUI1Ul9QVFNDZE5uTmYxNWJQTjVoZlpVcVVkbXZzcUk3VnRhbHlpNk1TTkNfVzdxbGNWaG1wMFJzMjdETmxaX0Q4QW1jdlFHUE9IMEpBdFRHZlU?oc=5",
-        "date": "Wed, 01 Apr 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Uber Eats raises marketplace fees - Restaurant Dive",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNczNPeVhpaXlUY1R3bE1oS2t1ZElUSTBMNFR2S2xQaml3N0poVGh6TTBRQlBwZXMyRHliaDRfQUFta3dobk9YYTZNS0pVaDdSa00xSHZVSENlMnJtblZpaFA3VWVQajYzelNXTUFxMUlCMXVxRUVZbWdOVUw1Nm1OM3BKNGRPVDQ?oc=5",
-        "date": "Tue, 10 Mar 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcc8",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Uber Eats is raising delivery fees for some restaurants - Restaurant Business Magazine",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVXlFRzZ0elNSQnhXckp3cjhEVU9zR1N0S1lOS2t2VUV4OVB4SXVQMlFpcnNMSmJSV2hfYmV4aGZ1QjVWVTBhczVDa1J4YkxFdi1TUjJwQkstM1h0NFhNU2xvajAxVnNfME5YWTMwMXNLLW5MSlFiMkphYUZyc0JCRFZjSWtlN2hOLUNRcDc4ZDc2TlFOUHAzcFlWNFU?oc=5",
-        "date": "Sun, 08 Mar 2026 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Everything to Know About Uber Eats for Restaurants - Business.com",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBWcDNnaE1yb1ozd1J4VDhYTXAzY3QwM0NMZTh3NXJCRVM5WFhhOG1TS3hSSE9QbGNKaFpwMTFCaHFIV3ZCSzNjTS1OU21McnpMWnlsUmpRNXNDWTVFXy10Q1EyS0FJWDVHSlNF?oc=5",
-        "date": "Tue, 13 Jan 2026 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Uber Eats",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      }
-    ],
     "Deliverect": [
       {
         "headline": "KPOT selects Deliverect to manage third-party orders - Yahoo Finance",
@@ -1219,12 +1391,12 @@
         "content_type": "press_general"
       },
       {
-        "headline": "KPOT Rolls Out Deliverect Across 140 U.S. Restaurants to Manage Third-Party Marketplace Ordering - AOL.com",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQb3BKZU1rU3R5WS1LOFBrNlQ5OEh5OThrNjVZYllxUjZOMVpfd2h5b1BBMjRiUkc2WGF2RUFVVURqV3FGRk1VU1Jaa0JtMFg1anVoZllzaFlZOEFvTktDNjZQRUJsZWRtX0dELWM0TllRd0dmLS1uU0tES1JFS0VqVVRB?oc=5",
-        "date": "Tue, 22 Sep 2026 13:11:27 GMT",
-        "source": "Google News - POS Industry",
-        "type": "trade",
+        "headline": "KPOT Rolls Out Deliverect Across 140 U.S. Restaurants to Manage Third-Party Marketplace Ordering - PR Newswire",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNb01zY1FXeDRZcUFOa25TOUdPNG5xczBMTHJHVU9YX0JYUTlPQ184alFxN1R2TmIxQzVUM0Z2eThTdXlRMDZTbmxINkMwVlBKV3NVMGllZ2J5WnFNVUtvVERsUjBNclBMcExTelZyZU1ZYjJ5Q0xsdWI5MWRNdTBpenNEZ3dQaDAwMm1Ubjg3MlE2SWpjMlNTbzE3bGxvQ1dpdGZ0TmVfbTlRTlQzU0hfSFJkQ0xfTllkaEVUUWh3RURzdVpjRDRhX0t1UUpmdlpKTDV2eGZnRnM1QzZDc1J5dnZoT2E?oc=5",
+        "date": "Tue, 22 Sep 2026 13:10:00 GMT",
+        "source": "Google News",
         "company": "Deliverect",
+        "type": "private",
         "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       },
@@ -1232,9 +1404,9 @@
         "headline": "KPOT taps Deliverect to manage 3rd-party delivery orders across 140 locations - fastcasual.com",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVUZVajVqR1JwOVpENmtiV2FSdXduVHYzSm5TLUxNRThmTWdaMy1wdER3blVJVUFteUJUbmVkSTFUTFUxZXgzTklBN0hJRjRBTHhYUW0zT2pGYUYwV0tWSzZKd2hiaHZWQUJfdTg5bHM4dGV1ZmJrMlowT1pBRmxjamN1Z3hfVFBHUFg1VllrWGpCTU9CUHByTWxySWxvUWZhcHZ6aXNvYVJIcUtRYWNv?oc=5",
         "date": "Mon, 21 Sep 2026 12:00:00 GMT",
-        "source": "Google News - POS Industry",
-        "type": "trade",
+        "source": "Google News",
         "company": "Deliverect",
+        "type": "private",
         "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       },
@@ -1249,7 +1421,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Deliverect Revenue 2024: $44.7M ARR, $1.4B Valuation (2022) - getlatka.com",
+        "headline": "Deliverect Revenue 2024: $44.7M ARR, $1.4B Valuation (2022) - GetLatka",
         "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE41WXNNa1p0NFNJNVR3RjBRMGFhWm0yM3ZSLTN5aGlpcUN3cDh5VWVfU3dIQTk1Rm9JMG1UbVBXNndldTFxeGRvWUIwTkg2czhrNjFJ?oc=5",
         "date": "Thu, 10 Sep 2026 07:00:00 GMT",
         "source": "Google News",
@@ -1259,12 +1431,12 @@
         "content_type": "press_general"
       },
       {
-        "headline": "The Big Greek Caf\u00e9 Taps Deliverect and Thanx to Power Digital Ordering and Loyalty Across U.S. Locations",
-        "url": "https://restauranttechnologynews.com/2026/09/the-big-greek-cafe-taps-deliverect-and-thanx-to-power-digital-ordering-and-loyalty-across-u-s-locations/",
-        "date": "Wed, 09 Sep 2026 16:13:27 +0000",
-        "source": "Restaurant Technology News",
-        "type": "trade",
+        "headline": "The Big Greek Caf\u00e9 Taps Deliverect and Thanx to Power Digital Ordering and Loyalty Across U.S. Locations - Restaurant Technology News",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZHNqaUJoWDh5RjZlUkM1TGpKTnBpT0ExbHlweGVmQVF0MnE1WFRsUXYtRlYzQ2drS2pXdVBGcmYzVHZFeHVjdVhTdmhpWWlOT2lWZi0wU1N5NFBhWHVXRURVWnR0ZlhDQTdPVW9Sc2tkOGRWajAyVURNWlF4VnBSNkktMFRSQ0c5aVBmZkx1S20tU1hwbURLdzlKWmpxMXMzTzBzcURwbktXdmllQWoxeVkxY2pZMVlycVlrWlRuLXlydUsxUFRDVXBsa0dzR09mZ3VNTEg3M1NGd1QxY05rQXBmcw?oc=5",
+        "date": "Wed, 09 Sep 2026 07:00:00 GMT",
+        "source": "Google News",
         "company": "Deliverect",
+        "type": "private",
         "emoji": "\ud83d\udcf0",
         "content_type": "press_general"
       },
@@ -1276,16 +1448,6 @@
         "company": "Deliverect",
         "type": "private",
         "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Deliverect and Bounteous Announces Partnership to Integrate Their Platforms - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNLUJuMFcyV0tiNU9yN3FJOUhsaXVEcEkzSVJvVXY1MHpWZHhYUW5FeUt1RkNkWFJWT2V3aFFOMlNpOWVudDY4OG05LVUyYTZXZFZiS0x4YUhWTThsNkFOaVh2N0czWFhxMnJ4NUFoVjlDQ2dGbWFSSGdQVVY0WG9wUFZWWEgwVkc1WXUyVGxseGttN2RLMDRHWUdRTGxaX2M4Zzdlbzd1aUVjTVliQzhhRlAtUFVJMWs?oc=5",
-        "date": "Mon, 24 Aug 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Deliverect",
-        "type": "private",
-        "emoji": "\ud83e\udd1d",
         "content_type": "press_general"
       },
       {
@@ -1329,9 +1491,9 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Deliverect Launches AI Agents and Smart Assistants to Supercharge Restaurant Sales, Protect Digital Revenue, and Maximise Efficiency - PR Newswire",
-        "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPSkhOWTBLQVlob1lyblFWdXJ5UlhnY2hZZ0o5S0JKUXpWX2NhN0NkUWdMNHMtbmRGOTVzRjdBN3dxTGZKSXAzeDZZMnFZWUtyc1JXOHlRcUhJSTN0YWJFaG9ZdGRmSDg2LVZXNFhPVklNZ1cybUNPNGFScDJpNjVudFdoTTRqaXF0bzN6SEhyaDJjaE5pWjYzaWV6eFU4WncyUzk0b3l0bGxLeVdpeFA0NHRCMVNsOVNtQmJLNTh1VlJfdU1aal83Vk5Vc3Zlb2hnNzltWXhBNXUyTGtmc3hLV0ZiLTN5Snh5YklXREJPYnpJR1gtM3dWSGthUjRuVElFcFRMdGRNWnBJaHpiSUNLOHZETWU?oc=5",
-        "date": "Thu, 09 Apr 2026 07:00:00 GMT",
+        "headline": "Deliverect Launches AI Agents and Smart Assistants to Boost Restaurant Sales and Protect Digital Revenue - Restaurant Technology News",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQUjNKWW9XR1owSDBOSHV1S2JsYzN1MkFGRXZzOUh3dng2WVZKbU1tamVtRy1pZjZyajYxUk5YZ1dXNjdxRXlSUkVveGRUQzhYSWc5ektkOEJIck1hbU9aWXc3cElBTS13ejdxRDRuSU9SaUZTNzhBeWJPYjVhaldGR0dnbmVuQlExWU5TdWZRNnlFa2d5eWdzQkRaUXlPTjFpdUJETDk0dnVnZWJIeHBZMVFXcWduekVHdXN3WUFsaTdtRGhIQWJUOG0zS2tIcUpuT3A0QVAyZHE4c0xuMnN6SkRqRTE?oc=5",
+        "date": "Thu, 09 Apr 2026 08:03:11 GMT",
         "source": "Google News",
         "company": "Deliverect",
         "type": "private",
@@ -1351,7 +1513,7 @@
     ],
     "ItsaCheckmate": [
       {
-        "headline": "Checkmate and Zipline Partner on Restaurant Drone Delivery - accessnewswire.com",
+        "headline": "Checkmate and Zipline Partner on Restaurant Drone Delivery - ACCESS Newswire",
         "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPSlZyUlg3R3k0VXRES1RfejZoU3dHckFpMHlOc2lxZlhpeTBSc09WSURVS0c2ZlJnVkd4VUhBXzZUQnlJREI5bFNVcjRRYzhEeElMUDhfclVUX0pYam1BVDd2cUxQazNHR3kxU3BOZXJ4aTk0MjQyclpkc2drV29VYTh6d09EN3JMek12eTF2alFfUmFBcGtUSWFXLUhWMDlxdXV4Q0N2WmdBUmZwOWVKS1JxYmhBX2RGX2VpRDlWRFkyOG4wcGZndHZhOGpPaldCOUd5QWZxZkNoaWx5QTg2eGFBeDA?oc=5",
         "date": "Wed, 23 Sep 2026 13:20:04 GMT",
         "source": "Google News",
@@ -1361,7 +1523,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Checkmate Revenue 2025: $44.1M Est. ARR - getlatka.com",
+        "headline": "Checkmate Revenue 2025: $44.1M Est. ARR - GetLatka",
         "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE00UGFJVHNOYTZMNWwyTGVsakRMeG81SlVzemM4RFVocTRIek1oYlpRS2Vmb3h3LTA5R3ZfY3NMY1phVzgtNGVaeUg5QURKNmlhb3UycS15cGsyRFY2?oc=5",
         "date": "Tue, 15 Sep 2026 07:00:00 GMT",
         "source": "Google News",
@@ -1371,7 +1533,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Hidden Gems: Meet Shahriar Kobir of Checkmate Burgers - Voyage Michigan Magazine",
+        "headline": "Hidden Gems: Meet Shahriar Kobir of Checkmate Burgers - voyagemichigan.com",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORUk4YmVhY29XRjBnOTAzcXI4QjV3VjRtTWdFZnh3ZDJPdzFpazVyMUo0ajFJTTZhTDk1cjBQVF9TZlpMUm81Y3h4ZUE0aHQ3YjlWZnFLbUJ1TW1DX3g3bUdMY0pPcUUyQ2diamFYdi1YdzZvR0xmd3lTOFYtZWJZS2o3dEl6cjE1Yk9rV0oySEFGVXFw?oc=5",
         "date": "Tue, 16 Jun 2026 07:00:00 GMT",
         "source": "Google News",
@@ -1431,9 +1593,9 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Checkmate raises $10M in Series B funding led by Tiger Global - qsrweb.com",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQTVzdVprbVBCV25Lal8wTkRjOHZEMUFyQy1VVU9uSzl1R2VxNGpoQkFKVENjUFRQZ0lQaFBKVEdGWVNZeV9MWWdaMEpNUnlGTnRMQVp2LVVnb0YwY0VxZmZBcWNXSDZ2Z2x0MDlkR1RJRV9OM0c3NUxvbzg5b1ZTU3ptVFV3alg5TjZmaXZXWm84MTg?oc=5",
-        "date": "Wed, 30 Oct 2024 07:00:00 GMT",
+        "headline": "Checkmate Raises $10 Million in Series B Funding Led by Tiger Global to Scale the Adoption of its Restaurant Voice AI and Kiosk Solutions - PRWeb",
+        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOSHRJdUw4Zl9yaEFoV3pKd2hsVy1KRFliSU9QeGhsMndxTXMtSzR6MkZuLVpRUTRPdVQzaExfZ1hHRVRtVE1JZENLeWljbWphc2l6UndCWHAyWVBJSlRNT2MtUkxNNVhIUFQxM0FMOFRlU3lLTlNvNGU5SXdwRk5mVmxmVjlZeUgxSkxDZ1RzOVpTRWVCdUM5LXJWODZGN0xBUWN0eU5LcHI1Vk9mTkNUdzQzTExCWGh3ZDM3VXZpQmhBVm9OWl9SWjU5cER3N3FjdE11c2hfU05qcEc2TGZsV1Q3akxod0JMNHFCU0xVbzhMVXIwU1g0ZGpsNU5xQ2VYMTcwUXlkNVI1VF91UUhn?oc=5",
+        "date": "Wed, 23 Oct 2024 07:00:00 GMT",
         "source": "Google News",
         "company": "ItsaCheckmate",
         "type": "private",
@@ -1653,191 +1815,9 @@
         "content_type": "press_general"
       }
     ],
-    "DoorDash": [
-      {
-        "headline": "DoorDash reaches $131.5M settlement with NYC over courier pay - Nation\u2019s Restaurant News",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMk1jaVJ3T01DSFRLdGNPZjVwQnNOcVVDUV9QblluOVcyVWYzaTZReVZfY2NpMHM4Uy03T2wwZWJIQlhFQkw0cnlIbmp4aUdEVTc0VHVsakNkV1JlR2tTazd1cUhldTBob0hlQ2p6LWVfdUpnay03LWtEUTUtOVhDbnFvN0d0MHdZZ25pd09tdUxUaVQzbDYxaHF5cVlqdExjTkhmZg?oc=5",
-        "date": "Tue, 22 Sep 2026 22:15:47 GMT",
-        "source": "Google News",
-        "company": "DoorDash",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Is This Houston Strip-Mall Joint the World\u2019s Busiest Restaurant? - The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNEpPbzctZ1JrblVLS2s4eWlweTFkaWdtZElQLWsxQzlvX3lWNTVlS01oMVpBemwxN1NWUGNRXzZHR0x1OTIzLWgzbGlEVlRYVGp2ZS0yRngzNUVSRDUtcnA3YUhKWmtycTNnLXlDQkhsdWVjajdrZHM5TklfQkQ4ZlhQRUp4NnlWWWo1VGFwZXBINEdsT1E?oc=5",
-        "date": "Tue, 22 Sep 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "DoorDash",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Arrests made after DoorDash driver\u2019s car stolen - keloland.com",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUWFiY3UxYmJ1SWZQei1aVUl4TXhiS21RV2h6YmlTVTVNUDRMWDNleVJFcWozUi01QXltNWRjNEE0RXZ5UTZ3WVNpbDUzWjdXX01XdzEtSXBqZ0dPWW5NUDd3dm1Celo1Qk5zajNYNzR3akJiZlFia3p0S2JtNFozelRRM2RvRW95cEk0WklzcngyVUZpTHFB0gGXAUFVX3lxTFBRYWJjdTFiYnVJZlB6LVpVSXhNeGJLbVFXaHpiaVNVNU1QNExYM2V5UkVxajNSLTVBeW01ZGM0QTRFdnlRNndZU2lsNTNaN1dfTVd3MS1JcGpnR09Zbk1QN3d2bUJ6WjVCTnNqM1g3NHdqQmJmUWJrenRLYm00WjN6VFEzZG9Fb3lwSTRaSXNyeDJVRmlMcUE?oc=5",
-        "date": "Mon, 21 Sep 2026 12:35:45 GMT",
-        "source": "Google News",
-        "company": "DoorDash",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Making the DoorDash/Wonder deal make sense - Restaurant Business Magazine",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQTFUVTV4WElqRXNCMTk1d09TM3hVTElvVjhXOFJmcm1zX2VOSDA5VThaaElDSDdZbWhWaVZIajljTHkya2hZcjBnT1hUS3lqbmZzVE5GNEd6NVNiU0VpWDc1VkozUlJ6Sjl6QkN2ZGdMamNVTEEtakV1M0NtYWIzMWxFTXBPcHdPVWFOVE1B?oc=5",
-        "date": "Mon, 21 Sep 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "DoorDash",
-        "type": "public",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Sauce helps restaurants ditch DoorDash's 30% commission - calcalistech.com",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BeFA4c0pMZHF0Rk5QbGNIeXVlallPVVRUc3NwcElLRFF6YWxHRWFJQjVXZVhWTVBaenNfRkFvTU1hZ1I4RThyeDBWSkNfT0ZGcVFwak13aVJOTFBRZmxhQnJOMDNBaEk?oc=5",
-        "date": "Sun, 20 Sep 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "DoorDash",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Grubhub Campus Dining acquisition gives DoorDash campus presence - Campus ID News",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNEFZXy1MaVpJRUxmaWRISGJPSVZlZlV6Y0doSGpPMUhMczcwNWZFa2lsdjB3Vy1QUFctZFlpWFpISjRSb1FpRGxKaFpwQ1BtdVVnWHRhNl9rel8tUm55ejd2WkxMSmhVaEdnZFlwVmVBbFp5X2RaMjlDLTg5WTBOMnVKZ0ZoOGZZMlpKeDE3WGV2SndqOW13UU1B?oc=5",
-        "date": "Fri, 18 Sep 2026 16:52:21 GMT",
-        "source": "Google News",
-        "company": "DoorDash",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "DoorDash buys Grubhub campus unit for $300M - Restaurant Dive",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRnhXNGNIelRxbkVZeGlZcWllYW1kMGUtS0VPXzlZVnVMODlMNHhYaWFFQnlXTG80a0M3UDQ1bkpyaVdHWHlfWEoxeWlJVzh5MXJEQ0hmQzRZc3NvSThsbUptbnZlanU3V25qcTJ4R0wycGhEcGpFcDFpMWVWYXJ6Vkw5akNJVldSWkQ5dVNTWUxWSFhETWJTZmg5TWtFLVFlVHItdlN3?oc=5",
-        "date": "Tue, 15 Sep 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "DoorDash",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "DoorDash invests $125M in Wonder as part of strategic partnership - Nation\u2019s Restaurant News",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSnZQcGw5RWotbXJub3E0Nm5yN0VvY0RHZDNNeVp4UVVZbG54RzR1MWxaY2FCRE5CcV9hb09QdFBTaTVqMV9FamlSeG9yUXAyV2gxeDRjb09JMGU3VjhxWmxnY0wwdDhEOUpTVlBCUVd3NWRTYjZNaUZSNU03UzlieHg0VkFRU2xrUVo4TW1raWJPcTlXM2U2N0pNbmxsSW9jZlNJdjhiYzVzQQ?oc=5",
-        "date": "Tue, 15 Sep 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "DoorDash",
-        "type": "public",
-        "emoji": "\ud83e\udd1d",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Chase DoorDash Subscription What to Know - nerdwallet.com",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSkZHcEVuRkE3RTE1U3N5b2hkaHBNR2hnV1h3cUZ5Z3dMTmR1TVltVVNKUmRBZGRkb2FSb191aHhyQVVONGJmbU5CdUFJV0NuWk5tUWtKck5Nci00U0JqVG1yUG42WVB0WnQwS0xONzFSUHJWS085R3NidXBBN1JfMUFiX3lkdkV5UmRVdm5xNXNZUkc4XzZjbzBCN2VhNGRFRmZvaVpB?oc=5",
-        "date": "Thu, 10 Sep 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "DoorDash",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Why Walmart is moving in on DoorDash, Uber Eats delivery action, starting with donuts, coffee and sandwiches - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNenNvT2xaSjVjWG1QMzk2UFI2X2xfX0pQU0NyOVQ2Nk5Ccm1BRXVuWDVYQ3pERVk0eTZkdW5TMEV0aXcxRFF2dW0xY2d6X2ltWmxwVDh3ODNLbUZpWmk0Nk9XRWVCaUIySFpOMVczWlJaU3liUmJmcW9lUTZnNGlUSkQ1alN1TUNTdFRfTUgtZ9IBlAFBVV95cUxPR21DOTRJRHFUUjk3SnA3S3VqZllLZDBVLXFMcWM0Q2I3STZCOHp1Qm0ySGRUR3lQSzh4RmVlSXhwSU5YOTc5U2F5MlVsQUsxNDZwZGRHZjY5dHdLcGxDdGtGdlUyVnNZX1R3VmJJZGhPS3IybWxvZFd2OWtySms5QXlTM0FEdUkyVjNUYV9ZX0lPclZu?oc=5",
-        "date": "Sat, 05 Sep 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "DoorDash",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "Household Goods Show Stability as Restaurant Prices Keep Rising: DoorDash's Q2 State of Local Commerce Update - DoorDash",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBoMklWY3lDQTI0ZFdaSWYwRW9mNzJhWWFFTEttZ3BQNzN0Y3NLWkYyMG9HcjdXRkN1bmtST2Z1OHJyaEREWVJQT1RUM1M5NUpnZ2ZOeVV1VmdBT1FWUkRUSVptQUNLLXJrOXBDVw?oc=5",
-        "date": "Wed, 08 Jul 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "DoorDash",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "DoorDash Inc. (DASH) Shows How Local Commerce Can Expand Beyond Restaurant Delivery - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQVR2TlVhVnc1azkyQkxITktERG5iQmxrUmJGc0ZoUkxGZlZoeTEzZkRXNEdFWDNwMGhtRnh3aVVsZFZieG52ZGk0MDB5UEdBVUx1REVOSThlWTktSzM4RnhjNTRFWER4bWw3aVdaSmJ2ejU5U0JGWUNLWllwb1RodVB6OHloYnpJNXBuSUExNE1PZ3RudThiWktB?oc=5",
-        "date": "Sun, 14 Jun 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "DoorDash",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "From the Doorstep to the Dining Room: New DoorDash Survey Data Reveals the Full Picture of the Modern Restaurant Guest - DoorDash",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRF8zWmlkSU5zdnZPajRLOEhMT19ycktKdlpKSnNwQlhZNWIzaG96dVh2WWg5Y2o0ZllkbUdwOHhSQUItaWxoWlVDcmd2UzQ5aTBCSzBUQ3h2ZnRlaWltYmdHMGptNFNSWGpXaDJNVWZsNEsxY0tWQm5lbW8yWTM3ODVjZzBqZGl0bGltSGl3?oc=5",
-        "date": "Mon, 18 May 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "DoorDash",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "DoorDash Could Expand into Payments with Restaurant POS Launch - PaymentsJournal",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVzRKTVpBcUsyOXBjZjZqdy1ROXVOOWdNRGtYUXFQREpaU0VQWTFnWnB4TzVBYkRpaTBPMFpQZXFpdm5DMnIwV3FNdXg0eXdDUG1nbnFfT1g4Y0IxdmE4b2lMNW5wLXdzb2oyeHhLTWxKMFNfZHZRQWk5YmdfZGF3dkJrMGc1YlY0eGhMWUNoV1lYMmluUkY4czBnc9IBoAFBVV95cUxNSmZIVkFJZTY2TmFPTDJsMlZOU0tOU0VaUTNMWG56OTlQSDVSczRxRFRSSUxaRy1rYi1RcEhUb2s2VXhEaWxRZGJ2dE5rN3lKYkU1MHJIWm9qbmpRdThiUlhCa0FsUnFQSGZGNWtDS0QyZGh6MEczeDJsM3oxQnRQNUNrT0lYVklRT2ctTUh3dXJ5SmVQY2tYLTRGMzRVMk1t?oc=5",
-        "date": "Wed, 13 May 2026 07:00:00 GMT",
-        "source": "Google News - Restaurant Tech",
-        "type": "trade",
-        "company": "DoorDash",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "You Can Now Snag That Hot Restaurant Reservation \u2026 on DoorDash? - Food & Wine",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5xUlpVWWJJLWFrdG84Mm03cWlET2VXbkxub3pIaWlLTjFKWVdGeVR1S19abGxwNkxTdkFCaVQtOHViVFA1ZmdUNzlRLTlYd1dBSDh6T2xFR0JTNWxVdlpUdlZKdFlYVzJfcDY1OUpYN3Y2cldxX0tLag?oc=5",
-        "date": "Thu, 09 Apr 2026 07:00:00 GMT",
-        "source": "Google News",
-        "company": "DoorDash",
-        "type": "public",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "DoorDash announces commerce platform expansion with new tools - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZi1qWGpWSlRaYlFxZ05KZmRLUm5WaGlfRC1HVG1TQlRFNGFKUUR2SHh2bDhPeXdsNlVrelhybmJ2TlBtN0QxZnFQN3lSRUFLUHh0VGxzMDNzeEtNMTZDRG1EN2dfS2tzdnRmcl81UlphZXBFT1hGOWxGendnZGxaZnpDbzNOeDZPN0ZtMkRZVXpseGVWYmJn?oc=5",
-        "date": "Thu, 21 Aug 2025 07:00:00 GMT",
-        "source": "Google News - Restaurant Loyalty",
-        "type": "trade",
-        "company": "DoorDash",
-        "emoji": "\ud83d\ude80",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "DoorDash Puts Loyalty at the Center of Its New Restaurant Tools - Food On Demand",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSmtNb20xbTVoMVRaYzVlUWc2bjlHdlZSdlZDYmJZZnIyNWYyOXFIRElqX1BNRXJIV2ZRUVFENVdiOXdGcXZYT3NDMjAzR2QybUk1ZWtQZ0VfX2RORU9sa09WdFRjS01wUnBEcmQ2THRfamlZekh6ZmZWVXlhQ2hTTXhkOGNhWk1KaWp0MjlrZXhyaXNUYmRKTWZYRDdRZWs?oc=5",
-        "date": "Wed, 20 Aug 2025 07:00:00 GMT",
-        "source": "Google News - Restaurant Loyalty",
-        "type": "trade",
-        "company": "DoorDash",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
-        "headline": "DoorDash Adds Tiered Membership Packages to Commerce Platform for Restaurants - PYMNTS.com",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVnVFbW9vVkZPX3ZzcmU3RUN5czVzTk5fWU5DWkxabE1WbFVpMkYwZFdzdHRscU9MbkE0ZU03cU40WEwtTUl1VmJNZndwQVNwdF9ydFdMaVNTM2pOUU1CcVRoWGkyS0RicUJhbUJQWVZNdC1hMjFhc29yTUxHd2pBd3I1N1N1VnVOLS1FdzNkc3ZzejRpX0tibHFUUy01SFQyZF9EN29NT1RTMTgyYVhjeFIzbjh3UmNnOUJxb08zZEltR0tkeWJj?oc=5",
-        "date": "Wed, 20 Aug 2025 07:00:00 GMT",
-        "source": "Google News - Restaurant Loyalty",
-        "type": "trade",
-        "company": "DoorDash",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      }
-    ],
     "Paytronix": [
       {
-        "headline": "Paytronix Brings Messaging to Access Evo to Help Brands Measure and Act on What Brings Guests Back - customerthink.com",
+        "headline": "Paytronix Brings Messaging to Access Evo to Help Brands Measure and Act on What Brings Guests Back - CustomerThink",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPanRoV3NIMmVlc0pULUZuZllpalluSC02NjFteU8zM2JuYVpQRm14b1FuOEFSNS1xMklHLW5kY1VUdDFJbWlyQ3ZmaWdrTTQ4emNBbDhBcThuSmlFWFRXXzdfekswei1fcWJGZWVYQjFETTh2a2pzZE40aHhQMUZLSEs3c2NmLXVfU3JGcF8zOWMtVTFwb2VGODdObXJKSjhsaGNuSWlEbHBxZUpxTFlvWWhCMlZMc0lfODZwWEZhSTVtTWM?oc=5",
         "date": "Sat, 19 Sep 2026 08:22:05 GMT",
         "source": "Google News",
@@ -1989,7 +1969,7 @@
     ],
     "TalonOne": [
       {
-        "headline": "Talon.One Revenue 2024: $15M Est. ARR, $3.4M Raised - getlatka.com",
+        "headline": "Talon.One Revenue 2024: $15M Est. ARR, $3.4M Raised - GetLatka",
         "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5PUjBKdnl6UXhreGZTS1p3WVlpU09iRVc0YW5aNVB4dVA5TXk5UldEb2RUMHVDZ1FDRV9DV1ctQkxjMUFXOVU3am5ONkhPSFBR?oc=5",
         "date": "Thu, 10 Sep 2026 07:00:00 GMT",
         "source": "Google News",
@@ -2079,8 +2059,8 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Adyen to buy German loyalty platform in first-ever acquisition - American Banker",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeW5HUnRXN3cwSVo4RF9vXy10ZjdqeHRBOVJROHRyY2ZGTVZRbndaYlJkMkc1V3FSREp6QU5YYkZmZ0p2eWlwNG10LXdwNnRnRUpPb2ZkM2VoZnJFWHlDaVpvc0l5NjR5bjBXNnFpbnJNWUJzN204bUZFUUhuaGJXeTBzYVVKTTlGcU1PTWxpLTNOQ29jVTViYQ?oc=5",
+        "headline": "Adyen acquires Talon.One for \u20ac750m - FinTech Global",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5fOEUtUkh6aG5PTU9yRWJFVDBQQ1BwUzZWR25vOW1hNm4wZWlPRkdTSDFhd3hQdi1HY2hVTFU4VFlwRkljNFVYRzBPNFFLd3lxLVhQYjNEdkR1TjJFZU02XzRCQXF0TGJzQnV1bjdoWGhuQmZXS2g1bg?oc=5",
         "date": "Fri, 24 Apr 2026 07:00:00 GMT",
         "source": "Google News",
         "company": "TalonOne",
@@ -2089,8 +2069,8 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Adyen acquires Talon.One for \u20ac750m - FinTech Global",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5fOEUtUkh6aG5PTU9yRWJFVDBQQ1BwUzZWR25vOW1hNm4wZWlPRkdTSDFhd3hQdi1HY2hVTFU4VFlwRkljNFVYRzBPNFFLd3lxLVhQYjNEdkR1TjJFZU02XzRCQXF0TGJzQnV1bjdoWGhuQmZXS2g1bg?oc=5",
+        "headline": "Adyen to buy German loyalty platform in first-ever acquisition - American Banker",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeW5HUnRXN3cwSVo4RF9vXy10ZjdqeHRBOVJROHRyY2ZGTVZRbndaYlJkMkc1V3FSREp6QU5YYkZmZ0p2eWlwNG10LXdwNnRnRUpPb2ZkM2VoZnJFWHlDaVpvc0l5NjR5bjBXNnFpbnJNWUJzN204bUZFUUhuaGJXeTBzYVVKTTlGcU1PTWxpLTNOQ29jVTViYQ?oc=5",
         "date": "Fri, 24 Apr 2026 07:00:00 GMT",
         "source": "Google News",
         "company": "TalonOne",
@@ -2181,7 +2161,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "SpotOn selects Hawaii as first market for new showroom concept as it expands Pacific presence - The Business Journals",
+        "headline": "SpotOn selects Hawaii as first market for new showroom concept as it expands Pacific presence - bizjournals.com",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdk8zZUdiRnU5MWRBX1pmbG1pUTdQUTRFVjExb0dCUUtQWlNTS1liTEFoMjJEOVEyMXJ6Mm5YYkRwNXlrenZUeWppeU9zbzZWRWg0ZUpsSmVwR3NNZks3UENpd2t5Q3ZsdURJdVVMYkdPbTJia1AzVkxzbWNmbGNxd0gxbUh3bHQzdERzVUlRcWVLQUFOV1E?oc=5",
         "date": "Mon, 06 Jul 2026 07:00:00 GMT",
         "source": "Google News",
@@ -2283,7 +2263,7 @@
     ],
     "Snackpass": [
       {
-        "headline": "Snackpass Revenue 2024: $12.2M Est. ARR - getlatka.com",
+        "headline": "Snackpass Revenue 2024: $12.2M Est. ARR - GetLatka",
         "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkc1ZRQ3ZZXzFOQjVLazR1LWUxZUVEZzF6TWNNYUxlYlRQVUdYR3pfOF95cFp3QmEyYVlKT2Z1OGJ6b0JEWl82aTVJX1dEZXZLR1hCSG5R?oc=5",
         "date": "Wed, 02 Sep 2026 07:00:00 GMT",
         "source": "Google News",
@@ -2303,7 +2283,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "40 Under 40: Kevin Tan, Snackpass - San Francisco Business Times - The Business Journals",
+        "headline": "40 Under 40: Kevin Tan, Snackpass - San Francisco Business Times - bizjournals.com",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPLVlCd1dpTEFhY09zWm9TM2tHUVUyMTdQWkZtZnRkRmNFYm9rZlV4UXpNRUN1UkhXSlBHalNwSWRNc0xPVk0xUG50RE0weXVCQ20tbG5PZkdZeERPWGx3d0tZdFlOYzhia25ITHVnYml0VHNwX1d3TklOdE9FUGxZZDRhMjVuaTkzcWJ6SXlUNnF5dWhGRUE?oc=5",
         "date": "Fri, 22 Apr 2022 07:00:00 GMT",
         "source": "Google News",
@@ -2455,7 +2435,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "TouchBistro Review 2026 - businessnewsdaily.com",
+        "headline": "TouchBistro Review 2026 - Business News Daily",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBMRDM3S0VNTmdGcF9OdVFnSlIzVFF1Z09iek9Ic2hFYnFQVmhMR0M5a2RnQ3N2QzM5R3dMcDFNRUJ5Z1pkcjJMZDZyZmZ4Wnd1X0ZqVUh1TVhYSWxkSFRZazFzanItSUQxUEdOdDdMa2dfOWFFT0RzRlV3SQ?oc=5",
         "date": "Mon, 20 Jul 2026 07:00:00 GMT",
         "source": "Google News",
@@ -2485,7 +2465,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Constellation Software (TSX:CSU) Gains Momentum After Guidance Upgrade - Kalkine Media",
+        "headline": "Constellation Software (TSX:CSU) Gains Momentum After Guidance Upgrade - kalkinemedia.com",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeGF3VTFlRXFyQ3YwbkxpVkI3X0xWcVQ0eDBNMFljdlhhbERuekExZGdiU0lZbVBjSUl3dEg1TnV2eTZzcmc0N1c0ai0zSFFiX0VVb1VjTnZreEJScS1GVDE2TWJBcUpaZ2gyZ3pXem5pWTRSOGtXbGllV0ozdEhTVW50Q2lwYk1fdFFob1h0TGt4b1RQZElicjdlZlZMbVJQN3JES1hXOWhreXpCTFVYbjF1SQ?oc=5",
         "date": "Mon, 13 Jul 2026 07:00:00 GMT",
         "source": "Google News",
@@ -2769,16 +2749,6 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Restaurant Loyalty in Crisis: One-Third of Diners Switched Their Favorite Restaurants in the Past Year, New Report Finds - Business Wire",
-        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOb05teG1pczJiUjJSU29uWmtFWmJ0RHlOSjFRY2lXZno4aXNnNnNDVzVNb0lfSVcwR2lDVzl6QUVEb3I5TFpJSVdwVzI2Z0ZldEJOWjFhN0VoMXJpZENVNzNZWWRtREY5b1JXRk85Z0pBRkJqVnBMWEx3YzA1dkhpTmxoMzlOWUNFRVJIMXh2QjdvclVDNkFFeF85NkZyYjN0UWkwalp6XzRZYnEtdDZsZ0pLQURFU0hZLU9uQlFlUGZPeW9waV9JVGFqSnVMd3NpRkZidEx3Q251S3lPVWZwcVdrdC1UYjhobjdncUFySENLNndIUmRvREp1ekJRQmZTVXNtTGh3?oc=5",
-        "date": "Mon, 14 Apr 2025 07:00:00 GMT",
-        "source": "Google News",
-        "company": "Tillster",
-        "type": "private",
-        "emoji": "\ud83d\udce2",
-        "content_type": "press_general"
-      },
-      {
         "headline": "Tillster: 61% of users want more restaurant kiosks - Restaurant Dive",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWWpkbW4tUGlOZ0RlWHhNMkRyMEhDWnNnMTFCRUludWlzeUZQZ0szTUxOQnN4RG5zSVd1eHN2SVg5dG9pU18zam9PVVp6Q0R6ZHMzd0Fzc2JfVHRLcVVqMmphRjFObjFiQTQ3MERiMl8xTS1ZTFlRbUs2dms2SmdXYnRtUzhvbG9kb2w3MzNUWF9jWEE4clItdHdINW1EQWVwMS1GcXBnOUw3aFNQZmN5S0xQY3NzUQ?oc=5",
         "date": "Mon, 14 Apr 2025 07:00:00 GMT",
@@ -2829,6 +2799,16 @@
         "content_type": "press_general"
       },
       {
+        "headline": "Tillster digital ordering platform joins ParTech's Brink POS ecosystem - fastcasual.com",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONjAwZjNRU3IySUNjUFZ1QVlWYTl6d09uWmNmSkNTYVg1ckZmOUhCbDY1aFAzcFg4SjE3M2F4VlRIanNEUTJMMUpIcmdYeEdkNm16UlNpeHM3dG5Md3FiaUE3UEMwRGtkSExBQVZOLVRfYjdfd2RwT0N4cE15RWJIYnMxU014b1diaDZTRTZGM1VKbXRMYlVVNDJVTGI2Uy1CTTFZNQ?oc=5",
+        "date": "Tue, 07 Jul 2020 07:00:00 GMT",
+        "source": "Google News",
+        "company": "Tillster",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
         "headline": "Tillster Releases Latest Delivery Survey - Food On Demand",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQU1FFVGlQZWZicUhvcHJ5WUo4emRsM1NVMFlwSWE2Q0dCaGRIa3VOcjhIcVh2UlY4SThZMUxFOE94ZUJYT1FMdC1UdlZzejdubkVQeURjVEtHVnlDNG1PdzhEcWwyN1V6b2FXMUFSZUQyU3Exck5zd3daOEFGOXh2Tw?oc=5",
         "date": "Wed, 13 Mar 2019 07:00:00 GMT",
@@ -2839,7 +2819,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Tillster's Digital Coupons and Loyalty Index Reveals Increasing Demand for Rewards - newswire.com",
+        "headline": "Tillster's Digital Coupons and Loyalty Index Reveals Increasing Demand for Rewards - Newswire.com",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZVBJeG82bUl5eF9YYlIzem5mMmRxLVhtN3Q4cTEyM2diRWIzNG5FTUI5aU1GZWhaWE9OUnB2ZEl5Ym5ic05ZWmpJcDJncWkyTDRCZEY4a3FtVWdndENrMmZxa3ZhX21QMzVpTDhXUTM4ZXZyOG8tTUNqLUMzTDNlRTNnbTlYVnBQN0p4TGdoUkdBX2VFZEF1MmNOTW1mVC1mMV9paDM3T0MxQ3Nv?oc=5",
         "date": "Mon, 09 Jul 2018 07:00:00 GMT",
         "source": "Google News",
@@ -2871,7 +2851,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Square for Restaurants Review 2026: Features & Pricing - nerdwallet.com",
+        "headline": "Square for Restaurants Review 2026: Features & Pricing - NerdWallet",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTU1Fdkd1aGhOc0E5dEkycFpHWGNpUDdad0RlSjEySTFUT2h5TjlfS3p4QWg5dzRpQnJKb0VaaXBtZzRYaXVrVVVEVXFZYUpwMHpyX09rMVFZTl9IX0RCbVVVRU5KZm5fMEUzQXc5eU1neUllOC1KTmlwQ3UwMnE2Tw?oc=5",
         "date": "Thu, 02 Oct 2025 04:14:10 GMT",
         "source": "Google News",
@@ -3063,7 +3043,7 @@
         "content_type": "press_general"
       },
       {
-        "headline": "West Asheville's Lucky Otter restaurant to close at end of the year - The Asheville Citizen Times",
+        "headline": "West Asheville's Lucky Otter restaurant to close at end of the year - citizen-times.com",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeDIwQkdMc3JIRURjNU9HY1RELVJ0aXN6SVQyOHZCdGtfZkktRkdRSGZNZ2NlUFdLbGVoUFhHenBSWWs3WVpoOGVKSi01RHNPVURETEdEYnhBeWNwaDRYaFdYcU1zSEI4TWloMjhRUXYtSEZ2VlU3YmpRcUR1eWpYOU41YjRlMHhub0NnbU1ncVdTaWtpSDVUTDZmdmlLWHd2S1Rna25PSkItUlljV2tJUU1LQnJTNmtNOVpudm9Kdw?oc=5",
         "date": "Tue, 26 Dec 2017 08:00:00 GMT",
         "source": "Google News",
@@ -3237,7 +3217,7 @@
     ],
     "Spendgo": [
       {
-        "headline": "Branded Hospitality Ventures Announces Portfolio Exit with Acquisition of Spendgo by Olo - The Evening Sun",
+        "headline": "Branded Hospitality Ventures Announces Portfolio Exit with Acquisition of Spendgo by Olo - eveningsun.com",
         "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNd0JXWnZIdWRybENybVZGaDhScTBUTGRzajdnM0dndDVlUEVPaFJzalZDekRWODdxTVlQWWNzOWdySHNXM1lSaTRaTkd0bHotMGpFd3pUamR3c3FIMWNTREhyUms5azFQNEUwU2NlV0RsX2xmTmsyTEl0Rkg0ak9TcVVZRWU4UXRwSGcxbmd3Mm1YRFAtbXozR3g1UW5LMXRWM0JoVTMxS1k2WHp4LUJZSUdsUUFDanB1dm1ic1pMbmt3amYwUXZjTm1pZ25WcmNSbXhUbUVaWWRPUQ?oc=5",
         "date": "Tue, 03 Mar 2026 05:29:13 GMT",
         "source": "Google News",
@@ -3250,6 +3230,16 @@
         "headline": "Olo Founder & CEO Noah Glass on Spendgo & Olo Loyalty: ICR Conference 2026 - Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5VVVRRQXI1ZW4tQ3NMUnJVME5zYVY5SnZvdTRzVTgtaXdNbnB1Zm50SFI0eEZBeV9yZGxsV3R0dmNmc3JTMEFlVmVyVFFqNzVza21XWFhXSDB0ZWR1SURKNTlVYTlINDNGcjE2RE4yOTQyYS0yazAydGJEVEY?oc=5",
         "date": "Mon, 26 Jan 2026 08:00:00 GMT",
+        "source": "Google News",
+        "company": "Spendgo",
+        "type": "private",
+        "emoji": "\ud83d\udcf0",
+        "content_type": "press_general"
+      },
+      {
+        "headline": "What's next for Olo after a pivotal year - Restaurant Business Magazine",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVEZYMkV6TDFnd3ItLXdnRE0tTEFMbEVybjhKZEhvVmo1aWhXQ2lrSExoVjdEZi1RS0ZKYlpsZWY4QW9NWlJkR2ZyeXlwMmFjYzhZNTNBclhPc3FIZTR6a2QtV0J2azdQNjlzblNXLUpXVEJZNmQybF9SWWpJa01pd3Y3ZktPekda?oc=5",
+        "date": "Fri, 16 Jan 2026 08:00:00 GMT",
         "source": "Google News",
         "company": "Spendgo",
         "type": "private",
@@ -3379,16 +3369,6 @@
         "content_type": "press_general"
       },
       {
-        "headline": "Restaurants and Retailers Gain Flexibility and Control of their Digital Experiences with the Launch of Thanx\u2019s One-Click Content Management System - Business Wire",
-        "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOWHBJZXVSUWVZYzJtVzZUWFZIOVItRmR3akhXZWNaV216dzVaelBrZi1HeVI2Ykw0QWwzV0M3d25ERnRkUDQ2M1ZXT2g4QjJjM3VPWFdJa1IxWDFua0lNSVRSNTA2RmNMWWFleFgwSDNMZW0zdVFpTHUycWpwczhzRGJZTDh3NjVTZ3NrcHd5QXhYTnVadC1NYTVYRk5NYlBWSDlrMWZ5cU5kWGdkMnJRUmN5NXBSdm5YTnV6QmVVTlBKckxQMVRWSF9iWldYQ3ptcmkzMFM2cUNCVHk5WFZMRVc4eFIwek1ZZGgxSHJNMTJQSmRGOTVZOVdPVnJWWHBoZ2x3X2c4R2RrMUJ2M0h2VExnM2ZQZHV2c3VTVTBUcnV6a1lUOU9TMHZR?oc=5",
-        "date": "Wed, 03 Mar 2021 08:00:00 GMT",
-        "source": "Google News",
-        "company": "Thanx",
-        "type": "private",
-        "emoji": "\ud83d\udcf0",
-        "content_type": "press_general"
-      },
-      {
         "headline": "How to respond to the third-party restaurant delivery challenge - fastcasual.com",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQS2tlYmt6OGpzalhxanZDRHNCYXVMQVhJa2E1dDhOVWRCclFmaDhSYnViOHc3OEo2YWdqMDRoOHRjWmNfSVRwRHFzQVpLZnBCVjRiNldWM2JhNlM3aDVDSjZyOHNaUVhEWllUa3hCQW9MeUlNd0hHcUZMM2FFUkFxS3VEUVRuRnBjUFMzcWhiaTZ5ajNjRnRkSTlscDVxTmJkRmpTRw?oc=5",
         "date": "Mon, 21 May 2018 07:00:00 GMT",
@@ -3421,7 +3401,7 @@
     ],
     "Revi": [
       {
-        "headline": "Revi Revenue 2024: $3.4M Est. ARR, $15M Valuation (2020) - getlatka.com",
+        "headline": "Revi Revenue 2024: $3.4M Est. ARR, $15M Valuation (2020) - GetLatka",
         "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9WaVlpMXA2VTVFZDdPQzB5WjItS0RwNHBmRTlHZlphbzZwWmdua0ppTW1TaW15ZVZFX01xd1JJR0lvR3RyNWFrSkxjNA?oc=5",
         "date": "Thu, 17 Oct 2024 07:00:00 GMT",
         "source": "Google News",
