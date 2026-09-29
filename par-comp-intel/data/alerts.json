@@ -1,45 +1,34 @@
 {
-  "updated": "2026-09-29T08:56:49.949480+00:00",
-  "total": 3,
+  "updated": "2026-09-29T15:39:27.619407+00:00",
+  "total": 2,
   "by_category": {
-    "stock_move": 3
+    "analyst_downgrade": 1,
+    "stock_move": 1
   },
   "alerts": [
+    {
+      "category": "analyst_downgrade",
+      "severity": "high",
+      "company": "Shift4",
+      "headline": "Mizuho Securities Maintains Shift4 Payments(FOUR.US) With Buy Rating, Cuts Target Price to $46 - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPM0FnQ2swMXBoWkhkTlNNRjB0VFduMWtTdkJZRll0WWZaSDlxOEV6N0NpbjBrWG8zUTJnSWZQbU53eGI1YnFJMEpuTVdZN3pRS2JYMlZibHNjOFlwWGFhU2xFX0s1c0h6cjl6cHFxNHFEc19NLTE3MmhXYXhPR0V1Mk5XWHZqVjVRYm5ydE51Y0ZLSTBCdlhmaHNWTVJZOWd1cmlrVnJOTnRDRDRGNGJuQXgtZHltdw?oc=5",
+      "source": "Google News",
+      "date": "Thu, 24 Sep 2026 08:31:00 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-09-29T15:39:27.619407+00:00"
+    },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "PAR",
-      "headline": "PAR (PAR) stock down 10.0% over the past week",
+      "headline": "PAR (PAR) stock down 7.8% over the past week",
       "url": "https://finance.yahoo.com/quote/PAR",
       "source": "Yahoo Finance",
-      "date": "2026-09-29T08:56:49.949480+00:00",
+      "date": "2026-09-29T15:39:27.619407+00:00",
       "par_relevance": 3,
-      "note": "-10.0% 1W",
-      "detected_at": "2026-09-29T08:56:49.949480+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "medium",
-      "company": "NCR Voyix",
-      "headline": "NCR Voyix (VYX) stock down 7.7% over the past week",
-      "url": "https://finance.yahoo.com/quote/VYX",
-      "source": "Yahoo Finance",
-      "date": "2026-09-29T08:56:49.949480+00:00",
-      "par_relevance": 3,
-      "note": "-7.7% 1W",
-      "detected_at": "2026-09-29T08:56:49.949480+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "medium",
-      "company": "DoorDash",
-      "headline": "DoorDash (DASH) stock down 7.2% over the past week",
-      "url": "https://finance.yahoo.com/quote/DASH",
-      "source": "Yahoo Finance",
-      "date": "2026-09-29T08:56:49.949480+00:00",
-      "par_relevance": 2,
-      "note": "-7.2% 1W",
-      "detected_at": "2026-09-29T08:56:49.949480+00:00"
+      "note": "-7.8% 1W",
+      "detected_at": "2026-09-29T15:39:27.619407+00:00"
     }
   ]
 }
