@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T18:14:01.067850+00:00",
+  "updated": "2026-10-05T21:14:16.350670+00:00",
   "total": 2,
   "by_category": {
     "analyst_downgrade": 1,
@@ -16,19 +16,19 @@
       "date": "Tue, 29 Sep 2026 15:31:00 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-10-05T18:14:01.067850+00:00"
+      "detected_at": "2026-10-05T21:14:16.350670+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "PAR",
-      "headline": "PAR (PAR) stock up 8.7% over the past week",
+      "headline": "PAR (PAR) stock up 8.2% over the past week",
       "url": "https://finance.yahoo.com/quote/PAR",
       "source": "Yahoo Finance",
-      "date": "2026-10-05T18:14:01.067850+00:00",
+      "date": "2026-10-05T21:14:16.350670+00:00",
       "par_relevance": 3,
-      "note": "+8.7% 1W",
-      "detected_at": "2026-10-05T18:14:01.067850+00:00"
+      "note": "+8.2% 1W",
+      "detected_at": "2026-10-05T21:14:16.350670+00:00"
     }
   ]
 }
