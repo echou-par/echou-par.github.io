@@ -2,7 +2,7 @@
   "date": "2026-10-07",
   "weekday": "Wednesday",
   "first_seen": "2026-10-07T05:30:23.550812+00:00",
-  "last_updated": "2026-10-07T05:30:23.550812+00:00",
+  "last_updated": "2026-10-07T13:05:34.132223+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Toast appeared together in coverage \u2014 \"TOST Stock Gets A DoorDash AI Test: Jefferies Breaks Down Where DashOS Could Pressure Toast - TradingView\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-10-07T05:30:23.550812+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"COBS Bread Partners with Deliverect to Simplify Digital Ordering Across North America - PR Newswire\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"COBS Bread Partners with Deliverect to Simplify Digital Ordering Across North America - PR Newswire\"",
       "sources": [
         {
           "title": "COBS Bread Partners with Deliverect to Simplify Digital Ordering Across North America - PR Newswire",
@@ -88,8 +88,13 @@
       "first_detected": "2026-10-07T05:30:23.550812+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"A required tax sale of 9,368 shares follows stock-grant settlements at Toast (TOST). - Stock Titan\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"Stock grants give Toast (TOST) CFO Gomez 23,693 shares; she sells shares to cover taxes. - Stock Titan\"",
       "sources": [
+        {
+          "title": "Stock grants give Toast (TOST) CFO Gomez 23,693 shares; she sells shares to cover taxes. - Stock Titan",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONjNIOEJ3LXhiVDFua1ctandVQnZBR0diUlVLa3RLZDA4OFNET3lpeG1VaGRYbXJvTmpDNkotSUM3cWRYNnA0WnRsUHA2M0Z1aWlrN0VlV2VFT0QwbmZvV3lhdGE3aGxVbk80Nk5vWTgwYjU0OWdOR2VZel9hYzJnSkhMYVplcW1Wdm8wYVVDOHF4Z1p1MHpFTXJ3Yy1yTW5SWkNReVBR?oc=5",
+          "source": "Google News"
+        },
         {
           "title": "A required tax sale of 9,368 shares follows stock-grant settlements at Toast (TOST). - Stock Titan",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeFZmUm5sajFteU1uWUxqYjBoMjNEN3hIcFQwV3NzNmJuMWlUVl80aG1Xb19SRFJrSDdCd2ZhcWVBRXo1NmVTaFduOVF3b1B6ZGg1RUdjVWVZUms4Q0x6d196VFpZcWwxdGZKNUtyenhrRXRVc1dscDdnSFVHdllNOFVwMUtKcG45NE1mUlFWYkhjZHgyOW5vSGVCa0g0NXdzVTllLWV3?oc=5",
@@ -98,11 +103,6 @@
         {
           "title": "A required, nondiscretionary tax sale accounts for 6,507 shares sold by Toast (TOST) general counsel. - Stock Titan",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSGxJWG9IQUs2aWVqU2ZDLS1fVWo2TUZKUjFSZkQ5bTltZHA0TWlHQ1NuZ3lwc1NtOUhnc0pOT2IyY0VoOUpncVdza3B4THBfMDRFT280RWxUcmR5OWwwbUlfc3Q2cFJLSXZjSTZZRnh6V09pS29sU2VtUTVwSm9zNVRpMkVJVHNIX2hRaE01QXBkaEtmdkdpVnF1bXQtbVBhXzFBZVBB?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "Vesting taxes require a 6,808-share sale by Toast (TOST) revenue chief Jonathan Vassil. - Stock Titan",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYTJvZ29nRGNBLVVoTEpHMXhlS28wMjluWkdWMXNfcG5VOGhqNVA1SVZSRDNFbWs5OW8zdjRkVEdGUHZKZUxLaUFLcjlHb2xRN19FWk1pMjB4QUppd2hXaUEtT2pUZEFiMDRGMXhiVE5nellRdzM4eFdaWkJLb1BoSUlEZEJ2RDdUdFdtdHBKR2FLQndlRU8zRzBxSVZBcHVwcWg3MkNn?oc=5",
           "source": "Google News"
         }
       ],
@@ -130,16 +130,34 @@
       ],
       "company": "Olo",
       "first_detected": "2026-10-07T05:30:23.550812+00:00"
+    },
+    {
+      "text": "ItsaCheckmate shows concentrated partnership activity \u2014 5 tracked partnership items this cycle. Latest: \"Checkmate and Zipline Partner to Bring Drone Delivery to More Restaurant Brands - Yahoo Finance\"",
+      "sources": [
+        {
+          "title": "Checkmate and Zipline Partner to Bring Drone Delivery to More Restaurant Brands - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYy1YSTdqaHh2UktXMEZtU20tLVV6eHlRcDlteUxMUXpWMVhnRkllbkM3djRvd0tOWm9FM3RCUlF2SGJScktENG5paVdVclZGMFJfSmktd2k4bEdSUFNDZnROeGdrYmhGUnFxUVdtbGV5d3M4WF94aU1zalM0TEZoX0ZYNlB4ZkNiUlZvQlNJYWdtaS1vQlozWnh1b2tzeVE?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Checkmate's integration with ezCater helping restaurants streamline catering - Fast Casual",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPc2M3ZGM1TE1yX2R3cV9NYWYzc0dOWjA3RlU1alFQRjVEb2RHWkFSMHlwZ2VlTkVBa1JGbmY5LVgxYjU0M3lmdFVvMVpacVRxWGlwNzdfZnhiU0t6RTROdXVPcFBGTTdrbWkyRk12UERJbHYyM0g4M1cxUEs0T1Vtdi02blZrS2pVQmpVbl9Sa21LdndRZE1TZlF3Z2RObWZmU0dVUjdUdEdjQTVP?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Checkmate Acquires VoiceBite Integrated Voice AI Solution for Restaurants | - Restaurant Technology News",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQU00yNGd2c3dTcEJGR1hQVGlqQlJoNVN1OHNEOGZ1aE9GM0lmUUlLZE5UNUZHeEZPb2o0d1pabTNMdVV0aVNUS082VU5OUjR5Q0RNZmRoM1lqeGoxMEx0b0FFVWM5OGZ2OHlSc2kwalA5bEI3NTBoT0VmQ01DMEVTbTlCSThMbTFaajRfWkt1MXl1Ymx1ZC16aVVlNDVma0lzWlBEUmtMR2RSS2sxakQtYkJWTTFSczRLYTlz?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "ItsaCheckmate",
+      "first_detected": "2026-10-07T13:05:34.132223+00:00"
     }
   ],
   "most_mentioned": [
     {
       "company": "DoorDash",
       "count": 20
-    },
-    {
-      "company": "Deliverect",
-      "count": 16
     },
     {
       "company": "TouchBistro",
@@ -150,11 +168,15 @@
       "count": 16
     },
     {
-      "company": "Uber Eats",
+      "company": "Fiserv",
       "count": 15
     },
     {
-      "company": "PAR",
+      "company": "NCR Voyix",
+      "count": 15
+    },
+    {
+      "company": "Lightspeed",
       "count": 15
     },
     {
@@ -162,7 +184,7 @@
       "count": 15
     },
     {
-      "company": "Lightspeed",
+      "company": "Deliverect",
       "count": 15
     }
   ]
