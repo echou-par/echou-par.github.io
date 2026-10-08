@@ -1,21 +1,46 @@
 {
-  "updated": "2026-10-08T13:12:56.626700+00:00",
-  "total": 1,
+  "updated": "2026-10-08T19:19:25.439296+00:00",
+  "total": 3,
   "by_category": {
-    "stock_move": 1
+    "analyst_downgrade": 1,
+    "stock_move": 2
   },
   "alerts": [
+    {
+      "category": "analyst_downgrade",
+      "severity": "high",
+      "company": "Shift4",
+      "headline": "KBW Maintains Shift4 Payments(FOUR.US) With Hold Rating, Cuts Target Price to $45 - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMWxROUl4bHlFV2dFUGJLNkNvQ1hCMXBVUDRpS2JXNDc4M3JaUUZrZGd3WFg5QWMtZ0VNbnM2a3R4RW9uS1JUb1B4N3FRbTdqR3JnRnhSdHJiQ1pNRktYY0VDRWF1cHhqdzNramV3V3M1dEdzVDR4MW1IbjEwWVhWbXZVSG5kcU9KY2VFZGFHbGotUG5Sd2JJdVdPaFpoWURTaHlvUjBWbGliTHVpX2c?oc=5",
+      "source": "Google News",
+      "date": "Mon, 05 Oct 2026 21:31:00 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-10-08T19:19:25.439296+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "medium",
+      "company": "PAR",
+      "headline": "PAR (PAR) stock up 7.5% over the past week",
+      "url": "https://finance.yahoo.com/quote/PAR",
+      "source": "Yahoo Finance",
+      "date": "2026-10-08T19:19:25.439296+00:00",
+      "par_relevance": 3,
+      "note": "+7.5% 1W",
+      "detected_at": "2026-10-08T19:19:25.439296+00:00"
+    },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "Shift4",
-      "headline": "Shift4 (FOUR) stock up 9.6% over the past week",
+      "headline": "Shift4 (FOUR) stock up 10.1% over the past week",
       "url": "https://finance.yahoo.com/quote/FOUR",
       "source": "Yahoo Finance",
-      "date": "2026-10-08T13:12:56.626700+00:00",
+      "date": "2026-10-08T19:19:25.439296+00:00",
       "par_relevance": 3,
-      "note": "+9.6% 1W",
-      "detected_at": "2026-10-08T13:12:56.626700+00:00"
+      "note": "+10.1% 1W",
+      "detected_at": "2026-10-08T19:19:25.439296+00:00"
     }
   ]
 }
