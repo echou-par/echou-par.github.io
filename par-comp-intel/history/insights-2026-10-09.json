@@ -2,7 +2,7 @@
   "date": "2026-10-09",
   "weekday": "Friday",
   "first_seen": "2026-10-09T05:43:10.047867+00:00",
-  "last_updated": "2026-10-09T18:52:38.542809+00:00",
+  "last_updated": "2026-10-09T19:37:23.149229+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Deliverect, Thanx appeared together in coverage \u2014 \"The Big Greek Cafe partners with Deliverect, Thanx to streamline digital ordering - fastcasual.com\"",
@@ -163,40 +163,56 @@
       ],
       "company": "Lightspeed",
       "first_detected": "2026-10-09T18:52:38.542809+00:00"
+    },
+    {
+      "text": "PAR (PAR) stock gained 6.5% over the past week \u2014 material weekly move relative to broader cohort.",
+      "sources": [
+        {
+          "title": "PAR on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/PAR",
+          "source": "Yahoo Finance"
+        }
+      ],
+      "company": "PAR",
+      "first_detected": "2026-10-09T19:37:23.149229+00:00"
+    },
+    {
+      "text": "Shift4 (FOUR) stock gained 5.2% over the past week \u2014 material weekly move relative to broader cohort.",
+      "sources": [
+        {
+          "title": "FOUR on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/FOUR",
+          "source": "Yahoo Finance"
+        }
+      ],
+      "company": "Shift4",
+      "first_detected": "2026-10-09T19:37:23.149229+00:00"
+    },
+    {
+      "text": "Global Payments (GPN) leading revenue growth at +68.6% YoY \u2014 fastest grower among tracked public competitors.",
+      "sources": [
+        {
+          "title": "Global Payments financials on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/GPN/financials",
+          "source": "Yahoo Finance"
+        }
+      ],
+      "company": "Global Payments",
+      "first_detected": "2026-10-09T19:37:23.149229+00:00"
     }
   ],
   "most_mentioned": [
     {
       "company": "Deliverect",
-      "count": 51
-    },
-    {
-      "company": "Lightspeed",
-      "count": 35
+      "count": 26
     },
     {
       "company": "SpotOn",
-      "count": 33
+      "count": 15
     },
     {
-      "company": "DoorDash",
-      "count": 29
-    },
-    {
-      "company": "Olo",
-      "count": 26
-    },
-    {
-      "company": "Sparkfly",
-      "count": 26
-    },
-    {
-      "company": "Snackpass",
-      "count": 25
-    },
-    {
-      "company": "Tillster",
-      "count": 25
+      "company": "Lightspeed",
+      "count": 10
     }
   ]
 }
