@@ -2,7 +2,7 @@
   "date": "2026-10-09",
   "weekday": "Friday",
   "first_seen": "2026-10-09T05:43:10.047867+00:00",
-  "last_updated": "2026-10-09T19:37:23.149229+00:00",
+  "last_updated": "2026-10-09T23:07:47.795500+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Deliverect, Thanx appeared together in coverage \u2014 \"The Big Greek Cafe partners with Deliverect, Thanx to streamline digital ordering - fastcasual.com\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-10-09T05:43:10.047867+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 12 tracked partnership items this cycle. Latest: \"Deliverect Joins Forces with Yext to Keep Restaurant Data Accurate Across Search Engines, Maps and AI Assistants - Restaurant Technology New\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Deliverect Joins Forces with Yext to Keep Restaurant Data Accurate Across Search Engines, Maps and AI Assistants - Restaurant Technology New\"",
       "sources": [
         {
           "title": "Deliverect Joins Forces with Yext to Keep Restaurant Data Accurate Across Search Engines, Maps and AI Assistants - Restaurant Technology News",
@@ -49,7 +49,7 @@
       "first_detected": "2026-10-09T05:43:10.047867+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -88,7 +88,7 @@
       "first_detected": "2026-10-09T05:43:10.047867+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 13 tracked financial/market items this cycle. Latest: \"Analysts Are Bullish on Top Technology Stocks: SAP SE (SAP), Toast Inc (TOST) - The Globe and Mail\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 12 tracked financial/market items this cycle. Latest: \"Analysts Are Bullish on Top Technology Stocks: SAP SE (SAP), Toast Inc (TOST) - The Globe and Mail\"",
       "sources": [
         {
           "title": "Analysts Are Bullish on Top Technology Stocks: SAP SE (SAP), Toast Inc (TOST) - The Globe and Mail",
@@ -143,11 +143,11 @@
       "first_detected": "2026-10-09T18:52:38.542809+00:00"
     },
     {
-      "text": "Lightspeed shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"Lightspeed Commerce Inc. (LSPD.TO) Stock Price, News, Quote & History - Yahoo! Finance Canada\"",
+      "text": "Lightspeed shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"Lightspeed Commerce And 2 Canadian Founder Led Stocks To Watch - Simply Wall Street\"",
       "sources": [
         {
-          "title": "Lightspeed Commerce Inc. (LSPD.TO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5GVnUxd2tpQkJuNzNGM1ZHV2FEY3BISWxTclEtNjFGQWNOQXV0MF9VekxlY0JqcWcxTzdBbFpvODhPdzYyX3BHdVd1NEFwM2Vsd2s4WUlB?oc=5",
+          "title": "Lightspeed Commerce And 2 Canadian Founder Led Stocks To Watch - Simply Wall Street",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVnlCZXY5SmhXdWU2amxrY3Q2X204M1dtRExPNV82SzlNRl9VbmRZNHVRRmYwMW04MXVvcFdoaV9DaFZodnZiVFZGNUExdU5SNVlkY19VSDd4Ym9zNW5MdjF4d0ZWTno0V2F3SlY2eVViWVFHSG91U1JUSDBLNk1aOEpBcnNwSEYyd0RiRi1FRW00U0NQSWVUeEJnZkctdzBLU3FkeHNQVEw5bHNKaHVUdHFBejRfMW42UWs5ZW4td083eWk0WFczX0llOUs4amhqWHNhS3d0Y2xmQdIB3wFBVV95cUxQX0RxSmMyVHJEMEdlajgySngwVFN4YnpibVNzWlpBUjJiY1NYaHZEdVRRNTdGWVVUUWJseVF6OTRJUjBfb3puRGZiQzl5NmFoVVFuZjI3dmpFSVY4SzNOWnZaei04RTIxNDNMNmZzVEpwWE12T2p6N3JJVU0wbWYyMlpTXzhmOVZnRWpsNUtzMktzMFczSTF1SDFLcG4wMldHeDl6bHF1MFhqOC1OeGNGM3hEWlNDaFllWWFpYmZvY1pmRTFDOHFpeGVhcEFZY2x5NUtidkYxRkE1SzJfcEtr?oc=5",
           "source": "Google News"
         },
         {
@@ -203,16 +203,36 @@
   ],
   "most_mentioned": [
     {
+      "company": "DoorDash",
+      "count": 20
+    },
+    {
       "company": "Deliverect",
-      "count": 26
+      "count": 16
+    },
+    {
+      "company": "Sparkfly",
+      "count": 16
+    },
+    {
+      "company": "Olo",
+      "count": 16
+    },
+    {
+      "company": "Lightspeed",
+      "count": 15
+    },
+    {
+      "company": "Fiserv",
+      "count": 15
     },
     {
       "company": "SpotOn",
       "count": 15
     },
     {
-      "company": "Lightspeed",
-      "count": 10
+      "company": "Uber Eats",
+      "count": 15
     }
   ]
 }
