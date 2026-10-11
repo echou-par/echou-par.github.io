@@ -2,7 +2,7 @@
   "date": "2026-10-11",
   "weekday": "Sunday",
   "first_seen": "2026-10-11T09:13:17.460573+00:00",
-  "last_updated": "2026-10-11T09:13:17.460573+00:00",
+  "last_updated": "2026-10-11T15:54:29.808352+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
@@ -110,7 +110,7 @@
       "first_detected": "2026-10-11T09:13:17.460573+00:00"
     },
     {
-      "text": "Toast shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"What Toast's AI Product Expansion Means For Shareholders - Simply Wall Street\"",
+      "text": "Toast shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"What Toast's AI Product Expansion Means For Shareholders - Simply Wall Street\"",
       "sources": [
         {
           "title": "What Toast's AI Product Expansion Means For Shareholders - Simply Wall Street",
@@ -123,8 +123,8 @@
           "source": "Google News"
         },
         {
-          "title": "Toast, Inc. (TOST) Stock Forecasts - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZjZTNWVIMGRzMHdJTnF4cTVBc3ZmVnlKTGxPZTEyZmZfYjdxOHVESFZJQzVwZUNxWUFLLU1pbnAxR0RjbEFjUUJMblpFLUhLeVpmQ3pxM19oTEl3UGdUUDFaTkJkbUZqYUZrNWdLald6akEyWThCZWpXVTJRb01nc3FhOHkzSExVdGllQnBRRQ?oc=5",
+          "title": "Toast (NYSE:TOST) Stock Forecast & Analyst Predictions - Simply Wall Street",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeXA1OE5QOHcyMjJLamY5OG5fcEZhWFpwRlBWVjVfWndWbHNUc3A3aHV5QXdqT19ydFV6OTZRYUUzeFpaRlRxUTJQUEYwOHJnU2ZSM1ZUakhjS05vRnRLQUhMUXY5cHNfOHlnVkJZdzE4Z2Rfd3plNkY1cHFXM0NYT1RJdw?oc=5",
           "source": "Google News"
         }
       ],
@@ -142,6 +142,10 @@
       "count": 16
     },
     {
+      "company": "Global Payments",
+      "count": 16
+    },
+    {
       "company": "Sparkfly",
       "count": 16
     },
@@ -150,19 +154,15 @@
       "count": 16
     },
     {
+      "company": "Toast",
+      "count": 15
+    },
+    {
       "company": "Lightspeed",
       "count": 15
     },
     {
       "company": "Shift4",
-      "count": 15
-    },
-    {
-      "company": "Uber Eats",
-      "count": 15
-    },
-    {
-      "company": "Global Payments",
       "count": 15
     }
   ]
