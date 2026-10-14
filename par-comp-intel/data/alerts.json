@@ -1,6 +1,21 @@
 {
-  "updated": "2026-10-14T18:47:52.884974+00:00",
-  "total": 0,
-  "by_category": {},
-  "alerts": []
+  "updated": "2026-10-14T21:53:42.086869+00:00",
+  "total": 1,
+  "by_category": {
+    "guidance_cut": 1
+  },
+  "alerts": [
+    {
+      "category": "guidance_cut",
+      "severity": "high",
+      "company": "Shift4",
+      "headline": "Shift4 Payments (FOUR) Following Strong Revenue And Soft Guidance Has Valuation Back In Focus - Simply Wall Street",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQeHUtR293RF9RRHdUOVdHRjREdEZ1NFE2dzYtRXhaUUtpS21welFtNUliYlMzX1Y4aVpuTC16RkhadGJ6ajhDVjRsYmtDN2ZxeURobjY4c3ZvY3lwb2dZekk5X2NMcEtDWEU2ajFxSGFWdkdudmFNZWVNY1JaOVpkeVlGZHM5NnB5SDFGMHJQSnI2Nzc2Z1QtZFlyYUQ0Rk1RcTdVNGIzMTlaNnpyaVJnYjhEQThVQnNjRHY0QXhvUzg3bm84UjVBdXhHWHBVVG1KZGFxWHJjUnhUaHA5QWFz0gHkAUFVX3lxTE5vSnhUOXN5clRVbmJiVDNyMWJzLXpxUkw5eFVTamdrMlFrLXZ2M203LWFVN2k1RGV4ak00Y295dTJPYmZnbjRtVU94MEFNZnlJTVQwNEU2VkdDQWp4blZPTVZXWFZSbmd0VkxUQW5TUW1PQkZfMEZRRFpkTWROWms1X2NHTTBzbFlfY09rNjZJWTVRZHJ2T3ZUTW41WlpYOWJWVGVBWGFRN2JuQnhPdkpGNEw3cVozcGp5YnEtTDliX2M4OFhQVzh5NHNnR0dLMi1iWm9rQldQa1JvUkFrNTEzbkZJSg?oc=5",
+      "source": "Google News",
+      "date": "Wed, 14 Oct 2026 21:37:53 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-10-14T21:53:42.086869+00:00"
+    }
+  ]
 }
