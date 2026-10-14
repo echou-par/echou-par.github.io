@@ -1,16 +1,6 @@
 {
-  "updated": "2026-10-14T07:56:44.152711+00:00",
+  "updated": "2026-10-14T13:35:24.683742+00:00",
   "insights": [
-    {
-      "text": "Cross-competitor event: Block, Square appeared together in coverage \u2014 \"Block earnings beat driven by Cash App and Square strength - Proactive financial news\"",
-      "sources": [
-        {
-          "title": "Block earnings beat driven by Cash App and Square strength - Proactive financial news",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPX2ZKVnBKRjZRTnZhUmJNdmQ3Vk8wbmpFeHVBSVJLUTBZekNHZEZSaV9nbDQ5NE9qM29reDN5bG1yZ0drSEh0U3lmVkZlc1F6Vlg0cWE5emNTWGtoam0tbm1RUXNzOFNYemxkU0c2VmViUFRpX3VaSlZBa3VUVFhUMTVLdF9oVlBQekJMcE5iY09MZ0dYNURiSlVURHZCMnFBb3dNOHRZX3Z6UjBFdDdIR2xYY2pLX2dIOExWZGxWVjhVeTl0YlRWVw?oc=5",
-          "source": "Google News"
-        }
-      ]
-    },
     {
       "text": "Cross-competitor event: Square, TouchBistro appeared together in coverage \u2014 \"TouchBistro vs Square: Pricing, Costs & User Experience Rated - tech.co\"",
       "sources": [
@@ -22,7 +12,17 @@
       ]
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Deliverect, Yext Partner on Restaurant Data & AI Search - Food & Beverage Magazine\"",
+      "text": "Cross-competitor event: Square, Thanx appeared together in coverage \u2014 \"Thanx Integrates Loyalty Platform With Square POS System - PYMNTS.com\"",
+      "sources": [
+        {
+          "title": "Thanx Integrates Loyalty Platform With Square POS System - PYMNTS.com",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcl9RaTlDWFJlTHM1ZDI4TDN4cGtjRTNfYkszeWZQM1pDUkRIREI3ZDhnVjM2U1V1d0J3T19yUFpuSWJTUGxnVHhHZkxTVXc4Z3c4aGFmOHE3dGV0RE56ck1RSWIwN0U4WGhHVWpSc1Z6TFRwa2xsT2RnY1BMS2kyNzh5YWV3RnQ5dXNXWC1JNnRxWkV0aTZDWEpoNDVRd1VOSWhxcURxV0ZJdEpTYmwtSTJGVkRYdw?oc=5",
+          "source": "Google News"
+        }
+      ]
+    },
+    {
+      "text": "Deliverect shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Deliverect, Yext Partner on Restaurant Data & AI Search - Food & Beverage Magazine\"",
       "sources": [
         {
           "title": "Deliverect, Yext Partner on Restaurant Data & AI Search - Food & Beverage Magazine",
@@ -101,34 +101,38 @@
       "company": "Toast"
     },
     {
-      "text": "Global Payments shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"Global Payments Q3 2026 Earnings Date and Estimates - MarketBeat\"",
+      "text": "Olo shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Olo Stock: Strong Growth Justifies Thoma Bravo\u2019s $2B Buyout, Upside Is Capped (NYSE:OLO) - Seeking Alpha\"",
       "sources": [
         {
-          "title": "Global Payments Q3 2026 Earnings Date and Estimates - MarketBeat",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZEgxQzU5MG41RDllTWk2amVZOHRhc0ZWdTVjTFhSQkpFUkxKb2dmS19zMlVZckt5dHR1ZFd0QTlTQ3h2RWtIc2VRNnVwSWJWM2pYendNNG5uemNnMDM0ZFJrSEZfZ0llYXBXRWIzTVQtOHpYQWFvYjV3YS04OE13VC05Z3Fyb0k?oc=5",
+          "title": "Olo Stock: Strong Growth Justifies Thoma Bravo\u2019s $2B Buyout, Upside Is Capped (NYSE:OLO) - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUVJTVVJZT1dqZmZoTFl2UmIyWS1KUjU0RzQ0b0JYMzBBYnZVanRxZHJjN21QUWxZZlpILTg3SUFIaUpqOGpIZU1EUTRCTmJwRE9hR2VnalphUlJhd1MteWxJLWtNLTFjeFh2VDl2R3NKbEF2WndLQ0xGYVF1MEJQMXVwTUlRbmdicEZkanNPcG91amptYnJFcm9mLXBFNUhRWE5MVzdZNGVqbWlUXzA3VnlWUWJOZWMwQVJjMW9tTnIyeWxW?oc=5",
           "source": "Google News"
         },
         {
-          "title": "Did Analyst Upgrade Just Shift Global Payments Stock Investment Narrative? - Simply Wall Street",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPM0ZJZjdjYlV2blJCOW53VkVoV3RZcVJsSUJyV0FKVmdqYXBiMHNVbHNvWXpqTE10ZWVmby1ucnBsRENRTzZvSVU5Vm5FalBqVk81MjNJQkFJSW9rdk5MbXZOZGw0VmtDTWFYazhDUUt1eVZvVTdtNE5aZU5wS1VadExZRE9hUDhSbjRJUVNSSkdxVGR4dUlUOTVzUTF3b3I5dEJJSnZhZnE0YWVIYXhLekhLb1ZfUGVEWHY1N2ZFdUVka25QekloZXVtaFlPc3VCb0g2REZIeFhEZTJCYlHSAeMBQVVfeXFMT1lIM3hXWndNM1E0RnRxSWFSaFhTM1ZodFVpdHYyakxvRVZTS3h0ZUlqNG03RG1CVXlNZVl2S296enFZMlhoS1JoU1RaV3VyWGQ3RXdWaUd0TjBGU3doTTFXWXBhLU9uSTNhSmxmMnpVckwzMGljVmZHSGVXc20temxHaEJ3U2NGcEctUzBvd3dFaEFvLWFDU0hlUlNfZzlTMDlWcFdUUVdsRkIwQkRPcDRTaEhxclBJbEV3YmFKT18yTnptQW92bHU0ZlpvNzNqZHFtMmpIZjVIYXZCTUM2VEVESEE?oc=5",
+          "title": "Olo (OLO) Stock Price, News & Analysis - Stock Titan",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBnR2ZaTTkyV3FVYnozTE1LQThVT0dNTGxVaTZON2tmVDN5SE1lWjY0RGhxaHVhUGl0Z0FBaTZvZnRHUXRBak5QVzA1T1FwU2RMUFE?oc=5",
           "source": "Google News"
         },
         {
-          "title": "Is Global Payments (NYSE:GPN) Gaining Fresh Momentum After Latest Upgrade? - Kalkine Media",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTi1JLW1idnhnajhkTVpkWDFEYUhseFU1V1FXYTROTU13dUFMaWl5bE9PSlczakZhRnd0SURGVG5NdkJlaU4ydEdFSVBKekYwVG9VdDVhZ3plSUVwWkU0eEpGRTJ1SFhNQ1NsODVwRG1lcDByQmlNelNWUDN1YkM2TGJRQXV1QUtvT0RXQ0o1MTR4V3dKOHd0SnhjSDdXZXRtcngwVHZreEZvNDN3LU8yR09BdWxKOGc?oc=5",
+          "title": "Olo Launches \u2018Loyalty for Borderless Accounts\u2019 to Help Restaurant Brands Drive Traffic, Grow Revenue, and Enhance the Guest Experience - Business Wire",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPckxyb19WN0tlQ1JwWXpUemNKc1I3VVdVNUJkek9idnpmQi0wNXVvdEVlMnJPQmpFWFV4dU84eTdibGNZclZITnhkSnRDM3R5U0plSDhQd1BWcFhfSGJYZlQxb093RVZadkFueWVqQlRlYVN1aG1CMnJEbVNSVDhaZXZlc2d1ajZON2JjTDYyZUxtMkpvYldLVHhsUlB1NHdhMmNkbnlDamtYdUswbFhQTnBCSHJLbGFtWE1rSHl4SnllX2pOUWs2VXhid0x6MWdfaWNmVW9CY3F2dkdQcFB2ZUw1TFNzMzVpSTQ0ZTIwSGpNQkJVYWhiX2dxNGhzRk5QbzlhMFFGLWJrS3dnUml5TUM4SUZQQQ?oc=5",
           "source": "Google News"
         }
       ],
-      "company": "Global Payments"
+      "company": "Olo"
     }
   ],
   "most_mentioned": [
     {
       "company": "DoorDash",
-      "count": 21
+      "count": 20
     },
     {
       "company": "Deliverect",
+      "count": 16
+    },
+    {
+      "company": "TouchBistro",
       "count": 16
     },
     {
@@ -140,19 +144,15 @@
       "count": 16
     },
     {
-      "company": "Lightspeed",
-      "count": 15
-    },
-    {
-      "company": "Uber Eats",
-      "count": 15
-    },
-    {
-      "company": "Toast",
+      "company": "NCR Voyix",
       "count": 15
     },
     {
       "company": "Fiserv",
+      "count": 15
+    },
+    {
+      "company": "Toast",
       "count": 15
     }
   ]
