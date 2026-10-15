@@ -1,8 +1,9 @@
 {
-  "updated": "2026-10-15T10:13:43.808685+00:00",
-  "total": 1,
+  "updated": "2026-10-15T15:17:07.530224+00:00",
+  "total": 2,
   "by_category": {
-    "guidance_cut": 1
+    "guidance_cut": 1,
+    "stock_move": 1
   },
   "alerts": [
     {
@@ -15,7 +16,19 @@
       "date": "Wed, 14 Oct 2026 21:37:55 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-10-15T10:13:43.808685+00:00"
+      "detected_at": "2026-10-15T15:17:07.530224+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "medium",
+      "company": "PAR",
+      "headline": "PAR (PAR) stock up 10.1% over the past week",
+      "url": "https://finance.yahoo.com/quote/PAR",
+      "source": "Yahoo Finance",
+      "date": "2026-10-15T15:17:07.530224+00:00",
+      "par_relevance": 3,
+      "note": "+10.1% 1W",
+      "detected_at": "2026-10-15T15:17:07.530224+00:00"
     }
   ]
 }
