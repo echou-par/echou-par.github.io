@@ -1,9 +1,8 @@
 {
-  "updated": "2026-10-15T19:20:08.614924+00:00",
-  "total": 3,
+  "updated": "2026-10-15T22:37:17.793340+00:00",
+  "total": 2,
   "by_category": {
     "guidance_cut": 1,
-    "analyst_downgrade": 1,
     "stock_move": 1
   },
   "alerts": [
@@ -17,31 +16,19 @@
       "date": "Wed, 14 Oct 2026 21:37:55 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-10-15T19:20:08.614924+00:00"
-    },
-    {
-      "category": "analyst_downgrade",
-      "severity": "high",
-      "company": "PAR",
-      "headline": "Goldman Sachs Maintains PAR Technology(PAR.US) With Hold Rating, Cuts Target Price to $17.5 - \u5bcc\u9014\u725b\u725b",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVGx2MkZmNjR1UWZiTW9nVXYtSEJFSkFHc0tHRHZobk9JXzJIX0xIZ3JiT0tnOVZiSVBtczV6WHFxV1lmajBUdzJ2TkJ4UnBwaE9oaThUQm00elRaSTJRMWpORzBRV2J6OFMzZF8tUVY1a0N6OE1SVm05eW54d0MxTE9EU1R2LXdKcV9nYVd3NlVSbjNkc29SbUxfUnNmOUVZVC05a2N5c3hpdmpEVXc?oc=5",
-      "source": "Google News",
-      "date": "Tue, 13 Oct 2026 11:31:00 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-10-15T19:20:08.614924+00:00"
+      "detected_at": "2026-10-15T22:37:17.793340+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "PAR",
-      "headline": "PAR (PAR) stock up 11.5% over the past week",
+      "headline": "PAR (PAR) stock up 11.9% over the past week",
       "url": "https://finance.yahoo.com/quote/PAR",
       "source": "Yahoo Finance",
-      "date": "2026-10-15T19:20:08.614924+00:00",
+      "date": "2026-10-15T22:37:17.793340+00:00",
       "par_relevance": 3,
-      "note": "+11.5% 1W",
-      "detected_at": "2026-10-15T19:20:08.614924+00:00"
+      "note": "+11.9% 1W",
+      "detected_at": "2026-10-15T22:37:17.793340+00:00"
     }
   ]
 }
