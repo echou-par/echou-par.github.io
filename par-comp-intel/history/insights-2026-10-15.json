@@ -2,7 +2,7 @@
   "date": "2026-10-15",
   "weekday": "Thursday",
   "first_seen": "2026-10-15T05:02:57.870060+00:00",
-  "last_updated": "2026-10-15T22:37:17.793340+00:00",
+  "last_updated": "2026-10-16T01:06:41.104379+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Paytronix, Square appeared together in coverage \u2014 \"Tavern in the Square with Paytronix Spikes Insider Loyalty Program Registrations by 86% - GlobeNewswire\"",
@@ -207,12 +207,23 @@
       ],
       "company": "TalonOne",
       "first_detected": "2026-10-15T22:37:17.793340+00:00"
+    },
+    {
+      "text": "Cross-competitor event: Paytronix, Toast appeared together in coverage \u2014 \"Toast Integrates with Paytronix to Enhance Loyal Customer Behavior for Restaurants of All Sizes - Toast\"",
+      "sources": [
+        {
+          "title": "Toast Integrates with Paytronix to Enhance Loyal Customer Behavior for Restaurants of All Sizes - Toast",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9qQ2FRX3VKd09lUF9GaXFrek52LXZrMnBpQU5JVGc1TkVhY0RiNFdfZGhZUzFzaFJ6S1JhMjRRaHZwWUNLeW1TOFZlWHBGT1p3WFBEQTl3SEhLU3dsVDlCbTFxZUZCdTdZeGxETXR0UG50cEFoakE?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "first_detected": "2026-10-16T01:06:41.104379+00:00"
     }
   ],
   "most_mentioned": [
     {
       "company": "DoorDash",
-      "count": 19
+      "count": 20
     },
     {
       "company": "Sparkfly",
@@ -231,15 +242,15 @@
       "count": 15
     },
     {
+      "company": "Paytronix",
+      "count": 15
+    },
+    {
       "company": "Deliverect",
       "count": 15
     },
     {
       "company": "SpotOn",
-      "count": 15
-    },
-    {
-      "company": "TouchBistro",
       "count": 15
     }
   ]

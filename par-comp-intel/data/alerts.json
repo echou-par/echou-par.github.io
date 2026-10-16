@@ -1,8 +1,9 @@
 {
-  "updated": "2026-10-15T22:37:17.793340+00:00",
-  "total": 2,
+  "updated": "2026-10-16T01:06:41.104379+00:00",
+  "total": 3,
   "by_category": {
     "guidance_cut": 1,
+    "analyst_downgrade": 1,
     "stock_move": 1
   },
   "alerts": [
@@ -16,7 +17,19 @@
       "date": "Wed, 14 Oct 2026 21:37:55 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-10-15T22:37:17.793340+00:00"
+      "detected_at": "2026-10-16T01:06:41.104379+00:00"
+    },
+    {
+      "category": "analyst_downgrade",
+      "severity": "high",
+      "company": "Shift4",
+      "headline": "Raymond James Maintains Shift4 Payments(FOUR.US) With Buy Rating, Cuts Target Price to $50 - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQM2J6OEhyU3k2WFdNZ05BSDhiY0trdFdvLWhIeDkycXZYUkNTUTJBY1N1bnU2Q1NqZVJuakxLYnZqVy1zTU9BZlJ1b0ZPUjEzWG9WYzBJR3FfMk9lUXhtRkNnbVVQMEplZVVuYmIyTDJwd3I1SVgwN3pqcXJsN1lzSENGWUw0bnhIOTl5SC0tN3NESHF1TF9rM3JYNS0yemJnMlJ4RkhIV21EdnlOeUdYUg?oc=5",
+      "source": "Google News",
+      "date": "Tue, 13 Oct 2026 13:34:00 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-10-16T01:06:41.104379+00:00"
     },
     {
       "category": "stock_move",
@@ -25,10 +38,10 @@
       "headline": "PAR (PAR) stock up 11.9% over the past week",
       "url": "https://finance.yahoo.com/quote/PAR",
       "source": "Yahoo Finance",
-      "date": "2026-10-15T22:37:17.793340+00:00",
+      "date": "2026-10-16T01:06:41.104379+00:00",
       "par_relevance": 3,
       "note": "+11.9% 1W",
-      "detected_at": "2026-10-15T22:37:17.793340+00:00"
+      "detected_at": "2026-10-16T01:06:41.104379+00:00"
     }
   ]
 }
