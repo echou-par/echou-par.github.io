@@ -2,7 +2,7 @@
   "date": "2026-10-17",
   "weekday": "Saturday",
   "first_seen": "2026-10-17T06:01:02.133425+00:00",
-  "last_updated": "2026-10-17T17:25:47.846530+00:00",
+  "last_updated": "2026-10-17T17:28:37.013661+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Paytronix, Square appeared together in coverage \u2014 \"Tavern in the Square with Paytronix Spikes Insider Loyalty Program Registrations by 86% - GlobeNewswire\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-10-17T06:01:02.133425+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 12 tracked partnership items this cycle. Latest: \"Little Caesars expands Deliverect partnership to Guatemala - Pizza Marketplace\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Little Caesars expands Deliverect partnership to Guatemala - Pizza Marketplace\"",
       "sources": [
         {
           "title": "Little Caesars expands Deliverect partnership to Guatemala - Pizza Marketplace",
@@ -49,7 +49,7 @@
       "first_detected": "2026-10-17T06:01:02.133425+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -57,13 +57,13 @@
           "source": "Google News"
         },
         {
-          "title": "Integration - Sparkfly",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5LYXIyVXFlNFZZbFBqZXItczN4R3gyY1JYVHpfakZISmNSdFBmbUY1b1IwaFIwT2F6UkNkUmQxeTJPM0cxLXRFdWl1UThXUWF3Vkdrams0MU5yV3p6RFZkSg?oc=5",
-          "source": "Google News (sparkfly.com)"
-        },
-        {
           "title": "Piada Italian Street Food Partners with Sparkfly to Launch Enhanced Loyalty Program - PRWeb",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbjhJcDBUOVpyMDhxN1FrajA2cUFEQ2RkaE8wQ2QyS2w5SjJFOXA0aDFLWTdwZ1VVV0xvOHRKR1RJZkEyeXpLOFhqcV9jRFozRFRrQTdhVk8zd0t2QzQ3RjdVOUtDbWR2QjlHa1duRTczOEtweGZXV1lRVmRaQ3BMNllvR01RNnNiNFNudWFGdDBET09sd3EzNF93b0ZveHg4X2RmWTJ6WlVVT0Fvb2pweGR3R2tydWhmR3o5d0dwa1IyQXEtMGdKNA?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Long John Silver's teams up with tech firms for digital transformation - QSR Web",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOV3VoNHRiQ0YxOUMtb3FsMVc1RHdxNXcyY3pTQjVqTmpLcXBJZlMyYnlCS3d0TjBtRGM4dGhYMVhra1p4YjF3d3FUUnMzVngtWExaSUduYjVwUlBmdkRVN3dGbHdSUGp6LW11cFRKaG0tLTZIWDhnUkdOcEg0ZnhZRW5oaWd6S1ZwSnRveTY0dHhWZnl4dGlCc2RFd19KRTg?oc=5",
           "source": "Google News"
         }
       ],
@@ -173,36 +173,36 @@
   ],
   "most_mentioned": [
     {
-      "company": "Deliverect",
-      "count": 50
-    },
-    {
-      "company": "Lightspeed",
-      "count": 34
-    },
-    {
-      "company": "SpotOn",
-      "count": 34
-    },
-    {
       "company": "DoorDash",
-      "count": 29
+      "count": 19
+    },
+    {
+      "company": "Sparkfly",
+      "count": 16
     },
     {
       "company": "Olo",
-      "count": 26
+      "count": 16
+    },
+    {
+      "company": "PAR",
+      "count": 15
+    },
+    {
+      "company": "Lightspeed",
+      "count": 15
+    },
+    {
+      "company": "Deliverect",
+      "count": 15
+    },
+    {
+      "company": "ItsaCheckmate",
+      "count": 15
     },
     {
       "company": "Paytronix",
-      "count": 25
-    },
-    {
-      "company": "TouchBistro",
-      "count": 25
-    },
-    {
-      "company": "Tillster",
-      "count": 25
+      "count": 15
     }
   ]
 }
