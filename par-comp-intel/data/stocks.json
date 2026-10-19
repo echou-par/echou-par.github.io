@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-19T20:05:25.073865+00:00",
+  "updated": "2026-10-19T22:13:13.670281+00:00",
   "ranges": {
     "1W": [
       {
         "ticker": "PAR",
         "company": "PAR",
-        "change_pct": 7.77,
-        "price": 17.33
+        "change_pct": 7.9,
+        "price": 17.35
       },
       {
         "ticker": "TOST",
         "company": "Toast",
-        "change_pct": 1.85,
-        "price": 31.46
+        "change_pct": 1.81,
+        "price": 31.45
       },
       {
         "ticker": "DASH",
@@ -29,7 +29,7 @@
       {
         "ticker": "LSPD",
         "company": "Lightspeed",
-        "change_pct": 0.8,
+        "change_pct": 0.84,
         "price": 10.77
       },
       {
@@ -41,8 +41,8 @@
       {
         "ticker": "XYZ",
         "company": "Block (Square)",
-        "change_pct": 0.86,
-        "price": 77.52
+        "change_pct": 0.83,
+        "price": 77.5
       },
       {
         "ticker": "GPN",
@@ -59,22 +59,22 @@
       {
         "ticker": "UBER",
         "company": "Uber",
-        "change_pct": -1.89,
-        "price": 69.97
+        "change_pct": -1.91,
+        "price": 69.96
       }
     ],
     "1M": [
       {
         "ticker": "PAR",
         "company": "PAR",
-        "change_pct": 14.24,
-        "price": 17.33
+        "change_pct": 14.37,
+        "price": 17.35
       },
       {
         "ticker": "TOST",
         "company": "Toast",
-        "change_pct": 5.57,
-        "price": 31.46
+        "change_pct": 5.54,
+        "price": 31.45
       },
       {
         "ticker": "DASH",
@@ -91,7 +91,7 @@
       {
         "ticker": "LSPD",
         "company": "Lightspeed",
-        "change_pct": 12.6,
+        "change_pct": 12.66,
         "price": 10.77
       },
       {
@@ -103,8 +103,8 @@
       {
         "ticker": "XYZ",
         "company": "Block (Square)",
-        "change_pct": -0.5,
-        "price": 77.52
+        "change_pct": -0.53,
+        "price": 77.5
       },
       {
         "ticker": "GPN",
@@ -121,22 +121,22 @@
       {
         "ticker": "UBER",
         "company": "Uber",
-        "change_pct": -1.23,
-        "price": 69.97
+        "change_pct": -1.24,
+        "price": 69.96
       }
     ],
     "3M": [
       {
         "ticker": "PAR",
         "company": "PAR",
-        "change_pct": 12.24,
-        "price": 17.33
+        "change_pct": 12.37,
+        "price": 17.35
       },
       {
         "ticker": "TOST",
         "company": "Toast",
-        "change_pct": 8.33,
-        "price": 31.46
+        "change_pct": 8.3,
+        "price": 31.45
       },
       {
         "ticker": "DASH",
@@ -153,7 +153,7 @@
       {
         "ticker": "LSPD",
         "company": "Lightspeed",
-        "change_pct": 8.63,
+        "change_pct": 8.68,
         "price": 10.77
       },
       {
@@ -165,8 +165,8 @@
       {
         "ticker": "XYZ",
         "company": "Block (Square)",
-        "change_pct": 0.48,
-        "price": 77.52
+        "change_pct": 0.45,
+        "price": 77.5
       },
       {
         "ticker": "GPN",
@@ -183,22 +183,22 @@
       {
         "ticker": "UBER",
         "company": "Uber",
-        "change_pct": 6.11,
-        "price": 69.97
+        "change_pct": 6.1,
+        "price": 69.96
       }
     ],
     "YTD": [
       {
         "ticker": "PAR",
         "company": "PAR",
-        "change_pct": -50.14,
-        "price": 17.33
+        "change_pct": -50.09,
+        "price": 17.35
       },
       {
         "ticker": "TOST",
         "company": "Toast",
-        "change_pct": -14.18,
-        "price": 31.46
+        "change_pct": -14.21,
+        "price": 31.45
       },
       {
         "ticker": "DASH",
@@ -215,7 +215,7 @@
       {
         "ticker": "LSPD",
         "company": "Lightspeed",
-        "change_pct": -11.11,
+        "change_pct": -11.07,
         "price": 10.77
       },
       {
@@ -227,8 +227,8 @@
       {
         "ticker": "XYZ",
         "company": "Block (Square)",
-        "change_pct": 8.47,
-        "price": 77.52
+        "change_pct": 8.44,
+        "price": 77.5
       },
       {
         "ticker": "GPN",
@@ -245,8 +245,8 @@
       {
         "ticker": "UBER",
         "company": "Uber",
-        "change_pct": -18.82,
-        "price": 69.97
+        "change_pct": -18.83,
+        "price": 69.96
       }
     ]
   }
