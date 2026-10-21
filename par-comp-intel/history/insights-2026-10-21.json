@@ -2,7 +2,7 @@
   "date": "2026-10-21",
   "weekday": "Wednesday",
   "first_seen": "2026-10-21T04:17:53.587828+00:00",
-  "last_updated": "2026-10-21T09:30:49.713115+00:00",
+  "last_updated": "2026-10-21T14:59:51.936178+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"This new food delivery service is trying to take on DoorDash and Uber Eats by offering no menu markups - Business Insider\"",
@@ -121,7 +121,7 @@
       "first_detected": "2026-10-21T04:17:53.587828+00:00"
     },
     {
-      "text": "Lightspeed shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"Lightspeed Commerce Inc. $LSPD Stock: Louisbourg Investments Inc. Boosts Position - MarketBeat\"",
+      "text": "Lightspeed shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Lightspeed Commerce Inc. $LSPD Stock: Louisbourg Investments Inc. Boosts Position - MarketBeat\"",
       "sources": [
         {
           "title": "Lightspeed Commerce Inc. $LSPD Stock: Louisbourg Investments Inc. Boosts Position - MarketBeat",
@@ -143,16 +143,16 @@
       "first_detected": "2026-10-21T09:30:49.713115+00:00"
     },
     {
-      "text": "NCR Voyix (VYX) stock gained 20.4% over the past week \u2014 material weekly move relative to broader cohort.",
+      "text": "NCR Voyix (VYX) stock gained 8.4% over the past week \u2014 material weekly move relative to broader cohort.",
       "sources": [
         {
-          "title": "Sbarro to deploy NCR Voyix's Aloha Next and Voyix Pay across nearly 300 US locations - MarketScale",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVUJ6dDlaNW9kRHdFSnFJSUk3MXRFcUxhRG9TZE9yTUJXS25VNEV0NWdvN1J1OWV5UVJPX1JuaDRVZUlSZFlPMWhaVE5aMGlNeDIwT0Uzd3Y2STdhZ2pYMHI5UGFWNlJOQ01VQURobkljaHYtMmJYV3NmWV9PSzA3bXVwOXdubzlTUGtaR0luNXZ4bmtsb2tBZk85eGRZZVg0dnFkbmJySFpQVnQzN3hDOUkxYkhDOG9wcGVfM3Jpc25nbng4ZlM3TjI3cWdMOG8zOWc?oc=5",
+          "title": "NCR Voyix to Release Third Quarter Earnings Results - FinancialContent",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOFExcHNqQzF6Rk1RYV9kM2trMU81Vlg3a2lMdXlNZXBobmdkd01NSGJUTTVpVUlUQVdqN0FLMndtZkt3aHNLc1p3MDhrTlQyQUhxXzMxUWJ2ejREdlFMd3FnNVI4RGM2Z0FrSDBTajd1Y1RUQXNUaDhVc05QcUw5c0lyN3o2Y0JIb1BGQzdFclN4SWRmSG5KTXp4bTlBVFFwcXVrSWlnUDFOQkNfdUFOOW12NXg2VFZEVTJJVnNyYw?oc=5",
           "source": "Google News"
         },
         {
-          "title": "NCR Voyix Corporation (VYX) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBfbEI1ZjR6VHV3VWVJeDgyR2g0WWNIcHcwbXUtS2gyWnN4cTBTTWk1RjBpTGtfYUhCMU11Vmg3RlJuMlZHdEpFNW8ydlhvVHZZ?oc=5",
+          "title": "Sbarro to deploy NCR Voyix's Aloha Next and Voyix Pay across nearly 300 US locations - MarketScale",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVUJ6dDlaNW9kRHdFSnFJSUk3MXRFcUxhRG9TZE9yTUJXS25VNEV0NWdvN1J1OWV5UVJPX1JuaDRVZUlSZFlPMWhaVE5aMGlNeDIwT0Uzd3Y2STdhZ2pYMHI5UGFWNlJOQ01VQURobkljaHYtMmJYV3NmWV9PSzA3bXVwOXdubzlTUGtaR0luNXZ4bmtsb2tBZk85eGRZZVg0dnFkbmJySFpQVnQzN3hDOUkxYkhDOG9wcGVfM3Jpc25nbng4ZlM3TjI3cWdMOG8zOWc?oc=5",
           "source": "Google News"
         }
       ],
@@ -174,19 +174,19 @@
       "count": 16
     },
     {
-      "company": "Lightspeed",
-      "count": 15
-    },
-    {
-      "company": "Toast",
-      "count": 15
-    },
-    {
       "company": "PAR",
       "count": 15
     },
     {
+      "company": "SpotOn",
+      "count": 15
+    },
+    {
       "company": "NCR Voyix",
+      "count": 15
+    },
+    {
+      "company": "Olo",
       "count": 15
     },
     {
