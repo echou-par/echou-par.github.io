@@ -2,7 +2,7 @@
   "date": "2026-10-21",
   "weekday": "Wednesday",
   "first_seen": "2026-10-21T04:17:53.587828+00:00",
-  "last_updated": "2026-10-21T18:48:45.300592+00:00",
+  "last_updated": "2026-10-21T19:14:56.253234+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"This new food delivery service is trying to take on DoorDash and Uber Eats by offering no menu markups - Business Insider\"",
@@ -16,7 +16,7 @@
       "first_detected": "2026-10-21T04:17:53.587828+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 12 tracked partnership items this cycle. Latest: \"Little Caesars expands Deliverect partnership to Guatemala - Pizza Marketplace\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Little Caesars expands Deliverect partnership to Guatemala - Pizza Marketplace\"",
       "sources": [
         {
           "title": "Little Caesars expands Deliverect partnership to Guatemala - Pizza Marketplace",
@@ -38,7 +38,7 @@
       "first_detected": "2026-10-21T04:17:53.587828+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -143,11 +143,11 @@
       "first_detected": "2026-10-21T09:30:49.713115+00:00"
     },
     {
-      "text": "NCR Voyix (VYX) stock gained 8.1% over the past week \u2014 material weekly move relative to broader cohort.",
+      "text": "NCR Voyix (VYX) stock gained 6.0% over the past week \u2014 material weekly move relative to broader cohort.",
       "sources": [
         {
-          "title": "NCR Voyix to Release Third Quarter Earnings Results - FinancialContent",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOFExcHNqQzF6Rk1RYV9kM2trMU81Vlg3a2lMdXlNZXBobmdkd01NSGJUTTVpVUlUQVdqN0FLMndtZkt3aHNLc1p3MDhrTlQyQUhxXzMxUWJ2ejREdlFMd3FnNVI4RGM2Z0FrSDBTajd1Y1RUQXNUaDhVc05QcUw5c0lyN3o2Y0JIb1BGQzdFclN4SWRmSG5KTXp4bTlBVFFwcXVrSWlnUDFOQkNfdUFOOW12NXg2VFZEVTJJVnNyYw?oc=5",
+          "title": "NCR Voyix to Release Third Quarter Earnings Results - Business Wire",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOHNMZmNIR20tZ2pGWEhLdUlPTmJ3MVNZWVQ5NDF3TFFGNUdWZUQzdnpqMnBYTjNYckExTGNlaWY5Sk10OEdwZkE5UkdxcnFoUkd5akN0RzBtMjBNdERtXzdXU0loWDR6RnNwdFRKLVlsZ3JWNlE3OEphRVZhWF90UlNKOTZ3anBnbFRLZ1RPR3VrVXlxYWNYME5XVlFSNjVDTnlKX1hESXhuRUVU?oc=5",
           "source": "Google News"
         },
         {
@@ -162,36 +162,36 @@
   ],
   "most_mentioned": [
     {
-      "company": "Deliverect",
-      "count": 50
-    },
-    {
-      "company": "Lightspeed",
-      "count": 34
-    },
-    {
-      "company": "SpotOn",
-      "count": 31
-    },
-    {
       "company": "DoorDash",
-      "count": 29
+      "count": 19
     },
     {
       "company": "TouchBistro",
-      "count": 26
+      "count": 16
+    },
+    {
+      "company": "Sparkfly",
+      "count": 16
+    },
+    {
+      "company": "PAR",
+      "count": 15
+    },
+    {
+      "company": "SpotOn",
+      "count": 15
     },
     {
       "company": "NCR Voyix",
-      "count": 25
+      "count": 15
     },
     {
       "company": "Olo",
-      "count": 25
+      "count": 15
     },
     {
-      "company": "Toast",
-      "count": 25
+      "company": "Deliverect",
+      "count": 15
     }
   ]
 }
