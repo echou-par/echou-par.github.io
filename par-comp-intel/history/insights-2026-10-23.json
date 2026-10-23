@@ -2,7 +2,7 @@
   "date": "2026-10-23",
   "weekday": "Friday",
   "first_seen": "2026-10-23T05:13:49.550672+00:00",
-  "last_updated": "2026-10-23T15:23:44.011953+00:00",
+  "last_updated": "2026-10-23T17:54:40.325029+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"DoorDash and Uber Eats have a new rival, and it wants you to stop paying extra for food - Digital Trends\"",
@@ -16,7 +16,7 @@
       "first_detected": "2026-10-23T05:13:49.550672+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Little Caesars expands Deliverect partnership to Guatemala - Pizza Marketplace\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Little Caesars expands Deliverect partnership to Guatemala - Pizza Marketplace\"",
       "sources": [
         {
           "title": "Little Caesars expands Deliverect partnership to Guatemala - Pizza Marketplace",
@@ -38,7 +38,7 @@
       "first_detected": "2026-10-23T05:13:49.550672+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -180,40 +180,62 @@
       ],
       "company": "Toast",
       "first_detected": "2026-10-23T15:23:44.011953+00:00"
+    },
+    {
+      "text": "NCR Voyix shows concentrated financial/market activity \u2014 6 tracked financial/market items this cycle. Latest: \"Will Sbarro Rollout Change NCR Voyix Stock Narrative - Simply Wall Street\"",
+      "sources": [
+        {
+          "title": "Will Sbarro Rollout Change NCR Voyix Stock Narrative - Simply Wall Street",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZHUyOWRIb2dCenZwUU5tTl91ZlVMY3lsazdwZC1CVTBoeWE0STNQUElyUFVYTXZpYm9XcXM5QUNmeHhGcnFNT0t6UWVnT0hGZVBQemxDd09pOWdQQkVsblpqOHhRWWV3MnJnUzZVcFUwb1lkeWdlbUlnNE9qSl9TT2RGcXVyU2hJVGw2b3AzVGF5TThoZE5ydGR1bUxfdEU5RjRuNmR1dmt5RVhsemFEZmFzQ3JDLVFZTHN5bjZR0gG-AUFVX3lxTE1kdTI5ZEhvZ0J6dnBRTm1OX3VmVUxjeWxrN3BkLUJVMGh5YTRJM1BQSXJQVVhNdmlib1dxczlBQ2Z4eEZycU1PS3pRZWdPSEZlUFB6bEN3T2k5Z1BCRWxuWmo4eFFZZXcycmdTNlVwVTBvWWR5Z2VtSWc0T2pKX1NPZEZxdXJTaElUbDZvcDNUYXlNOGhkTnJ0ZHVtTF90RTlGNG42ZHV2a3lFWGx6YURmYXNDckMtUVlMc3luNlE?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "NCR Voyix Corporation (VYX) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBfbEI1ZjR6VHV3VWVJeDgyR2g0WWNIcHcwbXUtS2gyWnN4cTBTTWk1RjBpTGtfYUhCMU11Vmg3RlJuMlZHdEpFNW8ydlhvVHZZ?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Press Release: NCR Voyix to Release Third Quarter Earnings Results - Moomoo",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd2huTGRQSERoa2lLX0JwSWU5dEdSOVFuVi00RkZ3LVh1N2tmSm9fbG1QcjFyMGp6a21hdE5jbnBfblFIYTJVd0swWERGSFVvOERqeHJCaHVyNjNjdnhvSzhMbVlMNjR4czJXdFI0VXo1eVJyUW1hYzNBY01tU3J2MHItaXNiUUkwNU93UlhRU1JUejBWUzdUcm02TFk2SUJIaVJKa0RrVDlVcTJySWc?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "NCR Voyix",
+      "first_detected": "2026-10-23T17:54:40.325029+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
-      "count": 19
+      "company": "Deliverect",
+      "count": 49
     },
     {
-      "company": "Sparkfly",
-      "count": 16
-    },
-    {
-      "company": "TouchBistro",
-      "count": 16
-    },
-    {
-      "company": "Global Payments",
-      "count": 15
-    },
-    {
-      "company": "Shift4",
-      "count": 15
+      "company": "Lightspeed",
+      "count": 33
     },
     {
       "company": "SpotOn",
-      "count": 15
+      "count": 31
     },
     {
-      "company": "Deliverect",
-      "count": 15
+      "company": "DoorDash",
+      "count": 29
     },
     {
-      "company": "ItsaCheckmate",
-      "count": 15
+      "company": "TouchBistro",
+      "count": 26
+    },
+    {
+      "company": "Sparkfly",
+      "count": 26
+    },
+    {
+      "company": "Olo",
+      "count": 25
+    },
+    {
+      "company": "NCR Voyix",
+      "count": 24
     }
   ]
 }
