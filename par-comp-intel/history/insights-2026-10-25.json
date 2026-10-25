@@ -2,7 +2,7 @@
   "date": "2026-10-25",
   "weekday": "Sunday",
   "first_seen": "2026-10-25T06:45:10.820477+00:00",
-  "last_updated": "2026-10-25T17:45:28.012292+00:00",
+  "last_updated": "2026-10-25T19:29:47.754565+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"DoorDash and Uber Eats have a new rival, and it wants you to stop paying extra for food - Digital Trends\"",
@@ -16,7 +16,7 @@
       "first_detected": "2026-10-25T06:45:10.820477+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Little Caesars expands Deliverect partnership to Guatemala - Pizza Marketplace\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Little Caesars expands Deliverect partnership to Guatemala - Pizza Marketplace\"",
       "sources": [
         {
           "title": "Little Caesars expands Deliverect partnership to Guatemala - Pizza Marketplace",
@@ -38,7 +38,7 @@
       "first_detected": "2026-10-25T06:45:10.820477+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -189,36 +189,36 @@
   ],
   "most_mentioned": [
     {
-      "company": "Deliverect",
-      "count": 50
-    },
-    {
-      "company": "Lightspeed",
-      "count": 35
-    },
-    {
-      "company": "SpotOn",
-      "count": 32
-    },
-    {
       "company": "DoorDash",
-      "count": 29
-    },
-    {
-      "company": "TouchBistro",
-      "count": 26
-    },
-    {
-      "company": "Sparkfly",
-      "count": 26
+      "count": 19
     },
     {
       "company": "Olo",
-      "count": 25
+      "count": 16
+    },
+    {
+      "company": "TouchBistro",
+      "count": 16
+    },
+    {
+      "company": "Sparkfly",
+      "count": 16
+    },
+    {
+      "company": "Lightspeed",
+      "count": 15
+    },
+    {
+      "company": "Shift4",
+      "count": 15
     },
     {
       "company": "Global Payments",
-      "count": 25
+      "count": 15
+    },
+    {
+      "company": "SpotOn",
+      "count": 15
     }
   ]
 }
