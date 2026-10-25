@@ -2,7 +2,7 @@
   "date": "2026-10-25",
   "weekday": "Sunday",
   "first_seen": "2026-10-25T06:45:10.820477+00:00",
-  "last_updated": "2026-10-25T17:06:26.561788+00:00",
+  "last_updated": "2026-10-25T17:45:28.012292+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"DoorDash and Uber Eats have a new rival, and it wants you to stop paying extra for food - Digital Trends\"",
@@ -16,7 +16,7 @@
       "first_detected": "2026-10-25T06:45:10.820477+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 11 tracked partnership items this cycle. Latest: \"Little Caesars expands Deliverect partnership to Guatemala - Pizza Marketplace\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 10 tracked partnership items this cycle. Latest: \"Little Caesars expands Deliverect partnership to Guatemala - Pizza Marketplace\"",
       "sources": [
         {
           "title": "Little Caesars expands Deliverect partnership to Guatemala - Pizza Marketplace",
@@ -121,7 +121,7 @@
       "first_detected": "2026-10-25T06:45:10.820477+00:00"
     },
     {
-      "text": "Olo shows concentrated financial/market activity \u2014 6 tracked financial/market items this cycle. Latest: \"Is Olo Inc. (OLO) the Best Cloud Computing Stock to Buy Under $10? - Yahoo Finance\"",
+      "text": "Olo shows concentrated financial/market activity \u2014 7 tracked financial/market items this cycle. Latest: \"Is Olo Inc. (OLO) the Best Cloud Computing Stock to Buy Under $10? - Yahoo Finance\"",
       "sources": [
         {
           "title": "Is Olo Inc. (OLO) the Best Cloud Computing Stock to Buy Under $10? - Yahoo Finance",
@@ -163,6 +163,28 @@
       ],
       "company": "DoorDash",
       "first_detected": "2026-10-25T17:06:26.561788+00:00"
+    },
+    {
+      "text": "NCR Voyix shows concentrated financial/market activity \u2014 8 tracked financial/market items this cycle. Latest: \"NCR Voyix to Release Third Quarter Earnings Results - Business Wire\"",
+      "sources": [
+        {
+          "title": "NCR Voyix to Release Third Quarter Earnings Results - Business Wire",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOHNMZmNIR20tZ2pGWEhLdUlPTmJ3MVNZWVQ5NDF3TFFGNUdWZUQzdnpqMnBYTjNYckExTGNlaWY5Sk10OEdwZkE5UkdxcnFoUkd5akN0RzBtMjBNdERtXzdXU0loWDR6RnNwdFRKLVlsZ3JWNlE3OEphRVZhWF90UlNKOTZ3anBnbFRLZ1RPR3VrVXlxYWNYME5XVlFSNjVDTnlKX1hESXhuRUVU?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "NCR Voyix (VYX) Upgraded to Buy: Here's Why - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPd0xLUk9tQkUzYXJuY3VWTF9tb3c0WENYVzViS2ZEek51TW9fcjdtTlF1TXlOazJGT2J2T29ZYm02akRwMEE1X29JdGdGbHE4V2d1NThiSmFFRXpOSTNPbHpXZ1VSd1RiWjRjX1B0RTZoY0hrM3VZSENILW9Ea0Z4OUZaeVBBOFdHRFVvdEtSUFpWcU9PVVE?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "VYX Stock Price and Chart \u2014 NYSE:VYX - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1LQ05kM0ViMWFZMVl5b2tyXzBxaTBhdjRuWGJ6ZU5fYlJhZi1IVVN5VUpNc3lNZFFEb2dDWEpfQldEZlZOU3BYaWl2YU1seWphU01NM2pja1o?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "NCR Voyix",
+      "first_detected": "2026-10-25T17:45:28.012292+00:00"
     }
   ],
   "most_mentioned": [
@@ -172,7 +194,7 @@
     },
     {
       "company": "Lightspeed",
-      "count": 34
+      "count": 35
     },
     {
       "company": "SpotOn",
@@ -191,7 +213,7 @@
       "count": 26
     },
     {
-      "company": "Shift4",
+      "company": "Olo",
       "count": 25
     },
     {
