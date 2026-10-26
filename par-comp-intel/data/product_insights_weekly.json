@@ -1,14 +1,23 @@
 {
-  "week_start": "2026-10-19T13:30:00+00:00",
-  "updated": "2026-10-25T17:45:28.012292+00:00",
-  "items_count": 19,
+  "week_start": "2026-10-26T13:30:00+00:00",
+  "updated": "2026-10-26T19:25:27.566477+00:00",
+  "items_count": 15,
   "by_competitor": {
     "Toast": {
-      "count": 1,
+      "count": 2,
       "content_types": {
-        "site_news": 1
+        "site_news": 2
       },
       "items": [
+        {
+          "headline": "Toast and Restaurant365 Integration: Back-of-House Integration - Toast",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE94eEJrNVpaSi1iU20tNk9nWEIway1Nak9yZW8zNDRYb0VCSFUycjZjai1zc1VURENwRVVYRlhUdW8tTXdNOUZ3VlhiUktUcXlSZm1ZWTdSVmYxTVF5NkowdTNUb2dtTG55?oc=5",
+          "date": "Fri, 16 Jan 2026 11:36:41 GMT",
+          "emoji": "\ud83e\udd1d",
+          "content_type": "site_news",
+          "source": "Google News (pos.toasttab.com)",
+          "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        },
         {
           "headline": "Toast Launches ToastIQ to Superpower the Future of Restaurants - Toast",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdVFubXZkbXNMSGx6eFpWY011cTFlUW9oWU8xUXpiSUZtamtZZGVZaGFRQ2Izdkp0ck5aZ3NidEZnN2F4ck5jTlNGeGliUlBMbVhlLVp2NEFvMGpsbkFTM2dya2NyNHA5aWpBMnNqRTl2SDB0X1dQTzVKVks0OEhXWERMSDg1M3V3bU1CNEZB?oc=5",
@@ -20,10 +29,27 @@
         }
       ]
     },
-    "Shift4": {
-      "count": 2,
+    "Lightspeed": {
+      "count": 1,
       "content_types": {
-        "site_news": 2
+        "site_news": 1
+      },
+      "items": [
+        {
+          "headline": "Lightspeed POS Integrations for Retail, Resto, eCom, OnSite - Lightspeed",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YTVhzUmdrbGFoNURBR080SzNfTnpfMVlacUVHVlFiNnc4ZVBhaExGeUVNSm16TXBWOUllUm00a2VPYkN3Y3Y5aTdIT2RRVURXLU1rUWZQTnM?oc=5",
+          "date": "Mon, 17 Nov 2025 17:47:52 GMT",
+          "emoji": "\ud83e\udd1d",
+          "content_type": "site_news",
+          "source": "Google News (lightspeedhq.com)",
+          "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        }
+      ]
+    },
+    "Shift4": {
+      "count": 1,
+      "content_types": {
+        "site_news": 1
       },
       "items": [
         {
@@ -31,15 +57,6 @@
           "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE4zSmswR0FJOW40RzNPZ042d05kRGs4MG4xNU5WemozSERIYmE1R1IyQVk3bnJ3R0FwVUUw?oc=5",
           "date": "Tue, 04 Apr 2006 13:17:29 GMT",
           "emoji": "\ud83e\udd1d",
-          "content_type": "site_news",
-          "source": "Google News (shift4.com)",
-          "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-        },
-        {
-          "headline": "Release Notes - Shift4 Dine v1.127.4 - Shift4",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSkRSNEVGZnZhVEVPY0ZOZDJtX0QxSC01Zmx5aF9qVmRqUzlBZ1h0OGFzU1lPS2gzRnVYX1ZxbWtPeTh2MHltSkJwYjkwRWJiQ2VXNVNZZzFPeWdzM3QwMWl5RUJfbHY2ZHBwNnJ3TjRzQTU3bW1HTGdSMEQ3M1pQM0hnOUNNUEkxUGQ0M2hEYw?oc=5",
-          "date": "Wed, 07 Oct 2026 14:50:01 GMT",
-          "emoji": "\ud83d\ude80",
           "content_type": "site_news",
           "source": "Google News (shift4.com)",
           "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
@@ -63,23 +80,6 @@
         }
       ]
     },
-    "Global Payments": {
-      "count": 1,
-      "content_types": {
-        "site_news": 1
-      },
-      "items": [
-        {
-          "headline": "Start integrating a payments solution - Global Payments",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1mUWs5eGU0c2ZQYW9QTG5VRG1XMkljUVdCTTRYQThuZ2FhWk9FOHc1Z0tYMmpabldzc2ZPc2VaWVJ3MWR0dk1ZZHloUDdGdw?oc=5",
-          "date": "Wed, 08 Oct 2025 22:26:20 GMT",
-          "emoji": "\ud83e\udd1d",
-          "content_type": "site_news",
-          "source": "Google News (globalpayments.com)",
-          "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-        }
-      ]
-    },
     "Fiserv": {
       "count": 1,
       "content_types": {
@@ -87,7 +87,7 @@
       },
       "items": [
         {
-          "headline": "ISV Payment Integrations That Drive Growth - Fiserv Merchant Services",
+          "headline": "ISV Payment Integrations That Drive Growth - Fiserv",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBMNm9pR0hfMUF6ZTJ0c1k2RERFRS1MR3AteERDTHpaS1ZsWTJjMkRBRU9vOC1qeWl1M2NhZVNhYU5nY1U4RVYxZzhZQQ?oc=5",
           "date": "Sun, 13 Dec 2020 19:25:16 GMT",
           "emoji": "\ud83e\udd1d",
@@ -98,9 +98,9 @@
       ]
     },
     "Deliverect": {
-      "count": 4,
+      "count": 3,
       "content_types": {
-        "site_news": 4
+        "site_news": 3
       },
       "items": [
         {
@@ -125,15 +125,6 @@
           "headline": "DoorDash: Integration Overview - Deliverect",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxON242ZnoxdFNnMll6OERMakRkSFhMUEdBS01Hc0NxVDBXVWJJVHBYZnQ1MmR4WUV1X1N3Z0R4Y1MxMGR3UFRldVZuMFF2VUFwcXgzelFDd1E0cE00eWx0d2JXYU9vX0lJREJ5SlIySkxEOF9IbVlldklSYTBPMk52NVRVNA?oc=5",
           "date": "Thu, 27 Aug 2026 07:00:00 GMT",
-          "emoji": "\ud83e\udd1d",
-          "content_type": "site_news",
-          "source": "Google News (deliverect.com)",
-          "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-        },
-        {
-          "headline": "1000+ Integrations To Connect All Your Restaurant Software - Deliverect",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5vWlhhcGlkMThyWmxFb0xsQlVxOGxIZm85bDhSS0JQQ1dpMWJmOW9fMFNPaWJ6OE41RU9vLWdJYVpxNGR3ZXNrbmw5cG1oQVQ1bUxuTHdkblM?oc=5",
-          "date": "Thu, 19 Sep 2019 15:15:00 GMT",
           "emoji": "\ud83e\udd1d",
           "content_type": "site_news",
           "source": "Google News (deliverect.com)",
@@ -176,20 +167,11 @@
       ]
     },
     "TalonOne": {
-      "count": 2,
+      "count": 1,
       "content_types": {
-        "site_news": 2
+        "site_news": 1
       },
       "items": [
-        {
-          "headline": "Technology integrations for loyalty & promotions - Talon.One",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBET0RsRmlkNHBQYUNnVWpFbUNMT2V4UGptN3I0OXpXSjk0V2FnVGIwMGJCV1RjYXFUdlpkaGd1M0Ytai12Qk9GNWo5MEMtR19fTTZR?oc=5",
-          "date": "Mon, 30 Nov 2020 14:20:34 GMT",
-          "emoji": "\ud83e\udd1d",
-          "content_type": "site_news",
-          "source": "Google News (talon.one)",
-          "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-        },
         {
           "headline": "APPLY & Talon.One - Solution Partners - Talon.One",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9VaG9Pbmd6MjJiMk1YSzU5azlROE5QZ2IzcmVCbGRGVUpUbVE4bHlnRzNmakNnVjM2dEFnQ0Y2ZWJNUjkxZmtfQkdMcUlsTmJyUGpvZDFGQXU?oc=5",
@@ -202,9 +184,9 @@
       ]
     },
     "Sparkfly": {
-      "count": 3,
+      "count": 2,
       "content_types": {
-        "site_news": 3
+        "site_news": 2
       },
       "items": [
         {
@@ -220,15 +202,6 @@
           "headline": "Integrate with NCR Retailix - Sparkfly",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01WkRYTDBTYncwVVl5NGlFczBLMjNHZjZuYjBvMUphb3ZMUkhLWlAwMzdCTXlHekdsLTVRcTJRdUIzRmNNUFdIcm1qVDVEd05HVTlaM2N5WWlfVUU?oc=5",
           "date": "Tue, 22 Sep 2020 17:38:57 GMT",
-          "emoji": "\ud83e\udd1d",
-          "content_type": "site_news",
-          "source": "Google News (sparkfly.com)",
-          "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-        },
-        {
-          "headline": "Integration - Sparkfly",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5LYXIyVXFlNFZZbFBqZXItczN4R3gyY1JYVHpfakZISmNSdFBmbUY1b1IwaFIwT2F6UkNkUmQxeTJPM0cxLXRFdWl1UThXUWF3Vkdrams0MU5yV3p6RFZkSg?oc=5",
-          "date": "Sat, 16 Aug 2025 22:47:00 GMT",
           "emoji": "\ud83e\udd1d",
           "content_type": "site_news",
           "source": "Google News (sparkfly.com)",
@@ -252,44 +225,23 @@
           "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
         }
       ]
-    },
-    "Lightspeed": {
-      "count": 1,
-      "content_types": {
-        "site_news": 1
-      },
-      "items": [
-        {
-          "headline": "Lightspeed POS Integrations for Retail, Resto, eCom, OnSite - Lightspeed",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YTVhzUmdrbGFoNURBR080SzNfTnpfMVlacUVHVlFiNnc4ZVBhaExGeUVNSm16TXBWOUllUm00a2VPYkN3Y3Y5aTdIT2RRVURXLU1rUWZQTnM?oc=5",
-          "date": "Mon, 17 Nov 2025 17:47:52 GMT",
-          "emoji": "\ud83e\udd1d",
-          "content_type": "site_news",
-          "source": "Google News (lightspeedhq.com)",
-          "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-        }
-      ]
     }
   },
   "seen_urls": [
+    "https://news.google.com/rss/articles/CBMiO0FVX3lxTE4zSmswR0FJOW40RzNPZ042d05kRGs4MG4xNU5WemozSERIYmE1R1IyQVk3bnJ3R0FwVUUw?oc=5",
+    "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdVFubXZkbXNMSGx6eFpWY011cTFlUW9oWU8xUXpiSUZtamtZZGVZaGFRQ2Izdkp0ck5aZ3NidEZnN2F4ck5jTlNGeGliUlBMbVhlLVp2NEFvMGpsbkFTM2dya2NyNHA5aWpBMnNqRTl2SDB0X1dQTzVKVks0OEhXWERMSDg1M3V3bU1CNEZB?oc=5",
+    "https://news.google.com/rss/articles/CBMiREFVX3lxTE1VQXlFN3lfMlgwWVNkX01iRzhUeE9VUnNkX21BZ29DRmwwTFV5Q3d2RmJ6RlBWemdvd1pMMWVJWi1JY0FF?oc=5",
+    "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBKeDl0UXItbktQOUlDWF8xc1dDQk1VdHRLNHFzQTdkMEtSU0RIRERwbC1BLVQwT3ItQmQyVWRDM2xJVkZITGxmRzd1anFOWWZGY3NuTGsxWmZnVG83em1TWXhiNzRkX00?oc=5",
+    "https://news.google.com/rss/articles/CBMigwFBVV95cUxON242ZnoxdFNnMll6OERMakRkSFhMUEdBS01Hc0NxVDBXVWJJVHBYZnQ1MmR4WUV1X1N3Z0R4Y1MxMGR3UFRldVZuMFF2VUFwcXgzelFDd1E0cE00eWx0d2JXYU9vX0lJREJ5SlIySkxEOF9IbVlldklSYTBPMk52NVRVNA?oc=5",
     "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUmFLZkxUd2xtbFpoZ29kdHl3RTFmMVhlaWMwTGxHaU9jSVF1WlNyN0JPdkpYell1SWFkaWtiQXFvVExvVldQVl9hZGRiNkVOV0hoYVRST1hjRS1YVTNNOXk1MEhtMU5ONXQxdjR0VjVUMGlkLXBCeDBkWHFGanhOMkQ1MFdONGZQYTZ2YTlESQ?oc=5",
     "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBoTklCZTlZcGFiajVGRnNwOXR1Z1h2N3hNcXRWU1BBaGtnXzc2TE1wczZZZEQwSFZFX0VfOC1vNFp2SXFSdVZ3eFRpdnFldw?oc=5",
-    "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5LYXIyVXFlNFZZbFBqZXItczN4R3gyY1JYVHpfakZISmNSdFBmbUY1b1IwaFIwT2F6UkNkUmQxeTJPM0cxLXRFdWl1UThXUWF3Vkdrams0MU5yV3p6RFZkSg?oc=5",
-    "https://news.google.com/rss/articles/CBMigwFBVV95cUxON242ZnoxdFNnMll6OERMakRkSFhMUEdBS01Hc0NxVDBXVWJJVHBYZnQ1MmR4WUV1X1N3Z0R4Y1MxMGR3UFRldVZuMFF2VUFwcXgzelFDd1E0cE00eWx0d2JXYU9vX0lJREJ5SlIySkxEOF9IbVlldklSYTBPMk52NVRVNA?oc=5",
-    "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1mUWs5eGU0c2ZQYW9QTG5VRG1XMkljUVdCTTRYQThuZ2FhWk9FOHc1Z0tYMmpabldzc2ZPc2VaWVJ3MWR0dk1ZZHloUDdGdw?oc=5",
-    "https://news.google.com/rss/articles/CBMiREFVX3lxTE1VQXlFN3lfMlgwWVNkX01iRzhUeE9VUnNkX21BZ29DRmwwTFV5Q3d2RmJ6RlBWemdvd1pMMWVJWi1JY0FF?oc=5",
     "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9VaG9Pbmd6MjJiMk1YSzU5azlROE5QZ2IzcmVCbGRGVUpUbVE4bHlnRzNmakNnVjM2dEFnQ0Y2ZWJNUjkxZmtfQkdMcUlsTmJyUGpvZDFGQXU?oc=5",
-    "https://www.spoton.com/blog/abaca-masters-of-filipino-flavors/",
-    "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01WkRYTDBTYncwVVl5NGlFczBLMjNHZjZuYjBvMUphb3ZMUkhLWlAwMzdCTXlHekdsLTVRcTJRdUIzRmNNUFdIcm1qVDVEd05HVTlaM2N5WWlfVUU?oc=5",
-    "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5vWlhhcGlkMThyWmxFb0xsQlVxOGxIZm85bDhSS0JQQ1dpMWJmOW9fMFNPaWJ6OE41RU9vLWdJYVpxNGR3ZXNrbmw5cG1oQVQ1bUxuTHdkblM?oc=5",
-    "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YTVhzUmdrbGFoNURBR080SzNfTnpfMVlacUVHVlFiNnc4ZVBhaExGeUVNSm16TXBWOUllUm00a2VPYkN3Y3Y5aTdIT2RRVURXLU1rUWZQTnM?oc=5",
-    "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YcWRsQUJrb3FucUlRbzRvUnkycDNRZ2ZqWVVyWTVkSFVWZVZyTEZpZFBjRDQtSVZZZzg2LTM0anFKODZJdUxabTBNQWVGUnNINEJRakhudkhkRHBCUWpXdXFVTzNkbmc?oc=5",
-    "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBKeDl0UXItbktQOUlDWF8xc1dDQk1VdHRLNHFzQTdkMEtSU0RIRERwbC1BLVQwT3ItQmQyVWRDM2xJVkZITGxmRzd1anFOWWZGY3NuTGsxWmZnVG83em1TWXhiNzRkX00?oc=5",
-    "https://news.google.com/rss/articles/CBMiO0FVX3lxTE4zSmswR0FJOW40RzNPZ042d05kRGs4MG4xNU5WemozSERIYmE1R1IyQVk3bnJ3R0FwVUUw?oc=5",
-    "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSkRSNEVGZnZhVEVPY0ZOZDJtX0QxSC01Zmx5aF9qVmRqUzlBZ1h0OGFzU1lPS2gzRnVYX1ZxbWtPeTh2MHltSkJwYjkwRWJiQ2VXNVNZZzFPeWdzM3QwMWl5RUJfbHY2ZHBwNnJ3TjRzQTU3bW1HTGdSMEQ3M1pQM0hnOUNNUEkxUGQ0M2hEYw?oc=5",
+    "https://news.google.com/rss/articles/CBMiaEFVX3lxTE94eEJrNVpaSi1iU20tNk9nWEIway1Nak9yZW8zNDRYb0VCSFUycjZjai1zc1VURENwRVVYRlhUdW8tTXdNOUZ3VlhiUktUcXlSZm1ZWTdSVmYxTVF5NkowdTNUb2dtTG55?oc=5",
     "https://news.google.com/rss/articles/CBMioAFBVV95cUxOczF5MnplMEZ6aTdHamwzNU9TclFLdDlRUjQ3M2xIbGhSTE45S1dYWURzU3BjTXphUXNVV0FkRkpSSDNmRERabjMtbEdBR2NST05FRHRPY1BZczlUWW0xc3pETU1UcjQwa2daRnV2TDFrUHNxQzJxcnhYQ3JCS2xwNlZHVTVzZHlfdThyZTRMcm1sYmd3Ymc4SUQ4MVdZVFF3?oc=5",
     "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBMNm9pR0hfMUF6ZTJ0c1k2RERFRS1MR3AteERDTHpaS1ZsWTJjMkRBRU9vOC1qeWl1M2NhZVNhYU5nY1U4RVYxZzhZQQ?oc=5",
-    "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBET0RsRmlkNHBQYUNnVWpFbUNMT2V4UGptN3I0OXpXSjk0V2FnVGIwMGJCV1RjYXFUdlpkaGd1M0Ytai12Qk9GNWo5MEMtR19fTTZR?oc=5",
-    "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdVFubXZkbXNMSGx6eFpWY011cTFlUW9oWU8xUXpiSUZtamtZZGVZaGFRQ2Izdkp0ck5aZ3NidEZnN2F4ck5jTlNGeGliUlBMbVhlLVp2NEFvMGpsbkFTM2dya2NyNHA5aWpBMnNqRTl2SDB0X1dQTzVKVks0OEhXWERMSDg1M3V3bU1CNEZB?oc=5"
+    "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YcWRsQUJrb3FucUlRbzRvUnkycDNRZ2ZqWVVyWTVkSFVWZVZyTEZpZFBjRDQtSVZZZzg2LTM0anFKODZJdUxabTBNQWVGUnNINEJRakhudkhkRHBCUWpXdXFVTzNkbmc?oc=5",
+    "https://www.spoton.com/blog/abaca-masters-of-filipino-flavors/",
+    "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01WkRYTDBTYncwVVl5NGlFczBLMjNHZjZuYjBvMUphb3ZMUkhLWlAwMzdCTXlHekdsLTVRcTJRdUIzRmNNUFdIcm1qVDVEd05HVTlaM2N5WWlfVUU?oc=5",
+    "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YTVhzUmdrbGFoNURBR080SzNfTnpfMVlacUVHVlFiNnc4ZVBhaExGeUVNSm16TXBWOUllUm00a2VPYkN3Y3Y5aTdIT2RRVURXLU1rUWZQTnM?oc=5"
   ]
 }
