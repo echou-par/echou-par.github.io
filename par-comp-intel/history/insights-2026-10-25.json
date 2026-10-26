@@ -2,7 +2,7 @@
   "date": "2026-10-25",
   "weekday": "Sunday",
   "first_seen": "2026-10-25T06:45:10.820477+00:00",
-  "last_updated": "2026-10-25T22:00:48.955038+00:00",
+  "last_updated": "2026-10-26T00:36:30.920670+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"DoorDash and Uber Eats have a new rival, and it wants you to stop paying extra for food - Digital Trends\"",
@@ -16,7 +16,7 @@
       "first_detected": "2026-10-25T06:45:10.820477+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Little Caesars expands Deliverect partnership to Guatemala - Pizza Marketplace\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Little Caesars expands Deliverect partnership to Guatemala - Pizza Marketplace\"",
       "sources": [
         {
           "title": "Little Caesars expands Deliverect partnership to Guatemala - Pizza Marketplace",
@@ -82,7 +82,7 @@
       "first_detected": "2026-10-25T06:45:10.820477+00:00"
     },
     {
-      "text": "Lightspeed shows concentrated financial/market activity \u2014 6 tracked financial/market items this cycle. Latest: \"LIGHTSPEED COMMERCE INC. : TRUIST SECURITIES RAISES TARGET PRICE TO $11 FROM $10 - Moomoo\"",
+      "text": "Lightspeed shows concentrated financial/market activity \u2014 7 tracked financial/market items this cycle. Latest: \"LIGHTSPEED COMMERCE INC. : TRUIST SECURITIES RAISES TARGET PRICE TO $11 FROM $10 - Moomoo\"",
       "sources": [
         {
           "title": "LIGHTSPEED COMMERCE INC. : TRUIST SECURITIES RAISES TARGET PRICE TO $11 FROM $10 - Moomoo",
@@ -207,6 +207,45 @@
       ],
       "company": "Toast",
       "first_detected": "2026-10-25T22:00:48.955038+00:00"
+    },
+    {
+      "text": "ItsaCheckmate shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Checkmate and Zipline Partner on Restaurant Drone Delivery - ACCESS Newswire\"",
+      "sources": [
+        {
+          "title": "Checkmate and Zipline Partner on Restaurant Drone Delivery - ACCESS Newswire",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPSlZyUlg3R3k0VXRES1RfejZoU3dHckFpMHlOc2lxZlhpeTBSc09WSURVS0c2ZlJnVkd4VUhBXzZUQnlJREI5bFNVcjRRYzhEeElMUDhfclVUX0pYam1BVDd2cUxQazNHR3kxU3BOZXJ4aTk0MjQyclpkc2drV29VYTh6d09EN3JMek12eTF2alFfUmFBcGtUSWFXLUhWMDlxdXV4Q0N2WmdBUmZwOWVKS1JxYmhBX2RGX2VpRDlWRFkyOG4wcGZndHZhOGpPaldCOUd5QWZxZkNoaWx5QTg2eGFBeDA?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Checkmate's integration with ezCater helping restaurants streamline catering - Fast Casual",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPc2M3ZGM1TE1yX2R3cV9NYWYzc0dOWjA3RlU1alFQRjVEb2RHWkFSMHlwZ2VlTkVBa1JGbmY5LVgxYjU0M3lmdFVvMVpacVRxWGlwNzdfZnhiU0t6RTROdXVPcFBGTTdrbWkyRk12UERJbHYyM0g4M1cxUEs0T1Vtdi02blZrS2pVQmpVbl9Sa21LdndRZE1TZlF3Z2RObWZmU0dVUjdUdEdjQTVP?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Checkmate Acquires VoiceBite Integrated Voice AI Solution for Restaurants | - Restaurant Technology News",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQU00yNGd2c3dTcEJGR1hQVGlqQlJoNVN1OHNEOGZ1aE9GM0lmUUlLZE5UNUZHeEZPb2o0d1pabTNMdVV0aVNUS082VU5OUjR5Q0RNZmRoM1lqeGoxMEx0b0FFVWM5OGZ2OHlSc2kwalA5bEI3NTBoT0VmQ01DMEVTbTlCSThMbTFaajRfWkt1MXl1Ymx1ZC16aVVlNDVma0lzWlBEUmtMR2RSS2sxakQtYkJWTTFSczRLYTlz?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "ItsaCheckmate",
+      "first_detected": "2026-10-26T00:36:30.920670+00:00"
+    },
+    {
+      "text": "Square shows concentrated risk activity \u2014 2 tracked risk items this cycle. Latest: \"Block stock surges post layoffs, raising AI alarm bells - KRON4\"",
+      "sources": [
+        {
+          "title": "Block stock surges post layoffs, raising AI alarm bells - KRON4",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUzRVSUMwUXppZUZOQ2phdGlra1RRbWdLM3ZCcWJkeFBVNG9UcnIyQ2VrX1hKRHpuY0cxODVDSzc1eU1qeEYxVXBORzhJMk5EY0xmWmR1Z2hYd0FkZVNQajRBTGItZUFmYjV5aDh0eEEzNXZPR255NnBxNUFDb1V2Y2RMNnEzWmhFS3dqQTR0R3FWU09Kc2NVNjNlUGfSAaIBQVVfeXFMTW84Q0hqZ29SbERjSkdXak9NaXR5dEZ2VkRULUVBSzNET1lJc2RCZ2tPUlVBdnE3YjRXTUtuQ0JLZ3NnU1p2UW03N0NEQlc3aUVyMGhLTTI0RkdoaTFsTXdFUDhkSTl0YVRJSmxEWE5vc0FMT0JONkFaX3gySVZzUzRwS2pLQTk0Um9uT0NkRkZmbHpfb2RQR2VRVGlBRHR6M2tR?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Layoffs at Jack Dorsey's Block hit 43 WA employees - The Business Journals",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZGw3NkpXdUFPbnF3bjhKcUpQQ3RER2VyQWtaRWx3S05oUzZnWnRjb2RNLXJYUmJsQ2t1QTMwc2xPTlFUMExib01ubThXd2lVNTJWMVZBdHZ4Y3pFUFNXNi1sRFBpWlgyc2Z1d1NuNUtua3dlOW5sc0tEblNFRTdsT2N3X0ZKY1JhUWhYV3loTzF4WWx2aGQ1OXlFMGxRZw?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Square",
+      "first_detected": "2026-10-26T00:36:30.920670+00:00"
     }
   ],
   "most_mentioned": [
@@ -215,11 +254,23 @@
       "count": 19
     },
     {
+      "company": "Olo",
+      "count": 16
+    },
+    {
       "company": "TouchBistro",
       "count": 16
     },
     {
+      "company": "Sparkfly",
+      "count": 16
+    },
+    {
       "company": "Lightspeed",
+      "count": 15
+    },
+    {
+      "company": "Shift4",
       "count": 15
     },
     {
@@ -228,18 +279,6 @@
     },
     {
       "company": "SpotOn",
-      "count": 15
-    },
-    {
-      "company": "Deliverect",
-      "count": 15
-    },
-    {
-      "company": "Fiserv",
-      "count": 15
-    },
-    {
-      "company": "Paytronix",
       "count": 15
     }
   ]
