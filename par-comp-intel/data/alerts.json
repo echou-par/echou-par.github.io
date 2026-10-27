@@ -1,33 +1,34 @@
 {
-  "updated": "2026-10-27T14:50:54.758759+00:00",
+  "updated": "2026-10-27T18:46:32.158271+00:00",
   "total": 2,
   "by_category": {
-    "stock_move": 2
+    "analyst_downgrade": 1,
+    "stock_move": 1
   },
   "alerts": [
     {
-      "category": "stock_move",
-      "severity": "medium",
-      "company": "Shift4",
-      "headline": "Shift4 (FOUR) stock down 7.0% over the past week",
-      "url": "https://finance.yahoo.com/quote/FOUR",
-      "source": "Yahoo Finance",
-      "date": "2026-10-27T14:50:54.758759+00:00",
+      "category": "analyst_downgrade",
+      "severity": "high",
+      "company": "Lightspeed",
+      "headline": "Bank of America Securities Sticks to Its Sell Rating for Lightspeed POS Inc (LSPD) - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQb1dLSVNFSHRaeE5Fd2tYS0FBVWU0NG5OdVBFOGtvdEx2cFJRZWpGWTBHYW90THo4QnNBZ2xTdTNWNEgySDhJUXJIX0VkZDB3REphN0N1WnFGbXpfeHJuRVp1dmV4R2dnTk5xQnRBNUt3UThpUE56d3BiMDRKSTNhV24wYTR1VXlST3VaSHdZXzRJTE1kNm5udFhhS1d0LVVKTWN6TlNsOVR6ZU5NNVRIZFdDdDdHYVZzSkl6YmdHdlFlbXpYZG8wak1tVGRxSWVCdHFHekhLbTd0ODdzTGlLU21CREpwRFhiMUN2RGIyTUktQ00?oc=5",
+      "source": "Google News",
+      "date": "Mon, 26 Oct 2026 13:48:50 GMT",
       "par_relevance": 3,
-      "note": "-7.0% 1W",
-      "detected_at": "2026-10-27T14:50:54.758759+00:00"
+      "note": null,
+      "detected_at": "2026-10-27T18:46:32.158271+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "DoorDash",
-      "headline": "DoorDash (DASH) stock down 8.3% over the past week",
+      "headline": "DoorDash (DASH) stock down 7.4% over the past week",
       "url": "https://finance.yahoo.com/quote/DASH",
       "source": "Yahoo Finance",
-      "date": "2026-10-27T14:50:54.758759+00:00",
+      "date": "2026-10-27T18:46:32.158271+00:00",
       "par_relevance": 2,
-      "note": "-8.3% 1W",
-      "detected_at": "2026-10-27T14:50:54.758759+00:00"
+      "note": "-7.4% 1W",
+      "detected_at": "2026-10-27T18:46:32.158271+00:00"
     }
   ]
 }
