@@ -2,7 +2,7 @@
   "date": "2026-10-28",
   "weekday": "Wednesday",
   "first_seen": "2026-10-28T05:11:33.921205+00:00",
-  "last_updated": "2026-10-28T18:14:26.439988+00:00",
+  "last_updated": "2026-10-28T18:57:14.061667+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Deliverect, Thanx appeared together in coverage \u2014 \"The Big Greek Cafe partners with Deliverect, Thanx to streamline digital ordering - Fast Casual\"",
@@ -16,7 +16,7 @@
       "first_detected": "2026-10-28T05:11:33.921205+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Little Caesars expands Deliverect partnership to Guatemala - Pizza Marketplace\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 11 tracked partnership items this cycle. Latest: \"Little Caesars expands Deliverect partnership to Guatemala - Pizza Marketplace\"",
       "sources": [
         {
           "title": "Little Caesars expands Deliverect partnership to Guatemala - Pizza Marketplace",
@@ -154,7 +154,7 @@
       "first_detected": "2026-10-28T11:31:32.411293+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -167,47 +167,91 @@
           "source": "Google News"
         },
         {
-          "title": "Long John Silver\u2019s Partners with Leading Tech Innovators to Transform Customer Engagement - Business Wire",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbVVJNjNVNzlCRHJDY2NGLWUzQUNpSlUtYTN5X3FXejUya0pYYjZRXzA0UmhFa0Q2VlN3cXpWYXh4ODl5aEppcEVxek9vdnUtLVlnNUdpTHpfYjJQbURxWlBQMEhQWEwxZzVNV0FrSlJwbEJQajFMTmlZZWxuZW9MNXhZTUJvQWVPWmwycjFoNkJGYzg2b1p1YU5xVGdQRWVudDdJTkxuUjJzU0FYeGNRUFRPMENGWi02SVdzUTcxVnI3Y2UtSlN5WmdsQTBsQUF5cUlWdjVMUFhTQU03YUE?oc=5",
+          "title": "Olo, Sparkfly Partner to Offer Real-Time Engagement Ecosystem - Food On Demand",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT19xSmo4QjRScDZMbjZFelZuUVZMTEJEb195a25BTVEtUXJRQXRoTHBjdHpnd0hobkZIZUkyYnQ3YThkbVBtZi1kTU81MEdwa3JvQ2R3OGEtRXBPaGUzNXIyYkNSQk53QjVDQ3hnYWVrZ0VnYjFHeXVnWWNvc3lpYldkQzVobmRXbE5nMVZNenhKWFhGaEpIaUxlNA?oc=5",
           "source": "Google News"
         }
       ],
       "company": "Sparkfly",
       "first_detected": "2026-10-28T18:14:26.439988+00:00"
+    },
+    {
+      "text": "TalonOne shows concentrated product launch activity \u2014 3 tracked product launch items this cycle. Latest: \"APPLY & Talon.One - Solution Partners - Talon.One\"",
+      "sources": [
+        {
+          "title": "APPLY & Talon.One - Solution Partners - Talon.One",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9VaG9Pbmd6MjJiMk1YSzU5azlROE5QZ2IzcmVCbGRGVUpUbVE4bHlnRzNmakNnVjM2dEFnQ0Y2ZWJNUjkxZmtfQkdMcUlsTmJyUGpvZDFGQXU?oc=5",
+          "source": "Google News (talon.one)"
+        },
+        {
+          "title": "Talon.One joins forces with Adyen: Read more here - Talon.One",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5JUGJETWl5QTlXVUwtaEtWcDdWQTFNU2l3VmNzUVNZeUQzNGI3TF9xNkFGajhyQlBnQUowdm5CUlI0ejlob2xlUXZ3aW5xam0zRTEwTnRzMFdqeTA4TWVJZnNCUQ?oc=5",
+          "source": "Google News (talon.one)"
+        },
+        {
+          "title": "Integration API - Talon.One docs",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3VGhLTXJZTURnNGN4cWhxNk81M0tWbkp3OU1aazNRRGF0eU5ORUdiM012b043YjNyLWV0eGhDVi1QU2VhTHRKejRtNjRscmM?oc=5",
+          "source": "Google News (talon.one)"
+        }
+      ],
+      "company": "TalonOne",
+      "first_detected": "2026-10-28T18:57:14.061667+00:00"
+    },
+    {
+      "text": "DoorDash shows concentrated campaign activity \u2014 3 tracked campaign items this cycle. Latest: \"The 8 Best Sushi Restaurants in Austin, Texas - DoorDash Blog\"",
+      "sources": [
+        {
+          "title": "The 8 Best Sushi Restaurants in Austin, Texas - DoorDash Blog",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95TUs3eXo4QWk5SHA4TmdjYTQ2NXJiRHo4VTdGYjdWdUNXeDRhbDVmNFk1alBobEc3bWpFQ0FJVnBuN0U3a3RGbWpTU215TEszMmlIU3p1d29YeGpNMllpRmhOTlFEWkU0UUxyRw?oc=5",
+          "source": "Google News (blog.doordash.com)"
+        },
+        {
+          "title": "The 12 Best Store-Bought Soups, Out of 25 - DoorDash Blog",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE92VnBRb18ydTdLc1Y1NlhLNVFoOVAySm50WUFhalp0NlNzMlRtSkZHbGxzY3daejNycUJ4VlRuQmR0TjgxTG8tekljMmdqcEVMZVU2QUplLVpqQ2NvZmNnYm5ENmtoa2h3cFNNeA?oc=5",
+          "source": "Google News (blog.doordash.com)"
+        },
+        {
+          "title": "The 6 Best String Cheeses For Snacking and Pulling Apart, Strand by Strand - DoorDash Blog",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB1c205SmRqYXdQclJRVS0taldXaXJJWk5MQXdoNlllUWcyWU9vMEEzQTNSUzhKS3JkRi1qVFJFWUYzLWZyVXBZY21aV0w2em9WRVBmNXk5NFM4UnNTWXA3dmZrNTJmUQ?oc=5",
+          "source": "Google News (blog.doordash.com)"
+        }
+      ],
+      "company": "DoorDash",
+      "first_detected": "2026-10-28T18:57:14.061667+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "Shift4",
-      "count": 16
+      "company": "Deliverect",
+      "count": 50
     },
     {
-      "company": "Olo",
-      "count": 16
+      "company": "Lightspeed",
+      "count": 34
     },
     {
       "company": "SpotOn",
-      "count": 15
-    },
-    {
-      "company": "Global Payments",
-      "count": 15
-    },
-    {
-      "company": "PAR",
-      "count": 15
-    },
-    {
-      "company": "Deliverect",
-      "count": 15
-    },
-    {
-      "company": "ItsaCheckmate",
-      "count": 15
+      "count": 32
     },
     {
       "company": "Fiserv",
-      "count": 15
+      "count": 25
+    },
+    {
+      "company": "TouchBistro",
+      "count": 25
+    },
+    {
+      "company": "Square",
+      "count": 25
+    },
+    {
+      "company": "Paytronix",
+      "count": 25
+    },
+    {
+      "company": "Sparkfly",
+      "count": 25
     }
   ]
 }
