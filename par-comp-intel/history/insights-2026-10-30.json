@@ -2,7 +2,7 @@
   "date": "2026-10-30",
   "weekday": "Friday",
   "first_seen": "2026-10-30T07:40:14.660008+00:00",
-  "last_updated": "2026-10-30T07:40:14.660008+00:00",
+  "last_updated": "2026-10-30T14:58:03.585609+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"This new food delivery service is trying to take on DoorDash and Uber Eats by offering no menu markups - Business Insider\"",
@@ -125,27 +125,95 @@
       ],
       "company": "Shift4",
       "first_detected": "2026-10-30T07:40:14.660008+00:00"
+    },
+    {
+      "text": "Cross-competitor event: Square, TouchBistro appeared together in coverage \u2014 \"TouchBistro vs Square: Pricing, Costs & User Experience Rated - tech.co\"",
+      "sources": [
+        {
+          "title": "TouchBistro vs Square: Pricing, Costs & User Experience Rated - tech.co",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE54Q09MaDNONDNhWml0bXJicW9LMzhWdHVFOFBuRUgwdlJCVmc1cDBsNkhhQVdmT0xydlp1anRJLTZ4c3RFVFp4R3Q3WkpqZlU0MFZyV3dlX0hZTHZT?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "first_detected": "2026-10-30T14:58:03.585609+00:00"
+    },
+    {
+      "text": "Toast shows concentrated financial/market activity \u2014 7 tracked financial/market items this cycle. Latest: \"Toast to Report Q3 Earnings: What to Expect From Its Release? - TradingView\"",
+      "sources": [
+        {
+          "title": "Toast to Report Q3 Earnings: What to Expect From Its Release? - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZUI1OFBEY1JGWmYwSUJMNmNhMU9KTl80bnhuaFZlblAwZ3hGOGNjUU9HNFBKQUxpbHctVVcwbWpZWElhejN1NGVfQllQYW9HZTBCQkd6bS0wNG1kR1JnSVhCaUlsTmVXamlPSUNxNXFBQmluUVRNZmZ3NXFVLWRlZkVLemdRNHhST1lkek12OU9qS0RpLVNJUjFQdnY4b2pVV3ZkQ2l6SFdpZXl5RnQ4Q3M0NnUwZw?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Toast, Inc. (TOST) stock price, news, quote and history - Yahoo Finance Australia",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAxYlg1dVp5U0FIbkNKQkRRTHZza3p5MXNaZTFKYXNHSngwRXZUUTd5SlZDa3cxZk5KcWthMmNwRG1HQ2dHMXdjWU9DaTFUUThUclE?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Toast, Inc. (TOST) Stock Forecasts - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQzNQY2hkTnp6VV93WFlOVEk4Ynk2SE9Oa29jc0pNX2NWakNlVWozSE45NllubFkxN2FySGJMZmhkaXZkaVJCS1VpSG90Vkh5T203MWM3VkZjaUl2YV9LNVpyQi1SR1hFUVZxQ3RUeGtkcnRmMVRrelh2Q3p0RVpyc0JHNU5MRmt3Y1Y0WnFIaw?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Toast",
+      "first_detected": "2026-10-30T14:58:03.585609+00:00"
+    },
+    {
+      "text": "Shift4 shows concentrated financial/market activity \u2014 7 tracked financial/market items this cycle. Latest: \"Shift4 Payments, Inc. (FOUR) Stock Forecasts - Yahoo! Finance Canada\"",
+      "sources": [
+        {
+          "title": "Shift4 Payments, Inc. (FOUR) Stock Forecasts - Yahoo! Finance Canada",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdHBXbm01LUtqY19GSkN1ZTNzczRaZGNSNnB6cXZCOE1DV0RMYXlra245aWZQX2dubGhHeG9LanhyaElMQzc0blpnQUJmM1ZGRmhjQnBvZjNaSGhtVjRGMGVmczZBTno2OHNremF3YlVySUVvb3dBcTg4TE5tNk5qWmNzTUN5UmdBanlWanNia0RNTmM?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Shift4 Announces Date of Third Quarter Earnings Results and Upcoming Investor Conference Participation - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcUUtME02V1RjN21xNXNPTXFCamxEWmJvNkdJVGIzajNtVnFqY3hkc0c3WktQTFh1R3ZZWkk5RjctcVVGbXVncFpTem90UUR1V1Q4Snd0Z1NaTm9zQUhEdEpDMHlPUmxISkN5ZEF3Wm1OTU53RTlhREtwNFhpR1JYb01hRmJGOGJnbWFsWlVaMnQxODhhUHJYdDZ5QjFXb0laSWc?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Shift4 Payments (FOUR) Guides Lower After Strong Q2, Is The Valuation Discount Enough? - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNT29GMi1EaXAxNkhTWFl1cDFlWlJjVXRwVno0UlRMUlBUM2tPYjZWcWlya3dNQl9kWFZ3TUpzOTBQVXc0S010ckRqdkhNSE13Um0wWWFWMVo4T3lZSkVjRVdzYUI3S0k1M283ZlpLRlRManI4UG1tVXF0bE5UazE4TklRRFlnbHBZc2NGWnVMS2wyWS1UWUFhclA5dWc2T3c?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Shift4",
+      "first_detected": "2026-10-30T14:58:03.585609+00:00"
+    },
+    {
+      "text": "DoorDash (DASH) stock gained 7.8% over the past week \u2014 material weekly move relative to broader cohort.",
+      "sources": [
+        {
+          "title": "DoorDash offers $17 billion for Instacart in what would be big grocery delivery consolidation - PBS",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOLW9XUXFUWkd3TXZyVnJKb0NQeXdaUUFhcFdQc0R5UXpLclBXSWVpODV0d0FnRG1SaDRXUUdzTWJ1Z3d5TF9Lal9xcXdPN2VzYW5NVS1hREJ6RGlYQVBXWFowc3Qwcy1UVnktbkhsT2VyS0IxdmZYTldnR1Q1MEtHNjBFalJ4UXczemNTbjVjVVlEXy10S2EyZUR4ZlQ3SVRmcllDcW50NDFzTEdnVzdNR0lrMHhaMXR1LUlObkF0Qy1zcnUwbXJDTtIBzgFBVV95cUxQckZqLURMNTdtR2hoWWpXQV9HX0lMbVlKLTB0bHdYTkNVMlVHU1BZMEtab1NIcUJERUhVLTNDRWYzZ21EdEpnNTFZQURxXzRuTTdEclE0bzFhOHlmb1FieXA5N1JoSEh3N0puRlNhdmpiVV9iVXVOMXdzREJwY1FJT05zMkpRaDZWa19kbjh0cjU0djBNQm91NHVaUlo1YWxkalJHc2lKcE9sUENWMU9OWm5kVkxjaWpENlZGdHdMbW03ZjI1dHFWZEEwdm4wUQ?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "DoorDash Buys Instacart for $17 Billion in Grocery Delivery Push - LAmag",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPakt4aHE4d2RoZE5NNjRIWVF3Vi1TRHhXTmo4NVBUQTFGc1RnLVBlNXE1UXJuRXdudHFxbXU4LWxnRVU3cEM4OFItNTN3VkNmU0lJSjlUMkpOWGk5RmdFanhKMEczZEE3YXloMXdRdFNsbGp0ZzhqRC1DbUxtTnV4WVJB?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "DoorDash",
+      "first_detected": "2026-10-30T14:58:03.585609+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "Shift4",
+      "company": "DoorDash",
       "count": 18
     },
     {
-      "company": "DoorDash",
-      "count": 17
-    },
-    {
-      "company": "TouchBistro",
-      "count": 16
+      "company": "Lightspeed",
+      "count": 15
     },
     {
       "company": "Global Payments",
       "count": 15
     },
     {
-      "company": "Lightspeed",
+      "company": "Shift4",
       "count": 15
     },
     {
@@ -158,6 +226,10 @@
     },
     {
       "company": "Deliverect",
+      "count": 15
+    },
+    {
+      "company": "ItsaCheckmate",
       "count": 15
     }
   ]
