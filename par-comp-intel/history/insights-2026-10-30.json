@@ -2,7 +2,7 @@
   "date": "2026-10-30",
   "weekday": "Friday",
   "first_seen": "2026-10-30T07:40:14.660008+00:00",
-  "last_updated": "2026-10-30T14:58:03.585609+00:00",
+  "last_updated": "2026-10-30T18:40:57.702777+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"This new food delivery service is trying to take on DoorDash and Uber Eats by offering no menu markups - Business Insider\"",
@@ -27,7 +27,7 @@
       "first_detected": "2026-10-30T07:40:14.660008+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 8 tracked partnership items this cycle. Latest: \"Little Caesars expands Deliverect partnership to Guatemala - Pizza Marketplace\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 9 tracked partnership items this cycle. Latest: \"Little Caesars expands Deliverect partnership to Guatemala - Pizza Marketplace\"",
       "sources": [
         {
           "title": "Little Caesars expands Deliverect partnership to Guatemala - Pizza Marketplace",
@@ -49,7 +49,7 @@
       "first_detected": "2026-10-30T07:40:14.660008+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 7 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -93,11 +93,11 @@
       "first_detected": "2026-10-30T07:40:14.660008+00:00"
     },
     {
-      "text": "PAR shows concentrated financial/market activity \u2014 6 tracked financial/market items this cycle. Latest: \"100,513 PAR Technology Corporation $PAR Shares Sold by Redmond Asset Management LLC - MarketBeat\"",
+      "text": "PAR shows concentrated financial/market activity \u2014 10 tracked financial/market items this cycle. Latest: \"PAR Technology (NYSE:PAR) Share Price Crosses Above 200 Day Moving Average - Here's What Happened - MarketBeat\"",
       "sources": [
         {
-          "title": "100,513 PAR Technology Corporation $PAR Shares Sold by Redmond Asset Management LLC - MarketBeat",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZ2VyQmJpcWdJN1FkTkdPWENoeEZ4NXJBVmR0LUpEQnZfZUxzbTVKdXZhZ0phMml6Q1RKNWRmYW8yTm5kOEl1bjJQclFlVjZJSnRJRFBZNC1TdU1zWS00Rkd2eVRabldqZEU1WkllNDRjdXdMVlVNNE4zd2JITlBudzJOVnUySXAxcF9SMGNiemhrLXhDVWFna2dXZ0kzR09fWW8tTE0xbFBJOHR3TU5ISzRPaU9KQUFadDQtdXBtbXdUdjd4cGNtVTYzdWEyNlV1SV9pOFBFdzZLUQ?oc=5",
+          "title": "PAR Technology (NYSE:PAR) Share Price Crosses Above 200 Day Moving Average - Here's What Happened - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPbW95S1Jrd1M1LTVSRWJtQW1FVkM5TVdhdEc5TzlHeEVFUklXakFWbkNiVGdIdHlFQUZDSFZtYnFPUFJmcUtCaUtxN1dLdmREdE1ZOGs0OVM2MVRyTDRWdXV3WWlaNzNzNUNWYjB6U01kMzVQNlcxSUhyT1Y4SlpMc0RmVmU2Q2F2NXp2emVIems0Y254enJuWDJicXVnUUJRM1hHVDhIbElMeFEyVHNGZlFyYVk1UEVMVjBZcGY1RnRvQUs0QkhCUXJWQUsteWN5aWVMMFJRbi1rQ29zSWJoV2lOd0NIS2M?oc=5",
           "source": "Google News"
         },
         {
@@ -160,7 +160,7 @@
       "first_detected": "2026-10-30T14:58:03.585609+00:00"
     },
     {
-      "text": "Shift4 shows concentrated financial/market activity \u2014 7 tracked financial/market items this cycle. Latest: \"Shift4 Payments, Inc. (FOUR) Stock Forecasts - Yahoo! Finance Canada\"",
+      "text": "Shift4 shows concentrated financial/market activity \u2014 9 tracked financial/market items this cycle. Latest: \"Shift4 Payments, Inc. (FOUR) Stock Forecasts - Yahoo! Finance Canada\"",
       "sources": [
         {
           "title": "Shift4 Payments, Inc. (FOUR) Stock Forecasts - Yahoo! Finance Canada",
@@ -197,40 +197,73 @@
       ],
       "company": "DoorDash",
       "first_detected": "2026-10-30T14:58:03.585609+00:00"
+    },
+    {
+      "text": "Cross-competitor event: Otter POS, Toast appeared together in coverage \u2014 \"Otter + Toast Integration Guide - Otter POS\"",
+      "sources": [
+        {
+          "title": "Otter + Toast Integration Guide - Otter POS",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOV21DeU5YU0NySEE0OFFHRTBKREFIdnhCN3FiUmVWOEEwU085WlRlMWdWM0ZuNzhXSzBBNnQybkNEZjBKcC1WVlU5MVNfRUZzVkNueVR2enF3NTZnUFhfeGdySVVUbWttUXJFY3ZzYjljTk9VV1pCT3NwbV9NQjY0bUQwdVEzR1FZcklYbTRBcXF2Z3ZON1h3?oc=5",
+          "source": "Google News (tryotter.com)"
+        }
+      ],
+      "first_detected": "2026-10-30T18:40:57.702777+00:00"
+    },
+    {
+      "text": "DoorDash shows concentrated campaign activity \u2014 3 tracked campaign items this cycle. Latest: \"The 8 Best Sushi Restaurants in Austin, Texas - DoorDash Blog\"",
+      "sources": [
+        {
+          "title": "The 8 Best Sushi Restaurants in Austin, Texas - DoorDash Blog",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95TUs3eXo4QWk5SHA4TmdjYTQ2NXJiRHo4VTdGYjdWdUNXeDRhbDVmNFk1alBobEc3bWpFQ0FJVnBuN0U3a3RGbWpTU215TEszMmlIU3p1d29YeGpNMllpRmhOTlFEWkU0UUxyRw?oc=5",
+          "source": "Google News (blog.doordash.com)"
+        },
+        {
+          "title": "The 12 Best Store-Bought Soups, Out of 25 - DoorDash Blog",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE92VnBRb18ydTdLc1Y1NlhLNVFoOVAySm50WUFhalp0NlNzMlRtSkZHbGxzY3daejNycUJ4VlRuQmR0TjgxTG8tekljMmdqcEVMZVU2QUplLVpqQ2NvZmNnYm5ENmtoa2h3cFNNeA?oc=5",
+          "source": "Google News (blog.doordash.com)"
+        },
+        {
+          "title": "The 6 Best String Cheeses For Snacking and Pulling Apart, Strand by Strand - DoorDash Blog",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB1c205SmRqYXdQclJRVS0taldXaXJJWk5MQXdoNlllUWcyWU9vMEEzQTNSUzhKS3JkRi1qVFJFWUYzLWZyVXBZY21aV0w2em9WRVBmNXk5NFM4UnNTWXA3dmZrNTJmUQ?oc=5",
+          "source": "Google News (blog.doordash.com)"
+        }
+      ],
+      "company": "DoorDash",
+      "first_detected": "2026-10-30T18:40:57.702777+00:00"
     }
   ],
   "most_mentioned": [
     {
-      "company": "DoorDash",
-      "count": 18
+      "company": "Deliverect",
+      "count": 49
     },
     {
       "company": "Lightspeed",
-      "count": 15
-    },
-    {
-      "company": "Global Payments",
-      "count": 15
-    },
-    {
-      "company": "Shift4",
-      "count": 15
-    },
-    {
-      "company": "Fiserv",
-      "count": 15
+      "count": 34
     },
     {
       "company": "SpotOn",
-      "count": 15
+      "count": 32
     },
     {
-      "company": "Deliverect",
-      "count": 15
+      "company": "DoorDash",
+      "count": 29
     },
     {
-      "company": "ItsaCheckmate",
-      "count": 15
+      "company": "Sparkfly",
+      "count": 26
+    },
+    {
+      "company": "Fiserv",
+      "count": 25
+    },
+    {
+      "company": "NCR Voyix",
+      "count": 25
+    },
+    {
+      "company": "Paytronix",
+      "count": 25
     }
   ]
 }
