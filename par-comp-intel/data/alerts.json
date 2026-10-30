@@ -1,21 +1,34 @@
 {
-  "updated": "2026-10-30T19:54:18.059396+00:00",
+  "updated": "2026-10-30T23:33:46.985026+00:00",
   "total": 3,
   "by_category": {
-    "stock_move": 3
+    "stock_move": 2,
+    "regulatory": 1
   },
   "alerts": [
     {
       "category": "stock_move",
       "severity": "high",
       "company": "Global Payments",
-      "headline": "Global Payments (GPN) stock up 17.6% over the past week",
+      "headline": "Global Payments (GPN) stock up 18.3% over the past week",
       "url": "https://finance.yahoo.com/quote/GPN",
       "source": "Yahoo Finance",
-      "date": "2026-10-30T19:54:18.059396+00:00",
+      "date": "2026-10-30T23:33:46.985026+00:00",
       "par_relevance": 3,
-      "note": "+17.6% 1W",
-      "detected_at": "2026-10-30T19:54:18.059396+00:00"
+      "note": "+18.3% 1W",
+      "detected_at": "2026-10-30T23:33:46.985026+00:00"
+    },
+    {
+      "category": "regulatory",
+      "severity": "medium",
+      "company": "Toast",
+      "headline": "Does FTC Lawsuit Challenge The Bull Case For Toast Stock (TOST)? - Simply Wall St",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUEpwMnRQRUthaWJ0b3puZjUwbVFmNFZwTUdET05TNWhhOUFPc0F3UXFmUTRoWWFEVVZuUzdLaWxQZjNHSEh6U1lJVmY3anJWaXd5MG55eDgxY3BGSkctSHZEYmhRakd3WFZKUFJfOV90S0ZZQnFuWG9wZ1MwUHh0Vk96N3F3M25GZzlHbFc0TkVpMmNoaDdzLXRPMkNEYXpoQmR4Z1BHRG9nLVdZZHpmdnMtcXlJOUd3cy16Q25zcGhHLVZ6WmVBOFozS3ZVMmJReWfSAdcBQVVfeXFMTWdUR3d2SUpzemRNUVpEdXhfNm1TczhLZGlkTjRtbFFsV3QzQzNPZnZsTldqS0g0QlNoQkU3VXhwX0twZjNfRWZIbGdVR2pRLW5UTC1Hc0JJVUUyNl8ydld1c2RYbHQxcjU2bzA3OGNmM2d5cmVHWW5qaGhnRlV5U3pwdEpPd3dZWXdNTjZFY1VtS3dlUEtObEhKZm5OOG1zNFBPdWZiRllNX0lEdFlnQVBTZmhMQjAxS2Y3QWxoUlAxdFQ1RkFCblF6MWs0Tno2RVN2YUpWcDA?oc=5",
+      "source": "Google News",
+      "date": "Fri, 30 Oct 2026 19:55:24 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-10-30T23:33:46.985026+00:00"
     },
     {
       "category": "stock_move",
@@ -24,22 +37,10 @@
       "headline": "Shift4 (FOUR) stock up 8.2% over the past week",
       "url": "https://finance.yahoo.com/quote/FOUR",
       "source": "Yahoo Finance",
-      "date": "2026-10-30T19:54:18.059396+00:00",
+      "date": "2026-10-30T23:33:46.985026+00:00",
       "par_relevance": 3,
       "note": "+8.2% 1W",
-      "detected_at": "2026-10-30T19:54:18.059396+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "medium",
-      "company": "DoorDash",
-      "headline": "DoorDash (DASH) stock up 7.3% over the past week",
-      "url": "https://finance.yahoo.com/quote/DASH",
-      "source": "Yahoo Finance",
-      "date": "2026-10-30T19:54:18.059396+00:00",
-      "par_relevance": 2,
-      "note": "+7.3% 1W",
-      "detected_at": "2026-10-30T19:54:18.059396+00:00"
+      "detected_at": "2026-10-30T23:33:46.985026+00:00"
     }
   ]
 }
