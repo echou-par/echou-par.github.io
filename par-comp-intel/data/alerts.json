@@ -1,24 +1,10 @@
 {
-  "updated": "2026-10-31T11:07:00.876757+00:00",
-  "total": 4,
+  "updated": "2026-10-31T16:16:20.158399+00:00",
+  "total": 2,
   "by_category": {
-    "analyst_downgrade": 1,
-    "stock_move": 2,
-    "regulatory": 1
+    "stock_move": 2
   },
   "alerts": [
-    {
-      "category": "analyst_downgrade",
-      "severity": "high",
-      "company": "Lightspeed",
-      "headline": "Bank of America Securities Sticks to Its Sell Rating for Lightspeed POS Inc (LSPD) - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQb1dLSVNFSHRaeE5Fd2tYS0FBVWU0NG5OdVBFOGtvdEx2cFJRZWpGWTBHYW90THo4QnNBZ2xTdTNWNEgySDhJUXJIX0VkZDB3REphN0N1WnFGbXpfeHJuRVp1dmV4R2dnTk5xQnRBNUt3UThpUE56d3BiMDRKSTNhV24wYTR1VXlST3VaSHdZXzRJTE1kNm5udFhhS1d0LVVKTWN6TlNsOVR6ZU5NNVRIZFdDdDdHYVZzSkl6YmdHdlFlbXpYZG8wak1tVGRxSWVCdHFHekhLbTd0ODdzTGlLU21CREpwRFhiMUN2RGIyTUktQ00?oc=5",
-      "source": "Google News",
-      "date": "Mon, 26 Oct 2026 13:48:50 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-10-31T11:07:00.876757+00:00"
-    },
     {
       "category": "stock_move",
       "severity": "high",
@@ -26,22 +12,10 @@
       "headline": "Global Payments (GPN) stock up 18.3% over the past week",
       "url": "https://finance.yahoo.com/quote/GPN",
       "source": "Yahoo Finance",
-      "date": "2026-10-31T11:07:00.876757+00:00",
+      "date": "2026-10-31T16:16:20.158399+00:00",
       "par_relevance": 3,
       "note": "+18.3% 1W",
-      "detected_at": "2026-10-31T11:07:00.876757+00:00"
-    },
-    {
-      "category": "regulatory",
-      "severity": "medium",
-      "company": "Toast",
-      "headline": "Does FTC Lawsuit Challenge The Bull Case For Toast Stock (TOST)? - Simply Wall St",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUEpwMnRQRUthaWJ0b3puZjUwbVFmNFZwTUdET05TNWhhOUFPc0F3UXFmUTRoWWFEVVZuUzdLaWxQZjNHSEh6U1lJVmY3anJWaXd5MG55eDgxY3BGSkctSHZEYmhRakd3WFZKUFJfOV90S0ZZQnFuWG9wZ1MwUHh0Vk96N3F3M25GZzlHbFc0TkVpMmNoaDdzLXRPMkNEYXpoQmR4Z1BHRG9nLVdZZHpmdnMtcXlJOUd3cy16Q25zcGhHLVZ6WmVBOFozS3ZVMmJReWfSAdcBQVVfeXFMTWdUR3d2SUpzemRNUVpEdXhfNm1TczhLZGlkTjRtbFFsV3QzQzNPZnZsTldqS0g0QlNoQkU3VXhwX0twZjNfRWZIbGdVR2pRLW5UTC1Hc0JJVUUyNl8ydld1c2RYbHQxcjU2bzA3OGNmM2d5cmVHWW5qaGhnRlV5U3pwdEpPd3dZWXdNTjZFY1VtS3dlUEtObEhKZm5OOG1zNFBPdWZiRllNX0lEdFlnQVBTZmhMQjAxS2Y3QWxoUlAxdFQ1RkFCblF6MWs0Tno2RVN2YUpWcDA?oc=5",
-      "source": "Google News",
-      "date": "Fri, 30 Oct 2026 19:55:24 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-10-31T11:07:00.876757+00:00"
+      "detected_at": "2026-10-31T16:16:20.158399+00:00"
     },
     {
       "category": "stock_move",
@@ -50,10 +24,10 @@
       "headline": "Shift4 (FOUR) stock up 8.2% over the past week",
       "url": "https://finance.yahoo.com/quote/FOUR",
       "source": "Yahoo Finance",
-      "date": "2026-10-31T11:07:00.876757+00:00",
+      "date": "2026-10-31T16:16:20.158399+00:00",
       "par_relevance": 3,
       "note": "+8.2% 1W",
-      "detected_at": "2026-10-31T11:07:00.876757+00:00"
+      "detected_at": "2026-10-31T16:16:20.158399+00:00"
     }
   ]
 }
