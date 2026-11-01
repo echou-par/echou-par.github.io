@@ -1,24 +1,11 @@
 {
-  "updated": "2026-11-01T18:29:42.925312+00:00",
-  "total": 4,
+  "updated": "2026-11-01T19:03:22.428529+00:00",
+  "total": 3,
   "by_category": {
-    "analyst_downgrade": 1,
     "stock_move": 2,
     "regulatory": 1
   },
   "alerts": [
-    {
-      "category": "analyst_downgrade",
-      "severity": "high",
-      "company": "Shift4",
-      "headline": "SHIFT4 PAYMENTS, INC. : BMO CUTS TARGET PRICE TO $42 FROM $46 - Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNajhSX0YyQjEwWndKZzBwcjE1eWM1RTllY1BxcXNsdDRuWkM3OS1UZTl3ZEJiSHJvZmNGODk1WXd2OFhXZlJXU1JlNjV4WXhkRUVld3V4Mko2TDZSenFPNkRYZ2hJTzRWdkpDRHRjYm5ZOWtxZzhNcGI2MVlHQWktQ3c5Wlg2SzIwZkoxVlBYay00NHFGNVhsSnl3czB6dw?oc=5",
-      "source": "Google News",
-      "date": "Fri, 30 Oct 2026 22:59:19 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-11-01T18:29:42.925312+00:00"
-    },
     {
       "category": "stock_move",
       "severity": "high",
@@ -26,10 +13,10 @@
       "headline": "Global Payments (GPN) stock up 18.3% over the past week",
       "url": "https://finance.yahoo.com/quote/GPN",
       "source": "Yahoo Finance",
-      "date": "2026-11-01T18:29:42.925312+00:00",
+      "date": "2026-11-01T19:03:22.428529+00:00",
       "par_relevance": 3,
       "note": "+18.3% 1W",
-      "detected_at": "2026-11-01T18:29:42.925312+00:00"
+      "detected_at": "2026-11-01T19:03:22.428529+00:00"
     },
     {
       "category": "regulatory",
@@ -41,7 +28,7 @@
       "date": "Sun, 01 Nov 2026 00:54:20 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-11-01T18:29:42.925312+00:00"
+      "detected_at": "2026-11-01T19:03:22.428529+00:00"
     },
     {
       "category": "stock_move",
@@ -50,10 +37,10 @@
       "headline": "Shift4 (FOUR) stock up 8.2% over the past week",
       "url": "https://finance.yahoo.com/quote/FOUR",
       "source": "Yahoo Finance",
-      "date": "2026-11-01T18:29:42.925312+00:00",
+      "date": "2026-11-01T19:03:22.428529+00:00",
       "par_relevance": 3,
       "note": "+8.2% 1W",
-      "detected_at": "2026-11-01T18:29:42.925312+00:00"
+      "detected_at": "2026-11-01T19:03:22.428529+00:00"
     }
   ]
 }
