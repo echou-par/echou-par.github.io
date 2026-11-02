@@ -1,22 +1,46 @@
 {
-  "updated": "2026-11-02T09:12:48.174895+00:00",
-  "total": 3,
+  "updated": "2026-11-02T19:41:55.041024+00:00",
+  "total": 6,
   "by_category": {
-    "stock_move": 2,
+    "stock_move": 5,
     "regulatory": 1
   },
   "alerts": [
     {
       "category": "stock_move",
       "severity": "high",
+      "company": "NCR Voyix",
+      "headline": "NCR Voyix (VYX) stock up 17.7% over the past week",
+      "url": "https://finance.yahoo.com/quote/VYX",
+      "source": "Yahoo Finance",
+      "date": "2026-11-02T19:41:55.041024+00:00",
+      "par_relevance": 3,
+      "note": "+17.7% 1W",
+      "detected_at": "2026-11-02T19:41:55.041024+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "high",
+      "company": "Shift4",
+      "headline": "Shift4 (FOUR) stock up 12.1% over the past week",
+      "url": "https://finance.yahoo.com/quote/FOUR",
+      "source": "Yahoo Finance",
+      "date": "2026-11-02T19:41:55.041024+00:00",
+      "par_relevance": 3,
+      "note": "+12.1% 1W",
+      "detected_at": "2026-11-02T19:41:55.041024+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "high",
       "company": "Global Payments",
-      "headline": "Global Payments (GPN) stock up 18.3% over the past week",
+      "headline": "Global Payments (GPN) stock up 21.4% over the past week",
       "url": "https://finance.yahoo.com/quote/GPN",
       "source": "Yahoo Finance",
-      "date": "2026-11-02T09:12:48.174895+00:00",
+      "date": "2026-11-02T19:41:55.041024+00:00",
       "par_relevance": 3,
-      "note": "+18.3% 1W",
-      "detected_at": "2026-11-02T09:12:48.174895+00:00"
+      "note": "+21.4% 1W",
+      "detected_at": "2026-11-02T19:41:55.041024+00:00"
     },
     {
       "category": "regulatory",
@@ -28,19 +52,31 @@
       "date": "Fri, 30 Oct 2026 19:55:24 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-11-02T09:12:48.174895+00:00"
+      "detected_at": "2026-11-02T19:41:55.041024+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
-      "company": "Shift4",
-      "headline": "Shift4 (FOUR) stock up 8.2% over the past week",
-      "url": "https://finance.yahoo.com/quote/FOUR",
+      "company": "Fiserv",
+      "headline": "Fiserv (FISV) stock up 9.1% over the past week",
+      "url": "https://finance.yahoo.com/quote/FISV",
       "source": "Yahoo Finance",
-      "date": "2026-11-02T09:12:48.174895+00:00",
+      "date": "2026-11-02T19:41:55.041024+00:00",
       "par_relevance": 3,
-      "note": "+8.2% 1W",
-      "detected_at": "2026-11-02T09:12:48.174895+00:00"
+      "note": "+9.1% 1W",
+      "detected_at": "2026-11-02T19:41:55.041024+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "medium",
+      "company": "DoorDash",
+      "headline": "DoorDash (DASH) stock up 10.5% over the past week",
+      "url": "https://finance.yahoo.com/quote/DASH",
+      "source": "Yahoo Finance",
+      "date": "2026-11-02T19:41:55.041024+00:00",
+      "par_relevance": 2,
+      "note": "+10.5% 1W",
+      "detected_at": "2026-11-02T19:41:55.041024+00:00"
     }
   ]
 }
