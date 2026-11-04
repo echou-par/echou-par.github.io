@@ -1,69 +1,106 @@
 {
-  "updated": "2026-11-04T11:27:31.700657+00:00",
-  "total": 5,
+  "updated": "2026-11-04T18:48:38.314617+00:00",
+  "total": 8,
   "by_category": {
-    "stock_move": 5
+    "executive_departure": 1,
+    "stock_move": 7
   },
   "alerts": [
+    {
+      "category": "executive_departure",
+      "severity": "high",
+      "company": "Toast",
+      "headline": "Does a CFO Exit Change Toast (NYSE:TOST)'s Raised USD 840 Million EBITDA Outlook? - kalkine.ca",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVm9XSnE1aHlxbTgwdmJNMF9XS1RHS29sSnNRRHpONUV6M3ROQmtUbl9iRmFiSzBkc0hUeGlYRFJadDdVMTlzODVhVVEzcjJ1VUxXQVNnYnFKMGtLakluRmgxVW5CSU91bVJkZ1JyQmphOWxvb19jSzRHOFVvUGljZkRuWTZSbkxmeFhHdTNEMmkzX0hZN1dackFxSmxyQVp2WjhWVF8xYkYtdWtVLUpZbg?oc=5",
+      "source": "Google News",
+      "date": "Wed, 04 Nov 2026 14:49:00 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-11-04T18:48:38.314617+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "high",
+      "company": "Toast",
+      "headline": "Toast (TOST) stock up 13.3% over the past week",
+      "url": "https://finance.yahoo.com/quote/TOST",
+      "source": "Yahoo Finance",
+      "date": "2026-11-04T18:48:38.314617+00:00",
+      "par_relevance": 3,
+      "note": "+13.3% 1W",
+      "detected_at": "2026-11-04T18:48:38.314617+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "high",
+      "company": "NCR Voyix",
+      "headline": "NCR Voyix (VYX) stock up 14.7% over the past week",
+      "url": "https://finance.yahoo.com/quote/VYX",
+      "source": "Yahoo Finance",
+      "date": "2026-11-04T18:48:38.314617+00:00",
+      "par_relevance": 3,
+      "note": "+14.7% 1W",
+      "detected_at": "2026-11-04T18:48:38.314617+00:00"
+    },
+    {
+      "category": "stock_move",
+      "severity": "high",
+      "company": "Shift4",
+      "headline": "Shift4 (FOUR) stock up 12.8% over the past week",
+      "url": "https://finance.yahoo.com/quote/FOUR",
+      "source": "Yahoo Finance",
+      "date": "2026-11-04T18:48:38.314617+00:00",
+      "par_relevance": 3,
+      "note": "+12.8% 1W",
+      "detected_at": "2026-11-04T18:48:38.314617+00:00"
+    },
     {
       "category": "stock_move",
       "severity": "high",
       "company": "Global Payments",
-      "headline": "Global Payments (GPN) stock up 17.3% over the past week",
+      "headline": "Global Payments (GPN) stock up 13.2% over the past week",
       "url": "https://finance.yahoo.com/quote/GPN",
       "source": "Yahoo Finance",
-      "date": "2026-11-04T11:27:31.700657+00:00",
+      "date": "2026-11-04T18:48:38.314617+00:00",
       "par_relevance": 3,
-      "note": "+17.3% 1W",
-      "detected_at": "2026-11-04T11:27:31.700657+00:00"
+      "note": "+13.2% 1W",
+      "detected_at": "2026-11-04T18:48:38.314617+00:00"
     },
     {
       "category": "stock_move",
       "severity": "high",
       "company": "Fiserv",
-      "headline": "Fiserv (FISV) stock up 22.0% over the past week",
+      "headline": "Fiserv (FISV) stock up 28.0% over the past week",
       "url": "https://finance.yahoo.com/quote/FISV",
       "source": "Yahoo Finance",
-      "date": "2026-11-04T11:27:31.700657+00:00",
+      "date": "2026-11-04T18:48:38.314617+00:00",
       "par_relevance": 3,
-      "note": "+22.0% 1W",
-      "detected_at": "2026-11-04T11:27:31.700657+00:00"
+      "note": "+28.0% 1W",
+      "detected_at": "2026-11-04T18:48:38.314617+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
-      "company": "NCR Voyix",
-      "headline": "NCR Voyix (VYX) stock up 10.6% over the past week",
-      "url": "https://finance.yahoo.com/quote/VYX",
+      "company": "PAR",
+      "headline": "PAR (PAR) stock up 7.7% over the past week",
+      "url": "https://finance.yahoo.com/quote/PAR",
       "source": "Yahoo Finance",
-      "date": "2026-11-04T11:27:31.700657+00:00",
+      "date": "2026-11-04T18:48:38.314617+00:00",
       "par_relevance": 3,
-      "note": "+10.6% 1W",
-      "detected_at": "2026-11-04T11:27:31.700657+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "medium",
-      "company": "Shift4",
-      "headline": "Shift4 (FOUR) stock up 8.8% over the past week",
-      "url": "https://finance.yahoo.com/quote/FOUR",
-      "source": "Yahoo Finance",
-      "date": "2026-11-04T11:27:31.700657+00:00",
-      "par_relevance": 3,
-      "note": "+8.8% 1W",
-      "detected_at": "2026-11-04T11:27:31.700657+00:00"
+      "note": "+7.7% 1W",
+      "detected_at": "2026-11-04T18:48:38.314617+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "DoorDash",
-      "headline": "DoorDash (DASH) stock up 8.2% over the past week",
+      "headline": "DoorDash (DASH) stock up 10.7% over the past week",
       "url": "https://finance.yahoo.com/quote/DASH",
       "source": "Yahoo Finance",
-      "date": "2026-11-04T11:27:31.700657+00:00",
+      "date": "2026-11-04T18:48:38.314617+00:00",
       "par_relevance": 2,
-      "note": "+8.2% 1W",
-      "detected_at": "2026-11-04T11:27:31.700657+00:00"
+      "note": "+10.7% 1W",
+      "detected_at": "2026-11-04T18:48:38.314617+00:00"
     }
   ]
 }
