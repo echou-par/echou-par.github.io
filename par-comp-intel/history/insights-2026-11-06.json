@@ -2,7 +2,7 @@
   "date": "2026-11-06",
   "weekday": "Friday",
   "first_seen": "2026-11-06T09:44:30.718931+00:00",
-  "last_updated": "2026-11-06T20:29:53.575228+00:00",
+  "last_updated": "2026-11-06T22:17:20.380173+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"DoorDash Sinks 13% as Amazon Taps Uber Eats for $0 Prime Restaurant Delivery - TIKR.com\"",
@@ -49,7 +49,7 @@
       "first_detected": "2026-11-06T09:44:30.718931+00:00"
     },
     {
-      "text": "Deliverect shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Deliverect and Yext Partner to Keep Restaurant Data Accurate Across Every Digital Surface, Including AI Search - PR Newswire\"",
+      "text": "Deliverect shows concentrated partnership activity \u2014 5 tracked partnership items this cycle. Latest: \"Deliverect and Yext Partner to Keep Restaurant Data Accurate Across Every Digital Surface, Including AI Search - PR Newswire\"",
       "sources": [
         {
           "title": "Deliverect and Yext Partner to Keep Restaurant Data Accurate Across Every Digital Surface, Including AI Search - PR Newswire",
@@ -115,16 +115,16 @@
       "first_detected": "2026-11-06T09:44:30.718931+00:00"
     },
     {
-      "text": "Fiserv (FISV) stock gained 22.4% over the past week \u2014 material weekly move relative to broader cohort.",
+      "text": "Fiserv (FISV) stock gained 21.1% over the past week \u2014 material weekly move relative to broader cohort.",
       "sources": [
-        {
-          "title": "Fiserv Small Business Index Shows Sales Momentum Heading into Holiday Season - Fiserv",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcjROV1BpbzNUaUVLcEdxNjR0WW1qdlBtNFYteXB0MFVnZ1JwcGxwMy1YdG5jSkhWV2JOUXpDaUdBMS02UlJ0cE9wSEJlQ240UkM2QnpXVVg4X21SZExla2F5MTJCTHJQZVA0MndiTDl3TktrT1VlV2dRaWVQRnVwMk1ORENxd0tZOFFjOVZzR1lJbHdBMzBaZzlJUDVfTEZ5aC1PaGg0NV9LcEtSNW1FWGtXTHM0WW5yRm8wM0x2bUN5T09nWGZR?oc=5",
-          "source": "Google News (fiserv.com)"
-        },
         {
           "title": "Fiserv bets on payment tech, AI to drive recovery - American Banker",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUUNPMHhfLXI0dnRPN1JENzNNOHhFTlRpNHRqVHRpSkRxZmpEVFkwYkJPT3hrSFh0S21hSUh3VlRrS2lYUGdodDNnVnFlWl9kVmY2V3BFVzhKdFotaUk2UGF6VUlKV3RJYVc0Z2ViQ01GUVI1ZFZZV2Rrc28wN1MtTWxVMHVTMjFkZU9OWFVCVUhMOUl0TUh4cg?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "FISV Stock Surges After Earnings Beat \u2014 Doubles Savings Target To $1B, Plans $500M Buyback - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPTE4tdEp0RkdXWXhsRFRlZ3RZLW50LW9rWGhXYU14MjdKall0akhieF9mVk1oNFpDLXVsa3VTNFFKUUFlaUxkM3JSMGl2ZUZ2eDc2UmVoazFNamV6cnFIZFNnRmtnNWRMSDIzQTJlQlN2Q21zd0NnWUEtb0RJaWVPbGFWajktWmx5b3dLM0UxSW9vWnNiSnh0RHlpeGIwcDlsamhzR05IX2lKZWFDcGswdzUyNm1VOUptMFRfeGNoTWROQ2tDVnp6bkI4NHlaMG5XY1pvUm8zb0JRQ2RoSzVJ?oc=5",
           "source": "Google News"
         }
       ],
@@ -134,36 +134,36 @@
   ],
   "most_mentioned": [
     {
-      "company": "Deliverect",
-      "count": 48
-    },
-    {
-      "company": "SpotOn",
-      "count": 36
-    },
-    {
-      "company": "Lightspeed",
-      "count": 32
-    },
-    {
       "company": "DoorDash",
-      "count": 28
+      "count": 18
     },
     {
       "company": "Toast",
-      "count": 26
+      "count": 16
+    },
+    {
+      "company": "PAR",
+      "count": 15
+    },
+    {
+      "company": "Snackpass",
+      "count": 15
+    },
+    {
+      "company": "SpotOn",
+      "count": 15
     },
     {
       "company": "Fiserv",
-      "count": 25
+      "count": 15
+    },
+    {
+      "company": "ItsaCheckmate",
+      "count": 15
     },
     {
       "company": "TouchBistro",
-      "count": 25
-    },
-    {
-      "company": "Sparkfly",
-      "count": 25
+      "count": 15
     }
   ]
 }
