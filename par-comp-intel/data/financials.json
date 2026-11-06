@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T02:08:51.198956+00:00",
+  "updated": "2026-11-06T09:44:30.718931+00:00",
   "tickers": {
     "PAR": {
       "ticker": "PAR",
@@ -184,7 +184,7 @@
       "gross_margin": 0.27055,
       "enterprise_value": 18472640512.0,
       "trailing_pe": 38.63736,
-      "forward_pe": 19.882942,
+      "forward_pe": 19.947239,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
@@ -228,6 +228,19 @@
       ],
       "income_statement_quarterly": [
         {
+          "endDate": "2026-09-30",
+          "totalRevenue": 1981000000.0,
+          "costOfRevenue": 1438000000.0,
+          "grossProfit": 543000000.0,
+          "researchDevelopment": 103000000.0,
+          "sellingGeneralAdministrative": 269000000.0,
+          "totalOperatingExpenses": 372000000.0,
+          "operatingIncome": 171000000.0,
+          "ebit": 171000000.0,
+          "netIncome": 169000000.0,
+          "incomeBeforeTax": 176000000.0
+        },
+        {
           "endDate": "2026-06-30",
           "totalRevenue": 1908000000.0,
           "costOfRevenue": 1392000000.0,
@@ -265,19 +278,6 @@
           "ebit": 89000000.0,
           "netIncome": 101000000.0,
           "incomeBeforeTax": 101000000.0
-        },
-        {
-          "endDate": "2025-09-30",
-          "totalRevenue": 1633000000.0,
-          "costOfRevenue": 1201000000.0,
-          "grossProfit": 432000000.0,
-          "researchDevelopment": 102000000.0,
-          "sellingGeneralAdministrative": 246000000.0,
-          "totalOperatingExpenses": 348000000.0,
-          "operatingIncome": 84000000.0,
-          "ebit": 84000000.0,
-          "netIncome": 105000000.0,
-          "incomeBeforeTax": 104000000.0
         }
       ],
       "balance_sheet_annual": [
@@ -310,6 +310,19 @@
       ],
       "balance_sheet_quarterly": [
         {
+          "endDate": "2026-09-30",
+          "cash": 1203000000.0,
+          "shortTermInvestments": 682000000.0,
+          "netReceivables": 106000000.0,
+          "totalCurrentAssets": 2817000000.0,
+          "totalAssets": 3376000000.0,
+          "totalCurrentLiabilities": 1060000000.0,
+          "totalLiab": 1089000000.0,
+          "totalStockholderEquity": 2287000000.0,
+          "goodWill": 113000000.0,
+          "intangibleAssets": 10000000.0
+        },
+        {
           "endDate": "2026-06-30",
           "cash": 1015000000.0,
           "shortTermInvestments": 698000000.0,
@@ -321,19 +334,6 @@
           "totalStockholderEquity": 2045000000.0,
           "goodWill": 113000000.0,
           "intangibleAssets": 11000000.0
-        },
-        {
-          "endDate": "2026-03-31",
-          "cash": 1098000000.0,
-          "shortTermInvestments": 672000000.0,
-          "netReceivables": 113000000.0,
-          "totalCurrentAssets": 2592000000.0,
-          "totalAssets": 3094000000.0,
-          "totalCurrentLiabilities": 1064000000.0,
-          "totalLiab": 1104000000.0,
-          "totalStockholderEquity": 1990000000.0,
-          "goodWill": 113000000.0,
-          "intangibleAssets": 13000000.0
         }
       ]
     },
@@ -348,7 +348,7 @@
       "revenue_growth_yoy": 0.34,
       "ebitda_margin": 0.10023,
       "gross_margin": 0.52664,
-      "enterprise_value": 75740700672.0,
+      "enterprise_value": 75766857728.0,
       "trailing_pe": 74.6556,
       "forward_pe": 22.441666,
       "income_statement_annual": [
@@ -518,7 +518,7 @@
       "ebitda_margin": 0.09866,
       "gross_margin": 0.25825,
       "enterprise_value": 2583999232.0,
-      "trailing_pe": 35.214283,
+      "trailing_pe": 19.72,
       "forward_pe": 9.610136,
       "income_statement_annual": [
         {
@@ -1006,7 +1006,7 @@
       "gross_margin": 0.47704,
       "enterprise_value": 50174115840.0,
       "trailing_pe": 110.57895,
-      "forward_pe": 16.003016,
+      "forward_pe": 15.909435,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
@@ -1175,7 +1175,7 @@
       "ebitda_margin": 0.43914002,
       "gross_margin": 0.63959,
       "enterprise_value": 44432973824.0,
-      "trailing_pe": 44.59155,
+      "trailing_pe": 169.60715,
       "forward_pe": 5.89932,
       "income_statement_annual": [
         {
@@ -1326,7 +1326,7 @@
       "gross_margin": 0.547622481850089,
       "enterprise_value": null,
       "trailing_pe": null,
-      "forward_pe": 7.8482094,
+      "forward_pe": 7.864876,
       "income_statement_annual": [
         {
           "endDate": "2025-12-31",
