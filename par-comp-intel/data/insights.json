@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T20:05:09.352216+00:00",
+  "updated": "2026-11-07T23:51:09.591399+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: DoorDash, Uber Eats appeared together in coverage \u2014 \"DoorDash Sinks 13% as Amazon Taps Uber Eats for $0 Prime Restaurant Delivery - TIKR.com\"",
@@ -64,8 +64,29 @@
       "company": "DoorDash"
     },
     {
-      "text": "PAR shows concentrated financial/market activity \u2014 14 tracked financial/market items this cycle. Latest: \"PAR Technology Corporation (NYSE:PAR) Just Reported Third-Quarter Earnings: Have Analysts Changed Their Mind On The Stock? - Simply Wall St\"",
+      "text": "Olo shows concentrated risk activity \u2014 2 tracked risk items this cycle. Latest: \"OLO Investors Have the Opportunity to Join Investigation of Olo Inc. with the Schall Law Firm - PR Newswire\"",
       "sources": [
+        {
+          "title": "OLO Investors Have the Opportunity to Join Investigation of Olo Inc. with the Schall Law Firm - PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNal9XUTUxajAwbENvdXRPQzZ0QVJ1dW1Hd2Z0eUxHR3pyVS13SXBvQXMxX0Z0bVg0b1BDQjJic25JdlBhUG9OYnpXVEFFNzNUMThyNnVPNXZzRE8tb0pvOTdaMm80c2FhMEJtV2RsTE5sUWVHT0xqbmhaT0ZKcnRucG1wR25xWkZEOWRYOTZjLWhkWVJVX09Kc083blppUkt1cFBpVk5jWXBGd0xOcHJhajh0cW5sVGlmeWY4U2VzNEgyeWJpYTRKTzlpRDdhQW5DZ091VTMyYWJTMUJ3OEJXT1FR?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Olo Inc. Officers and Directors Under Investigation for Alleged False Statements - Schubert Jonckheer & Kolbe",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE94aC1lUmFKSGZXX09hS3JwTTBRX2hDOGVuTjZacnpVUms0SmhMcXU3NzA2ZGVVWk5hVmpQeFN0X0xqNnJ6MUZ2Qm14S0ZaUkhtT0g4NjZB?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Olo"
+    },
+    {
+      "text": "PAR shows concentrated financial/market activity \u2014 13 tracked financial/market items this cycle. Latest: \"PAR Technology Q3 Earnings Call Highlights - MarketBeat\"",
+      "sources": [
+        {
+          "title": "PAR Technology Q3 Earnings Call Highlights - MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObW81OU5TU2tVSVB3SmM4LUlrYlpoX3FPaU9PVkNGSHREMzkyLW50YXFuMXN0U0tBM29PSlRsZVVhZUtPLXJldDBTci1iWDBEcC1vTjRNN2JzRkx3eUV4NHhWNkFVdmNKVXg5SEZuZGE5NDRrT0p6YW1xbDJCRXVySGpQc0JUV1V1NFI0eGpTUXRJSFJHVnh0RklOX0lScC1fSS1NdUNuSHhYTXM?oc=5",
+          "source": "Google News"
+        },
         {
           "title": "PAR Technology Corporation (NYSE:PAR) Just Reported Third-Quarter Earnings: Have Analysts Changed Their Mind On The Stock? - Simply Wall St",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNa09tdVd5Y2l5ajI2Z09SRU5Sc20tS3NsTzBvOEFockJJYWVISTU2aXZGT21qeGNvcGFHOE5jSkdrQTNKLU92MkdmVXNOUWtGcTRGNlRUQWlsc0lRTmZQM0Fwak9OZEZTbUlYYXQ5cXV4blo1WlJ3c1ZOQTRXR3RINDdjd1RvdV8tQlJJZFg1M1pXMjBOZV9WY0hwMWlVZTJudlFuWnZLRm5rY01NSXBYNlpyNDAta2I2SkNhTnZSX1N4TUNXMjQyc0Z30gHPAUFVX3lxTFBZdV9zN09wMC1Ud2ltOEtndERyc3hXcmV1Mk00Z3VMYzNNcVdRdjRaMTg1b2ctTjA0Z3poYjQ3S1ZUbG1NbzF1ZzZKak5iTEd5YnNWQmdiRnN5NDZsdjNqV1Fva29FcXFFc0tIb19WZHc0ckJpNzRrbThvX3N4d1BOQUxXZ3VwUE01WlhqeFRzT3R1WU1xM2tFWFp3YVNyeWNXVUZVbEVwWU9lV3A3SHFWZ1JJalFQeVlIc1VHWnVBVnpDR2ZlR19ocURRUEZpQQ?oc=5",
@@ -75,51 +96,30 @@
           "title": "PAR Technology Corporation (PAR) - What Are Analysts Saying About This Stock? - MarketBeat",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQejJNMGgxbUNHYThFdUgyaFRIbDRSd2JZcU5CYnJHM0JsMkdfWW9XM09nejZWSHRzU09FeEFFU2dRZVZZYW1LcnNNdXF0UTFwbXFxMFQ3ZGlSWVR2eTM2Y01rQ1A4dUR0bWxPeHFfaVpVNzB0S0Q5bEFEdW9IZmVsYnNWUU9sdG1SaFZJd0JVT0t6ekJWeVBadDMzRnpuYklEbGJxZG5XMG04bXN5cHBqMFZJbWlXVmhIdE9yS1hXdnlLdy1kcXpGNVdsYmVYUlVQQ1E?oc=5",
           "source": "Google News"
-        },
-        {
-          "title": "PAR Technology (NYSE:PAR) Stock Gets Price Target Boost from Needham & Company LLC - MarketBeat",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUURSV29DRWx2X0FlZ3RiVE1GMlBoSURVRzZQa0c2ZV8yZW9jZ1gwYklTVWNZdTJvWnpiLUhBbmZuNEtQNTZ3SnBxNEFGUVNFWWpnQWl3Wk9oLW93NmowXzVpZUthckNMZ2Mta3RzVVBsNm9iQmliUjM4QjlVQ1FyeXlGcVFsRmZ5TzVFVWlPODZmMWx0NFh3VVNNOGVvY0ttT2drSVNVR3BhaDNBc3pFTko3VW5USVMzV0hBWWxrRmtlNjJtSzZoc3R4SUR4Qll2MVRuZzYwcw?oc=5",
-          "source": "Google News"
         }
       ],
       "company": "PAR"
     },
     {
-      "text": "Shift4 shows concentrated financial/market activity \u2014 11 tracked financial/market items this cycle. Latest: \"How Lowered Profit Outlook Will Impact Shift4 Payments Stock (FOUR) - Simply Wall St\"",
+      "text": "NCR Voyix shows concentrated financial/market activity \u2014 13 tracked financial/market items this cycle. Latest: \"NCR Voyix (VYX) Could Be 24% Undervalued On Earnings And Turnaround Progress - Yahoo Finance Singapore\"",
       "sources": [
         {
-          "title": "How Lowered Profit Outlook Will Impact Shift4 Payments Stock (FOUR) - Simply Wall St",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPR3BibzgtOW5vRG45TWFvTG5sQzl3ZFBQSnNnaDU2aE0wUzQ5SXNhRVlTRG4zRVVrSll6WS1sR3IxTWE2Z1JQVXFVeHYxbGhXb2twMksxbktjdTVPZ2tVemxkRDVhak0wNzF4cl9uQlI5Y0cxWUZ1TlM1T0N3SkI5VWJfbGNEamhya05uc0FHVmJSS1UtTnY5Z0hpdmluVFp3VV8yRkluYURUWTVNSVJMVWRyTVFfOGs4VGdaVEg5QlVfOXVaT0M5RjJuYTdpSTZnYUMwOTdWbndHTnZMVFBn0gHkAUFVX3lxTFBvekgwTTg3OHZMalJfZE9nWmpEZkhFNTh2VTQ4b2ptSk9HdTdsUG8xSHNFc3BISk56eFViTXpSbzNmV2NNTWN0X24wSHhaOU1qUkZMaWJxUHYxc0VwTkJwcGUwWHpaZy1jUmRGZnpBQ0o1RTNXblJZQlJnM3NJeHlmWjFvTTd0QXItOXEtaHQ3MF9kdG5WNV9CZmJ5THBhanFQa3pWdWZsMC0yMmIwcko0R3huVS1jSl9SemdDRm9UTlV1ZGluT3hmQm0zYWpreHA4Mm1ORFcwcklQZGI5Ym0xYk5Pcw?oc=5",
+          "title": "NCR Voyix (VYX) Could Be 24% Undervalued On Earnings And Turnaround Progress - Yahoo Finance Singapore",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5TYmtzS3ZzaDhLSmRNZmxzeXY0ajVzUFRvR3g2UFJrZXdYbkRuV1BzRVZLSkNvemhDcUMzYklZVXNWcUtSVDBXTUE2bVRhV1RvbHczUEhReW1FRWpuS3g5VkxtLXd1YnNQdHpOSmZKUVliUEdFMlBJT1h2SQ?oc=5",
           "source": "Google News"
         },
         {
-          "title": "What Shift4 Payments (FOUR) Said on Its Q3 Earnings Call - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSDV5c3c5Rk9NcEJVYVU0YzVjN3Bkck84dTRET21rZHZwM09CYXZfLWJOOTEwMG1yem9ZVlpmdDhPWnpILTAzaWxqLXVSQkxTcjVtYlhFZ3V6T2k5UFRJZEtXdF92eDFfNlh1SU5MRmg3MWdxTFE5SEY0X2tURWdGRVVqcnJEODltMGtab0pmN0xVekFlREpzdQ?oc=5",
+          "title": "Is Return To Profit Altering The Investment Case For NCR Voyix Stock (VYX)? - Simply Wall St",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWFpUNXJjeGVRLUpLOV9oSjQ1MGFFUGFfb3ZEOVRpaldvV24zclZ1SnRxdkRUOWR0c2hJQ0VINFRMRzRlZDlpUjk5NDV0MEc5bkQzZ01NTk5mdHJaQmRtVEcxOVRyUi0tNGg2MXppaC02Tkd1LXg4UHVoTWlTTEJGUXhiUjhwOEhyUTM2ZVNsbTlzUWQzbU1SdDVqWmVBXzdBanl1UkFwR2VSNGdvU1pFZGJXVnZ1TF9pLWRxaHpDQW92OG_SAcgBQVVfeXFMT0I3RTFoTGpaNWNwU1F5WExid1o0VGtVRVpaU0ozUkxZOC1GZDJWcGEzcFFtU3dMbWhPWnRveVBMeDhjVUZBbHI4ZGhWdml2T0hDZ1JlaHItaEdXZFQ2MmhoXzh2bExiRjFzbnlfbkM1b2pXdGdaYTIyekdvMGRZWVVINDNkQm9SY0JnS09Tamgtc2JMZzdoMHVBVmpTelpWRVZma2ExSGZpazF6RFpXcnZQeGhDZWFyeG8ySldSbUtsalNhOE9SVUw?oc=5",
           "source": "Google News"
         },
         {
-          "title": "How Investors Are Reacting To Shift4 Payments (FOUR) Lowered Profit Outlook - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcTNzRl9LZThiczRaTnE2VFJkR2JOX1NKTTZISjBzRThRbVViaVZiTkZldWRzQ3owdGFCX2gwb1o1d21Ud2d0Y3Zhb21vTTRLV0pPeWZCbG9HY0xRNDFpSTNiNE5oY1c3R3p6QmR0R3pIX25XV083ZmR6N3VWQTNfRXNUTE1sNGI0d21IUEJaNFZUZUVOMzhvUTM4Qk9QZnljUEh3YW5KUQ?oc=5",
+          "title": "NCR Voyix Transition Sets Up 2027 Returns as Services Revenue Weighs, RBC Says - marketscreener.com",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeW5RRVdSYkN5NTdGZnlOcjQ0LVdmVGxybFlFa2c2Y0VXbTN2eFJZc3lFUm5nbV9xdEZncHVvRlI4MkJCeDVyWFZVSkpZb3FiZ3laaDhjWjBHZjJZQjU5cGVIZGZYanhTUENnTHFiQjI3YWVmazd6b1NaeTVyRmpGWkRzOU5wQWFZZUFRQUxFVzBvQzNuRDZDOTdnQ3BneWdPNk1PM0lrRkNLMkU4S2N5dkhYZHVRZmI3YktIaTZEUzJFa3lWY3d0c1h3?oc=5",
           "source": "Google News"
         }
       ],
-      "company": "Shift4"
-    },
-    {
-      "text": "Fiserv (FISV) stock gained 21.1% over the past week \u2014 material weekly move relative to broader cohort.",
-      "sources": [
-        {
-          "title": "Fiserv bets on payment tech, AI to drive recovery - American Banker",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUUNPMHhfLXI0dnRPN1JENzNNOHhFTlRpNHRqVHRpSkRxZmpEVFkwYkJPT3hrSFh0S21hSUh3VlRrS2lYUGdodDNnVnFlWl9kVmY2V3BFVzhKdFotaUk2UGF6VUlKV3RJYVc0Z2ViQ01GUVI1ZFZZV2Rrc28wN1MtTWxVMHVTMjFkZU9OWFVCVUhMOUl0TUh4cg?oc=5",
-          "source": "Google News"
-        },
-        {
-          "title": "FISV Stock Surges After Earnings Beat \u2014 Doubles Savings Target To $1B, Plans $500M Buyback - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPTE4tdEp0RkdXWXhsRFRlZ3RZLW50LW9rWGhXYU14MjdKall0akhieF9mVk1oNFpDLXVsa3VTNFFKUUFlaUxkM3JSMGl2ZUZ2eDc2UmVoazFNamV6cnFIZFNnRmtnNWRMSDIzQTJlQlN2Q21zd0NnWUEtb0RJaWVPbGFWajktWmx5b3dLM0UxSW9vWnNiSnh0RHlpeGIwcDlsamhzR05IX2lKZWFDcGswdzUyNm1VOUptMFRfeGNoTWROQ2tDVnp6bkI4NHlaMG5XY1pvUm8zb0JRQ2RoSzVJ?oc=5",
-          "source": "Google News"
-        }
-      ],
-      "company": "Fiserv"
+      "company": "NCR Voyix"
     }
   ],
   "most_mentioned": [
@@ -132,11 +132,7 @@
       "count": 15
     },
     {
-      "company": "PAR",
-      "count": 15
-    },
-    {
-      "company": "NCR Voyix",
+      "company": "Toast",
       "count": 15
     },
     {
@@ -153,6 +149,10 @@
     },
     {
       "company": "TouchBistro",
+      "count": 15
+    },
+    {
+      "company": "Deliverect",
       "count": 15
     }
   ]
