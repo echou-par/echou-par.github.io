@@ -1,12 +1,38 @@
 {
-  "week_start": "2026-11-02T14:30:00+00:00",
-  "updated": "2026-11-08T18:57:29.866335+00:00",
-  "items_count": 22,
+  "week_start": "2026-11-09T14:30:00+00:00",
+  "updated": "2026-11-09T23:02:01.645693+00:00",
+  "items_count": 12,
   "by_competitor": {
-    "Shift4": {
+    "Toast": {
       "count": 2,
       "content_types": {
         "site_news": 2
+      },
+      "items": [
+        {
+          "headline": "Toast's Directory of Channel and Integration Partners - Toast",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WSUNaQ3lGSmxNQ2NLa1ZTYzkwNkJ2dlRobGEzVzNmRFZHVV9udVQwanptWGg4UDBzY3k2NGpNSms3WXNPT3k5Z1E1RFZzR3JEemRtbWRR?oc=5",
+          "date": "Fri, 16 Jan 2026 09:01:56 GMT",
+          "emoji": "\ud83e\udd1d",
+          "content_type": "site_news",
+          "source": "Google News (pos.toasttab.com)",
+          "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        },
+        {
+          "headline": "Toast Partner Program - Toast",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9WQ2l6ZENGbUJzWm5nSmpVOTYxbVd0OHFHSnVGSjZkeU80czRLQk9ZeXVMb05yTGZBUi15V1NMVFR4WmRZNk9BdA?oc=5",
+          "date": "Thu, 20 Aug 2026 07:00:00 GMT",
+          "emoji": "\ud83e\udd1d",
+          "content_type": "site_news",
+          "source": "Google News (pos.toasttab.com)",
+          "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        }
+      ]
+    },
+    "Shift4": {
+      "count": 1,
+      "content_types": {
+        "site_news": 1
       },
       "items": [
         {
@@ -16,49 +42,6 @@
           "emoji": "\ud83e\udd1d",
           "content_type": "site_news",
           "source": "Google News (shift4.com)",
-          "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-        },
-        {
-          "headline": "Integrated Payments and Commerce Technology - Shift4",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1IdXl2SnEwMndVd0NLOVZHTEVodTUtUVdiTlhjakI0blkyalJ0bFNyczJOR19JU2xLMG9SLXFnLWJvR1hjUFRhMGdyNmlZMnc?oc=5",
-          "date": "Thu, 02 Feb 2023 19:54:37 GMT",
-          "emoji": "\ud83e\udd1d",
-          "content_type": "site_news",
-          "source": "Google News (shift4.com)",
-          "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-        }
-      ]
-    },
-    "Square": {
-      "count": 1,
-      "content_types": {
-        "site_news": 1
-      },
-      "items": [
-        {
-          "headline": "Point of Sale API and POS Integration Tools - Square",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YcWRsQUJrb3FucUlRbzRvUnkycDNRZ2ZqWVVyWTVkSFVWZVZyTEZpZFBjRDQtSVZZZzg2LTM0anFKODZJdUxabTBNQWVGUnNINEJRakhudkhkRHBCUWpXdXFVTzNkbmc?oc=5",
-          "date": "Wed, 29 May 2019 19:32:55 GMT",
-          "emoji": "\ud83e\udd1d",
-          "content_type": "site_news",
-          "source": "Google News (developer.squareup.com)",
-          "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-        }
-      ]
-    },
-    "Global Payments": {
-      "count": 1,
-      "content_types": {
-        "site_news": 1
-      },
-      "items": [
-        {
-          "headline": "Start integrating a payments solution - Global Payments Developer Portal",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1mUWs5eGU0c2ZQYW9QTG5VRG1XMkljUVdCTTRYQThuZ2FhWk9FOHc1Z0tYMmpabldzc2ZPc2VaWVJ3MWR0dk1ZZHloUDdGdw?oc=5",
-          "date": "Wed, 08 Oct 2025 22:26:20 GMT",
-          "emoji": "\ud83e\udd1d",
-          "content_type": "site_news",
-          "source": "Google News (globalpayments.com)",
           "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
         }
       ]
@@ -70,7 +53,7 @@
       },
       "items": [
         {
-          "headline": "ISV Payment Integrations That Drive Growth - Fiserv Merchant Services",
+          "headline": "ISV Payment Integrations That Drive Growth - Fiserv",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBMNm9pR0hfMUF6ZTJ0c1k2RERFRS1MR3AteERDTHpaS1ZsWTJjMkRBRU9vOC1qeWl1M2NhZVNhYU5nY1U4RVYxZzhZQQ?oc=5",
           "date": "Sun, 13 Dec 2020 19:25:16 GMT",
           "emoji": "\ud83e\udd1d",
@@ -80,60 +63,33 @@
         }
       ]
     },
-    "Olo": {
+    "Uber Eats": {
       "count": 1,
       "content_types": {
         "site_news": 1
       },
       "items": [
         {
-          "headline": "Introducing the Olo App: a smarter way to order food without the menu markups on other food delivery apps - Olo",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5qRkJBR0ZQRGxpNjlLYktfbm5JUFNQa2d4blpldEJzZWRtU0l6c3BZbVRhTVFIc080NnFIWDVfUVg1SGE3LWg5ZUhFWDhhYk9hTHJaLXZB?oc=5",
-          "date": "Tue, 20 Oct 2026 07:00:00 GMT",
-          "emoji": "\ud83d\ude80",
+          "headline": "McDonald\u2019s and Uber Expand Global Partnership Across Delivery and Loyalty in 14 Markets - Uber Investor Relations",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPdmdLWm0zNHJtLTFLMnJwTWpzMEs4OWNPZW50WDVvVi1HRnFhM1VEUEt3SlY2UFNqTGtkdUdURmRpVno4cjItNk5VQjFreHQyc2hRRFpfbVI5LVpYN3VfdFNGN0p5NjdLVkdVOGZwN2ZGam1wOHRmMDNKa2V1aExyMjcyckpoSXBkZHBGYmtBelROUFZ5TmY0cjlPdEtqUnk2QllGYUpoY0U5WTZjaExZNzNDV0c1UTNERzBxS0daYmROMF8yVUhwOEY1dzhtR2EyZkJIT1JwWWdocmQyRnRBdjBFajRILWdscS1HLXlpakVVWVBYRW1YT01HNmdrZw?oc=5",
+          "date": "Mon, 09 Nov 2026 13:02:10 GMT",
+          "emoji": "\ud83e\udd1d",
           "content_type": "site_news",
-          "source": "Google News (olo.com)",
+          "source": "Google News (uber.com)",
           "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
         }
       ]
     },
     "Deliverect": {
-      "count": 4,
+      "count": 1,
       "content_types": {
-        "site_news": 4
+        "site_news": 1
       },
       "items": [
         {
           "headline": "1000+ Integrations To Connect All Your Restaurant Software - Deliverect",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5vWlhhcGlkMThyWmxFb0xsQlVxOGxIZm85bDhSS0JQQ1dpMWJmOW9fMFNPaWJ6OE41RU9vLWdJYVpxNGR3ZXNrbmw5cG1oQVQ1bUxuTHdkblM?oc=5",
           "date": "Thu, 19 Sep 2019 15:15:00 GMT",
-          "emoji": "\ud83e\udd1d",
-          "content_type": "site_news",
-          "source": "Google News (deliverect.com)",
-          "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-        },
-        {
-          "headline": "Dispatch: Activate a Dispatch Partner for a Location - Deliverect",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOczF5MnplMEZ6aTdHamwzNU9TclFLdDlRUjQ3M2xIbGhSTE45S1dYWURzU3BjTXphUXNVV0FkRkpSSDNmRERabjMtbEdBR2NST05FRHRPY1BZczlUWW0xc3pETU1UcjQwa2daRnV2TDFrUHNxQzJxcnhYQ3JCS2xwNlZHVTVzZHlfdThyZTRMcm1sYmd3Ymc4SUQ4MVdZVFF3?oc=5",
-          "date": "Fri, 04 Sep 2026 07:00:00 GMT",
-          "emoji": "\ud83e\udd1d",
-          "content_type": "site_news",
-          "source": "Google News (deliverect.com)",
-          "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-        },
-        {
-          "headline": "Become a referral or reseller partner - Deliverect",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBoTklCZTlZcGFiajVGRnNwOXR1Z1h2N3hNcXRWU1BBaGtnXzc2TE1wczZZZEQwSFZFX0VfOC1vNFp2SXFSdVZ3eFRpdnFldw?oc=5",
-          "date": "Tue, 05 Dec 2023 16:23:45 GMT",
-          "emoji": "\ud83e\udd1d",
-          "content_type": "site_news",
-          "source": "Google News (deliverect.com)",
-          "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-        },
-        {
-          "headline": "DoorDash: Integration Overview - Deliverect",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxON242ZnoxdFNnMll6OERMakRkSFhMUEdBS01Hc0NxVDBXVWJJVHBYZnQ1MmR4WUV1X1N3Z0R4Y1MxMGR3UFRldVZuMFF2VUFwcXgzelFDd1E0cE00eWx0d2JXYU9vX0lJREJ5SlIySkxEOF9IbVlldklSYTBPMk52NVRVNA?oc=5",
-          "date": "Thu, 27 Aug 2026 07:00:00 GMT",
           "emoji": "\ud83e\udd1d",
           "content_type": "site_news",
           "source": "Google News (deliverect.com)",
@@ -192,23 +148,6 @@
         }
       ]
     },
-    "TalonOne": {
-      "count": 1,
-      "content_types": {
-        "site_news": 1
-      },
-      "items": [
-        {
-          "headline": "Technology integrations for loyalty & promotions - Talon.One",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBET0RsRmlkNHBQYUNnVWpFbUNMT2V4UGptN3I0OXpXSjk0V2FnVGIwMGJCV1RjYXFUdlpkaGd1M0Ytai12Qk9GNWo5MEMtR19fTTZR?oc=5",
-          "date": "Mon, 30 Nov 2020 14:20:34 GMT",
-          "emoji": "\ud83e\udd1d",
-          "content_type": "site_news",
-          "source": "Google News (talon.one)",
-          "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-        }
-      ]
-    },
     "Sparkfly": {
       "count": 3,
       "content_types": {
@@ -243,107 +182,20 @@
           "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
         }
       ]
-    },
-    "Paytronix": {
-      "count": 1,
-      "content_types": {
-        "site_news": 1
-      },
-      "items": [
-        {
-          "headline": "Stripe Partner Page | Paytronix Partners - Paytronix",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBKeDl0UXItbktQOUlDWF8xc1dDQk1VdHRLNHFzQTdkMEtSU0RIRERwbC1BLVQwT3ItQmQyVWRDM2xJVkZITGxmRzd1anFOWWZGY3NuTGsxWmZnVG83em1TWXhiNzRkX00?oc=5",
-          "date": "Fri, 01 Aug 2025 15:11:41 GMT",
-          "emoji": "\ud83e\udd1d",
-          "content_type": "site_news",
-          "source": "Google News (paytronix.com)",
-          "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-        }
-      ]
-    },
-    "Toast": {
-      "count": 2,
-      "content_types": {
-        "site_news": 2
-      },
-      "items": [
-        {
-          "headline": "Toast Partner Program - Toast",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9WQ2l6ZENGbUJzWm5nSmpVOTYxbVd0OHFHSnVGSjZkeU80czRLQk9ZeXVMb05yTGZBUi15V1NMVFR4WmRZNk9BdA?oc=5",
-          "date": "Thu, 20 Aug 2026 07:00:00 GMT",
-          "emoji": "\ud83e\udd1d",
-          "content_type": "site_news",
-          "source": "Google News (pos.toasttab.com)",
-          "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-        },
-        {
-          "headline": "Toast's Directory of Channel and Integration Partners - Toast",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WSUNaQ3lGSmxNQ2NLa1ZTYzkwNkJ2dlRobGEzVzNmRFZHVV9udVQwanptWGg4UDBzY3k2NGpNSms3WXNPT3k5Z1E1RFZzR3JEemRtbWRR?oc=5",
-          "date": "Fri, 16 Jan 2026 09:01:56 GMT",
-          "emoji": "\ud83e\udd1d",
-          "content_type": "site_news",
-          "source": "Google News (pos.toasttab.com)",
-          "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-        }
-      ]
-    },
-    "Uber Eats": {
-      "count": 1,
-      "content_types": {
-        "site_news": 1
-      },
-      "items": [
-        {
-          "headline": "Amazon Launches Partnership with Uber Eats Featuring $0 Delivery Fee for Prime Members - Uber Investor Relations",
-          "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNd1N6SjNwQVppMjZNaWxWNnFTUTFmbFNkZ1JyVUZ0Y0JHMEtHVnJzelNXV25zVk5lNm1FbVh3NTRIWWd1LUdLZ1FHS1d6a2xJb1JlUTB6ZHVyWGVHMTNCWTVCNURPWGhvRXBObzlmeE04Vk1lZU00Yl9tb0l3a1VWUHlkSkpESmRERElRRlgwOEVyTkZSenkzdFhXdVpNY2lGcU02YXVPdDlZbmVreVBaZGVHYUsyeHgtNF9qNTBULUd0dlpEUUNPTmhzRV8zczNoUlJvdlEtcW5UaDUyWlR3WHRBM1VVcDh5bE1hdnhJZGc4Y0FrT0o3ZEVpVEFQUXZzb2F5QWIyYnptUkRQejhjTmVn?oc=5",
-          "date": "Thu, 05 Nov 2026 11:02:52 GMT",
-          "emoji": "\ud83e\udd1d",
-          "content_type": "site_news",
-          "source": "Google News (uber.com)",
-          "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-        }
-      ]
-    },
-    "Tillster": {
-      "count": 1,
-      "content_types": {
-        "site_news": 1
-      },
-      "items": [
-        {
-          "headline": "Tillster Integrations - Tillster",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zSmhaOFg2N2xhNVJDSGxIZTFBU2hKNXRHTjR2bUhBYXl3dkFKMDF3ZHJwaVdIX1B6NmI0aFJhV25VOHdxNzh4dW1XMEVMUHNYcGtkQnRmcjZvUQ?oc=5",
-          "date": "Tue, 31 Mar 2026 20:38:48 GMT",
-          "emoji": "\ud83e\udd1d",
-          "content_type": "site_news",
-          "source": "Google News (tillster.com)",
-          "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-        }
-      ]
     }
   },
   "seen_urls": [
-    "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YcWRsQUJrb3FucUlRbzRvUnkycDNRZ2ZqWVVyWTVkSFVWZVZyTEZpZFBjRDQtSVZZZzg2LTM0anFKODZJdUxabTBNQWVGUnNINEJRakhudkhkRHBCUWpXdXFVTzNkbmc?oc=5",
-    "https://news.google.com/rss/articles/CBMiREFVX3lxTE1VQXlFN3lfMlgwWVNkX01iRzhUeE9VUnNkX21BZ29DRmwwTFV5Q3d2RmJ6RlBWemdvd1pMMWVJWi1JY0FF?oc=5",
-    "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5qRkJBR0ZQRGxpNjlLYktfbm5JUFNQa2d4blpldEJzZWRtU0l6c3BZbVRhTVFIc080NnFIWDVfUVg1SGE3LWg5ZUhFWDhhYk9hTHJaLXZB?oc=5",
+    "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WSUNaQ3lGSmxNQ2NLa1ZTYzkwNkJ2dlRobGEzVzNmRFZHVV9udVQwanptWGg4UDBzY3k2NGpNSms3WXNPT3k5Z1E1RFZzR3JEemRtbWRR?oc=5",
+    "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPdmdLWm0zNHJtLTFLMnJwTWpzMEs4OWNPZW50WDVvVi1HRnFhM1VEUEt3SlY2UFNqTGtkdUdURmRpVno4cjItNk5VQjFreHQyc2hRRFpfbVI5LVpYN3VfdFNGN0p5NjdLVkdVOGZwN2ZGam1wOHRmMDNKa2V1aExyMjcyckpoSXBkZHBGYmtBelROUFZ5TmY0cjlPdEtqUnk2QllGYUpoY0U5WTZjaExZNzNDV0c1UTNERzBxS0daYmROMF8yVUhwOEY1dzhtR2EyZkJIT1JwWWdocmQyRnRBdjBFajRILWdscS1HLXlpakVVWVBYRW1YT01HNmdrZw?oc=5",
     "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5KYmlGc1VDXzZaS3o3TGJJMmgxOUgxdE42d2lnOHlGZXkzX1pHMnlUUUxfaEl3LUhGeXB0SVhVWkR0TXJZQmlyV1hHdnZvTmFuSWU5OEEwT1VzTzdU?oc=5",
-    "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zSmhaOFg2N2xhNVJDSGxIZTFBU2hKNXRHTjR2bUhBYXl3dkFKMDF3ZHJwaVdIX1B6NmI0aFJhV25VOHdxNzh4dW1XMEVMUHNYcGtkQnRmcjZvUQ?oc=5",
-    "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUmFLZkxUd2xtbFpoZ29kdHl3RTFmMVhlaWMwTGxHaU9jSVF1WlNyN0JPdkpYell1SWFkaWtiQXFvVExvVldQVl9hZGRiNkVOV0hoYVRST1hjRS1YVTNNOXk1MEhtMU5ONXQxdjR0VjVUMGlkLXBCeDBkWHFGanhOMkQ1MFdONGZQYTZ2YTlESQ?oc=5",
     "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9WQ2l6ZENGbUJzWm5nSmpVOTYxbVd0OHFHSnVGSjZkeU80czRLQk9ZeXVMb05yTGZBUi15V1NMVFR4WmRZNk9BdA?oc=5",
-    "https://news.google.com/rss/articles/CBMibEFVX3lxTFBuZzdPT1dzWlFnWGZjNG54UHhsNW9yd0I5b0RfX3hQdUZBbWxOcmxLaUk5SFJjV3AwM3JuOFVHQlZsSjg3VGVaazRSbWxndTdRd1FETl8ycU55X0VjRUZ4Y1lPQUE3M05KLUNZTQ?oc=5",
-    "https://www.spoton.com/blog/abaca-masters-of-filipino-flavors/",
-    "https://news.google.com/rss/articles/CBMioAFBVV95cUxOczF5MnplMEZ6aTdHamwzNU9TclFLdDlRUjQ3M2xIbGhSTE45S1dYWURzU3BjTXphUXNVV0FkRkpSSDNmRERabjMtbEdBR2NST05FRHRPY1BZczlUWW0xc3pETU1UcjQwa2daRnV2TDFrUHNxQzJxcnhYQ3JCS2xwNlZHVTVzZHlfdThyZTRMcm1sYmd3Ymc4SUQ4MVdZVFF3?oc=5",
     "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBMNm9pR0hfMUF6ZTJ0c1k2RERFRS1MR3AteERDTHpaS1ZsWTJjMkRBRU9vOC1qeWl1M2NhZVNhYU5nY1U4RVYxZzhZQQ?oc=5",
-    "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1mUWs5eGU0c2ZQYW9QTG5VRG1XMkljUVdCTTRYQThuZ2FhWk9FOHc1Z0tYMmpabldzc2ZPc2VaWVJ3MWR0dk1ZZHloUDdGdw?oc=5",
-    "https://news.google.com/rss/articles/CBMikgJBVV95cUxNd1N6SjNwQVppMjZNaWxWNnFTUTFmbFNkZ1JyVUZ0Y0JHMEtHVnJzelNXV25zVk5lNm1FbVh3NTRIWWd1LUdLZ1FHS1d6a2xJb1JlUTB6ZHVyWGVHMTNCWTVCNURPWGhvRXBObzlmeE04Vk1lZU00Yl9tb0l3a1VWUHlkSkpESmRERElRRlgwOEVyTkZSenkzdFhXdVpNY2lGcU02YXVPdDlZbmVreVBaZGVHYUsyeHgtNF9qNTBULUd0dlpEUUNPTmhzRV8zczNoUlJvdlEtcW5UaDUyWlR3WHRBM1VVcDh5bE1hdnhJZGc4Y0FrT0o3ZEVpVEFQUXZzb2F5QWIyYnptUkRQejhjTmVn?oc=5",
-    "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBET0RsRmlkNHBQYUNnVWpFbUNMT2V4UGptN3I0OXpXSjk0V2FnVGIwMGJCV1RjYXFUdlpkaGd1M0Ytai12Qk9GNWo5MEMtR19fTTZR?oc=5",
-    "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBKeDl0UXItbktQOUlDWF8xc1dDQk1VdHRLNHFzQTdkMEtSU0RIRERwbC1BLVQwT3ItQmQyVWRDM2xJVkZITGxmRzd1anFOWWZGY3NuTGsxWmZnVG83em1TWXhiNzRkX00?oc=5",
-    "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBoTklCZTlZcGFiajVGRnNwOXR1Z1h2N3hNcXRWU1BBaGtnXzc2TE1wczZZZEQwSFZFX0VfOC1vNFp2SXFSdVZ3eFRpdnFldw?oc=5",
+    "https://news.google.com/rss/articles/CBMibEFVX3lxTFBuZzdPT1dzWlFnWGZjNG54UHhsNW9yd0I5b0RfX3hQdUZBbWxOcmxLaUk5SFJjV3AwM3JuOFVHQlZsSjg3VGVaazRSbWxndTdRd1FETl8ycU55X0VjRUZ4Y1lPQUE3M05KLUNZTQ?oc=5",
+    "https://news.google.com/rss/articles/CBMiREFVX3lxTE1VQXlFN3lfMlgwWVNkX01iRzhUeE9VUnNkX21BZ29DRmwwTFV5Q3d2RmJ6RlBWemdvd1pMMWVJWi1JY0FF?oc=5",
     "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01WkRYTDBTYncwVVl5NGlFczBLMjNHZjZuYjBvMUphb3ZMUkhLWlAwMzdCTXlHekdsLTVRcTJRdUIzRmNNUFdIcm1qVDVEd05HVTlaM2N5WWlfVUU?oc=5",
     "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5vWlhhcGlkMThyWmxFb0xsQlVxOGxIZm85bDhSS0JQQ1dpMWJmOW9fMFNPaWJ6OE41RU9vLWdJYVpxNGR3ZXNrbmw5cG1oQVQ1bUxuTHdkblM?oc=5",
-    "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1IdXl2SnEwMndVd0NLOVZHTEVodTUtUVdiTlhjakI0blkyalJ0bFNyczJOR19JU2xLMG9SLXFnLWJvR1hjUFRhMGdyNmlZMnc?oc=5",
-    "https://news.google.com/rss/articles/CBMigwFBVV95cUxON242ZnoxdFNnMll6OERMakRkSFhMUEdBS01Hc0NxVDBXVWJJVHBYZnQ1MmR4WUV1X1N3Z0R4Y1MxMGR3UFRldVZuMFF2VUFwcXgzelFDd1E0cE00eWx0d2JXYU9vX0lJREJ5SlIySkxEOF9IbVlldklSYTBPMk52NVRVNA?oc=5",
-    "https://news.google.com/rss/articles/CBMiO0FVX3lxTE4zSmswR0FJOW40RzNPZ042d05kRGs4MG4xNU5WemozSERIYmE1R1IyQVk3bnJ3R0FwVUUw?oc=5",
-    "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WSUNaQ3lGSmxNQ2NLa1ZTYzkwNkJ2dlRobGEzVzNmRFZHVV9udVQwanptWGg4UDBzY3k2NGpNSms3WXNPT3k5Z1E1RFZzR3JEemRtbWRR?oc=5"
+    "https://www.spoton.com/blog/abaca-masters-of-filipino-flavors/",
+    "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUmFLZkxUd2xtbFpoZ29kdHl3RTFmMVhlaWMwTGxHaU9jSVF1WlNyN0JPdkpYell1SWFkaWtiQXFvVExvVldQVl9hZGRiNkVOV0hoYVRST1hjRS1YVTNNOXk1MEhtMU5ONXQxdjR0VjVUMGlkLXBCeDBkWHFGanhOMkQ1MFdONGZQYTZ2YTlESQ?oc=5",
+    "https://news.google.com/rss/articles/CBMiO0FVX3lxTE4zSmswR0FJOW40RzNPZ042d05kRGs4MG4xNU5WemozSERIYmE1R1IyQVk3bnJ3R0FwVUUw?oc=5"
   ]
 }
