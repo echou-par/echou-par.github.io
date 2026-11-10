@@ -1,10 +1,23 @@
 {
-  "updated": "2026-11-10T03:21:27.974032+00:00",
-  "total": 4,
+  "updated": "2026-11-10T11:37:55.733274+00:00",
+  "total": 5,
   "by_category": {
+    "analyst_downgrade": 1,
     "stock_move": 4
   },
   "alerts": [
+    {
+      "category": "analyst_downgrade",
+      "severity": "high",
+      "company": "Lightspeed",
+      "headline": "Lightspeed Commerce (NYSE:LSPD) Stock Breaks Above 50-Day Moving Average After Analyst Downgrade - MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOdEZEYS1qZWhpYU5HUVZiSzZycTNrN2tpQ0hKX1BUQU9KbUNYRWRrMm5Xc2o1VjkzYnJGNktsMFhlOHRUeEtnN2x4UllLODF1WWdrdXhkNHItRmZyN2hmeVd4MGcyYWFGV3FBTW50dXN1aW1sOWxxc1ZqblRjSy14Z1Y0SXo2X2RHaW9ISGltMUdTRFBmVndES09pWEdMSEJ3dmVQd19tckdDVXNYc2hsVDFzQkt6Z0l4TGdQVmJ5T19aakJ4WlJHSV8xMzVlYVdwM2ktdl9sTFM3QmpfNEMzbFRjQnduMW1iZmc?oc=5",
+      "source": "Google News",
+      "date": "Tue, 10 Nov 2026 05:24:24 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-11-10T11:37:55.733274+00:00"
+    },
     {
       "category": "stock_move",
       "severity": "high",
@@ -12,10 +25,10 @@
       "headline": "PAR (PAR) stock up 20.3% over the past week",
       "url": "https://finance.yahoo.com/quote/PAR",
       "source": "Yahoo Finance",
-      "date": "2026-11-10T03:21:27.974032+00:00",
+      "date": "2026-11-10T11:37:55.733274+00:00",
       "par_relevance": 3,
       "note": "+20.3% 1W",
-      "detected_at": "2026-11-10T03:21:27.974032+00:00"
+      "detected_at": "2026-11-10T11:37:55.733274+00:00"
     },
     {
       "category": "stock_move",
@@ -24,10 +37,10 @@
       "headline": "NCR Voyix (VYX) stock up 12.4% over the past week",
       "url": "https://finance.yahoo.com/quote/VYX",
       "source": "Yahoo Finance",
-      "date": "2026-11-10T03:21:27.974032+00:00",
+      "date": "2026-11-10T11:37:55.733274+00:00",
       "par_relevance": 3,
       "note": "+12.4% 1W",
-      "detected_at": "2026-11-10T03:21:27.974032+00:00"
+      "detected_at": "2026-11-10T11:37:55.733274+00:00"
     },
     {
       "category": "stock_move",
@@ -36,10 +49,10 @@
       "headline": "Shift4 (FOUR) stock up 8.5% over the past week",
       "url": "https://finance.yahoo.com/quote/FOUR",
       "source": "Yahoo Finance",
-      "date": "2026-11-10T03:21:27.974032+00:00",
+      "date": "2026-11-10T11:37:55.733274+00:00",
       "par_relevance": 3,
       "note": "+8.5% 1W",
-      "detected_at": "2026-11-10T03:21:27.974032+00:00"
+      "detected_at": "2026-11-10T11:37:55.733274+00:00"
     },
     {
       "category": "stock_move",
@@ -48,10 +61,10 @@
       "headline": "Fiserv (FISV) stock up 8.8% over the past week",
       "url": "https://finance.yahoo.com/quote/FISV",
       "source": "Yahoo Finance",
-      "date": "2026-11-10T03:21:27.974032+00:00",
+      "date": "2026-11-10T11:37:55.733274+00:00",
       "par_relevance": 3,
       "note": "+8.8% 1W",
-      "detected_at": "2026-11-10T03:21:27.974032+00:00"
+      "detected_at": "2026-11-10T11:37:55.733274+00:00"
     }
   ]
 }
