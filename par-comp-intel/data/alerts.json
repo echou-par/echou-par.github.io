@@ -1,23 +1,10 @@
 {
-  "updated": "2026-11-11T00:30:18.545829+00:00",
-  "total": 4,
+  "updated": "2026-11-11T07:38:39.922251+00:00",
+  "total": 3,
   "by_category": {
-    "analyst_downgrade": 1,
     "stock_move": 3
   },
   "alerts": [
-    {
-      "category": "analyst_downgrade",
-      "severity": "high",
-      "company": "Lightspeed",
-      "headline": "Lightspeed Commerce (NYSE:LSPD) Stock Breaks Above 50-Day Moving Average After Analyst Downgrade - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOdEZEYS1qZWhpYU5HUVZiSzZycTNrN2tpQ0hKX1BUQU9KbUNYRWRrMm5Xc2o1VjkzYnJGNktsMFhlOHRUeEtnN2x4UllLODF1WWdrdXhkNHItRmZyN2hmeVd4MGcyYWFGV3FBTW50dXN1aW1sOWxxc1ZqblRjSy14Z1Y0SXo2X2RHaW9ISGltMUdTRFBmVndES09pWEdMSEJ3dmVQd19tckdDVXNYc2hsVDFzQkt6Z0l4TGdQVmJ5T19aakJ4WlJHSV8xMzVlYVdwM2ktdl9sTFM3QmpfNEMzbFRjQnduMW1iZmc?oc=5",
-      "source": "Google News",
-      "date": "Tue, 10 Nov 2026 05:24:24 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-11-11T00:30:18.545829+00:00"
-    },
     {
       "category": "stock_move",
       "severity": "high",
@@ -25,10 +12,10 @@
       "headline": "PAR (PAR) stock up 17.4% over the past week",
       "url": "https://finance.yahoo.com/quote/PAR",
       "source": "Yahoo Finance",
-      "date": "2026-11-11T00:30:18.545829+00:00",
+      "date": "2026-11-11T07:38:39.922251+00:00",
       "par_relevance": 3,
       "note": "+17.4% 1W",
-      "detected_at": "2026-11-11T00:30:18.545829+00:00"
+      "detected_at": "2026-11-11T07:38:39.922251+00:00"
     },
     {
       "category": "stock_move",
@@ -37,10 +24,10 @@
       "headline": "Lightspeed (LSPD) stock down 11.0% over the past week",
       "url": "https://finance.yahoo.com/quote/LSPD",
       "source": "Yahoo Finance",
-      "date": "2026-11-11T00:30:18.545829+00:00",
+      "date": "2026-11-11T07:38:39.922251+00:00",
       "par_relevance": 3,
       "note": "-11.0% 1W",
-      "detected_at": "2026-11-11T00:30:18.545829+00:00"
+      "detected_at": "2026-11-11T07:38:39.922251+00:00"
     },
     {
       "category": "stock_move",
@@ -49,10 +36,10 @@
       "headline": "DoorDash (DASH) stock down 10.2% over the past week",
       "url": "https://finance.yahoo.com/quote/DASH",
       "source": "Yahoo Finance",
-      "date": "2026-11-11T00:30:18.545829+00:00",
+      "date": "2026-11-11T07:38:39.922251+00:00",
       "par_relevance": 2,
       "note": "-10.2% 1W",
-      "detected_at": "2026-11-11T00:30:18.545829+00:00"
+      "detected_at": "2026-11-11T07:38:39.922251+00:00"
     }
   ]
 }
