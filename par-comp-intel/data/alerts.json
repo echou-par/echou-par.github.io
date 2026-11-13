@@ -1,34 +1,6 @@
 {
-  "updated": "2026-11-13T08:39:28.726257+00:00",
-  "total": 2,
-  "by_category": {
-    "analyst_downgrade": 1,
-    "stock_move": 1
-  },
-  "alerts": [
-    {
-      "category": "analyst_downgrade",
-      "severity": "high",
-      "company": "Toast",
-      "headline": "Bernstein SocGen Group Downgrades Toast Inc. (TOST) to Market Perform - StreetInsider",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNR3c3QzlOTXB6T016R09nNVRCbFhySHZhSjYxSFNKeHhCZi1xWHphc3Y3OUFvUGYxSWY4QWZaVURvVVRVTGZxbG1qRFh2bVpMcE96ZnV3QzI2ZU5YMkdGenZrNi1BSVVveTlmVG9ueUJGOE5LTGNkOGNUTnFzME9ZcUpDYU1QNU12ZVRYdkdKUjZjbDZQZzUwY2o1Y3RoZlV3U2tXa0QyUWo3RWRxOE4zZllYZmJGdkJMR3NFUDdSVzVnYjY4NnR0RW4tR1VyWHM?oc=5",
-      "source": "Google News",
-      "date": "Wed, 11 Nov 2026 11:37:13 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-11-13T08:39:28.726257+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "medium",
-      "company": "Global Payments",
-      "headline": "Global Payments (GPN) stock down 9.5% over the past week",
-      "url": "https://finance.yahoo.com/quote/GPN",
-      "source": "Yahoo Finance",
-      "date": "2026-11-13T08:39:28.726257+00:00",
-      "par_relevance": 3,
-      "note": "-9.5% 1W",
-      "detected_at": "2026-11-13T08:39:28.726257+00:00"
-    }
-  ]
+  "updated": "2026-11-13T17:04:25.186759+00:00",
+  "total": 0,
+  "by_category": {},
+  "alerts": []
 }
