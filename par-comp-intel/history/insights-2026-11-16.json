@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-16",
+  "weekday": "Monday",
+  "first_seen": "2026-11-16T07:49:04.496008+00:00",
+  "last_updated": "2026-11-16T07:49:04.496008+00:00",
+  "insights": [
+    {
+      "text": "Global Payments (GPN) stock declined 6.0% over the past week \u2014 material weekly move relative to broader cohort.",
+      "sources": [
+        {
+          "title": "GPN on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/GPN",
+          "source": "Yahoo Finance"
+        }
+      ],
+      "company": "Global Payments",
+      "first_detected": "2026-11-16T07:49:04.496008+00:00"
+    },
+    {
+      "text": "NCR Voyix (VYX) stock gained 6.0% over the past week \u2014 material weekly move relative to broader cohort.",
+      "sources": [
+        {
+          "title": "VYX on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/VYX",
+          "source": "Yahoo Finance"
+        }
+      ],
+      "company": "NCR Voyix",
+      "first_detected": "2026-11-16T07:49:04.496008+00:00"
+    },
+    {
+      "text": "Global Payments (GPN) leading revenue growth at +63.7% YoY \u2014 fastest grower among tracked public competitors.",
+      "sources": [
+        {
+          "title": "Global Payments financials on Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/GPN/financials",
+          "source": "Yahoo Finance"
+        }
+      ],
+      "company": "Global Payments",
+      "first_detected": "2026-11-16T07:49:04.496008+00:00"
+    }
+  ],
+  "most_mentioned": [
+    {
+      "company": "Uber Eats",
+      "count": 1
+    }
+  ]
+}
