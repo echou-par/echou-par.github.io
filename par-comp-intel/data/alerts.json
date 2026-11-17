@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T23:27:53.592917+00:00",
+  "updated": "2026-11-17T01:59:26.421028+00:00",
   "total": 3,
   "by_category": {
     "analyst_downgrade": 2,
@@ -16,7 +16,7 @@
       "date": "Mon, 16 Nov 2026 11:00:00 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-11-16T23:27:53.592917+00:00"
+      "detected_at": "2026-11-17T01:59:26.421028+00:00"
     },
     {
       "category": "analyst_downgrade",
@@ -28,19 +28,19 @@
       "date": "Wed, 11 Nov 2026 11:37:13 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-11-16T23:27:53.592917+00:00"
+      "detected_at": "2026-11-17T01:59:26.421028+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "Global Payments",
-      "headline": "Global Payments (GPN) stock down 11.6% over the past week",
+      "headline": "Global Payments (GPN) stock down 9.5% over the past week",
       "url": "https://finance.yahoo.com/quote/GPN",
       "source": "Yahoo Finance",
-      "date": "2026-11-16T23:27:53.592917+00:00",
+      "date": "2026-11-17T01:59:26.421028+00:00",
       "par_relevance": 3,
-      "note": "-11.6% 1W",
-      "detected_at": "2026-11-16T23:27:53.592917+00:00"
+      "note": "-9.5% 1W",
+      "detected_at": "2026-11-17T01:59:26.421028+00:00"
     }
   ]
 }
