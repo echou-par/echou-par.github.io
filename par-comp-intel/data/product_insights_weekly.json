@@ -1,7 +1,7 @@
 {
   "week_start": "2026-11-16T14:30:00+00:00",
-  "updated": "2026-11-16T23:27:53.592917+00:00",
-  "items_count": 12,
+  "updated": "2026-11-17T21:49:36.157087+00:00",
+  "items_count": 16,
   "by_competitor": {
     "Shift4": {
       "count": 2,
@@ -73,9 +73,9 @@
       ]
     },
     "SpotOn": {
-      "count": 1,
+      "count": 2,
       "content_types": {
-        "product_release": 1
+        "product_release": 2
       },
       "items": [
         {
@@ -86,6 +86,15 @@
           "content_type": "product_release",
           "source": "SpotOn blog",
           "description": "SpotOn partners on Masters of Filipino Flavors, a series at Abac\u00e1 in San Francisco with 16 Filipino American chefs and bartenders, Oct. 10-16."
+        },
+        {
+          "headline": "SpotOn Introduces SpotOn Assistant Manager, an AI Agent that Helped a Texas Restaurant Save More than\u00a0$124,000",
+          "url": "https://www.spoton.com/blog/spoton-assistant-manager-ai-agent/",
+          "date": "Tue, 17 Nov 2026 14:55:00 GMT",
+          "emoji": "\ud83d\ude80",
+          "content_type": "product_release",
+          "source": "SpotOn blog",
+          "description": "SpotOn\u2019s first AI Agent texts, builds reports and helps operators get answers from sales, labor, kitchen, guest and third-party data to unlock their restaurant\u2019s profit potential"
         }
       ]
     },
@@ -174,20 +183,75 @@
           "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
         }
       ]
+    },
+    "Olo": {
+      "count": 1,
+      "content_types": {
+        "site_news": 1
+      },
+      "items": [
+        {
+          "headline": "Introducing the Olo App: a smarter way to order food without the menu markups on other food delivery apps - Olo",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5qRkJBR0ZQRGxpNjlLYktfbm5JUFNQa2d4blpldEJzZWRtU0l6c3BZbVRhTVFIc080NnFIWDVfUVg1SGE3LWg5ZUhFWDhhYk9hTHJaLXZB?oc=5",
+          "date": "Tue, 20 Oct 2026 07:00:00 GMT",
+          "emoji": "\ud83d\ude80",
+          "content_type": "site_news",
+          "source": "Google News (olo.com)",
+          "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        }
+      ]
+    },
+    "TouchBistro": {
+      "count": 1,
+      "content_types": {
+        "site_news": 1
+      },
+      "items": [
+        {
+          "headline": "POS Integrations & APIs - TouchBistro",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9VXzIyaTktQzNJQThLc0g0VU5JZGMtQjNMRW90SHE1NVZua0RfclJlTElOSGhINUV6cjBhR0RZbWtuLXQwMGFqWmFfeTFYeE93OHY4WEtsWGFZWHp5Q25J?oc=5",
+          "date": "Tue, 04 May 2021 13:48:04 GMT",
+          "emoji": "\ud83e\udd1d",
+          "content_type": "site_news",
+          "source": "Google News (touchbistro.com)",
+          "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        }
+      ]
+    },
+    "TalonOne": {
+      "count": 1,
+      "content_types": {
+        "site_news": 1
+      },
+      "items": [
+        {
+          "headline": "Integration tutorial - Talon.One docs",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5EWnNMcEVWY1YxbnVpSUpyU3RxZUpaeXUwS2xhOThyNTNJMjBFdmFEc2RlYWNscjdFZTZGZ0IwUGxHZm9RQUJSTnVXS0RDWjkyRFdCaFl4Q05xQ2ZHOS1MTUNUSExMSWNxN2dYVU9vRE9MQQ?oc=5",
+          "date": "Mon, 19 Jan 2026 15:59:02 GMT",
+          "emoji": "\ud83e\udd1d",
+          "content_type": "site_news",
+          "source": "Google News (talon.one)",
+          "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        }
+      ]
     }
   },
   "seen_urls": [
-    "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xb3B5YlhsY0pVZVhLR3ROczBlb1RBbmF1YjlUaWZnVlJmMk5NQnNXaGp6OHBpcEJkTlRKaWFUQnRBc2xCa1NpRVlfcW5BUUMzeERhVkI1bWJIZw?oc=5",
-    "https://news.google.com/rss/articles/CBMiO0FVX3lxTE4zSmswR0FJOW40RzNPZ042d05kRGs4MG4xNU5WemozSERIYmE1R1IyQVk3bnJ3R0FwVUUw?oc=5",
-    "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBMNm9pR0hfMUF6ZTJ0c1k2RERFRS1MR3AteERDTHpaS1ZsWTJjMkRBRU9vOC1qeWl1M2NhZVNhYU5nY1U4RVYxZzhZQQ?oc=5",
-    "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1IdXl2SnEwMndVd0NLOVZHTEVodTUtUVdiTlhjakI0blkyalJ0bFNyczJOR19JU2xLMG9SLXFnLWJvR1hjUFRhMGdyNmlZMnc?oc=5",
-    "https://www.spoton.com/blog/abaca-masters-of-filipino-flavors/",
-    "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUmFLZkxUd2xtbFpoZ29kdHl3RTFmMVhlaWMwTGxHaU9jSVF1WlNyN0JPdkpYell1SWFkaWtiQXFvVExvVldQVl9hZGRiNkVOV0hoYVRST1hjRS1YVTNNOXk1MEhtMU5ONXQxdjR0VjVUMGlkLXBCeDBkWHFGanhOMkQ1MFdONGZQYTZ2YTlESQ?oc=5",
+    "https://www.spoton.com/blog/spoton-assistant-manager-ai-agent/",
     "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01WkRYTDBTYncwVVl5NGlFczBLMjNHZjZuYjBvMUphb3ZMUkhLWlAwMzdCTXlHekdsLTVRcTJRdUIzRmNNUFdIcm1qVDVEd05HVTlaM2N5WWlfVUU?oc=5",
-    "https://news.google.com/rss/articles/CBMibEFVX3lxTFBuZzdPT1dzWlFnWGZjNG54UHhsNW9yd0I5b0RfX3hQdUZBbWxOcmxLaUk5SFJjV3AwM3JuOFVHQlZsSjg3VGVaazRSbWxndTdRd1FETl8ycU55X0VjRUZ4Y1lPQUE3M05KLUNZTQ?oc=5",
-    "https://news.google.com/rss/articles/CBMiREFVX3lxTE1VQXlFN3lfMlgwWVNkX01iRzhUeE9VUnNkX21BZ29DRmwwTFV5Q3d2RmJ6RlBWemdvd1pMMWVJWi1JY0FF?oc=5",
     "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5KYmlGc1VDXzZaS3o3TGJJMmgxOUgxdE42d2lnOHlGZXkzX1pHMnlUUUxfaEl3LUhGeXB0SVhVWkR0TXJZQmlyV1hHdnZvTmFuSWU5OEEwT1VzTzdU?oc=5",
+    "https://news.google.com/rss/articles/CBMiREFVX3lxTE1VQXlFN3lfMlgwWVNkX01iRzhUeE9VUnNkX21BZ29DRmwwTFV5Q3d2RmJ6RlBWemdvd1pMMWVJWi1JY0FF?oc=5",
+    "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9VXzIyaTktQzNJQThLc0g0VU5JZGMtQjNMRW90SHE1NVZua0RfclJlTElOSGhINUV6cjBhR0RZbWtuLXQwMGFqWmFfeTFYeE93OHY4WEtsWGFZWHp5Q25J?oc=5",
+    "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5qRkJBR0ZQRGxpNjlLYktfbm5JUFNQa2d4blpldEJzZWRtU0l6c3BZbVRhTVFIc080NnFIWDVfUVg1SGE3LWg5ZUhFWDhhYk9hTHJaLXZB?oc=5",
+    "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1IdXl2SnEwMndVd0NLOVZHTEVodTUtUVdiTlhjakI0blkyalJ0bFNyczJOR19JU2xLMG9SLXFnLWJvR1hjUFRhMGdyNmlZMnc?oc=5",
+    "https://news.google.com/rss/articles/CBMibEFVX3lxTFBuZzdPT1dzWlFnWGZjNG54UHhsNW9yd0I5b0RfX3hQdUZBbWxOcmxLaUk5SFJjV3AwM3JuOFVHQlZsSjg3VGVaazRSbWxndTdRd1FETl8ycU55X0VjRUZ4Y1lPQUE3M05KLUNZTQ?oc=5",
+    "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xb3B5YlhsY0pVZVhLR3ROczBlb1RBbmF1YjlUaWZnVlJmMk5NQnNXaGp6OHBpcEJkTlRKaWFUQnRBc2xCa1NpRVlfcW5BUUMzeERhVkI1bWJIZw?oc=5",
+    "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUmFLZkxUd2xtbFpoZ29kdHl3RTFmMVhlaWMwTGxHaU9jSVF1WlNyN0JPdkpYell1SWFkaWtiQXFvVExvVldQVl9hZGRiNkVOV0hoYVRST1hjRS1YVTNNOXk1MEhtMU5ONXQxdjR0VjVUMGlkLXBCeDBkWHFGanhOMkQ1MFdONGZQYTZ2YTlESQ?oc=5",
+    "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5vWlhhcGlkMThyWmxFb0xsQlVxOGxIZm85bDhSS0JQQ1dpMWJmOW9fMFNPaWJ6OE41RU9vLWdJYVpxNGR3ZXNrbmw5cG1oQVQ1bUxuTHdkblM?oc=5",
+    "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBMNm9pR0hfMUF6ZTJ0c1k2RERFRS1MR3AteERDTHpaS1ZsWTJjMkRBRU9vOC1qeWl1M2NhZVNhYU5nY1U4RVYxZzhZQQ?oc=5",
     "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNQnBWSnJ0aUUwT2JnbHA2T0pwWlh1MDl5SE5EVDNmRWc5RXlfUlVRMWJNd0dzczJDNTNuX2hDYVY5NGVDQVFmQkNzVnhYdWU5ZXBmcDZ4YkRxN1N6Mng0WVZHZ01NRXh2eVRvN1F0dC1CVEFaVFVYWUs3cndBd0N6d3h1Wlp6dFdqTTlPeDNQRG9iblVVZ1Bjdi15T0VmWVhlRGxHdW5zeG0xNzRnNzZIZmNxWlV2UFl1S2tZeWNXSHVKSktfemR4ZTZ5UWR6X1R5SWtFWEh6TGhJbUxCU0hBVkVMaGRTYmdORHc?oc=5",
-    "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5vWlhhcGlkMThyWmxFb0xsQlVxOGxIZm85bDhSS0JQQ1dpMWJmOW9fMFNPaWJ6OE41RU9vLWdJYVpxNGR3ZXNrbmw5cG1oQVQ1bUxuTHdkblM?oc=5"
+    "https://news.google.com/rss/articles/CBMiO0FVX3lxTE4zSmswR0FJOW40RzNPZ042d05kRGs4MG4xNU5WemozSERIYmE1R1IyQVk3bnJ3R0FwVUUw?oc=5",
+    "https://news.google.com/rss/articles/CBMickFVX3lxTE5EWnNMcEVWY1YxbnVpSUpyU3RxZUpaeXUwS2xhOThyNTNJMjBFdmFEc2RlYWNscjdFZTZGZ0IwUGxHZm9RQUJSTnVXS0RDWjkyRFdCaFl4Q05xQ2ZHOS1MTUNUSExMSWNxN2dYVU9vRE9MQQ?oc=5",
+    "https://www.spoton.com/blog/abaca-masters-of-filipino-flavors/"
   ]
 }
