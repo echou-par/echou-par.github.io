@@ -1,33 +1,34 @@
 {
-  "updated": "2026-11-17T22:32:53.133068+00:00",
+  "updated": "2026-11-18T02:16:59.634808+00:00",
   "total": 2,
   "by_category": {
-    "stock_move": 2
+    "analyst_downgrade": 1,
+    "stock_move": 1
   },
   "alerts": [
     {
-      "category": "stock_move",
+      "category": "analyst_downgrade",
       "severity": "high",
-      "company": "Global Payments",
-      "headline": "Global Payments (GPN) stock down 14.9% over the past week",
-      "url": "https://finance.yahoo.com/quote/GPN",
-      "source": "Yahoo Finance",
-      "date": "2026-11-17T22:32:53.133068+00:00",
+      "company": "Toast",
+      "headline": "Weekly Recap: Q3 gross profit and location growth and Bernstein downgrade - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPb1BZQno0a1FXNnhFcmNIQjBNa2k1M2ZSRG9TUEUwTUQwcjVmZnBLbFVtaXZaU3VnSEtfRUlhVkxzNUtDWDN2VUhvY29xQmJTcVBKMDNzMFVZM29fYmxyTV9kU3pSbHNjaGlndTRxbC1OWm12Zjlla3QzVzFzN3cyMHpjT3phS0RNdndES29aR2hhU2h1VGtvNm1MUFFTSC1ORjQtZEN1c3BBV01ZaEZOYllQX0xubnJfeGxaZnNTQ1EzNF9mbkxOXzRJc2NZSU0?oc=5",
+      "source": "Google News",
+      "date": "Mon, 16 Nov 2026 11:00:00 GMT",
       "par_relevance": 3,
-      "note": "-14.9% 1W",
-      "detected_at": "2026-11-17T22:32:53.133068+00:00"
+      "note": null,
+      "detected_at": "2026-11-18T02:16:59.634808+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
-      "company": "DoorDash",
-      "headline": "DoorDash (DASH) stock down 7.5% over the past week",
-      "url": "https://finance.yahoo.com/quote/DASH",
+      "company": "Global Payments",
+      "headline": "Global Payments (GPN) stock down 10.4% over the past week",
+      "url": "https://finance.yahoo.com/quote/GPN",
       "source": "Yahoo Finance",
-      "date": "2026-11-17T22:32:53.133068+00:00",
-      "par_relevance": 2,
-      "note": "-7.5% 1W",
-      "detected_at": "2026-11-17T22:32:53.133068+00:00"
+      "date": "2026-11-18T02:16:59.634808+00:00",
+      "par_relevance": 3,
+      "note": "-10.4% 1W",
+      "detected_at": "2026-11-18T02:16:59.634808+00:00"
     }
   ]
 }
