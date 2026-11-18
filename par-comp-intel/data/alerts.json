@@ -1,9 +1,8 @@
 {
-  "updated": "2026-11-18T10:35:26.074059+00:00",
-  "total": 3,
+  "updated": "2026-11-18T19:19:13.899953+00:00",
+  "total": 1,
   "by_category": {
-    "analyst_downgrade": 1,
-    "stock_move": 2
+    "analyst_downgrade": 1
   },
   "alerts": [
     {
@@ -16,31 +15,7 @@
       "date": "Mon, 16 Nov 2026 11:00:00 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-11-18T10:35:26.074059+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "high",
-      "company": "Global Payments",
-      "headline": "Global Payments (GPN) stock down 14.9% over the past week",
-      "url": "https://finance.yahoo.com/quote/GPN",
-      "source": "Yahoo Finance",
-      "date": "2026-11-18T10:35:26.074059+00:00",
-      "par_relevance": 3,
-      "note": "-14.9% 1W",
-      "detected_at": "2026-11-18T10:35:26.074059+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "medium",
-      "company": "DoorDash",
-      "headline": "DoorDash (DASH) stock down 7.5% over the past week",
-      "url": "https://finance.yahoo.com/quote/DASH",
-      "source": "Yahoo Finance",
-      "date": "2026-11-18T10:35:26.074059+00:00",
-      "par_relevance": 2,
-      "note": "-7.5% 1W",
-      "detected_at": "2026-11-18T10:35:26.074059+00:00"
+      "detected_at": "2026-11-18T19:19:13.899953+00:00"
     }
   ]
 }
