@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T17:57:05.415640+00:00",
+  "updated": "2026-11-20T21:20:20.985174+00:00",
   "total": 9,
   "by_category": {
     "analyst_downgrade": 2,
@@ -16,7 +16,7 @@
       "date": "Fri, 20 Nov 2026 14:31:14 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-11-20T17:57:05.415640+00:00"
+      "detected_at": "2026-11-20T21:20:20.985174+00:00"
     },
     {
       "category": "analyst_downgrade",
@@ -28,31 +28,31 @@
       "date": "Mon, 16 Nov 2026 11:00:00 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-11-20T17:57:05.415640+00:00"
+      "detected_at": "2026-11-20T21:20:20.985174+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "PAR",
-      "headline": "PAR (PAR) stock down 9.9% over the past week",
+      "headline": "PAR (PAR) stock down 11.6% over the past week",
       "url": "https://finance.yahoo.com/quote/PAR",
       "source": "Yahoo Finance",
-      "date": "2026-11-20T17:57:05.415640+00:00",
+      "date": "2026-11-20T21:20:20.985174+00:00",
       "par_relevance": 3,
-      "note": "-9.9% 1W",
-      "detected_at": "2026-11-20T17:57:05.415640+00:00"
+      "note": "-11.6% 1W",
+      "detected_at": "2026-11-20T21:20:20.985174+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "Toast",
-      "headline": "Toast (TOST) stock down 7.9% over the past week",
+      "headline": "Toast (TOST) stock down 10.2% over the past week",
       "url": "https://finance.yahoo.com/quote/TOST",
       "source": "Yahoo Finance",
-      "date": "2026-11-20T17:57:05.415640+00:00",
+      "date": "2026-11-20T21:20:20.985174+00:00",
       "par_relevance": 3,
-      "note": "-7.9% 1W",
-      "detected_at": "2026-11-20T17:57:05.415640+00:00"
+      "note": "-10.2% 1W",
+      "detected_at": "2026-11-20T21:20:20.985174+00:00"
     },
     {
       "category": "stock_move",
@@ -61,58 +61,58 @@
       "headline": "NCR Voyix (VYX) stock down 11.5% over the past week",
       "url": "https://finance.yahoo.com/quote/VYX",
       "source": "Yahoo Finance",
-      "date": "2026-11-20T17:57:05.415640+00:00",
+      "date": "2026-11-20T21:20:20.985174+00:00",
       "par_relevance": 3,
       "note": "-11.5% 1W",
-      "detected_at": "2026-11-20T17:57:05.415640+00:00"
+      "detected_at": "2026-11-20T21:20:20.985174+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "Lightspeed",
-      "headline": "Lightspeed (LSPD) stock down 7.7% over the past week",
+      "headline": "Lightspeed (LSPD) stock down 8.5% over the past week",
       "url": "https://finance.yahoo.com/quote/LSPD",
       "source": "Yahoo Finance",
-      "date": "2026-11-20T17:57:05.415640+00:00",
+      "date": "2026-11-20T21:20:20.985174+00:00",
       "par_relevance": 3,
-      "note": "-7.7% 1W",
-      "detected_at": "2026-11-20T17:57:05.415640+00:00"
+      "note": "-8.5% 1W",
+      "detected_at": "2026-11-20T21:20:20.985174+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "Shift4",
-      "headline": "Shift4 (FOUR) stock down 11.2% over the past week",
+      "headline": "Shift4 (FOUR) stock down 10.4% over the past week",
       "url": "https://finance.yahoo.com/quote/FOUR",
       "source": "Yahoo Finance",
-      "date": "2026-11-20T17:57:05.415640+00:00",
+      "date": "2026-11-20T21:20:20.985174+00:00",
       "par_relevance": 3,
-      "note": "-11.2% 1W",
-      "detected_at": "2026-11-20T17:57:05.415640+00:00"
+      "note": "-10.4% 1W",
+      "detected_at": "2026-11-20T21:20:20.985174+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "Fiserv",
-      "headline": "Fiserv (FISV) stock down 11.4% over the past week",
+      "headline": "Fiserv (FISV) stock down 11.8% over the past week",
       "url": "https://finance.yahoo.com/quote/FISV",
       "source": "Yahoo Finance",
-      "date": "2026-11-20T17:57:05.415640+00:00",
+      "date": "2026-11-20T21:20:20.985174+00:00",
       "par_relevance": 3,
-      "note": "-11.4% 1W",
-      "detected_at": "2026-11-20T17:57:05.415640+00:00"
+      "note": "-11.8% 1W",
+      "detected_at": "2026-11-20T21:20:20.985174+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "DoorDash",
-      "headline": "DoorDash (DASH) stock down 8.1% over the past week",
+      "headline": "DoorDash (DASH) stock down 10.1% over the past week",
       "url": "https://finance.yahoo.com/quote/DASH",
       "source": "Yahoo Finance",
-      "date": "2026-11-20T17:57:05.415640+00:00",
+      "date": "2026-11-20T21:20:20.985174+00:00",
       "par_relevance": 2,
-      "note": "-8.1% 1W",
-      "detected_at": "2026-11-20T17:57:05.415640+00:00"
+      "note": "-10.1% 1W",
+      "detected_at": "2026-11-20T21:20:20.985174+00:00"
     }
   ]
 }
