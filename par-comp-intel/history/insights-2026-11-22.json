@@ -2,7 +2,7 @@
   "date": "2026-11-22",
   "weekday": "Sunday",
   "first_seen": "2026-11-22T08:44:41.197630+00:00",
-  "last_updated": "2026-11-22T08:44:41.197630+00:00",
+  "last_updated": "2026-11-22T17:00:46.739993+00:00",
   "insights": [
     {
       "text": "Cross-competitor event: Shift4, Square appeared together in coverage \u2014 \"Why Did StoneX Group (NASDAQ:SNEX) Lose 19.76%, Far More Than Shift4 Payments (NYSE:FOUR), PAR Technology (NYSE:PAR) and Pershing Square (NYSE:PS)? - Kalkine\"",
@@ -49,7 +49,7 @@
       "first_detected": "2026-11-22T08:44:41.197630+00:00"
     },
     {
-      "text": "Sparkfly shows concentrated partnership activity \u2014 5 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
+      "text": "Sparkfly shows concentrated partnership activity \u2014 6 tracked partnership items this cycle. Latest: \"Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Spor\"",
       "sources": [
         {
           "title": "Sparkfly and PlayOn Sports Partner to Unlock Real-Time Attribution and New Customer Acquisition Across the Nation\u2019s Largest High School Sports Ecosystem - Business Wire",
@@ -125,6 +125,39 @@
       ],
       "company": "Block (Square)",
       "first_detected": "2026-11-22T08:44:41.197630+00:00"
+    },
+    {
+      "text": "Cross-competitor event: Fiserv, Square, Toast appeared together in coverage \u2014 \"Fiserv\u2019s Clover joins Toast and Square in selling AI as a time-saver for small businesses - eMarketer\"",
+      "sources": [
+        {
+          "title": "Fiserv\u2019s Clover joins Toast and Square in selling AI as a time-saver for small businesses - eMarketer",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQU1XaGdYdFdpR3JNQ2RqelJLaHJhaUw1RTBISGdSUkZRb1hGcDhfU3JuQ2luYy1MbjdHWXlHSHNDZVdTQmpOcEZfUkszUFFPREVRRlltc3k5UjVXbXNzbWhGVHYtWVdObzNhZnBlSWNvT1JvdVdUbTRtLWpUV1VRM0pfZHB5TnUyLUVpeDZnSkRGR2xPeEZLLXBIcng2bVFoanVCem9oYWo2TDg?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "first_detected": "2026-11-22T17:00:46.739993+00:00"
+    },
+    {
+      "text": "Shift4 shows concentrated financial/market activity \u2014 7 tracked financial/market items this cycle. Latest: \"Q3 earnings roundup: Shift4 and the rest of the payment processing segment - TradingView\"",
+      "sources": [
+        {
+          "title": "Q3 earnings roundup: Shift4 and the rest of the payment processing segment - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxONXVEZ1E1MmoyOXFqaVVaX2RleGh3Mm54bHRranJqaHZFRVZzNzBKcDRhdUJ6OGh1ZHdfc1l2eHFUbl9IOXN1WkJyTTFoNVNCNkZNREVaZ2pkcHBOM01tblhZWDRZdndkcHFoaVc0NjlBd1hVNUgwTmx1Q2FneGgwWEo5Z1FJNm53WS1NQUFDR2xESDRqckJTWUJnTlVKdDhKQzQtcTlMblpWUnRMOWNkUXI2dXNmbG5QU0RJVmpQbVpsejg5V2VtcXpVek5scGc?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Q2 Earnings Roundup: Shift4 (NYSE:FOUR) And The Rest Of The Payment Processing Segment - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYWk5ejl4V0wtUFZ0aXZNS1R0NDI5UnlQR0VjTjB3WGVzMGU3NXp5Mk9NbnR6R0ZwcXJ0QXdoY2U4Q1ZlRVBhNTBicm1PTThZdHZXQ1JVdWlBYUxPWlE4T2FaYkFCY21VWHQ3QWY2a21NS3I3cmszZXdQVlUzSHpGMHA4WndNa1hmMU1Mc2s5NkMtcXVBVEJuN3JVbEk?oc=5",
+          "source": "Google News"
+        },
+        {
+          "title": "Shift4 Payments (FOUR): A Stock Priced for Trouble, a Business Still Compounding Underneath - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVVo1QVNibkV5alI3LWNSQ1pvbFN4ZF93eWo0Q09IX09mNDhDMW44MFpOTUk5eFVzZzR6WnJ3Y0xwN1RxdzVodUVva3RFVGtzQkk1QXNGNm45MjE2cTk4dGw5NjdocHdLaHNvU1BDRmdxSmR4NF9XRW43dnAtcVVTSlVEMjJrMU1BS1JDWmM1QWRZWVRmVTMwVjRabFB3YVk?oc=5",
+          "source": "Google News"
+        }
+      ],
+      "company": "Shift4",
+      "first_detected": "2026-11-22T17:00:46.739993+00:00"
     }
   ],
   "most_mentioned": [
@@ -133,15 +166,19 @@
       "count": 16
     },
     {
-      "company": "SpotOn",
-      "count": 16
+      "company": "Shift4",
+      "count": 15
     },
     {
       "company": "Global Payments",
       "count": 15
     },
     {
-      "company": "DoorDash",
+      "company": "Deliverect",
+      "count": 15
+    },
+    {
+      "company": "SpotOn",
       "count": 15
     },
     {
@@ -149,15 +186,11 @@
       "count": 15
     },
     {
-      "company": "PAR",
+      "company": "Tillster",
       "count": 15
     },
     {
-      "company": "NCR Voyix",
-      "count": 15
-    },
-    {
-      "company": "Deliverect",
+      "company": "TouchBistro",
       "count": 15
     }
   ]
