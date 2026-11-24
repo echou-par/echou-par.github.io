@@ -1,10 +1,23 @@
 {
-  "updated": "2026-11-24T01:01:48.229392+00:00",
-  "total": 5,
+  "updated": "2026-11-24T01:47:20.437245+00:00",
+  "total": 6,
   "by_category": {
+    "analyst_downgrade": 1,
     "stock_move": 5
   },
   "alerts": [
+    {
+      "category": "analyst_downgrade",
+      "severity": "high",
+      "company": "Lightspeed",
+      "headline": "Truist Securities maintains Lightspeed Commerce at Hold, lowers price target to $10 from $11 - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPZWtFS3RDWVBVUjBVSEFUUkJhNGRvaWJWcnFPVlF2a0NvVTJCOHVkdmFsenRXeUdXV1I3VVpVdFFEbWNDWk1saS1vLWZDME5XUlJ2RENEWjVyV0d5dUZHYzZORmNWY3pYeE1HSzZLTzE3QWpHV2tBakZiQWZMQVlIbkFjSnBrZkM1cUhuSEhLNWpsMHFGMi1SQjJld2tyOHA2M0dpREN6VGNNTEZlWGdxSURMc0g1M1V3M0JHQWo1X3IxaDFGRW11bENVUGc2ZlVKNlVxdUJtLTFGeC1XU2FSdk84RmVSZw?oc=5",
+      "source": "Google News",
+      "date": "Fri, 20 Nov 2026 14:31:14 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-11-24T01:47:20.437245+00:00"
+    },
     {
       "category": "stock_move",
       "severity": "medium",
@@ -12,10 +25,10 @@
       "headline": "PAR (PAR) stock down 7.9% over the past week",
       "url": "https://finance.yahoo.com/quote/PAR",
       "source": "Yahoo Finance",
-      "date": "2026-11-24T01:01:48.229392+00:00",
+      "date": "2026-11-24T01:47:20.437245+00:00",
       "par_relevance": 3,
       "note": "-7.9% 1W",
-      "detected_at": "2026-11-24T01:01:48.229392+00:00"
+      "detected_at": "2026-11-24T01:47:20.437245+00:00"
     },
     {
       "category": "stock_move",
@@ -24,10 +37,10 @@
       "headline": "Shift4 (FOUR) stock down 8.1% over the past week",
       "url": "https://finance.yahoo.com/quote/FOUR",
       "source": "Yahoo Finance",
-      "date": "2026-11-24T01:01:48.229392+00:00",
+      "date": "2026-11-24T01:47:20.437245+00:00",
       "par_relevance": 3,
       "note": "-8.1% 1W",
-      "detected_at": "2026-11-24T01:01:48.229392+00:00"
+      "detected_at": "2026-11-24T01:47:20.437245+00:00"
     },
     {
       "category": "stock_move",
@@ -36,10 +49,10 @@
       "headline": "Global Payments (GPN) stock up 7.6% over the past week",
       "url": "https://finance.yahoo.com/quote/GPN",
       "source": "Yahoo Finance",
-      "date": "2026-11-24T01:01:48.229392+00:00",
+      "date": "2026-11-24T01:47:20.437245+00:00",
       "par_relevance": 3,
       "note": "+7.6% 1W",
-      "detected_at": "2026-11-24T01:01:48.229392+00:00"
+      "detected_at": "2026-11-24T01:47:20.437245+00:00"
     },
     {
       "category": "stock_move",
@@ -48,10 +61,10 @@
       "headline": "Fiserv (FISV) stock down 10.3% over the past week",
       "url": "https://finance.yahoo.com/quote/FISV",
       "source": "Yahoo Finance",
-      "date": "2026-11-24T01:01:48.229392+00:00",
+      "date": "2026-11-24T01:47:20.437245+00:00",
       "par_relevance": 3,
       "note": "-10.3% 1W",
-      "detected_at": "2026-11-24T01:01:48.229392+00:00"
+      "detected_at": "2026-11-24T01:47:20.437245+00:00"
     },
     {
       "category": "stock_move",
@@ -60,10 +73,10 @@
       "headline": "DoorDash (DASH) stock down 7.5% over the past week",
       "url": "https://finance.yahoo.com/quote/DASH",
       "source": "Yahoo Finance",
-      "date": "2026-11-24T01:01:48.229392+00:00",
+      "date": "2026-11-24T01:47:20.437245+00:00",
       "par_relevance": 2,
       "note": "-7.5% 1W",
-      "detected_at": "2026-11-24T01:01:48.229392+00:00"
+      "detected_at": "2026-11-24T01:47:20.437245+00:00"
     }
   ]
 }
