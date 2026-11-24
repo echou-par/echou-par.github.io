@@ -1,9 +1,10 @@
 {
-  "updated": "2026-11-24T12:17:00.085244+00:00",
+  "updated": "2026-11-24T22:41:57.997084+00:00",
   "total": 3,
   "by_category": {
     "analyst_downgrade": 1,
-    "stock_move": 2
+    "regulatory": 1,
+    "stock_move": 1
   },
   "alerts": [
     {
@@ -16,31 +17,31 @@
       "date": "Fri, 20 Nov 2026 14:31:14 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-11-24T12:17:00.085244+00:00"
+      "detected_at": "2026-11-24T22:41:57.997084+00:00"
+    },
+    {
+      "category": "regulatory",
+      "severity": "medium",
+      "company": "NCR Voyix",
+      "headline": "Can you join the Wendy's class action lawsuit? Not yet: what the menu price-fixing suit claims - Nacionale",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPY3dTNDFRbWY1U1hoeF9ydmljaFc3UXhpcDJOZy1yRVhaT19oMVEtWWpJNTZ2a25UZUFDeFMtZmxxM3k4OXJwT1Rfd1pCVE5xZ1JTTHA1U21pS0xvdFE2TjBmV1NjU3pSWlhJWm1CaEpNY2pWT3p2b2ZuWVY5NnZwaTh2YVlJdWdjNDlfemJIb2RsTXNvNEVkU2NKLWVUWUlPSFpVd0QxZw?oc=5",
+      "source": "Google News",
+      "date": "Tue, 24 Nov 2026 22:29:16 GMT",
+      "par_relevance": 3,
+      "note": null,
+      "detected_at": "2026-11-24T22:41:57.997084+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
       "company": "Global Payments",
-      "headline": "Global Payments (GPN) stock up 7.2% over the past week",
+      "headline": "Global Payments (GPN) stock up 10.1% over the past week",
       "url": "https://finance.yahoo.com/quote/GPN",
       "source": "Yahoo Finance",
-      "date": "2026-11-24T12:17:00.085244+00:00",
+      "date": "2026-11-24T22:41:57.997084+00:00",
       "par_relevance": 3,
-      "note": "+7.2% 1W",
-      "detected_at": "2026-11-24T12:17:00.085244+00:00"
-    },
-    {
-      "category": "stock_move",
-      "severity": "medium",
-      "company": "Fiserv",
-      "headline": "Fiserv (FISV) stock down 8.5% over the past week",
-      "url": "https://finance.yahoo.com/quote/FISV",
-      "source": "Yahoo Finance",
-      "date": "2026-11-24T12:17:00.085244+00:00",
-      "par_relevance": 3,
-      "note": "-8.5% 1W",
-      "detected_at": "2026-11-24T12:17:00.085244+00:00"
+      "note": "+10.1% 1W",
+      "detected_at": "2026-11-24T22:41:57.997084+00:00"
     }
   ]
 }
