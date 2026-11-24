@@ -1,24 +1,11 @@
 {
-  "updated": "2026-11-24T22:41:57.997084+00:00",
-  "total": 3,
+  "updated": "2026-11-24T23:07:33.752846+00:00",
+  "total": 2,
   "by_category": {
-    "analyst_downgrade": 1,
     "regulatory": 1,
     "stock_move": 1
   },
   "alerts": [
-    {
-      "category": "analyst_downgrade",
-      "severity": "high",
-      "company": "Lightspeed",
-      "headline": "Truist Securities maintains Lightspeed Commerce at Hold, lowers price target to $10 from $11 - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPZWtFS3RDWVBVUjBVSEFUUkJhNGRvaWJWcnFPVlF2a0NvVTJCOHVkdmFsenRXeUdXV1I3VVpVdFFEbWNDWk1saS1vLWZDME5XUlJ2RENEWjVyV0d5dUZHYzZORmNWY3pYeE1HSzZLTzE3QWpHV2tBakZiQWZMQVlIbkFjSnBrZkM1cUhuSEhLNWpsMHFGMi1SQjJld2tyOHA2M0dpREN6VGNNTEZlWGdxSURMc0g1M1V3M0JHQWo1X3IxaDFGRW11bENVUGc2ZlVKNlVxdUJtLTFGeC1XU2FSdk84RmVSZw?oc=5",
-      "source": "Google News",
-      "date": "Fri, 20 Nov 2026 14:31:14 GMT",
-      "par_relevance": 3,
-      "note": null,
-      "detected_at": "2026-11-24T22:41:57.997084+00:00"
-    },
     {
       "category": "regulatory",
       "severity": "medium",
@@ -29,7 +16,7 @@
       "date": "Tue, 24 Nov 2026 22:29:16 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-11-24T22:41:57.997084+00:00"
+      "detected_at": "2026-11-24T23:07:33.752846+00:00"
     },
     {
       "category": "stock_move",
@@ -38,10 +25,10 @@
       "headline": "Global Payments (GPN) stock up 10.1% over the past week",
       "url": "https://finance.yahoo.com/quote/GPN",
       "source": "Yahoo Finance",
-      "date": "2026-11-24T22:41:57.997084+00:00",
+      "date": "2026-11-24T23:07:33.752846+00:00",
       "par_relevance": 3,
       "note": "+10.1% 1W",
-      "detected_at": "2026-11-24T22:41:57.997084+00:00"
+      "detected_at": "2026-11-24T23:07:33.752846+00:00"
     }
   ]
 }
