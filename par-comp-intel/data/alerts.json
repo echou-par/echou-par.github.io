@@ -1,34 +1,46 @@
 {
-  "updated": "2026-11-25T05:19:35.752947+00:00",
-  "total": 2,
+  "updated": "2026-11-25T15:57:21.856662+00:00",
+  "total": 3,
   "by_category": {
-    "analyst_downgrade": 1,
-    "stock_move": 1
+    "stock_move": 2,
+    "regulatory": 1
   },
   "alerts": [
     {
-      "category": "analyst_downgrade",
+      "category": "stock_move",
       "severity": "high",
-      "company": "Lightspeed",
-      "headline": "Truist Securities maintains Lightspeed Commerce at Hold, lowers price target to $10 from $11 - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPZWtFS3RDWVBVUjBVSEFUUkJhNGRvaWJWcnFPVlF2a0NvVTJCOHVkdmFsenRXeUdXV1I3VVpVdFFEbWNDWk1saS1vLWZDME5XUlJ2RENEWjVyV0d5dUZHYzZORmNWY3pYeE1HSzZLTzE3QWpHV2tBakZiQWZMQVlIbkFjSnBrZkM1cUhuSEhLNWpsMHFGMi1SQjJld2tyOHA2M0dpREN6VGNNTEZlWGdxSURMc0g1M1V3M0JHQWo1X3IxaDFGRW11bENVUGc2ZlVKNlVxdUJtLTFGeC1XU2FSdk84RmVSZw?oc=5",
+      "company": "Global Payments",
+      "headline": "Global Payments (GPN) stock up 13.4% over the past week",
+      "url": "https://finance.yahoo.com/quote/GPN",
+      "source": "Yahoo Finance",
+      "date": "2026-11-25T15:57:21.856662+00:00",
+      "par_relevance": 3,
+      "note": "+13.4% 1W",
+      "detected_at": "2026-11-25T15:57:21.856662+00:00"
+    },
+    {
+      "category": "regulatory",
+      "severity": "medium",
+      "company": "NCR Voyix",
+      "headline": "Wendy's, NCR Voyix Face Antitrust Suit Over Franchise Menu Pricing - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tUi1tZGdqMmxOZnFHRGIwdHpGU04yUnl4V3YtSUJabG5CUjJpTk9oM2pqM3JUM0V0TmwzOUdqMG9vRUJrNTRKREllb3J6Nk1wWkRXSTEtc3RHUWNuSkQ0aldnVUVnTklraEdEZFRNQlZ1NU14UlE?oc=5",
       "source": "Google News",
-      "date": "Fri, 20 Nov 2026 14:31:14 GMT",
+      "date": "Wed, 25 Nov 2026 06:35:00 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-11-25T05:19:35.752947+00:00"
+      "detected_at": "2026-11-25T15:57:21.856662+00:00"
     },
     {
       "category": "stock_move",
       "severity": "medium",
-      "company": "Global Payments",
-      "headline": "Global Payments (GPN) stock up 10.1% over the past week",
-      "url": "https://finance.yahoo.com/quote/GPN",
+      "company": "Shift4",
+      "headline": "Shift4 (FOUR) stock up 8.7% over the past week",
+      "url": "https://finance.yahoo.com/quote/FOUR",
       "source": "Yahoo Finance",
-      "date": "2026-11-25T05:19:35.752947+00:00",
+      "date": "2026-11-25T15:57:21.856662+00:00",
       "par_relevance": 3,
-      "note": "+10.1% 1W",
-      "detected_at": "2026-11-25T05:19:35.752947+00:00"
+      "note": "+8.7% 1W",
+      "detected_at": "2026-11-25T15:57:21.856662+00:00"
     }
   ]
 }
