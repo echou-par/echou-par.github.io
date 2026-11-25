@@ -1,22 +1,22 @@
 {
-  "updated": "2026-11-24T23:35:02.275146+00:00",
+  "updated": "2026-11-25T05:19:35.752947+00:00",
   "total": 2,
   "by_category": {
-    "regulatory": 1,
+    "analyst_downgrade": 1,
     "stock_move": 1
   },
   "alerts": [
     {
-      "category": "regulatory",
-      "severity": "medium",
-      "company": "NCR Voyix",
-      "headline": "Can you join the Wendy's class action lawsuit? Not yet: what the menu price-fixing suit claims - Nacionale",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPY3dTNDFRbWY1U1hoeF9ydmljaFc3UXhpcDJOZy1yRVhaT19oMVEtWWpJNTZ2a25UZUFDeFMtZmxxM3k4OXJwT1Rfd1pCVE5xZ1JTTHA1U21pS0xvdFE2TjBmV1NjU3pSWlhJWm1CaEpNY2pWT3p2b2ZuWVY5NnZwaTh2YVlJdWdjNDlfemJIb2RsTXNvNEVkU2NKLWVUWUlPSFpVd0QxZw?oc=5",
+      "category": "analyst_downgrade",
+      "severity": "high",
+      "company": "Lightspeed",
+      "headline": "Truist Securities maintains Lightspeed Commerce at Hold, lowers price target to $10 from $11 - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPZWtFS3RDWVBVUjBVSEFUUkJhNGRvaWJWcnFPVlF2a0NvVTJCOHVkdmFsenRXeUdXV1I3VVpVdFFEbWNDWk1saS1vLWZDME5XUlJ2RENEWjVyV0d5dUZHYzZORmNWY3pYeE1HSzZLTzE3QWpHV2tBakZiQWZMQVlIbkFjSnBrZkM1cUhuSEhLNWpsMHFGMi1SQjJld2tyOHA2M0dpREN6VGNNTEZlWGdxSURMc0g1M1V3M0JHQWo1X3IxaDFGRW11bENVUGc2ZlVKNlVxdUJtLTFGeC1XU2FSdk84RmVSZw?oc=5",
       "source": "Google News",
-      "date": "Tue, 24 Nov 2026 22:29:16 GMT",
+      "date": "Fri, 20 Nov 2026 14:31:14 GMT",
       "par_relevance": 3,
       "note": null,
-      "detected_at": "2026-11-24T23:35:02.275146+00:00"
+      "detected_at": "2026-11-25T05:19:35.752947+00:00"
     },
     {
       "category": "stock_move",
@@ -25,10 +25,10 @@
       "headline": "Global Payments (GPN) stock up 10.1% over the past week",
       "url": "https://finance.yahoo.com/quote/GPN",
       "source": "Yahoo Finance",
-      "date": "2026-11-24T23:35:02.275146+00:00",
+      "date": "2026-11-25T05:19:35.752947+00:00",
       "par_relevance": 3,
       "note": "+10.1% 1W",
-      "detected_at": "2026-11-24T23:35:02.275146+00:00"
+      "detected_at": "2026-11-25T05:19:35.752947+00:00"
     }
   ]
 }
