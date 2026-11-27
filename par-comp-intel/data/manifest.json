@@ -1,14 +1,15 @@
 {
-  "updated": "2026-11-26T23:11:02.607498+00:00",
+  "updated": "2026-11-27T02:05:32.466639+00:00",
   "financials_count": 10,
-  "news_count": 598,
+  "news_count": 318,
   "highlights_count": 10,
-  "alert_count": 6,
+  "alert_count": 7,
   "alerts_by_category": {
+    "analyst_downgrade": 1,
     "stock_move": 4,
     "regulatory": 2
   },
-  "per_competitor_count": 27,
+  "per_competitor_count": 25,
   "public_companies_with_news": 10,
-  "private_companies_with_news": 17
+  "private_companies_with_news": 15
 }
